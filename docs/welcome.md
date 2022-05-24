@@ -11,6 +11,7 @@ Research data management (RDM) concerns the organization, storage, preservation,
 The purpose of these guidelines is to serve as an information resource to researchers regarding research data management. Click on any of the life cycle pages for guidance on good data management practices during the data life cycle, including available infrastructures. There is also overarching guidance, applicable to all data life cycle phases, on e.g. metadata standards and managing sensitive data, available as topics.
 
 ## Data Life Cycle pages
+<!-- We do not (currently) have pages which cover all RDMkit phases, should we? Or, should we have our own cycle definition (and picture) where link to RDMkit Reuse could be in Collect page, and RDMkit Process could be in Analyse page? -->
 * [Plan](/docs/01-plan)
 * [Collect](/docs/02-collect) 
 * [Analyse](/docs/03-analyse)
@@ -24,6 +25,7 @@ The purpose of these guidelines is to serve as an information resource to resear
 * [Metadata](/docs/metadata)
 
 ### Human data pages
+<!-- I imagine that we might want to gather some of these pages into a single one, with subheadings instead? -->
 * [Human data](/docs/sensitive-data)
 * [Human data legal references](/docs/human-data-legal-ref)
 * [Human data (PI)](/docs/human-data-PI.md)

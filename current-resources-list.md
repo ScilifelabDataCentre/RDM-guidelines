@@ -3,9 +3,9 @@
 
 * https://scilifelab.atlassian.net/wiki/spaces/SDMCS/pages/1910669313/Human+data+guidelines
 
-* SLL Data guidelines <https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/index.html
+* SLL Data guidelines <https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/index.html>
 
-* ENA submission tutorial SARS-CoV-2 Tutorial for SARS-CoV-2 genome data submission to ENA <https://covid-portal-dev.dckube.scilifelab.se/support_services/tutorial_ena/tutorial_ena_intro/> 
+* ENA submission tutorial SARS-CoV-2 <https://covid-portal-dev.dckube.scilifelab.se/support_services/tutorial_ena/tutorial_ena_intro/> 
 
 * ? other text from covid-19 portal?
 
@@ -13,7 +13,7 @@
 
 * NBIS DM introduction page Data Management Introduction <https://nbis.se/infrastructure/data-management/dm-introduction.html> 
 
-* NBIS Human data page Working with human data  (including links to PI info, staff info, and processing agreements)<https://nbis.se/support/human-data.html>
+* NBIS Human data page Working with human data  (including links to PI info, staff info, and processing agreements) <https://nbis.se/support/human-data.html>
 
 * Universities guidelines & policies <https://scilifelab.atlassian.net/wiki/spaces/SDMCS/pages/932970513>  (also SND Basecamp, more updated? https://3.basecamp.com/3853863/buckets/5947445/vaults/2397292050) 
 

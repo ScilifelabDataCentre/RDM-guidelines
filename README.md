@@ -19,3 +19,7 @@ Information can be unified and kept up do date by the team and the community if 
 * Create the authoritative set of Research data management (RDM) best practice guidelines for Swedish life science, hosted at data.scilifelab.se (to ensure that unified information is conveyed to all recipients), including information about human data
 
 * A single point of entry web portal/resource for national use and to connect to other efforts, eg. Training, RDMkit
+
+## How to contribute
+* Create a branch of the repository, and work on the pages in this branch
+* When ready, do a pull request and ask for review by a group member (i.e. do not merge the pull request yourself without a second opinion)

@@ -4,7 +4,7 @@
 * The PI shall instruct the NBIS bioinformatician how the data shall be handled. This includes the procedures that the PI has established for handling the personal data in a secure way, and the instructions outlined in any processing agreements.
 * The PI shall inform the NBIS bioinformatician about any limitations of use for the data that might be specified in ethical approvals and/or informed consents.
 * The NBIS bioinformatician **must not** handle the data in any way that goes outside of the instructions and any limitations of use.
-* In the case of a [data breach](./human-data-legal-ref.md#data-breach), accidental or otherwise, this must be **immediatly reported to the PI**.
+* In the case of a [data breach](/docs/topic/human-data-legal-ref.md#data-breach), accidental or otherwise, this must be **immediatly reported to the PI**.
 * Findings outside the scope of the study (secondary findings) should never be looked for by the NBIS bioinformatician, and should always be reported to the PI if accidentally found.
 * The default mode of operation is that large-scale sensitive personal data should be analysed at the national computer cluster specifically dedicated to sensitive personal data, [Bianca](http://www.uppmax.uu.se/support/user-guides/bianca-user-guide/).
 * If an NBIS bioinformatician plans to analyse sensitive personal data elsewhere, they must get the approval from the PI to process the personal data outside Bianca. Please also consult with the NBIS data manager (<data@nbis.se>). 
@@ -12,7 +12,7 @@
   *Note that working with sensitive data outside of Bianca is highly discouraged, and needs a documented motivation!*
 
 ## General processing agreements
-NBIS is working on establishing general processing agreements with other Swedish universities. A [list of established agreements](./general-processing-agreements.md) is available.
+NBIS is working on establishing general processing agreements with other Swedish universities. A [list of established agreements](/docs/topic/general-processing-agreements.md) is available.
 
 The instructional content of these agreements is listed here (*translated from the Swedish text in the agreements*).
 

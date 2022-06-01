@@ -1,6 +1,6 @@
 # Sharing
 
-In the era of [FAIR](./fair-principles.md) (Findable, Accessible, Interoperable and Reusable) and [Open science](https://www.vr.se/english/mandates/open-science/open-access-to-research-data.html), datasets should be made available to the public. Whenever possible, domain-specific repositories should be used in order to increase the FAIRness of your research outputs.
+In the era of [FAIR](/docs/topic/fair-principles.md) (Findable, Accessible, Interoperable and Reusable) and [Open science](https://www.vr.se/english/mandates/open-science/open-access-to-research-data.html), datasets should be made available to the public. Whenever possible, domain-specific repositories should be used in order to increase the FAIRness of your research outputs.
 
 <!-- Put the text below into selectable/expandable sections -->
 ### Genomics data
@@ -31,6 +31,7 @@ Depending on the type of image data you have, different public repositories are 
 
 ### Other repositories
 For other domain-specific repositories, see e.g. [ELIXIR Deposition databases](https://elixir-europe.org/services/tag/elixir-deposition-databases), [Scientific Data recommended repositories](https://www.nature.com/sdata/policies/repositories), [EBI archive wizard](https://www.ebi.ac.uk/submission/) (help to find the right repository depending on data type), or [FAIRsharing](https://fairsharing.org/databases/) (the latter can also assist in finding metadata standards suitable for describing your datasets). For datasets that do not fit into domain-specific repositories, use a general repository e.g. [SciLifeLab Data Repository](https://www.scilifelab.se/community-pages/systems-data/repository/)), [Figshare](https://figshare.com/) and [Zenodo](https://zenodo.org/).
+<!-- end of expandable section -->
 
 ## Resources
 * [RDMkit on Sharing Data](https://rdmkit.elixir-europe.org/sharing)

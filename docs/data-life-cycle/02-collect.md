@@ -1,6 +1,6 @@
 # Collecting
 <!-- About/intro to the phase -->
-<!-- refer to metadata standard page ./metadata.md -->
+<!-- refer to metadata standard page /docs/topic/metadata.md -->
 
 ## Reuse
 <!-- could be part of the intro; link to the same as is part of VR KM reuse eg data cite -->
@@ -31,6 +31,7 @@ Facilities which offer data generation services:
 ### Proteomics
 * [BioMS](https://bioms.se/) Swedish National Infrastructure for Biological Mass Spectrometry national infrastructure enables cutting-edge mass spectrometry and related advanced technology platforms to be part of your research projects.
 * [Chemical proteomics & proteogenomics](https://www.scilifelab.se/facilities/chemical-proteomics-proteogenomics) national facility offers state-of-the art mass spectrometry (MS)-based proteomics support, including experimental planning, MS analysis and data analysis related to proteogenomics and chemical proteomics.
+<!-- end of expandable section -->
 
 ## Storage
 The PI, and his/her academic institution are ultimately responsible for the data, and ensuring that all data is backed-up is essential. The 3-2-1 rule of thumb means that there should be 3 copies of the data, on 2 different types of media, and 1 of the copies at different physical location. This means that even if all of the projects research inputs and outputs are located at an analysis resource that has backup, a (third) copy of the data should be maintained.
@@ -40,6 +41,14 @@ For example, Uppmax systems have a 30-day incremental backup, and it has happene
 At least essential data, such as raw data and other data that may be difficult or even impossible to recreate in case of corruption or loss, should be copied off-site (using e.g. [Swestore](http://www.snic.se/resources/swestore/) or storage provided by the institute). 
 
 Consider uploading the raw data to a repository already when receiving them, under an embargo (if that is important to you). This way you always have an off-site backup with the added benefit of making the data sharing phase more efficient.
+
+<!-- ## Transfer data
+should include a section about data transfer, with links to Uppmax user guides eg Grus, Bianca deliver guide, etc. 
+* [Grus user guide for delivery of data from NGI](https://www.uppmax.uu.se/support/user-guides/grus-user-guide/)
+* [Basic SFTP commands for transferring files](https://uppmax.uu.se/support-sv/user-guides/basic-sftp-commands/)
+* [SNIC-SENS Bianca Deliver user guide for NGI data](https://www.uppmax.uu.se/support/user-guides/deliver-user-guide/)
+* [Transit user guide - secure data transfer of sensitive data](https://uppmax.uu.se/support-sv/user-guides/transit-user-guide/)
+* [RDMkit: About data transfer](https://rdmkit.elixir-europe.org/data_transfer.html)-->
 
 ## Resources
 * [RDMkit on Collecting Data](https://rdmkit.elixir-europe.org/collecting)

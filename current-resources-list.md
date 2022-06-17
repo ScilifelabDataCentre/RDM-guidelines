@@ -22,3 +22,9 @@
 * YouTube playlist https://www.youtube.com/playlist?list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS
 
 * DSW appendix <https://github.com/ScilifelabDataCentre/dsw-appendix>
+
+* SciLifeLab Data Repository guidelines <https://www.scilifelab.se/data/repository/submission/>
+
+* SLL Human data page <https://www.scilifelab.se/data/humandata/>
+
+* SLL GDPR for Life Science data <https://www.scilifelab.se/data/gdpr-for-life-science-data>

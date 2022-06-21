@@ -90,12 +90,18 @@ brew install hugo
 
 For Windows users (additional instructions can be found [here](https://gohugo.io/getting-started/installing/#windows)):
 
-1.Open Windows Explorer.
+1. Open Windows Explorer.
+
 2. Create a new folder: C:\Hugo, assuming you want Hugo on your C drive, although this can go anywhere
+
 3. Create a subfolder in the Hugo folder: `C:\Hugo\bin`
+
 4. Go to the [Hugo Releases](https://github.com/gohugoio/hugo/releases) page. The latest release is announced on top. Scroll to the bottom of the release announcement to see the downloads. They’re all ZIP files. Find the Windows files near the bottom (they’re in alphabetical order, so Windows is last) – download either the 32-bit or 64-bit file depending on whether you have 32-bit or 64-bit Windows. (If you don’t know, see [here](https://esupport.trendmicro.com/en-us/home/pages/technical-support/1038680.aspx).)
+
 5. Move the ZIP file into your `C:\Hugo\bin` folder.
+
 6. Double-click on the ZIP file and extract its contents. Be sure to extract the contents into the same `C:\Hugo\bin` folder – Windows will do this by default unless you tell it to extract somewhere else.
+
 7. In PowerShell or your preferred CLI, add the hugo.exe executable to your PATH by navigating to `C:\Hugo\bin` (or the location of your hugo.exe file) and use the command `set PATH=%PATH%;C:\Hugo\bin`. If the hugo command does not work after a reboot, you may have to run the command prompt as administrator.
 
 Once Hugo is installed, simply run the following command in the repository root (RDM-guidelines) directory:

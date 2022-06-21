@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+{{ .Content }}
+
+<div class="container">
+  <form action="https://forms.dckube.scilifelab.se/api/v1/form/SBHJi6wO1oUz7ulb/incoming" method="POST" accept-charset="utf-8">
+  <div class="row mb-3 mt-2">
+    <label for="name" class="col-sm-2 col-form-label fw-bold">Your name:</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="name" name="name">
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label for="email" class="col-sm-2 col-form-label fw-bold">Your email:</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="email" name="email">
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label for="message" class="col-sm-2 col-form-label fw-bold">Message:</label>
+    <div class="col-sm-10">
+      <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+    </div>
+  </div>
+  <div class="g-recaptcha" data-sitekey="6LdPd50fAAAAAJ_dVMXFJjzOTh7XZeAI-ej82GPv"></div>
+  <input type="url" id="originUrl" name="originUrl" value="" hidden />
+  <input type='hidden' name='origin' value='general_contact'>
+  <button type="submit" class="btn btn-aqua mt-2">Send</button>
+</form>
+</div>
+
+{{ end }}

@@ -1,0 +1,17 @@
+<div class="row row-cols-2 row-cols-lg-4 g-2 g-lg-3">
+  {{ range .Scratch.Get "highlights_list" }}
+  <div class="col">
+    <div class="border rounded h-100">
+      <div class="border-bottom">
+        <img class="img-fluid rounded-top" src="{{ .Params.banner }}">
+      </div>
+      <div class="mt-1 px-2 text-muted">
+        {{ .Date | time.Format ":date_long" }}
+      </div>
+      <div class="px-2 mb-2">
+        <b><a href="{{ .Page.RelPermalink }}">{{ .Title }}</a></b>
+      </div>
+    </div>
+  </div>
+  {{ end }}
+</div>

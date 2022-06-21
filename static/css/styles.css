@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap'); */
+
+/* Brand colors
+  use 1, 0.75, 0.50, or 0.25
+  color: rgba(167, 201, 71, 1);  lime
+  color: rgba(73, 31, 83, 1);  grape, use as "color pop" or on smaller details
+  color: rgba(4, 92, 100, 1);  teal
+  color: rgba(76, 151, 159, 1); aqua
+
+  grape tints:
+  grape: #491F53, RGB: 73/31/83
+  75%: #77577E, RGB:119/87/126
+  50%: #A48FA9, RGB: 164/143/169
+  25%: #D2C7D4, RGB: 210/199/212
+
+  shades of black between 5-90% used as complementary colors
+  color: rgba(229, 229, 229, 1); light grey
+  color: rgba(166,166,166, 1); medium grey
+  color: rgba(63,63,63,1); dark grey
+*/
+
+body {
+    font-family: 'Lato', Times, Arial;
+}
+
+blockquote {
+    border-left: 5px solid rgba(46, 104, 165, 0.3);
+    padding-left: 1rem;
+    margin-left: 1rem;
+    color: #666;
+}
+
+a {
+    color: #4C979F;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #4C979F;
+    text-decoration: underline;
+}
+
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover {
+  text-decoration: none;
+  color: #045C64;
+}
+
+.header {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1.5rem 0;
+    color: #E5E5E5;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.navbar-nav.navbar-top li:not(:first-child) a {
+    padding-left: 0rem;
+}
+.navbar-nav.navbar-top li:not(:last-child) a span {
+    border-right: 1px solid #ccc;
+    padding-right: 1rem;
+}
+.nav-languages a img {
+    width: 1rem;
+    opacity: 0.5;
+    margin-left: 0.1rem;
+    margin-bottom: 0.1rem;
+}
+.nav-languages a:hover img,
+.nav-languages a:focus img,
+.nav-languages a:active img {
+    opacity: 1;
+}
+
+@media all and (min-width: 992px) {
+    .mobile-navbar {
+        display: none;
+    }
+}
+
+.btn-aqua {
+    color: #fff;
+    background-color: #4C979F;
+}
+
+.btn-aqua:hover {
+    color: #3F3F3F;
+}
+
+/* logo */
+
+.navbar-light .navbar-brand {
+    color: #79B1B7;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #4C979F;
+    text-decoration: none;
+}
+
+.navbar-light .navbar-tagline {
+}
+
+/* Nav links */
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #3F3F3F;
+    text-decoration: none;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:active, {
+    text-decoration: none;
+}
+
+/* Main menu */
+.navbar-light .navbar-nav .nav-main-menu {
+    color: #4C979F;
+}
+
+.navbar-light .navbar-nav .nav-main-menu:hover,
+.navbar-light .navbar-nav .nav-main-menu:focus,
+.navbar-light .navbar-nav .nav-main-menu:active,
+.navbar-light .navbar-nav .nav-main-menu.active {
+    color: #045C64;
+    text-decoration: none;
+}
+
+/* Background colors */
+
+.bg-light-gray {
+  background-color: #E5E5E5;
+}
+
+.bg-medium-gray {
+  background-color: #A6A6A6;
+}
+
+.bg-dark-gray {
+  background-color: #3F3F3F;
+}
+
+/* Homepage */
+
+.cont-links a {
+  color: #491F53;
+}
+
+.cont-links a:hover,
+.cont-links a:focus,
+.cont-links a:active {
+    color: #491F53;
+    text-decoration: underline;
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+#dwbuttons .collapsed {
+background-color: white !important;
+color: #5a626a !important;
+}

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+    {{- partial "head.html" . -}}
+    <body>
+        {{- partial "navbar.html" . -}}
+        {{- partial "header.html" . -}}
+        {{- block "header" . }}{{- end }}
+        <main>
+          {{ if .IsHome }}
+          <section style="background-image: url('/img/illustrations/circle_zoomed.png'); color: white; ">
+            <div class="container" >
+              <div class="row p-4">
+              <div class="col-md-8">
+                {{ .Content }}
+              </div>
+              <div class="col-md-4">
+
+              </div>
+            </div>
+          </div>
+          </section>
+          {{ end }}
+          <div class="container" id="content">
+                  {{ if .Params.toc }}
+                          <div class="row">
+                              <div class="col-md-3 order-md-first toc small">{{- partial "toc.html" . -}}</div>
+                              <div class="col-md-9 order-md-last content" id="content">{{- block "main" . }}{{- end }}</div>
+                          </div>
+                  {{ else }}
+                          {{- block "main" . }}{{- end }}
+                  {{ end }}
+          </div>
+        </main>
+        {{- partial "footer.html" . -}}
+    </body>
+</html>

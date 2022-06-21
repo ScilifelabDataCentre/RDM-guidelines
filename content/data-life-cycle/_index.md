@@ -14,8 +14,8 @@ menu:
 
 * [Plan](/data-life-cycle/01-plan)
 * [Collect](/data-life-cycle/02-collect) 
-* [Analyse](/data-life-cycle/03-analyse)
-* Process
+* [Process](/data-life-cycle/03-process)
+* [Analyse](/data-life-cycle/04-analyse)
 * [Preserve](/data-life-cycle/05-preserve)
 * [Share](/data-life-cycle/06-share)
-* Reuse
+* [Reuse](/data-life-cycle/07-reuse)

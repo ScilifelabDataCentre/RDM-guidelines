@@ -22,5 +22,5 @@ Also, some resources have specific application periods and thus needs to be cont
 * [RDMkit on Data Management Planning](https://rdmkit.elixir-europe.org/planning)
 
 ## Training
-* [DMP module](https://nbisweden.github.io/module-dmp-dm-practices/) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/58273)<!-- this link will be renewed twice a year, could we use another one? -->
+* [DMP module](https://nbisweden.github.io/module-dmp-dm-practices/) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)
 * [DS Wizard - A short introduction](https://www.youtube.com/watch?v=HY2DVnNGkAs) (YouTube video)

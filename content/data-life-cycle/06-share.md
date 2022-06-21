@@ -62,5 +62,5 @@ For other domain-specific repositories, see e.g. [ELIXIR Deposition databases](h
 * [RDMkit on Sharing Data](https://rdmkit.elixir-europe.org/sharing)
 
 ## Training
-* [Data publication module](https://nbisweden.github.io/module-data-publication-dm-practices/)
+* [Data publication module](https://nbisweden.github.io/module-data-publication-dm-practices/) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)
 * Many of the repositories at EBI have instructive videos on how to do submission as well as documentation.

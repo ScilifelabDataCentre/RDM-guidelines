@@ -12,10 +12,10 @@ menu:
 <!--- insert some explaining 'About' text -->
 <!--- fix image ![data-life-cycle](/img/data-life-cycle.png) -->
 
-* [Plan](/data-life-cycle/01-plan)
-* [Collect](/data-life-cycle/02-collect) 
-* [Process](/data-life-cycle/03-process)
-* [Analyse](/data-life-cycle/04-analyse)
-* [Preserve](/data-life-cycle/05-preserve)
-* [Share](/data-life-cycle/06-share)
-* [Reuse](/data-life-cycle/07-reuse)
+* [Plan](/data-life-cycle/plan)
+* [Collect](/data-life-cycle/collect) 
+* [Process](/data-life-cycle/process)
+* [Analyse](/data-life-cycle/analyse)
+* [Preserve](/data-life-cycle/preserve)
+* [Share](/data-life-cycle/share)
+* [Reuse](/data-life-cycle/reuse)

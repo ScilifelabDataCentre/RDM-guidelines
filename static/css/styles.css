@@ -184,3 +184,22 @@ clear: both;
     color: white !important;
     border-color: #4C979F !important;
 }
+
+// RDM wheel frontpage
+
+.ratio.main_rdm {
+    padding-bottom: 100%;
+}
+
+@media (min-width: 576px) {
+    .ratio.main_rdm {
+        padding-bottom: 70%;
+    }
+}
+
+@media (min-width: 768px) {
+    .ratio.main_rdm {
+        padding-bottom: 35%;
+    }
+}
+

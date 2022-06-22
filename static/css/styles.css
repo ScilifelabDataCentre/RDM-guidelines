@@ -173,7 +173,14 @@ display: table;
 clear: both;
 }
 
-#dwbuttons .collapsed {
-background-color: white !important;
-color: #5a626a !important;
+.btn-primary.collapsed {
+    background-color: #4C979F !important;
+    color: white !important;
+    border-color:#4C979F;
+}
+
+.btn-primary:not(.collapsed) {
+    background-color: #4C979F !important;
+    color: white !important;
+    border-color: #4C979F !important;
 }

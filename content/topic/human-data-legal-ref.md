@@ -118,6 +118,3 @@ Exercise of official authority or task in the public interest: The data controll
 
 ## Further questions
 If you have further questions regarding sensitive personal data, you are welcome to contact the NBIS data manager (<data@nbis.se>).
-
-## Further questions
-If you have further questions regarding personal data, you are welcome to contact the NBIS data manager (<data@nbis.se>).

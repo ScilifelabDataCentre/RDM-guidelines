@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light" aria-label="navbar">
+  <div class="container">
+    <div class="d-flex flex-column">
+      <div class="p-0"><a href="/"><img src="/img/logos/sll_rdm.png"></a></div>
+      <!-- <div class="p-0"><a class="navbar-brand fs-3 fw-bold" href="/">SciLifeLab RDM guidelines</a></div>-->
+      <div class="mt-2 p-0">Knowledge hub for research data management in life science research</div>
+    </div>
+    <button class="navbar-toggler my-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMobile"
+      aria-controls="navbarMobile" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="d-flex align-items-end flex-column collapse navbar-collapse borders">
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav navbar-top">
+          {{ range .Site.Menus.navbar_top }}
+          <li class="nav-item"><a class="nav-link" href="{{ .Page.RelPermalink }}">{{ .Name }}</a></li>
+          {{ end }}
+
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mb-2 mb-lg-0 fs-6">
+          {{ $current_page := .RelPermalink }}
+          {{ range .Site.Menus.navbar }}
+          <li class="nav-item">
+            <a class="nav-link nav-main-menu {{ if eq .Page.RelPermalink $current_page }}active{{ end }}"
+              aria-current="page" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+    <!-- Expandable mobile navbar -->
+    <div class="collapse mobile-navbar" id="navbarMobile">
+      <ul class="navbar-nav mb-2 mb-lg-0 fs-6">
+        {{ range .Site.Menus.navbar }}
+        <li class="nav-item">
+          <a class="nav-link nav-main-menu {{ if eq .Page.RelPermalink $current_page }}active{{ end }}"
+            aria-current="page" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</nav>

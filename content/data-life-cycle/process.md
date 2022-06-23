@@ -12,5 +12,5 @@ toc: True
 
 <!-- About text -->
 
-### Resources
+### Resources & Training
 * [RDMkit on Processing Data](https://rdmkit.elixir-europe.org/processing)

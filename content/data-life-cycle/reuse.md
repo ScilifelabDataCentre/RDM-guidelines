@@ -12,5 +12,5 @@ toc: True
 <!-- link to the same as is part of VR KM reuse eg data cite -->
 <!-- About text -->
 
-### Resources
+### Resources & Training
 * [RDMkit on Reusing Data](https://rdmkit.elixir-europe.org/reusing)

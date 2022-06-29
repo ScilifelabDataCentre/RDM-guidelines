@@ -1,0 +1,30 @@
+baseURL: "http://example.org/"
+languageCode: "en-us"
+title: "SciLifeLab Research Data Management Guidelines"
+params:
+  title: "SciLifeLab Research Data Management Guidelines"
+  description: "SciLifeLab Research Data Management Guidelines - knowledge hub for life science research data management in Sweden"
+  images:
+    - https://data.scilifelab.se/img/logos/scilifelab-logo.svg
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: tags
+  author: authors
+
+permalinks:
+  tags: "/highlights/tags/:slug/"
+  authors: "/highlights/authors/:slug/"
+
+related:
+  includeNewer: false
+  indices:
+  - name: tags
+    weight: 100
+  threshold: 80
+  toLower: false
+ 

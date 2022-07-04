@@ -10,7 +10,7 @@ toc: True
 
 ## Collecting
 <!-- About/intro to the phase -->
-<!-- refer to metadata standard page /topic/topic/metadata.md -->
+<!-- refer to metadata standard page /topic/metadata.md -->
 
 Click on the data type buttons below to see which facilities who offer data generation services:
 <p>

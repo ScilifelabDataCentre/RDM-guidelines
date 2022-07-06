@@ -22,7 +22,7 @@ Pipelines: <!-- should this be removed since not DM? -->
 Facilities offering computational resources:
 * [SNIC](https://www.snic.se/) (Swedish National Infrastructure for Computing) national research infrastructure makes available large scale high performance computing resources. [Apply](https://www.snic.se/allocations/compute/) for Small, Medium, Large or Sensitive data allocation, depending on size and type of project.
 
-### Resources & Training
+## Resources & Training
 * [RDMkit on Analysing Data](https://rdmkit.elixir-europe.org/analysing)
 * [OpenRefine module](https://nbisweden.github.io/module-openrefine-dm-practices/)
 * [R module](https://nbisweden.github.io/module-r-intro-dm-practices/)

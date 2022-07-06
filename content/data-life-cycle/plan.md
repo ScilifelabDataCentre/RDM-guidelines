@@ -18,7 +18,7 @@ It is wise to write a data management plan (DMP), using either a tool provided b
 Also, some resources have specific application periods and thus needs to be contacted well in advance. If your project includes sensitive (human) data, note that there are ethical and legal issues that you have to consider, such as apply for an ethics approval, establish necessary agreements and report the data processing to your [Data Protection Officer](/topic/data-protection-officer.md). See the page on [Sensitive data](/topic/sensitive-data.md) for more information.
 
 
-### Resources & Training
+## Resources & Training
 * [RDMkit on Data Management Planning](https://rdmkit.elixir-europe.org/planning)
 * [DMP module](https://nbisweden.github.io/module-dmp-dm-practices/) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)
 * [DS Wizard - A short introduction](https://www.youtube.com/watch?v=HY2DVnNGkAs) (YouTube video)

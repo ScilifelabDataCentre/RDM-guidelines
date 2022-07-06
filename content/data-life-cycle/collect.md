@@ -103,7 +103,7 @@ should include a section about data transfer, with links to Uppmax user guides e
 * [Transit user guide - secure data transfer of sensitive data](https://uppmax.uu.se/support-sv/user-guides/transit-user-guide/)
 -->
 
-### Resources & Training
+## Resources & Training
 * [RDMkit on Collecting Data](https://rdmkit.elixir-europe.org/collecting)
 * [RDMkit on Data transfer](https://rdmkit.elixir-europe.org/data_transfer.html)
 * [Data organisation module](https://nbisweden.github.io/module-organising-data-dm-practices/) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)

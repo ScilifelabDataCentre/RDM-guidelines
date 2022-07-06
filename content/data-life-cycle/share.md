@@ -89,7 +89,7 @@ In the era of [FAIR](/topic/fair-principles.md) (Findable, Accessible, Interoper
   </div>
 </div>
 
-### Resources & Training
+## Resources & Training
 * [RDMkit on Sharing Data](https://rdmkit.elixir-europe.org/sharing)
 * [Data publication module](https://nbisweden.github.io/module-data-publication-dm-practices/) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)
 * Many of the repositories at EBI have instructive videos on how to do submission as well as documentation, have a look at their [YouTube playlist](https://www.youtube.com/playlist?list=PL67E0627174F36FCF).

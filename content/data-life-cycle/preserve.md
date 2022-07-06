@@ -15,5 +15,5 @@ After the project is finished, the data needs to be stored in a backed-up fashio
 
 [SNIC](https://www.snic.se/allocations/storage/) offers storage for small and medium-sized datasets. In the future also large-sized storage will be offered.
 
-### Resources & Training
+## Resources & Training
 * [RDMkit on Preserving Data](https://rdmkit.elixir-europe.org/preserving)

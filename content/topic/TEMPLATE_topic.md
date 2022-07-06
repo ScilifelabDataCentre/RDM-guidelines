@@ -11,5 +11,5 @@ toc: True
 # <!-- Title -->
 
 
-<!-- ### Resources & Training
+<!-- ## Resources & Training
 * -->

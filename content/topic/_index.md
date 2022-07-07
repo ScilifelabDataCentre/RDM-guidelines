@@ -11,6 +11,7 @@ menu:
 <!--- insert some 'About' text -->
 * [FAIR principles](/topic/fair-principles)
 * Human data <!-- [Human data](/topic/human-data) -->
+  * [Data Protection officer](/topic/data-protection-officer)
 * [Metadata](/topic/metadata)
 * [Policies](/topic/policies)
 * [Research Data Office](/topic/research-data-office)

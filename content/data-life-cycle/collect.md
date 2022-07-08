@@ -114,6 +114,7 @@ Please find below some useful links from the SNIC compute resource Uppmax regard
 
 ## Resources & Training
 * [RDMkit on Collecting Data](https://rdmkit.elixir-europe.org/collecting)
+* [RDMkit on Data quality](https://rdmkit.elixir-europe.org/data_quality)
 * [RDMkit on Data transfer](https://rdmkit.elixir-europe.org/data_transfer.html)
 * [Data organisation module](https://nbisweden.github.io/module-organising-data-dm-practices/) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)
 

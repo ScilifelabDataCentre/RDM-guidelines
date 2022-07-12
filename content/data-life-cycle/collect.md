@@ -14,7 +14,7 @@ During this phase all necessary data to be analysed in the project is collected,
 
 ## Documentation
 Data documentation should clearly describe how the data was collected, so that someone else can understand and correctly interpret the data. Make use of electronic lab notebooks (often offered by the university / institute) and [metadata standards](/topic/metadata), and name and organise the files produced appropriately.
- 
+
 ## Data producers
 Click on the data type buttons below to see SciLifeLab units who offer data generation services:
 <p>
@@ -68,7 +68,7 @@ Click on the data type buttons below to see SciLifeLab units who offer data gene
 <div class="collapse" id="collapseExample3">
   <div class="card card-body">
   <span>
-    <p>Please find below a selection of <a href="https://www.scilifelab.se/services/infrastructure?metabolomics">SciLifeLab Metabolomics services</a>:
+    <p>Please find below a selection of <a href="https://www.scilifelab.se/services/infrastructure?metabolomics=&service=metabolomics">SciLifeLab Metabolomics services</a>:
   <ul>
     <li> <a href="http://www.swedishmetabolomicscentre.se/">Swedish Metabolomics Centre</a> (SMC) specializes in analyzing metabolites and lipids with mass spectrometry based methods.</li>
     <li> <a href="https://www.scilifelab.se/units/swedish-nmr-centre/">Swedish NMR Centre</a> provides access to state-of-the-art NMR instrumentation and methodology.</li>
@@ -85,9 +85,9 @@ Click on the data type buttons below to see SciLifeLab units who offer data gene
 <div class="collapse" id="collapseExample4">
   <div class="card card-body">
   <span>
-    <p>Please find below a selection of <a href="https://www.scilifelab.se/services/infrastructure?proteomics">SciLifeLab Proteomics services</a>:
+    <p>Please find below a selection of <a href="https://www.scilifelab.se/services/infrastructure?proteomics=&service=proteomics">SciLifeLab Proteomics services</a>:
   <ul>
-    <li> <a href="">Global Proteomics and Proteogenomics</a> offers proteomics information combined with sample specific genomic and transcriptomics information.</li>
+    <li> <a href="https://www.scilifelab.se/units/global-proteomics-and-proteogenomics/">Global Proteomics and Proteogenomics</a> offers proteomics information combined with sample specific genomic and transcriptomics information.</li>
     <li> <a href="https://www.scilifelab.se/units/chemical-proteomics/">Chemical proteomics</a> is a national unit expert on supporting drug discovery and development by proteome-wide deconvolution of targets and action mechanisms of small molecules.</li>
   </ul>
   <p>Also available is <a href="https://bioms.se/">Biological Mass Spectrometry</a> (BioMS) national infrastructure, which enables cutting-edge mass spectrometry and related advanced technology platforms.</p>
@@ -98,7 +98,7 @@ Click on the data type buttons below to see SciLifeLab units who offer data gene
 ## Storage
 The PI, and his/her academic institution are ultimately responsible for the data, and ensuring that all data is backed-up is essential. The 3-2-1 rule of thumb means that there should be 3 copies of the data, on 2 different types of media, and 1 of the copies at different physical location. This means that even if all the projects research inputs and outputs are located at a backed-up resource, a (third) copy of the data should be maintained.
 
-At least essential data, such as raw data and other data that may be difficult or even impossible to recreate in case of corruption or loss, should be copied off-site (using e.g. [Swestore](http://www.snic.se/resources/swestore/) or storage provided by the institute). 
+At least essential data, such as raw data and other data that may be difficult or even impossible to recreate in case of corruption or loss, should be copied off-site (using e.g. [Swestore](http://www.snic.se/resources/swestore/) or storage provided by the institute).
 
 Consider uploading the raw data to a repository already when receiving them, under an embargo (if it is important that the data remains private during the project). This way there is always an off-site backup with the added benefit of making the [data sharing](/data-life-cycle/share) phase more efficient.
 
@@ -117,4 +117,3 @@ Please find below some useful links from the SNIC compute resource Uppmax regard
 * [RDMkit on Data quality](https://rdmkit.elixir-europe.org/data_quality)
 * [RDMkit on Data transfer](https://rdmkit.elixir-europe.org/data_transfer.html)
 * [Data organisation module](https://nbisweden.github.io/module-organising-data-dm-practices/) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)
-

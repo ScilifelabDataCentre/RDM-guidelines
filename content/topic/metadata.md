@@ -23,7 +23,7 @@ Below are ontology resources, adapted from Table 2 in *Griffin PC, Khadake J, Le
 
 * [Ontology Lookup Service](https://www.ebi.ac.uk/ols/) - Discover different ontologies and their contents.
 * [OBO Foundry](https://obofoundry.org/) - Table of open biomedical ontologies with information on development status, license and content.
-* [Zooma](https://www.ebi.ac.uk/spot/zooma/) - Assign ontology terms using curated mapping.
+* [ZOOMA](https://www.ebi.ac.uk/spot/zooma/) - Assign ontology terms using curated mapping.
 * [Ontobee](https://www.ontobee.org) - A linked data server that facilitates ontology data sharing, visualization, and use.
 
 ## Data and metadata standards 

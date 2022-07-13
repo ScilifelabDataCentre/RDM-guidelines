@@ -10,7 +10,7 @@ toc: True
 
 ## Research Data Office (RDO)
 
-Some of the universities have established RDO or Data Access Unit (DAU), in order to help with data management questions. Also, the libraries can most often give advice or redirect to local instances. 
+Some of the universities have established an RDO or Data Access Unit (DAU), in order to help with data management questions. Also, the libraries can most often give advice or redirect to local instances. 
 
 List of universities with RDOs, including links to local online resources and contact information:
 

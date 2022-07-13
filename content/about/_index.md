@@ -16,11 +16,11 @@ toc: True
 
 [SciLifeLab](https://scilifelab.se/) is committed to the principles of [FAIR](/topic/fair-principles) (Findable, Accessible, Interoperable and Reusable) research data, i.e. that data should be easily accessed, understood, exchanged and reused. We work actively to ensure that the investments done by the society in research infrastructure resources can achieve the highest possible impact.
 
-The guidelines adhere to the values of [Open Science](https://ec.europa.eu/info/research-and-innovation/strategy/strategy-2020-2024/our-digital-future/open-science_en) and [Transparent research](https://www.ucl.ac.uk/research/strategy-and-policy/research-transparency), as well as good data management practices throughout the data lifecycle.
+The guidelines adhere to the values of [Open Science](https://ec.europa.eu/info/research-and-innovation/strategy/strategy-2020-2024/our-digital-future/open-science_en) and [Transparent research](https://www.ucl.ac.uk/research/strategy-and-policy/research-transparency), as well as good data management practices throughout the data life cycle.
 
 The SciLifeLab RDM guidelines was built and is maintained by the [SciLifeLab Data Centre](https://scilifelab.se/data) and [NBIS](https://nbis.se). We welcome any questions on any element of the platform. Please get in touch with us by emailing [data-management@scilifelab.se](mailto:data-management@scilifelab.se) or by sending us a message using our [contact form](/contact/).
 
-The content of the website is moderated by the team behind the SciLifeLab RDM guidelines. However, contributions are welcome in each of the sections. For example, you can suggest [a new topic](/topic/) or an update to current [data life cycle](/data-life-cycle] or [topic](/topic/) pages.
+The content of the website is moderated by the team behind the SciLifeLab RDM guidelines. However, contributions are welcome in each of the sections. For example, you can suggest [a new topic](/topic/) or an update to current [data life cycle](/data-life-cycle) or [topic](/topic/) pages.
 
 <a href="/contact/"><b>Contact form for enquiries and contributions <i class="bi bi-arrow-right-square-fill"></i></b></a>
 

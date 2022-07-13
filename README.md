@@ -22,6 +22,8 @@ Information can be unified and kept up do date by the team and the community if 
 
 ## How to contribute
 
+For internal / editorial contribution process, please see [internal contribution page](https://github.com/ScilifelabDataCentre/RDM-guidelines/blob/main/internal-contribution.md).
+
 ### Step 1: Access the code
 
 The code is hosted on [GitHub](http://github.com/), so you'll need an account.

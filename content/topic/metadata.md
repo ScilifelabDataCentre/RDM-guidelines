@@ -13,6 +13,11 @@ Good documentation in research projects, describing how the datasets were create
 
 Researchers are strongly encouraged to use community metadata standards where these are in place (see further down). Data repositories may also provide guidance about appropriate metadata standards and requirements e.g. [ENA sample checklists](https://www.ebi.ac.uk/ena/submit/checklists). It is highly recommended to, already from the beginning of the project, structure e.g. sample metadata in a way that enables sequence data submission without having to reformat the metadata.
 
+For convenience, we have created templates for the most frequent data types and their corresponding ENA checklists. The templates come with instructions on how to do an interactive submission, via the ENA Webin Portal, but even when doing a programmatic submission, the template can be useful for collecting all necessary descriptions / metadata. Download an appropriate template, and fill in the sheets according to the instructions in the template:
+* [ERC000011 ENA default sample checklist](/meta-data-templates/metadata_template_default_ERC000011.xlsx)
+* [ERC000033 ENA virus pathogen reporting standard checklist](/meta-data-templates/metadata_template_virus_ERC000033.xlsx)
+* [ERC000036 ENA sewage checklist](/meta-data-templates/metadata_template_sewage_ERC000036.xlsx)
+
 ## Ontologies
 
 Ontologies, controlled vocabularies and data dictionaries are used to standardize the language used to describe the metadata. Think of the many ways to write that the organism is human (human, Human, homo sapiens, H. sapiens, Homo Sapiens, man, etc), using an ontology such as [NCBI taxonomy](https://www.ebi.ac.uk/ols/ontologies/ncbitaxon) unifies the language and makes it easier for both humans and machines to interpret and work with the data. While an ontology has a hierarchical structure, a controlled vocabulary is an unstructured set of terms. A [Data Dictionary](https://help.osf.io/hc/en-us/articles/360019739054-How-to-Make-a-Data-Dictionary) is a user-defined way of describing what all the variable names and values in your data really mean. 

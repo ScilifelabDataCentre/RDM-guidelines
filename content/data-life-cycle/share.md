@@ -10,7 +10,7 @@ toc: True
 
 ## Sharing
 
-In the era of [FAIR](/topic/fair-principles.md) (Findable, Accessible, Interoperable and Reusable) and [Open science](https://www.vr.se/english/mandates/open-science/open-access-to-research-data.html), datasets should be made available to the public. Whenever possible, domain-specific repositories should be used in order to increase the FAIRness of your research outputs. Click on the buttons below for data type specific information regarding suitable repositories.
+In the era of [FAIR](/topic/fair-principles) (Findable, Accessible, Interoperable and Reusable) and [Open science](https://www.vr.se/english/mandates/open-science/open-access-to-research-data.html), datasets should be made available to the public. Whenever possible, domain-specific repositories should be used in order to increase the FAIRness of your research outputs. Click on the buttons below for data type specific information regarding suitable repositories.
 
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">

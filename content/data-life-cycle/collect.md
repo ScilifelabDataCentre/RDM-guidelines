@@ -102,16 +102,6 @@ At least essential data, such as raw data and other data that may be difficult o
 
 Consider uploading the raw data to a repository already when receiving them, under an embargo (if it is important that the data remains private during the project). This way there is always an off-site backup with the added benefit of making the [data sharing](/data-life-cycle/share) phase more efficient.
 
-## Data transfer
-Quite often large amounts of data is generated, and it can be worth spending some time considering how to transfer data from the data producer to storage and analysis environment. Consider the capacity of the internet connection, transfer via a low bandwith network can be so time-consuming that it might be faster and easier to send the data on a hard drive through carrier services.
-
-Please find below some useful links from the SNIC compute resource Uppmax regarding data transfer:
-* [Grus user guide for delivery of data from NGI](https://www.uppmax.uu.se/support/user-guides/grus-user-guide/)
-* [Basic SFTP commands for transferring files](https://uppmax.uu.se/support-sv/user-guides/basic-sftp-commands/)
-* [SNIC-SENS Bianca Deliver user guide for NGI data](https://www.uppmax.uu.se/support/user-guides/deliver-user-guide/)
-* [Transit user guide - secure data transfer of sensitive data](https://uppmax.uu.se/support-sv/user-guides/transit-user-guide/)
-
-
 ## Resources & Training
 * [RDMkit on Collecting Data](https://rdmkit.elixir-europe.org/collecting)
 * [RDMkit on Data quality](https://rdmkit.elixir-europe.org/data_quality)

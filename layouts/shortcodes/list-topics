@@ -1,0 +1,4 @@
+{{ $topic := where .Site.RegularPages "Section" "topic" }}
+{{ range $topic }}
+  <h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>
+{{ end }}

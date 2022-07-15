@@ -16,18 +16,12 @@
         <div class="card-body">
           <h2 class="card-title no-anchor">Topic</h2>
           <p class="card-text">Click on either of the links below to get an overview of individual research data management topics. </p>
-          <ul>
-            <li><a href="/topic/fair-principles">FAIR principles</a></li>
-            <li><a href="/topic/human-data"></a>Human data</li>
-            <ul>
-              <li><a href="/topic/data-protection-officer">Data Protection Officer</a></li>
-            </ul>
-            <li><a href="/topic/metadata">Metadata</a></li>
-            <li><a href="/topic/policies">Policies</a></li>
-            <li><a href="/topic/research-data-office">Research Data Offices</a></li>
-          </ul>
+            {{ $topic := where .Site.RegularPages "Section" "topic" }}
+              {{ range $topic }}
+              <h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>
+              {{ end }}
         </div>
       </div>
-  </div>
+    </div>
 </section>
 {{ end }}

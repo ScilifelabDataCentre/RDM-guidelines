@@ -28,7 +28,7 @@ Below are ontology resources, adapted from Table 2 in *Griffin PC, Khadake J, Le
 * [Ontobee](https://www.ontobee.org) - A linked data server that facilitates ontology data sharing, visualization, and use.
 
 ## Data and metadata standards 
-Click on the buttons below for data type specific information regarding file types and metadata standards.
+Curated up-to-date guidance regarding file types and metadata standards is found at [FAIRsharing.org](https://fairsharing.org/search?fairsharingRegistry=Standard/). Click on the buttons below for data type specific information, queries and examples adapted from _RDA COVID-19 Working Group. Recommendations and Guidelines on data sharing. Research Data Alliance. 2020._ doi: (https://doi.org/10.15497/rda00052)[https://doi.org/10.15497/rda00052]
 
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">

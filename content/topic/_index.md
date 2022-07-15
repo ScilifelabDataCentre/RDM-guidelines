@@ -9,13 +9,9 @@ menu:
 
 ## Topic pages
 <!--- insert some 'About' text -->
-* [FAIR principles](/topic/fair-principles)
-* Human data <!-- [Human data](/topic/human-data) -->
-  * [Data Protection officer](/topic/data-protection-officer)
-* [Metadata](/topic/metadata)
-* [Policies](/topic/policies)
-* [Research Data Office](/topic/research-data-office)
-* [Data transfer](/topic/data-transfer)
+Click on either of the links below to get an overview of individual research data management topics.
+
+{{< list-topics >}}
 
 
 <!--### Human data pages

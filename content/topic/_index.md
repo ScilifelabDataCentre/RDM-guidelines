@@ -8,7 +8,8 @@ menu:
 ---
 
 ## Topic pages
-<!--- insert some 'About' text -->
+
+Click on either of the links below to get an overview of individual research data management topics.
 
 {{< list-topics >}}
 

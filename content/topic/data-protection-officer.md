@@ -24,4 +24,5 @@ The role of the data protection officer is to check that the General Data Protec
 | Stockholm University | dso@su.se | [GDPR at SU](https://www.su.se/english/staff/organisation-governance/legal-information) | 
 | Swedish University of Agricultural Sciences | dataskydd@slu.se | [Data protection and personal data](https://internt.slu.se/en/support-services/administrative-support/legal-affairs-data-protection-info-management/data-protection/) |
 | Umeå University | pulo@umu.se | [Personuppgifter](https://www.aurora.umu.se/stod-och-service/rad-och-riktlinjer/juridik-och-personuppgifter/personuppgifter/) |
-| University of Gothenburg | dataskydd@gu.se | [Routines for processing personal data](https://medarbetarportalen.gu.se/diarieforing-arkivering-och-personuppgiftsbehandling/rutiner-for-behandling-av-personuppgifter/)|| Uppsala University | dataskyddsombud@uu.se | [General Data Protection Regulation (GDPR) – how it works](https://mp.uu.se/en/web/info/stod/dataskyddsforordningen) |
+| University of Gothenburg | dataskydd@gu.se | [Routines for processing personal data](https://medarbetarportalen.gu.se/diarieforing-arkivering-och-personuppgiftsbehandling/rutiner-for-behandling-av-personuppgifter/)|
+| Uppsala University | dataskyddsombud@uu.se | [General Data Protection Regulation (GDPR) – how it works](https://mp.uu.se/en/web/info/stod/dataskyddsforordningen) |

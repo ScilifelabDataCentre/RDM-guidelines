@@ -1,6 +1,10 @@
 ---
 title: Topic
 menu:
+    navbar:
+        name: Topic
+        identifier: topic
+        weight: 30
     bottom_about:
         name: Topic
         identifier: topic

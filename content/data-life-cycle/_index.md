@@ -1,6 +1,10 @@
 ---
 title: Data Life Cycle
 menu:
+    navbar:
+        name: Data Life Cycle
+        identifier: data-life-cycle
+        weight: 20
     bottom_about:
         name: Data Life Cycle
         identifier: data-life-cycle

@@ -1,0 +1,63 @@
+---
+# remember to change repo-name and set dockerfile(s)/image name(s) in the matrix
+
+name: Publish Docker Image
+on:
+  # generate image whenever there is a push to the listed branches
+  push:
+    branches:
+      - main
+  # generate images for releases, using the tag name
+  # the newest one will be latest as well
+  release:
+    types: [published]
+jobs:
+  push_to_registry:
+    # only generate images when in the named repo
+    # (to avoid running the action in forks)
+    if: github.repository == 'scilifelabdatacentre/rdm-guidelines'
+    name: Publish Docker Image
+    runs-on: ubuntu-latest
+    # Cancel earlier job if there is a new one for the same branch/release
+    concurrency:
+      group: ${{ github.ref }}-docker-build
+      cancel-in-progress: true
+    # Define the images/tags to build; will run in parallell
+    strategy:
+      matrix:
+        include:
+          - dockerfile: Dockerfile
+            images: |
+              ghcr.io/scilifelabdatacentre/rdm-guidelines
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v3
+      # only needed when publishing to Github (ghcr.io)
+      - name: Log in to Github Container Repository
+        uses: docker/login-action@v2
+        with:
+          registry: ghcr.io
+          # will run as the user who triggered the action, using its token
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Docker Meta
+        id: meta
+        uses: docker/metadata-action@v4
+        with:
+          images: ${{ matrix.images }}
+          tags: |
+            type=ref,event=branch
+            type=semver,pattern={{version}}
+            type=semver,pattern={{major}}.{{minor}}
+            type=semver,pattern={{major}}
+      - name: Build and Publish
+        uses: docker/build-push-action@v3
+        with:
+          file: ${{ matrix.dockerfile }}
+          context: .
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}

@@ -7,7 +7,7 @@ menu:
         weight: 20
 ---
 
-## Guidelines by topic
+## Topic
 
 Some of the research data management topics spans over several phases of the data life cycle or requires special attention for other reasons. Click on either of the links below to get guidance around a specific research data management topic.
 

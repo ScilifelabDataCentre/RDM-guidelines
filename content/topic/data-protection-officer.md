@@ -3,7 +3,7 @@ title: Data Protection Officer
 menu:
     bottom_about:
         name: Data Protection Officer
-        identifier: dpo
+        identifier: data-protection-officer
         weight: 10
 toc: True
 ---
@@ -21,7 +21,7 @@ The role of the data protection officer is to check that the General Data Protec
 | KTH Royal Institute of Technology | dataskyddsombud@kth.se | [Processing of personal data at KTH](https://intra.kth.se/en/anstallning/anstallningsvillkor/att-vara-statligt-an/behandling-av-person) |
 | Linköping University | dataskyddsombud@liu.se |  |
 | Lund University | dataskyddsombud@lu.se | [Registration of personal data processing](https://www.staff.lu.se/support-and-tools/legal-and-records-management/personal-data-and-data-protection/area-specific-information/research) |
-| Stockholm University | dso@su.se | [GDPR at SU](https://www.su.se/english/staff/organisation-governance/legal-information) | 
+| Stockholm University | dso@su.se | [GDPR at SU](https://www.su.se/english/staff/organisation-governance/legal-information) |
 | Swedish University of Agricultural Sciences | dataskydd@slu.se | [Data protection and personal data](https://internt.slu.se/en/support-services/administrative-support/legal-affairs-data-protection-info-management/data-protection/) |
 | Umeå University | pulo@umu.se | [Personuppgifter](https://www.aurora.umu.se/stod-och-service/rad-och-riktlinjer/juridik-och-personuppgifter/personuppgifter/) |
 | University of Gothenburg | dataskydd@gu.se | [Routines for processing personal data](https://medarbetarportalen.gu.se/diarieforing-arkivering-och-personuppgiftsbehandling/rutiner-for-behandling-av-personuppgifter/)|

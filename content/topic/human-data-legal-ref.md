@@ -1,3 +1,14 @@
+---
+title: Human data legal reference
+category: Human data
+menu:
+    bottom_about:
+        name: Human data legal reference
+        identifier: human-data-legal-reference
+        weight: 10
+toc: True
+---
+
 # Legal reference - Personal data
 >This section is an attempt to describe the reasoning behind the NBIS guidelines regarding working with human data in more detail by referring to relevant sections of the **General Data Protection Regulation (GDPR)**, the EU-wide legislation that stipulates how personal data should be handled.
 >

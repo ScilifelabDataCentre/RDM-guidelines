@@ -3,7 +3,7 @@ title: FAIR principles
 menu:
     bottom_about:
         name: FAIR principles
-        identifier: FAIR
+        identifier: fair-principles
         weight: 10
 toc: True
 ---
@@ -12,7 +12,7 @@ toc: True
 
 [FAIR](https://www.force11.org/group/fairgroup/fairprinciples) stands for Findable, Accessible, Interoperable and Reusable. In [Wilkinson, et al 2016](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4792175/pdf/sdata201618.pdf) a set of principles were defined for each of these properties. Below, each of the principles are explained further (click on the buttons for detailed information), as adapted from [FAIR principles translation](http://www.snf.ch/SiteCollectionDocuments/FAIR_principles_translation_SNSF_logo.pdf).
 
-## Findable 
+## Findable
 Data and metadata should be easy to find by both humans and computer systems. Basic machine readable descriptive metadata allows the discovery of interesting datasets and services.
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseFind1" role="button" aria-expanded="false" aria-controls="collapseFind1">

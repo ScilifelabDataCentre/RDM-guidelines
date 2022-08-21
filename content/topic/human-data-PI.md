@@ -1,3 +1,14 @@
+---
+title: Human data PI
+category: Human data
+menu:
+    bottom_about:
+        name: Human data PI
+        identifier: human-data-pi
+        weight: 10
+toc: True
+---
+
 # PIs - working with human data
 
 ***Disclaimer!**  The PI, as well as everyone with access to sensitive personal data, is responsible for following current laws and regulations, and NBIS will not assume legal responsibility for advice provided in these guidelines.*

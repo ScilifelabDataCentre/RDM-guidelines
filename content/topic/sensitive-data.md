@@ -1,16 +1,26 @@
+---
+title: Sensitive data
+menu:
+    bottom_about:
+        name: Sensitive data
+        identifier: sensitive-personal
+        weight: 10
+toc: True
+---
+
 ## Sensitive personal data
 
 The following is a list of Ethical, Legal and Social Implications (ELSI) that should be considered when working with human data.
-The content on this page is based on a checklist that has been developed in the [Tryggve project](https://neic.no/tryggve/). It is intended be used as a tool to document these considerations, and is available as: 
-1. An MS Word file that can be downloaded from the [Tryggve project pages](https://neic.no/tryggve/links/). 
+The content on this page is based on a checklist that has been developed in the [Tryggve project](https://neic.no/tryggve/). It is intended be used as a tool to document these considerations, and is available as:
+1. An MS Word file that can be downloaded from the [Tryggve project pages](https://neic.no/tryggve/links/).
 2. In the [SciLifeLab Data Stewardship Wizard](https://dsw.scilifelab.se/) (SciLifeLab DSW)
   * Log in to the [SciLifeLab DSW](https://dsw.scilifelab.se/) using your university credentials
   * Select Projects in the left sidebar, and click the Create button
-  * Choose *ELSI Checklist Template* from the list of project templates 
+  * Choose *ELSI Checklist Template* from the list of project templates
 
 *Note that the checklist was created with cross-border collaborative projects in mind, but it should be useful for other research projects as well.*
 
-Before the collection of personal data has begun you should always consult with the [Data Protection Officer](data-protection-officer) of your organisation. 
+Before the collection of personal data has begun you should always consult with the [Data Protection Officer](data-protection-officer) of your organisation.
 
 ### Ethical reviews and informed consent ([more info](#ethical-reviews-and-informed-consents))
 
@@ -50,7 +60,7 @@ The purpose of these questions is to spell out what uses the subjects have conse
 #### GDPR
 
 ##### State the purpose of processing the personal data
-The GDPR stipulates that to process personal data the controller must do that with stated purposes, and not further process the data in a manner that is incompatible with those purposes ([Article 5 - Principles relating to processing of personal data](https://gdpr-info.eu/art-5-gdpr/)). 
+The GDPR stipulates that to process personal data the controller must do that with stated purposes, and not further process the data in a manner that is incompatible with those purposes ([Article 5 - Principles relating to processing of personal data](https://gdpr-info.eu/art-5-gdpr/)).
 
 ##### Who are the data controller of the personal data processed in the project?
 [Article 4](https://gdpr-info.eu/art-4-gdpr/) (7): _“‘**controller**’ means the natural or legal person, public authority, agency or other body which, alone or jointly with others, **determines the purposes** and means of the processing of personal data; […].”_ The Controller is typically the university employer of the PI, and the PI should act as a representative of her university employer and is responsible for ensuring that personal data is handled correctly in her projects. If the project involves more than one legal entity, and joint controllership is considered, make sure that all parties understand their obligations, and it is probably good to define the terms for this in an agreement between the parties.
@@ -74,10 +84,10 @@ Processing of certain categories of personal data is not allowed unless there ar
 Where a type of processing is likely to result in a high risk to the rights and freedoms of natural persons, the controller shall, prior to the processing, carry out an assessment of the impact of the envisaged processing operations on the protection of personal data, a so called _Data Protection Impact Assessment_ (DPIA) - [Article 35](https://gdpr-info.eu/art-35-gdpr/). To clarify when this is necessary, the Swedish Data Protection Authority (DPA) "Datainspektionen" has issued [guidance](https://www.datainspektionen.se/globalassets/dokument/beslut/list-regarding-data-protection-impact-assessments.pdf) of when an impact assessment is required. Large-scale processing of sensitive data such as genetic or other health related data is listed as requiring DPIAs. The French DPA has made a [PIA tool](https://www.cnil.fr/en/open-source-pia-software-helps-carry-out-data-protection-impact-assesment) (endorsed by several other DPAs) available that can help in performing these impact assessments. Please also consult your [Data Protection Officer](data-protection-officer) of your organisation.
 
 ##### What technical and procedural safeguards have been established for processing the data?
-To ensure that the personal data that you process in the project is protected at an appropriate level, you should apply technical and procedural safeguards to ensure that the rights of the data subjects are not violated. Examples of such measures include, but are not limited to, pseudonymisation end encryption of data, the use of computing and storage environments with heightened security, and clear and documented procedures for project members to follow. 
+To ensure that the personal data that you process in the project is protected at an appropriate level, you should apply technical and procedural safeguards to ensure that the rights of the data subjects are not violated. Examples of such measures include, but are not limited to, pseudonymisation end encryption of data, the use of computing and storage environments with heightened security, and clear and documented procedures for project members to follow.
 
 ##### What happens with the data after project completion?
-The GDPR states that the processing (including storing) of personal data should stop when the intended purpose of the processing is done. There are, however, exemptions to this e.g. when the processing is done for research purposes. Also, from a research ethics point of view, research data should be kept to make it possible for others to validate published research findings and reuse data for new discoveries. This is also governed by what the data subjects have been informed about regarding how you will treat the data after project completion. The recommendation is to deposit the sensitive data in the appropriate controlled access repositories if such are available, but this requires that the data subjects are informed and have agreed to this. 
+The GDPR states that the processing (including storing) of personal data should stop when the intended purpose of the processing is done. There are, however, exemptions to this e.g. when the processing is done for research purposes. Also, from a research ethics point of view, research data should be kept to make it possible for others to validate published research findings and reuse data for new discoveries. This is also governed by what the data subjects have been informed about regarding how you will treat the data after project completion. The recommendation is to deposit the sensitive data in the appropriate controlled access repositories if such are available, but this requires that the data subjects are informed and have agreed to this.
 
 #### Other considerations
 There might also exist other national legal or procedural considerations for cross-border research collaborations. Other laws might affect how and if data can or cannot be made available outside the country of origin. The operating procedures of government authorities or other organisations might create obstacles for sharing data across borders. To make sure that it is clear how original and derived data, as well as results, can be used by the parties after the project completion, consider establishing legal agreements that defines this. This can include e.g. reuse of data for other projects or intellectual property rights derived from the research project.

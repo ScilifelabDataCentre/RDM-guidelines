@@ -1,3 +1,13 @@
+---
+title: Human data bioinformatician
+category: Human data
+menu:
+    bottom_about:
+        name: Human data bioinformatician
+        identifier: human-data-bioinformatician
+        weight: 10
+toc: True
+---
 # Working practices for NBIS bioinformaticians in support projects with human data
 * It is the PI’s responsibility (as the representative of his/her employer) to ensure that the personal data is handled according to existing laws and regulations.
 * The NBIS bioinformatician (as the representative of his/her employer) that processes the data on behalf of the PI, also has a legal responsibility to handle the data according to existing laws and regulations.
@@ -7,7 +17,7 @@
 * In the case of a [data breach](/topic/human-data-legal-ref.md#data-breach), accidental or otherwise, this must be **immediatly reported to the PI**.
 * Findings outside the scope of the study (secondary findings) should never be looked for by the NBIS bioinformatician, and should always be reported to the PI if accidentally found.
 * The default mode of operation is that large-scale sensitive personal data should be analysed at the national computer cluster specifically dedicated to sensitive personal data, [Bianca](http://www.uppmax.uu.se/support/user-guides/bianca-user-guide/).
-* If an NBIS bioinformatician plans to analyse sensitive personal data elsewhere, they must get the approval from the PI to process the personal data outside Bianca. Please also consult with the NBIS data manager (<data@nbis.se>). 
+* If an NBIS bioinformatician plans to analyse sensitive personal data elsewhere, they must get the approval from the PI to process the personal data outside Bianca. Please also consult with the NBIS data manager (<data@nbis.se>).
 
   *Note that working with sensitive data outside of Bianca is highly discouraged, and needs a documented motivation!*
 

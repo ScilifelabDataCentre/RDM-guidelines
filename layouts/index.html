@@ -16,12 +16,29 @@
         <div class="card-body">
           <h2 class="card-title no-anchor">Topic</h2>
           <p class="card-text">Click on either of the links below to get an overview of individual research data management topics. </p>
+            <div class ="row g-3 cont-links">
             {{ $topic := where .Site.RegularPages "Section" "topic" }}
-              {{ range $topic }}
-              <h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>
+            {{ range $topic }}
+              <div class="col-md-3 col-lg-4">
+                <div class="p-3 border rounded h-100">
+                  <div class="d-flex justify-content-between">
+                    <div>
+                      {{ if eq .Params.category "Human data"}}
+                      <i class="bi bi-person-fill"></i>
+                      {{else}}
+                      <i class="bi bi-info-square"></i>
+                      {{ end }}
+                      <b>
+                      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                      </b>
+                    </div>
+                  </div>
+                </div>
+              </div>
               {{ end }}
-        </div>
-      </div>
-    </div>
+            </div>
+          </div>
+          </div>
+          </div>
 </section>
 {{ end }}

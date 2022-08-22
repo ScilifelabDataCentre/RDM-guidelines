@@ -3,7 +3,7 @@ title: University guidelines and policies
 menu:
     bottom_about:
         name: University guidelines and policies
-        identifier: guidelines-policies
+        identifier: university-guidelines-policies
         weight: 10
 toc: True
 ---
@@ -16,7 +16,7 @@ Needs to be checked for updates on other uni:s -->
 
 * Stockholm University - <https://www.su.se/medarbetare/organisation-styrning/styrdokument-regelboken/forskning/forskningsdatapolicy-1.380915>
 * KTH -  <https://intra.kth.se/polopoly_fs/1.1037530.1608134393!/Riktlinje-om-hantering-av-forskningsdata.pdf> (Swedish), <https://intra.kth.se/polopoly_fs/1.1037531.1608134528!/Guidelines-on-managing-research-data.pdf> (English)
-* Uppsala University - 
+* Uppsala University -
 * Karolinska Institutet - <https://medarbetare.ki.se/riktlinjer-for-forskningsdokumentation-och-datahantering>, <https://medarbetare.ki.se/riktlinjer-for-forskning>
 * Linnaeus University - <https://lnu.se/globalassets/dokument---gemensamma/universitetsledningens-kansli/hanteringsanvisningar-for-forskningshandlingar.pdf>
 * Karlstads University - <http://intra.kau.se/dokument/upload/82F31D6802ef41E62BWs2F66E790/Policy%20for%20hantering%20av%20forskningsdata%20vid%20Karlstads%20universitet.pdf>

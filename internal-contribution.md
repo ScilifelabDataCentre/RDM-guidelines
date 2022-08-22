@@ -1,5 +1,5 @@
 ## Internal /editorial contribution process
-The RDM-guidelines repository has an editorial group consisting of member of SciLifeLab's Data Centre and NBIS data management teams.
+The RDM-guidelines repository has an editorial group consisting of members of SciLifeLab's Data Centre and NBIS data management teams.
 
 There is a list of [current resources](https://github.com/ScilifelabDataCentre/RDM-guidelines/blob/main/current-resources-list.md), with the web pages identified to either be of interest to link to, or to be incorporated into the guidelines. Also, keep in mind that the goal is not to duplicate what is in the [RDMkit](https://rdmkit.elixir-europe.org/) but rather add the Swedish flavour, and link to RDMkit for more information.
 
@@ -15,3 +15,4 @@ The steps below outlines the mutually agreed steps in order to update the RDM-gu
     1. If appropriate, add links from other pages to this new page.
     1. If there is a resource or training link, add a heading last called 'Resources & Training' and put the link(s) in bullet list.
 1. When it is time for a **Pull request**, add a link to the issue in the describing text (type a `#` and suggestions of possible links will appear). It is up to everyone in the editorial group to check if there are pull requests waiting to be approved.
+2. When **merging** a Pull request, delete the branch being merged. Note that the linked issue will be automatically closed if using closing words. 

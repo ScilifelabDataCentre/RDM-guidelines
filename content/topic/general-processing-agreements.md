@@ -1,3 +1,12 @@
+---
+title: General processing agreements
+menu:
+    bottom_about:
+        name: General processing agreements
+        identifier: data-transfer
+        weight: 10
+toc: True
+---
 # General processing agreements for bioinformatics support and data storage
 When researchers from universities other than Uppsala University use the services of NBIS involving personal data, NBIS/Uppsala University will act as Processor for the Controller (which is the university where the researcher is employed). In such cases, an agreement must be established between the Controller and the Processor according to [Article 28 (3)](https://gdpr-info.eu/art-28-gdpr/) of the GDPR.
 

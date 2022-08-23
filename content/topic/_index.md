@@ -1,8 +1,8 @@
 ---
-title: Topic
+title: Topics
 menu:
     navbar:
-        name: Topic
+        name: Topics
         identifier: topic
         weight: 30
 ---

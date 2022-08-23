@@ -5,10 +5,6 @@ menu:
         name: Data Life Cycle
         identifier: data-life-cycle
         weight: 20
-    bottom_about:
-        name: Data Life Cycle
-        identifier: data-life-cycle
-        weight: 20
 ---
 
 ## Data Life Cycle phases

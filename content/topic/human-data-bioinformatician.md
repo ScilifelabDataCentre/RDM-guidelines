@@ -2,7 +2,7 @@
 title: Human data bioinformatician
 category: Human data
 menu:
-    bottom_about:
+    bottom_topic:
         name: Human data bioinformatician
         identifier: human-data-bioinformatician
         weight: 10

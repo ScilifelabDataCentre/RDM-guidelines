@@ -1,10 +1,10 @@
 ---
 title: Processing phase
 menu:
-    bottom_about:
+    bottom_cycle:
         name: Processing
         identifier: processing
-        weight: 10
+        weight: 30
 toc: True
 ---
 

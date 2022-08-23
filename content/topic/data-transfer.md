@@ -1,7 +1,7 @@
 ---
 title: Data transfer
 menu:
-    bottom_about:
+    bottom_topic:
         name: Data transfer
         identifier: data-transfer
         weight: 10

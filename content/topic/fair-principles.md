@@ -1,7 +1,7 @@
 ---
 title: FAIR principles
 menu:
-    bottom_about:
+    bottom_topic:
         name: FAIR principles
         identifier: fair-principles
         weight: 10

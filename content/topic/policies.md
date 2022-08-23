@@ -1,7 +1,7 @@
 ---
 title: University guidelines and policies
 menu:
-    bottom_about:
+    bottom_topic:
         name: University guidelines and policies
         identifier: university-guidelines-policies
         weight: 10

@@ -1,10 +1,10 @@
 ---
 title: Sharing phase
 menu:
-    bottom_about:
+    bottom_cycle:
         name: Share
         identifier: share
-        weight: 10
+        weight: 60
 toc: True
 ---
 

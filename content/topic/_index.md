@@ -5,10 +5,6 @@ menu:
         name: Topic
         identifier: topic
         weight: 30
-    bottom_about:
-        name: Topic
-        identifier: topic
-        weight: 20
 ---
 
 ## Topic pages

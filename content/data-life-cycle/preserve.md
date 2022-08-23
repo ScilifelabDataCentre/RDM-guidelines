@@ -1,10 +1,10 @@
 ---
 title: Preserving phase
 menu:
-    bottom_about:
+    bottom_cycle:
         name: Preserve
         identifier: preserve
-        weight: 10
+        weight: 50
 toc: True
 ---
 

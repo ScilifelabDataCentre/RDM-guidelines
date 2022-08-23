@@ -1,15 +1,15 @@
 ---
 title: Metadata
 menu:
-    bottom_about:
+    bottom_topic:
         name: Metadata
         identifier: metadata
         weight: 10
 toc: True
 ---
 
-## Metadata 
-Good documentation in research projects is essential in order to allow good quality data and transparent research. Describing how the datasets were created, how they are structured, and what they mean, is key for making your data understandable for others as well as your future self. Metadata provides such 'data about data'. 
+## Metadata
+Good documentation in research projects is essential in order to allow good quality data and transparent research. Describing how the datasets were created, how they are structured, and what they mean, is key for making your data understandable for others as well as your future self. Metadata provides such 'data about data'.
 Metadata is needed at several levels to describe the study, the samples, the experiments, the analysis and so on. It may include information on the methodology and instrumentation used to collect the data, analytical and procedural information, definitions of variables, units of measurement, any assumptions made, the format and file type of the data and software used to collect and/or process the data.
 
 Researchers are strongly encouraged to use community metadata standards where these are in place (see further down) and recommended to do so already from the beginning of the project. Data repositories may also provide guidance about appropriate metadata standards and requirements e.g. the European Nucleotide Archive (ENA) have [ENA sample checklists](https://www.ebi.ac.uk/ena/submit/checklists). Structuring the metadata in a way that conforms to the suitable repository from the beginning enables data submission without having to reformat the metadata.
@@ -21,7 +21,7 @@ For convenience, we have created templates for the most frequent data types and 
 
 ## Ontologies
 
-Ontologies, controlled vocabularies and data dictionaries are used to standardize the language used to describe the metadata. Think of the many ways to write that the organism is human (human, Human, homo sapiens, H. sapiens, Homo Sapiens, man, etc), using an ontology such as [NCBI taxonomy](https://www.ebi.ac.uk/ols/ontologies/ncbitaxon) unifies the language and makes it easier for both humans and machines to interpret and work with the data. While an ontology has a hierarchical structure (e.g. *homo sapiens* is a *mammalia* which is a *eukaryota*), a controlled vocabulary is an unstructured set of terms, but fills the same purpose, to standardize the language used. A [Data Dictionary](https://help.osf.io/hc/en-us/articles/360019739054-How-to-Make-a-Data-Dictionary) is a user-defined way of describing what all the variable names and values in the data really mean. 
+Ontologies, controlled vocabularies and data dictionaries are used to standardize the language used to describe the metadata. Think of the many ways to write that the organism is human (human, Human, homo sapiens, H. sapiens, Homo Sapiens, man, etc), using an ontology such as [NCBI taxonomy](https://www.ebi.ac.uk/ols/ontologies/ncbitaxon) unifies the language and makes it easier for both humans and machines to interpret and work with the data. While an ontology has a hierarchical structure (e.g. *homo sapiens* is a *mammalia* which is a *eukaryota*), a controlled vocabulary is an unstructured set of terms, but fills the same purpose, to standardize the language used. A [Data Dictionary](https://help.osf.io/hc/en-us/articles/360019739054-How-to-Make-a-Data-Dictionary) is a user-defined way of describing what all the variable names and values in the data really mean.
 
 For a suggested list of ontologies appropriate for Life Science community please see [FAIRsharing.org](https://fairsharing.org/search?recordType=terminology_artefact&status=ready&subjects=life%2520science), filter on e.g. Domain.
 
@@ -32,7 +32,7 @@ Below are ontology resources, adapted from Table 2 in *Griffin PC, Khadake J, Le
 * [ZOOMA](https://www.ebi.ac.uk/spot/zooma/) - Assign ontology terms using curated mapping.
 * [Ontobee](https://www.ontobee.org) - A linked data server that facilitates ontology data sharing, visualization, and use.
 
-## Data and metadata standards 
+## Data and metadata standards
 Curated up-to-date guidance regarding file types and metadata standards is found at [FAIRsharing.org](https://fairsharing.org/search?fairsharingRegistry=Standard/). Click on the buttons below for data type specific FAIRsharing queries, as well as information and examples adapted from _RDA COVID-19 Working Group. Recommendations and Guidelines on data sharing. Research Data Alliance. 2020._ doi: [https://doi.org/10.15497/rda00052](https://doi.org/10.15497/rda00052)
 
 <p>
@@ -66,7 +66,7 @@ Curated up-to-date guidance regarding file types and metadata standards is found
   <h5> Genome-wide association studies (GWAS):</h5>
   <ul>
     <li>Preferred minimal metadata standard: <a href="https://doi.org/10.25504/FAIRsharing.9aa0zp">MIxS</a>
-    <li>Preferred file formats 
+    <li>Preferred file formats
       <ul>
         <li>for binary files: <a href="https://doi.org/10.25504/FAIRsharing.b52795">.bim</a>, <a href="https://doi.org/10.25504/FAIRsharing.d0886a">.fam</a> and <a href="https://doi.org/10.25504/FAIRsharing.mwmbpq">.bed</a></li>
         <li>for text-format files: <a href="https://doi.org/10.25504/FAIRsharing.31385c">.ped</a> and <a href="https://doi.org/10.25504/FAIRsharing.53edcc">.map</a></li>
@@ -75,9 +75,9 @@ Curated up-to-date guidance regarding file types and metadata standards is found
   </ul>
   <h5> Metagenomics</h5>
   <ul>
-    <li><a href="https://doi.org/10.25504/FAIRsharing.va1hck">MIxS - MIGS/MIMS</a> - 
-    Minimum Information about a (Meta)Genome Sequence. The MIMS extension includes key environmental metadata. Developed by the Genomic Standards Consortium. Numerous adopters including NCBI/EBI/DDBJ databases. </li> 
-    <li><a href="https://doi.org/10.25504/FAIRsharing.zvrep1">MIMARKS</a> - 
+    <li><a href="https://doi.org/10.25504/FAIRsharing.va1hck">MIxS - MIGS/MIMS</a> -
+    Minimum Information about a (Meta)Genome Sequence. The MIMS extension includes key environmental metadata. Developed by the Genomic Standards Consortium. Numerous adopters including NCBI/EBI/DDBJ databases. </li>
+    <li><a href="https://doi.org/10.25504/FAIRsharing.zvrep1">MIMARKS</a> -
     Minimum Information about a MARKer gene Sequence. This is an extension of MIGS/MIMS for environmental sequences. Developed by the Genomic Standards Consortium. Numerous adopters including NCBI/EBI/DDBJ databases.</li>  
   </ul>
   <h5>Functional Annotation of Animal Genomes Consortium (FAANG) standards</h5>
@@ -172,11 +172,11 @@ Curated up-to-date guidance regarding file types and metadata standards is found
 <div class="collapse" id="collapseExample5">
   <div class="card card-body">
   <span>
-  For a curated list of relevant standards see <a href="https://fairsharing.org">FAIRsharing</a> using the query ’<a href="https://fairsharing.org/search/?q=proteomics&fairsharingRegistry=Standard&page=1&status=ready">proteomics</a>’ 
+  For a curated list of relevant standards see <a href="https://fairsharing.org">FAIRsharing</a> using the query ’<a href="https://fairsharing.org/search/?q=proteomics&fairsharingRegistry=Standard&page=1&status=ready">proteomics</a>’
 
   <ul>
     <li>Use the minimal information model specified in <a href="https://doi.org/10.25504/FAIRsharing.8vv5fc">MIAPE</a> by the HUPO Proteomics Standards Initiative (<a href="https://hupo.org/Proteomics-Standards-Initiative">HUPO PSI</a>), and fill the model using the controlled vocabularies specified by the Proteomics Standards Initiative: <a href="https://doi.org/10.25504/FAIRsharing.sxh2dp">PSI-MS CV</a></li>
-    <li>Recommended formats: 
+    <li>Recommended formats:
       <ul>
         <li>For gel electrophoresis <a href="https://doi.org/10.25504/FAIRsharing.rn9wzc">PSI gelML</a></li>
         <li>For transition lists <a href="https://doi.org/10.25504/FAIRsharing.rz77m6">HUPO-PSI TraML</a></li>

@@ -1,7 +1,7 @@
 ---
 title: General processing agreements
 menu:
-    bottom_about:
+    bottom_topic:
         name: General processing agreements
         identifier: data-transfer
         weight: 10

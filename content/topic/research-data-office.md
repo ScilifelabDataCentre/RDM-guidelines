@@ -1,7 +1,7 @@
 ---
 title: Research data office
 menu:
-    bottom_about:
+    bottom_topic:
         name: Research data office
         identifier: research-data-office
         weight: 10

@@ -16,11 +16,11 @@ toc: True
 
 [SciLifeLab](https://scilifelab.se/) is committed to the principles of [FAIR](/topic/fair-principles) (Findable, Accessible, Interoperable and Reusable) research data, i.e. that data should be easily accessed, understood, exchanged and reused. We work actively to ensure that the investments done by the society in research infrastructure resources can achieve the highest possible impact.
 
-The guidelines adhere to the values of [Open Science](https://ec.europa.eu/info/research-and-innovation/strategy/strategy-2020-2024/our-digital-future/open-science_en) and [Transparent research](https://www.ucl.ac.uk/research/strategy-and-policy/research-transparency), as well as good data management practices throughout the data life cycle.
+The guidelines adhere to the values of [Open Science](https://ec.europa.eu/info/research-and-innovation/strategy/strategy-2020-2024/our-digital-future/open-science_en) and [Transparent research](https://www.ucl.ac.uk/research/strategy-and-policy/research-transparency), as well as good data management practices throughout the research data life cycle.
 
 The SciLifeLab RDM guidelines was built and is maintained by the [SciLifeLab Data Centre](https://scilifelab.se/data) and [NBIS](https://nbis.se). We welcome any questions on any element of the platform. Please get in touch with us by emailing [data-management@scilifelab.se](mailto:data-management@scilifelab.se) or by sending us a message using our [contact form](/contact/).
 
-The content of the website is moderated by the team behind the SciLifeLab RDM guidelines. However, contributions are welcome in each of the sections. For example, you can suggest [a new topic](/topic/) or an update to current [data life cycle](/data-life-cycle) or [topic](/topic/) pages.
+The content of the website is moderated by the team behind the SciLifeLab RDM guidelines. However, contributions are welcome in each of the sections. For example, you can suggest [a new topic](/topic/) or an update to current [research data life cycle](/data-life-cycle) or [topic](/topic/) pages.
 
 <a href="/contact/"><b>Contact form for enquiries and contributions <i class="bi bi-arrow-right-square-fill"></i></b></a>
 
@@ -34,7 +34,7 @@ Our organisation leverages the unique strengths of individual researchers across
 
 SciLifeLab started in 2010 as a joint effort between four universities; [Karolinska Institutet](https://www.ki.se/), [KTH Royal Institute of Technology](https://www.kth.se/), [Stockholm University](https://www.su.se/) and [Uppsala University](https://www.uu.se/). Today, we support research activities at all major Swedish universities.
 
-Life science research is increasingly becoming not only technology-driven, but also data-driven. SciLifeLab coordinates and supports activities throughout the data lifecycle. This includes project planning, data production, data analysis, data sharing, through to the publication and reuse of data, where researchers are dependent on advanced data analysis and e-infrastructures.
+Life science research is increasingly becoming not only technology-driven, but also data-driven. SciLifeLab coordinates and supports activities throughout the research data life cycle. This includes project planning, data production, data analysis, data sharing, through to the publication and reuse of data, where researchers are dependent on advanced data analysis and e-infrastructures.
 
 For more information about SciLifeLab, please see [scilifelab.se](https://www.scilifelab.se).
 

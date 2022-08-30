@@ -2,9 +2,9 @@
   <div class="container">
     <div class="row">
       <div class="col-6 col-md">
-        <h6>Research data life cycle</h6>
+        <h6>Guidelines</h6>
         <ul class="list-unstyled text-small">
-          {{ range .Site.Menus.bottom_cycle }}
+          {{ range .Site.Menus.bottom_guidelines }}
           <li class="mb-1"><a class="link-secondary text-decoration-none"
               href="{{ .Page.RelPermalink }}">{{ .Title }}</a></li>
           {{ end }}
@@ -20,7 +20,9 @@
         </ul>
       </div>
       <div class="col-8 col-md-4 offset-md-1">
-        <div class="mt-2 p-0">For more data-driven resources, see:</div>
+        <div class="mt-2 p-0">
+          <h6>For more data-driven resources, see:</h6>
+        </div>
         <div class="p-0"><a href="https://data.scilifelab.se"><img src="/img/logos/sll_dp_outline.svg"></a></div>
       </div>
       <!-- <div class="col-2 offset-md-1">

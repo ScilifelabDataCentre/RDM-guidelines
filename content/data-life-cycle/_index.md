@@ -5,6 +5,10 @@ menu:
         name: Research data life cycle
         identifier: research-data-life-cycle
         weight: 20
+    bottom_guidelines:
+        name: Research data life cycle
+        identifier: research-data-life-cycle
+        weight: 10
 ---
 
 ## Research data life cycle phases

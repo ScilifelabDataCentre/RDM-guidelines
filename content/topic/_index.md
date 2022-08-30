@@ -5,6 +5,10 @@ menu:
         name: Topics
         identifier: topic
         weight: 30
+    bottom_guidelines:
+        name: Topics
+        identifier: topic
+        weight: 20
 ---
 
 ## Topic pages

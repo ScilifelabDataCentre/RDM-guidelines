@@ -188,18 +188,19 @@ clear: both;
 // RDM wheel frontpage
 
 .ratio.main_rdm {
-    padding-bottom: 100%;
+    padding-bottom: 10%;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 200px) {
     .ratio.main_rdm {
-        padding-bottom: 70%;
+        padding-bottom: 85%;
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 500px) {
     .ratio.main_rdm {
-        padding-bottom: 35%;
+        padding-bottom: 40%;
+        padding-top: 10%;
     }
 }
 

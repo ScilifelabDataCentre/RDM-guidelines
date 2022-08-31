@@ -199,8 +199,7 @@ clear: both;
 
 @media (min-width: 500px) {
     .ratio.main_rdm {
-        padding-bottom: 40%;
-        padding-top: 10%;
+        padding-bottom: 50%;
     }
 }
 

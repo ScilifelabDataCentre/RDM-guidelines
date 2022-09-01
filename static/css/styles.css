@@ -32,14 +32,14 @@ blockquote {
 }
 
 a {
-    color: #4C979F;
+    color: #491F53;
     text-decoration: none;
 }
 
 a:hover,
 a:focus,
 a:active {
-    color: #4C979F;
+    color: #77577E;
     text-decoration: underline;
 }
 
@@ -123,14 +123,14 @@ h5 a:hover {
 
 /* Main menu */
 .navbar-light .navbar-nav .nav-main-menu {
-    color: #4C979F;
+    color: #77577E;
 }
 
 .navbar-light .navbar-nav .nav-main-menu:hover,
 .navbar-light .navbar-nav .nav-main-menu:focus,
 .navbar-light .navbar-nav .nav-main-menu:active,
 .navbar-light .navbar-nav .nav-main-menu.active {
-    color: #045C64;
+    color: #491F53;
     text-decoration: none;
 }
 
@@ -151,13 +151,13 @@ h5 a:hover {
 /* Homepage */
 
 .cont-links a {
-  color: #491F53;
+  color: #045C64;
 }
 
 .cont-links a:hover,
 .cont-links a:focus,
 .cont-links a:active {
-    color: #491F53;
+    color: #045C64;
     text-decoration: underline;
 }
 

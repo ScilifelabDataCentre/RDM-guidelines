@@ -1,10 +1,5 @@
 ---
 title: Metadata
-menu:
-    bottom_topic:
-        name: Metadata
-        identifier: metadata
-        weight: 10
 toc: True
 ---
 

@@ -3,8 +3,13 @@ title: Topics
 menu:
     navbar:
         name: Topics
-        identifier: topic
+        identifier: topics
         weight: 30
+    bottom_guidelines:
+        name: Topics
+        identifier: topics
+        weight: 20
+
 ---
 
 ## Topic pages

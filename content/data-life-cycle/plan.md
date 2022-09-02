@@ -1,10 +1,5 @@
 ---
 title: Planning phase
-menu:
-    bottom_cycle:
-        name: Plan
-        identifier: plan
-        weight: 10
 toc: True
 ---
 

@@ -1,10 +1,5 @@
 ---
 title: General processing agreements
-menu:
-    bottom_topic:
-        name: General processing agreements
-        identifier: data-transfer
-        weight: 10
 toc: True
 ---
 # General processing agreements for bioinformatics support and data storage

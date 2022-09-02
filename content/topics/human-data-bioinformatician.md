@@ -1,11 +1,6 @@
 ---
 title: Human data bioinformatician
 category: Human data
-menu:
-    bottom_topic:
-        name: Human data bioinformatician
-        identifier: human-data-bioinformatician
-        weight: 10
 toc: True
 ---
 # Working practices for NBIS bioinformaticians in support projects with human data

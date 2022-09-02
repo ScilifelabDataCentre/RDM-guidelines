@@ -1,10 +1,5 @@
 ---
 title: Collecting phase
-menu:
-  bottom_cycle:
-        name: Collect
-        identifier: collect
-        weight: 20
 toc: True
 ---
 

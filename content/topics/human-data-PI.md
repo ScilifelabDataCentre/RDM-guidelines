@@ -1,11 +1,6 @@
 ---
 title: Human data PI
 category: Human data
-menu:
-    bottom_topic:
-        name: Human data PI
-        identifier: human-data-pi
-        weight: 10
 toc: True
 ---
 

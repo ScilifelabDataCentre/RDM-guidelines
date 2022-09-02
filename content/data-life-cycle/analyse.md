@@ -1,10 +1,5 @@
 ---
 title: Analysing phase
-menu:
-    bottom_cycle:
-        name: Analyse
-        identifier: analyse
-        weight: 40
 toc: True
 ---
 

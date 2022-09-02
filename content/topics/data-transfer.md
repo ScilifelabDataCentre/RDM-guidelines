@@ -1,10 +1,5 @@
 ---
 title: Data transfer
-menu:
-    bottom_topic:
-        name: Data transfer
-        identifier: data-transfer
-        weight: 10
 toc: True
 ---
 

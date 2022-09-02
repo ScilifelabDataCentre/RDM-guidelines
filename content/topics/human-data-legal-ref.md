@@ -1,11 +1,6 @@
 ---
 title: Human data legal reference
 category: Human data
-menu:
-    bottom_topic:
-        name: Human data legal reference
-        identifier: human-data-legal-reference
-        weight: 10
 toc: True
 ---
 

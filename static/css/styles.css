@@ -165,7 +165,7 @@ h5 a:hover {
     float: left;
     width: 50%;
   }
-  
+
 /* Clear floats after the columns */
 .row:after {
 content: "";
@@ -188,18 +188,22 @@ clear: both;
 // RDM wheel frontpage
 
 .ratio.main_rdm {
-    padding-bottom: 100%;
+    padding-bottom: 10%;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 200px) {
     .ratio.main_rdm {
-        padding-bottom: 70%;
+        padding-bottom: 85%;
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 500px) {
     .ratio.main_rdm {
-        padding-bottom: 35%;
+        padding-bottom: 50%;
     }
 }
 
+/* Support block for the homepage */
+.support {
+    background-color: #491F53!important;
+}

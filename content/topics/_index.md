@@ -9,11 +9,12 @@ menu:
         name: Topics
         identifier: topics
         weight: 20
+
 ---
 
 ## Topic pages
 
-Click on either of the links below to get an overview of individual research data management topics.
+Please note that some of the research data management (RDM) topics spans over several phases of the data life cycle or may require special attention for other reasons. In order to get guidance around a specific research data management topic, you may click on the specific links listen below.
 
 {{<display-topics >}}
 

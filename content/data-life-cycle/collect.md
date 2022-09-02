@@ -13,7 +13,7 @@ toc: True
 During this phase all necessary data to be analysed in the project is collected, either by generating new datasets or by [reusing](data-life-cycle/reuse) earlier collected datasets. This phase lays the foundation of the quality of both the data and the accompanying documentation. Hence, it is important that quality measures are implemented and that all steps of collection is appropriately recorded.
 
 ## Documentation
-Data documentation should clearly describe how the data was collected, so that someone else can understand and correctly interpret the data. Make use of electronic lab notebooks (often offered by the university / institute) and [metadata standards](/topic/metadata), and name and organise the files produced appropriately.
+Data documentation should clearly describe how the data was collected, so that someone else can understand and correctly interpret the data. Make use of electronic lab notebooks (often offered by the university / institute) and [metadata standards](/topics/metadata), and name and organise the files produced appropriately.
 
 ## Data producers
 Click on the data type buttons below to see SciLifeLab units who offer data generation services:
@@ -107,4 +107,4 @@ Consider uploading the raw data to a repository already when receiving them, und
 * [RDMkit on Data quality](https://rdmkit.elixir-europe.org/data_quality)
 * [RDMkit on Data transfer](https://rdmkit.elixir-europe.org/data_transfer.html)
 * [Data organisation module](https://nbisweden.github.io/module-organising-data-dm-practices/) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)
-* [Data transfer](/topic/data-transfer)
+* [Data transfer](/topics/data-transfer)

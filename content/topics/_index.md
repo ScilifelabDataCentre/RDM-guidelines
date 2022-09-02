@@ -21,11 +21,11 @@ Please note that some of the research data management (RDM) topics spans over se
 <!--### Human data pages
  I imagine that we might want to gather some of these pages into a single one, with subheadings instead?
 
-* [Human data legal references](/topic/human-data-legal-ref)
-* [Human data (PI)](/topic/human-data-PI.md)
-* [Human data (bioinformatician)](/topic/human-data-bioinformatician)
-* [Data Protection Officer](/topic/data-protection-officer)
-* [General processing agreements](/topic/general-processing-agreements)
-* [Sensitive data](/topic/sensitive-data)
+* [Human data legal references](/topics/human-data-legal-ref)
+* [Human data (PI)](/topics/human-data-PI.md)
+* [Human data (bioinformatician)](/topics/human-data-bioinformatician)
+* [Data Protection Officer](/topics/data-protection-officer)
+* [General processing agreements](/topics/general-processing-agreements)
+* [Sensitive data](/topics/sensitive-data)
 
 -->

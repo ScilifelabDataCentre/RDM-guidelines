@@ -165,7 +165,7 @@ h5 a:hover {
     float: left;
     width: 50%;
   }
-  
+
 /* Clear floats after the columns */
 .row:after {
 content: "";
@@ -203,3 +203,7 @@ clear: both;
     }
 }
 
+/* Support block for the homepage */
+.support {
+    background-color: #491F53!important;
+}

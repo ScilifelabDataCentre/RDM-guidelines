@@ -120,7 +120,7 @@ Exercise of official authority or task in the public interest: The data controll
 
 ### Information about the GDPR
 * The Swedish Data Protection Authority (*Datainspektionen*) [GDPR information pages](https://www.imy.se/verksamhet/dataskydd/det-har-galler-enligt-gdpr/introduktion-till-gdpr/) - *Swedish*
-* European Commission [Data Protection information pages](https://ec.europa.eu/info/law/law-topic/data-protection/reform_en) - *English*
+* European Commission [Data Protection information pages](https://ec.europa.eu/info/law/law-topics/data-protection/reform_en) - *English*
 
 ## Further questions
 If you have further questions regarding sensitive personal data, you are welcome to contact the NBIS data manager (<data@nbis.se>).

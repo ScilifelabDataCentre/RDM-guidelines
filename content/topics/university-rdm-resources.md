@@ -128,6 +128,11 @@ The role of the data protection officer (dataskyddsombud) is to check that the G
       <td></td>
     </tr>
     <tr>
+      <td>Linnaeus University</td>
+      <td><a href = "mailto:dataskyddsombud@lnu.se">dataskyddsombud@lnu.se</a></td>
+      <td></td>
+    </tr>
+    <tr>
       <td>Lund University</td>
       <td><a href = "mailto:dataskyddsombud@lu.se">dataskyddsombud@lu.se</a></td>
       <td><a href="https://www.staff.lu.se/support-and-tools/legal-and-records-management/personal-data-and-data-protection/area-specific-information/research">Registration of personal data processing</a></td>
@@ -156,6 +161,11 @@ The role of the data protection officer (dataskyddsombud) is to check that the G
       <td>Uppsala University</td>
       <td><a href = "mailto:dataskyddsombud@uu.se">dataskyddsombud@uu.se</a></td>
       <td><a href="https://mp.uu.se/en/web/info/stod/dataskyddsforordningen">General Data Protection Regulation (GDPR) – how it works</a></td>
+    </tr>
+    <tr>
+      <td>Örebro University</td>
+      <td><a href = "mailto:dataskyddsombud@oru.se">dataskyddsombud@oru.se</a></td>
+      <td></td>
     </tr>
   </tbody>
   </table>

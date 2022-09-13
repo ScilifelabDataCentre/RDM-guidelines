@@ -1,7 +1,9 @@
 ---
-title: University research data support
+title: University RDM resources
 toc: True
 ---
+
+# University RDM resources
 
 ## University research data support, guidelines and policies
  Many universities have established a Research Data Office (RDO) or Data Access Unit (DAU) in order to help researchers with data management questions. Also, the libraries can most often give advice or redirect to local instances. In the table below you can find links and contact information to local offices and resources.
@@ -10,7 +12,7 @@ toc: True
   <table class="table table-hover table-bordered">
     <thead class="thead-light">
       <tr>
-        <th scope="col">University research data </th>
+        <th scope="col">University</th>
         <th scope="col">RDO</th>
         <th scope="col">Contact</th>
         <th scope="col">Research data guidelines and/or policies</th>
@@ -90,6 +92,74 @@ toc: True
 </div>
 
 For other sites, the Swedish National Data Service ([SND](https://snd.gu.se/en)) network is listed [here](https://snd.gu.se/en/about-us/snd-network).
+
+## Data Protection Officer (dataskyddsombud)
+
+The role of the data protection officer is to check that the General Data Protection Regulation (GDPR) is complied with within the organisation. If personal data is processed in your research, you should report this to your institute’s Data Protection Officer (DPO).
+
+<div class="table-responsive">
+  <table class="table table-hover table-bordered">
+    <thead class="thead-light">
+      <tr>
+        <th scope="col">University </th>
+        <th scope="col">Email</th>
+        <th scope="col">Link</th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>Chalmers University of Technology</td>
+      <td>dataskydd@chalmers.se</td>
+      <td><a href="https://www.chalmers.se/en/about-chalmers/processing-of-personal-data/">Processing of personal data</a></td>
+    </tr>
+    <tr>
+      <td>Karolinska Institutet</td>
+      <td>dataskyddsombud@ki.se</td>
+      <td><a href="https://staff.ki.se/personal-data-in-research">Personal data in research</a>
+    </tr>
+    <tr>
+      <td>KTH Royal Institute of Technology</td>
+      <td>dataskyddsombud@kth.se</td>
+      <td><a href="https://intra.kth.se/en/anstallning/anstallningsvillkor/att-vara-statligt-an/behandling-av-person">Processing of personal data at KTH</a></td>
+    </tr>
+    <tr>
+      <td>Linköping University</td>
+      <td>dataskyddsombud@liu.se</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lund University</td>
+      <td>dataskyddsombud@lu.se</td>
+      <td><a href="https://www.staff.lu.se/support-and-tools/legal-and-records-management/personal-data-and-data-protection/area-specific-information/research">Registration of personal data processing</a></td>
+    </tr>
+    <tr>
+      <td>Stockholm University</td>
+      <td>dso@su.se</td>
+      <td><a href="https://www.su.se/english/staff/organisation-governance/legal-information">GDPR at SU</a></td>
+    </tr>
+    <tr>
+      <td>Swedish University of Agricultural Sciences</td>
+      <td>dataskydd@slu.se</td>
+      <td><a href="https://internt.slu.se/en/support-services/administrative-support/legal-affairs-data-protection-info-management/data-protection/">Data protection and personal data</a></td>
+    </tr>
+    <tr>
+      <td>Umeå University</td>
+      <td>pulo@umu.se</td>
+      <td><a href="https://www.aurora.umu.se/stod-och-service/rad-och-riktlinjer/juridik-och-personuppgifter/personuppgifter">Personuppgifter</a></td>
+    </tr>
+    <tr>
+      <td>University of Gothenburg</td>
+      <td>dataskydd@gu.se</td>
+      <td><a href="https://medarbetarportalen.gu.se/diarieforing-arkivering-och-personuppgiftsbehandling/rutiner-for-behandling-av-personuppgifter/?languageId=100001&skipSSOCheck=true">Routines for processing personal data</a></td>
+    </tr>
+    <tr>
+      <td>Uppsala University</td>
+      <td>dataskyddsombud@uu.se</td>
+      <td><a href="https://mp.uu.se/en/web/info/stod/dataskyddsforordningen">General Data Protection Regulation (GDPR) – how it works</a></td>
+    </tr>
+  </tbody>
+  </table>
+</div>
 
 ## Related policies and guidelines
 * Swedish Research Council - [Good research practice (2017)](https://www.vr.se/english/analysis/reports/our-reports/2017-08-31-good-research-practice.html), [Recommendations of open access to research data](

@@ -93,16 +93,16 @@ toc: True
 
 For other sites, the Swedish National Data Service ([SND](https://snd.gu.se/en)) network is listed [here](https://snd.gu.se/en/about-us/snd-network).
 
-## Data Protection Officer (dataskyddsombud)
+## Data Protection Officer
 
-The role of the data protection officer is to check that the General Data Protection Regulation (GDPR) is complied with within the organisation. If personal data is processed in your research, you should report this to your institute’s Data Protection Officer (DPO).
+The role of the data protection officer (dataskyddsombud) is to check that the General Data Protection Regulation (GDPR) is complied with within the organisation. If personal data is processed in your research, you should report this to your institute’s Data Protection Officer (DPO).
 
 <div class="table-responsive">
   <table class="table table-hover table-bordered">
     <thead class="thead-light">
       <tr>
-        <th scope="col">University </th>
-        <th scope="col">Email</th>
+        <th scope="col">University</th>
+        <th scope="col">Contact</th>
         <th scope="col">Link</th>
       </tr>
     </thead>

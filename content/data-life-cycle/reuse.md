@@ -1,10 +1,5 @@
 ---
 title: Reusing phase
-menu:
-    bottom_cycle:
-        name: Reuse
-        identifier: reuse
-        weight: 70
 toc: True
 ---
 

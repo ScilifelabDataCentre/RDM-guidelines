@@ -5,11 +5,15 @@ menu:
         name: Research data life cycle
         identifier: research-data-life-cycle
         weight: 20
+    bottom_guidelines:
+        name: Research data life cycle
+        identifier: research-data-life-cycle
+        weight: 10
 ---
 
 ## Research data life cycle phases
 
-The research data life cycle can be divided into several phases as seen in the wheel below; **plan, collect, process, analyse, perserve, share** and **reuse**. Here you can find information about all of these seven phases. Click on a section of the wheel below to get an introduction to that phase of the research data life cycle. Each phase have information on relevant resources and training material listed. Note that some of the phases have data type specific information while others have more general information. Data type specific information is currently avaliable for **genomics data, imaging data, metabolomics data** and **proteomics data**.
+The research data life cycle can be divided into several phases as seen in the wheel below; **plan, collect, process, analyse, perserve, share** and **reuse**. Here you can find information about all of these seven phases. Click on a section of the wheel below to get an introduction to that phase of the research data life cycle, including information on relevant resources and training material. Note that some phases also have data type specific information, currently avaliable for **genomics data, imaging data, metabolomics data** and **proteomics data**.
 
   <div class="row mt-3">
     <div class="col-md-1">

@@ -1,10 +1,5 @@
 ---
 title: Sensitive data
-menu:
-    bottom_topic:
-        name: Sensitive data
-        identifier: sensitive-personal
-        weight: 10
 toc: True
 ---
 

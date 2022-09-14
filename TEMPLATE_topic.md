@@ -1,10 +1,6 @@
 ---
 title: <!-- add title -->
-menu:
-    bottom_about:
-        name: <!-- short name -->
-        identifier: <!-- key word -->
-        weight: 10
+category: <!-- add category -->
 toc: True
 ---
 

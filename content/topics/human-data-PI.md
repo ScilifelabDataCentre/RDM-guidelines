@@ -1,11 +1,6 @@
 ---
 title: Human data PI
 category: Human data
-menu:
-    bottom_topic:
-        name: Human data PI
-        identifier: human-data-pi
-        weight: 10
 toc: True
 ---
 
@@ -16,8 +11,8 @@ toc: True
 ## Human data - What you should as a PI
 * Be aware of that if your project contains human derived biomedical data, it is most probably ‘[sensitive data](#what-is-sensitive-personal-data)’.
 * Be aware of that [you](#who-is-responsible-for-the-data) (as an employee of your institute) must ensure that the GDPR (and other laws) are followed.
-* Be able to demonstrate that you follow the GDPR (see [human data legal reference page for more info](/topic/human-data-legal.md)). E.g. define the purpose for processing the data, decide on the legal basis, protect the data, etc
-* In case you work at a different institute than Uppsala University, ensure that there is a data processing agreement between your institute and Uppsala University. This is the legal instruction from you as the representative of the Controller to NBIS in the role of Processor. [General processing agreements](/topic/general-processing-agreements.md) have been established with some Swedish universities, and more are on their way.
+* Be able to demonstrate that you follow the GDPR (see [human data legal reference page for more info](/topics/human-data-legal.md)). E.g. define the purpose for processing the data, decide on the legal basis, protect the data, etc
+* In case you work at a different institute than Uppsala University, ensure that there is a data processing agreement between your institute and Uppsala University. This is the legal instruction from you as the representative of the Controller to NBIS in the role of Processor. [General processing agreements](/topics/general-processing-agreements.md) have been established with some Swedish universities, and more are on their way.
 * Inform the NBIS bioinformaticians about the conditions for what can and cannot be done to the data according to [ethical permit(s) and informed consent text(s)](#ethical-permits-and-informed-consents).
 * Define the procedures for how the personal data should be handled in the project, and communicate these to all involved, including NBIS bioinformaticians.
 * [Make the data available to the NBIS bioinformatician](#how-do-nbis-bioinformaticians-access-and-analyse-sensitive-personal-data) in a compute environment with a suitable level of security, which is typically the Bianca system at UPPMAX. If necessary, decide and approve alternative compute solutions outside of Bianca for NBIS bioinformaticians to use. Note that working with sensitive data outside of Bianca is highly discouraged, the motivation for which should be documented! In case you work at a different institute than Uppsala University, you need a data processing agreement between your institute and UPPMAX/Uppsala University for using the Bianca system - see [instructions](https://www.uppmax.uu.se/support/faq/general-miscellaneous-faq/sensitive+data+questions/) at UPPMAX.
@@ -25,9 +20,9 @@ toc: True
 * It is advisable that you have a strategy regarding if and how so called ‘[secondary findings](https://pubmed.ncbi.nlm.nih.gov/25150271/)’ should be acted on vis-a-vis the research subjects.
 * Deposit the data in a [controlled access repository](#how-do-i-publish-sensitive-personal-data), during (preferably) or after the project.
 
-Also consider going through this [Ethical, Legal and Social implications (ELSI) checklist](/topic/sensitive-data.md) for your project.
+Also consider going through this [Ethical, Legal and Social implications (ELSI) checklist](/topics/sensitive-data.md) for your project.
 
-You are welcome to contact the NBIS data manager for further consultation (<data@nbis.se>). Also, do consult with the [Data Protection Officer](/topic/data-protection-officer.md) (“Dataskyddsombud”) of your employer.
+You are welcome to contact the NBIS data manager for further consultation (<data@nbis.se>). Also, do consult with the [Data Protection Officer](/topics/data-protection-officer.md) (“Dataskyddsombud”) of your employer.
 
 ## More information
 ### What is sensitive personal data

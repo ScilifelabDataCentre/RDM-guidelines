@@ -1,10 +1,5 @@
 ---
 title: FAIR principles
-menu:
-    bottom_topic:
-        name: FAIR principles
-        identifier: fair-principles
-        weight: 10
 toc: True
 ---
 

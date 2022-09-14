@@ -202,3 +202,8 @@ clear: both;
         padding-bottom: 50%;
     }
 }
+
+/* Support block for the homepage */
+.support {
+    background-color: #491F53!important;
+}

@@ -1,10 +1,5 @@
 ---
 title: Analysing phase
-menu:
-    bottom_cycle:
-        name: Analyse
-        identifier: analyse
-        weight: 40
 toc: True
 ---
 
@@ -26,4 +21,4 @@ Facilities offering computational resources:
 * [Versioning module](https://nbisweden.github.io/module-versioning-dm-practices/)
 * For bioinformatics courses, please visit the [NBIS course catalogue](https://uppsala.instructure.com/courses/48087/pages/nbis-training-catalogue)
 * [Collaboration and communication systems](https://www.scilifelab.se/community-pages/systems-data#collaboration)
-* [Data transfer](/topic/data-transfer)
+* [Data transfer](/topics/data-transfer)

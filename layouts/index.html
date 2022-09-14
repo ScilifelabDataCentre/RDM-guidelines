@@ -5,38 +5,53 @@
     <div class="col-md-8">
       <div class="card-body">
         <h2><a href="/data-life-cycle/">Research data life cycle</a></h2>
-        <p class="card-text">Click on a section of the wheel below to get an introduction to that phase of the
-          research data life cycle.<br></p>
+        <p class="card-text">The research data life cycle can be divided into several phases as seen in the wheel below;
+          <b>plan, collect, process, analyse, perserve, share</b> and <b>reuse</b>. Click on a section of the wheel
+          below to get an introduction to that phase of the
+          research data life cycle, including information on relevant resources and training material.
+          <br></p>
         {{- partial "data_life_cycle.html" . -}}
+        <br>
       </div>
     </div>
-    <div class="col-md-4">
-      <div class="card-body">
-        <h2><a href="/topic/">Topics</a></h2>
-        <p class="card-text">Click on either of the links below to get an overview of individual research data
-          management topics. </p>
-        <div class="row g-3 cont-links">
-          {{ $topic := where .Site.RegularPages "Section" "topic" }}
-          {{ range $topic }}
-          <div class="col-sm-12 col-md-6 col-lg-6">
-            <div class="p-3 border rounded h-100">
-              <div class="d-flex justify-content-between">
-                <div>
-                  {{ if eq .Params.category "Human data"}}
-                  <i class="bi bi-person-fill"></i>
-                  {{else}}
-                  <i class="bi bi-info-square"></i>
-                  {{ end }}
-                  <b>
-                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-                  </b>
-                </div>
-              </div>
-            </div>
-          </div>
-          {{ end }}
+    <div class="col-md-3 offset-md-1 pt-4">
+      <div class="card-body text-white support">
+        <h2><a style="color:white" href="/contact/">Get Support</a></h2>
+        <p class="card-text">Do you need support with research data management?<br><br>We offer support to anyone
+          involved in life science research that is affiliated with a Swedish university or research institute.
+          <br></p>
+        <div class="row text-white">
+          <h6><b><a style="color:white" href="/contact/">Click here to get support <i
+                  class="bi bi-arrow-right-circle-fill"></i></a></b></h6>
         </div>
       </div>
     </div>
+    <div class="row mt-2">
+      <div class="col-md-12">
+        <div class="card-body">
+          <h2 class="card-title no-anchor"><a href="/topics/">Topics</a></h2>
+          <p class="card-text">Click on either of the links below to get an overview of individual research data
+            management topics. </p>
+          <div class="row g-3 cont-links">
+            {{ $topic := where .Site.RegularPages "Section" "topics" }}
+            {{ range $topic }}
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <div class="p-3 border rounded h-100">
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <i class="bi bi-info-square"></i>
+                    <b>
+                      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    </b>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 {{ end }}

@@ -1,10 +1,5 @@
 ---
 title: Data Protection Officer
-menu:
-    bottom_topic:
-        name: Data Protection Officer
-        identifier: data-protection-officer
-        weight: 10
 toc: True
 ---
 

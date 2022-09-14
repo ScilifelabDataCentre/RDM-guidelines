@@ -151,13 +151,13 @@ h5 a:hover {
 /* Homepage */
 
 .cont-links a {
-  color: #045C64;
+  color: #491F53;
 }
 
 .cont-links a:hover,
 .cont-links a:focus,
 .cont-links a:active {
-    color: #045C64;
+    color: #491F53;
     text-decoration: underline;
 }
 

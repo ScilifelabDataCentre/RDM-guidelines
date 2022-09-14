@@ -14,7 +14,8 @@
         <br>
       </div>
     </div>
-    <div class="col-md-3 offset-md-1 pt-4">
+    <div class="col-md-3 offset-md-1 pt-2">
+      <div class="card-body pb-2">
       <div class="card-body text-white support">
         <h2><a style="color:white" href="/contact/">Get Support</a></h2>
         <p class="card-text">Do you need support with research data management?<br><br>We offer support to anyone
@@ -25,6 +26,30 @@
                   class="bi bi-arrow-right-circle-fill"></i></a></b></h6>
         </div>
       </div>
+      </div>
+      <div class="card-body pb-2">
+        {{ with .Site.GetPage "Section" "updates" }}
+        {{ $next_update := slice }}
+        {{ range sort .RegularPages ".Params.date_start" "asc" }}
+        {{ if gt (.Params.date_start | time.Format "20060102") (now | time.Format "20060102") }}
+        {{ $next_update = $next_update | append . }}
+        {{ end }}
+        {{ end }}
+        {{ range first 1 $next_update }}
+        <div class="card-body text-white update">
+          <h2>{{ .Title }}</h2>
+          {{ if eq .Params.category "event"}}
+          <p class="card-text">{{ .Description }}<br><br>Next date: {{ .Params.date_start | time.Format ":date_medium" }}</p>
+          {{else }}
+          <p class="card-text">{{ .Description }}</p>
+          {{ end }}
+          <div class="row text-white">
+            <h6><b><a style="color:white" href={{ .Params.update_url }}>More information <i class="bi bi-arrow-right-circle-fill"></i></a></b></h6>
+        </div>
+      </div>
+      {{ end }}
+      {{ end }}
+    </div>
     </div>
     <div class="row mt-2">
       <div class="col-md-12">

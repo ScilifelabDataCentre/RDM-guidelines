@@ -6,7 +6,8 @@ toc: True
 # University RDM resources
 Most often there are information resources at your university regarding research data management (RDM). There might be policies that you as an employee need to be aware of, tools offered to help you apply good data managment practices in your projects, and support offered to answer questions that arise while working with your data throughout it's life cycle. Please find below a collection of university specific links and contact information.
 
-## University research data support, guidelines and policies
+
+## Research data support, guidelines and policies
  Many universities have established a Research Data Office (RDO) or Data Access Unit (DAU) in order to help researchers with data management questions. Also, the libraries can most often give advice or redirect to local instances. In the table below you can find links and contact information to local offices and resources.
 
 <div class="table-responsive">
@@ -82,7 +83,8 @@ Most often there are information resources at your university regarding research
 
 For other sites, the Swedish National Data Service ([SND](https://snd.gu.se/en)) network is listed [here](https://snd.gu.se/en/about-us/snd-network).
 
-## Data Protection Officer
+
+## Data Protection Officers
 
 The role of the data protection officer (dataskyddsombud) is to check that the General Data Protection Regulation (GDPR) is complied with within the organisation. If personal data is processed in your research, you should report this to your institute’s Data Protection Officer (DPO).
 
@@ -159,6 +161,7 @@ The role of the data protection officer (dataskyddsombud) is to check that the G
   </tbody>
   </table>
 </div>
+
 
 ## Related policies and guidelines
 * Swedish Research Council - [Good research practice (2017)](https://www.vr.se/english/analysis/reports/our-reports/2017-08-31-good-research-practice.html), [Recommendations of open access to research data](

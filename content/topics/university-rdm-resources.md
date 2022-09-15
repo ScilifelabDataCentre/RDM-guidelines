@@ -4,7 +4,7 @@ toc: True
 ---
 
 # University RDM resources
-Most often there are information resources at your university regarding research data management (RDM). There might be policies that you as an employee need to be aware of, there might be tools offered to help you apply good data managment practices in your projects, and there might be support offered to answer questions that might arise while working with your data throughout it's life cycle. Please find below a collection of university specific links and contact information.
+Most often there are information resources at your university regarding research data management (RDM). There might be policies that you as an employee need to be aware of, tools offered to help you apply good data managment practices in your projects, and support offered to answer questions that arise while working with your data throughout it's life cycle. Please find below a collection of university specific links and contact information.
 
 ## University research data support, guidelines and policies
  Many universities have established a Research Data Office (RDO) or Data Access Unit (DAU) in order to help researchers with data management questions. Also, the libraries can most often give advice or redirect to local instances. In the table below you can find links and contact information to local offices and resources.

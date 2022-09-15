@@ -39,7 +39,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-    color: #4C979F;
+    color: #045C64;
     text-decoration: underline;
 }
 
@@ -174,15 +174,15 @@ clear: both;
 }
 
 .btn-primary.collapsed {
-    background-color: #4C979F !important;
+    background-color: #491F53 !important;
     color: white !important;
-    border-color:#4C979F;
+    border-color:#491F53;
 }
 
 .btn-primary:not(.collapsed) {
-    background-color: #4C979F !important;
+    background-color: #491F53 !important;
     color: white !important;
-    border-color: #4C979F !important;
+    border-color: #491F53 !important;
 }
 
 // RDM wheel frontpage

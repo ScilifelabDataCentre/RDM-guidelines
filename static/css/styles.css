@@ -32,14 +32,14 @@ blockquote {
 }
 
 a {
-    color: #77577E;
+    color: #4C979F;
     text-decoration: none;
 }
 
 a:hover,
 a:focus,
 a:active {
-    color: #491F53;
+    color: #045C64;
     text-decoration: underline;
 }
 
@@ -48,7 +48,7 @@ h3 a:hover,
 h4 a:hover,
 h5 a:hover {
   text-decoration: none;
-  color: #491F53;
+  color: #045C64;
 }
 
 .header {
@@ -123,14 +123,14 @@ h5 a:hover {
 
 /* Main menu */
 .navbar-light .navbar-nav .nav-main-menu {
-    color: #77577E;
+    color: #4C979F;
 }
 
 .navbar-light .navbar-nav .nav-main-menu:hover,
 .navbar-light .navbar-nav .nav-main-menu:focus,
 .navbar-light .navbar-nav .nav-main-menu:active,
 .navbar-light .navbar-nav .nav-main-menu.active {
-    color: #491F53;
+    color: #045C64;
     text-decoration: none;
 }
 
@@ -151,13 +151,13 @@ h5 a:hover {
 /* Homepage */
 
 .cont-links a {
-  color: #045C64;
+  color: #491F53;
 }
 
 .cont-links a:hover,
 .cont-links a:focus,
 .cont-links a:active {
-    color: #045C64;
+    color: #491F53;
     text-decoration: underline;
 }
 
@@ -174,15 +174,15 @@ clear: both;
 }
 
 .btn-primary.collapsed {
-    background-color: #4C979F !important;
+    background-color: #491F53 !important;
     color: white !important;
-    border-color:#4C979F;
+    border-color:#491F53;
 }
 
 .btn-primary:not(.collapsed) {
-    background-color: #4C979F !important;
+    background-color: #491F53 !important;
     color: white !important;
-    border-color: #4C979F !important;
+    border-color: #491F53 !important;
 }
 
 // RDM wheel frontpage

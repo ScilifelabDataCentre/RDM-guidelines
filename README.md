@@ -8,7 +8,7 @@ This is the repository for SciLifelab Research Data Management (RDM) guidelines,
 * Currently many sources of information regarding research data management exists:
   * NBIS web
   * SciLifeLab web
-  * SciLifeLab Data Guidelines 
+  * SciLifeLab Data Guidelines
   * etc
 
 There is a need to make a unified set of guidelines that can then be used as a resource and reference for the life science community and also for other web pages/sites/content
@@ -54,8 +54,8 @@ If you prefer, you can edit the website files on your computer in your favourite
 Just fork the repository to your machine:
 
 ```bash
-git clone git@github.com:[YOUR-USERNAME]/RDM-guidelines.git
-cd RDM-guidelines.se
+git clone git@github.com:[YOUR-USERNAME]/RDM-guidelines
+cd RDM-guidelines
 ```
 
 To make it easier to pull in changes made by others, you can add the main repository as a remote:
@@ -67,7 +67,7 @@ git remote add upstream https://github.com/ScilifelabDataCentre/RDM-guidelines.g
 Then you can fetch changes at any time from this remote:
 
 ```bash
-git pull upstream develop
+git pull upstream main
 ```
 
 When you have finished editing, commit and push to your fork:

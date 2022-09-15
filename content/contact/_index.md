@@ -11,8 +11,8 @@ menu:
         weight: 20
 ---
 
-The SciLifeLab RDM guidelines are maintained by the SciLifeLab Data Centre and NBIS. We welcome contributions, suggestions, and questions related to the website content. For example, you can suggest [a new topic](/topics/) or an update to current [research data life cycle](/data-life-cycle/) or [topic](/topics/) pages.
+The SciLifeLab RDM guidelines are maintained by the SciLifeLab Data Centre and NBIS. We welcome suggestions, contributions, and questions related to the content of this site. This could include, for example, a suggestion for [a topic](/topics/) that is not currently covered. Alternatively, you can request an update or correction to particular pages.
 
-You can also get in touch with us by emailing us at [data-management@scilifelab.se](mailto:data-management@scilifelab.se).
+You can fill in the below form to get in touch with us. If you prefer though, you can instead email us at [data-management@scilifelab.se](mailto:data-management@scilifelab.se).
 
 ### Contact form

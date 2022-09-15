@@ -12,7 +12,7 @@ Most often there are information resources at your university regarding research
 
 <div class="table-responsive">
   <table class="table table-hover table-bordered">
-    <thead class="thead-light">
+    <thead class="table-active">
       <tr>
         <th scope="col">Research Data Office</th>
         <th scope="col">Contact</th>
@@ -90,7 +90,7 @@ The role of the data protection officer (dataskyddsombud) is to check that the G
 
 <div class="table-responsive">
   <table class="table table-hover table-bordered">
-    <thead class="thead-light">
+    <thead class="table-active">
       <tr>
         <th scope="col">University</th>
         <th scope="col">Contact</th>

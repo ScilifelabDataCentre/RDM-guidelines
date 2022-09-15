@@ -72,7 +72,7 @@ Most often there are information resources at your university regarding research
       <td></td>
     </tr>
     <tr>
-      <td><a href="https://www.oru.se/english/research/research-support/starting-up-your-research-project/data-management-plan-components/do-you-need-help-with-your-research-data/">Örebro University/a></td>
+      <td><a href="https://www.oru.se/english/research/research-support/starting-up-your-research-project/data-management-plan-components/do-you-need-help-with-your-research-data/">Örebro University</a></td>
       <td>See web page for contact information</td>
       <td><a href="https://www.oru.se/english/research/research-support/applying-for-research-funding/managing-your-research-data/research-data-policy-for-orebro-university/">Research data policy</a></td>
     </tr>
@@ -92,7 +92,7 @@ The role of the data protection officer (dataskyddsombud) is to check that the G
       <tr>
         <th scope="col">University</th>
         <th scope="col">Contact</th>
-        <th scope="col">Link</th>
+        <th scope="col">Processing personal data guidelines</th>
       </tr>
     </thead>
     <tbody>

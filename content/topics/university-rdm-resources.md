@@ -38,6 +38,11 @@ Most often there are information resources at your university regarding research
       <td><a href="https://intra.kth.se/polopoly_fs/1.1037531.1608134528!/Guidelines-on-managing-research-data.pdf">Guidelines on managing research data</a></td>
     </tr>
     <tr>
+      <td><a href="https://ep.liu.se/en/datamanagement.aspx">Linköping University</td>
+      <td><a href = "mailto:datamanagement@liu.se">datamanagement@liu.se</a></td>
+      <td></td>
+    </tr>    
+    <tr>
       <td><a href="https://lnu.se/en/medarbetare/researcher/researcher5/research-data/">Linnaeus University</td>
       <td><a href = "mailto:dau@lnu.se">dau@lnu.se</a></td>
       <td><a href="https://lnu.se/globalassets/dokument---gemensamma/bibliotek/sektion-publicering/policy-for-hantering-av-forskningsdata.pdf">Research data policy (in swedish)</a></td>

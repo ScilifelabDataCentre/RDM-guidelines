@@ -1,21 +1,20 @@
 ---
-title: Human data legal reference
-category: Human data
+title: GDPR - legal reference
 toc: True
 ---
 
-# Legal reference - Personal data
->This section is an attempt to describe the reasoning behind the NBIS guidelines regarding working with human data in more detail by referring to relevant sections of the **General Data Protection Regulation (GDPR)**, the EU-wide legislation that stipulates how personal data should be handled.
+# Legal reference - General Data Protection Regulation (GDPR)
+>This section is an attempt to describe the reasoning behind the [guidelines regarding working with human data](/topics/research-involving-human-data) in more detail by referring to relevant sections of the **General Data Protection Regulation (GDPR)**, the EU-wide legislation that stipulates how personal data should be handled.
 >
 >Note that this information is our understanding of the legislation, and does not constitute legal advice in individal cases. Please consult the legal office of your university if you need assistance.
 
 The entity who decides on why and how personal data should be processed is called [Controller](#controller). In an academic research context, this is the university that employs the PI(s) responsible for the research project. All employees of a university are obliged to process personal data according to the GDPR.
 
-A Controller can decide to use another entity to help process the data. That entity is called a [Processor](#processor). The Controller must instruct the Processor how the data is to be processed in a legaly binding [contract](#contract-controller-processor), and the Processor must be able to show that he adheres to the GDPR when processing data on behalf of the Controller.
+A Controller can decide to use another entity to help process the data. That entity is called a [Processor](#processor). The Controller must instruct the Processor how the data is to be processed in a legaly binding [contract](#contract-controller-processor), and the Processor must be able to show that they adhere to the GDPR when processing data on behalf of the Controller.
 
-Human DNA or RNA sequence data is [sensitive personal data](#sensitive-data), as it is [genetic data](#genetic-data). This is probably to be considered true in most cases even if the sequence data is not accompanied with any other data, as it will be a factor “specific to the […] genetic […] identity of that natural person” ([Article 4 (1)](#personal-data)).
+Human DNA or RNA sequence data is [sensitive personal data](#sensitive-data), as it is [genetic data](#genetic-data). This is probably to be considered true in most cases even if the sequence data is not accompanied with any other data, as it will be a factor “specific to the […] genetic […] identity of that natural person” ([Article 4 (1)](#personal-data)). <!-- copied from PI page -->Aggregated data (like population frequencies) might not be considered sensitive anymore, but a decision has to be made on a case-to-case basis.
 
-Even if the data is only referred to by an identifier that is not associated with the individual, and the researchers processing the data are not themselves in possession of the key of how the identifier relates to the individual, the data is still personal data, as the person can be [identified indirectly](#personal-data). In this case the data is said to be [pseudonymised](#pseudonymisation).
+Even if the data is only referred to by an identifier that is not associated with the individual, and the researchers processing the data are not themselves in possession of the key of how the identifier relates to the individual, the data is still personal data, as the person can be [identified indirectly](#personal-data). In this case the data is said to be [pseudonymised](#pseudonymisation). <!-- copied and rephrased from PI page -->Data should be processed in pseudonymised form whenever possible, meaning that no directly identifiable information about the research subjects is included in the data and metadata.
 
 As defined in [Article 5](#principles-of-processing-of-personal-data), to process personal data, the Controller must:
 
@@ -37,7 +36,7 @@ It is important that all personnel that process the data are aware of the purpos
 
 A researcher processing personal data should therefore have defined the **legal basis** and the **purpose** for processing that data, and what (and only what) data is needed to perform the purpose. Furthermore, to have defined what procedures are to be used to ensure that data is correct and protected. The [security measures](#security-of-processing) taken should be based on an evaluation of the risks for, and consequences of, the personal data not being correct and protected. Appropriate technical and organisational measures shall be implemented to ensure a level of security appropriate to the risk. It is advisable that the researcher seek guidance from the legal and information security functions of the university adminstration about this.
 
-The UPPMAX [Bianca](http://www.uppmax.uu.se/support/user-guides/bianca-user-guide/) system has been designed to have technical and information security procedures that are appropriate for processing sensitive human data for analysis. Using this systems then relieves the researcher from having to define these technical and security procedures him/herself (at least for the analysis phase of a project). The researcher can decide to analyse (sensitive) personal data elsewhere, but then he/she will have to define the appropriate procedures.
+The UPPMAX [Bianca](http://www.uppmax.uu.se/support/user-guides/bianca-user-guide/) system has been designed to have technical and information security procedures that are appropriate for processing sensitive human data for analysis. Using this systems then relieves the researcher from having to define these technical and security procedures themselves (at least for the analysis phase of a project). The researcher can decide to analyse (sensitive) personal data elsewhere, but then they will have to define the appropriate procedures. <!-- copied from PI page -->In case the Controller work at a different institute than Uppsala University, a data processing agreement between that institute and UPPMAX/Uppsala University, needs to be established - see [instructions](https://www.uppmax.uu.se/support/faq/general-miscellaneous-faq/sensitive+data+questions/) at UPPMAX.
 ___
 ## Legal references for key concepts
 ### Personal data
@@ -123,4 +122,4 @@ Exercise of official authority or task in the public interest: The data controll
 * European Commission [Data Protection information pages](https://ec.europa.eu/info/law/law-topics/data-protection/reform_en) - *English*
 
 ## Further questions
-If you have further questions regarding sensitive personal data, you are welcome to contact the NBIS data manager (<data@nbis.se>).
+If you have further questions regarding sensitive personal data, you are welcome to contact the SciLifeLab data management team (<data-management@scilifelab.se>).

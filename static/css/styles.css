@@ -207,3 +207,8 @@ clear: both;
 .support {
     background-color: #491F53!important;
 }
+
+/* Support block for the homepage */
+.update {
+    background-color: #045C64!important;
+}

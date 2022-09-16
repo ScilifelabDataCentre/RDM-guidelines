@@ -3,8 +3,7 @@ title: Analysing phase
 toc: True
 ---
 
-## Analysing
-<!-- About/intro to the phase -->
+# Analysing
 During this phase the collected data, both the re-used data and the data created for this project, is explored. Things to consider is where to do the analysis, who is going to do it, and how the steps of the analysis is going to be documented. If working with sensitive data, there might be a need for extra security measures as well as ensuring that all necessary agreements are in place.
 
 Facilities which offer data analysis services:

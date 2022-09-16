@@ -1,5 +1,6 @@
 ---
 title: Contact
+header_image: /img/illustrations/circos_banner.png
 menu:
     navbar_top:
         name: Contact

@@ -3,7 +3,7 @@ title: Privacy Policy
 toc: true
 ---
 
-SciLifeLab Data Centre at Uppsala University operates the [https://RDM-guidelines](https://RDM-guidelines) website which provides the **SERVICE**.
+SciLifeLab Data Centre at Uppsala University operates the https://data-guidelines.scilifelab.se/](https://data-guidelines.scilifelab.se/) website which provides the **Service**.
 
 This page is used to inform website visitors regarding our personal data processing policy. If you choose to use our **Service**, then your personal data will be processed in accordance with this policy.
 
@@ -18,11 +18,11 @@ You can opt out of your Log Data being collected below:
 
 <iframe style="border: 0; height: 150px; width: 600px;" src="https://matomo.dckube.scilifelab.se/index.php?module=CoreAdminHome&action=optOut&language=en&fontFamily=Arial"></iframe>
 
-## Forms
+## Contact form
 
-Our **Service** contains a number of forms through which the website visitors may choose to get in touch with us or send us suggestions. The website visitors may choose to provide their personal information such as, for example, their name and e-mail address, through these forms.
+Our **Service** contains a contact form through which the website visitors may choose to get in touch with us or send us suggestions. The website visitors may choose to provide their personal information such as, for example, their name and e-mail address, through this form.
 
-The following parties will have access to processing the personal data provided through the forms: SciLifeLab Data Centre, Uppsala University. Your personal data will be deleted when no longer needed, or when stipulated by the archival rules for the university as a government authority. If you want to update or remove your personal data please contact the controller SciLifeLab Data Centre at Uppsala University using datacentre@scilifelab.se.
+The following parties will have access to processing the personal data provided through the form: SciLifeLab Data Centre, Uppsala University. Your personal data will be deleted when no longer needed, or when stipulated by the archival rules for the university as a government authority. If you want to update or remove your personal data please contact the controller SciLifeLab Data Centre at Uppsala University using datacentre@scilifelab.se.
 
 ## Links to Other Sites
 

@@ -3,7 +3,7 @@ title: GDPR - legal reference
 toc: True
 ---
 
-# Legal reference - General Data Protection Regulation (GDPR)
+# GDPR - legal reference
 >This section is an attempt to describe the reasoning behind the [guidelines regarding working with human data](/topics/research-involving-human-data) in more detail by referring to relevant sections of the **General Data Protection Regulation (GDPR)**, the EU-wide legislation that stipulates how personal data should be handled.
 >
 >Note that this information is our understanding of the legislation, and does not constitute legal advice in individal cases. Please consult the legal office of your university if you need assistance.

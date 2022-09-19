@@ -51,6 +51,17 @@ h5 a:hover {
   color: #045C64;
 }
 
+h2 {
+    margin-top: 2rem;
+}
+h3 {
+    margin-top: 1rem;
+}
+h4,h5,h6 {
+    margin-top: 0.5rem;
+}
+
+
 .header {
     background-position: center;
     background-repeat: no-repeat;

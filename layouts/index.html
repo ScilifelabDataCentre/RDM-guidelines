@@ -14,20 +14,20 @@
         <br>
       </div>
     </div>
-    <div class="col-md-3 offset-md-1 pt-2">
-      <div class="card-body pb-2">
+    <div class="col-md-3 offset-md-1 pb-3 pt-5 px-2">
+      <div class="card-body pb-4 px-0 pt-0">
       <div class="card-body text-white support">
-        <h2><a style="color:white" href="/contact/">Get Support</a></h2>
+        <h4><a style="color:white" href="/contact/">Get Support</a></h4>
         <p class="card-text">Do you need support with research data management?<br><br>We offer support to anyone
           involved in life science research that is affiliated with a Swedish university or research institute.
           <br></p>
         <div class="row text-white">
           <h6><b><a style="color:white" href="/contact/">Click here to get support <i
-                  class="bi bi-arrow-right-circle-fill"></i></a></b></h6>
+                  class="bi bi-arrow-right-circle-fill"></i></a></b></h6><br>
         </div>
       </div>
       </div>
-      <div class="card-body pb-2">
+      <div class="card-body pb-4 pt-0 px-0">
         {{ with .Site.GetPage "Section" "updates" }}
         {{ $next_update := slice }}
         {{ range sort .RegularPages ".Params.date_start" "asc" }}
@@ -37,14 +37,14 @@
         {{ end }}
         {{ range first 1 $next_update }}
         <div class="card-body text-white update">
-          <h2>{{ .Title }}</h2>
+          <h4>{{ .Title }}</h4>
           {{ if eq .Params.category "event"}}
           <p class="card-text">{{ .Description }}<br><br>Next date: {{ .Params.date_start | time.Format ":date_medium" }}</p>
           {{else }}
           <p class="card-text">{{ .Description }}</p>
           {{ end }}
           <div class="row text-white">
-            <h6><b><a style="color:white" href={{ .Params.update_url }}>More information <i class="bi bi-arrow-right-circle-fill"></i></a></b></h6>
+            <h6><b><a style="color:white" href={{ .Params.update_url }}>More information <i class="bi bi-arrow-right-circle-fill"></i></a></b></h6><br>
         </div>
       </div>
       {{ end }}

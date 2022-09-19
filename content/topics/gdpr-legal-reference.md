@@ -4,9 +4,12 @@ toc: True
 ---
 
 # GDPR - legal reference
->This section is an attempt to describe the reasoning behind the [guidelines regarding working with human data](/topics/research-involving-human-data) in more detail by referring to relevant sections of the **General Data Protection Regulation (GDPR)**, the EU-wide legislation that stipulates how personal data should be handled.
->
->Note that this information is our understanding of the legislation, and does not constitute legal advice in individal cases. Please consult the legal office of your university if you need assistance.
+
+<div class="alert alert-warning" role="alert">
+  This section is an attempt to describe the reasoning behind the <a style="color:black"href="/topics/research-involving-human-data">guidelines regarding working with human data</a> in more detail by referring to relevant sections of the <b>General Data Protection Regulation (GDPR)</b>, the EU-wide legislation that stipulates how personal data should be handled.
+  <br><br>
+  Note that this information is our understanding of the legislation, and does not constitute legal advice in individal cases. Please consult the legal office of your university if you need assistance.
+</div>
 
 The entity who decides on why and how personal data should be processed is called [Controller](#controller). In an academic research context, this is the university that employs the PI(s) responsible for the research project. All employees of a university are obliged to process personal data according to the GDPR.
 

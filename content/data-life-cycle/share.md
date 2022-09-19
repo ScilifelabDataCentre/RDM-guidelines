@@ -3,8 +3,7 @@ title: Sharing phase
 toc: True
 ---
 
-## Sharing
-
+# Sharing
 In the era of [FAIR](/topics/fair-principles) (Findable, Accessible, Interoperable and Reusable) and [Open science](https://www.vr.se/english/mandates/open-science/open-access-to-research-data.html), datasets should be made available to the public. Whenever possible, domain-specific repositories should be used in order to increase the FAIRness of your research outputs. Click on the buttons below for data type specific information regarding suitable repositories.
 
 <p>

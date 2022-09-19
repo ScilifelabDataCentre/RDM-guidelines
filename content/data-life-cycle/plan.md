@@ -3,7 +3,7 @@ title: Planning phase
 toc: True
 ---
 
-## Planning
+# Planning
 During this phase you plan for which data is needed to answer your research question, and how that data is going to be managed during as well as after the project.
 
 It is wise to write a data management plan (DMP), using either a tool provided by your university or [DS wizard](https://dsw.scilifelab.se/) provided by SciLifeLab. The main benefits of writing a DMP are to document how the data is managed and identify possible gaps in the current data management practices. Think of the DMP as a checklist to go through when planning for a new project.

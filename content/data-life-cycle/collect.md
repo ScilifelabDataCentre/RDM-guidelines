@@ -4,7 +4,6 @@ toc: True
 ---
 
 # Collecting
-
 During this phase all necessary data to be analysed in the project is collected, either by generating new datasets or by [reusing](data-life-cycle/reuse) earlier collected datasets. This phase lays the foundation of the quality of both the data and the accompanying documentation. Hence, it is important that quality measures are implemented and that all steps of collection is appropriately recorded.
 
 ## Documentation

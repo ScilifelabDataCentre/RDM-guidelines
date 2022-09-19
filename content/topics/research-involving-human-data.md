@@ -5,6 +5,10 @@ toc: True
 
 # Research involving human data
 
+<div class="alert alert-danger" role="alert">
+  The PI, as well as everyone with access to sensitive personal data, is responsible for following current laws and regulations, and SciLifeLab will not assume legal responsibility for advice provided in these guidelines.
+</div>
+
 >***Disclaimer!** The PI, as well as everyone with access to sensitive personal data, is responsible for following current laws and regulations, and SciLifeLab will not assume legal responsibility for advice provided in these guidelines.* <!-- probably need a bit more disclaimer text -->
 
 ## What is human data?
@@ -72,7 +76,7 @@ Traditionally, consent has been the basis for processing personal data for resea
 
 Also note that even if public interest is the legal basis, other laws and research ethics standards might still require you to have consent from the subjects for performing the research.
 
-#### Data Processing 
+#### Data Processing
 <!-- what is meant / definition; storage & analysis by other than the controller requires agreement -->
 All processing of personal data must comply with the [Principles relating to processing of personal data](/topics/gdpr-legal-reference/#principles-of-processing-of-personal-data) in the GDPR.
 
@@ -80,17 +84,17 @@ All processing of personal data must comply with the [Principles relating to pro
 <!-- Data processing agreement, data transfer agreement, data access agreement -->
 * A Data Processing Agreement is needed when a Processor (someone from a different university than the controller) is processing the data (e.g. storing or analysing) on behalf of the Controller.
 <!-- * A Data Transfer Agreement is needed when... -->
-<!-- * A Data Access Agreement is needed when... --> 
+<!-- * A Data Access Agreement is needed when... -->
 
 ##### Responsibilities <!-- controller versus processor -->
 As a Controller you should:
 * Ensure that data processing agreements are established when needed.
-* Ensure that all Processors are informed on what can and cannot be done to the data. 
+* Ensure that all Processors are informed on what can and cannot be done to the data.
 * Ensure that all processing is done in a compute environment with a suitable level of security, e.g. [Bianca at Uppmax](http://www.uppmax.uu.se/support/user-guides/bianca-user-guide/).
 
 As a Processor you should:
 * Only handle the data according to the instructions from the Controller.
-* In the case of a [data breach](/topics/gdpr-legal-reference/#data-breach), accidental or otherwise, immediatly report the incident to the Controller. 
+* In the case of a [data breach](/topics/gdpr-legal-reference/#data-breach), accidental or otherwise, immediatly report the incident to the Controller.
 
 #### Data Protection Impact Assessment (DPIA)
 A Data Protection Impact Assessment (DPIA) is needed if the personal data processing is likely to result in a high risk to individual people's rights ([IMY on Impact assessments and prior consultation](https://www.imy.se/en/organisations/data-protection/this-applies-accordning-to-gdpr/impact-assessments-and-prior-consultation/)). The purpose of a DPIA is to prevent risks before they occur, by identifying what risks exist and draw up procedures to meet those risks. In order be able to decide if a DPIA is needed, you should perform a risk analysis. Analyse what risks your personal data processing may involve and suggest appropriate security measures. Document your findings so that you can demonstrate that you comply with the GDPR. If the risk analysis shows that a DPIA is needed, there are tools to help you e.g. [PIA software from CNIL](https://www.cnil.fr/en/open-source-pia-software-helps-carry-out-data-protection-impact-assessment).
@@ -126,5 +130,4 @@ When you prepare the information for the participants, it might be a good to thi
 * Consider using the Ethical, Legal and Social Implications (ELSI) checklist developed by the [Tryggve project](https://neic.no/tryggve/). It was developed with cross-border collaborative projects in mind, but it should be useful for other research projects as well. It is available as a [MS Word file](https://neic.no/tryggve/files/Tryggve_ELSI_checklist_v1.0_2019-12-17.docx) and in the [SciLifeLab Data Stewardship Wizard](https://dsw.scilifelab.se/):
   1. Log in using your university credentials
   1. Click on Projects in the left sidebar, and click the Create button
-  1. Choose *ELSI Checklist Template* 
-
+  1. Choose *ELSI Checklist Template*

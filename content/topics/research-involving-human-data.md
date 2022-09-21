@@ -36,7 +36,7 @@ The person who decides how and why the personal data should be processed is resp
 ## Am I allowed to share data about humans?
 Anonymised data can be shared publicly, but you have to first be sure that the data is truly anonymous which can be hard, especially if you are working with genetic data. <!-- need to add info on what anonymous means, I can't find an official definition -->
 
-Personal data may be possible to share under some circumstances. Make sure to follow GDPR, the ethical review act and other relevant regulations, see further information below regarding [considerations](#considerations-when-working-with-human-data).
+Personal data may be allowed to be shared under some circumstances. Make sure to follow GDPR, the ethical review act and other relevant regulations, see further information below regarding [considerations](#considerations-when-working-with-human-data).
 
 <!-- Data processing agreement, data transfer agreement, data access agreement -->
 

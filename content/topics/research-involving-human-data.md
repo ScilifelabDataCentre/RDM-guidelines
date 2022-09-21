@@ -21,16 +21,14 @@ Some personal data are regarded as [sensitive](https://ec.europa.eu/info/law/law
 ## Important regulations to follow
 Please find below an overview of relevant regulations to follow when doing research involving human data.
 
-### General Data Protection Regulation (GDPR)
-All research involving personal data must comply with the [General Data Protection Regulation (GDPR)](https://gdpr-info.eu/).
-[Swedish Authority for Privacy Protection (IMY)](https://www.imy.se/en/) upholds the protection of personal data, monitors that they are handled correctly and do not fall into the wrong hands. See also [GDPR considerations](#gdpr-considerations) further below.
+* **General Data Protection Regulation (GDPR)** – All research involving personal data must comply with the [General Data Protection Regulation (GDPR)](https://gdpr-info.eu/).
+The [Swedish Authority for Privacy Protection (IMY)](https://www.imy.se/en/) upholds the protection of personal data, monitors that they are handled correctly and do not fall into the wrong hands. See also [GDPR considerations](#gdpr-considerations) further below.
 
-### The Ethical Review Act
-Ethical review by [Etikprövningsmyndigheten](https://etikprovningsmyndigheten.se/) is needed when research involves human data, according to the Swedish ethical review act ([Lag (2003:460) om etikprövning av forskning som avser människor](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2003460-om-etikprovning-av-forskning-som_sfs-2003-460) - *Swedish*). See also [Ethical considerations](#ethical-considerations) further below.
+* **The Ethical Review Act** – Ethical review by [Etikprövningsmyndigheten](https://etikprovningsmyndigheten.se/) is needed when research involves human data, according to the Swedish ethical review act ([Lag (2003:460) om etikprövning av forskning som avser människor](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2003460-om-etikprovning-av-forskning-som_sfs-2003-460) - *Swedish*). See also [Ethical considerations](#ethical-considerations) further below.
 
-### Other regulations
-* [The Patient Data Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/patientdatalag-2008355_sfs-2008-355)
-* [The Biobank Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2002297-om-biobanker-i-halso--och_sfs-2002-297)
+* **Other regulations**
+  * [The Patient Data Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/patientdatalag-2008355_sfs-2008-355)
+  * [The Biobank Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2002297-om-biobanker-i-halso--och_sfs-2002-297)
 
 ## Who is responsible for the data?
 The person who decides how and why the personal data should be processed is responsible for ensuring that the processing is done according to the law. That person is called the [Controller](/topics/gdpr-legal-reference/#controller) (of personal data). The Controller is typically the university employer of the PI, and the PI should act as a representative of her university employer and is responsible for ensuring that personal data is handled correctly in her projects.

@@ -31,7 +31,7 @@ The [Swedish Authority for Privacy Protection (IMY)](https://www.imy.se/en/) uph
   * [The Biobank Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2002297-om-biobanker-i-halso--och_sfs-2002-297)
 
 ## Who is responsible for the data?
-The person who decides how and why the personal data should be processed is responsible for ensuring that the processing is done according to the law. That person is called the [Controller](/topics/gdpr-legal-reference/#controller) (of personal data). The Controller is typically the university employer of the PI, and the PI should act as a representative of her university employer and is responsible for ensuring that personal data is handled correctly in her projects.
+The person who decides how and why the personal data should be processed is responsible for ensuring that the processing is done according to the law. That person is called the [Controller](/topics/gdpr-legal-reference/#controller) (of personal data). The Controller is typically the university employer of the principal investigator (PI). The PI should act as a representative of her university employer and is responsible for ensuring that personal data is handled correctly in her projects.
 
 ## Can I share data about humans?
 Anonymised data can be shared publicly, but you have to first be sure that the data is truly anonymous which can be hard especially if you are working with genetic data. <!-- need to add info on what anonymous means, I can't find an official definition -->

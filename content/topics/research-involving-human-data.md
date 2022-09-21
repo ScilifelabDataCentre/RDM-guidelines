@@ -16,7 +16,6 @@ toc: True
 Any data that directly or indirectly can be associated with a living person is considered personal data, e.g. name, address and personal identity number. See also legal reference regarding [personal data](/topics/gdpr-legal-reference/#personal-data).
 
 ## What is sensitive human data?
-
 Some personal data are regarded as [sensitive](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rules-business-and-organisations/legal-grounds-processing-data/sensitive-data/what-personal-data-considered-sensitive_en), e.g. data related to health and genetic data. This explicitly includes **all genetic data** (both RNA and DNA, and both somatic and germline information), and is likely to also apply to  other kinds of omics data. Aggregated data (like population frequencies) might not be considered sensitive anymore, but a decision has to be made on a case-to-case basis. Personal data should always be [pseudonymised](/topics/gdpr-legal-reference/#pseudonymisation), but the data will still remain sensitive in legal terms. See also legal reference regarding [sensitive data](/topics/gdpr-legal-reference#sensitive-data).
 
 ## Important regulations to follow

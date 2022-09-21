@@ -5,11 +5,12 @@ toc: True
 
 # Research involving human data
 
-<div class="alert alert-danger" role="alert">
-  The PI, as well as everyone with access to sensitive personal data, is responsible for following current laws and regulations, and SciLifeLab will not assume legal responsibility for advice provided in these guidelines.
+<div class="alert alert-warning" role="alert">
+  <B><I>Disclaimer!</I></B> The PI, as well as everyone with access to sensitive personal data, is responsible for following current laws and regulations, and SciLifeLab will not assume legal responsibility for advice provided in these guidelines.
 </div>
 
->***Disclaimer!** The PI, as well as everyone with access to sensitive personal data, is responsible for following current laws and regulations, and SciLifeLab will not assume legal responsibility for advice provided in these guidelines.* <!-- probably need a bit more disclaimer text -->
+
+<!-- >***Disclaimer!** The PI, as well as everyone with access to sensitive personal data, is responsible for following current laws and regulations, and SciLifeLab will not assume legal responsibility for advice provided in these guidelines.* <!-- probably need a bit more disclaimer text -->
 
 ## What is human data?
 Any data that directly or indirectly can be associated with a living person is considered personal data, e.g. name, address and personal identity number. See also legal reference regarding [personal data](/topics/gdpr-legal-reference/#personal-data).

@@ -90,7 +90,7 @@ Central to the GDPR are the [Principles relating to processing of personal data 
 >
 >(2) The controller shall be responsible for, and be able to demonstrate compliance with, paragraph 1 (‘accountability’).
 
-### Legal basis for processing personal data
+## Legal basis for processing personal data
 [Article 6](https://gdpr-info.eu/art-6-gdpr/) – Personal data can only be processed in the following circumstances:
 
 * with the **consent** of the individuals concerned;
@@ -106,13 +106,13 @@ Central to the GDPR are the [Principles relating to processing of personal data 
 ### Public interest
 Exercise of official authority or task in the public interest: The data controller must process personal data in order to carry out its duties as an authority or to carry out a task in the public interest. [Article 6](https://gdpr-info.eu/art-6-gdpr/).
 
-### Security of processing
+## Security of processing
 [Article 32](https://gdpr-info.eu/art-32-gdpr/) - “*Taking into account the state of the art, the costs of implementation and the nature, scope, context and purposes of processing as well as the risk of varying likelihood and severity for the rights and freedoms of natural persons, the controller and the processor shall implement appropriate technical and organisational measures to ensure a level of security appropriate to the risk*”
 
-### Data breach
+## Data breach
 [Article 4 (12)](https://gdpr-info.eu/art-4-gdpr/): ‘**personal data breach**’ means a breach of security leading to the accidental or unlawful destruction, loss, alteration, unauthorised disclosure of, or access to, personal data transmitted, stored or otherwise processed;
 
-## Further references
+## Resources & Training
 ### GDPR text
 * [Dataskyddsförordningen](https://www.imy.se/verksamhet/dataskydd/det-har-galler-enligt-gdpr/introduktion-till-gdpr/dataskyddsforordningen-i-fulltext/) - *Swedish*
 * [General Data Protection Regulation](https://gdpr-info.eu/) - *English*

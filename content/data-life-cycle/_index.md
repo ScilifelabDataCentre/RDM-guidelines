@@ -22,6 +22,7 @@ The research data life cycle can be divided into several phases as seen in the w
       <div class="card-body">
         {{< data-life-cycle >}}
       </div>
+      The reasearch data life cycle wheel is reused from <a href=https://rdmkit.elixir-europe.org/>RDMKit</a>
       </div>
           <div class="col-md-1">
       <div class="card-body">

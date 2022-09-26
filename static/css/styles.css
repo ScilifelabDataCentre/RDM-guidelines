@@ -51,16 +51,31 @@ h5 a:hover {
   color: #045C64;
 }
 
-h2 {
-    margin-top: 2rem;
-}
-h3 {
-    margin-top: 1rem;
-}
-h4,h5,h6 {
-    margin-top: 0.5rem;
+h1 {
+  font-size: 2rem;
+  margin-top: 0.67em;
 }
 
+h2 {
+  font-size: 1.5rem;
+  margin-top: 0.83em;
+}
+h3 {
+  font-size: 1.17rem;
+  margin-top: 1em;
+}
+h4 {
+  font-size: 1rem;
+  margin-top: 1.33em;
+}
+h5{
+  font-size: .83rem;
+  margin-top: 1.67em;
+}
+h6 {
+  font-size: .67rem;
+  margin-top: 2.33em;
+}
 
 .header {
     background-position: center;

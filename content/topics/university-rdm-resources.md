@@ -55,7 +55,7 @@ Most often there are information resources at your university regarding research
     <tr>
       <td><a href="https://www.su.se/staff/researchers/research-data">Stockholm University</a></td>
       <td><a href = "mailto:opendata@su.se">opendata@su.se</a></td>
-      <td><a href="https://www.su.se/staff/organisation-governance/governing-documents-rules-and-regulations/research/research-data-policy-1.387809">Research data policy</a></td>
+      <td><a href="https://www.su.se/medarbetare/organisation-styrning/styrdokument-regelboken/forskning/policy-f%C3%B6r-%C3%B6ppen-vetenskap-1.628358">Policy for open science</a></td>
     </tr>
     <tr>
       <td><a href="https://www.slu.se/en/subweb/library/publish-and-analyse/archiving-and-publishing-research-data">SLU Swedish University of Agricultural Sciences</a></td>
@@ -87,7 +87,6 @@ Most often there are information resources at your university regarding research
 </div>
 
 For other sites, the Swedish National Data Service ([SND](https://snd.gu.se/en)) network is listed [here](https://snd.gu.se/en/about-us/snd-network).
-
 
 ## Data Protection Officers
 

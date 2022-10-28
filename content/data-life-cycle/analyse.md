@@ -15,9 +15,9 @@ Facilities offering computational resources:
 
 ## Resources & Training
 * [RDMkit on Analysing Data](https://rdmkit.elixir-europe.org/analysing)
-* [OpenRefine module](https://nbisweden.github.io/module-openrefine-dm-practices/)
-* [R module](https://nbisweden.github.io/module-r-intro-dm-practices/)
-* [Versioning module](https://nbisweden.github.io/module-versioning-dm-practices/)
-* For bioinformatics courses, please visit the [NBIS course catalogue](https://uppsala.instructure.com/courses/48087/pages/nbis-training-catalogue)
-* [Collaboration and communication systems](https://www.scilifelab.se/community-pages/systems-data#collaboration)
 * [Data transfer](/topics/data-transfer)
+* [Collaboration and communication systems](https://www.scilifelab.se/community-pages/systems-data#collaboration)
+* [OpenRefine module](https://nbisweden.github.io/module-openrefine-dm-practices/) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)
+* [R module](https://nbisweden.github.io/module-r-intro-dm-practices/) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)
+* [Versioning module](https://nbisweden.github.io/module-versioning-dm-practices/) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)
+* For bioinformatics courses, please visit the [NBIS course catalogue](https://uppsala.instructure.com/courses/48087/pages/nbis-training-catalogue)

@@ -1,5 +1,6 @@
 ---
 title: Analysing phase
+contributors: [Elin Kronander, Yvonne Kallberg, Anna Asklöf, Spöket Laban]
 toc: True
 ---
 
@@ -21,3 +22,7 @@ Facilities offering computational resources:
 * [R module](https://nbisweden.github.io/module-r-intro-dm-practices/) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)
 * [Versioning module](https://nbisweden.github.io/module-versioning-dm-practices/) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)
 * For bioinformatics courses, please visit the [NBIS course catalogue](https://uppsala.instructure.com/courses/48087/pages/nbis-training-catalogue)
+
+
+## Contributors
+{{< contributors-per-page >}}

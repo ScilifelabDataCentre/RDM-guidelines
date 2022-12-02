@@ -1,5 +1,6 @@
 ---
 title: Processing phase
+contributors: [Yvonne Kallberg, Anna Asklöf, Spöket Laban]
 toc: True
 ---
 
@@ -10,3 +11,6 @@ It is during this phase that the data is prepared for analysis. This includes st
 * [RDMkit on Processing Data](https://rdmkit.elixir-europe.org/processing)
 * [RDMkit on Data Quality](https://rdmkit.elixir-europe.org/data_quality)
 * [OpenRefine module](https://nbisweden.github.io/module-openrefine-dm-practices/) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)
+
+## Contributors
+{{< contributors-per-page >}}

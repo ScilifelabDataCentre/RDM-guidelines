@@ -1,0 +1,31 @@
+<div class="card-group">
+  <div class="card contributor-cards">
+    <div class="position-relative">
+    </div>
+    <div class="card-body text-center py-0">
+      <div class="card-title">
+        {{ if .git}}
+        <img src="https://avatars.githubusercontent.com/{{ .git }}" class="card-img-top p-3 rounded-circle">
+        {{ else }}
+        <img src="https://avatars.githubusercontent.com/no_github" class="card-img-top p-3 rounded-circle">
+        {{ end }}
+      </div>
+      <div class="card-text">
+      {{ .name }}
+      {{ if .git}}
+      <a class="btn rounded-circle p-0" href="https://github.com/{{.git}}"><i class="bi bi-github"></i></a>
+      {{ end }}
+      {{ if .affiliation }}
+      <br>{{ .affiliation }}
+      {{ end }}
+      {{ if .orcid }}
+      <br>
+      <a style="color:rgba(4, 92, 100, 1);" href="https://orcid.org/{{.orcid}}">{{ .orcid }}</a>
+      {{ end }}
+      </div>
+    </div>
+    {{ if or .git .orcid }}
+    <br>
+    {{ end }}
+  </div>
+</div>

@@ -15,8 +15,8 @@
   25%: #D2C7D4, RGB: 210/199/212
 
   shades of black between 5-90% used as complementary colors
-  color: rgba(229, 229, 229, 1); light grey
-  color: rgba(166,166,166, 1); medium grey
+  color: #E5E5E5, rgba(229, 229, 229, 1); light grey
+  color: #A6A6A6, rgba(166,166,166, 1); medium grey
   color: rgba(63,63,63,1); dark grey
 */
 
@@ -234,7 +234,17 @@ clear: both;
     background-color: #491F53!important;
 }
 
-/* Support block for the homepage */
+/* Update block for the homepage */
 .update {
     background-color: #045C64!important;
+}
+/*-----Contributors cards-----*/
+
+.contributor-cards {
+    background-color: rgba(4, 92, 100, 0.25);
+    border-color: rgba(4, 92, 100, 0.5);
+    }
+
+.contributor-img-sm {
+    height: 1.5rem;
 }

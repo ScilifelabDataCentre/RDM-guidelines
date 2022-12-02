@@ -1,5 +1,6 @@
 ---
 title: GDPR - legal reference
+contributors: [Elin Kronander, Yvonne Kallberg, Anna Asklöf, Spöket Laban]
 toc: True
 ---
 
@@ -126,3 +127,6 @@ Exercise of official authority or task in the public interest: The data controll
 
 ## Further questions
 If you have further questions regarding sensitive personal data, you are welcome to contact the SciLifeLab data management team (<data-management@scilifelab.se>).
+
+## Contributors
+{{< contributors-per-page >}}

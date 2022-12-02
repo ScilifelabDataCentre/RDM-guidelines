@@ -1,5 +1,6 @@
 ---
 title: Collecting phase
+contributors: [Elin Kronander, Yvonne Kallberg, Anna Asklöf, Spöket Laban]
 toc: True
 ---
 
@@ -102,3 +103,6 @@ Consider uploading the raw data to a repository already when receiving them, und
 * [RDMkit on Data transfer](https://rdmkit.elixir-europe.org/data_transfer.html)
 * [Data organisation module](https://nbisweden.github.io/module-organising-data-dm-practices/) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)
 * [Data transfer](/topics/data-transfer)
+
+## Contributors
+{{< contributors-per-page >}}

@@ -1,0 +1,32 @@
+---
+- name: Yvonne Kallberg
+  git: yvonnekallberg
+  orcid: 0000-0002-3977-9600
+  affiliation: NBIS / ELIXIR-SE
+  type: internal
+- name: Elin Kronander
+  git: elinkronander
+  orcid: 0000-0003-0280-6318
+  affiliation: NBIS / ELIXIR-SE
+  type: internal
+- name: Markus Englund
+  git: jmenglund
+  orcid: 0000-0003-1688-7112
+  affiliation: NBIS / ELIXIR-SE
+  type: internal
+- name: Anna Asklöf
+  git: annaasklof
+  affiliation: SciLifeLab Data Centre
+  type: internal
+- name: Liane Hughes
+  git: LianeHughes
+  affiliation: SciLifeLab Data Centre
+  type: internal
+- name: Linus Östberg
+  git: talavis
+  affiliation: SciLifeLab Data Centre
+  type: internal
+- name: Spöket Laban
+  affiliation: SciLifeLab
+  type: external
+---

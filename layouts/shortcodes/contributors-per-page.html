@@ -1,13 +1,13 @@
 {{ $page_contributors :=  .Page.Params.contributors }}
 {{ $contributors := where .Site.Data.CONTRIBUTORS "name" "in" .Page.Params.contributors}}
-    <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 g-4">
+    <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-xl-5 g-4">
     {{ range sort $contributors "name" "asc"}}
     <div class="card-group">
-      <div class="card contributor-cards text-center">
-          <div class="card-body ">
+      <div class="card contributor-cards text-center p-0">
+          <div class="card-body p-1">
           {{ .name }}
           {{ if .git}}
-          <a class="btn rounded-circle contributor-img-sm p-0" href="https://github.com/{{.git}}"><i class="bi bi-github pb-4"></i></a>
+          <a href="https://github.com/{{.git}}"><i class="bi bi-github" style="color:black"></i></a>
           {{ else }}
           <img class="img-fluid rounded-circle contributor-img-sm" src="https://avatars.githubusercontent.com/no_github">
           {{ end }}

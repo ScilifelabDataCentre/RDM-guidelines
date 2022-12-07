@@ -1,6 +1,6 @@
 ---
 title: FAIR principles
-contributors: [Anna Asklöf, Spöket Laban]
+contributors: []
 toc: True
 ---
 
@@ -272,6 +272,3 @@ Data and metadata are sufficiently well-described to allow data to be reused in 
 
 ## Resources & Training
 * [Open Science and FAIR](https://nbisweden.github.io/module-open-science-dm-practices/index.html) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)
-
-## Contributors
-{{< contributors-per-page >}}

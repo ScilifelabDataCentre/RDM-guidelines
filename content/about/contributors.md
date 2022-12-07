@@ -8,11 +8,14 @@ menu:
 ---
 # Contributors
 
-The SciLifeLab RDM guidelines was built and is maintained by the [SciLifeLab Data Centre](https://scilifelab.se/data) and [NBIS](https://nbis.se). All internal and external contributors are listed below.
+The SciLifeLab RDM guidelines was built and is maintained by the [SciLifeLab Data Centre](https://scilifelab.se/data) and [NBIS](https://nbis.se). All contributors are listed below. If nothing else is stated on a page, the content is created by internal contributors.
 
 ## Internal contributors
- {{< contributors-internal >}}
+All internal contributors are listed below, divided by editorial and advisory group.
 
-## External contributors
+### Editorial group
+{{< contributors-editorial >}}
 
-{{< contributors-external >}}
+
+### Advisory group
+{{< contributors-advisory >}}

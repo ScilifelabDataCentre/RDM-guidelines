@@ -1,6 +1,6 @@
 ---
 title: Research involving human data
-contributors: [Elin Kronander, Yvonne Kallberg, Anna Asklöf, Markus Englund, Spöket Laban]
+contributors: []
 toc: True
 ---
 
@@ -130,6 +130,3 @@ When you prepare the information for the participants, it might be a good to thi
   1. Log in using your university credentials
   1. Click on Projects in the left sidebar, and click the Create button
   1. Choose *ELSI Checklist Template*
-
-## Contributors
-{{< contributors-per-page >}}

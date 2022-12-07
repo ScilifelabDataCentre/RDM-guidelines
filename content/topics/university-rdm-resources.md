@@ -1,6 +1,6 @@
 ---
 title: University RDM resources
-contributors: [Elin Kronander, Yvonne Kallberg, Anna Asklöf, Spöket Laban]
+contributors: []
 toc: True
 ---
 
@@ -175,6 +175,3 @@ https://www.vr.se/english/mandates/open-science/open-access-to-research-data/the
 https://formas.se/en/start-page/applying-for-funding/how-it-works/good-to-know-before-you-apply.html#h-Openaccesstoresearchresultsanddata)
 * UK Research and Innovation - [Common Principles on Data Policy](https://www.ukri.org/funding/information-for-award-holders/data-policy/common-principles-on-data-policy/)
 <!-- * SciLifeLab - -->
-
-## Contributors
-{{< contributors-per-page >}}

@@ -1,6 +1,6 @@
 ---
 title: Reusing phase
-contributors: [Yvonne Kallberg, Anna Asklöf, Spöket Laban]
+contributors: []
 toc: True
 ---
 
@@ -14,6 +14,3 @@ Before you decide to embark on a new study, it is nowadays good practice to chec
 * [RDMkit on Existing Data](https://rdmkit.elixir-europe.org/existing_data)
 * [Google dataset search](https://datasetsearch.research.google.com)
 * [Datacite Search](https://search.datacite.org)
-
-## Contributors
-{{< contributors-per-page >}}

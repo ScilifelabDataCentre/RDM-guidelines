@@ -1,6 +1,6 @@
 ---
 title: Data transfer
-contributors: [Anna Asklöf, Spöket Laban]
+contributors: []
 toc: True
 ---
 
@@ -14,6 +14,3 @@ Please find below some useful links from the SNIC compute resource Uppmax regard
 * [Basic SFTP commands for transferring files](https://uppmax.uu.se/support-sv/user-guides/basic-sftp-commands/)
 * [SNIC-SENS Bianca Deliver user guide for NGI data](https://www.uppmax.uu.se/support/user-guides/deliver-user-guide/)
 * [Transit user guide - secure data transfer of sensitive data](https://uppmax.uu.se/support-sv/user-guides/transit-user-guide/)
-
-## Contributors
-{{< contributors-per-page >}}

@@ -1,6 +1,6 @@
 ---
 title: Planning phase
-contributors: [Elin Kronander, Yvonne Kallberg, Anna Asklöf, Spöket Laban]
+contributors: []
 toc: True
 ---
 
@@ -19,6 +19,3 @@ Also, some resources have specific application periods and thus needs to be cont
 * [RDMkit on Data Management Planning](https://rdmkit.elixir-europe.org/planning)
 * [DMP module](https://nbisweden.github.io/module-dmp-dm-practices/) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)
 * [DS Wizard - A short introduction](https://www.youtube.com/watch?v=HY2DVnNGkAs) (YouTube video)
-
-## Contributors
-{{< contributors-per-page >}}

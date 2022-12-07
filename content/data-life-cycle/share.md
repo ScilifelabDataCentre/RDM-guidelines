@@ -1,6 +1,6 @@
 ---
 title: Sharing phase
-contributors: [Elin Kronander, Yvonne Kallberg, Anna Asklöf, Spöket Laban]
+contributors: []
 toc: True
 ---
 
@@ -93,6 +93,3 @@ In the era of [FAIR](/topics/fair-principles) (Findable, Accessible, Interoperab
 * [RDMkit on Sharing Data](https://rdmkit.elixir-europe.org/sharing)
 * [Data publication module](https://nbisweden.github.io/module-data-publication-dm-practices/) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)
 * Many of the repositories at EBI have instructive videos on how to do submission as well as documentation, have a look at their [YouTube playlist](https://www.youtube.com/playlist?list=PL67E0627174F36FCF).
-
-## Contributors
-{{< contributors-per-page >}}

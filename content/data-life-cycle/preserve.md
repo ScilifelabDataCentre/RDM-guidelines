@@ -1,6 +1,6 @@
 ---
 title: Preserving phase
-contributors: [Elin Kronander, Yvonne Kallberg, Anna Asklöf, Spöket Laban]
+contributors: []
 toc: True
 ---
 
@@ -11,6 +11,3 @@ After the project is finished, the data needs to be stored in a backed-up fashio
 
 ## Resources & Training
 * [RDMkit on Preserving Data](https://rdmkit.elixir-europe.org/preserving)
-
-## Contributors
-{{< contributors-per-page >}}

@@ -1,6 +1,6 @@
 ---
 title: Metadata
-contributors: [Anna Asklöf, Spöket Laban]
+contributors: []
 toc: True
 ---
 
@@ -191,6 +191,3 @@ Curated up-to-date guidance regarding file types and metadata standards is found
 ## Resources & Training
 * [RDMkit on Metadata](https://rdmkit.elixir-europe.org/metadata_management)
 * [Metadata module](https://nbisweden.github.io/module-metadata-dm-practices/) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)
-
-## Contributors
-{{< contributors-per-page >}}

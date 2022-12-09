@@ -244,7 +244,11 @@ clear: both;
     background-color: rgba(4, 92, 100, 0.25);
     border-color: rgba(4, 92, 100, 0.25);
     }
+.card-img-top{
+    height: 11rem;
+    width: 11rem;
 
+}
 .contributor-img-sm {
     height: 1.5rem;
 }

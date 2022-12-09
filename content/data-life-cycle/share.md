@@ -4,7 +4,12 @@ toc: True
 ---
 
 # Sharing
-In the era of [FAIR](/topics/fair-principles) (Findable, Accessible, Interoperable and Reusable) and [Open science](https://www.vr.se/english/mandates/open-science/open-access-to-research-data.html), datasets should be made available to the public. Whenever possible, domain-specific repositories should be used in order to increase the FAIRness of your research outputs. Click on the buttons below for data type specific information regarding suitable repositories.
+In the era of [FAIR](/topics/fair-principles) (Findable, Accessible, Interoperable and Reusable) and [Open science](https://www.vr.se/english/mandates/open-science/open-access-to-research-data.html), datasets should be made available to the public. Whenever possible, discipline-specific repositories (with or without controlled access) should be used in order to increase the FAIRness of your research outputs. If no such repository is available, there are general purpose repositories.
+
+<img src="/img/illustrations/repository_overview.png" alt="Repository overview">
+<br>
+
+Click on the buttons below for data type specific information regarding suitable repositories.
 
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
@@ -90,5 +95,6 @@ In the era of [FAIR](/topics/fair-principles) (Findable, Accessible, Interoperab
 
 ## Resources & Training
 * [RDMkit on Sharing Data](https://rdmkit.elixir-europe.org/sharing)
+* [RDMkit on Data publication](https://rdmkit.elixir-europe.org/data_publication)
 * [Data publication module](https://nbisweden.github.io/module-data-publication-dm-practices/) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)
 * Many of the repositories at EBI have instructive videos on how to do submission as well as documentation, have a look at their [YouTube playlist](https://www.youtube.com/playlist?list=PL67E0627174F36FCF).

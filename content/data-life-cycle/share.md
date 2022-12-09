@@ -1,5 +1,6 @@
 ---
 title: Sharing phase
+contributors: []
 toc: True
 ---
 

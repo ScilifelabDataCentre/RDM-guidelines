@@ -1,5 +1,6 @@
 ---
 title: GDPR - legal reference
+contributors: []
 toc: True
 ---
 

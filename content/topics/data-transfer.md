@@ -1,12 +1,13 @@
 ---
 title: Data transfer
+contributors: []
 toc: True
 ---
 
 # Data transfer
 Quite often large amounts of data is generated, and it can be worth spending some time considering how to transfer data from the data producer to storage and analysis environment. Consider the capacity of the internet connection, transfer via a low bandwith network can be so time-consuming that it might be faster and easier to send the data on a hard drive through carrier services.
 
-## Uppmax 
+## Uppmax
 
 Please find below some useful links from the SNIC compute resource Uppmax regarding data transfer:
 * [Grus user guide for delivery of data from NGI](https://www.uppmax.uu.se/support/user-guides/grus-user-guide/)

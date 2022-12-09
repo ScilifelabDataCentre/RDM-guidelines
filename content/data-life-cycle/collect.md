@@ -1,5 +1,6 @@
 ---
 title: Collecting phase
+contributors: []
 toc: True
 ---
 

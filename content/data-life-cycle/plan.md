@@ -1,5 +1,6 @@
 ---
 title: Planning phase
+contributors: []
 toc: True
 ---
 

@@ -65,3 +65,7 @@ The content of the website is moderated by the team behind the SciLifeLab RDM gu
   General information about NBIS is available at [NBIS.se](https://nbis.se).
   </div>
 </div>
+
+
+<a href="/about/contributors/"><b>See all contributors <i class="bi bi-arrow-right-square-fill"></i></b></a>
+<br/><br/>

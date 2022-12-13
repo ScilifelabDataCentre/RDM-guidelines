@@ -12,6 +12,7 @@ menu:
         weight: 20
 
 ---
+&nbsp;
 
 Some topics regarding research data management (RDM) span over several phases of the research data life cycle or warrant special attention for other reasons. To access guidance about a given topic, click on the respective link below.
 

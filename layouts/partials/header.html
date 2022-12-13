@@ -1,15 +1,12 @@
 {{ if not .IsHome }}
-{{/* Tags and authors sections need to behave as highlights section, hence the big exception below. */}}
-{{ if or (eq .Section "tags") (eq .Section "authors") }}
 {{ with .Site.GetPage "section" "highlights" }}
 <header class="header"
   style="background-image: url('{{ if .Params.header_image }}{{ .Params.header_image }}{{ else }}/img/illustrations/bubble_matrix.png{{ end }}');">
   <div class="container">
-    <h2>{{ .FirstSection.Title }}</h2>
+    <h1>{{ .FirstSection.Title }}</h1>
     {{ .FirstSection.Params.description }}
   </div>
 </header>
-{{ end }}
 {{ else }}
 <header class="header"
   style="background-image: url('{{ if .Params.header_image }}{{ .Params.header_image }}{{ else }}/img/illustrations/bubble_matrix.png{{ end }}');">
@@ -34,12 +31,7 @@
       {{ end }}
       <li class="breadcrumb-item"><a href="{{ .Parent.Parent.RelPermalink }}">{{ .Parent.Parent.Title }}</a></li>
       {{ end }}
-      {{ if or (eq .Section "tags") (eq .Section "authors") }}
-      <li class="breadcrumb-item"><a href="/highlights/">Data highlights</a>
-      <li class="breadcrumb-item">{{ .Parent.Title }}</li>
-      {{ else }}
       <li class="breadcrumb-item"><a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a></li>
-      {{ end }}
       <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
     </ol>
   </div>

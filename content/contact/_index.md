@@ -11,6 +11,7 @@ menu:
         identifier: contact
         weight: 20
 ---
+&nbsp;
 
 The SciLifeLab RDM guidelines are maintained by the SciLifeLab Data Centre and NBIS. We welcome suggestions, contributions, and questions related to the content of this site. This could include, for example, a suggestion for [a topic](/topics/) that is not currently covered. Alternatively, you can request an update or correction to particular pages.
 

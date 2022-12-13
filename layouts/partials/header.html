@@ -1,4 +1,5 @@
 {{ if not .IsHome }}
+{{ with .Site.GetPage "section" "highlights" }}
 <header class="header"
   style="background-image: url('{{ if .Params.header_image }}{{ .Params.header_image }}{{ else }}/img/illustrations/bubble_matrix.png{{ end }}');">
   <div class="container">
@@ -6,4 +7,34 @@
     {{ .FirstSection.Params.description }}
   </div>
 </header>
+{{ else }}
+<header class="header"
+  style="background-image: url('{{ if .Params.header_image }}{{ .Params.header_image }}{{ else }}/img/illustrations/bubble_matrix.png{{ end }}');">
+  <div class="container">
+    <h2>{{ .FirstSection.Title }}</h2>
+    {{ .FirstSection.Params.description }}
+  </div>
+</header>
+{{ end }}
+{{ if .Parent }}
+<nav class="breadcrumbs pt-1 bg-light" aria-label="breadcrumb">
+  <div class="container">
+    <ol class="breadcrumb">
+      {{ if .Parent.Parent }}
+      {{ if .Parent.Parent.Parent }}
+      {{ if .Parent.Parent.Parent.Parent }}
+      <li class="breadcrumb-item"><a
+          href="{{ .Parent.Parent.Parent.Parent.RelPermalink }}">{{ .Parent.Parent.Parent.Parent.Title }}</a></li>
+      {{ end }}
+      <li class="breadcrumb-item"><a
+          href="{{ .Parent.Parent.Parent.RelPermalink }}">{{ .Parent.Parent.Parent.Title }}</a></li>
+      {{ end }}
+      <li class="breadcrumb-item"><a href="{{ .Parent.Parent.RelPermalink }}">{{ .Parent.Parent.Title }}</a></li>
+      {{ end }}
+      <li class="breadcrumb-item"><a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a></li>
+      <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+    </ol>
+  </div>
+</nav>
+{{ end }}
 {{ end }}

@@ -10,6 +10,7 @@ menu:
         identifier: about
         weight: 10
 ---
+&nbsp;
 
 SciLifeLab is committed to the principles of [FAIR](/topics/fair-principles) (Findable, Accessible, Interoperable and Reusable) research data, i.e. that data should be easily accessed, understood, exchanged and reused. We work actively to ensure that the investments done by the society in research infrastructure resources can achieve the highest possible impact.
 

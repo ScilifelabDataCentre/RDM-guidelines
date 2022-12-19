@@ -6,8 +6,9 @@ toc: True
 # Sharing
 In the era of [FAIR](/topics/fair-principles) (Findable, Accessible, Interoperable and Reusable) and [Open science](https://www.vr.se/english/mandates/open-science/open-access-to-research-data.html), datasets should be made available to the public. Whenever possible, discipline-specific repositories (with or without controlled access) should be used in order to increase the FAIRness of your research outputs. If no such repository is available, there are general purpose repositories.
 
-<img src="/img/illustrations/repository_overview.png" alt="Repository overview">
-<br>
+  <img class="img-fluid" src="/img/illustrations/repository_overview.png" alt="Repository overview">
+
+&nbsp;
 
 Click on the buttons below for data type specific information regarding suitable repositories.
 

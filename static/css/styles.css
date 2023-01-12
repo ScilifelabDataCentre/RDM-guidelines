@@ -231,13 +231,25 @@ clear: both;
 
 /* Support block for the homepage */
 .support {
-    background-color: #491F53!important;
+    background-color: rgba(73, 31, 83, 1)!important;
 }
 
 /* Update block for the homepage */
 .update {
-    background-color: #045C64!important;
+    background-color: rgba(4, 92, 100, 1)!important;
 }
+
+/* Calls & Jobs block for the homepage */
+.job {
+    background-color: rgba(76, 151, 159, 1)!important;
+}
+
+/* Events & Training block for the homepage */
+.training {
+    background-color: rgba(166,166,166, 1)!important;
+}
+
+
 /*-----Contributors cards-----*/
 
 .contributor-cards {

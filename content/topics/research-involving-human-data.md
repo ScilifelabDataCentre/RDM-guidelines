@@ -41,14 +41,6 @@ Personal data may be allowed to be shared under some circumstances. Make sure to
 
 <!-- Data processing agreement, data transfer agreement, data access agreement -->
 
-## Repositories for publishing human data
-<!-- If personal data: EGA or FEGA Sweden -->
-The GDPR states that the processing (including storing) of personal data should stop when the intended purpose of the processing is done. There are, however, exemptions to this e.g. when the processing is done for research purposes. Also, from a research ethics point of view, research data should be kept to make it possible for others to validate published findings and reuse data for new discoveries. This is also governed by what the data subjects have been informed about regarding how you will treat the data after project completion. The recommendation is to deposit the sensitive data in the appropriate controlled access repositories if such are available, but this requires that the data subjects are informed and have agreed to this.
-
-[Federated European Genome-phenome Archive (FEGA) Sweden](https://fega.nbis.se/) is an archive for storing and sharing data in Sweden in a way that meets the requirements of the General Data Protection Regulation (GDPR). Any data submitted to the archive is subject to controlled access, which means that access to the data only will be granted after a formal application procedure.
-
-<!-- Should we still mention SLL Figshare solution? Another possibility is to keep the human sequencing data stored locally, and make a metadata-only record in the [SciLifeLab Data Repository](https://www.scilifelab.se/data/repository) with contact details on how to get access, and for which a DOI can be issued. -->
-
 ## Considerations when working with human data
 
 ### GDPR considerations

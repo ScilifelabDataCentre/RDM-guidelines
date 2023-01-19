@@ -7,9 +7,12 @@ toc: True
 # Sharing
 In the era of [FAIR](/topics/fair-principles) (Findable, Accessible, Interoperable and Reusable) and [Open science](https://www.vr.se/english/mandates/open-science/open-access-to-research-data.html), datasets should be made available to the public. Whenever possible, discipline-specific repositories (with or without controlled access) should be used in order to increase the FAIRness of your research outputs. If no such repository is available, there are general purpose repositories.
 
+<a href="/topics/publishing-human-data"><b>See more guidelines on publishing human data <i class="bi bi-arrow-right-square-fill"></i></b></a>
+<br/><br/><br/>
+
   <img class="img-fluid" src="/img/illustrations/repository_overview.png" alt="Repository overview">
 
-&nbsp;
+&nbsp;&nbsp;
 
 Click on the buttons below for data type specific information regarding suitable repositories.
 
@@ -21,7 +24,7 @@ Click on the buttons below for data type specific information regarding suitable
 <div class="collapse" id="collapseExample1">
   <div class="card card-body">
   <span>
-  <h5> <a href="https://www.ebi.ac.uk/ena">ENA</a> (European Nucleotide Archive)</h5>
+  <h4> <a href="https://www.ebi.ac.uk/ena">ENA</a> (European Nucleotide Archive)</h4>
   The ENA hosts an instance of the Sequence Read Archive (SRA), the same archive that exists on NCBI. SRA accepts raw sequence data from any sequencing platform, generated in any research project. There are several ways to <a href="https://www.ebi.ac.uk/ena/submit">submit</a> data to ENA, for more information see the <a href="https://ena-docs.readthedocs.io/en/latest/">documentation</a>. <br><br> For convenience, we have created templates for the most frequent data types and their corresponding <a href="https://www.ebi.ac.uk/ena/browser/checklists">ENA checklists</a>. The templates come with instructions on how to do an interactive submission, via the ENA Webin Portal, but even when doing a programmatic submission, the template can be useful for collecting all necessary descriptions / metadata.  Download an appropriate template, and fill in the sheets according to the instructions in the template:
   <ul>
     <li><a href="/meta-data-templates/metadata_template_default_ERC000011.xlsx">ERC000011 ENA default sample checklist</a></li>
@@ -29,12 +32,11 @@ Click on the buttons below for data type specific information regarding suitable
     <li><a href="/meta-data-templates/metadata_template_sewage_ERC000036.xlsx">ERC000036 ENA sewage checklist</a></li>
   </ul>
 
-  <h5> <a href="https://www.ebi.ac.uk/arrayexpress/">ArrayExpress</a></h5>
-  ArrayExpress is tighty integrated with ENA and similar to NCBI’s Gene Expression Omnibus database it can be used to archive experimental designs and analysis files based on the raw sequence reads. ArrayExpress has its own <a href="https://www.ebi.ac.uk/arrayexpress/submit/overview.html">submission portal</a> where information is available on what can be submitted and how.<br><br>
+  <h4> <a href="https://www.ebi.ac.uk/arrayexpress/">ArrayExpress</a></h4>
+  ArrayExpress is tighty integrated with ENA and similar to NCBI’s Gene Expression Omnibus database it can be used to archive experimental designs and analysis files based on the raw sequence reads. ArrayExpress has its own <a href="https://www.ebi.ac.uk/arrayexpress/submit/overview.html">submission portal</a> where information is available on what can be submitted and how.<br>
+  <h4> <a href="https://ega-archive.org/">EGA</a> (European Genome-phenome Archive)</h4>
 
-  <h5> <a href="https://ega-archive.org/">EGA</a> (European Genome-phenome Archive)</h5>
-  NBIS is building a local federated version of the European Genome-phenome Archive (EGA) in Sweden (EGA-SE), allowing for the publication of sensitive personal data within a legal framework. Until local EGA is available, the dataset should remain in the secure analysis environment (e.g. at Bianca on Uppmax). We suggest to make a metadata-only record in the <a href="https://www.scilifelab.se/data/repository">SciLifeLab Data Repository</a> with contact details on how to get access, and for which a DOI (i.e. a persistent identifier) can be issued. The DOI can then be used in the article to refer to the dataset. Once the Swedish EGA is operational, and the dataset deposited there, the access information can be changed to point at the EGA ID. See <a href="https://doi.org/10.17044/scilifelab.12292778">https://doi.org/10.17044/scilifelab.12292778</a>, for an example.
-
+  <h4> <a href="https://fega.nbis.se">FEGA Sweden</a> (Federated European Genome-phenome Archive Sweden)</h4>
   </span>
   </div>
 </div>

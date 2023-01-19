@@ -34,10 +34,16 @@ The [Swedish Authority for Privacy Protection (IMY)](https://www.imy.se/en/) uph
 ## Who is responsible for the data?
 The person who decides how and why the personal data should be processed is responsible for ensuring that the processing is done according to the law. That person is called the [Controller](/topics/gdpr-legal-reference/#controller) (of personal data). The Controller is typically the university employer of the principal investigator (PI). The PI should act as a representative of her university employer and is responsible for ensuring that personal data is handled correctly in her projects.
 
-## Am I allowed to share data about humans?
+
+## Sharing and publishing human data
 Anonymised data can be shared publicly, but you have to first be sure that the data is truly anonymous which can be hard, especially if you are working with genetic data. <!-- need to add info on what anonymous means, I can't find an official definition -->
 
 Personal data may be allowed to be shared under some circumstances. Make sure to follow GDPR, the ethical review act and other relevant regulations, see further information below regarding [considerations](#considerations-when-working-with-human-data).
+
+The GDPR states that the processing (including storing) of personal data should stop when the intended purpose of the processing is done. There are, however, exemptions to this e.g. when the processing is done for research purposes. Also, from a research ethics point of view, research data should be kept to make it possible for others to validate published findings and reuse data for new discoveries. This is also governed by what the data subjects have been informed about regarding how you will treat the data after project completion. The recommendation is to deposit the sensitive data in the appropriate controlled access repositories if such are available, but this requires that the data subjects are informed and have agreed to this.
+
+<a href="/topics/publishing-human-data"><b>See more guidelines on publishing human data <i class="bi bi-arrow-right-square-fill"></i></b></a>
+<br/><br/>
 
 <!-- Data processing agreement, data transfer agreement, data access agreement -->
 

@@ -37,15 +37,15 @@
         </div>
       </div>
     </div>
-    <div class="col-md-3 offset-md-1 pb-3 pt-5 px-2">
+    <div class="col-md-3 text-black offset-md-1 pb-3 pt-5 px-2">
       <div class="card-body pb-4 px-0 pt-0">
-      <div class="card-body text-white support pt-1">
-        <h2><a style="color:white" href="/contact/">Get Support</a></h2>
+      <div class="card-body  support pt-1">
+        <h2><a style="color:black" href="/contact/">Get Support</a></h2>
         <p class="card-text">Do you need support with research data management?<br><br>We offer support to anyone
           involved in life science research that is affiliated with a Swedish university or research institute.
           <br></p>
-        <div class="row text-white">
-          <h4><b><a style="color:white" href="/contact/">Click here to get support <i
+        <div class="row">
+          <h4><b><a style="color:black" href="/contact/">Click here to get support <i
                   class="bi bi-arrow-right-circle-fill"></i></a></b></h4><br>
         </div>
       </div>
@@ -59,38 +59,38 @@
       {{ end }}
       {{ range first 1 $next_update }}
       <div class="card-body pb-4 pt-0 px-0">
-        <div class="card-body text-white update pt-1">
+        <div class="card-body update pt-1">
           <h2>{{ .Title }}</h2>
           {{ if eq .Params.category "event"}}
           <p class="card-text">{{ .Description }}<br><br>Next date: {{ .Params.date_start | time.Format ":date_medium" }}</p>
           {{else }}
           <p class="card-text">{{ .Description }}</p>
           {{ end }}
-          <div class="row text-white">
-            <h4><b><a style="color:white" href={{ .Params.update_url }}>More information <i class="bi bi-arrow-right-circle-fill"></i></a></b></h4><br>
+          <div class="row">
+            <h4><b><a style="color:black" href={{ .Params.update_url }}>More information <i class="bi bi-arrow-right-circle-fill"></i></a></b></h4><br>
         </div>
       </div>
     </div>
     {{ end }}
     {{ end }}
     <div class="card-body pb-4 px-0 pt-0">
-    <div class="card-body text-white job pt-1">
-      <h2><a style="color:white" href="/contact/">Calls & Jobs</a></h2>
+    <div class="card-body job pt-1">
+      <h2><a style="color:black" href="/contact/">Calls & Jobs</a></h2>
       <p class="card-text">Available positions and funding opportunities within data-driven life science can be found on the SciLifeLab Data Platform.
         <br></p>
-      <div class="row text-white">
-        <h4><b><a style="color:white" href="https://data.scilifelab.se/calls_and_jobs/">Click here to go to Calls & Jobs <i
+      <div class="row">
+        <h4><b><a style="color:black" href="https://data.scilifelab.se/calls_and_jobs/">Click here to go to Calls & Jobs <i
                 class="bi bi-arrow-right-circle-fill"></i></a></b></h4><br>
       </div>
     </div>
     </div>
     <div class="card-body pb-4 px-0 pt-0">
-    <div class="card-body text-white training pt-1">
-      <h2><a style="color:white" href="/contact/">Events & Training</a></h2>
+    <div class="card-body training pt-1">
+      <h2><a style="color:black" href="/contact/">Events & Training</a></h2>
       <p class="card-text">Upcoming conferences, webinars, workshops, and training opportunities in Sweden related to specifically data-driven life science can be found on the SciLifeLab Data Platform.
         <br></p>
-      <div class="row text-white">
-        <h4><b><a style="color:white" href="https://data.scilifelab.se/events/">Click here to go to Events & Training <i
+      <div class="row">
+        <h4><b><a style="color:black" href="https://data.scilifelab.se/events/">Click here to go to Events & Training <i
                 class="bi bi-arrow-right-circle-fill"></i></a></b></h4><br>
       </div>
     </div>

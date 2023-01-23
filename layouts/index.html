@@ -17,17 +17,17 @@
       <div class="card-body">
         <h1 class="card-title no-anchor"><a href="/topics/">Topics</a></h1>
         <p class="card-text">Click on either of the links below to get an overview of individual research data
-          management topics. </p>
-        <div class="row g-3 cont-links">
+          management topics. </p><br>
+        <div class="row cards p-4 rounded cont-links">
           {{ $topic := where .Site.RegularPages "Section" "topics" }}
           {{ range $topic }}
-          <div class="col-sm-12 col-md-6 col-lg-6">
-            <div class="p-3 border rounded h-100">
+          <div class="col-sm-12 col-md-6 col-lg-6 p-2">
+            <div class="card background-white p-3 rounded h-100">
               <div class="d-flex justify-content-between">
                 <div>
                   <i class="bi bi-info-square"></i>
                   <b>
-                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    <a href="{{ .RelPermalink }}" class="stretched-link">{{ .Title }}</a>
                   </b>
                 </div>
               </div>
@@ -39,7 +39,7 @@
     </div>
     <div class="col-md-3 text-black offset-md-1 pb-3 pt-5 px-2">
       <div class="card-body pb-4 px-0 pt-0">
-      <div class="card-body  support pt-1">
+      <div class="card-body  support rounded pt-1">
         <h2><a style="color:black" href="/contact/">Get Support</a></h2>
         <p class="card-text">Do you need support with research data management?<br><br>We offer support to anyone
           involved in life science research that is affiliated with a Swedish university or research institute.
@@ -59,7 +59,7 @@
       {{ end }}
       {{ range first 1 $next_update }}
       <div class="card-body pb-4 pt-0 px-0">
-        <div class="card-body update pt-1">
+        <div class="card-body update rounded pt-1">
           <h2>{{ .Title }}</h2>
           {{ if eq .Params.category "event"}}
           <p class="card-text">{{ .Description }}<br><br>Next date: {{ .Params.date_start | time.Format ":date_medium" }}</p>
@@ -74,7 +74,7 @@
     {{ end }}
     {{ end }}
     <div class="card-body pb-4 px-0 pt-0">
-    <div class="card-body job pt-1">
+    <div class="card-body job rounded pt-1">
       <h2><a style="color:black" href="/contact/">Calls & Jobs</a></h2>
       <p class="card-text">Available positions and funding opportunities within data-driven life science can be found on the SciLifeLab Data Platform.
         <br></p>
@@ -85,9 +85,9 @@
     </div>
     </div>
     <div class="card-body pb-4 px-0 pt-0">
-    <div class="card-body training pt-1">
+    <div class="card-body training rounded pt-1">
       <h2><a style="color:black" href="/contact/">Events & Training</a></h2>
-      <p class="card-text">Upcoming conferences, webinars, workshops, and training opportunities in Sweden related to specifically data-driven life science can be found on the SciLifeLab Data Platform.
+      <p class="card-text">Upcoming conferences, webinars, workshops, and training opportunities in Sweden related to data-driven life science can be found on the SciLifeLab Data Platform.
         <br></p>
       <div class="row">
         <h4><b><a style="color:black" href="https://data.scilifelab.se/events/">Click here to go to Events & Training <i

@@ -155,7 +155,7 @@ h6 {
 }
 
 /* Background colors */
-
+.
 .bg-light-gray {
   background-color: #E5E5E5;
 }
@@ -243,18 +243,28 @@ clear: both;
     background-color: rgba(76, 151, 159, 0.25)!important;
 }
 
+/*-----Cards-----*/
+.cards {
+    background-color: rgba(4, 92, 100, 0.25);
+}
+
+.cont-links a {
+    color: #045C64;
+}
+
+.cont-links a:hover,
+.cont-links a:focus,
+.cont-links a:active {
+    color: #045C64;
+    text-decoration: underline;
+}
 
 /*-----Contributors cards-----*/
-
-.contributor-cards {
-    background-color: rgba(4, 92, 100, 0.25);
-    border-color: rgba(4, 92, 100, 0.25);
-    }
 .card-img-top{
     height: 11rem;
     width: 11rem;
-
 }
+
 .contributor-img-sm {
     height: 1.5rem;
 }

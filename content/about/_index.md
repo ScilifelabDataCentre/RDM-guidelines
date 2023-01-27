@@ -18,7 +18,9 @@ The guidelines adhere to the values of [Open Science](https://ec.europa.eu/info/
 
 The SciLifeLab RDM guidelines was built and is maintained by the [SciLifeLab Data Centre](https://scilifelab.se/data) and [NBIS](https://nbis.se). We welcome any questions on any element of the platform. Please get in touch with us by emailing [data-management@scilifelab.se](mailto:data-management@scilifelab.se) or by sending us a message using our [contact form](/contact/).
 
-The content of the website is moderated by the team behind the SciLifeLab RDM guidelines. However, contributions are welcome in each of the sections. For example, you can suggest [a new topic](/topics/) or an update to current [research data life cycle](/data-life-cycle) or [topic](/topics/) pages.
+The content of the website is moderated by an [editorial group](/about/contributors/) supported by the SciLifeLab RDM guidelines advisory group. However, contributions are welcome in each of the sections. For example, you can suggest [a new topic](/topics/) or an update to current [research data life cycle](/data-life-cycle) or [topic](/topics/) pages.
+
+<a href="/about/contributors/"><b>See all contributors <i class="bi bi-arrow-right-square-fill"></i></b></a>
 
 <a href="/contact/"><b>Contact form for enquiries and contributions <i class="bi bi-arrow-right-square-fill"></i></b></a>
 <br/><br/>
@@ -68,5 +70,5 @@ The content of the website is moderated by the team behind the SciLifeLab RDM gu
 </div>
 
 
-<a href="/about/contributors/"><b>See all contributors <i class="bi bi-arrow-right-square-fill"></i></b></a>
+
 <br/><br/>

@@ -16,7 +16,8 @@ All internal contributors are listed below, divided by editorial and advisory gr
 ### Editorial group
 The editorial group is responsible for moderating the content of the RDM Guidelines site to keep it up to date and to drive further improvement.
 {{< contributors-editorial >}}
-Tasks:
+
+#### Tasks of the editorial group:
 * Manage the GitHub repository and review, prioritise and assign issues
 * Provide timely feedback to suggestions or questions submitted through the contact form
 * Review content and validate links to external resources on a regular basis

@@ -235,12 +235,12 @@ clear: both;
 
 /* Calls & Jobs block for the homepage */
 .job {
-    background-color: rgba(73, 31, 83, 0.25)!important;
+    background-color: rgba(76, 151, 159, 0.25)!important;
 }
 
 /* Events & Training block for the homepage */
 .training {
-    background-color: rgba(76, 151, 159, 0.25)!important;
+    background-color: rgba(73, 31, 83, 0.25)!important;
 }
 
 /*-----Cards-----*/

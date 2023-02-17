@@ -14,11 +14,20 @@ Research that involves humans or biological samples from humans should take ethi
 
 When planning a research project, it is often useful to think of ELSI with respect to the different stages in the data life cycle. For example: what laws do I need to follow during the data collection phase? Or, how can I maximise data reuse without compromising the personal integrity of data subjects? What concerns you need to address depend on your research questions and the type of data you want to collect (for example if you have personal data or not).
 
-## What is human data?
-Any data that directly or indirectly can be associated with a living person is considered personal data, e.g. name, address and personal identity number. See also legal reference regarding [personal data](/topics/gdpr-legal-reference/#personal-data).
 
-## What is sensitive human data?
-Some personal data are regarded as [sensitive](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rules-business-and-organisations/legal-grounds-processing-data/sensitive-data/what-personal-data-considered-sensitive_en), e.g. data related to health and genetic data. This explicitly includes **all genetic data** (both RNA and DNA, and both somatic and germline information), and is likely to also apply to  other kinds of omics data. Aggregated data (like population frequencies) might not be considered sensitive anymore, but a decision has to be made on a case-to-case basis. Personal data should always be [pseudonymised](/topics/gdpr-legal-reference/#pseudonymisation), but the data will still remain sensitive in legal terms. See also legal reference regarding [sensitive data](/topics/gdpr-legal-reference#sensitive-data).
+## What is personal data?
+
+Any data that directly or indirectly can be linked to a living person is considered personal data under the General Data Protection Regulation (GDPR). This can for example be a person's name or personal identity number. Different pieces of information, which collected together can lead to the identification of a particular person, is also regarded as personal data. For instance can a street address in combination with a person's gender in some cases be sufficient to identify a particular person. Read more in the [legal reference regarding personal data](/topics/gdpr-legal-reference/#personal-data).
+
+
+## What is sensitive personal data?
+
+Some personal data is regarded as [sensitive](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rules-business-and-organisations/legal-grounds-processing-data/sensitive-data/what-personal-data-considered-sensitive_en), for example data related to health and genetics. This includes **all kinds of genetic data** (both RNA and DNA, and both somatic and germline information), and is likely to apply to  other kinds of omics data as well. One should keep in mind that genetic data about a deceased person also may be regarded as personal data under GDPR if the data can be used to identify a living relative of that person.
+
+Aggregated data (like population frequencies or number of sequence reads for a gene) might not be considered personal data (and hence not sensitive personal data), but a decision has to be made on a case-by-case basis. 
+
+Sensitive personal data should always be [pseudonymised](/topics/gdpr-legal-reference/#pseudonymisation), which means that a particular person cannot be identified from the data unless it is combined with other data that has not been disclosed to the public. A common pseudonymisation procedure is to replace personal identity numbers with artificial identifiers. It is important to remember that pseudonymised data is still regarded as personal data under GDPR. See also legal reference regarding [sensitive data](/topics/gdpr-legal-reference#sensitive-data)
+
 
 ## Important regulations to follow
 Please find below an overview of relevant regulations to follow when doing research involving human data.

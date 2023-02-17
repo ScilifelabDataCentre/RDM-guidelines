@@ -19,27 +19,23 @@ The recommendations on publishing human data varies depending on the nature of t
 <a href="/topics/gdpr-legal-reference.md"><b>See more guidelines on GDPR <i class="bi bi-arrow-right-square-fill"></i></b></a>
 <br/><br/>
 
+## Sharing non-personal data
 
-## Repositories for publishing human data
+If your data cannot be linked to a living person, there is nothing in GDPR that prohibits you from sharing the data publicly. Data may however be sensitive under other regulations, so make sure that you take all relevant legal aspects into account. If you are dealing with human data, you should of course also think about the ethical and societal implications of sharing the data.
 
-<!-- Generell text om repositories for human data. När ska vilken av dessa användas och hur de relaterar till varandra -->
-In the landscape of data repositories some subgroups can be distinguished. The appropriate type of data repository to use is based on the data that will be published. When publishing sensitive human data, a controlled access data repository should be the first-hand choice. The recommendation is to deposit sensitive human data in an appropriate controlled access repositories if such are available, but this requires that the data subjects are informed and have agreed to this.
+There are many repositories for sharing human-related data publicly. Here are a few examples:
 
-### Controlled access repositories
-In general data access is strictly restricted in controlled access repositories. In order to access data in a controlled access repository, a request typically needs to be done. Examples of controlled access repositories can be found below.
+European Nucleotide Archive (ENA)
+: The [European Nucleotide Archive](https://www.ebi.ac.uk/ena/browser/home) is a public repository for nucleotide sequences hosted by the European Bioinformatics Institute (EMBL-EBI).
 
-#### European Genome-phenome Archive
-<!-- Kort text om EGA  -->
-The [European Genome-phenome Archive (EGA)](https://ega-archive.org) is an archive for storing and sharing data.
+ArrayExpress
+: [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress) is a repository for functional genomics data hosted by the European Bioinformatics Institute (EMBL-EBI). 
 
-#### Federated European Genome-phenome Archive Sweden
-[Federated European Genome-phenome Archive (FEGA) Sweden](https://fega.nbis.se/) is an archive for storing and sharing data in Sweden in a way that meets the requirements of the General Data Protection Regulation (GDPR). Any data submitted to the archive is subject to controlled access, which means that access to the data only will be granted after a formal application procedure.
+SciLifeLab Data Repository
+: The [SciLifeLab Data Repository](https://figshare.scilifelab.se) is a an institutional repository hosted by SciLifeLab for depositing and describing data related to life science research. It is particularily useful for sharing files that are not suited for domain specific repositories.
 
-### Institutional repositories
-Some repositories offers a possibility to publish a metadata record. This allows for publishing metadata about human data without actually publishing the human data itself. In this scenario, it is important to not upload the human data, but to provide as much descriptive metadata as possible to improve the findability. Examples of institutional repositories that provides a metadata record solution can be found below.
+Learn more about [data sharing and repositories](../../data-life-cycle/share/).
 
-#### SciLifeLab Data Repository
-The [SciLifeLab Data Repository](https://figshare.scilifelab.se) is a repository for publishing any kind of research-related data in the field of life science. More information regarding accounts and submission can be found [here](https://www.scilifelab.se/data/repository).
 
 
 ## How can SciLifeLab help you to publish your human data?

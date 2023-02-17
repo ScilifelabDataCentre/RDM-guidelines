@@ -42,8 +42,14 @@ The [Swedish Authority for Privacy Protection (IMY)](https://www.imy.se/en/) uph
   * [The Patient Data Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/patientdatalag-2008355_sfs-2008-355)
   * [The Biobank Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2002297-om-biobanker-i-halso--och_sfs-2002-297)
 
+
 ## Who is responsible for the data?
-The person who decides how and why the personal data should be processed is responsible for ensuring that the processing is done according to the law. That person is called the [Controller](/topics/gdpr-legal-reference/#controller) (of personal data). The Controller is typically the university employer of the principal investigator (PI). The PI should act as a representative of her university employer and is responsible for ensuring that personal data is handled correctly in her projects.
+
+An important concept in GDPR is the [data controller](/topics/gdpr-legal-reference/#controller), which is the person or entity that determines the purposes and means of the processing of some personal data.
+
+Many people wrongly believe that the principal investigator in a research project is the controller for the project's data. In fact, this is practically never the case for Swedish academic research. Instead, the controller is typically the university (or sometimes the hospital) where the principal investigator is employed. That being said, the principal investigator should act as a representative of her institution and is responsible for ensuring that personal data is handled correctly in her projects.
+
+The data controller must be identified before any personal data is processed in the project, which means before the data is being collected.
 
 
 ## Sharing and publishing human data

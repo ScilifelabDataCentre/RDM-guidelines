@@ -54,16 +54,20 @@ FEGA Sweden
 </div>
 
 
-<!-- Uppdateras av Markus FEGA  -->
+## If data cannot be deposited in a repository
 
-This is what you need to do:
-1. Adjust the Data Access Agreement and Data Access request forms (available from datacentre@scilifelab.se) to suit your particular case.
-2. Store your data in your own project account on Bianca at UPPMAX.
-3. Prepare a metadata record for the dataset in the SciLifeLab Data Repository. o	It is important to not upload the human data, but do provide as much descriptive metadata as possible to improve the findability. Set datacentre@scilifelab.se as “access request email” and your own email address as “contact email”.
-4. In the manuscript add a section on Data Availability and make sure it includes information on where to go for requesting access to the data. The section in the manuscript can include eg. : “The data is deposited on a secure Swedish server and has been assigned a DOI (XXX). Data access requests may be submitted to the Science for Life Laboratory Data Centre through the DOI link.”
-5. When a user applies for access to datacentre@scilifelab.se, the application will be vetted and you will be contacted by us. Then you can make a decision on access approved or denied. Ideally, you can (should) delegate this decision to an independent Data Access Committee (DAC).
-6. When a user has been approved for access, Data Centre will document the processing and arrange for the physical file access. Until FEGA Sweden is up and running, the physical file access will be that you, as a PI, copies the dataset from your Bianca project space, to the specified project space of the approved applicant. Because of SNIC user policy, only PIs at a Swedish academic institution can have a project at Bianca. So to share data with a collaborator outside Sweden, the PI in Sweden needs to have applied for a project at Bianca. Please see [here](https://www.uppmax.uu.se/support/user-guides/bianca-user-guide/) for information on how to do this.
-7. Data Centre will keep track of current and expired approvals.
+It is not always possible to deposit personally identifiable data in a controlled access repository. In that case, one should register a *metadata record* for the data. This record will serve multiple purposes: First, it will enable unambiguous identification of the data. Second, it will provide a description of the data so that others can understand what the data is about. Third, the metadata record may contain instructions on how to get access to the data.
+
+Here are a few repositories where you can register metadata records:
+
+SciLifeLab Data Repository
+: The [SciLifeLab Data Repository](https://figshare.scilifelab.se) is a an institutional repository hosted by SciLifeLab for depositing and describing  data related to life science research. This repository is an instance of FigShare, which means that every record will get a unique DOI. You can read more in the [repository's guidelines](https://www.scilifelab.se/data/repository).
+
+BioStudies
+: The [BioStudies database](https://www.ebi.ac.uk/biostudies/) contains descriptions of biological studies. This repository is especially suited for linking a study to datasets in different repositories, but can also be used to describe sensitive data that has not been uploaded to a repository. BiosStudies is hosted by the European Bioinformatics Institute (EMBL-EBI).
+
+Zenodo
+: [Zenodo](https://zenodo.org) is a general-purpose repository operated by CERN. It can be used for sharing basically any kind of data, but also for just describing data stored elsewhere. Zenodo doesn't enforce standardised descriptions of data, so datasets described there might be more difficult to find than those described in the two repositories mentioned above.
 
 
 

@@ -65,7 +65,6 @@ Read more in our <a href="/topics/publishing-human-data"><b>guidelines on publis
 
 <!-- Data processing agreement, data transfer agreement, data access agreement -->
 
-## Considerations when working with human data
 
 ### GDPR considerations
 <!-- Merge content of "PIs working with human data" and “Sensitive personal data”

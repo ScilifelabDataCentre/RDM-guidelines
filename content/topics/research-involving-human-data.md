@@ -30,12 +30,13 @@ Sensitive personal data should always be [pseudonymised](/topics/gdpr-legal-refe
 
 
 ## Important regulations to follow
-Please find below an overview of relevant regulations to follow when doing research involving human data.
+
+Below we list some important regulations to follow when conducting research that involves human data.
 
 * **General Data Protection Regulation (GDPR)** – All research involving personal data must comply with the [General Data Protection Regulation (GDPR)](https://gdpr-info.eu/).
 The [Swedish Authority for Privacy Protection (IMY)](https://www.imy.se/en/) upholds the protection of personal data, monitors that they are handled correctly and do not fall into the wrong hands. See also [GDPR considerations](#gdpr-considerations) further below.
 
-* **The Ethical Review Act** – Ethical review by the [Ethical Review Authority](https://etikprovningsmyndigheten.se/) is needed when research involves human data, according to the Swedish ethical review act ([Lag (2003:460) om etikprövning av forskning som avser människor](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2003460-om-etikprovning-av-forskning-som_sfs-2003-460) - *Swedish*). See also [Ethical considerations](#ethical-considerations) further below.
+* **The Ethical Review Act** – Ethical review by the [Ethical Review Authority](https://etikprovningsmyndigheten.se/) is needed when research involves human data, according to the Swedish ethical review act ([Lag (2003:460) om etikprövning av forskning som avser människor](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2003460-om-etikprovning-av-forskning-som_sfs-2003-460) - *Swedish*). See also [Ethical considerations](#ethical-considerations) below.
 
 * **Other regulations**
   * [The Patient Data Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/patientdatalag-2008355_sfs-2008-355)

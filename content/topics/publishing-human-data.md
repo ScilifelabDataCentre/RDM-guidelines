@@ -1,10 +1,10 @@
 ---
-title: Publishing human data
+title: Sharing human data
 contributors: []
 toc: True
 ---
 
-# Publishing human data
+# Sharing human data
 
 <div class="alert alert-warning" role="alert">
   <B><I>Disclaimer!</I></B> The PI, as well as everyone with access to sensitive personal data, is responsible for following current laws and regulations, and SciLifeLab will not assume legal responsibility for advice provided in these guidelines.

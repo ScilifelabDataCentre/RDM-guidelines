@@ -116,4 +116,5 @@ To let us handle access requests to your data, you need to take the following st
 
 
 ## Resources & Training
+
 * [RDMkit on Human data](https://rdmkit.elixir-europe.org/human_data)

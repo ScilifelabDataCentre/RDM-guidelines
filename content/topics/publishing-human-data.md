@@ -37,15 +37,22 @@ SciLifeLab Data Repository
 Learn more about [data sharing and repositories](../../data-life-cycle/share/).
 
 
+## Sharing personal data
 
-## How can SciLifeLab help you to publish your human data?
-<!-- Uppdateras.  -->
+Data that need to be protected from unauthorised access may be deposited in a *controlled access repository*. In these repositories will access typically only be granted after a formal application procedure. When submitting any personal data for archiving and sharing in a controlled access repository, you must be sure that you have the legal right to upload the data to the repository.
 
-**Who can get help?** If you are a researcher at a Swedish academic institution working in SciLifeLab’s areas of activity, you can get help from SciLifeLab Data Management support team.
+Here are two repositories for sharing and archiving data under controlled access:
 
-**What kind of data publishing can we support?** If your data is located on the Bianca server at UPPMAX (or in the future at FEGA Sweden), we can help with the publishing and access requests! If your data is located in your own safe environment, we can not help with the handling of access requests but the to-do steps listed below are still valid.
+European Genome-phenome Archive (EGA)
+: [European Genome-phenome Archive](https://ega-archive.org) is a service for sharing personally identifiable genetic and phenotypic data resulting from biomedical research projects. The repository is hosted by the European Bioinformatics Institute (EMBL-EBI) and the Centre for Genomic Regulation (CRG). Any data submitted to the repository is subject to controlled access, which means that access to the data only will be granted after a formal application procedure.
 
-Until FEGA Sweden is ready for both storing and sharing data, currently data can only be shared with PIs that can get a project account set up on Bianca.
+FEGA Sweden
+: [FEGA Sweden](https://fega.nbis.se/) is repository for storing and sharing personal identifiable genetic and phenotypic data in Sweden in a way that meets the requirements of the General Data Protection Regulation (GDPR). It is part of a federation of national nodes, [Federated European Genome-phenome Archive](https://ega-archive.org/federated), which is tightly connected to the European Genome-phenome Archive (EGA). FEGA Sweden is not yet operational, but researchers may express their interest in depositing data to the repository by filling in [a web form](https://nbis.se/support/supportform/index.php#sdaform).
+
+<div class="alert alert-warning" role="alert">
+<b>Do you plan to submit data to FEGA Sweden?</b> While waiting for the repository to become operational, you may want to create a metadata record in SciLifeLab Data Repository (see below). This will give you a DOI to put in your research article. Once your data has been released in FEGA Sweden, our data management support team will help you update your metadata record with apropriate information.
+</div>
+
 
 <!-- Uppdateras av Markus FEGA  -->
 

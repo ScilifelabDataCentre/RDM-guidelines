@@ -70,6 +70,50 @@ Zenodo
 : [Zenodo](https://zenodo.org) is a general-purpose repository operated by CERN. It can be used for sharing basically any kind of data, but also for just describing data stored elsewhere. Zenodo doesn't enforce standardised descriptions of data, so datasets described there might be more difficult to find than those described in the two repositories mentioned above.
 
 
+## How can SciLifeLab help you sharing human data?
+
+If you are a researcher at a Swedish academic institution working in the life sciences, you can get help from SciLifeLab Data Management support team.
+
+
+### General submission support
+
+At SciLifeLab, we have a team of data stewards that can help you describing and depositing your data. Here are a few examples of the support that we offer:
+
+* Planning data submission
+* Identify suitable repositories
+* Assist during the submission process when publishing data and code
+* Assist in the creation of metadata records in SciLifeLab Data Repository
+* Advice on what needs to be done when working with sensitive human data
+* Advice on describing data with proper metadata
+* Data transfers, data organisation, backup, and security procedures
+
+If you need any help connected to data submission, please [contact us](../../contact/)!
+
+
+### Submission support for FEGA Sweden
+
+FEGA Sweden is not yet in production, but you can get help with preparations for a future submission to the repository. The FEGA Sweden Helpdesk is part of the larger Data Management Support Team at SciLifeLab. Visit the [FEGA Sweden website](https://fega.nbis.se) to learn more about how you can prepare a submission and how to get in contact with the FEGA Sweden Helpdesk.
+
+
+### Data access management support
+
+If your data is located on the Bianca server at UPPMAX (or in the future deposited in FEGA Sweden), we can help with handling data access requests.
+
+<div class="alert alert-warning" role="alert">
+Until FEGA Sweden is ready for both storing and sharing data, we can only support data sharing with principal investigators that are eligible for setting up a project on Bianca server at UPPMAX.
+</div>
+
+To let us handle access requests to your data, you need to take the following steps:
+
+1. Store the data in your own project on Bianca at UPPMAX.
+2. Adjust the Data Access Agreement and Data Access request forms (available from [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se)) to suit your particular case.
+3. Prepare a metadata record for the dataset in the SciLifeLab Data Repository. It is important to not upload the human data, but do provide as much descriptive metadata as possible to improve the findability. Set [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se) as “access request email” and your own email address as "contact email".
+4. In your manuscript add a section on Data Availability and make sure it includes information on where to go for requesting access to the data. You could for example write the following in your manuscript:
+> The data is deposited on a secure Swedish server and has been assigned a DOI (XXX). Data access requests may be submitted to the Science for Life Laboratory Data Centre through the DOI link.
+5. When a user applies for access to [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se), the application will be vetted and you will be contacted by us. Then you can make a decision on access approved or denied. Ideally, you can (should) delegate this decision to an independent Data Access Committee (DAC).
+6. When a user has been approved for access, SciLifeLab Data Centre will document the processing and arrange for the physical file access. Until FEGA Sweden is up and running, the physical file access will be that you, as a PI, copies the dataset from your Bianca project space, to the specified project space of the approved applicant. Because of National Academic Infrastructure for Supercomputing in Sweden (NAISS) user policy, only PIs at a Swedish academic institution can have a project at Bianca. So to share data with a collaborator outside Sweden, the PI in Sweden needs to have applied for a project at Bianca. Please see the [Bianca user guide](https://www.uppmax.uu.se/support/user-guides/bianca-user-guide/) for information on how to do this.
+7. SciLifeLab Data Centre will keep track of current and expired approvals.
+
 
 ## Resources & Training
 * [RDMkit on Human data](https://rdmkit.elixir-europe.org/human_data)

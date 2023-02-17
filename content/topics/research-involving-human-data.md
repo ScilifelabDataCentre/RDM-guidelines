@@ -66,7 +66,8 @@ Read more in our <a href="/topics/publishing-human-data"><b>guidelines on publis
 <!-- Data processing agreement, data transfer agreement, data access agreement -->
 
 
-### GDPR considerations
+## GDPR considerations
+
 <!-- Merge content of "PIs working with human data" and “Sensitive personal data”
 Risk assessment, DPIA … -->
 Before embarking on a new project, consider the following:
@@ -79,28 +80,37 @@ Before embarking on a new project, consider the following:
 * What technical and procedural [safeguards](#security-of-processing) have been established for processing the data?
 * What happens with the data [after project completion](#repositories-for-publishing-human-data)?
 
-#### Data Protection Officer (dataskyddsombud)
+
+### Data Protection Officer (dataskyddsombud)
 
 The role of the data protection officer is to check that the General Data Protection Regulation (GDPR) is complied with within the organisation. If personal data is processed in your research, you should report this to your institute’s [Data Protection Officer (DPO)](/topics/university-rdm-resources#data-protection-officers).
 
-#### Legal basis for processing personal data
+
+### Legal basis for processing personal data
+
 [Article 6 (1)](https://gdpr-info.eu/art-6-gdpr/) lists under what conditions the processing is considered lawful. Of these, **Consent** or **Public interest** are relevant when it comes to research. You should determine what legal basis (or bases) you have for processing the personal data in your project.
 
 Traditionally, consent has been the basis for processing personal data for research, but under the GDPR there cannot be an imbalance between the processor and the data subject for it to be considered to be freely given. In Sweden the use of consent as the legal basis for processing by universities for research purposes is therefore not recommended. Instead, public interest should probably be your legal basis. Note that if your legal basis for processing is consent, a [number of requirements](https://gdpr-info.eu/issues/consent/) exists for the consent to be considered valid under the GDPR. Consents given before the GDPR might not live up to this.
 
 Also note that even if public interest is the legal basis, other laws and research ethics standards might still require you to have consent from the subjects for performing the research.
 
-#### Data Processing
+
+### Data Processing
+
 <!-- what is meant / definition; storage & analysis by other than the controller requires agreement -->
 All processing of personal data must comply with the [Principles relating to processing of personal data](/topics/gdpr-legal-reference/#principles-of-processing-of-personal-data) in the GDPR.
 
-##### Agreements
+
+#### Agreements
+
 <!-- Data processing agreement, data transfer agreement, data access agreement -->
 * A Data Processing Agreement is needed when a Processor (someone from a different university than the controller) is processing the data (e.g. storing or analysing) on behalf of the Controller.
 <!-- * A Data Transfer Agreement is needed when... -->
 <!-- * A Data Access Agreement is needed when... -->
 
-##### Responsibilities <!-- controller versus processor -->
+
+#### Responsibilities <!-- controller versus processor -->
+
 As a Controller you should:
 * Ensure that data processing agreements are established when needed.
 * Ensure that all Processors are informed on what can and cannot be done to the data.
@@ -110,13 +120,19 @@ As a Processor you should:
 * Only handle the data according to the instructions from the Controller.
 * In the case of a [data breach](/topics/gdpr-legal-reference/#data-breach), accidental or otherwise, immediatly report the incident to the Controller.
 
-#### Data Protection Impact Assessment (DPIA)
+
+### Data Protection Impact Assessment (DPIA)
+
 A Data Protection Impact Assessment (DPIA) is needed if the personal data processing is likely to result in a high risk to individual people's rights ([IMY on Impact assessments and prior consultation](https://www.imy.se/en/organisations/data-protection/this-applies-accordning-to-gdpr/impact-assessments-and-prior-consultation/)). The purpose of a DPIA is to prevent risks before they occur, by identifying what risks exist and draw up procedures to meet those risks. In order be able to decide if a DPIA is needed, you should perform a risk analysis. Analyse what risks your personal data processing may involve and suggest appropriate security measures. Document your findings so that you can demonstrate that you comply with the GDPR. If the risk analysis shows that a DPIA is needed, there are tools to help you e.g. [PIA software from CNIL](https://www.cnil.fr/en/open-source-pia-software-helps-carry-out-data-protection-impact-assessment).
 
-#### Security of processing
+
+### Security of processing
+
 To ensure that the personal data that you process in the project is protected at an appropriate level, you should apply [technical and procedural safeguards](/topics/gdpr-legal-reference/#security-of-processing) to ensure that the rights of the data subjects are not violated. Examples of such measures include, but are not limited to, pseudonymisation and encryption of data, the use of computing and storage environments with heightened security, and clear and documented procedures for project members to follow.
 
-### Ethical considerations
+
+## Ethical considerations
+
 <!-- Ethical review and informed consent
 Merge content of "PIs working with human data" and “Sensitive personal data” -->
 Before embarking on a new project, consider the following:
@@ -137,7 +153,9 @@ When you prepare the information for the participants, it might be a good to thi
 * Personal data must normally be pseudonymised before it is shared. Don’t forget to inform the participants about that. Data that is pseudonymised can only be used to identify individuals in combination with other data. -->
 <!-- ### Other considerations -->
 
+
 ## Resources & Training
+
 <!-- Link to other resources about human data in research -->
 * [RDMkit on Human data](https://rdmkit.elixir-europe.org/human_data)
 * Swedish National Data service (SND) on [Research material with personal data](https://snd.gu.se/en/manage-data/plan/research-material-with-personal-data)

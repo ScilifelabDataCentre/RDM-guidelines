@@ -12,7 +12,6 @@ toc: True
 
 Research that involves humans or biological samples from humans should take ethical, legal and societal implications (ELSI) into account. This is true also when research involves data about humans. It is important to consider all the different aspects early in a research project, as the consequences of not doing so may be severe.
 
-<!-- >***Disclaimer!** The PI, as well as everyone with access to sensitive personal data, is responsible for following current laws and regulations, and SciLifeLab will not assume legal responsibility for advice provided in these guidelines.* <!-- probably need a bit more disclaimer text -->
 When planning a research project, it is often useful to think of ELSI with respect to the different stages in the data life cycle. For example: what laws do I need to follow during the data collection phase? Or, how can I maximise data reuse without compromising the personal integrity of data subjects? What concerns you need to address depend on your research questions and the type of data you want to collect (for example if you have personal data or not).
 
 ## What is human data?

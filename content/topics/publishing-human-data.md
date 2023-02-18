@@ -10,7 +10,8 @@ toc: True
   <B><I>Disclaimer!</I></B> The PI, as well as everyone with access to sensitive personal data, is responsible for following current laws and regulations, and SciLifeLab will not assume legal responsibility for advice provided in these guidelines.
 </div>
 
-The GDPR states that the processing (including storing) of personal data should stop when the intended purpose of the processing is done. There are, however, exemptions to this e.g. when the processing is done for research purposes. Also, from a research ethics point of view, research data should be kept to make it possible for others to validate published findings and reuse data for new discoveries. This is also governed by what the data subjects have been informed about regarding how you will treat the data after project completion. The recommendation is to deposit the sensitive data in the appropriate controlled access repositories if such are available, but this requires that the data subjects are informed and have agreed to this.
+<!-- Generella riktlinjer för publicering av human data. Vilka olika nivåer finns.   -->
+
 
 <a href="/topics/research-involving-human-data"><b>See more guidelines on research involving human data <i class="bi bi-arrow-right-square-fill"></i></b></a>
 <br/><br/>
@@ -20,19 +21,29 @@ The GDPR states that the processing (including storing) of personal data should 
 
 ## Repositories for publishing human data
 
+<!-- Generell text om repositories for human data. När ska vilken av dessa användas och hur de relaterar till varandra. Viss info kan flyttas till resp repos guider istället.  -->
+
+<!-- Eventuell kategorisering av repositorier (controlled access repositories etc) -->
+
+### EGA
+<!-- Kort text om EGA  -->
+
 ### FEGA Sweden
-[Federated European Genome-phenome Archive (FEGA) Sweden](https://fega.nbis.se/) is an archive for storing and sharing data in Sweden in a way that meets the requirements of the General Data Protection Regulation (GDPR). Any data submitted to the archive is subject to controlled access, which means that access to the data only will be granted after a formal application procedure. The Swedish node is close, but not yet in a production stage. In the meantime we suggest to keep the human sequencing data stored locally and make a metadata-only record in the SciLifeLab Data Repository. Once the Swedish EGA node is operational, and the dataset deposited there, the access information can be changed to point at the EGA ID. See https://doi.org/10.17044/scilifelab.12292778.v1, for an example.
+[Federated European Genome-phenome Archive (FEGA) Sweden](https://fega.nbis.se/) is an archive for storing and sharing data in Sweden in a way that meets the requirements of the General Data Protection Regulation (GDPR). Any data submitted to the archive is subject to controlled access, which means that access to the data only will be granted after a formal application procedure.
 
 ### SciLifeLab Data Repository
-The SciLifeLab Data Repository offers a possibility to publish a metadata record. This allows for publishing metadata about human data without actually publishing the human data itself. More information regarding accounts and submission can be found [here](https://www.scilifelab.se/data/repository). When creating a metadata record choose the license “Restricted access” and add an email to the metadata field "access request email”. It is important to not upload the human data, but do provide as much descriptive metadata as possible to improve the findability.
+The [SciLifeLab Data Repository](https://figshare.scilifelab.se) offers a possibility to publish a metadata record. This allows for publishing metadata about human data without actually publishing the human data itself. More information regarding accounts and submission can be found [here](https://www.scilifelab.se/data/repository).
 
 ## How can SciLifeLab help you to publish your human data?
+<!-- Uppdateras.  -->
 
 **Who can get help?** If you are a researcher at a Swedish academic institution working in SciLifeLab’s areas of activity, you can get help from SciLifeLab Data Management support team.
 
 **What kind of data publishing can we support?** If your data is located on the Bianca server at UPPMAX (or in the future at FEGA Sweden), we can help with the publishing and access requests! If your data is located in your own safe environment, we can not help with the handling of access requests but the to-do steps listed below are still valid.
 
 Until FEGA Sweden is ready for both storing and sharing data, currently data can only be shared with PIs that can get a project account set up on Bianca.
+
+<!-- Uppdateras av Markus FEGA  -->
 
 This is what you need to do:
 1. Adjust the Data Access Agreement and Data Access request forms (available from datacentre@scilifelab.se) to suit your particular case.

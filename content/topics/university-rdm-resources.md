@@ -61,7 +61,7 @@ Most often there are information resources at your university regarding research
     <tr>
       <td><a href="https://www.slu.se/en/subweb/library/publish-and-analyse/archiving-and-publishing-research-data">SLU Swedish University of Agricultural Sciences</a></td>
       <td><a href = "mailto:dms@slu.se">dms@slu.se</a></td>
-      <td></td>
+      <td><a href="https://www.slu.se/globalassets/mw/org-styr/styr-dok/forskning-forskarutb/data-management-policy-slu-eng-v-221019.pdf">Data Management Policy</a></td>
     </tr>
     <tr>
       <td><a href="https://www.umu.se/en/library/research-data/">Umeå University</a></td>

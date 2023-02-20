@@ -3,21 +3,15 @@
 
 /* Brand colors
   use 1, 0.75, 0.50, or 0.25
-  color: rgba(167, 201, 71, 1);  lime
-  color: rgba(73, 31, 83, 1);  grape, use as "color pop" or on smaller details
-  color: rgba(4, 92, 100, 1);  teal
-  color: rgba(76, 151, 159, 1); aqua
+  color: #A7C947, rgba(167, 201, 71, 1);  lime
+  color: #491F53, rgba(73, 31, 83, 1);  grape, use as "color pop" or on smaller details
+  color: #045C64, rgba(4, 92, 100, 1);  teal
+  color: #4C979F, rgba(76, 151, 159, 1); aqua
 
-  grape tints:
-  grape: #491F53, RGB: 73/31/83
-  75%: #77577E, RGB:119/87/126
-  50%: #A48FA9, RGB: 164/143/169
-  25%: #D2C7D4, RGB: 210/199/212
-
-  shades of black between 5-90% used as complementary colors
+  Complimentary colors
   color: #E5E5E5, rgba(229, 229, 229, 1); light grey
   color: #A6A6A6, rgba(166,166,166, 1); medium grey
-  color: rgba(63,63,63,1); dark grey
+  color: 3F3F3F, rgba(63,63,63,1); dark grey
 */
 
 body {
@@ -161,7 +155,7 @@ h6 {
 }
 
 /* Background colors */
-
+.
 .bg-light-gray {
   background-color: #E5E5E5;
 }
@@ -231,24 +225,46 @@ clear: both;
 
 /* Support block for the homepage */
 .support {
-    background-color: #491F53!important;
+    background-color: rgba(167, 201, 71, 0.25)!important;
 }
 
 /* Update block for the homepage */
 .update {
-    background-color: #045C64!important;
+    background-color: rgba(4, 92, 100, 0.25)!important;
 }
-/*-----Contributors cards-----*/
 
-.contributor-cards {
+/* Calls & Jobs block for the homepage */
+.job {
+    background-color: rgba(76, 151, 159, 0.25)!important;
+}
+
+/* Events & Training block for the homepage */
+.training {
+    background-color: rgba(73, 31, 83, 0.25)!important;
+}
+
+/*-----Cards-----*/
+.cards {
     background-color: rgba(4, 92, 100, 0.25);
-    border-color: rgba(4, 92, 100, 0.25);
-    }
+}
+
+.cont-links a {
+    color: #045C64;
+}
+
+.cont-links a:hover,
+.cont-links a:focus,
+.cont-links a:active {
+    color: #045C64;
+    text-decoration: underline;
+}
+
+/*-----Contributors cards-----*/
 .card-img-top{
     height: 11rem;
     width: 11rem;
-
 }
+
 .contributor-img-sm {
     height: 1.5rem;
 }

@@ -56,14 +56,9 @@ The data controller must be identified before any personal data is processed in 
 
 Data that cannot be used to identify a living person can normally be shared publicly. However, one must first be sure that the data is truly anonymous. This can be a difficult endeavour, especially if the research involves genetic data. When dealing with human data in a project, it is crucial to document every decision that is being made regarding the data in relation to GDPR.
 
-Personal data may be possible to share under some circumstances. Make sure to follow GDPR, the ethical review act and other relevant regulations. See further information below regarding [considerations](#considerations-when-working-with-human-data).
+Personal data may be possible to share under some circumstances. Make sure to follow GDPR, the ethical review act and other relevant regulations. See further information below regarding considerations.
 
 The GDPR states that the processing (including storing) of personal data should stop when the intended purpose of the processing has been fullfilled. There are, however, exemptions to this e.g. when the processing is done for research purposes. Also, from a research ethics point of view, research data should be kept to make it possible for others to validate published findings and reuse data for new discoveries. This is also governed by what the data subjects have been informed about regarding the data procesing.
-
-Read more in our <a href="/topics/publishing-human-data"><b>guidelines on publishing human data<i class="bi bi-arrow-right-square-fill"></i></b></a>.
-<br/><br/>
-
-The GDPR states that the processing (including storing) of personal data should stop when the intended purpose of the processing is done. There are, however, exemptions to this e.g. when the processing is done for research purposes. Also, from a research ethics point of view, research data should be kept to make it possible for others to validate published findings and reuse data for new discoveries. This is also governed by what the data subjects have been informed about regarding how you will treat the data after project completion.
 
 <a href="/topics/publishing-human-data"><b>See more guidelines on publishing human data <i class="bi bi-arrow-right-square-fill"></i></b></a>
 <br/><br/>

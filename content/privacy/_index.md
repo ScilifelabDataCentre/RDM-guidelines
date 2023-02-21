@@ -3,7 +3,7 @@ title: Privacy Policy
 toc: true
 ---
 
-SciLifeLab Data Centre at Uppsala University operates the https://data-guidelines.scilifelab.se/](https://data-guidelines.scilifelab.se/) website which provides the **Service**.
+SciLifeLab Data Centre at Uppsala University operates the [https://data-guidelines.scilifelab.se/](https://data-guidelines.scilifelab.se/) website which provides the **Service**.
 
 This page is used to inform website visitors regarding our personal data processing policy. If you choose to use our **Service**, then your personal data will be processed in accordance with this policy.
 

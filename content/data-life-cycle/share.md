@@ -95,7 +95,7 @@ Click on the buttons below for data type specific information regarding suitable
   </div>
 </div>
 
-## Resources & Training
+## Resources
 * [RDMkit on Sharing Data](https://rdmkit.elixir-europe.org/sharing)
 * [RDMkit on Data publication](https://rdmkit.elixir-europe.org/data_publication)
 * [The Swedish Covid-19 Data Portal on Sharing Data](https://covid19dataportal.se/share-data/)

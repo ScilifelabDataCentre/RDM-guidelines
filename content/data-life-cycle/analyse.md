@@ -14,7 +14,7 @@ Facilities which offer data analysis services:
 Facilities offering computational resources:
 * [SNIC](https://www.snic.se/) (Swedish National Infrastructure for Computing) national research infrastructure makes available large scale high performance computing resources. [Apply](https://www.snic.se/allocations/compute/) for Small, Medium, Large or Sensitive data allocation, depending on size and type of project.
 
-## Resources & Training
+## Resources
 * [RDMkit on Analysing Data](https://rdmkit.elixir-europe.org/analysing)
 * [Data transfer](/topics/data-transfer)
 * [Collaboration and communication systems](https://www.scilifelab.se/community-pages/systems-data#collaboration)

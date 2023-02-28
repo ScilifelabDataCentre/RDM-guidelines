@@ -122,7 +122,7 @@ When you prepare the information for the participants, it might be a good to thi
 * Personal data must normally be pseudonymised before it is shared. Don’t forget to inform the participants about that. Data that is pseudonymised can only be used to identify individuals in combination with other data. -->
 <!-- ### Other considerations -->
 
-## Resources & Training
+## Resources
 <!-- Link to other resources about human data in research -->
 * [RDMkit on Human data](https://rdmkit.elixir-europe.org/human_data)
 * Swedish National Data service (SND) on [Research material with personal data](https://snd.gu.se/en/manage-data/plan/research-material-with-personal-data)

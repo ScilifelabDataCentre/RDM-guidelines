@@ -14,7 +14,24 @@ In the era of [FAIR](/topics/fair-principles) (Findable, Accessible, Interoperab
 
 &nbsp;&nbsp;
 
-Click on the buttons below for data type specific information regarding suitable repositories.
+**Does your data contain personal or sensitive information that cannot be fully anonymised?**
+
+There may be cases where openly sharing data is not feasible due to ethical or confidentiality considerations. Depending on what the ethical board approving your study said about data sharing, and the level of permission granted from participants, it may still be possible to make your data accessible to authenticated users via a controlled-access repository.
+
+**Is there a discipline specific repository for your dataset?**
+
+Research data differs greatly across disciplines. Discipline-specific repositories offer specialist domain knowledge and curation expertise for particular data types. Using a discipline-specific repository makes your data visible to others in your community.
+
+**Does your institutional repository accept data?**
+
+Many institutions offer support to their employees for managing and depositing data. Institutional repositories that accept datasets provide stewardship, helping to ensure that your dataset is preserved and accessible.
+
+**Answered no on all questions above?**
+
+General data repositories accept datasets regardless of discipline or institution. These repositories support a wide variety of file types and are particularly useful where a discipline-specific repository does not exist.
+
+
+Click on the buttons below for data type specific information regarding suitable discipline-specific repositories.
 
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">

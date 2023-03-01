@@ -7,7 +7,7 @@ toc: True
 # Sharing
 In the era of [FAIR](/topics/fair-principles) (Findable, Accessible, Interoperable and Reusable) and [Open science](https://www.vr.se/english/mandates/open-science/open-access-to-research-data.html), datasets should be made available to the public. Whenever possible, discipline-specific repositories (with or without controlled access) should be used in order to increase the FAIRness of your research outputs. If no such repository is available, there are general purpose repositories.
 
-<a href="/topics/publishing-human-data"><b>See more guidelines on publishing human data <i class="bi bi-arrow-right-square-fill"></i></b></a>
+<a href="/topics/sharing-human-data"><b>See more guidelines on publishing human data <i class="bi bi-arrow-right-square-fill"></i></b></a>
 <br/><br/><br/>
 
   <img class="img-fluid" src="/img/illustrations/repository_overview.png" alt="Repository overview">
@@ -97,7 +97,7 @@ Click on the buttons below for data type specific information regarding suitable
 
   <!--Zenodo
   : [Zenodo](https://zenodo.org) is a general-purpose repository operated by CERN. It can be used for sharing basically any kind of data, but also for just describing data stored elsewhere. Zenodo doesn't enforce standardised descriptions of data, so datasets described there might be more difficult to find than those described in the two repositories mentioned above.-->
-  
+
   </span>
   </div>
 </div>

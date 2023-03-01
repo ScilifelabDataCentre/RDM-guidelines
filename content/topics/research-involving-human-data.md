@@ -60,7 +60,7 @@ Personal data may be possible to share under some circumstances. Make sure to fo
 
 The GDPR states that the processing (including storing) of personal data should stop when the intended purpose of the processing has been fullfilled. There are, however, exemptions to this e.g. when the processing is done for research purposes. Also, from a research ethics point of view, research data should be kept to make it possible for others to validate published findings and reuse data for new discoveries. This is also governed by what the data subjects have been informed about regarding the data procesing.
 
-<a href="/topics/publishing-human-data"><b>See more guidelines on publishing human data <i class="bi bi-arrow-right-square-fill"></i></b></a>
+<a href="/topics/sharing-human-data"><b>See more guidelines on sharing human data <i class="bi bi-arrow-right-square-fill"></i></b></a>
 <br/><br/>
 
 <!-- Data processing agreement, data transfer agreement, data access agreement -->

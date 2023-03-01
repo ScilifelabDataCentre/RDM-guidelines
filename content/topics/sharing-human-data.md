@@ -16,7 +16,7 @@ The recommendations on publishing human data varies depending on the nature of t
 
 <a href="/topics/research-involving-human-data"><b>See more guidelines on research involving human data <i class="bi bi-arrow-right-square-fill"></i></b></a>
 <br/><br/>
-<a href="/topics/gdpr-legal-reference.md"><b>See more guidelines on GDPR <i class="bi bi-arrow-right-square-fill"></i></b></a>
+<a href="/topics/gdpr-legal-reference"><b>See more guidelines on GDPR <i class="bi bi-arrow-right-square-fill"></i></b></a>
 <br/><br/>
 
 ## Sharing non-personal data

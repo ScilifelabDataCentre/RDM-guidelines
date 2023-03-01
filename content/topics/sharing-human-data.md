@@ -23,7 +23,7 @@ The recommendations on publishing human data varies depending on the nature of t
 
 If your data cannot be linked to a living person, there is nothing in GDPR that prohibits you from sharing the data publicly. Data may however be sensitive under other regulations, so make sure that you take all relevant legal aspects into account. If you are dealing with human data, you should of course also think about the ethical and societal implications of sharing the data.
 
-There are many repositories for sharing human-related data publicly. Here are a few examples:
+<!--There are many repositories for sharing human-related data publicly. Here are a few examples:
 
 European Nucleotide Archive (ENA)
 : The [European Nucleotide Archive](https://www.ebi.ac.uk/ena/browser/home) is a public repository for nucleotide sequences hosted by the European Bioinformatics Institute (EMBL-EBI).
@@ -32,7 +32,7 @@ ArrayExpress
 : [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress) is a repository for functional genomics data hosted by the European Bioinformatics Institute (EMBL-EBI).
 
 SciLifeLab Data Repository
-: The [SciLifeLab Data Repository](https://figshare.scilifelab.se) is a an institutional repository hosted by SciLifeLab for depositing and describing data related to life science research. It is particularily useful for sharing files that are not suited for discipline-specific repositories.
+: The [SciLifeLab Data Repository](https://figshare.scilifelab.se) is a an institutional repository hosted by SciLifeLab for depositing and describing data related to life science research. It is particularily useful for sharing files that are not suited for discipline-specific repositories. -->
 
 <a href="/data-life-cycle/share/"><b>Learn more about data sharing and repositories <i class="bi bi-arrow-right-square-fill"></i></b></a>
 <br/><br/>
@@ -77,6 +77,7 @@ If you are a researcher at a Swedish academic institution working in the life sc
 
 
 ### General submission support
+<!-- Keep here or not? -->
 
 At SciLifeLab, we have a team of data stewards that can help you describe and deposit your data. Here are a few examples of the support that we offer:
 

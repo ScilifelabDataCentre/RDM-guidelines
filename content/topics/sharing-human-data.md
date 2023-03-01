@@ -44,11 +44,11 @@ Data that needs to be protected from unauthorised access may be deposited in a *
 
 Here are two repositories for sharing and archiving data under controlled access:
 
-European Genome-phenome Archive (EGA)
-: [European Genome-phenome Archive](https://ega-archive.org) is a service for sharing personally identifiable genetic and phenotypic data resulting from biomedical research projects. The repository is hosted by the European Bioinformatics Institute (EMBL-EBI) and the Centre for Genomic Regulation (CRG). Any data submitted to the repository is subject to controlled access, which means that access to the data only will be granted after a formal application procedure.
+### [European Genome-phenome Archive](https://ega-archive.org)
+This is a service for sharing personally identifiable genetic and phenotypic data resulting from biomedical research projects. The repository is hosted by the European Bioinformatics Institute (EMBL-EBI) and the Centre for Genomic Regulation (CRG). Any data submitted to the repository is subject to controlled access, which means that access to the data only will be granted after a formal application procedure.
 
-FEGA Sweden
-: [FEGA Sweden](https://fega.nbis.se/) is a repository for storing and sharing personal identifiable genetic and phenotypic data in Sweden in a way that meets the requirements of the General Data Protection Regulation (GDPR). It is part of a federation of national nodes, [Federated European Genome-phenome Archive](https://ega-archive.org/federated), which is tightly connected to the European Genome-phenome Archive (EGA). FEGA Sweden is not yet operational, but researchers may express their interest in depositing data to the repository by filling in [a web form](https://nbis.se/support/supportform/index.php#sdaform).
+### [FEGA Sweden](https://fega.nbis.se/)
+This is a repository for storing and sharing personal identifiable genetic and phenotypic data in Sweden in a way that meets the requirements of the General Data Protection Regulation (GDPR). It is part of a federation of national nodes, [Federated European Genome-phenome Archive](https://ega-archive.org/federated), which is tightly connected to the European Genome-phenome Archive (EGA). FEGA Sweden is not yet operational, but researchers may express their interest in depositing data to the repository by filling in [a web form](https://nbis.se/support/supportform/index.php#sdaform).
 
 <div class="alert alert-warning" role="alert">
 <b>Do you plan to submit data to FEGA Sweden?</b> While waiting for the repository to become operational, you may want to create a metadata record in SciLifeLab Data Repository (see below). This will give you a DOI to put in your research article. Once your data has been released in FEGA Sweden, our data management support team will help you update your metadata record with appropriate information.
@@ -57,15 +57,15 @@ FEGA Sweden
 
 ## If data cannot be deposited in a repository
 
-It is not always possible to deposit personally identifiable data in a controlled access repository. In that case, one could register a *metadata record* for the data. This record will serve multiple purposes: First, it will enable unambiguous identification of the data. Second, it will provide a description of the data so that others can understand what the data is about. Third, the metadata record may contain instructions on how to get access to the data.
+It is not always possible to deposit personally identifiable data in a controlled access repository. In that case, you could register a *metadata record* for the data. This record will serve multiple purposes: First, it will enable unambiguous identification of the data. Second, it will provide a description of the data so that others can understand what the data is about. Third, the metadata record may contain instructions on how to get access to the data.
 
 Here are a few repositories where you can register metadata records:
 
-SciLifeLab Data Repository
-: The [SciLifeLab Data Repository](https://figshare.scilifelab.se) is an institutional repository hosted by SciLifeLab for depositing and describing  data related to life science research. This repository is an instance of FigShare, which means that every record will get a unique DOI. You can read more in the [repository's guidelines](https://www.scilifelab.se/data/repository).
+### [SciLifeLab Data Repository](https://figshare.scilifelab.se)
+SciLifeLab is hosting an institutional repository, SciLifeLab Data Repository, for publishing any kind of research-related data, e.g. documents, figures, or presentations. This repository is an instance of Figshare, which means that every item will get a unique DOI. You can read more in the [repository's guidelines](https://www.scilifelab.se/data/repository). If you need any help connected to the SciLifeLab Data Repository, please [contact us](../../contact/)!
 
-BioStudies
-: The [BioStudies database](https://www.ebi.ac.uk/biostudies/) contains descriptions of biological studies. This repository is especially suited for linking a study to datasets in different repositories, but can also be used to describe sensitive data that has not been uploaded to a repository. BiosStudies is hosted by the European Bioinformatics Institute (EMBL-EBI).
+### [BioStudies](https://www.ebi.ac.uk/biostudies/)
+This database contains descriptions of biological studies and is especially suited for linking a study to datasets in different repositories. However,it but can also be used to describe sensitive data that has not been uploaded to a repository. BioStudies is hosted by the European Bioinformatics Institute (EMBL-EBI).
 
 
 ## How can SciLifeLab help you sharing human data?

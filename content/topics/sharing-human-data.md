@@ -76,22 +76,6 @@ Zenodo
 If you are a researcher at a Swedish academic institution working in the life sciences, you can get help from SciLifeLab Data Management support team.
 
 
-### General submission support
-<!-- Keep here or not? -->
-
-At SciLifeLab, we have a team of data stewards that can help you describe and deposit your data. Here are a few examples of the support that we offer:
-
-* Plan data submission
-* Identify suitable repositories
-* Assist during the submission process when publishing data and code
-* Assist in the creation of metadata records in SciLifeLab Data Repository
-* Advice on what needs to be done when working with sensitive human data
-* Advice on describing data with proper metadata
-* Data transfers, data organisation, backup, and security procedures
-
-If you need any help connected to data submission, please [contact us](../../contact/)!
-
-
 ### Submission support for FEGA Sweden
 
 FEGA Sweden is not yet in production, but you can get help with preparations for a future submission to the repository. The FEGA Sweden Helpdesk is part of the larger Data Management Support Team at SciLifeLab. Visit the [FEGA Sweden website](https://fega.nbis.se) to learn more about how you can prepare a submission and how to get in contact with the FEGA Sweden Helpdesk.
@@ -116,6 +100,7 @@ To let us handle access requests to your data, you need to take the following st
 6. When a user has been approved for access, SciLifeLab Data Centre will document the processing and arrange for the physical file access. Until FEGA Sweden is up and running, the physical file access will be that you, as a PI, copies the dataset from your Bianca project space, to the specified project space of the approved applicant. Because of SNIC user policy, only PIs at a Swedish academic institution can have a project at Bianca. So to share data with a collaborator outside Sweden, the PI in Sweden needs to have applied for a project at Bianca. Please see the [Bianca user guide](https://www.uppmax.uu.se/support/user-guides/bianca-user-guide/) for information on how to do this.
 7. SciLifeLab Data Centre will keep track of current and expired approvals.
 
+If you need any help connected to data submission, please [contact us](../../contact/)!
 
 ## Resources & Training
 

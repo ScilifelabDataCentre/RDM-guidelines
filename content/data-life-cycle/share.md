@@ -98,6 +98,20 @@ Click on the buttons below for data type specific information regarding suitable
   </div>
 </div>
 
+&nbsp;
+## How can SciLifeLab help you sharing data?
+
+If you are a researcher at a Swedish academic institution working in the life sciences, you can get help from SciLifeLab Data Management support team. This support team can help you describe and deposit your data. Here are a few examples of the support that is offered:
+
+* Plan data submission
+* Identify suitable repositories
+* Assist during the submission process when publishing data and code
+* Assist in the creation of metadata records in SciLifeLab Data Repository
+* Advice on what needs to be done when working with sensitive human data
+* Advice on describing data with proper metadata
+
+If you need any help connected to data submission, please [contact us](../../contact/)!
+
 ## Resources & Training
 * [RDMkit on Sharing Data](https://rdmkit.elixir-europe.org/sharing)
 * [RDMkit on Data publication](https://rdmkit.elixir-europe.org/data_publication)

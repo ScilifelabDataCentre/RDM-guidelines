@@ -67,9 +67,6 @@ SciLifeLab Data Repository
 BioStudies
 : The [BioStudies database](https://www.ebi.ac.uk/biostudies/) contains descriptions of biological studies. This repository is especially suited for linking a study to datasets in different repositories, but can also be used to describe sensitive data that has not been uploaded to a repository. BiosStudies is hosted by the European Bioinformatics Institute (EMBL-EBI).
 
-Zenodo
-: [Zenodo](https://zenodo.org) is a general-purpose repository operated by CERN. It can be used for sharing basically any kind of data, but also for just describing data stored elsewhere. Zenodo doesn't enforce standardised descriptions of data, so datasets described there might be more difficult to find than those described in the two repositories mentioned above.
-
 
 ## How can SciLifeLab help you sharing human data?
 

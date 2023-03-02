@@ -7,7 +7,7 @@ toc: True
 # Sharing
 In the era of [FAIR](/topics/fair-principles) (Findable, Accessible, Interoperable and Reusable) and [Open science](https://www.vr.se/english/mandates/open-science/open-access-to-research-data.html), datasets should be made available to the public. Whenever possible, discipline-specific repositories (with or without controlled access) should be used in order to increase the FAIRness of your research outputs. If no such repository is available, there are general purpose repositories.
 
-<a href="/topics/sharing-human-data"><b>See more guidelines on publishing human data <i class="bi bi-arrow-right-square-fill"></i></b></a>
+<a href="/topics/sharing-human-data"><b>See more guidelines on sharing human data <i class="bi bi-arrow-right-square-fill"></i></b></a>
 <br/><br/><br/>
 
   <img class="img-fluid" src="/img/illustrations/repository_overview.png" alt="Repository overview">
@@ -35,8 +35,11 @@ Click on the buttons below for data type specific information regarding suitable
   <h5> <a href="https://www.ebi.ac.uk/arrayexpress/">ArrayExpress</a></h5>
   ArrayExpress is tighty integrated with ENA and similar to NCBI’s Gene Expression Omnibus database it can be used to archive experimental designs and analysis files based on the raw sequence reads. ArrayExpress has its own <a href="https://www.ebi.ac.uk/arrayexpress/submit/overview.html">submission portal</a> where information is available on what can be submitted and how.<br><br>
 
-  <h5> <a href="https://ega-archive.org/">EGA</a> (European Genome-phenome Archive)</h5>
-  NBIS is building a local federated version of the European Genome-phenome Archive (EGA) in Sweden (EGA-SE), allowing for the publication of sensitive personal data within a legal framework. Until local EGA is available, the dataset should remain in the secure analysis environment (e.g. at Bianca on Uppmax). We suggest to make a metadata-only record in the <a href="https://www.scilifelab.se/data/repository">SciLifeLab Data Repository</a> with contact details on how to get access, and for which a DOI (i.e. a persistent identifier) can be issued. The DOI can then be used in the article to refer to the dataset. Once the Swedish EGA is operational, and the dataset deposited there, the access information can be changed to point at the EGA ID. See <a href="https://doi.org/10.17044/scilifelab.12292778">https://doi.org/10.17044/scilifelab.12292778</a>, for an example.
+  <h5> <a href="https://ega-archive.org/">European Genome-phenome Archive</a></h5>
+  This is a service for sharing personally identifiable genetic and phenotypic data resulting from biomedical research projects. The repository is hosted by the European Bioinformatics Institute (EMBL-EBI) and the Centre for Genomic Regulation (CRG). Any data submitted to the repository is subject to controlled access, which means that access to the data only will be granted after a formal application procedure.
+
+  <h5> <a href="https://fega.nbis.se/">FEGA Sweden</a></h5>
+  This is a repository for storing and sharing personal identifiable genetic and phenotypic data in Sweden in a way that meets the requirements of the General Data Protection Regulation (GDPR). It is part of a federation of national nodes, <a href="https://ega-archive.org/federated">Federated European Genome-phenome Archive</a>, which is tightly connected to the European Genome-phenome Archive (EGA). FEGA Sweden is not yet operational, but researchers may express their interest in depositing data to the repository by filling in <a href="https://nbis.se/support/supportform/index.php#sdaform">a web form</a>.
 
   </span>
   </div>

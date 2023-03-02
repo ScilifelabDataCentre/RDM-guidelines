@@ -7,8 +7,8 @@ toc: True
 # Sharing
 In the era of [FAIR](/topics/fair-principles) (Findable, Accessible, Interoperable and Reusable) and [Open science](https://www.vr.se/english/mandates/open-science/open-access-to-research-data.html), datasets should be made available to the public. Whenever possible, discipline-specific repositories (with or without controlled access) should be used in order to increase the FAIRness of your research outputs. If no such repository is available, there are general purpose repositories.
 
-<a href="/topics/sharing-human-data"><b>See more guidelines on sharing human data <i class="bi bi-arrow-right-square-fill"></i></b></a>
-<br/><br/><br/>
+
+<br/><br/>
 
   <img class="img-fluid" src="/img/illustrations/repository_overview.png" alt="Repository overview">
 
@@ -17,6 +17,8 @@ In the era of [FAIR](/topics/fair-principles) (Findable, Accessible, Interoperab
 **Does your data contain personal or sensitive information that cannot be fully anonymised?**
 
 There may be cases where openly sharing data is not feasible due to ethical or confidentiality considerations. Depending on what the ethical board approving your study said about data sharing, and the level of permission granted from participants, it may still be possible to make your data accessible to authenticated users via a controlled-access repository.
+
+<a href="/topics/sharing-human-data"><b>See more guidelines on sharing human data <i class="bi bi-arrow-right-square-fill"></i></b></a>
 
 **Is there a discipline specific repository for your dataset?**
 
@@ -30,6 +32,7 @@ Many institutions offer support to their employees for managing and depositing d
 
 General data repositories accept datasets regardless of discipline or institution. These repositories support a wide variety of file types and are particularly useful where a discipline-specific repository does not exist.
 
+## Recommended discipline-specific repositories
 
 Click on the buttons below for data type specific information regarding suitable discipline-specific repositories.
 
@@ -141,4 +144,5 @@ If you need any help connected to data submission, please [contact us](../../con
 * [RDMkit on Data publication](https://rdmkit.elixir-europe.org/data_publication)
 * [The Swedish Covid-19 Data Portal on Sharing Data](https://covid19dataportal.se/share-data/)
 * [Data publication module](https://nbisweden.github.io/module-data-publication-dm-practices/) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)
+* [EBI repository wizard](https://www.ebi.ac.uk/submission/) guides through the decision process of finding a suitable repository
 * Many of the repositories at EBI have instructive videos on how to do submission as well as documentation, have a look at their [YouTube playlist](https://www.youtube.com/playlist?list=PL67E0627174F36FCF).

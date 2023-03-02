@@ -75,7 +75,7 @@ If you are a researcher at a Swedish academic institution working in the life sc
 
 ### Submission support for FEGA Sweden
 
-FEGA Sweden is not yet in production, but you can get help with preparations for a future submission to the repository. The FEGA Sweden Helpdesk is part of the larger Data Management Support Team at SciLifeLab. Visit the [FEGA Sweden website](https://fega.nbis.se) to learn more about how you can prepare a submission and how to get in contact with the FEGA Sweden Helpdesk.
+FEGA Sweden is not yet in production, but you can get help with preparations for a future submission to the repository. The FEGA Sweden Helpdesk is part of the larger data management support team at SciLifeLab. Visit the [FEGA Sweden website](https://fega.nbis.se) to learn more about how you can prepare a submission and how to get in contact with the FEGA Sweden Helpdesk.
 
 
 ### Data access management support

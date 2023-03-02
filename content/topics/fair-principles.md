@@ -271,4 +271,4 @@ Data and metadata are sufficiently well-described to allow data to be reused in 
 </div>
 
 ## Resources
-* [Open Science and FAIR](https://nbisweden.github.io/module-open-science-dm-practices/index.html) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)
+* [Open Science and FAIR module](https://nbisweden.github.io/module-open-science-dm-practices/index.html) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)

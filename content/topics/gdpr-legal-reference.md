@@ -116,7 +116,7 @@ Exercise of official authority or task in the public interest: The data controll
 ## Data breach
 [Article 4 (12)](https://gdpr-info.eu/art-4-gdpr/): ‘**personal data breach**’ means a breach of security leading to the accidental or unlawful destruction, loss, alteration, unauthorised disclosure of, or access to, personal data transmitted, stored or otherwise processed;
 
-## Resources & Training
+## Resources
 ### GDPR text
 * [Dataskyddsförordningen](https://www.imy.se/verksamhet/dataskydd/det-har-galler-enligt-gdpr/introduktion-till-gdpr/dataskyddsforordningen-i-fulltext/) - *Swedish*
 * [General Data Protection Regulation](https://gdpr-info.eu/) - *English*

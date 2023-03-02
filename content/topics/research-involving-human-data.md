@@ -154,7 +154,7 @@ When you prepare the information for the participants, it might be a good to thi
 <!-- ### Other considerations -->
 
 
-## Resources & Training
+## Resources
 
 <!-- Link to other resources about human data in research -->
 * [RDMkit on Human data](https://rdmkit.elixir-europe.org/human_data)

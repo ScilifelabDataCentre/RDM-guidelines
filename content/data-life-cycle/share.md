@@ -119,7 +119,7 @@ If you are a researcher at a Swedish academic institution working in the life sc
 
 If you need any help connected to data submission, please [contact us](../../contact/)!
 
-## Resources & Training
+## Resources
 * [RDMkit on Sharing Data](https://rdmkit.elixir-europe.org/sharing)
 * [RDMkit on Data publication](https://rdmkit.elixir-europe.org/data_publication)
 * [The Swedish Covid-19 Data Portal on Sharing Data](https://covid19dataportal.se/share-data/)

@@ -9,7 +9,7 @@ toc: True
 This is a glossary where you find definitions of key terms in GDPR and the Swedish ethical review legislation.
 
 <div class="alert alert-warning" role="alert">
- Note that the term names and definitions represents our understanding of the legislation, and does not constitute legal advice in individal cases. Please consult the legal office of your university if you need assistance.
+ Note that the term names and definitions represent our understanding of the legislation, and does not constitute legal advice in individal cases. Please consult the legal office of your university if you need assistance.
 </div>
 
 

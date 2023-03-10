@@ -11,7 +11,7 @@ name: Trivy - scheduled scan
 on:
   workflow_dispatch:
     branches:
-      - develop
+      - main
   schedule:
     - cron: '25 8,12 * * *'
 

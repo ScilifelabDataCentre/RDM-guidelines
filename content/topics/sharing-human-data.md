@@ -65,7 +65,7 @@ Here are a few repositories where you can register metadata records:
 SciLifeLab is hosting an institutional repository, SciLifeLab Data Repository, for publishing any kind of research-related data, e.g. documents, figures, or presentations. This repository is an instance of Figshare, which means that every item will get a unique DOI. You can read more in the [repository's guidelines](https://www.scilifelab.se/data/repository). If you need any help connected to the SciLifeLab Data Repository, please [contact us](../../contact/)!
 
 ### [BioStudies](https://www.ebi.ac.uk/biostudies/)
-This database contains descriptions of biological studies and is especially suited for linking a study to datasets in different repositories. However,it but can also be used to describe sensitive data that has not been uploaded to a repository. BioStudies is hosted by the European Bioinformatics Institute (EMBL-EBI).
+This database contains descriptions of biological studies and is especially suited for linking a study to datasets in different repositories. However, it can also be used to describe sensitive data that has not been uploaded to a repository. BioStudies is hosted by the European Bioinformatics Institute (EMBL-EBI).
 
 
 ## How can SciLifeLab help you sharing human data?
@@ -90,7 +90,7 @@ To let us handle access requests to your data, you need to take the following st
 
 1. Store the data in your own project on Bianca at UPPMAX.
 2. Adjust the Data Access Agreement and Data Access request forms (available from [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se)) to suit your particular case.
-3. Prepare a metadata record for the dataset in the SciLifeLab Data Repository. It is important to not upload the human data, but do provide as much descriptive metadata as possible to improve the findability. Set [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se) as “access request email” and your own email address as "contact email".
+3. Prepare a metadata record for the dataset in the SciLifeLab Data Repository. It is important to not upload the human data, but do provide as much descriptive metadata as possible to improve the findability. Set [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se) as "access request email" and your own email address as "contact email".
 4. In your manuscript add a section on Data Availability and make sure it includes information on where to go for requesting access to the data. You could for example write the following in your manuscript:
 > The data is deposited on a secure Swedish server and has been assigned a DOI (XXX). Data access requests may be submitted to the Science for Life Laboratory Data Centre through the DOI link.
 5. When a user applies for access to [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se), the application will be vetted and you will be contacted by us. Then you can make a decision on access approved or denied. Ideally, you can (should) delegate this decision to an independent Data Access Committee (DAC).
@@ -99,6 +99,6 @@ To let us handle access requests to your data, you need to take the following st
 
 If you need any help connected to data submission, please [contact us](../../contact/)!
 
-## Resources & Training
+## Resources
 
 * [RDMkit on Human data](https://rdmkit.elixir-europe.org/human_data)

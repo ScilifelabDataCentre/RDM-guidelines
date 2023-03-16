@@ -31,13 +31,13 @@ Compliance with GDPR means that an organization that falls within the scope of t
 
 -   https://www.gdpreu.org/gdpr-compliance/
 
-### **(personal data) controller**
+### **controller**
 
 *In Swedish:* personuppgiftsansvarig
 
 The organization (for example a limited company, foundation, association or authority) that determines for what purposes the personal data is processed and how it is processed.
 
--   https://gdpr-info.eu/art-4-gdpr/
+-   https://gdpr-info.eu/art-4-gdpr/ (7)
 
 ### **data erasure/data retention**
 
@@ -55,13 +55,14 @@ Any individual person who can be identified, directly or indirectly, via an iden
 
 -   https://gdpr-info.eu/art-4-gdpr/
 
-### **(personal) data processing agreement (DPA)**
+### **data processing agreement (DPA)**
 
 *In Swedish:* personuppgiftsbiträdesavtal (PuBA)
 
 A legally binding contract that states the rights and obligations of each party concerning the protection of personal data.
 
 -   https://gdpr.eu/what-is-data-processing-agreement/
+-   https://gdpr-info.eu/art-28-gdpr/ (3)
 
 ### **data protection officer (DPO)**
 
@@ -95,6 +96,15 @@ Regulation within the EU regarding processing of personal data. According to the
 
 -   https://gdpr.eu/
 
+### **genetic data**
+
+*In Swedish:* genetiska uppgifter
+
+[Article 4 (13)](https://gdpr-info.eu/art-4-gdpr/): ‘**genetic data**’ means personal data relating to the inherited or acquired genetic characteristics of a natural person which give unique information about the physiology or the health of that natural person and which result, in particular, from an analysis of a biological sample from the natural person in question
+
+[Recital 34](https://gdpr-info.eu/recitals/no-34/): “Genetic data should be defined as personal data relating to the inherited or acquired genetic characteristics of a natural person which result from the analysis of a biological sample from the natural person in question, in particular chromosomal, deoxyribonucleic acid (DNA) or ribonucleic acid (RNA) analysis, or from the analysis of another element enabling equivalent information to be obtained.”
+
+
 ### **information security**
 
 *In Swedish:* informationssäkerhet
@@ -103,17 +113,18 @@ Personal data processing must be protected by technical and other measures, depe
 
 -   https://www.imy.se/en/organisations/data-protection/this-applies-accordning-to-gdpr/information-security/
 
-### **lawful basis**
+### **lawful gound, legal basis**
 
 *In Swedish:* rättslig grund
 
 Each instance of personal data processing needs to be based on only one of 6 lawful grounds defined in the GDPR (see below).
 
-Read more at https://www.imy.se/en/organisations/data-protection/this-applies-accordning-to-gdpr/lawful-grounds-for-personal-data-processing/
+-   https://www.imy.se/en/organisations/data-protection/this-applies-accordning-to-gdpr/lawful-grounds-for-personal-data-processing/
+-   https://gdpr-info.eu/art-6-gdpr/
 
 1.  **consent** (*In Swedish:* samtycke)
 
-        The data subject has consented to the personal data processing. Such consent is valid only if the data subject has been given adequate information about the research before consenting to it ("informed consent"). Their consent must always be documented.
+        The data subject has consented to the personal data processing. Such consent is valid only if the data subject has been given adequate information about the research before consenting to it ("informed consent"). Their consent must always be documented. [Article 4 (11)](https://gdpr-info.eu/art-4-gdpr/).
 
 2.  **contract** (*In Swedish:* avtal med den registrerade)
 
@@ -127,9 +138,9 @@ Read more at https://www.imy.se/en/organisations/data-protection/this-applies-ac
 
         The data controller must process personal data in order to protect a data subject who cannot give their consent, for example if they are unconscious.
 
-5.  **public task** (*In Swedish:* myndighetsutövning och uppgifter av allmänt intresse)
+5.  **public interest** (*In Swedish:* myndighetsutövning och uppgifter av allmänt intresse)
 
-        The data controller must process personal data in order to carry out its duties as an authority or to carry out a task in the public interest.
+        The data controller must process personal data in order to carry out its duties as an authority or to carry out a task in the public interest. [Article 6](https://gdpr-info.eu/art-6-gdpr/).
 
 6.  **legitimate interests** (*In Swedish:* intresseavvägning; ibland "berättigat intresse")
 
@@ -139,17 +150,18 @@ Read more at https://www.imy.se/en/organisations/data-protection/this-applies-ac
 
 *In Swedish:* personuppgift
 
-Any information relating to an identified or identifiable person, e.g.: a name, an identification number, location data or an online indicator, one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that person.
+Any information relating to an identified or identifiable person (a person who can be identified, directly or indirectly), e.g.: a name, an identification number, location data, an online indicator or one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that person.
 
 -   https://gdpr.eu/eu-gdpr-personal-data/
+-   https://gdpr-info.eu/art-4-gdpr/ (1)
 
 ### **personal data breach**
 
 *In Swedish:* personuppgiftsincident
 
-A breach of security leading to the accidental or unlawful destruction, loss, alteration, unauthorized disclosure of, or access to, personal data.
+A breach of security leading to the accidental or unlawful destruction, loss, alteration, unauthorized disclosure of, or access to, personal data transmitted, stored or otherwise processed.
 
--   https://gdpr-info.eu/art-4-gdpr/
+-   https://gdpr-info.eu/art-4-gdpr/ (12)
 
 ### **processing of personal data**
 
@@ -159,13 +171,13 @@ Anything done with personal data, e.g. collection, recording, storage, adaptatio
 
 -   https://gdpr-info.eu/art-4-gdpr/
 
-### **(personal data) processor**
+### **processor**
 
 *In Swedish:* personuppgiftsbiträde
 
 An entity that processes personal data on behalf of a data controller.
 
--   https://gdpr-info.eu/art-4-gdpr/
+-   https://gdpr-info.eu/art-4-gdpr/ (8)
 
 ### **pseudonymization of personal data**
 
@@ -173,7 +185,7 @@ An entity that processes personal data on behalf of a data controller.
 
 The processing of personal data in such a manner that the personal data can no longer be attributed to a specific data subject without the use of additional information, provided that such additional information is kept separately and is subject to technical and organizational measures to ensure that the personal data are not attributed to an identified or identifiable natural person.
 
--   https://gdpr-info.eu/art-4-gdpr/
+-   https://gdpr-info.eu/art-4-gdpr/ (1)
 
 ### **public authority**
 
@@ -197,6 +209,14 @@ The GDPR provides data subjects with certain rights. In brief, data subjects mus
 
 -   https://gdpr-info.eu/chapter-3/
 
+### **security of processing**
+
+*In Swedish:* säkerhet i samband med behandlingen
+
+Taking into account the state of the art, the costs of implementation and the nature, scope, context and purposes of processing as well as the risk of varying likelihood and severity for the rights and freedoms of natural persons, the controller and the processor shall implement appropriate technical and organisational measures to ensure a level of security appropriate to the risk.
+
+-  https://gdpr-info.eu/art-32-gdpr/
+
 ### **sensitive personal data**
 
 *In Swedish:* känslig personuppgift
@@ -204,6 +224,7 @@ The GDPR provides data subjects with certain rights. In brief, data subjects mus
 Racial or ethnic origin, political opinions, religious or philosophical beliefs, trade union membership, health, sex life or sexual orientation, genetic data, biometric data that uniquely identify a person.
 
 -   https://www.imy.se/en/organisations/data-protection/this-applies-accordning-to-gdpr/the-purposes-and-scope-of-gdpr/personal-data/sensitive-personal-data/
+-   https://gdpr-info.eu/art-9-gdpr/
 
 ### **transfer of personal data to a third country**
 

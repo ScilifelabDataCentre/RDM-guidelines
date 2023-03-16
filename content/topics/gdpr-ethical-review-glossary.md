@@ -31,6 +31,14 @@ Compliance with GDPR means that an organization that falls within the scope of t
 
 -   https://www.gdpreu.org/gdpr-compliance/
 
+### **(personal data) controller**
+
+*In Swedish:* personuppgiftsansvarig
+
+The organization (for example a limited company, foundation, association or authority) that determines for what purposes the personal data is processed and how it is processed.
+
+-   https://gdpr-info.eu/art-4-gdpr/
+
 ### **data erasure/data retention**
 
 *In Swedish:* gallring av data
@@ -46,6 +54,14 @@ Data retention rules in the GDPR require any personal data that is collected or 
 Any individual person who can be identified, directly or indirectly, via an identifier such as a name, an ID number, location data, or via factors specific to the person's physical, physiological, genetic, mental, economic, cultural or social identity.
 
 -   https://gdpr-info.eu/art-4-gdpr/
+
+### **(personal) data processing agreement (DPA)**
+
+*In Swedish:* personuppgiftsbiträdesavtal (PuBA)
+
+A legally binding contract that states the rights and obligations of each party concerning the protection of personal data.
+
+-   https://gdpr.eu/what-is-data-processing-agreement/
 
 ### **data protection officer (DPO)**
 
@@ -87,6 +103,38 @@ Personal data processing must be protected by technical and other measures, depe
 
 -   https://www.imy.se/en/organisations/data-protection/this-applies-accordning-to-gdpr/information-security/
 
+### **lawful basis**
+
+*In Swedish:* rättslig grund
+
+Each instance of personal data processing needs to be based on only one of 6 lawful grounds defined in the GDPR (see below).
+
+Read more at https://www.imy.se/en/organisations/data-protection/this-applies-accordning-to-gdpr/lawful-grounds-for-personal-data-processing/
+
+1.  **consent** (*In Swedish:* samtycke)
+
+        The data subject has consented to the personal data processing. Such consent is valid only if the data subject has been given adequate information about the research before consenting to it ("informed consent"). Their consent must always be documented.
+
+2.  **contract** (*In Swedish:* avtal med den registrerade)
+
+        The data subject has a contract or is to enter into a contract with the data controller.
+
+3.  **legal obligation** (*In Swedish:* rättslig förpliktelse)
+
+        There are laws and rules that oblige the data controller to process certain personal data in its activities.
+
+4.  **protection of vital interests** (*In Swedish:* skydda grundläggande intressen)
+
+        The data controller must process personal data in order to protect a data subject who cannot give their consent, for example if they are unconscious.
+
+5.  **public task** (*In Swedish:* myndighetsutövning och uppgifter av allmänt intresse)
+
+        The data controller must process personal data in order to carry out its duties as an authority or to carry out a task in the public interest.
+
+6.  **legitimate interests** (*In Swedish:* intresseavvägning; ibland "berättigat intresse")
+
+        The data controller may process personal data without the data subject's consent if the data controller's interests outweigh those of the data subject and if the processing is necessary for the purpose in question. Note that Swedish authorities are not allowed to use legitimate interests as a lawful basis for processing of personal data in order to carry out their tasks. The reason for this exception is that Swedish authorities are only allowed to process personal data in accordance with Swedish law.
+
 ### **personal data**
 
 *In Swedish:* personuppgift
@@ -99,7 +147,15 @@ Any information relating to an identified or identifiable person, e.g.: a name, 
 
 *In Swedish:* personuppgiftsincident
 
-A breach of security leading to the accidental or unlawful. destruction, loss, alteration, unauthorized disclosure of, or access to, personal data.
+A breach of security leading to the accidental or unlawful destruction, loss, alteration, unauthorized disclosure of, or access to, personal data.
+
+-   https://gdpr-info.eu/art-4-gdpr/
+
+### **processing of personal data**
+
+*In Swedish:* personuppgiftsbehandling
+
+Anything done with personal data, e.g. collection, recording, storage, adaptation, dissemination.
 
 -   https://gdpr-info.eu/art-4-gdpr/
 
@@ -108,30 +164,6 @@ A breach of security leading to the accidental or unlawful. destruction, loss, a
 *In Swedish:* personuppgiftsbiträde
 
 An entity that processes personal data on behalf of a data controller.
-
--   https://gdpr-info.eu/art-4-gdpr/
-
-### **(personal data) controller**
-
-*In Swedish:* personuppgiftsansvarig
-
-The organization (for example a limited company, foundation, association or authority) that determines for what purposes the personal data is processed and how it is processed.
-
--   https://gdpr-info.eu/art-4-gdpr/
-
-### **(personal) data processing agreement (DPA)**
-
-*In Swedish:* personuppgiftsbiträdesavtal (PuBA)
-
-A legally binding contract that states the rights and obligations of each party concerning the protection of personal data.
-
--   https://gdpr.eu/what-is-data-processing-agreement/
-
-### **processing of personal data**
-
-*In Swedish:* personuppgiftsbehandling
-
-Anything done with personal data, e.g. collection, recording, storage, adaptation, dissemination.
 
 -   https://gdpr-info.eu/art-4-gdpr/
 
@@ -173,45 +205,13 @@ Racial or ethnic origin, political opinions, religious or philosophical beliefs,
 
 -   https://www.imy.se/en/organisations/data-protection/this-applies-accordning-to-gdpr/the-purposes-and-scope-of-gdpr/personal-data/sensitive-personal-data/
 
-**transfer of personal data to a third country**
+### **transfer of personal data to a third country**
 
 *In Swedish:* överföring av personuppgifter till tredje land
 
 Personal data is made available to someone outside the EU/EEA.
 
 -   https://www.imy.se/en/organisations/data-protection/this-applies-accordning-to-gdpr/transfer-of-data-to-a-third-country/
-
-### **lawful basis**
-
-*In Swedish:* rättslig grund
-
-Each instance of personal data processing needs to be based on only one of 6 lawful grounds defined in the GDPR (see below).
-
-Read more at https://www.imy.se/en/organisations/data-protection/this-applies-accordning-to-gdpr/lawful-grounds-for-personal-data-processing/
-
-1.  **consent** (*In Swedish:* samtycke)
-
-        The data subject has consented to the personal data processing. Such consent is valid only if the data subject has been given adequate information about the research before consenting to it ("informed consent"). Their consent must always be documented.
-
-2.  **contract** (*In Swedish:* avtal med den registrerade)
-
-        The data subject has a contract or is to enter into a contract with the data controller.
-
-3.  **legal obligation** (*In Swedish:* rättslig förpliktelse)
-
-        There are laws and rules that oblige the data controller to process certain personal data in its activities.
-
-4.  **protection of vital interests** (*In Swedish:* skydda grundläggande intressen)
-
-        The data controller must process personal data in order to protect a data subject who cannot give their consent, for example if they are unconscious.
-
-5.  **public task** (*In Swedish:* myndighetsutövning och uppgifter av allmänt intresse)
-
-        The data controller must process personal data in order to carry out its duties as an authority or to carry out a task in the public interest.
-
-6.  **legitimate interests** (*In Swedish:* intresseavvägning; ibland "berättigat intresse")
-
-        The data controller may process personal data without the data subject's consent if the data controller's interests outweigh those of the data subject and if the processing is necessary for the purpose in question. Note that Swedish authorities are not allowed to use legitimate interests as a lawful basis for processing of personal data in order to carry out their tasks. The reason for this exception is that Swedish authorities are only allowed to process personal data in accordance with Swedish law.
 
 
 ## Ethical review glossary

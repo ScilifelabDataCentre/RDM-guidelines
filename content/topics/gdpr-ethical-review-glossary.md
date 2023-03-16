@@ -235,7 +235,6 @@ Personal data is made available to someone outside the EU/EEA.
 
 -   https://www.imy.se/en/organisations/data-protection/this-applies-accordning-to-gdpr/transfer-of-data-to-a-third-country/
 
-
 ## Ethical review glossary
 
 ### **ethical approval**

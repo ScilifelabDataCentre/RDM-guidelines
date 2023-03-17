@@ -17,16 +17,16 @@ When planning a research project, it is often useful to think of ELSI with respe
 
 ## What is personal data?
 
-Any data that directly or indirectly can be linked to a living person is considered personal data under the General Data Protection Regulation (GDPR). This can for example be a person's name or personal identity number. Different pieces of information, which collected together can lead to the identification of a particular person, is also regarded as personal data. For instance can a street address in combination with a person's gender in some cases be sufficient to identify a particular person. Read more in the [legal reference regarding personal data](/topics/gdpr-legal-reference/#personal-data).
+Any data that directly or indirectly can be linked to a living person is considered [personal data](/topics/gdpr-ethical-review-glossary/#personal-data) under the General Data Protection Regulation (GDPR). This can for example be a person's name or personal identity number. Different pieces of information, which collected together can lead to the identification of a particular person, is also regarded as personal data. For instance can a street address in combination with a person's gender in some cases be sufficient to identify a particular person.
 
 
-## What is sensitive personal data?
+## What is [sensitive personal data](/topics/gdpr-ethical-review-glossary/#sensitive-personal-data)?
 
-Some personal data is regarded as [sensitive](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rules-business-and-organisations/legal-grounds-processing-data/sensitive-data/what-personal-data-considered-sensitive_en), for example data related to health and genetics. This includes **all kinds of genetic data** (both RNA and DNA, and both somatic and germline information), and is likely to apply to  other kinds of omics data as well. One should keep in mind that genetic data about a deceased person also may be regarded as personal data under GDPR if the data can be used to identify a living relative of that person.
+Some personal data is regarded as [sensitive](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rules-business-and-organisations/legal-grounds-processing-data/sensitive-data/what-personal-data-considered-sensitive_en), for example data related to health and genetics. This includes **all kinds of [genetic data](/topics/gdpr-ethical-review-glossary/#genetic-data)** (both RNA and DNA, and both somatic and germline information), and is likely to apply to other kinds of omics data as well. One should keep in mind that genetic data about a deceased person also may be regarded as personal data under GDPR if the data can be used to identify a living relative of that person.
 
 Aggregated data (like population frequencies or number of sequence reads for a gene) might not be considered personal data (and hence not sensitive personal data), but a decision has to be made on a case-by-case basis.
 
-Sensitive personal data should always be [pseudonymised](/topics/gdpr-legal-reference/#pseudonymisation), which means that a particular person cannot be identified from the data unless it is combined with other data that has not been disclosed to the public. A common pseudonymisation procedure is to replace personal identity numbers with artificial identifiers. It is important to remember that pseudonymised data is still regarded as personal data under GDPR. See also legal reference regarding [sensitive data](/topics/gdpr-legal-reference#sensitive-data)
+Sensitive personal data should always be [pseudonymised](/topics/gdpr-legal-reference/#pseudonymised-data), which means that a particular person cannot be identified from the data unless it is combined with other data that has not been disclosed to the public. A common pseudonymisation procedure is to replace personal identity numbers with artificial identifiers. It is important to remember that pseudonymised data is still regarded as personal data under GDPR. See also legal reference regarding [sensitive data](/topics/gdpr-legal-reference#sensitive-personal-data).
 
 
 ## Important regulations to follow
@@ -45,7 +45,7 @@ The [Swedish Authority for Privacy Protection (IMY)](https://www.imy.se/en/) uph
 
 ## Who is responsible for the data?
 
-An important concept in GDPR is the [data controller](/topics/gdpr-legal-reference/#controller), which is the person or entity that determines the purposes and means of the processing of some personal data.
+An important concept in GDPR is the [data controller](/topics/gdpr-legal-reference/#roles), which is the person or entity that determines the purposes and means of the processing of some personal data.
 
 Many people wrongly believe that the principal investigator in a research project is the controller for the project's data. In fact, this is practically never the case for Swedish academic research. Instead, the controller is typically the university (or sometimes the hospital) where the principal investigator is employed. That being said, the principal investigator should act as a representative of her institution and is responsible for ensuring that personal data is handled correctly in her projects.
 
@@ -98,7 +98,7 @@ Also note that even if public interest is the legal basis, other laws and resear
 ### Data Processing
 
 <!-- what is meant / definition; storage & analysis by other than the controller requires agreement -->
-All processing of personal data must comply with the [Principles relating to processing of personal data](/topics/gdpr-legal-reference/#principles-of-processing-of-personal-data) in the GDPR.
+All processing of personal data must comply with the [Principles relating to processing of personal data](/topics/gdpr-legal-reference/#gdpr-principles) in the GDPR.
 
 
 #### Agreements
@@ -121,18 +121,18 @@ As a Processor you should:
 * In the case of a [data breach](/topics/gdpr-legal-reference/#data-breach), accidental or otherwise, immediatly report the incident to the Controller.
 
 
-### Data Protection Impact Assessment (DPIA)
-
+### Data Protection Impact Assessment (DPIA) 
+<!--- move first part to glossary? --->
 A Data Protection Impact Assessment (DPIA) is needed if the personal data processing is likely to result in a high risk to individual people's rights ([IMY on Impact assessments and prior consultation](https://www.imy.se/en/organisations/data-protection/this-applies-accordning-to-gdpr/impact-assessments-and-prior-consultation/)). The purpose of a DPIA is to prevent risks before they occur, by identifying what risks exist and draw up procedures to meet those risks. In order be able to decide if a DPIA is needed, you should perform a risk analysis. Analyse what risks your personal data processing may involve and suggest appropriate security measures. Document your findings so that you can demonstrate that you comply with the GDPR. If the risk analysis shows that a DPIA is needed, there are tools to help you e.g. [PIA software from CNIL](https://www.cnil.fr/en/open-source-pia-software-helps-carry-out-data-protection-impact-assessment).
-
 
 ### Security of processing
 
-To ensure that the personal data that you process in the project is protected at an appropriate level, you should apply [technical and procedural safeguards](/topics/gdpr-legal-reference/#security-of-processing) to ensure that the rights of the data subjects are not violated. Examples of such measures include, but are not limited to, pseudonymisation and encryption of data, the use of computing and storage environments with heightened security, and clear and documented procedures for project members to follow.
+To ensure that the personal data that you process in the project is protected at an appropriate level, you should apply [technical and procedural safeguards](/topics/gdpr-ethical-review-glossary/#security-of-processing) to ensure that the rights of the data subjects are not violated. Examples of such measures include, but are not limited to, pseudonymisation and encryption of data, the use of computing and storage environments with heightened security, and clear and documented procedures for project members to follow.
 
+The UPPMAX [Bianca](http://www.uppmax.uu.se/support/user-guides/bianca-user-guide/) system has been designed to have technical and information security procedures that are appropriate for processing sensitive human data for analysis. Using this system then relieves the researcher from having to define these technical and security procedures themselves (at least for the analysis phase of a project). The researcher can decide to analyse (sensitive) personal data elsewhere, but then they will have to define the appropriate procedures. In case the Controller work at a different institute than Uppsala University, a data processing agreement between that institute and UPPMAX/Uppsala University, needs to be established - see [instructions](https://www.uppmax.uu.se/support/faq/general-miscellaneous-faq/sensitive+data+questions/) at UPPMAX.
 
 ## Ethical considerations
-
+<!--- add texts that is appropriate to link to glossary? --->
 <!-- Ethical review and informed consent
 Merge content of "PIs working with human data" and “Sensitive personal data” -->
 Before embarking on a new project, consider the following:

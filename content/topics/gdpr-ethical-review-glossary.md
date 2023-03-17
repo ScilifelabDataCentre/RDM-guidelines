@@ -179,7 +179,7 @@ An entity that processes personal data on behalf of a data controller.
 
 -   https://gdpr-info.eu/art-4-gdpr/ (8)
 
-### **pseudonymization of personal data**
+### **pseudonymisation of personal data**
 
 *In Swedish:* pseudonymisering av personuppgifter
 

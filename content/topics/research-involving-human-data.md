@@ -20,7 +20,7 @@ When planning a research project, it is often useful to think of ELSI with respe
 Any data that directly or indirectly can be linked to a living person is considered [personal data](/topics/gdpr-ethical-review-glossary/#personal-data) under the General Data Protection Regulation (GDPR). This can for example be a person's name or personal identity number. Different pieces of information, which collected together can lead to the identification of a particular person, is also regarded as personal data. For instance can a street address in combination with a person's gender in some cases be sufficient to identify a particular person. One should keep in mind that genetic data about a deceased person also may be regarded as personal data under GDPR if the data can be used to identify a living relative of that person.
 
 
-## What is [sensitive personal data](/topics/gdpr-ethical-review-glossary/#sensitive-personal-data)?
+## What is sensitive personal data?
 
 Some personal data is regarded as [sensitive](/topics/gdpr-ethical-review-glossary/#sensitive-personal-data), for example data related to health and genetics. This includes **all kinds of human [genetic data](/topics/gdpr-ethical-review-glossary/#genetic-data)** (both RNA and DNA, and both somatic and germline information), and is likely to apply to other kinds of omics data as well. 
 

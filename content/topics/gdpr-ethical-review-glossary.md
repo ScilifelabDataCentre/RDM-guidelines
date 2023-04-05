@@ -15,17 +15,17 @@ This is a glossary where you find definitions of key terms in GDPR and the Swedi
 
 ## GDPR glossary
 
-### **anonymization of personal data**
+### **anonymization**
 
-*In Swedish:* anonymisering av personuppgifter
+*In Swedish:* anonymisering
 
 Rendering personal data anonymous in such a manner that the data subject is not or no longer identifiable. When a person cannot be re-identified the data is no longer considered personal data and the GDPR does not apply for further use.
 
 -   https://www.gdprsummary.com/anonymization-and-gdpr/
 
-### **(GDPR) compliance**
+### **compliance**
 
-*In Swedish:* regelefterlevnad (gentemot GDPR)
+*In Swedish:* regelefterlevnad
 
 Compliance with GDPR means that an organization that falls within the scope of the GDPR meets the requirements for properly handling personal data as defined in the law.
 
@@ -39,7 +39,7 @@ The organization (for example a limited company, foundation, association or auth
 
 -   https://gdpr-info.eu/art-4-gdpr/ (7)
 
-### **data erasure/data retention**
+### **data erasure / retention**
 
 *In Swedish:* gallring av data
 
@@ -55,18 +55,18 @@ Any individual person who can be identified, directly or indirectly, via an iden
 
 -   https://gdpr-info.eu/art-4-gdpr/
 
-### **data processing agreement (DPA)**
+### **data processing agreement**
 
 *In Swedish:* personuppgiftsbiträdesavtal (PuBA)
 
-A legally binding contract that states the rights and obligations of each party concerning the protection of personal data.
+A data processing agreement (DPA) is a legally binding contract that states the rights and obligations of each party concerning the protection of personal data.
 
 -   https://gdpr.eu/what-is-data-processing-agreement/
 -   https://gdpr-info.eu/art-28-gdpr/ (3)
 
-### **data protection officer (DPO)**
+### **data protection officer**
 
-*In Swedish:* personuppgiftsombud / dataskyddsombud (DSO)
+*In Swedish:* personuppgiftsombud / dataskyddsombud
 
 An organization that processes personal data is in certain cases required to designate a data protection officer (DPO). The role of the DPO is to check that the GDPR is complied with within the organization by means of, for example, conducting checks and providing information.
 
@@ -144,7 +144,7 @@ Each instance of personal data processing needs to be based on only one of 6 law
 
 6.  **legitimate interests** (*In Swedish:* intresseavvägning; ibland "berättigat intresse")
 
-        The data controller may process personal data without the data subject's consent if the data controller's interests outweigh those of the data subject and if the processing is necessary for the purpose in question. Note that Swedish authorities are not allowed to use legitimate interests as a lawful basis for processing of personal data in order to carry out their tasks. The reason for this exception is that Swedish authorities are only allowed to process personal data in accordance with Swedish law.
+        The data controller may process personal data without the data subject's consent if the data controller's interests outweigh those of the data subject and if the processing is necessary for the purpose in question. Note that Swedish authorities are not allowed to use legitimate interests as a legal basis for processing of personal data in order to carry out their tasks. The reason for this exception is that Swedish authorities are only allowed to process personal data in accordance with Swedish law.
 
 ### **personal data**
 
@@ -179,7 +179,7 @@ An entity that processes personal data on behalf of a data controller.
 
 -   https://gdpr-info.eu/art-4-gdpr/ (8)
 
-### **pseudonymisation of personal data**
+### **pseudonymisation**
 
 *In Swedish:* pseudonymisering av personuppgifter
 
@@ -225,6 +225,7 @@ Racial or ethnic origin, political opinions, religious or philosophical beliefs,
 
 -   https://www.imy.se/en/organisations/data-protection/this-applies-accordning-to-gdpr/the-purposes-and-scope-of-gdpr/personal-data/sensitive-personal-data/
 -   https://gdpr-info.eu/art-9-gdpr/
+-   https://ec.europa.eu/info/law/law-topic/data-protection/reform/rules-business-and-organisations/legal-grounds-processing-data/sensitive-data/what-personal-data-considered-sensitive_en
 
 ### **transfer of personal data to a third country**
 

@@ -7,7 +7,7 @@ toc: True
 # Research involving human data
 
 <div class="alert alert-warning" role="alert">
-  <B><I>Disclaimer!</I></B> The PI, as well as everyone with access to sensitive personal data, is responsible for following current laws and regulations, and SciLifeLab will not assume legal responsibility for advice provided in these guidelines.
+  <B><I>Disclaimer!</I></B> The PI, as well as everyone with access to sensitive personal data, is responsible for following current laws and regulations, and SciLifeLab will not assume legal responsibility for advice provided in these guidelines. Please consult the legal office of your university if you need assistance.
 </div>
 
 Research that involves humans or biological samples from humans should take ethical, legal and societal implications (ELSI) into account. This is true also when research involves data about humans. It is important to consider all the different aspects early in a research project, as the consequences of not doing so may be severe.
@@ -17,16 +17,18 @@ When planning a research project, it is often useful to think of ELSI with respe
 
 ## What is personal data?
 
-Any data that directly or indirectly can be linked to a living person is considered [personal data](/topics/gdpr-ethical-review-glossary/#personal-data) under the General Data Protection Regulation (GDPR). This can for example be a person's name or personal identity number. Different pieces of information, which collected together can lead to the identification of a particular person, is also regarded as personal data. For instance can a street address in combination with a person's gender in some cases be sufficient to identify a particular person.
+Any data that directly or indirectly can be linked to a living person is considered [personal data](/topics/gdpr-ethical-review-glossary/#personal-data) under the General Data Protection Regulation (GDPR). This can for example be a person's name or personal identity number. Different pieces of information, which collected together can lead to the identification of a particular person, is also regarded as personal data. For instance can a street address in combination with a person's gender in some cases be sufficient to identify a particular person. One should keep in mind that genetic data about a deceased person also may be regarded as personal data under GDPR if the data can be used to identify a living relative of that person.
 
 
-## What is [sensitive personal data](/topics/gdpr-ethical-review-glossary/#sensitive-personal-data)?
+## What is sensitive personal data?
 
-Some personal data is regarded as [sensitive](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rules-business-and-organisations/legal-grounds-processing-data/sensitive-data/what-personal-data-considered-sensitive_en), for example data related to health and genetics. This includes **all kinds of [genetic data](/topics/gdpr-ethical-review-glossary/#genetic-data)** (both RNA and DNA, and both somatic and germline information), and is likely to apply to other kinds of omics data as well. One should keep in mind that genetic data about a deceased person also may be regarded as personal data under GDPR if the data can be used to identify a living relative of that person.
+Some personal data is regarded as [sensitive](/topics/gdpr-ethical-review-glossary/#sensitive-personal-data), for example data related to health and genetics. This includes **all kinds of human [genetic data](/topics/gdpr-ethical-review-glossary/#genetic-data)** (both RNA and DNA, and both somatic and germline information), and is likely to apply to other kinds of omics data as well. 
 
 Aggregated data (like population frequencies or number of sequence reads for a gene) might not be considered personal data (and hence not sensitive personal data), but a decision has to be made on a case-by-case basis.
 
-Sensitive personal data should always be [pseudonymised](/topics/gdpr-legal-reference/#pseudonymised-data), which means that a particular person cannot be identified from the data unless it is combined with other data that has not been disclosed to the public. A common pseudonymisation procedure is to replace personal identity numbers with artificial identifiers. It is important to remember that pseudonymised data is still regarded as personal data under GDPR. See also legal reference regarding [sensitive data](/topics/gdpr-legal-reference#sensitive-personal-data).
+Sensitive personal data should always be [pseudonymised](/topics/gdpr-ethical-review-glossary/#pseudonymisation), which means that a particular person cannot be identified from the data unless it is combined with other data that has not been disclosed to the public. A common pseudonymisation procedure is to replace personal identity numbers with artificial identifiers. 
+
+It is important to remember that pseudonymised data is still regarded as personal data under GDPR: Even if the data is only referred to by an identifier that is not associated with the individual, and the researchers processing the data are not themselves in possession of the key of how the identifier relates to the individual, the data is still personal data, as the person can be [identified indirectly](/topics/gdpr-ethical-review-glossary/#personal-data).
 
 
 ## Important regulations to follow
@@ -45,12 +47,13 @@ The [Swedish Authority for Privacy Protection (IMY)](https://www.imy.se/en/) uph
 
 ## Who is responsible for the data?
 
-An important concept in GDPR is the [data controller](/topics/gdpr-legal-reference/#roles), which is the person or entity that determines the purposes and means of the processing of some personal data.
+An important concept in GDPR is the data [controller](/topics/gdpr-ethical-review-glossary/#controller), which is the person or entity that determines the purposes and means of the processing of some personal data.
 
 Many people wrongly believe that the principal investigator in a research project is the controller for the project's data. In fact, this is practically never the case for Swedish academic research. Instead, the controller is typically the university (or sometimes the hospital) where the principal investigator is employed. That being said, the principal investigator should act as a representative of her institution and is responsible for ensuring that personal data is handled correctly in her projects.
 
 The data controller must be identified before any personal data is processed in the project, which means before the data is being collected.
 
+A controller can decide to use another entity to help process the data. That entity is called a [processor](/topics/gdpr-ethical-review-glossary/#processor). The controller must instruct the processor how the data is to be processed in a legaly binding contract called a [data processing agreement](/topics/gdpr-ethical-review-glossary/#data-processing-agreement), and the processor must be able to show that they adhere to the GDPR when processing data on behalf of the controller (see also [Data processing](#data-processing) below).
 
 ## Sharing human data
 
@@ -98,27 +101,38 @@ Also note that even if public interest is the legal basis, other laws and resear
 ### Data Processing
 
 <!-- what is meant / definition; storage & analysis by other than the controller requires agreement -->
-All processing of personal data must comply with the [Principles relating to processing of personal data](/topics/gdpr-legal-reference/#gdpr-principles) in the GDPR.
+All processing of personal data must comply with the [Principles relating to processing of personal data - Article 5](https://gdpr-info.eu/art-5-gdpr/) in the GDPR. According to these principles, to process personal data, the controller must:
 
+* Identify the **[legal basis](#legal-basis-for-processing-personal-data)** for data processing *before it starts*
+* Inform in a transparent and honest way
+* Decide the **purpose** and stick to it
+* Only collect data that is needed
+* Not collect more data than necessary
+* Not use data for another incompatible purpose
+* [Erase](/topics/gdpr-ethical-review-glossary/#data-erasure--retention) data when no longer needed (there might be exemptions to this for research data)
+* Ensure that data is correct and updated
+* Protect collected data – confidential and intact
+
+And be able to **demonstrate** that the GDPR is followed.
 
 #### Agreements
 
 <!-- Data processing agreement, data transfer agreement, data access agreement -->
-* A Data Processing Agreement is needed when a Processor (someone from a different university than the controller) is processing the data (e.g. storing or analysing) on behalf of the Controller.
+* A Data Processing Agreement is needed when a Processor (someone from a different university than the controller) is processing the data (e.g. storing or analysing) on behalf of the controller.
 <!-- * A Data Transfer Agreement is needed when... -->
 <!-- * A Data Access Agreement is needed when... -->
 
 
 #### Responsibilities <!-- controller versus processor -->
 
-As a Controller you should:
+As a controller you should:
 * Ensure that data processing agreements are established when needed.
 * Ensure that all Processors are informed on what can and cannot be done to the data.
 * Ensure that all processing is done in a compute environment with a suitable level of security, e.g. [Bianca at Uppmax](http://www.uppmax.uu.se/support/user-guides/bianca-user-guide/).
 
 As a Processor you should:
-* Only handle the data according to the instructions from the Controller.
-* In the case of a [data breach](/topics/gdpr-legal-reference/#data-breach), accidental or otherwise, immediatly report the incident to the Controller.
+* Only handle the data according to the instructions from the controller.
+* In the case of a [data breach](/topics/gdpr-ethical-review-glossary/#personal-data-breach), accidental or otherwise, immediately report the incident to the controller.
 
 
 ### Data Protection Impact Assessment (DPIA) 
@@ -127,9 +141,13 @@ A Data Protection Impact Assessment (DPIA) is needed if the personal data proces
 
 ### Security of processing
 
-To ensure that the personal data that you process in the project is protected at an appropriate level, you should apply [technical and procedural safeguards](/topics/gdpr-ethical-review-glossary/#security-of-processing) to ensure that the rights of the data subjects are not violated. Examples of such measures include, but are not limited to, pseudonymisation and encryption of data, the use of computing and storage environments with heightened security, and clear and documented procedures for project members to follow.
+To ensure that the personal data that you process in the project is protected at an appropriate level, you should apply [technical and procedural safeguards](/topics/gdpr-ethical-review-glossary/#security-of-processing) to ensure that the rights of the data subjects are not violated. Examples of such measures include, but are not limited to, pseudonymisation and encryption of data, the use of computing and storage environments with heightened security, and clear and documented procedures for project members to follow. 
 
-The UPPMAX [Bianca](http://www.uppmax.uu.se/support/user-guides/bianca-user-guide/) system has been designed to have technical and information security procedures that are appropriate for processing sensitive human data for analysis. Using this system then relieves the researcher from having to define these technical and security procedures themselves (at least for the analysis phase of a project). The researcher can decide to analyse (sensitive) personal data elsewhere, but then they will have to define the appropriate procedures. In case the Controller work at a different institute than Uppsala University, a data processing agreement between that institute and UPPMAX/Uppsala University, needs to be established - see [instructions](https://www.uppmax.uu.se/support/faq/general-miscellaneous-faq/sensitive+data+questions/) at UPPMAX.
+The security measures taken should be based on an evaluation of the risks for, and consequences of, the personal data not being correct and protected. Appropriate technical and organisational measures shall be implemented to ensure a level of security appropriate to the risk. It is advisable that the researcher seek guidance from the legal and information security functions of the university adminstration about this.
+
+The UPPMAX [Bianca](http://www.uppmax.uu.se/support/user-guides/bianca-user-guide/) system has been designed to have technical and information security procedures that are appropriate for processing sensitive human data for analysis. Using this system then relieves the researcher from having to define these technical and security procedures themselves (at least for the analysis phase of a project). The researcher can decide to analyse (sensitive) personal data elsewhere, but then they will have to define the appropriate procedures. In case the controller work at a different institute than Uppsala University, a data processing agreement between that institute and UPPMAX/Uppsala University, needs to be established - see [instructions](https://www.uppmax.uu.se/support/faq/general-miscellaneous-faq/sensitive+data+questions/) at UPPMAX.
+
+
 
 ## Ethical considerations
 <!--- add texts that is appropriate to link to glossary? --->
@@ -153,10 +171,15 @@ When you prepare the information for the participants, it might be a good to thi
 * Personal data must normally be pseudonymised before it is shared. Don’t forget to inform the participants about that. Data that is pseudonymised can only be used to identify individuals in combination with other data. -->
 <!-- ### Other considerations -->
 
+## Further questions
+If you have further questions regarding sensitive personal data, you are welcome to contact the SciLifeLab data management team (<data-management@scilifelab.se>).
 
 ## Resources
 
 <!-- Link to other resources about human data in research -->
+* [Dataskyddsförordningen](https://www.imy.se/verksamhet/dataskydd/det-har-galler-enligt-gdpr/introduktion-till-gdpr/dataskyddsforordningen-i-fulltext/) - *Swedish*
+* The Swedish Data Protection Authority (*Datainspektionen*) [GDPR information pages](https://www.imy.se/verksamhet/dataskydd/det-har-galler-enligt-gdpr/introduktion-till-gdpr/) - *Swedish*
+* European Commission [Data Protection information pages](https://ec.europa.eu/info/law/law-topics/data-protection/reform_en) - *English*
 * [RDMkit on Human data](https://rdmkit.elixir-europe.org/human_data)
 * Swedish National Data service (SND) on [Research material with personal data](https://snd.gu.se/en/manage-data/plan/research-material-with-personal-data)
 * Consider using the Ethical, Legal and Social Implications (ELSI) checklist developed by the [Tryggve project](https://neic.no/tryggve/). It was developed with cross-border collaborative projects in mind, but it should be useful for other research projects as well. It is available as a [MS Word file](https://neic.no/tryggve/files/Tryggve_ELSI_checklist_v1.0_2019-12-17.docx) and in the [SciLifeLab Data Stewardship Wizard](https://dsw.scilifelab.se/):

@@ -194,14 +194,14 @@ clear: both;
 }
 
 .btn-primary.collapsed {
-    background-color: #491F53 !important;
-    color: white !important;
+    background-color: #D2C7D4 !important;
+    color: black !important;
     border-color:#491F53;
 }
 
 .btn-primary:not(.collapsed) {
-    background-color: #491F53 !important;
-    color: white !important;
+    background-color: #D2C7D4 !important;
+    color: black !important;
     border-color: #491F53 !important;
 }
 

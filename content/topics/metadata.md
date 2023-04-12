@@ -8,7 +8,7 @@ toc: True
 Good documentation in research projects is essential in order to allow good quality data and transparent research. Describing how the datasets were created, how they are structured, and what they mean, is key for making your data understandable for others as well as your future self. Metadata provides such 'data about data'.
 Metadata is needed at several levels to describe the study, the samples, the experiments, the analysis and so on. It may include information on the methodology and instrumentation used to collect the data, analytical and procedural information, definitions of variables, units of measurement, any assumptions made, the format and file type of the data and software used to collect and/or process the data.
 
-Researchers are strongly encouraged to use community metadata standards where these are in place (see further down) and recommended doing so already from the beginning of the project. Data repositories may also provide guidance about appropriate metadata standards and requirements e.g. the European Nucleotide Archive (ENA) have [ENA sample checklists](https://www.ebi.ac.uk/ena/submit/checklists). We provide templates for some of these checklists, see further on [Sharing phase - ENA](/data-life-cycle/share/#genomics-data). Structuring the metadata in a way that conforms to the suitable repository from the beginning enables data submission without having to reformat the metadata.
+Researchers are strongly encouraged to use community metadata standards where these are in place (see further down) and are recommended doing so already from the beginning of the project. Data repositories may also provide guidance about appropriate metadata standards and requirements e.g. the European Nucleotide Archive (ENA) have [ENA sample checklists](https://www.ebi.ac.uk/ena/submit/checklists). We provide templates for some of these checklists, see further on [Sharing phase - ENA](/data-life-cycle/share/#genomics-data). Structuring the metadata in a way that conforms to the suitable repository from the beginning enables data submission without having to reformat the metadata.
 
 ## Ontologies
 
@@ -119,7 +119,7 @@ A list of relevant data and metadata standards can be found in [FAIRsharing](htt
 </div>
 
 ### Imaging / Structural data
-
+Images and structural data cover a wide range of data types and thus metadata standards. Please find below guidance for a selection of them. 
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5">
     X-ray diffraction
@@ -163,7 +163,7 @@ A list of relevant data and metadata standards can be found in [FAIRsharing](htt
   <div class="card card-body">
   <span>
       <ul>
-        <li>There are no widely accepted standards for NMR raw data files. Generally these are stored and archived in single FID/SER files.</li>
+        <li>There are no widely accepted standards for NMR (Nucleic Magnetic Resonance) raw data files. Generally these are stored and archived in single FID/SER files.</li>
         <li>One effort for the standardization of NMR parameters extracted from 1D and 2D spectra of organic compounds to the proposed chemical structure is the <a href="https://doi.org/10.25504/FAIRsharing.8ae3d0">NMReDATA</a> format.</li>
         <li>There is no universally accepted format, especially for crucial FID-associated metadata. <a href="https://doi.org/10.25504/FAIRsharing.2chxxc">NMR-STAR</a> and its <a href="https://github.com/uwbmrb/nmr-star-dictionary">NMR-STAR Dictionary</a> is the archival format used by the <a href="https://bmrb.io/">Biological Nuclear Magnetic Resonance data Bank</a> (BMRB), the international repository of biomolecular NMR data and an archive of the <a href="https://www.wwpdb.org/">Worldwide Protein Data Bank</a> (wwPDB).</li>
         <li>The <a href="https://doi.org/10.25504/FAIRsharing.es03fk">nmrML format specification</a> (XML Schema Definition (XSD) and an accompanying controlled vocabulary called nmrCV) is an open mark up language and ontology for NMR data.</li>

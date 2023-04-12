@@ -202,7 +202,7 @@ clear: both;
 .btn-primary:not(.collapsed) {
     background-color: #D2C7D4 !important;
     color: black !important;
-    border-color: #491F53 !important;
+    border-color: #D2C7D4 !important;
 }
 
 // RDM wheel frontpage

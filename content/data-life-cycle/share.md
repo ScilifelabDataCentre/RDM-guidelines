@@ -36,6 +36,7 @@ General data repositories accept datasets regardless of discipline or institutio
 ## Recommended discipline-specific repositories
 
 There are several repositories for life science data types, a selection hosted by [EMBL- EBI](https://www.ebi.ac.uk/) is found below.
+&nbsp;
 
 ### Genomics data
 Click on the buttons below for specific information regarding suitable repositories for sharing genomics data.
@@ -100,9 +101,12 @@ Click on the buttons below for specific information regarding suitable repositor
   </div>
   <br>
 </div>
+&nbsp;
 
 ### Imaging data
 Depending on the type of image data you have, different public repositories are available, please see the table at <a href="https://www.ebi.ac.uk/bioimage-archive/">BioImage Archive</a>.
+
+&nbsp;
 
 ### Metabolomics data
 Click on the buttons below for specific information regarding suitable repositories for sharing metabolomics data.
@@ -119,6 +123,7 @@ Click on the buttons below for specific information regarding suitable repositor
   </div>
   <br>
 </div>
+&nbsp;
 
 ### Proteomics data
   The <a href="http://www.proteomexchange.org/">ProteomeXchange</a> Consortium provides globally coordinated standard data submission and dissemination pipelines involving the main proteomics repositories.
@@ -148,6 +153,7 @@ Click on the buttons below for specific information regarding suitable repositor
   </div>
   <br>
 </div>
+&nbsp;
 
 ### Other data
 

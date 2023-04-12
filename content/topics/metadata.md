@@ -25,6 +25,7 @@ Below are ontology resources, adapted from Table 2 in *Griffin PC, Khadake J, Le
 
 ## Data types, file formats and metadata standards
 Curated up-to-date guidance regarding file types and metadata standards is found at [FAIRsharing.org](https://fairsharing.org/search?fairsharingRegistry=Standard/). The most common ones, including links with data type specific FAIRsharing queries, is listed below. The information is adapted from _RDA COVID-19 Working Group. Recommendations and Guidelines on data sharing. Research Data Alliance. 2020._ doi: [https://doi.org/10.15497/rda00052](https://doi.org/10.15497/rda00052)
+&nbsp;
 
 ### Genomics data
 
@@ -117,6 +118,7 @@ A list of relevant data and metadata standards can be found in [FAIRsharing](htt
   </span>
   </div>
 </div>
+&nbsp;
 
 ### Imaging / Structural data
 Images and structural data cover a wide range of data types and thus metadata standards. Please find below guidance for a selection of them. 
@@ -189,6 +191,7 @@ Images and structural data cover a wide range of data types and thus metadata st
   </span>
   </div>
 </div>
+&nbsp;
 
 ### Metabolomics data
 
@@ -200,10 +203,14 @@ For a curated list of relevant standards see [FAIRsharing](https://fairsharing.o
 * Recommended formats for LC-MS data: [ANDI-MS](https://doi.org/10.25504/FAIRsharing.d7795c) specification, an analytical data interchange protocol for chromatographic data representation and/or [mzML](https://doi.org/10.25504/FAIRsharing.26dmba)
 * Recommended formats for NMR data: [nmrCV](https://doi.org/10.25504/FAIRsharing.xm7tkj), [nmrML](https://doi.org/10.25504/FAIRsharing.es03fk)
 
+&nbsp;
+
 ### Lipidomics data
 
 * Metadata should follow recommendations from the [CIMR standard](https://doi.org/10.25504/FAIRsharing.exz30t) by the Metabolomics Standards Initiative. It should be made available as tab or comma separated files (.tsv or .csv).
 * Data can be stored in LC-MS file,  in tab (.tsv) or comma (.csv) separated formats.
+
+&nbsp;
 
 ### Proteomics data
 For a curated list of relevant standards see [FAIRsharing](https://fairsharing.org) using the query ’[proteomics](https://fairsharing.org/search/?q=proteomics&fairsharingRegistry=Standard&page=1&status=ready)’, some examples are given below:
@@ -217,6 +224,8 @@ For a curated list of relevant standards see [FAIRsharing](https://fairsharing.o
   * For protein quantisation data: [mzQuantML](https://doi.org/10.25504/FAIRsharing.fk6zhb)
   * For protein identification data: [mzIdentML](https://doi.org/10.25504/FAIRsharing.11889)
   * For metadata: [ISA-TAB](https://isa-tools.org/) with conversion to PRIDE format
+
+&nbsp;
 
 ## Resources
 * [RDMkit on Metadata](https://rdmkit.elixir-europe.org/metadata_management)

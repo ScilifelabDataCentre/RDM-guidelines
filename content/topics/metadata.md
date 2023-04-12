@@ -25,6 +25,7 @@ Below are ontology resources, adapted from Table 2 in *Griffin PC, Khadake J, Le
 
 ## Data types, file formats and metadata standards
 Curated up-to-date guidance regarding file types and metadata standards is found at [FAIRsharing.org](https://fairsharing.org/search?fairsharingRegistry=Standard/). The most common ones, including links with data type specific FAIRsharing queries, is listed below. The information is adapted from _RDA COVID-19 Working Group. Recommendations and Guidelines on data sharing. Research Data Alliance. 2020._ doi: [https://doi.org/10.15497/rda00052](https://doi.org/10.15497/rda00052)
+
 &nbsp;
 
 ### Genomics data

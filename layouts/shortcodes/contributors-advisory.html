@@ -1,5 +1,5 @@
 {{ $contributors := where .Site.Data.CONTRIBUTORS "role" "advisory"}}
-<div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-xl-5 g-4">
+<div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-xl-6 g-4">
   {{ range sort $contributors "name" "asc"}}
   {{- partial "contributors-all.html" . -}}
   {{ end }}

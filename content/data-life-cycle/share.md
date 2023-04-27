@@ -105,29 +105,17 @@ Click on the buttons below for specific information regarding suitable repositor
 &nbsp;
 
 ### Imaging data
-Depending on the type of image data you have, different public repositories are available, please see the table at <a href="https://www.ebi.ac.uk/bioimage-archive/">BioImage Archive</a>.
+Depending on the type of image data you have, different public repositories are available, please see the table at [BioImage Archive](https://www.ebi.ac.uk/bioimage-archive/).
 
 &nbsp;
 
 ### Metabolomics data
-Click on the buttons below for specific information regarding suitable repositories for sharing metabolomics data.
-<p>
-  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5">
-    MetaboLights
-  </a>
-</p>
-<div class="collapse" id="collapseExample5">
-  <div class="card card-body">
-  <span>
-  <a href="https://www.ebi.ac.uk/metabolights/">MetaboLights</a> is a database for Metabolomics experiments and derived information. The database is cross-species, cross-technique and covers metabolite structures and their reference spectra as well as their biological roles, locations and concentrations, and experimental data from metabolic experiments.
-  </span>
-  </div>
-  <br>
-</div>
+[MetaboLights](https://www.ebi.ac.uk/metabolights/) is a database for Metabolomics experiments and derived information. The database is cross-species, cross-technique and covers metabolite structures and their reference spectra as well as their biological roles, locations and concentrations, and experimental data from metabolic experiments.
+
 &nbsp;
 
 ### Proteomics data
-  The <a href="http://www.proteomexchange.org/">ProteomeXchange</a> Consortium provides globally coordinated standard data submission and dissemination pipelines involving the main proteomics repositories.
+The [ProteomeXchange](http://www.proteomexchange.org/) Consortium provides globally coordinated standard data submission and dissemination pipelines involving the main proteomics repositories.
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6">
     PRIDE
@@ -160,6 +148,20 @@ Click on the buttons below for specific information regarding suitable repositor
 
   For other domain-specific repositories, see e.g. <a href="https://elixir-europe.org/services/tag/elixir-deposition-databases">ELIXIR Deposition databases</a>, <a href="https://www.nature.com/sdata/policies/repositories">Scientific Data recommended repositories</a>, <a href="https://www.ebi.ac.uk/submission/">EBI archive wizard</a> (help to find the right repository depending on data type), or <a href="https://fairsharing.org/databases/">FAIRsharing</a> (the latter can also assist in finding metadata standards suitable for describing your datasets). For datasets that do not fit into domain-specific repositories, use a general repository e.g. <a href="https://www.scilifelab.se/data/repository/">SciLifeLab Data Repository</a>, <a href="https://figshare.com/">Figshare</a> and <a href="https://zenodo.org/">Zenodo</a>.
 
+<p>
+  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample9" role="button" aria-expanded="false" aria-controls="collapseExample9">
+    SciLifeLab Data Repository
+  </a>
+</p>
+<div class="collapse" id="collapseExample9">
+  <div class="card card-body">
+  <span>
+  The <a href="https://www.scilifelab.se/data/repository/">SciLifeLab Data Repository</a>, powered by Figshare and supported by SciLifeLab and the Knut and Alice Wallenberg foundation through the Data-Driven Life Science (DDLS) program, is a repository for publishing any kind of research-related data, e.g. documents, figures, or presentations. Figshare is an open data repository used by researchers in numerous disciplines. Through an agreement with Figshare, SciLifeLab offers researchers and units the opportunity to upload and publish their research data through a dedicated portal. 
+
+  </span>
+  </div>
+  <br>
+</div>
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample8">
     Zenodo

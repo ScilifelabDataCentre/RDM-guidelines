@@ -3,47 +3,43 @@
   git: yvonnekallberg
   orcid: 0000-0002-3977-9600
   affiliation: NBIS / ELIXIR-SE
-  type: internal
   role: editor
 - name: Elin Kronander
   git: elinkronander
   orcid: 0000-0003-0280-6318
   affiliation: NBIS / ELIXIR-SE
-  type: internal
   role: editor
 - name: Markus Englund
   git: jmenglund
   orcid: 0000-0003-1688-7112
   affiliation: NBIS / ELIXIR-SE
-  type: internal
   role: advisory
 - name: Anna Asklöf
   git: annaasklof
   affiliation: SciLifeLab Data Centre
-  type: internal
   role: editor
 - name: Liane Hughes
   git: LianeHughes
   orcid: 0000-0002-4784-5436
   affiliation: SciLifeLab Data Centre
-  type: internal
   role: editor
 - name: Niclas Jareborg
   git: nicjar
   orcid: 0000-0002-4520-044X
   affiliation: NBIS / ELIXIR-SE
-  type: internal
   role: advisory
 - name: Hanna Kultima
   git: HannaKultima
   orcid: 0000-0001-7724-2567
   affiliation: SciLifeLab Data Centre
-  type: internal
   role: advisory
 - name: Katarina Öjefors Stark
   git: KatarinaOjeforsStark
   orcid: 0000-0001-7970-7778
   affiliation: SciLifeLab Data Centre
-  type: internal
   role: advisory
+- name: Mattias Strömberg
+  git: mattiasstromberg
+  orcid: 00000-0003-0648-3130
+  affiliation: NBIS / ELIXIR-SE
 ---

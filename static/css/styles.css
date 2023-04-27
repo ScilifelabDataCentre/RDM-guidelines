@@ -261,10 +261,10 @@ clear: both;
 
 /*-----Contributors cards-----*/
 .card-img-top{
-    height: 11rem;
-    width: 11rem;
+    height: 9rem;
+    width: 9rem;
 }
 
 .contributor-img-sm {
-    height: 1.5rem;
+    height: 1.0rem;
 }

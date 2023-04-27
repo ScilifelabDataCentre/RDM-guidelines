@@ -4,11 +4,13 @@ contributors: []
 toc: True
 ---
 
+# *Temporary file for exploring various ways of displaying metadata standards and file formats, with or without buttons*
+
 # Metadata
 Good documentation in research projects is essential in order to allow good quality data and transparent research. Describing how the datasets were created, how they are structured, and what they mean, is key for making your data understandable for others as well as your future self. Metadata provides such 'data about data'.
 Metadata is needed at several levels to describe the study, the samples, the experiments, the analysis and so on. It may include information on the methodology and instrumentation used to collect the data, analytical and procedural information, definitions of variables, units of measurement, any assumptions made, the format and file type of the data and software used to collect and/or process the data.
 
-Researchers are strongly encouraged to use community metadata standards where these are in place (see further down) and are recommended doing so already from the beginning of the project. Data repositories may also provide guidance about appropriate metadata standards and requirements e.g. the European Nucleotide Archive (ENA) have [ENA sample checklists](https://www.ebi.ac.uk/ena/submit/checklists). We provide templates for some of these checklists, see further on [Sharing phase - ENA](/data-life-cycle/share/#genomics-data). Structuring the metadata in a way that conforms to the suitable repository from the beginning enables data submission without having to reformat the metadata.
+Researchers are strongly encouraged to use community metadata standards where these are in place (see further down) and recommended doing so already from the beginning of the project. Data repositories may also provide guidance about appropriate metadata standards and requirements e.g. the European Nucleotide Archive (ENA) have [ENA sample checklists](https://www.ebi.ac.uk/ena/submit/checklists). We provide templates for some of these checklists, see further on [Sharing phase - ENA](/data-life-cycle/share/#genomics-data). Structuring the metadata in a way that conforms to the suitable repository from the beginning enables data submission without having to reformat the metadata.
 
 ## Ontologies
 
@@ -25,8 +27,6 @@ Below are ontology resources, adapted from Table 2 in *Griffin PC, Khadake J, Le
 
 ## Data types, file formats and metadata standards
 Curated up-to-date guidance regarding file types and metadata standards is found at [FAIRsharing.org](https://fairsharing.org/search?fairsharingRegistry=Standard/). The most common ones, including links with data type specific FAIRsharing queries, is listed below. The information is adapted from _RDA COVID-19 Working Group. Recommendations and Guidelines on data sharing. Research Data Alliance. 2020._ doi: [https://doi.org/10.15497/rda00052](https://doi.org/10.15497/rda00052)
-
-&nbsp;
 
 ### Genomics data
 
@@ -67,11 +67,7 @@ A list of relevant data and metadata standards can be found in [FAIRsharing](htt
   <span>
   <ul>
     <li>Preferred minimal metadata standard: <a href="https://doi.org/10.25504/FAIRsharing.32b10v">MIAME</a> - Minimum Information About a Microarray Experiment</li>
-    <li>Preferred file formats: 
-      <ul>
-        <li>tab-delimited text e.g. <a href="https://doi.org/10.25504/FAIRsharing.ak8p5g">MAGE-TAB</a> and <a href="https://doi.org/10.25504/FAIRsharing.53gp75">ISA-TAB</a></li>
-        <li>raw data file formats from commercial microarray platforms (see <a href="https://www.ebi.ac.uk/fg/annotare/help/accepted_raw_ma_file_formats.html">Annotare accepted formats</a>)</li>
-      </ul>
+    <li>Preferred file formats: tab-delimited text e.g. <a href="https://doi.org/10.25504/FAIRsharing.ak8p5g">MAGE-TAB</a> and <a href="https://doi.org/10.25504/FAIRsharing.53gp75">ISA-TAB</a>, and raw data file formats from commercial microarray platforms (see <a href="https://www.ebi.ac.uk/fg/annotare/help/accepted_raw_ma_file_formats.html">Annotare accepted formats</a>)</li>
   </ul>
   </span>
   </div>
@@ -107,22 +103,17 @@ A list of relevant data and metadata standards can be found in [FAIRsharing](htt
   <div class="card card-body">
   <span>
   <ul>
-    <li>Preferred metadata standards:
-      <ul>
-        <li><a href="https://doi.org/10.25504/FAIRsharing.va1hck">MIxS - MIGS/MIMS</a> -
-        Minimum Information about a (Meta)Genome Sequence. The MIMS extension includes key environmental metadata. Developed by the Genomic Standards Consortium. Numerous adopters including NCBI/EBI/DDBJ databases. </li>
-        <li><a href="https://doi.org/10.25504/FAIRsharing.zvrep1">MIMARKS</a> -
-        Minimum Information about a MARKer gene Sequence. This is an extension of MIGS/MIMS for environmental sequences. Developed by the Genomic Standards Consortium. Numerous adopters including NCBI/EBI/DDBJ databases.</li>  
-      </ul>
-    </li>
+    <li><a href="https://doi.org/10.25504/FAIRsharing.va1hck">MIxS - MIGS/MIMS</a> -
+    Minimum Information about a (Meta)Genome Sequence. The MIMS extension includes key environmental metadata. Developed by the Genomic Standards Consortium. Numerous adopters including NCBI/EBI/DDBJ databases. </li>
+    <li><a href="https://doi.org/10.25504/FAIRsharing.zvrep1">MIMARKS</a> -
+    Minimum Information about a MARKer gene Sequence. This is an extension of MIGS/MIMS for environmental sequences. Developed by the Genomic Standards Consortium. Numerous adopters including NCBI/EBI/DDBJ databases.</li>  
   </ul>
   </span>
   </div>
 </div>
-&nbsp;
 
 ### Imaging / Structural data
-Images and structural data cover a wide range of data types and thus metadata standards. Please find below guidance for a selection of them. 
+
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5">
     X-ray diffraction
@@ -166,10 +157,10 @@ Images and structural data cover a wide range of data types and thus metadata st
   <div class="card card-body">
   <span>
       <ul>
-        <li>There are no widely accepted standards for NMR (Nucleic Magnetic Resonance) raw data files. Generally these are stored and archived in single FID/SER files.</li>
+        <li>There are no widely accepted standards for NMR raw data files. Generally these are stored and archived in single FID/SER files.</li>
         <li>One effort for the standardization of NMR parameters extracted from 1D and 2D spectra of organic compounds to the proposed chemical structure is the <a href="https://doi.org/10.25504/FAIRsharing.8ae3d0">NMReDATA</a> format.</li>
         <li>There is no universally accepted format, especially for crucial FID-associated metadata. <a href="https://doi.org/10.25504/FAIRsharing.2chxxc">NMR-STAR</a> and its <a href="https://github.com/uwbmrb/nmr-star-dictionary">NMR-STAR Dictionary</a> is the archival format used by the <a href="https://bmrb.io/">Biological Nuclear Magnetic Resonance data Bank</a> (BMRB), the international repository of biomolecular NMR data and an archive of the <a href="https://www.wwpdb.org/">Worldwide Protein Data Bank</a> (wwPDB).</li>
-        <li>The <a href="https://doi.org/10.25504/FAIRsharing.es03fk">nmrML format specification</a> (XML Schema Definition (XSD) and an accompanying controlled vocabulary called nmrCV) is an open mark up language and ontology for NMR data.</li>
+        <li>The <a href="https://doi.org/10.25504/FAIRsharing.es03fk">nmrML format specification</a> (XML Schema Definition (XSD) and an accompanying controlled vocabulary called nmrCV) are an open mark up language and ontology for NMR data.</li>
         <li>Processed structural information is submitted in the <a href="https://doi.org/10.25504/FAIRsharing.fd28en/">PDBx/mmCIF</a> format.</li>
       </ul>
   </span>
@@ -192,41 +183,73 @@ Images and structural data cover a wide range of data types and thus metadata st
   </span>
   </div>
 </div>
-&nbsp;
 
 ### Metabolomics data
 
-For a curated list of relevant standards see [FAIRsharing](https://fairsharing.org) using the query ‘[metabolomics](https://fairsharing.org/search?q=metabolomics&fairsharingRegistry=Standard&page=1&status=ready)’, some examples are given below:
-
-* Core Information for Metabolomics Reporting [CIMR](https://doi.org/10.25504/FAIRsharing.exz30t) standard
-* For identifying chemical compounds use [SMILES](https://doi.org/10.25504/FAIRsharing.qv4b3c) or [InChl](https://doi.org/10.25504/FAIRsharing.ddk9t9)
-* To document Investigation/Study/Assay data, use the [ISA Abstract Model](https://isa-specs.readthedocs.io/en/latest/), also implemented as a tabular format, [ISA-Tab](https://doi.org/10.25504/FAIRsharing.53gp75) in [MetaboLights](https://www.ebi.ac.uk/metabolights). For an introduction to ISA, see ([Sansone S-A et al., 2012](https://doi.org/10.1038/ng.1054))
-* Recommended formats for LC-MS data: [ANDI-MS](https://doi.org/10.25504/FAIRsharing.d7795c) specification, an analytical data interchange protocol for chromatographic data representation and/or [mzML](https://doi.org/10.25504/FAIRsharing.26dmba)
-* Recommended formats for NMR data: [nmrCV](https://doi.org/10.25504/FAIRsharing.xm7tkj), [nmrML](https://doi.org/10.25504/FAIRsharing.es03fk)
-
-&nbsp;
+For a curated list of relevant standards see [FAIRsharing](https://fairsharing.org) using the query ‘[metabolomics](https://fairsharing.org/search?q=metabolomics&fairsharingRegistry=Standard&page=1&status=ready)’, some examples are given below.
+<p>
+  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample9" role="button" aria-expanded="false" aria-controls="collapseExample9">
+    Metabolomics data
+  </a>
+</p>
+<div class="collapse" id="collapseExample9">
+  <div class="card card-body">
+  <span>
+    <ul>
+      <li>Core Information for Metabolomics Reporting <a href="https://doi.org/10.25504/FAIRsharing.exz30t">CIMR</a> standard</li>
+      <li>For identifying chemical compounds use <a href="https://doi.org/10.25504/FAIRsharing.qv4b3c">SMILES</a> or <a href="https://doi.org/10.25504/FAIRsharing.ddk9t9">InChl</a></li>
+      <li>To document Investigation/Study/Assay data, use the <a href="https://isa-specs.readthedocs.io/en/latest/">ISA Abstract Model</a>, also implemented as a tabular format, <a href="https://doi.org/10.25504/FAIRsharing.53gp75">ISA-Tab</a> in <a href="https://www.ebi.ac.uk/metabolights">MetaboLights</a>. For an introduction to ISA, see (<a href="https://doi.org/10.1038/ng.1054">Sansone S-A et al., 2012</a>)</li>
+      <li>Recommended formats for LC-MS data: <a href="https://doi.org/10.25504/FAIRsharing.d7795c">ANDI-MS</a> specification, an analytical data interchange protocol for chromatographic data representation and/or <a href="https://doi.org/10.25504/FAIRsharing.26dmba">mzML</a>
+      <li>Recommended formats for NMR data: <a href="https://doi.org/10.25504/FAIRsharing.xm7tkj">nmrCV</a>, <a href="https://doi.org/10.25504/FAIRsharing.es03fk">nmrML</a></li>
+    </ul>
+  </span>
+  </div>
+</div>
 
 ### Lipidomics data
-
-* Metadata should follow recommendations from the [CIMR standard](https://doi.org/10.25504/FAIRsharing.exz30t) by the Metabolomics Standards Initiative. It should be made available as tab or comma separated files (.tsv or .csv).
-* Data can be stored in LC-MS file,  in tab (.tsv) or comma (.csv) separated formats.
-
-&nbsp;
+<p>
+  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample10" role="button" aria-expanded="false" aria-controls="collapseExample10">
+    Lipidomics data
+  </a>
+</p>
+<div class="collapse" id="collapseExample10">
+  <div class="card card-body">
+  <span>
+  <ul>
+    <li>Metadata should follow recommendations from the <a href="https://doi.org/10.25504/FAIRsharing.exz30t">CIMR standard</a> by the Metabolomics Standards Initiative. It should be made available as tab or comma separated files (.tsv or .csv).</li>
+    <li>Data can be stored in LC-MS file,  in tab (.tsv) or comma (.csv) separated formats.</li>
+  </ul>
+  </span>
+  </div>
+</div>
 
 ### Proteomics data
-For a curated list of relevant standards see [FAIRsharing](https://fairsharing.org) using the query ’[proteomics](https://fairsharing.org/search/?q=proteomics&fairsharingRegistry=Standard&page=1&status=ready)’, some examples are given below:
-
-* Use the minimal information model specified in [MIAPE](https://doi.org/10.25504/FAIRsharing.8vv5fc) by the HUPO Proteomics Standards Initiative ([HUPO PSI](https://hupo.org/Proteomics-Standards-Initiative)), and fill the model using the controlled vocabularies specified by the Proteomics Standards Initiative: [PSI-MS CV](https://doi.org/10.25504/FAIRsharing.sxh2dp)
-* Recommended formats:
-  * For gel electrophoresis: [PSI gelML](https://doi.org/10.25504/FAIRsharing.rn9wzc)
-  * For transition lists: [HUPO-PSI TraML](https://doi.org/10.25504/FAIRsharing.rz77m6)
-  * For raw spectrometer output: [mzML](https://doi.org/10.25504/FAIRsharing.26dmba)
-  * For reporting: [mzTab](https://doi.org/10.25504/FAIRsharing.c12tyk)
-  * For protein quantisation data: [mzQuantML](https://doi.org/10.25504/FAIRsharing.fk6zhb)
-  * For protein identification data: [mzIdentML](https://doi.org/10.25504/FAIRsharing.11889)
-  * For metadata: [ISA-TAB](https://isa-tools.org/) with conversion to PRIDE format
-
-&nbsp;
+For a curated list of relevant standards see [FAIRsharing](https://fairsharing.org) using the query ’[proteomics](https://fairsharing.org/search/?q=proteomics&fairsharingRegistry=Standard&page=1&status=ready)’, some examples are given below.
+<p>
+  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample11" role="button" aria-expanded="false" aria-controls="collapseExample11">
+    Proteomics data
+  </a>
+</p>
+<div class="collapse" id="collapseExample11">
+  <div class="card card-body">
+  <span>
+  <ul>
+    <li>Use the minimal information model specified in <a href="https://doi.org/10.25504/FAIRsharing.8vv5fc">MIAPE</a> by the HUPO Proteomics Standards Initiative (<a href="https://hupo.org/Proteomics-Standards-Initiative">HUPO PSI</a>), and fill the model using the controlled vocabularies specified by the Proteomics Standards Initiative: <a href="https://doi.org/10.25504/FAIRsharing.sxh2dp">PSI-MS CV</a></li>
+    <li>Recommended formats:
+      <ul>
+        <li>For gel electrophoresis <a href="https://doi.org/10.25504/FAIRsharing.rn9wzc">PSI gelML</a></li>
+        <li>For transition lists <a href="https://doi.org/10.25504/FAIRsharing.rz77m6">HUPO-PSI TraML</a></li>
+        <li>For raw spectrometer output <a href="https://doi.org/10.25504/FAIRsharing.26dmba">mzML</a></li>
+        <li>For reporting <a href="https://doi.org/10.25504/FAIRsharing.c12tyk">mzTab</a></li>
+        <li>For protein quantisation data <a href="https://doi.org/10.25504/FAIRsharing.fk6zhb">mzQuantML</a></li>
+        <li>For protein identification data <a href="https://doi.org/10.25504/FAIRsharing.11889">mzIdentML</a></li>
+        <li>For metadata <a href="https://isa-tools.org/">ISA-TAB</a> with conversion to PRIDE format</li>
+      </ul>
+    </li>
+  </ul>
+  </span>
+  </div>
+</div>
 
 ## Resources
 * [RDMkit on Metadata](https://rdmkit.elixir-europe.org/metadata_management)

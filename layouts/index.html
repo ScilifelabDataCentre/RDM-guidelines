@@ -1,8 +1,13 @@
 {{ define "main" }}
 
+<!-- Main -->
+
 <section>
   <div class="row mt-2">
     <div class="col-md-8">
+
+      <!-- Research data life cycle -->
+
       <div class="card-body">
         <h1><a href="/data-life-cycle/">Research data life cycle</a></h1>
         <p class="card-text">The research data life cycle can be divided into several phases as seen in the wheel below;
@@ -14,29 +19,59 @@
         <br><br><p>The research data life cycle wheel is reused from <a href="https://rdmkit.elixir-europe.org/">RDMkit</a>.</p>
         <br>
       </div>
+
+      <!-- Topics -->
+
       <div class="card-body">
         <h1 class="card-title no-anchor"><a href="/topics/">Topics</a></h1>
         <p class="card-text">Click on either of the links below to get an overview of individual research data
           management topics. </p><br>
-        <div class="row cards p-4 rounded cont-links">
-          {{ $topic := where .Site.RegularPages "Section" "topics" }}
-          {{ range $topic }}
-          <div class="col-sm-12 col-md-6 col-lg-6 p-2">
-            <div class="card background-white p-3 rounded h-100">
-              <div class="d-flex justify-content-between">
-                <div>
-                  <i class="bi bi-info-square"></i>
-                  <b>
-                    <a href="{{ .RelPermalink }}" class="stretched-link">{{ .Title }}</a>
-                  </b>
+          <div class="row cards p-4 rounded cont-links">
+            <div class="col-sm-12 col-md-6 col-lg-6 p-2">
+              <p>
+                <a class="btn btn-light p-3 h-100 d-flex justify-content-between" data-bs-toggle="collapse" href="#collapseHumanData" role="button" aria-expanded="false" aria-controls="collapseExample">Human data</a>
+              </p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 p-2">
+              <p>
+                <a class="btn btn-light p-3 h-100 d-flex justify-content-between" href="/topics/data-transfer/" role="button">Data transfer</a>
+              </p>
+            </div>
+            <div class="collapse" id="collapseHumanData">
+              <div class="row">
+                {{ $topic := where .Site.RegularPages "Section" "topics"}}
+                {{ range $topic }}
+                {{ if eq .Params.category "Human data"}}
+                <div class="col-sm-12 col-md-6 col-lg-6 p-2">
+                  <p>
+                    <a class="btn btn-light p-3 h-100 d-flex justify-content-between" data-bs-toggle="collapse" href="{{ .RelPermalink }}" role="button" aria-expanded="false" aria-controls="collapseExample">{{ .Title }}</a>
+                  </p>
                 </div>
+                {{ end }}
+                {{ end }}
               </div>
             </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 p-2">
+              <p>
+                <a class="btn btn-light p-3 h-100 d-flex justify-content-between" href="/topics/fair-principles/" role="button" >FAIR principles</a>
+              </p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 p-2">
+              <p>
+                <a class="btn btn-light p-3 h-100 d-flex justify-content-between" href="/topics/metadata/" role="button" aria-expanded="false" aria-controls="collapseExample">Metadata</a>
+              </p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 p-2">
+              <p>
+                <a class="btn btn-light p-3 h-100 d-flex justify-content-between" href="/university-rdm-resources/" role="button">University RDM resources</a>
+              </p>
+            </div>
           </div>
-          {{ end }}
         </div>
       </div>
-    </div>
+
+    <!-- Right side -->
+
     <div class="col-md-3 text-black offset-md-1 pb-3 pt-5 px-2">
       <div class="card-body pb-4 px-0 pt-0">
       <div class="card-body  support rounded pt-1">
@@ -99,7 +134,6 @@
       </div>
     </div>
     </div>
-
     </div>
   </div>
 </section>

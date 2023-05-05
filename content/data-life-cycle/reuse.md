@@ -12,6 +12,8 @@ Before you decide to embark on a new study, it is nowadays good practice to chec
 ## Resources
 * [RDMkit on Reusing Data](https://rdmkit.elixir-europe.org/reusing)
 * [RDMkit on Existing Data](https://rdmkit.elixir-europe.org/existing_data)
-* [The Swedish Covid-19 Data Portal list of available data](https://covid19dataportal.se/datasets/all/)
+* [The Swedish COVID-19 Data Portal list of available data](https://covid19dataportal.se/datasets/all/)
+* [The Swedish COVID-19 Data Portal one year on](https://www.youtube.com/watch?v=UUsoY6Lfa1o&list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS&index=7) (video)
+* [COVID 19 Data Portal](https://www.youtube.com/watch?v=Q2W1MvxMkJ0&list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS&index=12) (video lecture)
 * [Google dataset search](https://datasetsearch.research.google.com)
 * [Datacite Search](https://search.datacite.org)

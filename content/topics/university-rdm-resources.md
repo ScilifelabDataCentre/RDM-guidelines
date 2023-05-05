@@ -1,7 +1,6 @@
 ---
 title: University RDM resources
 contributors: []
-category: None
 toc: True
 ---
 

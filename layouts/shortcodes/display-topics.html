@@ -21,7 +21,7 @@
       {{ if eq .Params.category "Human data"}}
       <div class="col-sm-12 col-md-6 col-lg-4 p-2">
         <p>
-          <a class="btn btn-light p-3 h-100 d-flex justify-content-between" data-bs-toggle="collapse" href="{{ .RelPermalink }}" role="button" aria-expanded="false" aria-controls="collapseExample">{{ .Title }}</a>
+          <a class="btn btn-light p-3 h-100 d-flex justify-content-between" href="{{ .Page.RelPermalink }}" role="button">{{ .Title }}</a>
         </p>
       </div>
       {{ end }}
@@ -30,12 +30,12 @@
   </div>
   <div class="col-sm-12 col-md-6 col-lg-4 p-2">
     <p>
-      <a class="btn btn-light p-3 h-100 d-flex justify-content-between" href="/topics/metadata/" role="button" aria-expanded="false" aria-controls="collapseExample">Metadata</a>
+      <a class="btn btn-light p-3 h-100 d-flex justify-content-between" href="/topics/metadata/" role="button">Metadata</a>
     </p>
   </div>
   <div class="col-sm-12 col-md-6 col-lg-4 p-2">
     <p>
-      <a class="btn btn-light p-3 h-100 d-flex justify-content-between" href="/university-rdm-resources/" role="button">University RDM resources</a>
+      <a class="btn btn-light p-3 h-100 d-flex justify-content-between" href="/topics/university-rdm-resources/" role="button">University RDM resources</a>
     </p>
   </div>
 </div>

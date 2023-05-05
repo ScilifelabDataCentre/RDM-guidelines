@@ -1,7 +1,6 @@
 ---
 title: Metadata
 contributors: []
-category: None
 toc: True
 ---
 

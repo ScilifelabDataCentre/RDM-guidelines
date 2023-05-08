@@ -101,4 +101,4 @@ If you need any help connected to data submission, please [contact us](../../con
 ## Resources
 
 * [RDMkit on Human data](https://rdmkit.elixir-europe.org/human_data)
-* [SciLifeLab Data Repository Metadata record video tutorial](https://www.youtube.com/watch?v=_y09LCpLl9A&list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS&index=5)
+* [SciLifeLab Data Repository Metadata record tutorial](https://www.youtube.com/watch?v=_y09LCpLl9A&list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS&index=5) (video)

@@ -55,6 +55,7 @@ Click on the buttons below for specific information regarding suitable repositor
     <li><a href="/meta-data-templates/metadata_template_default_ERC000011.xlsx">ERC000011 ENA default sample checklist</a></li>
     <li><a href="/meta-data-templates/metadata_template_virus_ERC000033.xlsx">ERC000033 ENA virus pathogen reporting standard checklist</a></li>
     <li><a href="/meta-data-templates/metadata_template_sewage_ERC000036.xlsx">ERC000036 ENA sewage checklist</a></li>
+    <li><a href="/meta-data-templates/metadata_template_sewage_ERC000050.xlsx">ERC000050 ENA binned metagenome checklist</a></li>
   </ul>
   </span>
   </div>

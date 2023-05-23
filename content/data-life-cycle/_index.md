@@ -31,4 +31,4 @@ The research data life cycle can be divided into several phases as seen in the w
 </div>
 <br><br><br>
 
-The research data life cycle wheel is reused from [RDMkit](https://rdmkit.elixir-europe.org/).
+RDM life cycle from [RDMkit](https://rdmkit.elixir-europe.org/) licensed under [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 

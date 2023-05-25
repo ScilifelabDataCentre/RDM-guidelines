@@ -1,6 +1,7 @@
 ---
 title: Research involving human data
 contributors: []
+category: Human data
 toc: True
 ---
 
@@ -22,11 +23,11 @@ Any data that directly or indirectly can be linked to a living person is conside
 
 ## What is sensitive personal data?
 
-Some personal data is regarded as [sensitive](/topics/gdpr-ethical-review-glossary/#sensitive-personal-data), for example data related to health and genetics. This includes **all kinds of human [genetic data](/topics/gdpr-ethical-review-glossary/#genetic-data)** (both RNA and DNA, and both somatic and germline information), and is likely to apply to other kinds of omics data as well. 
+Some personal data is regarded as [sensitive](/topics/gdpr-ethical-review-glossary/#sensitive-personal-data), for example data related to health and genetics. This includes **all kinds of human [genetic data](/topics/gdpr-ethical-review-glossary/#genetic-data)** (both RNA and DNA, and both somatic and germline information), and is likely to apply to other kinds of omics data as well.
 
 Aggregated data (like population frequencies or number of sequence reads for a gene) might not be considered personal data (and hence not sensitive personal data), but a decision has to be made on a case-by-case basis.
 
-Sensitive personal data should always be [pseudonymised](/topics/gdpr-ethical-review-glossary/#pseudonymisation), which means that a particular person cannot be identified from the data unless it is combined with other data that has not been disclosed to the public. A common pseudonymisation procedure is to replace personal identity numbers with artificial identifiers. 
+Sensitive personal data should always be [pseudonymised](/topics/gdpr-ethical-review-glossary/#pseudonymisation), which means that a particular person cannot be identified from the data unless it is combined with other data that has not been disclosed to the public. A common pseudonymisation procedure is to replace personal identity numbers with artificial identifiers.
 
 It is important to remember that pseudonymised data is still regarded as personal data under GDPR: Even if the data is only referred to by an identifier that is not associated with the individual, and the researchers processing the data are not themselves in possession of the key of how the identifier relates to the individual, the data is still personal data, as the person can be [identified indirectly](/topics/gdpr-ethical-review-glossary/#personal-data).
 
@@ -135,13 +136,13 @@ As a Processor you should:
 * In the case of a [data breach](/topics/gdpr-ethical-review-glossary/#personal-data-breach), accidental or otherwise, immediately report the incident to the controller.
 
 
-### Data Protection Impact Assessment (DPIA) 
+### Data Protection Impact Assessment (DPIA)
 <!--- move first part to glossary? --->
 A Data Protection Impact Assessment (DPIA) is needed if the personal data processing is likely to result in a high risk to individual people's rights ([IMY on Impact assessments and prior consultation](https://www.imy.se/en/organisations/data-protection/this-applies-accordning-to-gdpr/impact-assessments-and-prior-consultation/)). The purpose of a DPIA is to prevent risks before they occur, by identifying what risks exist and draw up procedures to meet those risks. In order be able to decide if a DPIA is needed, you should perform a risk analysis. Analyse what risks your personal data processing may involve and suggest appropriate security measures. Document your findings so that you can demonstrate that you comply with the GDPR. If the risk analysis shows that a DPIA is needed, there are tools to help you e.g. [PIA software from CNIL](https://www.cnil.fr/en/open-source-pia-software-helps-carry-out-data-protection-impact-assessment).
 
 ### Security of processing
 
-To ensure that the personal data that you process in the project is protected at an appropriate level, you should apply [technical and procedural safeguards](/topics/gdpr-ethical-review-glossary/#security-of-processing) to ensure that the rights of the data subjects are not violated. Examples of such measures include, but are not limited to, pseudonymisation and encryption of data, the use of computing and storage environments with heightened security, and clear and documented procedures for project members to follow. 
+To ensure that the personal data that you process in the project is protected at an appropriate level, you should apply [technical and procedural safeguards](/topics/gdpr-ethical-review-glossary/#security-of-processing) to ensure that the rights of the data subjects are not violated. Examples of such measures include, but are not limited to, pseudonymisation and encryption of data, the use of computing and storage environments with heightened security, and clear and documented procedures for project members to follow.
 
 The security measures taken should be based on an evaluation of the risks for, and consequences of, the personal data not being correct and protected. Appropriate technical and organisational measures shall be implemented to ensure a level of security appropriate to the risk. It is advisable that the researcher seek guidance from the legal and information security functions of the university adminstration about this.
 

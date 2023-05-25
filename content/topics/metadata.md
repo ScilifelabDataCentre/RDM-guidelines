@@ -67,7 +67,7 @@ A list of relevant data and metadata standards can be found in [FAIRsharing](htt
   <span>
   <ul>
     <li>Preferred minimal metadata standard: <a href="https://doi.org/10.25504/FAIRsharing.32b10v">MIAME</a> - Minimum Information About a Microarray Experiment</li>
-    <li>Preferred file formats: 
+    <li>Preferred file formats:
       <ul>
         <li>tab-delimited text e.g. <a href="https://doi.org/10.25504/FAIRsharing.ak8p5g">MAGE-TAB</a> and <a href="https://doi.org/10.25504/FAIRsharing.53gp75">ISA-TAB</a></li>
         <li>raw data file formats from commercial microarray platforms (see <a href="https://www.ebi.ac.uk/fg/annotare/help/accepted_raw_ma_file_formats.html">Annotare accepted formats</a>)</li>
@@ -122,7 +122,7 @@ A list of relevant data and metadata standards can be found in [FAIRsharing](htt
 &nbsp;
 
 ### Imaging / Structural data
-Images and structural data cover a wide range of data types and thus metadata standards. Please find below guidance for a selection of them. 
+Images and structural data cover a wide range of data types and thus metadata standards. Please find below guidance for a selection of them.
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5">
     X-ray diffraction

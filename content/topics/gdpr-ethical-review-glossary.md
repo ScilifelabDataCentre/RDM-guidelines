@@ -1,6 +1,7 @@
 ---
 title: GDPR and ethical review glossary
 contributors: []
+category: Human data
 toc: True
 ---
 

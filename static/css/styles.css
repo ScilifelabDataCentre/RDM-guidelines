@@ -250,6 +250,7 @@ clear: both;
 
 .cont-links a {
     color: #045C64;
+    font-weight: bold;
 }
 
 .cont-links a:hover,

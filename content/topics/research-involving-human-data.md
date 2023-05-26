@@ -75,14 +75,25 @@ The GDPR states that the processing (including storing) of personal data should 
 <!-- Merge content of "PIs working with human data" and “Sensitive personal data”
 Risk assessment, DPIA … -->
 Before embarking on a new project, consider the following:
-* Have the data processing been reported to the [data protection officer](#data-protection-officer-dataskyddsombud)?
+* What personal data will be collected and processed?
+    * Only collect data that are needed, i.e. ensure to not collect more data than necessary
 * What is the purpose of processing the personal data?
-* Who is the data controller of the personal data processed in the project?
+  * Determine the purpose and stick to it
+  * Do not use data for another, incompatible purpose
 * What is the [legal basis](#legal-basis-for-processing-personal-data) for processing the personal data?
+  * In other words, are there any laws or rules that permit you to collect and process these personal data?
+  * Identify the legal basis for processing before processing begins
+* Have the data processing been reported to the [data protection officer](#data-protection-officer-dataskyddsombud)?
+* Who is the data controller of the personal data processed in the project?
 * Have [data processing agreements](#data-processing) been established between the data controller(s) and any data processors?
-* Have Data Protection Impact Assessments ([DPIA](#data-protection-impact-assessment-dpia)) been performed for the personal data?
 * What technical and procedural [safeguards](#security-of-processing) have been established for processing the data?
+  * Ensure that the data are accurate and up to date
+  * Protect collected data
+* Have Data Protection Impact Assessments ([DPIA](#data-protection-impact-assessment-dpia)) been performed for the personal data?
+* What is there to show that the individuals concerned have given their consent?
+  * Inform in a transparent and honest way
 * What happens with the data [after project completion](#repositories-for-publishing-human-data)?
+  * How long will the collected data be kept? Erase the data when they are no longer needed.
 
 
 ### Data Protection Officer (dataskyddsombud)

@@ -77,12 +77,13 @@ Risk assessment, DPIA … -->
 Before embarking on a new project, consider the following:
 * What personal data will be collected and processed?
     * Only collect data that are needed, i.e. ensure to not collect more data than necessary
-* What is the purpose of processing the personal data?
+* What is the purpose of collecting and processing the personal data?
   * Determine the purpose and stick to it
   * Do not use data for another, incompatible purpose
 * What is the [legal basis](#legal-basis-for-processing-personal-data) for processing the personal data?
   * In other words, are there any laws or rules that permit you to collect and process these personal data?
   * Identify the legal basis for processing before processing begins
+* How and when are the collected data processed and used?
 * Have the data processing been reported to the [data protection officer](#data-protection-officer-dataskyddsombud)?
 * Who is the data controller of the personal data processed in the project?
 * Have [data processing agreements](#data-processing) been established between the data controller(s) and any data processors?

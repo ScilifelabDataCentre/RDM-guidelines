@@ -43,7 +43,7 @@ The [Swedish Authority for Privacy Protection (IMY)](https://www.imy.se/en/) uph
 
 * **Other regulations**
   * [The Patient Data Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/patientdatalag-2008355_sfs-2008-355)
-  * [The Biobank Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2002297-om-biobanker-i-halso--och_sfs-2002-297)
+  * [The Biobank Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/biobankslag-202338_sfs-2023-38)
 
 
 ## Who is responsible for the data?

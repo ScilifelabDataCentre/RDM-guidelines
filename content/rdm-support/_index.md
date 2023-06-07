@@ -17,7 +17,7 @@ We support various RDM aspects, such as publishing data in repositories, sharing
 
 **SciLifeLab Data Management Support** is a collaboration between NBIS and SciLifeLab Data Centre.
 
-**SciLifeLab DataCentre (DC)** is a central SciLifeLab unit responsible for IT - and data management needs.
+**SciLifeLab Data Centre (DC)** is a central SciLifeLab unit responsible for IT - and data management needs.
 
 **NBIS (National Bioinformatics Infrastructure Sweden)** is SciLifeLab’s bioinformatics platform, offering bioinformatics support, infrastructure and tools, including data management expertise.
 
@@ -40,7 +40,7 @@ We support various RDM aspects, such as publishing data in repositories, sharing
   <p class="card-text">NBIS offers <a style="color:black" href="https://nbis.se/training">training and workshops</a> on research data management and reproducibility as well as bioinformatics.
   <br><br></p>
   <h3><b>Want expert advice or hands-on support?</b></h3><br>
-  <p class="card-text">We offer consultations and support on all aspects of data management to researchers and research infrastructures in Swedish life science research. Contact our team via email or the contact form below for expert advise on setting up DMPs, sharing data, choosing repositories etc.
+  <p class="card-text">We offer consultations and support on all aspects of data management to researchers and research infrastructures in Swedish life science research. Contact our team via email, <a href = "mailto:data-management@scilifelab.se">data-management@scilifelab.se</a>, or the contact form below for expert advise on setting up DMPs, sharing data, choosing repositories etc.
   <br><br></p>
   <h3><b>Wish to publish data in a repository?</b></h3><br>
   <p class="card-text">We can guide you in finding suitable domain-specific repositories for publishing

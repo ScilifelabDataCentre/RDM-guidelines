@@ -14,6 +14,8 @@ Data is one of the most valuable outputs of research. Good Research Data Managem
 SciLifeLab Data Management Support offers tools, guidance, training and hands-on support to anyone involved in life science research that is affiliated with a Swedish university or research institute.
 We support various RDM aspects, such as publishing data in repositories, sharing data and code, writing data management plans (DMPs), guidance on working with sensitive human data, guidance on implementing the FAIR principles and adhere to Open Science and much more.
 <br><br><br>
+<a href="/contact/"><b>Contact form to get support <i class="bi bi-arrow-right-square-fill"></i></b></a>
+<br><br><br>
 
 **SciLifeLab Data Management Support** is a collaboration between NBIS and SciLifeLab Data Centre.
 
@@ -40,16 +42,9 @@ We support various RDM aspects, such as publishing data in repositories, sharing
   <p class="card-text">NBIS offers <a style="color:black" href="https://nbis.se/training">training and workshops</a> on research data management and reproducibility as well as bioinformatics.
   <br><br></p>
   <h3><b>Want expert advice or hands-on support?</b></h3><br>
-  <p class="card-text">We offer consultations and support on all aspects of data management to researchers and research infrastructures in Swedish life science research. Contact our team via email, <a href = "mailto:data-management@scilifelab.se">data-management@scilifelab.se</a>, or the contact form below for expert advise on setting up DMPs, sharing data, choosing repositories etc.
+  <p class="card-text">We offer consultations and support on all aspects of data management to researchers and research infrastructures in Swedish life science research. Contact our team via email, <a href = "mailto:data-management@scilifelab.se">data-management@scilifelab.se</a>, or the contact form for expert advise on setting up DMPs, sharing data, choosing repositories etc.
   <br><br></p>
   <h3><b>Wish to publish data in a repository?</b></h3><br>
   <p class="card-text">We can guide you in finding suitable domain-specific repositories for publishing
   your data. SciLifeLab Data Centre also maintains the <a style="color:black" href="https://figshare.scilifelab.se">SciLifeLab Data Repository</a>, data that can not be deposited in a domain specific repository can be published here. It is also possible to publish metadata for data you cannot share openly.</p>
 </div>
-
-
-&nbsp;&nbsp;
-## Contact us
-You can fill in the below form to get in touch with us. If you prefer though, you can instead email us at [data-management@scilifelab.se](mailto:data-management@scilifelab.se).
-
-### Contact form

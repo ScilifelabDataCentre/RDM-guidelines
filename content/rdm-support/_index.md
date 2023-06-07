@@ -2,7 +2,11 @@
 title: Research Data Management support
 menu:
     navbar_top:
-        name: RDM support
+        name: Get support
+        identifier: rdm-support
+        weight: 10
+    bottom_about:
+        name: Get support
         identifier: rdm-support
         weight: 10
 ---

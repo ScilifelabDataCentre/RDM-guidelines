@@ -1,5 +1,5 @@
 ---
-title: Research Data Management support
+title: Research Data Management Support
 menu:
     navbar_top:
         name: Get support
@@ -39,7 +39,7 @@ We support various RDM aspects, such as publishing data in repositories, sharing
 <div class="row mt-2">
 <div class="col-md-6">
 
-**SciLifeLab Data Management Support** is a collaboration between (National Bioinformatics Infrastructure Sweden (NBIS) and SciLifeLab Data Centre. SciLifeLab Data Centre is a central SciLifeLab unit responsible for IT and data management needs.NBIS is SciLifeLab’s bioinformatics platform, offering bioinformatics support, infrastructure and tools, including data management expertise.
+**SciLifeLab Data Management Support** is a collaboration between NBIS (National Bioinformatics Infrastructure Sweden) and SciLifeLab Data Centre. SciLifeLab Data Centre is a central SciLifeLab unit responsible for IT and data management needs. NBIS is SciLifeLab’s bioinformatics platform, offering bioinformatics support, infrastructure and tools, including data management expertise.
 <br><br>
 To the right you can find a digital flyer about the SciLifeLab Data Management Support. <br><br>
 

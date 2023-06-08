@@ -1,0 +1,309 @@
+{{ define "main" }}
+
+<section>
+  <div>
+    {{ .Content }}</div>
+</section>
+
+<section>
+  <div class="my-2 text-start">
+    <button type="button" class="btn btn-aqua" data-bs-toggle="modal" data-bs-target="#suggestionModal">
+      Could have a form here
+    </button>
+  </div>
+  <div class="modal fade" id="suggestionModal" tabindex="-1" aria-labelledby="suggestionModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <form action="https://forms.dckube.scilifelab.se/api/v1/form/M5GfePAbHxkPdIph/incoming" class="needs-validation"
+          novalidate method="POST" accept-charset="utf-8">
+          <div class="modal-header">
+            <h5 class="modal-title" id="suggestionModalLabel">Jobs, PhD positions, Postdoc positions or master's
+              projects</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="">
+              <p>We are happy to list any job listings, PhD positions, postdoc positions or masters project opportunities
+                related to data-driven life science in Sweden.</p>
+              <p>If you know of an opportunity that has not been listed on this page, but
+                feel that it should be, please fill in the form below. Obligatory fields are marked with an
+                asterisk.
+                The editorial team behind the SciLifeLab Data Platform will publish all suitable submissions as soon as
+                possible.</p>
+            </div>
+            <div class="mb-3">
+              <label for="job_title" class="form-label fw-bold">Title:*</label>
+              <input type="text" class="form-control" id="job_title" name="job_title" required>
+            </div>
+            <div class="mb-3">
+              <label for="job_type" class="form-label fw-bold">Type of listing:*</label>
+              <select class="form-select" id="job_type" name="job_type" required>
+                <option hidden disabled selected value> </option>
+                <option value="job_listing">Job listing</option>
+                <option value="phd">PhD position</option>
+                <option value="postdoc">Postdoc position</option>
+                <option value="masters">Masters project</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="opening_date" class="form-label fw-bold">Opening date:</label>
+              <input type="date" class="form-control" id="opening_date" name="opening_date">
+              <div class="form-text">Add opening date if the job is not yet open for applications.
+               </div>
+            </div>
+            <div class="mb-3">
+              <label for="job_deadline" class="form-label fw-bold">Application deadline:*</label>
+              <input type="date" class="form-control" id="job_deadline" name="job_deadline" required>
+              <div class="form-text">If no deadline applies, please write a date 1 year from today's date, or your best
+                estimate. This field can also be used to state e.g. closing date for grant applications.</div>
+            </div>
+            <div class="mb-3">
+              <label for="employer" class="form-label fw-bold">Employer:*</label>
+              <input type="text" class="form-control" id="employer" name="employer" required>
+              <div class="form-text">Where is the position? List an employer</div>
+            </div>
+            <div class="mb-3">
+              <label for="job_url" class="form-label fw-bold">Webpage with advertisement:*</label>
+              <input type="url" class="form-control" id="job_url" name="job_url" required>
+              <div class="form-text">Enter URL starting with 'https://...'</div>
+            </div>
+            <div class="mb-3">
+              <label for="job_description" class="form-label fw-bold">Additional relevant information:</label>
+              <textarea class="form-control" id="job_description" name="job_description" rows="5"></textarea>
+              <div class="form-text">Any additional information that you feel could be useful.</div>
+            </div>
+            <div class="mb-3 form-check fw-bold">
+              <input type="checkbox" class="form-check-input" id="involved_in_listing" name="involved_in_listing">
+              <label class="form-check-label" for="involved_in_listing">I am involved in this listing</label>
+            </div>
+            <div class="mb-3">
+              <label for="submitter_name" class="form-label fw-bold">Your name:</label>
+              <input type="text" class="form-control" id="submitter_name" name="submitter_name">
+              <div class="form-text">Enter your name if you agree to be contacted regarding this submission (your name
+                will not be shown in the listing).</div>
+            </div>
+            <div class="mb-3">
+              <label for="submitter_email" class="form-label fw-bold">Your contact email:</label>
+              <input type="email" class="form-control" id="submitter_email" name="submitter_email">
+              <div class="form-text">Enter your email address if you agree to be contacted regarding this submission
+                (your email will not be displayed in the listing).</div>
+            </div>
+            <div class="g-recaptcha" data-sitekey="6LdPd50fAAAAAJ_dVMXFJjzOTh7XZeAI-ej82GPv"></div>
+            <input type="url" id="originUrl" name="originUrl" value="" hidden />
+            <input type='hidden' name='origin' value='call_job_suggestion'>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-aqua">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ $job_type := slice }}
+{{ $stage := slice }}
+{{ $open_jobs := slice }}
+{{ $level := slice }}
+{{ range sort $.Site.Data.training.items ".app_deadline" "asc" }}
+  {{ if ge (.app_deadline | time.Format "20060102") (now | time.Format "20060102") }}
+    {{ $open_jobs = $open_jobs | append . }}
+    {{ $job_type = $job_type | append .type }}
+    {{ $stage = $stage | append .stage }}
+  {{ end }}
+{{ end }}
+{{ $job_type = $job_type | uniq }}
+{{ $stage = $stage | uniq }}
+
+{{ if ge (len $open_jobs) 1 }}
+<section>
+  <div class="row mt-3 mb-5">
+    <div class="col-lg-2" id="job-filters">
+      <h5>Type</h5>
+      {{ range sort $job_type }}
+        <div class="form-check">   
+          <input class="form-check-input" type="checkbox" id="{{ . }}" name="type" value="{{ delimit (split . " ") "-" | lower }}">
+          <label class="form-check-label" for="{{ . }}">{{ . }}</label>
+        </div>
+      {{ end }}
+      
+      <h5 class="mt-3">Stage</h5>
+      {{ range sort $stage }}
+        <div class="form-check">   
+          <input class="form-check-input" type="checkbox" id="{{ . }}" name="stage" value="{{ delimit (split . " ") "-" | lower }}">
+          <label class="form-check-label" for="{{ . }}">{{ . }}</label>
+        </div>
+      {{ end }}
+    </div>
+    <div class="col-lg">
+      <div class="row g-2" id="jobs-container">
+      {{ range $ind, $cont := $open_jobs }}
+
+      {{/* Add custom attributes for filtering purposes */}}
+      {{ $this_job_type := slice }}
+      {{ range .type }}{{ $this_job_type = $this_job_type | append (delimit (split . " ") "-" | lower) }} {{ end }}
+      {{ $this_job_type = delimit $this_job_type " " }}
+      {{ $this_stage := delimit (split .stage " ") "-" | lower }}
+      
+      <div class="col-md-6 col-lg-4 job" data-job-type="{{ $this_job_type }}" data-stage="{{ $this_stage }}">
+        <div class="p-3 border rounded h-100">
+          <div class="d-flex justify-content-between">
+            <div>
+              {{ range .type }}<span class="badge event-type mb-1 me-1">{{ . }}</span>{{ end }}
+              <h5><a class="" role="button" data-bs-toggle="modal"
+                  data-bs-target="#descriptionModal{{ $ind }}">{{ .title }}</a></h5>
+            </div>
+            <div>
+              <div class="px-2 m-2 d-flex flex-column rounded event-date">
+                <div class="px-2 fs-3 mx-auto">{{ time.Format "2" .app_deadline }}</div>
+                <div class="pb-1 px-2 mx-auto">{{ time.Format "January" .app_deadline }}</div>
+              </div>
+            </div>
+          </div>
+          {{ if .stage }}<div class="row">
+            <div class="col">
+              <b>Stage:</b> {{ .stage }}
+            </div>
+          </div>{{ end }}
+          <div class="row mt-3">
+            <div class="col">
+              <button type="button" class="btn btn-details btn-primary" data-bs-toggle="modal"
+                data-bs-target="#descriptionModal{{ $ind }}">
+                See details
+              </button>
+              <div class="modal fade" id="descriptionModal{{ $ind }}" tabindex="-1"
+                aria-labelledby="descriptionModalLabel{{ $ind }}" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="descriptionModalLabel">{{ .title }}</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                        <div class="col">
+                          <b>Listing type:</b> {{ range .type }}<span class="badge event-type mb-1 me-1">{{ . }}</span>{{ end }}
+                        </div>
+                      </div>
+                      <div class="row mt-1">
+                        <div class="col">
+                          <b>Deadline for applications:</b>
+                          {{ .app_deadline | time.Format ":date_medium" }}{{ if .time_start }}
+                          {{ .time_start }}{{ end }}{{ if .date_end }} -
+                          {{ .date_end | time.Format ":date_medium" }}{{ end}}{{ if .time_end }}
+                          {{ .time_end }}{{ end }}
+                        </div>
+                      </div>
+                      {{ if .stage }}<div class="row mt-1">
+                        <div class="col">
+                          <b>Stage:</b> {{ .stage }}
+                        </div>
+                      </div>{{ end }}
+                      {{ if .opening_date }}<div class="row mt-1">
+                        <div class="col">
+                          <b>Opening date:</b> {{ .opening_date }}
+                        </div>
+                      </div>{{ end }}
+                      {{ if .description }}<div class="row mt-3">
+                        <div class="col"><b>Brief description:</b><br>
+                          {{ .description | markdownify }}
+                        </div>
+                      </div>{{ end }}
+                      <div class="row mt-3">
+                        <div class="col-md">
+                          <p>For more information, visit the link below.</p>
+                          <a target="_blank" href="{{ .job_url }}"><i class="bi bi-globe"></i> Listing
+                            webpage</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+      <div id="no-filtered-jobs" style="display:none;">
+        <p class="text-center">No jobs found for selected criteria.</p>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ else }}
+<div class="alert alert-secondary mt-4">
+  We are currently unaware of any upcoming jobs or project opportunities relevant for data-driven 
+  life science. If you know of any relevant jobs or project opportunities that should be shown 
+  here, please suggest them to us using the "Tell us about an open position" button above.
+</div>
+{{ end }}
+
+<script>
+  // set origin url in the form
+  document.getElementById('originUrl').value = location.href;
+  
+  // Validate the form by checking mandatory fields and recaptcha
+  var form = document.querySelector('.needs-validation');
+  form.addEventListener('submit', function (event) {
+    if (form.checkValidity() === false) {
+      event.preventDefault();
+      alert("Please fill out all required fields.");
+      event.stopPropagation();
+      form.classList.add('was-validated')
+    }
+    var recaptcha = $("#g-recaptcha-response").val();
+    if (recaptcha === "") {
+      event.preventDefault();
+      alert("Please tick 'I'm not a robot' above the 'Submit the form' button.");
+    }
+  });
+  
+  // Filter jobs based on selected criteria
+  $('div#job-filters input:checkbox').on('change', function(){
+    
+    // Collect and create a list with selected values
+    var job_type = $('input:checkbox[name="type"]:checked').map(function () {return this.value}).get();
+    var stage = $('input:checkbox[name="stage"]:checked').map(function () {return this.value}).get();
+    
+    // Hide all displayed jobs and message
+    $('div#jobs-container div.job').hide();
+    $('div#no-filtered-jobs').hide();
+    
+    // Show relavant jobs based on selected criteria
+    if (!job_type.length && !stage.length) {
+      $('div#jobs-container div.job').show();
+    } else {
+      job_type.forEach(function(jtype){
+        $(`div#jobs-container div[data-job-type*=${jtype}]`).each(function(){
+          if (!stage.length) {
+            this.style.display = '';
+          } else if (stage.includes(this.getAttribute('data-stage'))){
+            this.style.display = '';
+          }
+        });
+      });
+      stage.forEach(function(emp){
+        if (!job_type.length) {
+          $(`div#jobs-container div[data-stage*=${emp}]`).show();
+        }
+      });
+      
+      // Display a message if no jobs available for selected criteria
+      var visible_jobs = $('div#jobs-container div.job').filter(":visible");
+      if (!visible_jobs.length) {
+        $('div#no-filtered-jobs').show();
+      }
+    }
+    
+  });
+  
+</script>
+
+{{ end }}

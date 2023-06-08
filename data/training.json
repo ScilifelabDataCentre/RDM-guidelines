@@ -1,0 +1,26 @@
+{
+    "items": [
+        {
+            "title": "Fake training 1",
+            "type": [
+                "RDM training"
+            ],
+            "app_deadline": "2023-09-21",
+            "stage": "Storage",
+            "level": "easy",
+            "job_url": "http://www.henlab.org/postdoc-resolving-microbial-genomes-in-complex-communities-at-the-single-cell-level/",
+            "description": "Info about the type of training this is "
+        },
+        {
+            "title": "Fake training 2",
+            "type": [
+                "Other training type"
+            ],
+            "app_deadline": "2023-08-15",
+            "stage": "Analysis",
+            "level": "easy",
+            "job_url": "https://macromolecular.github.io/join",
+            "description": "blah blah training"
+        }
+    ]
+}

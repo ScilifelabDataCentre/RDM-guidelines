@@ -5,7 +5,7 @@ There is a list of [current resources](https://github.com/ScilifelabDataCentre/R
 
 The steps below outlines the mutually agreed steps in order to update the RDM-guidelines repository:
 
-1. Create a [New issue](https://github.com/ScilifelabDataCentre/RDM-guidelines/issues) describing the needed update. If appropriate, add a label with the level of priority, e.g. `MVP` if the update is needed previous to first release of the guidelines.
+1. Create a [New issue](https://github.com/ScilifelabDataCentre/RDM-guidelines/issues) describing the needed update. If appropriate, add a label with the level of priority.
 1. The person(s) that decides to resolve the issue sets themselves as assignee, so that the others in the editorial group know that the update is ongoing.
 1. The assignee creates a branch: under **Development** in the menu on the right, click on the link `Create a branch`.
 1. If the issue is a missing page:

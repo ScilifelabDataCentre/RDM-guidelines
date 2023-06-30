@@ -12,7 +12,7 @@ Facilities which offer data analysis services:
 * [BioImage Informatics Facility](https://www.scilifelab.se/facilities/bioimage-informatics/) provides support and education in image analysis in order to help users get started with their own analysis.
 
 Facilities offering computational resources:
-* [SNIC](https://www.snic.se/) (Swedish National Infrastructure for Computing) national research infrastructure makes available large scale high performance computing resources. [Apply](https://www.snic.se/allocations/compute/) for Small, Medium, Large or Sensitive data allocation, depending on size and type of project.
+* [NAISS](https://www.naiss.se/) (National Academic Infrastructure for Super­computing in Sweden) national research infrastructure makes available large scale high performance computing resources. [Apply](https://supr.naiss.se/round/compute/) for Small, Medium, Large or Sensitive data allocation, depending on size and type of project.
 
 ## Resources
 * [RDMkit on Analysing Data](https://rdmkit.elixir-europe.org/analysing)

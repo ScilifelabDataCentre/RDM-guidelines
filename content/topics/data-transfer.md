@@ -16,8 +16,8 @@ The Data Delivery System (DDS) is a cloud-based system for the delivery of data 
 
 ## Uppmax
 
-Please find below some useful links from the SNIC compute resource Uppmax regarding data transfer:
+Please find below some useful links from the compute resource Uppmax regarding data transfer:
 
 * [Basic SFTP commands for transferring files](https://uppmax.uu.se/support-sv/user-guides/basic-sftp-commands/)
-* [SNIC-SENS Bianca Deliver user guide for NGI data](https://scilifelabdatacentre.github.io/dds_cli/installation/#bianca)
+* [NAISS-SENS Bianca Deliver user guide for NGI data](https://scilifelabdatacentre.github.io/dds_cli/installation/#bianca)
 * [Transit user guide - secure data transfer of sensitive data](https://uppmax.uu.se/support-sv/user-guides/transit-user-guide/)

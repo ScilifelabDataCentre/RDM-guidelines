@@ -243,6 +243,10 @@ h6 {
   background-color: rgba(73, 31, 83, 0.25) !important;
 }
 
+.resource {
+  background-color: rgb(255, 255, 255) !important;
+}
+
 /*-----Cards-----*/
 .cards {
   background-color: rgba(4, 92, 100, 0.25);

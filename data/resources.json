@@ -7,7 +7,7 @@
             ],
             "app_deadline": "2023-09-21",
             "stage": "Storage",
-            "level": "easy",
+            "level": ["easy", "hard"],
             "url": "http://www.henlab.org/postdoc-resolving-microbial-genomes-in-complex-communities-at-the-single-cell-level/",
             "description": "Info about the type of training this is "
         },
@@ -18,7 +18,7 @@
             ],
             "app_deadline": "2023-08-15",
             "stage": "Analysis",
-            "level": "easy",
+            "level": ["hard"],
             "url": "https://macromolecular.github.io/join",
             "description": "blah blah training"
         }

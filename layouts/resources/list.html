@@ -32,14 +32,14 @@
                 possible.</p>
             </div>
             <div class="mb-3">
-              <label for="job_title" class="form-label fw-bold">Title:*</label>
-              <input type="text" class="form-control" id="job_title" name="job_title" required>
+              <label for="resource_title" class="form-label fw-bold">Title:*</label>
+              <input type="text" class="form-control" id="resource_title" name="resource_title" required>
             </div>
             <div class="mb-3">
-              <label for="job_type" class="form-label fw-bold">Type of listing:*</label>
-              <select class="form-select" id="job_type" name="job_type" required>
+              <label for="resource_type" class="form-label fw-bold">Type of listing:*</label>
+              <select class="form-select" id="resource_type" name="resource_type" required>
                 <option hidden disabled selected value> </option>
-                <option value="job_listing">Job listing</option>
+                <option value="resource_listing">resource listing</option>
                 <option value="phd">PhD position</option>
                 <option value="postdoc">Postdoc position</option>
                 <option value="masters">Masters project</option>
@@ -53,8 +53,8 @@
                </div>
             </div>
             <div class="mb-3">
-              <label for="job_deadline" class="form-label fw-bold">Application deadline:*</label>
-              <input type="date" class="form-control" id="job_deadline" name="job_deadline" required>
+              <label for="resource_deadline" class="form-label fw-bold">Application deadline:*</label>
+              <input type="date" class="form-control" id="resource_deadline" name="resource_deadline" required>
               <div class="form-text">If no deadline applies, please write a date 1 year from today's date, or your best
                 estimate. This field can also be used to state e.g. closing date for grant applications.</div>
             </div>
@@ -69,8 +69,8 @@
               <div class="form-text">Enter URL starting with 'https://...'</div>
             </div>
             <div class="mb-3">
-              <label for="job_description" class="form-label fw-bold">Additional relevant information:</label>
-              <textarea class="form-control" id="job_description" name="job_description" rows="5"></textarea>
+              <label for="resource_description" class="form-label fw-bold">Additional relevant information:</label>
+              <textarea class="form-control" id="resource_description" name="resource_description" rows="5"></textarea>
               <div class="form-text">Any additional information that you feel could be useful.</div>
             </div>
             <div class="mb-3 form-check fw-bold">
@@ -91,7 +91,7 @@
             </div>
             <div class="g-recaptcha" data-sitekey="6LdPd50fAAAAAJ_dVMXFJjzOTh7XZeAI-ej82GPv"></div>
             <input type="url" id="originUrl" name="originUrl" value="" hidden />
-            <input type='hidden' name='origin' value='call_job_suggestion'>
+            <input type='hidden' name='origin' value='call_resource_suggestion'>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -103,26 +103,29 @@
   </div>
 </section>
 
-{{ $job_type := slice }}
+{{ $resource_type := slice }}
+{{ $level := slice }}
 {{ $stage := slice }}
-{{ $open_jobs := slice }}
+{{ $open_resources := slice }}
 {{ $level := slice }}
 {{ range sort $.Site.Data.resources.items ".app_deadline" "asc" }}
   {{ if ge (.app_deadline | time.Format "20060102") (now | time.Format "20060102") }}
-    {{ $open_jobs = $open_jobs | append . }}
-    {{ $job_type = $job_type | append .type }}
+    {{ $open_resources = $open_resources | append . }}
+    {{ $resource_type = $resource_type | append .type }}
+    {{ $level = $level | append .level }}
     {{ $stage = $stage | append .stage }}
   {{ end }}
 {{ end }}
-{{ $job_type = $job_type | uniq }}
+{{ $resource_type = $resource_type | uniq }}
+{{ $level = $level | uniq }}
 {{ $stage = $stage | uniq }}
 
-{{ if ge (len $open_jobs) 1 }}
+{{ if ge (len $open_resources) 1 }}
 <section>
   <div class="row mt-3 mb-5">
-    <div class="col-lg-2" id="job-filters">
+    <div class="col-lg-2" id="resource-filters">
       <h3>Type</h3>
-      {{ range sort $job_type }}
+      {{ range sort $resource_type }}
         <div class="form-check">   
           <input class="form-check-input" type="checkbox" id="{{ . }}" name="type" value="{{ delimit (split . " ") "-" | lower }}">
           <label class="form-check-label" for="{{ . }}">{{ . }}</label>
@@ -136,18 +139,30 @@
           <label class="form-check-label" for="{{ . }}">{{ . }}</label>
         </div>
       {{ end }}
+
+      <h3>Level</h3>
+      {{ range sort $level }}
+        <div class="form-check">   
+          <input class="form-check-input" type="checkbox" id="{{ . }}" name="level" value="{{ delimit (split . " ") "-" | lower }}">
+          <label class="form-check-label" for="{{ . }}">{{ . }}</label>
+        </div>
+      {{ end }}
+
     </div>
     <div class="col-lg">
-      <div class="row g-2" id="jobs-container">
-      {{ range $ind, $cont := $open_jobs }}
+      <div class="row g-2" id="resources-container">
+      {{ range $ind, $cont := $open_resources }}
 
       {{/* Add custom attributes for filtering purposes */}}
-      {{ $this_job_type := slice }}
-      {{ range .type }}{{ $this_job_type = $this_job_type | append (delimit (split . " ") "-" | lower) }} {{ end }}
-      {{ $this_job_type = delimit $this_job_type " " }}
+      {{ $this_resource_type := slice }}
+      {{ range .type }}{{ $this_resource_type = $this_resource_type | append (delimit (split . " ") "-" | lower) }} {{ end }}
+      {{ $this_resource_type = delimit $this_resource_type " " }}
+      {{ $this_level := slice }}
+      {{ range .level }}{{ $this_level = $this_level | append (delimit (split . " ") "-" | lower) }} {{ end }}
+      {{ $this_level = delimit $this_level " " }}
       {{ $this_stage := delimit (split .stage " ") "-" | lower }}
       
-      <div class="col-md-4 col-lg-4" data-job-type="{{ $this_job_type }}" data-stage="{{ $this_stage }}">
+      <div class="col-md-4 col-lg-4 resource" data-resource-type="{{ $this_resource_type }}" data-stage="{{ $this_stage }}" data-level="{{ $this_level }}">
         <div class="p-3 border rounded h-100">
           <div class="d-flex justify-content-between">
             <div>
@@ -230,7 +245,7 @@
         </div>
       </div>
       {{ end }}
-      <div id="no-filtered-jobs" style="display:none;">
+      <div id="no-filtered-resources" style="display:none;">
         <p class="text-center">No resources found for selected criteria.</p>
       </div>
       </div>
@@ -264,24 +279,26 @@
       alert("Please tick 'I'm not a robot' above the 'Submit the form' button.");
     }
   });
-  
+
+// ADD LEVEL BELOW HERE!
   // Filter jobs based on selected criteria
-  $('div#job-filters input:checkbox').on('change', function(){
+  $('div#resource-filters input:checkbox').on('change', function(){
     
     // Collect and create a list with selected values
-    var job_type = $('input:checkbox[name="type"]:checked').map(function () {return this.value}).get();
+    var resource_type = $('input:checkbox[name="type"]:checked').map(function () {return this.value}).get();
+    var level = $('input:checkbox[name="level"]:checked').map(function () {return this.value}).get();
     var stage = $('input:checkbox[name="stage"]:checked').map(function () {return this.value}).get();
     
     // Hide all displayed jobs and message
-    $('div#jobs-container div.job').hide();
-    $('div#no-filtered-jobs').hide();
+    $('div#resources-container div.resource').hide();
+    $('div#no-filtered-resources').hide();
     
     // Show relavant jobs based on selected criteria
-    if (!job_type.length && !stage.length) {
-      $('div#jobs-container div.job').show();
+    if (!resource_type.length && !stage.length && !level.length) {
+      $('div#resources-container div.resource').show();
     } else {
-      job_type.forEach(function(jtype){
-        $(`div#jobs-container div[data-job-type*=${jtype}]`).each(function(){
+      resource_type.forEach(function(jtype){
+        $(`div#resources-container div[data-resource-type*=${jtype}]`).each(function(){
           if (!stage.length) {
             this.style.display = '';
           } else if (stage.includes(this.getAttribute('data-stage'))){
@@ -290,15 +307,15 @@
         });
       });
       stage.forEach(function(emp){
-        if (!job_type.length) {
-          $(`div#jobs-container div[data-stage*=${emp}]`).show();
+        if (!resource_type.length) {
+          $(`div#resources-container div[data-stage*=${emp}]`).show();
         }
       });
       
       // Display a message if no jobs available for selected criteria
-      var visible_jobs = $('div#jobs-container div.job').filter(":visible");
-      if (!visible_jobs.length) {
-        $('div#no-filtered-jobs').show();
+      var visible_resources = $('div#resources-container div.resource').filter(":visible");
+      if (!visible_resources.length) {
+        $('div#no-filtered-resources').show();
       }
     }
     

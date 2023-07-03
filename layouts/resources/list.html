@@ -64,8 +64,8 @@
               <div class="form-text">Where is the position? List an employer</div>
             </div>
             <div class="mb-3">
-              <label for="job_url" class="form-label fw-bold">Webpage with advertisement:*</label>
-              <input type="url" class="form-control" id="job_url" name="job_url" required>
+              <label for="url" class="form-label fw-bold">Webpage with advertisement:*</label>
+              <input type="url" class="form-control" id="url" name="url" required>
               <div class="form-text">Enter URL starting with 'https://...'</div>
             </div>
             <div class="mb-3">
@@ -107,7 +107,7 @@
 {{ $stage := slice }}
 {{ $open_jobs := slice }}
 {{ $level := slice }}
-{{ range sort $.Site.Data.training.items ".app_deadline" "asc" }}
+{{ range sort $.Site.Data.resources.items ".app_deadline" "asc" }}
   {{ if ge (.app_deadline | time.Format "20060102") (now | time.Format "20060102") }}
     {{ $open_jobs = $open_jobs | append . }}
     {{ $job_type = $job_type | append .type }}
@@ -121,7 +121,7 @@
 <section>
   <div class="row mt-3 mb-5">
     <div class="col-lg-2" id="job-filters">
-      <h5>Type</h5>
+      <h3>Type</h3>
       {{ range sort $job_type }}
         <div class="form-check">   
           <input class="form-check-input" type="checkbox" id="{{ . }}" name="type" value="{{ delimit (split . " ") "-" | lower }}">
@@ -129,7 +129,7 @@
         </div>
       {{ end }}
       
-      <h5 class="mt-3">Stage</h5>
+      <h3 class="mt-3">Stage</h3>
       {{ range sort $stage }}
         <div class="form-check">   
           <input class="form-check-input" type="checkbox" id="{{ . }}" name="stage" value="{{ delimit (split . " ") "-" | lower }}">
@@ -147,19 +147,19 @@
       {{ $this_job_type = delimit $this_job_type " " }}
       {{ $this_stage := delimit (split .stage " ") "-" | lower }}
       
-      <div class="col-md-6 col-lg-4 job" data-job-type="{{ $this_job_type }}" data-stage="{{ $this_stage }}">
+      <div class="col-md-4 col-lg-4" data-job-type="{{ $this_job_type }}" data-stage="{{ $this_stage }}">
         <div class="p-3 border rounded h-100">
           <div class="d-flex justify-content-between">
             <div>
               {{ range .type }}<span class="badge event-type mb-1 me-1">{{ . }}</span>{{ end }}
-              <h5><a class="" role="button" data-bs-toggle="modal"
-                  data-bs-target="#descriptionModal{{ $ind }}">{{ .title }}</a></h5>
+              <h3><a class="" role="button" data-bs-toggle="modal"
+                  data-bs-target="#descriptionModal{{ $ind }}">{{ .title }}</a></h3>
             </div>
             <div>
-              <div class="px-2 m-2 d-flex flex-column rounded event-date">
+              <!-- <div class="px-2 m-2 d-flex flex-column rounded event-date">
                 <div class="px-2 fs-3 mx-auto">{{ time.Format "2" .app_deadline }}</div>
                 <div class="pb-1 px-2 mx-auto">{{ time.Format "January" .app_deadline }}</div>
-              </div>
+              </div> -->
             </div>
           </div>
           {{ if .stage }}<div class="row">
@@ -178,7 +178,7 @@
                 <div class="modal-dialog modal-lg">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="descriptionModalLabel">{{ .title }}</h5>
+                      <h3 class="modal-title" id="descriptionModalLabel">{{ .title }}</h3>
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -187,7 +187,7 @@
                           <b>Listing type:</b> {{ range .type }}<span class="badge event-type mb-1 me-1">{{ . }}</span>{{ end }}
                         </div>
                       </div>
-                      <div class="row mt-1">
+                      <!-- <div class="row mt-1">
                         <div class="col">
                           <b>Deadline for applications:</b>
                           {{ .app_deadline | time.Format ":date_medium" }}{{ if .time_start }}
@@ -195,7 +195,7 @@
                           {{ .date_end | time.Format ":date_medium" }}{{ end}}{{ if .time_end }}
                           {{ .time_end }}{{ end }}
                         </div>
-                      </div>
+                      </div> -->
                       {{ if .stage }}<div class="row mt-1">
                         <div class="col">
                           <b>Stage:</b> {{ .stage }}
@@ -214,7 +214,7 @@
                       <div class="row mt-3">
                         <div class="col-md">
                           <p>For more information, visit the link below.</p>
-                          <a target="_blank" href="{{ .job_url }}"><i class="bi bi-globe"></i> Listing
+                          <a target="_blank" href="{{ .url }}"><i class="bi bi-globe"></i> Listing
                             webpage</a>
                         </div>
                       </div>
@@ -231,7 +231,7 @@
       </div>
       {{ end }}
       <div id="no-filtered-jobs" style="display:none;">
-        <p class="text-center">No jobs found for selected criteria.</p>
+        <p class="text-center">No resources found for selected criteria.</p>
       </div>
       </div>
     </div>

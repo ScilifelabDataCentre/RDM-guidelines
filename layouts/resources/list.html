@@ -108,13 +108,11 @@
 {{ $stage := slice }}
 {{ $open_resources := slice }}
 {{ $level := slice }}
-{{ range sort $.Site.Data.resources.items ".app_deadline" "asc" }}
-  {{ if ge (.app_deadline | time.Format "20060102") (now | time.Format "20060102") }}
+{{ range sort $.Site.Data.resources.items ".title" "asc" }}
     {{ $open_resources = $open_resources | append . }}
     {{ $resource_type = $resource_type | append .type }}
     {{ $level = $level | append .level }}
     {{ $stage = $stage | append .stage }}
-  {{ end }}
 {{ end }}
 {{ $resource_type = $resource_type | uniq }}
 {{ $level = $level | uniq }}
@@ -126,15 +124,15 @@
     <div class="col-lg-2" id="resource-filters">
       <h3>Type</h3>
       {{ range sort $resource_type }}
-        <div class="form-check">   
+        <div class="form-check">
           <input class="form-check-input" type="checkbox" id="{{ . }}" name="type" value="{{ delimit (split . " ") "-" | lower }}">
           <label class="form-check-label" for="{{ . }}">{{ . }}</label>
         </div>
       {{ end }}
-      
+
       <h3 class="mt-3">Stage</h3>
       {{ range sort $stage }}
-        <div class="form-check">   
+        <div class="form-check">
           <input class="form-check-input" type="checkbox" id="{{ . }}" name="stage" value="{{ delimit (split . " ") "-" | lower }}">
           <label class="form-check-label" for="{{ . }}">{{ . }}</label>
         </div>
@@ -142,7 +140,7 @@
 
       <h3>Level</h3>
       {{ range sort $level }}
-        <div class="form-check">   
+        <div class="form-check">
           <input class="form-check-input" type="checkbox" id="{{ . }}" name="level" value="{{ delimit (split . " ") "-" | lower }}">
           <label class="form-check-label" for="{{ . }}">{{ . }}</label>
         </div>
@@ -161,7 +159,7 @@
       {{ range .stage }}{{ $this_stage = $this_stage | append (delimit (split . " ") "-" | lower) }} {{ end }}
       {{ $this_stage = delimit $this_stage " " }}
       {{ $this_level := delimit (split .level " ") "-" | lower }}
-      
+
       <div class="col-md-4 col-lg-4 resource" data-resource-type="{{ $this_resource_type }}" data-stage="{{ $this_stage }}" data-level="{{ $this_level }}">
         <div class="p-3 border rounded h-100">
           <div class="d-flex justify-content-between">
@@ -171,10 +169,6 @@
                   data-bs-target="#descriptionModal{{ $ind }}">{{ .title }}</a></h3>
             </div>
             <div>
-              <!-- <div class="px-2 m-2 d-flex flex-column rounded event-date">
-                <div class="px-2 fs-3 mx-auto">{{ time.Format "2" .app_deadline }}</div>
-                <div class="pb-1 px-2 mx-auto">{{ time.Format "January" .app_deadline }}</div>
-              </div> -->
             </div>
           </div>
           {{ if .stage }}<div class="row">
@@ -202,15 +196,6 @@
                           <b>Listing type:</b> {{ range .type }}<span class="badge event-type mb-1 me-1">{{ . }}</span>{{ end }}
                         </div>
                       </div>
-                      <!-- <div class="row mt-1">
-                        <div class="col">
-                          <b>Deadline for applications:</b>
-                          {{ .app_deadline | time.Format ":date_medium" }}{{ if .time_start }}
-                          {{ .time_start }}{{ end }}{{ if .date_end }} -
-                          {{ .date_end | time.Format ":date_medium" }}{{ end}}{{ if .time_end }}
-                          {{ .time_end }}{{ end }}
-                        </div>
-                      </div> -->
                       {{ if .stage }}<div class="row mt-1">
                         <div class="col">
                           <b>Stage:</b> {{ delimit .stage ", " }}
@@ -254,8 +239,8 @@
 </section>
 {{ else }}
 <div class="alert alert-secondary mt-4">
-  We are currently unaware of any upcoming jobs or project opportunities relevant for data-driven 
-  life science. If you know of any relevant jobs or project opportunities that should be shown 
+  We are currently unaware of any upcoming jobs or project opportunities relevant for data-driven
+  life science. If you know of any relevant jobs or project opportunities that should be shown
   here, please suggest them to us using the "Tell us about an open position" button above.
 </div>
 {{ end }}
@@ -263,7 +248,7 @@
 <script>
   // set origin url in the form
   document.getElementById('originUrl').value = location.href;
-  
+
   // Validate the form by checking mandatory fields and recaptcha
   var form = document.querySelector('.needs-validation');
   form.addEventListener('submit', function (event) {
@@ -284,21 +269,21 @@
   // Filter jobs based on selected criteria
   $('div#resource-filters input:checkbox').on('change', function(){
     var selected_filters = new Object();
-    
+
     // Collect and create a list with selected values
     var resource_type = $('input:checkbox[name="type"]:checked').map(function () {return this.value}).get();
     if (resource_type.length) { selected_filters['data-resource-type'] = resource_type };
-    
+
     var stage = $('input:checkbox[name="stage"]:checked').map(function () {return this.value}).get();
     if (stage.length) { selected_filters['data-stage'] = stage };
-    
+
     var level = $('input:checkbox[name="level"]:checked').map(function () {return this.value}).get();
     if (level.length) { selected_filters['data-level'] = level };
-    
+
     // Hide all displayed jobs and message
     $('div#resources-container div.resource').hide();
     $('div#no-filtered-resources').hide();
-    
+
     // Show relavant jobs based on selected criteria
     if (!Object.keys(selected_filters).length) {
       $('div#resources-container div.resource').show();
@@ -312,7 +297,7 @@
         });
         all_selected_events.push(s_events);
       };
-      
+
       // When multiple criteria selectd it should act as AND not OR
       selected_events = all_selected_events.reduce(function (x, y) {
         var z = new Set;
@@ -327,9 +312,9 @@
         $('div#no-filtered-resources').show();
       };
     };
-    
+
   });
-  
+
 </script>
 
 {{ end }}

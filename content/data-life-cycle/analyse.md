@@ -16,7 +16,6 @@ Facilities offering computational resources:
 
 ## Resources
 * [RDMkit on Analysing Data](https://rdmkit.elixir-europe.org/analysing)
-* [SciLifeLab collaboration and communication systems](https://www.scilifelab.se/community-pages/systems-data#collaboration)
 * [OpenRefine module](https://nbisweden.github.io/module-openrefine-dm-practices/) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)
 * [R module](https://nbisweden.github.io/module-r-intro-dm-practices/) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)
 * [Versioning module](https://nbisweden.github.io/module-versioning-dm-practices/) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)

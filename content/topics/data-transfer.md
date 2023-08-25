@@ -22,7 +22,7 @@ Please find below some useful links from the compute resource Uppmax regarding d
 * [NAISS-SENS Bianca Deliver user guide for NGI data](https://scilifelabdatacentre.github.io/dds_cli/installation/#bianca)
 * [Transit user guide - secure data transfer of sensitive data](https://uppmax.uu.se/support-sv/user-guides/transit-user-guide/)
 
-### Using Aspera (ascp)
+### Using Aspera (ascp) on Uppmax
 
 Aspera is a command-line transfer program that can be used for stable transfers of files e.g. from Uppmax to ENA (European Nucleotide Archive) upload area when doing submission (see further [ENA guide on using ascp](https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html?highlight=ascp#using-aspera-ascp-command-line-program)). The command has many options (use command `ascp --help` or see e.g. [ascp command reference](https://download.asperasoft.com/download/docs/ascp/3.5.2/html/dita/ascp_usage.html)), below is an example where a set of fastq files will be uploaded to a subfolder at ENA:
 

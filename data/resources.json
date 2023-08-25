@@ -1,24 +1,29 @@
 {
     "items": [
         {
-            "title": "Fake training 1 yada yada title is long. very long blaaaaah.",
+            "title": "BBFake training 1 yada yada title is long. very long blaaaaah.",
             "type": [
-                "RDM training"
+                "Training", "Tool", "Guidance"
             ],
-            "stage": ["Storage", "Analysis"],
-            "level": "easy",
+            "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse"],
+            "level": "Basic",
             "url": "http://www.henlab.org/postdoc-resolving-microbial-genomes-in-complex-communities-at-the-single-cell-level/",
-            "description": "Info about the type of training this is "
+            "description": "Info about the type of training this is ",
+            "provider": "provider 1, DC, NBIS",
+            "DOI": "10.17044/scilifelab.23987985",
+            "DOIurl": "https://doi.org/10.17044/scilifelab.23987985.v1",
+            "licence": "GPL 3.0+"          
         },
         {
-            "title": "Training 2",
+            "title": "AATraining 2",
             "type": [
-                "Other training type"
+                "Training"
             ],
-            "stage": ["Analysis"],
-            "level": "hard",
+            "phase": ["Analyse"],
+            "level": "Intermediate",
             "url": "https://macromolecular.github.io/join",
-            "description": "blah blah training"
+            "description": "blah blah training",
+            "provider": "provider 2"
         }
     ]
 }

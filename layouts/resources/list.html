@@ -158,7 +158,9 @@
       {{ $this_phase := slice }}
       {{ range .phase }}{{ $this_phase = $this_phase | append (delimit (split . " ") "-" | lower) }} {{ end }}
       {{ $this_phase = delimit $this_phase " " }}
-      {{ $this_level := delimit (split .level " ") "-" | lower }}
+      {{ $this_level := slice }}
+      {{ range .level }}{{ $this_level = $this_level | append (delimit (split . " ") "-" | lower) }} {{ end }}
+      {{ $this_level := delimit $this_level " " }}
 
       <div class="col-md-4 col-lg-4 resource" data-resource-type="{{ $this_resource_type }}" data-phase="{{ $this_phase }}" data-level="{{ $this_level }}">
         <div class="p-3 border rounded h-100">
@@ -193,7 +195,7 @@
                     <div class="modal-body">
                       <div class="row">
                         <div class="col">
-                          <b>Listing type:</b> {{ range .type }}<span class="badge event-type mb-1 me-1">{{ . }}</span>{{ end }}
+                          <b>Resource type:</b> {{ range .type }}<span class="badge event-type mb-1 me-1">{{ . }}</span>{{ end }}
                         </div>
                       </div>
                       {{ if .phase }}<div class="row mt-1">
@@ -203,7 +205,7 @@
                       </div>{{ end }}
                       {{ if .level }}<div class="row mt-1">
                         <div class="col">
-                          <b>Difficulty level:</b> {{ .level }}
+                          <b>Difficulty level:</b> {{ delimit .level ", "}}
                         </div>
                       </div>{{ end }}
                       {{ if .provider }}<div class="row mt-1">

@@ -193,7 +193,12 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                      <div class="row">
+                      {{ if .description }}<div class="row mt-1">
+                        <div class="col"><b>Brief description:</b><br>
+                          {{ .description | markdownify }}
+                        </div>
+                      </div>{{ end }}
+                      <div class="row mt-3">
                         <div class="col">
                           <b>Resource type:</b> {{ range .type }}<span class="badge event-type mb-1 me-1">{{ . }}</span>{{ end }}
                         </div>
@@ -211,11 +216,6 @@
                       {{ if .provider }}<div class="row mt-1">
                         <div class="col">
                           <b>Content provider:</b> {{ .provider }}
-                        </div>
-                      </div>{{ end }}
-                      {{ if .description }}<div class="row mt-3">
-                        <div class="col"><b>Brief description:</b><br>
-                          {{ .description | markdownify }}
                         </div>
                       </div>{{ end }}
                       {{ if .DOI }}<div class="row mt-3">

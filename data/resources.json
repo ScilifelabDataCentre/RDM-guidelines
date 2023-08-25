@@ -58,7 +58,7 @@
             "phase": ["Plan"],
             "level": ["Basic"],
             "url": "https://dsw.scilifelab.se/",
-            "description": "A checklist, implemented in Data Stewardship Wizard, that covers Ethical, Legal and Social Implications (ELSI) considerations when working with human data. Log in using your university credentials at https://dsw.scilifelab.se/), click on Projects in the left sidebar, then on the Create button, and choose *ELSI Checklist Template*",
+            "description": "A checklist, implemented in Data Stewardship Wizard, that covers Ethical, Legal and Social Implications (ELSI) considerations when working with human data. Log in using your university credentials at https://dsw.scilifelab.se/, click on **Projects** in the left sidebar, then on the **Create** button, and choose *ELSI Checklist Template*",
             "provider": "SciLifeLab"
         },
         {

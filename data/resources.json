@@ -1,31 +1,6 @@
 {
     "items": [
         {
-            "title": "BBFake training 1 yada yada title is long. very long blaaaaah.",
-            "type": [
-                "Training", "Tool", "Guidance"
-            ],
-            "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse"],
-            "level": ["Basic"],
-            "url": "http://www.henlab.org/postdoc-resolving-microbial-genomes-in-complex-communities-at-the-single-cell-level/",
-            "description": "Info about the type of training this is ",
-            "provider": "provider 1, DC, NBIS",
-            "DOI": "10.17044/scilifelab.23987985",
-            "DOIurl": "https://doi.org/10.17044/scilifelab.23987985.v1",
-            "licence": "GPL 3.0+"          
-        },
-        {
-            "title": "AATraining 2",
-            "type": [
-                "Training"
-            ],
-            "phase": ["Analyse"],
-            "level": ["Intermediate"],
-            "url": "https://macromolecular.github.io/join",
-            "description": "blah blah training",
-            "provider": "provider 2"
-        },
-        {
             "title": "Keynote: First FAIR steps, Rob Hooft",
             "type": ["Guidance"],
             "phase": ["Plan", "Share", "Reuse"],

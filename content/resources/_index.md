@@ -1,6 +1,6 @@
 ---
 title: Resources
-description: XXX
+description: Catalogue of data management resources
 cascade:
   header_image: /img/illustrations/bubble_matrix.png
 menu:
@@ -14,4 +14,4 @@ menu:
     weight: 40
 ---
 
-DESCRIPTION
+Please find below resources concerning data management in form of training, guidance and tools. Use the left-hand filters in order to select type of resource, phase of the research data life cycle, and / or level of skill required in order to maximise the benefit of the resource. 

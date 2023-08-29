@@ -382,12 +382,12 @@
             "provider": "UU"
         },
         {
-            "title": "Tools for Reproducible Research https://uppsala.instructure.com/courses/58267   https://github.com/NBISweden/workshop-reproducible-research/",
+            "title": "Tools for Reproducible Research",
             "type": ["Training"],
             "phase": ["Plan", "Collect", "Process", "Analyse"],
             "level": ["Intermediate"],
             "url": "https://uppsala.instructure.com/courses/58267",
-            "description": "Teacher-led workshop given twice a year covering the topics of Data management, Project organisation, Git, Conda, Snakemake, Nextflow, R Markdown, Jupyter, Docker, and Singularity. All material is available online for self-paced learning. The course is open for PhD students, postdocs, group leaders and core facility staff.",
+            "description": "Teacher-led workshop given twice a year covering the topics of Data management, Project organisation, Git, Conda, Snakemake, Nextflow, R Markdown, Jupyter, Docker, and Singularity. All material is available online for self-paced learning at [Workshop reproducible research](https://github.com/NBISweden/workshop-reproducible-research/). The course is open for PhD students, postdocs, group leaders and core facility staff.",
             "provider": "NBIS",
             "licence": "CC BY 4.0"
         },

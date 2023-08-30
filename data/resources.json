@@ -334,6 +334,15 @@
             "provider": "RDMkit",
             "licence": "CC BY 4.0"
         },
+        {"title": "RDMkit on Your role",
+            "type": ["Guidance"],
+            "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse"],
+            "level": ["Basic"],
+            "url": "https://rdmkit.elixir-europe.org/your_role",
+            "description": "Best practice guidance regarding the different roles a professional can have in research data management.",
+            "provider": "RDMkit",
+            "licence": "CC BY 4.0"
+        },
         {"title": "SciLifeLab DS Wizard",
             "type": ["Tool"],
             "phase": ["Plan"],

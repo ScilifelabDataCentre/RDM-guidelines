@@ -1,5 +1,5 @@
 ---
-title: About Research Data Management
+title: What is Research Data Management
 contributors: []
 toc: True
 ---

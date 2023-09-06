@@ -95,7 +95,7 @@
             "provider": "SciLifeLab"
         },
         {
-            "title": "COVID 19 Data Portal",
+            "title": "Swedish COVID-19 Data Portal",
             "type": ["Guidance"],
             "phase": ["Reuse"],
             "level": ["Basic"],

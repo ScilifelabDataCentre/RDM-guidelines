@@ -6,102 +6,21 @@
 </section>
 
 <section>
-  <div class="my-2 text-start">
-    <button type="button" class="btn btn-aqua" data-bs-toggle="modal" data-bs-target="#suggestionModal">
-      Could have a form here
-    </button>
-  </div>
   <div class="modal fade" id="suggestionModal" tabindex="-1" aria-labelledby="suggestionModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <form action="https://forms.dckube.scilifelab.se/api/v1/form/M5GfePAbHxkPdIph/incoming" class="needs-validation"
           novalidate method="POST" accept-charset="utf-8">
-          <div class="modal-header">
-            <h5 class="modal-title" id="suggestionModalLabel">Jobs, PhD positions, Postdoc positions or master's
-              projects</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
           <div class="modal-body">
-            <div class="">
-              <p>We are happy to list any job listings, PhD positions, postdoc positions or masters project opportunities
-                related to data-driven life science in Sweden.</p>
-              <p>If you know of an opportunity that has not been listed on this page, but
-                feel that it should be, please fill in the form below. Obligatory fields are marked with an
-                asterisk.
-                The editorial team behind the SciLifeLab Data Platform will publish all suitable submissions as soon as
-                possible.</p>
-            </div>
-            <div class="mb-3">
-              <label for="resource_title" class="form-label fw-bold">Title:*</label>
-              <input type="text" class="form-control" id="resource_title" name="resource_title" required>
-            </div>
-            <div class="mb-3">
-              <label for="resource_type" class="form-label fw-bold">Type of listing:*</label>
-              <select class="form-select" id="resource_type" name="resource_type" required>
-                <option hidden disabled selected value> </option>
-                <option value="resource_listing">resource listing</option>
-                <option value="phd">PhD position</option>
-                <option value="postdoc">Postdoc position</option>
-                <option value="masters">Masters project</option>
-                <option value="other">Other</option>
-              </select>
-            </div>
-            <div class="mb-3">
-              <label for="opening_date" class="form-label fw-bold">Opening date:</label>
-              <input type="date" class="form-control" id="opening_date" name="opening_date">
-              <div class="form-text">Add opening date if the job is not yet open for applications.
-               </div>
-            </div>
-            <div class="mb-3">
-              <label for="resource_deadline" class="form-label fw-bold">Application deadline:*</label>
-              <input type="date" class="form-control" id="resource_deadline" name="resource_deadline" required>
-              <div class="form-text">If no deadline applies, please write a date 1 year from today's date, or your best
-                estimate. This field can also be used to state e.g. closing date for grant applications.</div>
-            </div>
-            <div class="mb-3">
-              <label for="employer" class="form-label fw-bold">Employer:*</label>
-              <input type="text" class="form-control" id="employer" name="employer" required>
-              <div class="form-text">Where is the position? List an employer</div>
-            </div>
-            <div class="mb-3">
-              <label for="url" class="form-label fw-bold">Webpage with advertisement:*</label>
-              <input type="url" class="form-control" id="url" name="url" required>
-              <div class="form-text">Enter URL starting with 'https://...'</div>
-            </div>
-            <div class="mb-3">
-              <label for="resource_description" class="form-label fw-bold">Additional relevant information:</label>
-              <textarea class="form-control" id="resource_description" name="resource_description" rows="5"></textarea>
-              <div class="form-text">Any additional information that you feel could be useful.</div>
-            </div>
-            <div class="mb-3 form-check fw-bold">
-              <input type="checkbox" class="form-check-input" id="involved_in_listing" name="involved_in_listing">
-              <label class="form-check-label" for="involved_in_listing">I am involved in this listing</label>
-            </div>
-            <div class="mb-3">
-              <label for="submitter_name" class="form-label fw-bold">Your name:</label>
-              <input type="text" class="form-control" id="submitter_name" name="submitter_name">
-              <div class="form-text">Enter your name if you agree to be contacted regarding this submission (your name
-                will not be shown in the listing).</div>
-            </div>
-            <div class="mb-3">
-              <label for="submitter_email" class="form-label fw-bold">Your contact email:</label>
-              <input type="email" class="form-control" id="submitter_email" name="submitter_email">
-              <div class="form-text">Enter your email address if you agree to be contacted regarding this submission
-                (your email will not be displayed in the listing).</div>
-            </div>
-            <div class="g-recaptcha" data-sitekey="6LdPd50fAAAAAJ_dVMXFJjzOTh7XZeAI-ej82GPv"></div>
             <input type="url" id="originUrl" name="originUrl" value="" hidden />
-            <input type='hidden' name='origin' value='call_resource_suggestion'>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="submit" class="btn btn-aqua">Submit</button>
           </div>
         </form>
       </div>
     </div>
   </div>
 </section>
+
+<section><div><a class="btn btn-aqua" href="/contact/">Inform us of other resources</a></div></section>
 
 {{ $resource_type := slice }}
 {{ $level := slice }}
@@ -252,12 +171,6 @@
     </div>
   </div>
 </section>
-{{ else }}
-<div class="alert alert-secondary mt-4">
-  We are currently unaware of any upcoming jobs or project opportunities relevant for data-driven
-  life science. If you know of any relevant jobs or project opportunities that should be shown
-  here, please suggest them to us using the "Tell us about an open position" button above.
-</div>
 {{ end }}
 
 <script>

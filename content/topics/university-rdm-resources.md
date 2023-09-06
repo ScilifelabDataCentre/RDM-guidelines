@@ -61,7 +61,7 @@ Most often there are information resources at your university regarding research
     <tr>
       <td><a href="https://www.slu.se/en/subweb/library/publish-and-analyse/archiving-and-publishing-research-data">SLU Swedish University of Agricultural Sciences</a></td>
       <td><a href = "mailto:dms@slu.se">dms@slu.se</a></td>
-      <td><a href="https://www.slu.se/globalassets/mw/org-styr/styr-dok/forskning-forskarutb/data-management-policy-slu-eng-v-221019.pdf">Data Management Policy</a></td>
+      <td><a href="https://www.slu.se/en/subweb/library/publish-and-analyse/archiving-and-publishing-research-data/slus-datahanteringspolicy/">Data Management Policy</a></td>
     </tr>
     <tr>
       <td><a href="https://www.umu.se/en/library/research-data/">Umeå University</a></td>
@@ -151,7 +151,7 @@ The role of the data protection officer (dataskyddsombud) is to check that the G
     <tr>
       <td>University of Gothenburg</td>
       <td><a href = "mailto:dataskydd@gu.se">dataskydd@gu.se</a></td>
-      <td><a href="https://medarbetarportalen.gu.se/diarieforing-arkivering-och-personuppgiftsbehandling/rutiner-for-behandling-av-personuppgifter/?languageId=100001&skipSSOCheck=true">Routines for processing personal data</a></td>
+      <td><a href="https://medarbetarportalen.gu.se/processing-personal-data">Routines for processing personal data</a></td>
     </tr>
     <tr>
       <td>Uppsala University</td>
@@ -169,6 +169,7 @@ The role of the data protection officer (dataskyddsombud) is to check that the G
 
 
 ## Related policies and guidelines
+* Swedish National Data Service (SND) - [Manage data](https://snd.gu.se/en/manage-data)
 * Swedish Research Council - [Good research practice (2017)](https://www.vr.se/english/analysis/reports/our-reports/2017-08-31-good-research-practice.html), [Recommendations of open access to research data](
 https://www.vr.se/english/mandates/open-science/open-access-to-research-data/the-swedish-research-councils-recommendation.html)
 * Formas - [Requirements for open access to research results and data](

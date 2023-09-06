@@ -4,11 +4,11 @@ menu:
     navbar_top:
         name: About
         identifier: about
-        weight: 10
+        weight: 20
     bottom_about:
-        name: About us
+        name: About
         identifier: about
-        weight: 10
+        weight: 20
 ---
 &nbsp;
 

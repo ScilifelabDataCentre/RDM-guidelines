@@ -4,7 +4,7 @@ menu:
     bottom_about:
         name: Contributors
         identifier: Contributors
-        weight: 20
+        weight: 30
 ---
 # Contributors
 

@@ -29,6 +29,11 @@
   <script src="https://www.google.com/recaptcha/enterprise.js" async defer></script>
   {{ end }}
 
+  {{ if (eq .Page.Section "rdm-support") }}
+  <!-- reCAPTCHA for RDM support page -->
+  <script src="https://www.google.com/recaptcha/enterprise.js" async defer></script>
+  {{ end }}
+  
   <!-- imjoy -->
   {{ with .Params.imjoy }}
   <!-- <script src="http://localhost:8080/imjoy-loader.js"></script> -->

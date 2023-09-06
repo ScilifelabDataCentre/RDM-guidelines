@@ -6,10 +6,6 @@ menu:
         name: Contact
         identifier: contact
         weight: 90
-    bottom_about:
-        name: Contact form
-        identifier: contact
-        weight: 20
 ---
 &nbsp;
 

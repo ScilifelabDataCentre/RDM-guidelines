@@ -5,7 +5,7 @@ toc: True
 ---
 
 # Collecting
-During this phase all necessary data to be analysed in the project is collected, either by generating new datasets or by [reusing](/data-life-cycle/reuse) earlier collected datasets. This phase lays the foundation of the quality of both the data and the accompanying documentation. Hence, it is important that quality measures are implemented and that all steps of collection is appropriately recorded.
+During this phase all necessary data to be analysed in the project is collected, either by generating new datasets or by [reusing](/data-life-cycle/reuse) earlier collected datasets. This phase lays the foundation of the quality of both the data and the accompanying documentation. Hence, it is important that quality measures are implemented and that all steps of collection is appropriately recorded. During this phase possibly large amounts of data might need to be [transferred](/topics/data-transfer) between data producers, compute facilities and storage facilities.
 
 ## Documentation
 Data documentation should clearly describe how the data was collected, so that someone else can understand and correctly interpret the data. Make use of electronic lab notebooks (often offered by the university / institute) and [metadata standards](/topics/metadata), and name and organise the files produced appropriately.
@@ -237,7 +237,7 @@ Please find below a selection of [SciLifeLab Proteomics services](https://www.sc
 ## Storage
 The PI, and his/her academic institution are ultimately responsible for the data, and ensuring that all data is backed-up is essential. The 3-2-1 rule of thumb means that there should be 3 copies of the data, on 2 different types of media, and 1 of the copies at different physical location. This means that even if all the projects research inputs and outputs are located at a backed-up resource, a (third) copy of the data should be maintained.
 
-At least essential data, such as raw data and other data that may be difficult or even impossible to recreate in case of corruption or loss, should be copied off-site (using e.g. [Swestore](http://www.snic.se/resources/swestore/) or storage provided by the institute).
+At least essential data, such as raw data and other data that may be difficult or even impossible to recreate in case of corruption or loss, should be copied off-site (using e.g. [Swestore](https://docs.swestore.se/) or storage provided by the institute).
 
 Consider uploading the raw data to a repository already when receiving them, under an embargo (if it is important that the data remains private during the project). This way there is always an off-site backup with the added benefit of making the [data sharing](/data-life-cycle/share) phase more efficient.
 
@@ -246,4 +246,3 @@ Consider uploading the raw data to a repository already when receiving them, und
 * [RDMkit on Data quality](https://rdmkit.elixir-europe.org/data_quality)
 * [RDMkit on Data transfer](https://rdmkit.elixir-europe.org/data_transfer.html)
 * [Data organisation module](https://nbisweden.github.io/module-organising-data-dm-practices/) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)
-* [Data transfer](/topics/data-transfer)

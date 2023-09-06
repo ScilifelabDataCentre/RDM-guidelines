@@ -82,11 +82,11 @@ h6 {
 }
 
 .navbar-nav.navbar-top li:not(:first-child) a {
-  padding-left: 0rem;
+  padding-left: 0.6rem;
 }
 .navbar-nav.navbar-top li:not(:last-child) a span {
   border-right: 1px solid #ccc;
-  padding-right: 1rem;
+  padding-right: 0.6rem;
 }
 .nav-languages a img {
   width: 1rem;

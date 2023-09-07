@@ -1,0 +1,443 @@
+{
+    "items": [
+        {
+            "title": "Keynote: First FAIR steps, Rob Hooft",
+            "type": ["Guidance"],
+            "phase": ["Plan", "Share", "Reuse"],
+            "level": ["Basic"],
+            "url": "https://www.youtube.com/watch?v=2ZL8o8fZSys&list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS&index=14&t=13s",
+            "description": "Video presentation about FAIR principles in life science research practice.",
+            "provider": "SciLifeLab"
+        },
+        {
+            "title": "SciLifeLab Data Repository Metadata record tutorial",
+            "type": ["Guidance"],
+            "phase": ["Share"],
+            "level": ["Basic"],
+            "url": "https://www.youtube.com/watch?v=_y09LCpLl9A&list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS&index=5",
+            "description": "Video presentation about how to submit a metadata record in SciLifeLab Data Repository in order to make sensitive data findable while still adhering to GDPR.",
+            "provider": "SciLifeLab"
+        },
+        {
+            "title": "SND on Research material with personal data",
+            "type": ["Guidance"],
+            "phase": ["Plan", "Collect", "Preserve", "Share"],
+            "level": ["Basic"],
+            "url": "https://snd.gu.se/en/manage-data/plan/research-material-with-personal-data",
+            "description": "Swedish National Data Service (SND) guidance on working with research material containing personal data.",
+            "provider": "SND"
+        },
+        {
+            "title": "ELSI checklist in DSW",
+            "type": ["Tool"],
+            "phase": ["Plan"],
+            "level": ["Basic"],
+            "url": "https://dsw.scilifelab.se/",
+            "description": "A checklist, implemented in Data Stewardship Wizard, that covers Ethical, Legal and Social Implications (ELSI) considerations when working with human data. Log in using your university credentials at https://dsw.scilifelab.se/, click on **Projects** in the left sidebar, then on the **Create** button, and choose *ELSI Checklist Template*",
+            "provider": "SciLifeLab"
+        },
+        {
+            "title": "RDMkit on Metadata",
+            "type": ["Guidance"],
+            "phase": ["Plan", "Collect", "Share"],
+            "level": ["Basic"],
+            "url": "https://rdmkit.elixir-europe.org/metadata_management",
+            "description": "Best practice guidance regarding the task of managing metadata.",
+            "provider": "RDMkit",
+            "licence": "CC BY 4.0"
+        },
+        {
+            "title": "Metadata module",
+            "type": ["Training"],
+            "phase": ["Plan", "Collect", "Share"],
+            "level": ["Basic"],
+            "url": "https://nbisweden.github.io/module-metadata-dm-practices/",
+            "description": "Training material regarding managing metadata, including metadata standards, data dictionaries, controlled vocabularies and ontologies.",
+            "provider": "NBIS",
+            "licence": "CC BY 4.0"
+        },
+        {
+            "title": "Open Science and FAIR",
+            "type": ["Training"],
+            "phase": ["Plan", "Share", "Reuse"],
+            "level": ["Basic"],
+            "url": "https://nbisweden.github.io/module-open-science-dm-practices/index.html",
+            "description": "Training material regarding what Open Science and FAIR principles mean.",
+            "provider": "NBIS",
+            "licence": "CC BY 4.0"
+        },
+        {
+            "title": "RDMkit on Human data",
+            "type": ["Guidance"],
+            "phase": ["Plan", "Collect", "Share"],
+            "level": ["Basic"],
+            "url": "https://rdmkit.elixir-europe.org/human_data",
+            "description": "Best practice guidance regarding working with human data.",
+            "provider": "RDMkit",
+            "licence": "CC BY 4.0"
+        },
+        {
+            "title": "DataCite Commons",
+            "type": ["Tool"],
+            "phase": ["Reuse"],
+            "level": ["Basic"],
+            "url": "https://commons.datacite.org/",
+            "description": "Web search interface to works, people, organizations and repositories.",
+            "provider": "DataCite"
+        },
+        {
+            "title": "The Swedish COVID-19 Data Portal one year on",
+            "type": ["Guidance"],
+            "phase": ["Reuse"],
+            "level": ["Basic"],
+            "url": "https://www.youtube.com/watch?v=UUsoY6Lfa1o&list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS&index=7",
+            "description": "Video presentation about the improved Swedish COVID-19 data portal.",
+            "provider": "SciLifeLab"
+        },
+        {
+            "title": "Swedish COVID-19 Data Portal",
+            "type": ["Guidance"],
+            "phase": ["Reuse"],
+            "level": ["Basic"],
+            "url": "https://www.youtube.com/watch?v=Q2W1MvxMkJ0&list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS&index=12",
+            "description": "Video presentation about the Swedish COVID-19 data portal by Arnold Kochari at SciLifeLab.",
+            "provider": "SciLifeLab"
+        },
+        {
+            "title": "EBI repository wizard",
+            "type": ["Guidance"],
+            "phase": ["Share"],
+            "level": ["Basic"],
+            "url": "https://www.ebi.ac.uk/submission/",
+            "description": "The wizard guides through the decision process of finding a suitable repository.",
+            "provider": "EBI"
+        },
+        {
+            "title": "EBI submission YouTube playlist",
+            "type": ["Guidance"],
+            "phase": ["Share"],
+            "level": ["Basic"],
+            "url": "https://www.youtube.com/playlist?list=PL67E0627174F36FCF",
+            "description": "Collection of instruction videos on how to submit to the various repositories at EBI.",
+            "provider": "EBI"
+        },
+        {
+            "title": "RDMkit on Reusing Data",
+            "type": ["Guidance"],
+            "phase": ["Reuse"],
+            "level": ["Basic"],
+            "url": "https://rdmkit.elixir-europe.org/reusing",
+            "description": "Best practice guidance regarding the phase of data reuse.",
+            "provider": "RDMkit",
+            "licence": "CC BY 4.0"
+        },
+        {
+            "title": "RDMkit on Existing Data",
+            "type": ["Guidance"],
+            "phase": ["Reuse"],
+            "level": ["Basic"],
+            "url": "https://rdmkit.elixir-europe.org/existing_data",
+            "description": "Best practice guidance regarding the task of reusing data.",
+            "provider": "RDMkit",
+            "licence": "CC BY 4.0"
+        },
+        {
+            "title": "Google dataset search",
+            "type": ["Tool"],
+            "phase": ["Reuse"],
+            "level": ["Basic"],
+            "url": "https://datasetsearch.research.google.com",
+            "description": "Google search engine for finding data sets.",
+            "provider": "Google"
+        },
+        {
+            "title": "RDMkit on Preserving Data",
+            "type": ["Guidance"],
+            "phase": ["Preserve"],
+            "level": ["Basic"],
+            "url": "https://rdmkit.elixir-europe.org/preserving",
+            "description": "Best practice guidance regarding the phase of preserving data.",
+            "provider": "RDMkit",
+            "licence": "CC BY 4.0"
+        },
+        {
+            "title": "RDMkit on Sharing Data",
+            "type": ["Guidance"],
+            "phase": ["Share"],
+            "level": ["Basic"],
+            "url": "https://rdmkit.elixir-europe.org/sharing",
+            "description": "Best practice guidance regarding the phase of data sharing.",
+            "provider": "RDMkit",
+            "licence": "CC BY 4.0"
+        },
+        {
+            "title": "RDMkit on Data publication",
+            "type": ["Guidance"],
+            "phase": ["Share"],
+            "level": ["Basic"],
+            "url": "https://rdmkit.elixir-europe.org/data_publication",
+            "description": "Best practice guidance regarding the task of publishing data.",
+            "provider": "RDMkit",
+            "licence": "CC BY 4.0"
+        },
+        {
+            "title": "Data publication module",
+            "type": ["Training"],
+            "phase": ["Share"],
+            "level": ["Basic"],
+            "url": "https://nbisweden.github.io/module-data-publication-dm-practices/",
+            "description": "Training material regarding the why and how of data publication.",
+            "provider": "NBIS",
+            "licence": "CC BY 4.0"
+        },
+        {
+            "title": "RDMkit on Analysing Data",
+            "type": ["Guidance"],
+            "phase": ["Analyse"],
+            "level": ["Basic"],
+            "url": "https://rdmkit.elixir-europe.org/analysing",
+            "description": "Best practice guidance regarding the phase of data analysis.",
+            "provider": "RDMkit",
+            "licence": "CC BY 4.0"
+        },
+        {
+            "title": "R module",
+            "type": ["Training"],
+            "phase": ["Analyse"],
+            "level": ["Basic"],
+            "url": "https://nbisweden.github.io/module-r-intro-dm-practices/",
+            "description": "Training material introducing how to work with R and tidy data.",
+            "provider": "NBIS",
+            "licence": "CC BY 4.0"
+        },
+        {
+            "title": "Versioning module",
+            "type": ["Training"],
+            "phase": ["Analyse"],
+            "level": ["Basic"],
+            "url": "https://nbisweden.github.io/module-versioning-dm-practices/",
+            "description": "Training material regarding versioning of data and code using Git.",
+            "provider": "NBIS",
+            "licence": "CC BY 4.0"
+        },
+        {
+            "title": "NBIS course catalogue",
+            "type": ["Training"],
+            "phase": ["Analyse"],
+            "level": ["Basic", "Intermediate", "Advanced"],
+            "url": "https://uppsala.instructure.com/courses/48087/pages/nbis-training-catalogue",
+            "description": "The NBIS training catalogue.",
+            "provider": "NBIS"
+        },
+        {
+            "title": "Data organisation module",
+            "type": ["Training"],
+            "phase": ["Collect"],
+            "level": ["Basic"],
+            "url": "https://nbisweden.github.io/module-organising-data-dm-practices/",
+            "description": "Training material regarding good data organisation practices.",
+            "provider": "NBIS",
+            "licence": "CC BY 4.0"
+        },
+        {
+            "title": "RDMkit on Processing Data",
+            "type": ["Guidance"],
+            "phase": ["Process"],
+            "level": ["Basic"],
+            "url": "https://rdmkit.elixir-europe.org/processing",
+            "description": "Best practice guidance regarding the phase of processing data.",
+            "provider": "RDMkit",
+            "licence": "CC BY 4.0"
+        },
+        {
+            "title": "RDMkit on Data Quality",
+            "type": ["Guidance"],
+            "phase": ["Process"],
+            "level": ["Basic"],
+            "url": "https://rdmkit.elixir-europe.org/data_quality",
+            "description": "Best practice guidance regarding the task of data quality management.",
+            "provider": "RDMkit",
+            "licence": "CC BY 4.0"
+        },
+        {
+            "title": "OpenRefine module",
+            "type": ["Training"],
+            "phase": ["Process", "Analyse"],
+            "level": ["Basic"],
+            "url": "https://nbisweden.github.io/module-openrefine-dm-practices/",
+            "description": "Training material regarding OpenRefine, a tool for cleaning tabular data.",
+            "provider": "NBIS",
+            "licence": "CC BY 4.0"
+        },
+        {
+            "title": "RDMkit on Data Management Planning",
+            "type": ["Guidance"],
+            "phase": ["Plan"],
+            "level": ["Basic"],
+            "url": "https://rdmkit.elixir-europe.org/planning",
+            "description": "Best practice guidance regarding the phase of data management planning.",
+            "provider": "RDMkit",
+            "licence": "CC BY 4.0"
+        },
+        {
+            "title": "DMP module",
+            "type": ["Training"],
+            "phase": ["Plan"],
+            "level": ["Basic"],
+            "url": "https://nbisweden.github.io/module-dmp-dm-practices/",
+            "description": "Training material regarding the what, why, and how of data management plans.",
+            "provider": "NBIS",
+            "licence": "CC BY 4.0"
+        },
+        {
+            "title": "SciLifeLab DS Wizard - A short introduction",
+            "type": ["Guidance"],
+            "phase": ["Plan"],
+            "level": ["Basic"],
+            "url": "https://www.youtube.com/watch?v=HY2DVnNGkAs",
+            "description": "Short introduction video of Data Stewardship Wizard (DSW) tool.",
+            "provider": "SciLifeLab"
+        },
+        {
+            "title": "How to write a Data Management Plan",
+            "type": ["Guidance"],
+            "phase": ["Plan"],
+            "level": ["Basic"],
+            "url": "https://www.youtube.com/watch?v=HDfwz60FXjw",
+            "description": "Video presentation of what sections a data management plan consists of.",
+            "provider": "SciLifeLab"
+        },
+        {"title": "RDMkit on Collecting Data",
+            "type": ["Guidance"],
+            "phase": ["Collect"],
+            "level": ["Basic"],
+            "url": "https://rdmkit.elixir-europe.org/collecting",
+            "description": "Best practice guidance regarding the phase of collecting data.",
+            "provider": "RDMkit",
+            "licence": "CC BY 4.0"
+        },
+        {"title": "RDMkit on Data quality",
+            "type": ["Guidance"],
+            "phase": ["Collect"],
+            "level": ["Basic"],
+            "url": "https://rdmkit.elixir-europe.org/data_quality",
+            "description": "Best practice guidance regarding the task of ensuring data quality.",
+            "provider": "RDMkit",
+            "licence": "CC BY 4.0"
+        },
+        {"title": "RDMkit on Data transfer",
+            "type": ["Guidance"],
+            "phase": ["Collect"],
+            "level": ["Basic"],
+            "url": "https://rdmkit.elixir-europe.org/data_transfer.html",
+            "description": "Best practice guidance regarding the task of transferring data.",
+            "provider": "RDMkit",
+            "licence": "CC BY 4.0"
+        },
+        {"title": "RDMkit on Your role",
+            "type": ["Guidance"],
+            "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse"],
+            "level": ["Basic"],
+            "url": "https://rdmkit.elixir-europe.org/your_role",
+            "description": "Best practice guidance regarding the different roles a professional can have in research data management.",
+            "provider": "RDMkit",
+            "licence": "CC BY 4.0"
+        },
+        {"title": "SciLifeLab DS Wizard",
+            "type": ["Tool"],
+            "phase": ["Plan"],
+            "level": ["Basic"],
+            "url": "https://dsw.scilifelab.se",
+            "description": "Tool to create data management plans complying with requirements from Swedish research council while giving Life Science specific guidance.",
+            "provider": "SciLifeLab"
+        },
+        {
+            "title": "Introduction to data management practices",
+            "type": ["Training"],
+            "phase": ["Plan", "Collect", "Process", "Analyse", "Share"],
+            "level": ["Basic"],
+            "url": "https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices",
+            "description": "This course will introduce important aspects of Research Data Management (concept of FAIR, Metadata standards, Data Organisation, Data Publication, Data Management Planning, Data Refinement (Open Refine), Data Versioning, Programming/Analysis in R) through a series of lectures and hands-on computer exercises. The course is intended for researchers that want to take the first steps towards a more systematic and reproducible approach to analysing and managing research data. All lessons are available online as self-study materials",
+            "provider": "NBIS",
+            "licence": "CC BY 4.0"
+        },
+        {
+            "title": "PhD course in Open Science and Reproducible Research",
+            "type": ["Training"],
+            "phase": ["Plan", "Collect", "Process", "Analyse", "Share"],
+            "level": ["Basic"],
+            "url": "https://osf.io/q9nsp/",
+            "description": "Course covering the topics of open access, open data, open code, open material, preregistration, replication research, metascience. It is given fully online every semester, and is open to PhD students from all over Sweden (and the world), primarily PhD students in quantitative sciences. ",
+            "provider": "KI",
+            "DOI": "10.17605/OSF.IO/6Q3DZ",
+            "DOIurl": "https://doi.org/10.17605/OSF.IO/6Q3DZ"
+        },
+        {
+            "title": "BAS Online",
+            "type": ["Training"],
+            "phase": ["Plan", "Collect", "Analyse"],
+            "level": ["Basic"],
+            "url": "https://snd.gu.se/sv/hantera-data/utbildning/bas-online",
+            "description": "BAS Online is divided into six sessions consisting of short video presentations, exercises and other material such as texts and linked resources. The course is primarily aimed at those who work at a research data support unit at a Swedish university, and covers topics such as Data management and data management plans, Metadata, Metadata standards, Documentation of research data, Law and research data.",
+            "provider": "SND"
+        },
+        {
+            "title": "General information about research data on UU intranet",
+            "type": ["Guidance"],
+            "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share"],
+            "level": ["Basic"],
+            "url": "https://mp.uu.se/web/info/forska/forskningsdata",
+            "description": "General information about handling data - DMP, documentation & metadata, FAIR, organizing files & folders, versioning, ethical & legal aspects, open data, archiving. Information is mostly on a generic level, not discipline specific. Lectures in Phd courses on ethics and scientific writing. Target audience is researchers and doctoral students at UU.",
+            "provider": "UU"
+        },
+        {
+            "title": "Tools for Reproducible Research",
+            "type": ["Training"],
+            "phase": ["Plan", "Collect", "Process", "Analyse"],
+            "level": ["Intermediate"],
+            "url": "https://uppsala.instructure.com/courses/58267",
+            "description": "Teacher-led workshop given twice a year covering the topics of Data management, Project organisation, Git, Conda, Snakemake, Nextflow, R Markdown, Jupyter, Docker, and Singularity. All material is available online for self-paced learning at [Workshop reproducible research](https://github.com/NBISweden/workshop-reproducible-research/). The course is open for PhD students, postdocs, group leaders and core facility staff.",
+            "provider": "NBIS",
+            "licence": "CC BY 4.0"
+        },
+        {
+            "title": "Online course on Open science and data management",
+            "type": ["Training"],
+            "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share"],
+            "level": ["Basic"],
+            "url": "https://canvas.kth.se/courses/29371",
+            "description": "Online course available at all time with reflection and discussion material covering the topics of basic data management, DMP, management of open versus confidential data, basic legal and information security, sharing, publishing, and archiving. Target audience is PhD students and Researchers, with additional sections with material for leaders of larger collaborative projects (samverkansledare).",
+            "provider": "KTH",
+            "licence": "CC BY 4.0"
+        },
+        {
+            "title": "Stockholm trio carpentries events",
+            "type": ["Training"],
+            "phase": ["Analyse"],
+            "level": ["Basic"],
+            "url": "https://stockholmuniversityrdmteam.github.io/2023-05-09-CarpentryStockholmTrio/",
+            "description": "Hands-on-practice either online or on-site, giving basic skills in Git, BaSH, Python and R. Target audience is PhD students without prior experience in coding.",
+            "provider": "KTH, SU, KI",
+            "licence": "CC BY 4.0"
+        },
+        {
+            "title": "KTH calendar with upcoming events such as DMP workshops, PhD seminars etc",
+            "type": ["Training"],
+            "phase": ["Plan", "Preserve", "Share"],
+            "level": ["Basic", "Intermediate", "Advanced"],
+            "url": "https://www.kth.se/en/biblioteket/publicera-analysera/hantera-forskningsdata",
+            "description": "Workshops/seminars both on-site and online. Events for drafting a good DMP is given several times per year, and also more targeted webinars are offered on a regular basis. Target audience is both  PhD students and senior researchers.",
+            "provider": "KTH"
+        },
+        {
+            "title": "Programming formalisms for (life) scientists and bioinformaticians",
+            "type": ["Training"],
+            "phase": ["Analyse"],
+            "level": ["Intermediate"],
+            "url": "https://uppsala.instructure.com/courses/69215",
+            "description": "This course aims to give scientists, bioinformaticians and others working with scientific software with some experience in programming and scripting, an understanding of the underlying principles of development design and programming. The material is availible online.",
+            "provider": "NBIS, UPPMAX",
+            "licence": "CC BY-SA 4.0"
+        }
+    ]
+}

@@ -457,6 +457,15 @@
             "url": "https://www.uppmax.uu.se/support/courses-and-workshops/",
             "description": "Information about courses and workshops, including links to extra material, given by UPPMAX, Uppsala University's resource of high-performance computers, large-scale storage and know-how of high-performance computing.",
             "provider": "UPPMAX"
+        },
+        {
+            "title": "AIDA Data Sharing Policy",
+            "type": ["Guidance"],
+            "phase": ["Plan", "Share"],
+            "level": ["Basic"],
+            "url": "https://datahub.aida.scilifelab.se/sharing/",
+            "description": "The AIDA (Analytical Imaging Diagnostics Arena) Data Sharing Policy is a comprehensive resource developed by ~50 AIDA partners in healthcare, industry, and academia, which includes legal analyses, best practices, and practical instructions for how to carry out ethically and legally correct sharing of sensitive personal data such as medical images in Sweden and similar countries.",
+            "provider": "AIDA"
         }
     ]
 }

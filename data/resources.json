@@ -448,6 +448,15 @@
             "description": "The DMEG is designed by European experts to help social science researchers make their research data Findable, Accessible, Interoperable and Reusable (FAIR).",
             "provider": "CESSDA ERIC",
             "licence": "CC BY-SA 4.0"
+        },
+        {
+            "title": "UPPMAX courses and workshops",
+            "type": ["Training"],
+            "phase": ["Analyse"],
+            "level": ["Basic", "Intermediate", "Advanced"],
+            "url": "https://www.uppmax.uu.se/support/courses-and-workshops/",
+            "description": "Information about courses and workshops, including links to extra material, given by UPPMAX, Uppsala University's resource of high-performance computers, large-scale storage and know-how of high-performance computing.",
+            "provider": "UPPMAX"
         }
     ]
 }

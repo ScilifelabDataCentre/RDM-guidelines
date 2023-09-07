@@ -55,7 +55,7 @@ This is a repository for storing and sharing personal identifiable genetic and p
 </div>
 
 ### [AIDA Data Hub](https://datahub.aida.scilifelab.se/)
-This platform is part of the [Analytic Imaging Diagnostics Arena (AIDA)](https://medtech4health.se/aida/) and NBIS/SciLifeLab. It provides Data Sharing, Policy Support, and Services for researchers in Swedish medical imaging AI. Medical imaging data can be uploaded and shared selectively with other specified research groups and can also be made available upon request. The [AIDA Dataset Register](https://datahub.aida.scilifelab.se/datasets/) holds records with public information and provides Digital Object Identifiers (DOI) for the datasets that have been shared on the AIDA Data Hub.
+This platform is part of the [Analytic Imaging Diagnostics Arena (AIDA)](https://medtech4health.se/aida/) and NBIS/SciLifeLab. It provides Data Sharing, Policy Support, and Services for researchers in Swedish medical imaging AI, and facilitates sharing of FAIR medical imaging research data for Open Science. The AIDA Data Sharing Policy is a comprehensive resource developed by ~50 AIDA partners in healthcare, industry, and academia, which includes legal analyses, best practices, and practical instructions for how to carry out ethically and legally correct sharing of sensitive personal data such as medical images in Sweden and similar countries. The [AIDA Dataset Register](https://datahub.aida.scilifelab.se/datasets/) provides Digital Object Identifiers (DOI) and landing pages for the datasets that have been shared on the AIDA Data Hub.
 
 ## If data cannot be deposited in a repository
 

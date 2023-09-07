@@ -8,7 +8,7 @@ toc: True
 During this phase all necessary data to be analysed in the project is collected, either by generating new datasets or by [reusing](/data-life-cycle/reuse) earlier collected datasets. This phase lays the foundation of the quality of both the data and the accompanying documentation. Hence, it is important that quality measures are implemented and that all steps of collection is appropriately recorded. During this phase possibly large amounts of data might need to be [transferred](/topics/data-transfer) between data producers, compute facilities and storage facilities.
 
 ## Documentation
-Data documentation should clearly describe how the data was collected, so that someone else can understand and correctly interpret the data. Make use of electronic lab notebooks (often offered by the university / institute) and [metadata standards](/topics/metadata), and name and organise the files produced appropriately.
+Data documentation should clearly describe how the data was collected, so that someone else can understand and correctly interpret the data. Make use of electronic lab notebooks (often offered by the university / institute) and [metadata standards](/topics/metadata), and name and organise the files produced appropriately, see e.g. *'[A Quick Guide to Organizing Computational Biology Projects](https://doi.org/10.1371/journal.pcbi.1000424)'* for advice.
 
 ## Data producers
  SciLifeLab provides access to a range of pioneering technologies in molecular biosciences. Please find below a selection of data generating [SciLifeLab services](https://www.scilifelab.se/services/) for genomics, imaging, metabolomics, and proteomics data.

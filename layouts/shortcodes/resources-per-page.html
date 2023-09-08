@@ -1,0 +1,11 @@
+{{ $page_phase := .Page.Params.phase }}
+{{ $resources := .Site.Data.resources.items }}
+<ul>
+{{ range $resources }}
+{{ if in .phase $page_phase }}
+{{ if eq (len .phase) 1 }}
+  <li><a href="{{ .url}}">{{ .title }}</a></li>
+{{ end }}
+{{ end }}
+{{ end }}
+</ul>

@@ -1,5 +1,6 @@
 ---
 title: Planning phase
+phase: Plan
 contributors: []
 toc: True
 ---
@@ -16,9 +17,4 @@ Also, some resources have specific application periods and thus needs to be cont
 
 
 ## Resources
-* [RDMkit on Data Management Planning](https://rdmkit.elixir-europe.org/planning)
-* [DMP module](https://nbisweden.github.io/module-dmp-dm-practices/) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)
-* [How to write a Data Management Plan](https://www.youtube.com/watch?v=HDfwz60FXjw) (video)
-* [SciLifeLab DS Wizard - A short introduction](https://www.youtube.com/watch?v=HY2DVnNGkAs) (video)
-* [SciLifeLab DS Wizard](https://dsw.scilifelab.se)
-
+{{<resources-per-page >}}

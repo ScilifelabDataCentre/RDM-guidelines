@@ -1,5 +1,6 @@
 ---
 title: Preserving phase
+phase: Preserve
 contributors: []
 toc: True
 ---
@@ -10,4 +11,4 @@ After the project is finished, the data needs to be stored in a backed-up fashio
 [NAISS](https://supr.naiss.se/round/storage/) offers storage for small and medium-sized datasets. In the future also large-sized storage will be offered.
 
 ## Resources
-* [RDMkit on Preserving Data](https://rdmkit.elixir-europe.org/preserving)
+{{<resources-per-page >}}

@@ -1,5 +1,6 @@
 ---
 title: Analysing phase
+phase: Analyse
 contributors: []
 toc: True
 ---
@@ -15,8 +16,4 @@ Facilities offering computational resources:
 * [NAISS](https://www.naiss.se/) (National Academic Infrastructure for Super­computing in Sweden) national research infrastructure makes available large scale high performance computing resources. [Apply](https://supr.naiss.se/round/compute/) for Small, Medium, Large or Sensitive data allocation, depending on size and type of project.
 
 ## Resources
-* [RDMkit on Analysing Data](https://rdmkit.elixir-europe.org/analysing)
-* [OpenRefine module](https://nbisweden.github.io/module-openrefine-dm-practices/) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)
-* [R module](https://nbisweden.github.io/module-r-intro-dm-practices/) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)
-* [Versioning module](https://nbisweden.github.io/module-versioning-dm-practices/) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)
-* For bioinformatics courses, please visit the [NBIS course catalogue](https://uppsala.instructure.com/courses/48087/pages/nbis-training-catalogue)
+{{<resources-per-page >}}

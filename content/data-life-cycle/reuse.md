@@ -1,5 +1,6 @@
 ---
 title: Reusing phase
+phase: Reuse
 contributors: []
 toc: True
 ---
@@ -13,9 +14,4 @@ Search in the Registry of Research Data Repositories [re3data](https://www.re3da
 
 
 ## Resources
-* [RDMkit on Reusing Data](https://rdmkit.elixir-europe.org/reusing)
-* [RDMkit on Existing Data](https://rdmkit.elixir-europe.org/existing_data)
-* [COVID 19 Data Portal](https://www.youtube.com/watch?v=Q2W1MvxMkJ0&list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS&index=12) (video)
-* [The Swedish COVID-19 Data Portal one year on](https://www.youtube.com/watch?v=UUsoY6Lfa1o&list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS&index=7) (video)
-* [Google dataset search](https://datasetsearch.research.google.com)
-* [DataCite Commons](https://commons.datacite.org/)
+{{<resources-per-page >}}

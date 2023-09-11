@@ -69,7 +69,7 @@
         {
             "title": "RDMkit on Human data",
             "type": ["Guidance"],
-            "phase": ["Plan", "Collect", "Analyse", "Preserve", "Share"],
+            "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share","Reuse"],
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/human_data",
             "description": "Best practice guidance regarding working with human data.",
@@ -384,7 +384,7 @@
         {
             "title": "General information about research data on UU intranet",
             "type": ["Guidance"],
-            "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share"],
+            "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share","Reuse"],
             "level": ["Basic"],
             "url": "https://mp.uu.se/web/info/forska/forskningsdata",
             "description": "General information about handling data - DMP, documentation & metadata, FAIR, organizing files & folders, versioning, ethical & legal aspects, open data, archiving. Information is mostly on a generic level, not discipline specific. Lectures in Phd courses on ethics and scientific writing. Target audience is researchers and doctoral students at UU.",
@@ -403,7 +403,7 @@
         {
             "title": "Online course on Open science and data management",
             "type": ["Training"],
-            "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share"],
+            "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share","Reuse"],
             "level": ["Basic"],
             "url": "https://canvas.kth.se/courses/29371",
             "description": "Online course available at all time with reflection and discussion material covering the topics of basic data management, DMP, management of open versus confidential data, basic legal and information security, sharing, publishing, and archiving. Target audience is PhD students and Researchers, with additional sections with material for leaders of larger collaborative projects (samverkansledare).",
@@ -423,7 +423,7 @@
         {
             "title": "KTH calendar with upcoming events such as DMP workshops, PhD seminars etc",
             "type": ["Training"],
-            "phase": ["Plan", "Collect", "Preserve", "Share"],
+            "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share","Reuse"],
             "level": ["Basic", "Intermediate", "Advanced"],
             "url": "https://www.kth.se/en/biblioteket/publicera-analysera/hantera-forskningsdata",
             "description": "Workshops/seminars both on-site and online. Events for drafting a good DMP is given several times per year, and also more targeted webinars are offered on a regular basis. Target audience is both  PhD students and senior researchers.",

@@ -3,7 +3,7 @@
 <ul>
 {{ range $resources }}
 {{ if in .phase $page_phase }}
-{{ if le (len .phase) 3 }}
+{{ if le (len .phase) 4 }}
   <li><a href="{{ .url}}">{{ .title }}</a> - {{ .type }}</li>
 {{ end }}
 {{ end }}

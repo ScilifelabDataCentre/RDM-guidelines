@@ -442,7 +442,7 @@
         {
             "title": "Data Management Expert Guide (DMEG)",
             "type": ["Guidance"],
-            "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share"],
+            "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share","Reuse"],
             "level": ["Basic"],
             "url": "https://dmeg.cessda.eu/Data-Management-Expert-Guide",
             "description": "The DMEG is designed by European experts to help social science researchers make their research data Findable, Accessible, Interoperable and Reusable (FAIR).",

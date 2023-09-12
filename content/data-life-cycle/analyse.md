@@ -5,7 +5,7 @@ toc: True
 ---
 
 # Analysing
-During this phase the collected data, both the re-used data and the data created for this project, is explored. Things to consider is where to do the analysis, how to [transfer the data](/topics/data-transfer), who is going to do the analysis, and how the steps of the analysis is going to be documented. If working with sensitive data, there might be a need for extra security measures as well as ensuring that all necessary agreements are in place.
+During this phase the collected data, both the re-used data and the data created for this project, is explored. Things to consider is where to do the analysis, how to [transfer the data](/topics/data-transfer), who is going to do the analysis, and how the steps of the analysis is going to be documented. Implement a good strategy on data organisation, see e.g. *'[A Quick Guide to Organizing Computational Biology Projects](https://doi.org/10.1371/journal.pcbi.1000424)'* for advice. If working with sensitive data, there might be a need for extra security measures as well as ensuring that all necessary agreements are in place.
 
 Facilities which offer data analysis services:
 * [NBIS support](https://nbis.se/support) (National Bioinformatics Infrastructure Sweden) offers bioinformatic support in various forms for a wide range of areas including NGS, proteomics, metabolomics and biostatistics.
@@ -20,3 +20,4 @@ Facilities offering computational resources:
 * [R module](https://nbisweden.github.io/module-r-intro-dm-practices/) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)
 * [Versioning module](https://nbisweden.github.io/module-versioning-dm-practices/) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)
 * For bioinformatics courses, please visit the [NBIS course catalogue](https://uppsala.instructure.com/courses/48087/pages/nbis-training-catalogue)
+* [Courses and workshops given by UPPMAX](https://www.uppmax.uu.se/support/courses-and-workshops/)

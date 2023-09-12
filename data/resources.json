@@ -438,6 +438,25 @@
             "description": "This course aims to give scientists, bioinformaticians and others working with scientific software with some experience in programming and scripting, an understanding of the underlying principles of development design and programming. The material is availible online.",
             "provider": "NBIS, UPPMAX",
             "licence": "CC BY-SA 4.0"
+        },
+        {
+            "title": "Data Management Expert Guide (DMEG)",
+            "type": ["Guidance"],
+            "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share","Reuse"],
+            "level": ["Basic"],
+            "url": "https://dmeg.cessda.eu/Data-Management-Expert-Guide",
+            "description": "The DMEG is designed by European experts to help social science researchers make their research data Findable, Accessible, Interoperable and Reusable (FAIR).",
+            "provider": "CESSDA ERIC",
+            "licence": "CC BY-SA 4.0"
+        },
+        {
+            "title": "UPPMAX courses and workshops",
+            "type": ["Training"],
+            "phase": ["Analyse"],
+            "level": ["Basic", "Intermediate", "Advanced"],
+            "url": "https://www.uppmax.uu.se/support/courses-and-workshops/",
+            "description": "Information about courses and workshops, including links to extra material, given by UPPMAX, Uppsala University's resource of high-performance computers, large-scale storage and know-how of high-performance computing.",
+            "provider": "UPPMAX"
         }
     ]
 }

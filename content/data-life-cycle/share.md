@@ -204,4 +204,6 @@ If you are a researcher at a Swedish academic institution working in the life sc
 If you need any help connected to data submission, please [contact us](../../contact/)!
 
 ## Resources
-{{<resources-per-page >}}
+Please find below resources concerning the  research data life cycle phase share in form of training, guidance and tools.
+
+{{< resources-per-page >}}

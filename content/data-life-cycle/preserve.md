@@ -11,4 +11,6 @@ After the project is finished, the data needs to be stored in a backed-up fashio
 [NAISS](https://supr.naiss.se/round/storage/) offers storage for small and medium-sized datasets. In the future also large-sized storage will be offered.
 
 ## Resources
-{{<resources-per-page >}}
+Please find below resources concerning the  research data life cycle phase preserve in form of training, guidance and tools.
+
+{{< resources-per-page >}}

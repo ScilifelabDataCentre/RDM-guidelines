@@ -15,6 +15,7 @@ High quality science is often only possible if the infrastructure resources you 
 Also, some resources have specific application periods and thus needs to be contacted well in advance. If your project includes sensitive (human) data, note that there are ethical and legal issues that you have to consider, such as apply for an ethics approval, establish necessary agreements and report the data processing to your [Data Protection Officer](/topics/university-rdm-resources/#data-protection-officers). See the page on [Research involving human data](/topics/research-involving-human-data) for more information.
 
 
-
 ## Resources
-{{<resources-per-page >}}
+Please find below resources concerning the  research data life cycle phase plan in form of training, guidance and tools.
+
+{{< resources-per-page >}}

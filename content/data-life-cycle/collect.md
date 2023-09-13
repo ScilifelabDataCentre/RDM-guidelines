@@ -245,4 +245,4 @@ Consider uploading the raw data to a repository already when receiving them, und
 ## Resources
 Please find below resources concerning the research data life cycle phase collect in form of training, guidance and/or tools.
 
-{{< resources-per-page >}}
+{{< resources-per-page-phases >}}

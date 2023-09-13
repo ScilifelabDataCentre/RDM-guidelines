@@ -11,4 +11,4 @@ It is during this phase that the data is prepared for analysis. This includes st
 ## Resources
 Please find below resources concerning the  research data life cycle phase process in form of training, guidance and/or tools.
 
-{{< resources-per-page >}}
+{{< resources-per-page-phases >}}

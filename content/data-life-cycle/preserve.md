@@ -13,4 +13,4 @@ After the project is finished, the data needs to be stored in a backed-up fashio
 ## Resources
 Please find below resources concerning the  research data life cycle phase preserve in form of training, guidance and/or tools.
 
-{{< resources-per-page >}}
+{{< resources-per-page-phases >}}

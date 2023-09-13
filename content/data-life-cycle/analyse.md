@@ -18,4 +18,4 @@ Facilities offering computational resources:
 ## Resources
 Please find below resources concerning the  research data life cycle phase analyse in form of training, guidance and/or tools.
 
-{{< resources-per-page >}}
+{{< resources-per-page-phases >}}

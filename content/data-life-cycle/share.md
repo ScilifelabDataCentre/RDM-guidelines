@@ -206,4 +206,4 @@ If you need any help connected to data submission, please [contact us](../../con
 ## Resources
 Please find below resources concerning the  research data life cycle phase share in form of training, guidance and/or tools.
 
-{{< resources-per-page >}}
+{{< resources-per-page-phases >}}

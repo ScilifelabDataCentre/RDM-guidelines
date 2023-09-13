@@ -336,6 +336,7 @@
         {"title": "RDMkit on Data transfer",
             "type": ["Guidance"],
             "phase": ["Collect"],
+            "topic": ["Data transfer"],
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/data_transfer.html",
             "description": "Best practice guidance regarding the task of transferring data.",

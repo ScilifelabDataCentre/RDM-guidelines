@@ -271,6 +271,6 @@ Data and metadata are sufficiently well-described to allow data to be reused in 
 </div>
 
 ## Resources
-Please find below resources concerning the FAIR principles in form of training, guidance and/or  tools.
+Please find below resources concerning the FAIR principles in form of training, guidance and/or tools.
 
 {{< resources-per-page-topics >}}

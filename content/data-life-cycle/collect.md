@@ -243,6 +243,6 @@ At least essential data, such as raw data and other data that may be difficult o
 Consider uploading the raw data to a repository already when receiving them, under an embargo (if it is important that the data remains private during the project). This way there is always an off-site backup with the added benefit of making the [data sharing](/data-life-cycle/share) phase more efficient.
 
 ## Resources
-Please find below resources concerning the research data life cycle phase collect in form of training, guidance and tools.
+Please find below resources concerning the research data life cycle phase collect in form of training, guidance and/or tools.
 
 {{< resources-per-page >}}

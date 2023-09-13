@@ -188,5 +188,5 @@ When you prepare the information for the participants, it might be a good to thi
 If you have further questions regarding sensitive personal data, you are welcome to contact the SciLifeLab data management team (<data-management@scilifelab.se>).
 
 ## Resources
-Please find below resources concerning research involving human data in form of training, guidance and/or  tools.
+Please find below resources concerning research involving human data in form of training, guidance and/or tools.
 {{< resources-per-page-topics >}}

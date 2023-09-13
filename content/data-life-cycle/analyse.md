@@ -16,6 +16,6 @@ Facilities offering computational resources:
 * [NAISS](https://www.naiss.se/) (National Academic Infrastructure for Super­computing in Sweden) national research infrastructure makes available large scale high performance computing resources. [Apply](https://supr.naiss.se/round/compute/) for Small, Medium, Large or Sensitive data allocation, depending on size and type of project.
 
 ## Resources
-Please find below resources concerning the  research data life cycle phase analyse in form of training, guidance and tools.
+Please find below resources concerning the  research data life cycle phase analyse in form of training, guidance and/or tools.
 
 {{< resources-per-page >}}

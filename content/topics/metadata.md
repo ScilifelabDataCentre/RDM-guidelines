@@ -229,5 +229,5 @@ For a curated list of relevant standards see [FAIRsharing](https://fairsharing.o
 &nbsp;
 
 ## Resources
-Please find below resources concerning metadata in form of training, guidance and/or  tools.
+Please find below resources concerning metadata in form of training, guidance and/or tools.
 {{< resources-per-page-topics >}}

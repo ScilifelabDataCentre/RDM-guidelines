@@ -14,20 +14,6 @@
 {{ end }}
 
 {{ range $page_resources }}
-{{ if in .type "Guidance" }}
-{{ $guidances_resources = $guidances_resources | append . }}
-{{ end }}
-{{ end }}
-{{ if gt (len $guidances_resources) 0 }}
-<h3>Guiding resources</h3>
-<ul>
-{{ range $guidances_resources }}
-  <li><a href="{{ .url}}">{{ .title }}</a></li>
-{{ end }}
-{{ end }}
-</ul>
-
-{{ range $page_resources }}
 {{ if in .type "Training" }}
 {{ $training_resources = $training_resources | append . }}
 {{ end }}
@@ -36,6 +22,20 @@
 <h3>Training resources</h3>
 <ul>
 {{ range $training_resources }}
+  <li><a href="{{ .url}}">{{ .title }}</a></li>
+{{ end }}
+{{ end }}
+</ul>
+
+{{ range $page_resources }}
+{{ if in .type "Guidance" }}
+{{ $guidances_resources = $guidances_resources | append . }}
+{{ end }}
+{{ end }}
+{{ if gt (len $guidances_resources) 0 }}
+<h3>Guiding resources</h3>
+<ul>
+{{ range $guidances_resources }}
   <li><a href="{{ .url}}">{{ .title }}</a></li>
 {{ end }}
 {{ end }}

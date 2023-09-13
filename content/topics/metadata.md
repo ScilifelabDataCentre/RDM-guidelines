@@ -229,5 +229,5 @@ For a curated list of relevant standards see [FAIRsharing](https://fairsharing.o
 &nbsp;
 
 ## Resources
-* [RDMkit on Metadata](https://rdmkit.elixir-europe.org/metadata_management)
-* [Metadata module](https://nbisweden.github.io/module-metadata-dm-practices/) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)
+Please find below resources concerning metadata in form of training, guidance and/or  tools.
+{{< resources-per-page-topics >}}

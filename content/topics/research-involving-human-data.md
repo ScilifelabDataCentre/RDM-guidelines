@@ -188,10 +188,5 @@ When you prepare the information for the participants, it might be a good to thi
 If you have further questions regarding sensitive personal data, you are welcome to contact the SciLifeLab data management team (<data-management@scilifelab.se>).
 
 ## Resources
-
-* [RDMkit on Human data](https://rdmkit.elixir-europe.org/human_data)
-* Swedish National Data service (SND) on [Research material with personal data](https://snd.gu.se/en/manage-data/plan/research-material-with-personal-data)
-* Consider using the Ethical, Legal and Social Implications (ELSI) checklist developed by the [Tryggve project](https://neic.no/tryggve/). It was developed with cross-border collaborative projects in mind, but it should be useful for other research projects as well. It is available as a [MS Word file](https://neic.no/tryggve/files/Tryggve_ELSI_checklist_v1.0_2019-12-17.docx) and in the [SciLifeLab Data Stewardship Wizard](https://dsw.scilifelab.se/):
-  1. Log in using your university credentials
-  1. Click on Projects in the left sidebar, and click the Create button
-  1. Choose *ELSI Checklist Template*
+Please find below resources concerning research involving human data in form of training, guidance and/or  tools.
+{{< resources-per-page-topics >}}

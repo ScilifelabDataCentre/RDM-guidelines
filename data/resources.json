@@ -260,7 +260,7 @@
         {
             "title": "RDMkit on Data Quality",
             "type": ["Guidance"],
-            "phase": ["Process"],
+            "phase": ["Collect","Process"],
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/data_quality",
             "description": "Best practice guidance regarding the task of data quality management.",
@@ -321,15 +321,6 @@
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/collecting",
             "description": "Best practice guidance regarding the phase of collecting data.",
-            "provider": "RDMkit",
-            "licence": "CC BY 4.0"
-        },
-        {"title": "RDMkit on Data quality",
-            "type": ["Guidance"],
-            "phase": ["Collect"],
-            "level": ["Basic"],
-            "url": "https://rdmkit.elixir-europe.org/data_quality",
-            "description": "Best practice guidance regarding the task of ensuring data quality.",
             "provider": "RDMkit",
             "licence": "CC BY 4.0"
         },

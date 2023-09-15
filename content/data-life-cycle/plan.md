@@ -16,6 +16,6 @@ Also, some resources have specific application periods and thus needs to be cont
 
 
 ## Resources
-Please find below resources concerning the  research data life cycle phase plan in form of training, guidance and/or tools.
+Please find below resources concerning the research data life cycle phase plan in form of training, guidance and/or tools.
 
 {{< resources-per-page-phases >}}

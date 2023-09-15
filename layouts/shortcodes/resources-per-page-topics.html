@@ -13,7 +13,7 @@
 {{ end }}
 {{ end }}
 
-{{ range $page_resources }}
+{{ range sort $page_resources ".title" "asc" }}
 {{ if in .type "Training" }}
 {{ $training_resources = $training_resources | append . }}
 {{ end }}
@@ -27,7 +27,7 @@
 {{ end }}
 </ul>
 
-{{ range $page_resources }}
+{{ range sort $page_resources ".title" "asc" }}
 {{ if in .type "Guidance" }}
 {{ $guidances_resources = $guidances_resources | append . }}
 {{ end }}
@@ -41,7 +41,7 @@
 {{ end }}
 </ul>
 
-{{ range $page_resources }}
+{{ range sort $page_resources ".title" "asc" }}
 {{ if in .type "Tool" }}
 {{ $tools_resources = $tools_resources | append . }}
 {{ end }}

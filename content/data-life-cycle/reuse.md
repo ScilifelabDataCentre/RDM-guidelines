@@ -14,6 +14,6 @@ Search in the Registry of Research Data Repositories [re3data](https://www.re3da
 
 
 ## Resources
-Please find below resources concerning the  research data life cycle phase reuse in form of training, guidance and/or tools.
+Please find below resources concerning the research data life cycle phase reuse in form of training, guidance and/or tools.
 
 {{< resources-per-page-phases >}}

@@ -1,6 +1,6 @@
 ---
 title: What is Research Data Management
-topic: what-is-rdm
+topic: ["What is RDM"]
 contributors: []
 toc: True
 ---

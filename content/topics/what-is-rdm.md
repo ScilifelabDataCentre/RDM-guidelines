@@ -6,6 +6,8 @@ toc: True
 
 # What is Research Data Management?
 
+Research Data Management (RDM) concerns the organisation, storage, preservation, and sharing of data that is collected and analysed during a research project. Proper planning and management of research data will make project management easier and more efficient while projects are being performed. It also facilitates sharing and allows others to validate as well as reuse the data.
+
 Research data is a core component of any research project or publication. Good data management practices are important in all aspects of research:
 
 * Ethics and legislation – obligations to data owners / subjects

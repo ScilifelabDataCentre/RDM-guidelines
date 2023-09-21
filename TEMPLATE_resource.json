@@ -6,6 +6,7 @@
                 "Training", "Tool", "Guidance"
             ],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse"],
+            "topic": [""],
             "level": ["Basic"],
             "url": "http://www.henlab.org/postdoc-resolving-microbial-genomes-in-complex-communities-at-the-single-cell-level/",
             "description": "Info about the type of training this is ",

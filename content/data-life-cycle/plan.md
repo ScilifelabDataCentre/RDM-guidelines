@@ -1,5 +1,6 @@
 ---
 title: Planning phase
+phase: Plan
 contributors: []
 toc: True
 ---
@@ -14,11 +15,7 @@ High quality science is often only possible if the infrastructure resources you 
 Also, some resources have specific application periods and thus needs to be contacted well in advance. If your project includes sensitive (human) data, note that there are ethical and legal issues that you have to consider, such as apply for an ethics approval, establish necessary agreements and report the data processing to your [Data Protection Officer](/topics/university-rdm-resources/#data-protection-officers). See the page on [Research involving human data](/topics/research-involving-human-data) for more information.
 
 
-
 ## Resources
-* [RDMkit on Data Management Planning](https://rdmkit.elixir-europe.org/planning)
-* [DMP module](https://nbisweden.github.io/module-dmp-dm-practices/) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)
-* [How to write a Data Management Plan](https://www.youtube.com/watch?v=HDfwz60FXjw) (video)
-* [SciLifeLab DS Wizard - A short introduction](https://www.youtube.com/watch?v=HY2DVnNGkAs) (video)
-* [SciLifeLab DS Wizard](https://dsw.scilifelab.se)
+Please find below resources concerning the research data life cycle phase plan in form of training, guidance and/or tools.
 
+{{< resources-per-page-phases >}}

@@ -271,5 +271,6 @@ Data and metadata are sufficiently well-described to allow data to be reused in 
 </div>
 
 ## Resources
-* [Open Science and FAIR module](https://nbisweden.github.io/module-open-science-dm-practices/index.html) in course [Introduction to data management practices](https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices)
-* [Keynote: First FAIR steps, Rob Hooft](https://www.youtube.com/watch?v=2ZL8o8fZSys&list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS&index=14&t=13s) (video)
+Please find below resources concerning the FAIR principles in form of training, guidance and/or tools.
+
+{{< resources-per-page-topics >}}

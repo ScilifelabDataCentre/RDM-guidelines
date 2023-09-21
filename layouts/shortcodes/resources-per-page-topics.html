@@ -1,0 +1,56 @@
+{{ $page_topic := .Page.Params.title }}
+{{ $resources := .Site.Data.resources.items }}
+{{ $page_resources := slice }}
+{{ $guidances_resources := slice }}
+{{ $training_resources := slice }}
+{{ $tools_resources := slice }}
+
+{{ range $resources }}
+{{ if in .topic $page_topic }}
+{{ if le (len .topic) 6 }}
+{{ $page_resources = $page_resources | append . }}
+{{ end }}
+{{ end }}
+{{ end }}
+
+{{ range sort $page_resources ".title" "asc" }}
+{{ if in .type "Training" }}
+{{ $training_resources = $training_resources | append . }}
+{{ end }}
+{{ end }}
+{{ if gt (len $training_resources) 0 }}
+<h3>Training resources</h3>
+<ul>
+{{ range $training_resources }}
+  <li><a href="{{ .url}}">{{ .title }}</a></li>
+{{ end }}
+{{ end }}
+</ul>
+
+{{ range sort $page_resources ".title" "asc" }}
+{{ if in .type "Guidance" }}
+{{ $guidances_resources = $guidances_resources | append . }}
+{{ end }}
+{{ end }}
+{{ if gt (len $guidances_resources) 0 }}
+<h3>Guiding resources</h3>
+<ul>
+{{ range $guidances_resources }}
+  <li><a href="{{ .url}}">{{ .title }}</a></li>
+{{ end }}
+{{ end }}
+</ul>
+
+{{ range sort $page_resources ".title" "asc" }}
+{{ if in .type "Tool" }}
+{{ $tools_resources = $tools_resources | append . }}
+{{ end }}
+{{ end }}
+{{ if gt (len $tools_resources) 0 }}
+<h3>Tools</h3>
+<ul>
+{{ range $tools_resources }}
+  <li><a href="{{ .url}}">{{ .title }}</a></li>
+{{ end }}
+{{ end }}
+</ul>

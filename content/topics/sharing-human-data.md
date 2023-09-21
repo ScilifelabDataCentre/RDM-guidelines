@@ -102,7 +102,6 @@ To let us handle access requests to your data, you need to take the following st
 If you need any help connected to data submission, please [contact us](../../contact/)!
 
 ## Resources
+Please find below resources concerning research involving human data in form of training, guidance and/or tools.
 
-* [RDMkit on Human data](https://rdmkit.elixir-europe.org/human_data)
-* [SciLifeLab Data Repository Metadata record tutorial](https://www.youtube.com/watch?v=_y09LCpLl9A&list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS&index=5) (video)
-* [AIDA data sharing policy](https://datahub.aida.scilifelab.se/sharing/)
+{{< resources-per-page-topics >}}

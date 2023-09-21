@@ -38,3 +38,8 @@ Aspera  (ascp) is a command-line transfer program that can be used for stable tr
   `ascp --file-checksum=md5 -d -k 3 --mode=send --overwrite=always -QT -l300M --host=webin.ebi.ac.uk --user=Webin-XXXXX path-to-uppmax-folder/**/*.fastq.gz subfolder-at-ENA`
 
 Note: In order to check the progress and outcome of the transfer, a program such as FileZilla can be used to connect to your upload area at ENA from your local computer, see instructions at ENA on [Using FileZilla on Windows](https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html?highlight=filezilla#using-filezilla-on-windows).
+
+## Resources
+Please find below resources concerning data transfer in form of training, guidance and/or tools.
+
+{{< resources-per-page-topics >}}

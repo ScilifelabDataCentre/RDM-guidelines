@@ -18,6 +18,6 @@ The content could either be on project-level or data-level. Templates for README
 A manifest file can function as a complement to a README file and should contain a list of all files that are part of the project the READMe file covers. Just as the README file, a manifest file is generally a text file written in an open format such as text format (.txt) and is not meant to be machine-actionable. The targetgroup for the manifest is the same as for the README file, potential users of your data, including yourself and your research collaborators.
 
 ## Resources
-Please find below resources concerning data transfer in form of training, guidance and/or tools.
+Please find below resources concerning README files in form of training, guidance and/or tools.
 
 {{< resources-per-page-topics >}}

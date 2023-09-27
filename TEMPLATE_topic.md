@@ -7,5 +7,8 @@ toc: True
 # <!-- Title -->
 
 
-<!-- ## Resources & Training
-* -->
+<!-- ## Resources
+Please find below resources concerning data transfer in form of training, guidance and/or tools.
+
+{{< resources-per-page-topics >}}
+ -->

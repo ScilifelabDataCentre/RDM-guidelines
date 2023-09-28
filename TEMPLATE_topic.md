@@ -1,6 +1,6 @@
 ---
 title: <!-- add title -->
-category: <!-- add category -->
+contributors: []
 toc: True
 ---
 
@@ -8,7 +8,7 @@ toc: True
 
 
 <!-- ## Resources
-Please find below resources concerning data transfer in form of training, guidance and/or tools.
+Please find below resources concerning --add title/topic--- in form of training, guidance and/or tools.
 
 {{< resources-per-page-topics >}}
  -->

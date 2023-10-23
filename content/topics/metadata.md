@@ -170,7 +170,7 @@ Images and structural data cover a wide range of data types and thus metadata st
         <li>One effort for the standardization of NMR parameters extracted from 1D and 2D spectra of organic compounds to the proposed chemical structure is the <a href="https://doi.org/10.25504/FAIRsharing.8ae3d0">NMReDATA</a> format.</li>
         <li>There is no universally accepted format, especially for crucial FID-associated metadata. <a href="https://doi.org/10.25504/FAIRsharing.2chxxc">NMR-STAR</a> and its <a href="https://github.com/uwbmrb/nmr-star-dictionary">NMR-STAR Dictionary</a> is the archival format used by the <a href="https://bmrb.io/">Biological Nuclear Magnetic Resonance data Bank</a> (BMRB), the international repository of biomolecular NMR data and an archive of the <a href="https://www.wwpdb.org/">Worldwide Protein Data Bank</a> (wwPDB).</li>
         <li>The <a href="https://doi.org/10.25504/FAIRsharing.es03fk">nmrML format specification</a> (XML Schema Definition (XSD) and an accompanying controlled vocabulary called nmrCV) is an open mark up language and ontology for NMR data.</li>
-        <li>Processed structural information is submitted in the <a href="https://doi.org/10.25504/FAIRsharing.fd28en/">PDBx/mmCIF</a> format.</li>
+        <li>Processed structural information is submitted in the <a href="https://doi.org/10.25504/FAIRsharing.fd28en">PDBx/mmCIF</a> format.</li>
       </ul>
   </span>
   </div>
@@ -187,7 +187,7 @@ Images and structural data cover a wide range of data types and thus metadata st
       <ul>
         <li>ENDF/B-VI of Cross-Section Evaluation Working Group (<a href="https://www.nndc.bnl.gov/csewg/">CSEWG</a>) and JEFF of OECD/NEA have been widely utilized in the nuclear community. The latest versions of the two nuclear reaction data libraries are <a href="https://doi.org/10.25504/FAIRsharing.4ed3fb">JEFF-3.3</a> and ENDF/B-VIII.0 (<a href="https://www.sciencedirect.com/science/article/pii/S0969804319301484#bib3">Brown et al., 2018</a>) with a significant upgrade in data for a number of nuclides (<a href="https://www.sciencedirect.com/science/article/pii/S0969804319301484#bib6">Carlson et al., 2018</a>).</li>
         <li>Neutron scattering data are stored in the internationally-adopted <a href="https://www.oecd-nea.org/dbdata/data/manual-endf/endf102.pdf">ENDF-6</a> format maintained by <a href="https://www.nndc.bnl.gov/csewg/">CSEWG</a>.</li>
-        <li>Processed structural information is submitted in the <a href="https://doi.org/10.25504/FAIRsharing.fd28en/">PDBx/mmCIF</a> format.</li>
+        <li>Processed structural information is submitted in the <a href="https://doi.org/10.25504/FAIRsharing.fd28en">PDBx/mmCIF</a> format.</li>
       </ul>
   </span>
   </div>
@@ -216,7 +216,7 @@ For a curated list of relevant standards see [FAIRsharing](https://fairsharing.o
 ### Proteomics data
 For a curated list of relevant standards see [FAIRsharing](https://fairsharing.org) using the query ’[proteomics](https://fairsharing.org/search/?q=proteomics&fairsharingRegistry=Standard&page=1&status=ready)’, some examples are given below:
 
-* Use the minimal information model specified in [MIAPE](https://doi.org/10.25504/FAIRsharing.8vv5fc) by the HUPO Proteomics Standards Initiative ([HUPO PSI](https://hupo.org/Proteomics-Standards-Initiative)), and fill the model using the controlled vocabularies specified by the Proteomics Standards Initiative: [PSI-MS CV](https://doi.org/10.25504/FAIRsharing.sxh2dp)
+* Use the minimal information model specified in [MIAPE](https://doi.org/10.25504/FAIRsharing.8vv5fc) by the HUPO Proteomics Standards Initiative ([HUPO PSI](https://hupo.org/Proteomics-Standards-Initiative-(PSI))), and fill the model using the controlled vocabularies specified by the Proteomics Standards Initiative: [PSI-MS CV](https://doi.org/10.25504/FAIRsharing.sxh2dp)
 * Recommended formats:
   * For gel electrophoresis: [PSI gelML](https://doi.org/10.25504/FAIRsharing.rn9wzc)
   * For transition lists: [HUPO-PSI TraML](https://doi.org/10.25504/FAIRsharing.rz77m6)

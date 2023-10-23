@@ -106,7 +106,7 @@ The role of the data protection officer (dataskyddsombud) is to check that the G
     <tr>
       <td>Chalmers University of Technology</td>
       <td><a href = "mailto:dataskydd@chalmers.se">dataskydd@chalmers.se</a></td>
-      <td><a href="https://www.chalmers.se/en/about-chalmers/processing-of-personal-data/">Processing of personal data</a></td>
+      <td><a href="https://www.chalmers.se/en/about-chalmers/about-the-website/processing-of-personal-data/">Processing of personal data</a></td>
     </tr>
     <tr>
       <td>Karolinska Institutet</td>

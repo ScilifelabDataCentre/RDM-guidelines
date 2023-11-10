@@ -95,8 +95,9 @@
       {{ range first 1 $next_update }}
       <div class="card-body pb-4 pt-0 px-0">
         <div class="card-body update rounded pt-1">
-          <h2>{{ .Title }}</h2>
+          <h3>{{ .Title }}</h3>
           {{ if eq .Params.category "event"}}
+          <h2>{{ .Params.Theme }}</h2>
           <p class="card-text">{{ .Description }}<br><br>Next date: {{ .Params.date_start | time.Format ":date_medium" }}</p>
           {{else }}
           <p class="card-text">{{ .Description }}</p>

@@ -97,7 +97,7 @@
         <div class="card-body update rounded pt-1">
           <h3>{{ .Title }}</h3>
           {{ if eq .Params.category "event"}}
-          <h2>{{ .Params.Theme }}</h2>
+          <h2><a style="color:black" href={{ .Params.update_url }}>{{ .Params.Theme }}</a></h2>
           <p class="card-text">{{ .Description }}<br><br>Next date: {{ .Params.date_start | time.Format ":date_medium" }}</p>
           {{else }}
           <p class="card-text">{{ .Description }}</p>

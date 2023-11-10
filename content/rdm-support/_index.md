@@ -17,7 +17,7 @@ SciLifeLab Data Management Support offers tools, guidance, training and hands-on
 We support various RDM aspects, such as publishing data in repositories, sharing data and code, writing data management plans (DMPs), guidance on working with sensitive human data, guidance on implementing the FAIR principles and adhering to Open Science and much more.
 
 <h3><b>Want expert advice or hands-on support?</b></h3>
-<p class="card-text">We offer consultations and support on all aspects of data management to researchers and research infrastructures in Swedish life science research. Contact our team via email, <a href = "mailto:data-management@scilifelab.se">data-management@scilifelab.se</a>, or the contact form for expert advise on setting up DMPs, sharing data, choosing repositories etc.</p>
+<p class="card-text">We offer <b>free</b> consultations and support on all aspects of data management to researchers and research infrastructures in Swedish life science research. Contact our team via email, <a href = "mailto:data-management@scilifelab.se">data-management@scilifelab.se</a>, or the contact form for expert advise on setting up DMPs, sharing data, choosing repositories etc.</p>
 <a href="/contact/"><b>Contact form to get support <i class="bi bi-arrow-right-square-fill"></i></b></a>
 <br><br><br>
 

@@ -1,7 +1,8 @@
 ---
-title: Meet a Data Steward
+title: "Seminar series:"
 category: event
 date_start: YYYY-MM-DD
-update_url: https://www.scilifelab.se/event/meet-a-data-steward/
-description: Join SciLifeLab Data Centre and NBIS get data management support. Each event consists of a 15 minutes mini-lecture and a 45 minutes Q&A.
+theme: SciLifeLab Data Platform- how we support data-driven life science research
+update_url: https://www.scilifelab.se/event/data-platform-how-we-support-data-driven-life-science/
+description: Join the next event in our SciLifeLab Data Management seminar series.
 ---

@@ -223,6 +223,20 @@ h6 {
     padding-bottom: 50%;
   }
 }
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+  .sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 1020;
+  }
+  .sticky-top2 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 2rem;
+    z-index: 1019;
+  }
+}
 
 /* Support block for the homepage */
 .support {

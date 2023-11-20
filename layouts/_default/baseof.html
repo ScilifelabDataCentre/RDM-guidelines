@@ -6,7 +6,7 @@
         {{- partial "header.html" . -}}
         {{- block "header" . }}{{- end }}
         <main>
-          <div class="container" id="content">
+          <div class="container pt-5s" id="content">
                   {{ if .Params.toc }}
                           <div class="row">
                               <div class="col-md-3 order-md-first toc small">{{- partial "toc.html" . -}}</div>
@@ -17,6 +17,7 @@
                   {{ end }}
           </div>
         </main>
+        {{- partial "back_to_top.html" . -}}
         {{- partial "footer.html" . -}}
     </body>
 </html>

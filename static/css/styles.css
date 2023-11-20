@@ -116,6 +116,34 @@ h6 {
   color: #3f3f3f;
 }
 
+#btn-back-to-top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  display: none;
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+  .sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 1020;
+  }
+  .sticky-top2 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 7rem;
+    z-index: 1019;
+  }
+  .sticky-top3 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 9rem;
+    z-index: 1019;
+  }
+}
+
 /* logo */
 
 .navbar-light .navbar-brand {
@@ -221,26 +249,6 @@ h6 {
 @media (min-width: 500px) {
   .ratio.main_rdm {
     padding-bottom: 50%;
-  }
-}
-@supports ((position: -webkit-sticky) or (position: sticky)) {
-  .sticky-top {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0px;
-    z-index: 1020;
-  }
-  .sticky-top2 {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 7rem;
-    z-index: 1019;
-  }
-  .sticky-top3 {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 9rem;
-    z-index: 1019;
   }
 }
 

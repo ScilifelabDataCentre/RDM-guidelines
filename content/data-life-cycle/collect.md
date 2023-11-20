@@ -238,7 +238,7 @@ Please find below a selection of [SciLifeLab Proteomics services](https://www.sc
 ## Storage
 The PI, and his/her academic institution are ultimately responsible for the data, and ensuring that all data is backed-up is essential. The 3-2-1 rule of thumb means that there should be 3 copies of the data, on 2 different types of media, and 1 of the copies at different physical location. This means that even if all the projects research inputs and outputs are located at a backed-up resource, a (third) copy of the data should be maintained.
 
-At least essential data, such as raw data and other data that may be difficult or even impossible to recreate in case of corruption or loss, should be copied off-site (using e.g. [Swestore](https://docs.swestore.se/) or storage provided by the institute).
+At least essential data, such as raw data and other data that may be difficult or even impossible to recreate in case of corruption or loss, should be copied off-site (using e.g. [SciLifeLab FAIR Storage](https://data.scilifelab.se/services/fairstorage/) or storage provided by the institute).
 
 Consider uploading the raw data to a repository already when receiving them, under an embargo (if it is important that the data remains private during the project). This way there is always an off-site backup with the added benefit of making the [data sharing](/data-life-cycle/share) phase more efficient.
 

@@ -9,8 +9,8 @@
           <div class="container" id="content">
                   {{ if .Params.toc }}
                           <div class="row">
-                              <div class="col-md-3 order-md-first toc small">{{- partial "toc.html" . -}}</div>
-                              <div class="col-md-9 order-md-last content" id="content">{{- block "main" . }}{{- end }}</div>
+                            <div class="col-md-9 order-md-first content" id="content">{{- block "main" . }}{{- end }}</div>
+                            <div class="col-md-3 order-md-last toc small">{{- partial "toc.html" . -}}</div>
                           </div>
                   {{ else }}
                           {{- block "main" . }}{{- end }}

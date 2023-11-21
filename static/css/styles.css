@@ -142,12 +142,6 @@ h6 {
     top: 9rem;
     z-index: 1019;
   }
-  .sticky-top4 {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 10rem;
-    z-index: 1019;
-  }
 }
 
 /* logo */

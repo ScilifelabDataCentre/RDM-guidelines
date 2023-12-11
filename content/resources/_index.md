@@ -7,11 +7,11 @@ menu:
   navbar:
     identifier: resources
     name: Resources
-    weight: 30
+    weight: 40
   bottom_guidelines:
     name: Resources
     identifier: resources
-    weight: 40
+    weight: 30
 ---
 
 Please find below resources concerning data management in form of training, guidance and tools. Use the left-hand filters in order to select type of resource, phase of the research data life cycle, and / or level of skill required in order to maximise the benefit of the resource. Click the button below to inform us of any relevant resources that are missing from this list.

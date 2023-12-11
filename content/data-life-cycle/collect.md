@@ -19,6 +19,7 @@ Please find below a selection of [SciLifeLab Genomics services](https://www.scil
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
     NGI
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseExample1">
@@ -41,6 +42,7 @@ Please find below a selection of [SciLifeLab Genomics services](https://www.scil
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
     ESCG
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseExample2">
@@ -61,6 +63,7 @@ Please find below a selection of [SciLifeLab Genomics services](https://www.scil
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
     MSCG
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseExample3">
@@ -87,6 +90,7 @@ Please find below a selection of <a href="https://www.scilifelab.se/services/inf
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
     ALM
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseExample4">
@@ -102,6 +106,7 @@ Please find below a selection of <a href="https://www.scilifelab.se/services/inf
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5">
     Cryo-EM
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseExample5">
@@ -127,6 +132,7 @@ Please find below a selection of <a href="https://www.scilifelab.se/services/inf
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6">
     SMC
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseExample6">
@@ -148,6 +154,7 @@ Please find below a selection of <a href="https://www.scilifelab.se/services/inf
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false" aria-controls="collapseExample7">
     Swedish NMR Centre
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseExample7">
@@ -174,6 +181,7 @@ Please find below a selection of [SciLifeLab Proteomics services](https://www.sc
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample8">
     Global Proteomics and Proteogenomics
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseExample8">
@@ -197,6 +205,7 @@ Please find below a selection of [SciLifeLab Proteomics services](https://www.sc
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample9" role="button" aria-expanded="false" aria-controls="collapseExample9">
     Chemical proteomics
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseExample9">
@@ -212,6 +221,7 @@ Please find below a selection of [SciLifeLab Proteomics services](https://www.sc
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample10" role="button" aria-expanded="false" aria-controls="collapseExample10">
     BioMS
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseExample10">

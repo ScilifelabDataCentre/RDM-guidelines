@@ -46,6 +46,7 @@ Click on the buttons below for specific information regarding suitable repositor
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
     European Nucleotide Archive
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseExample1">
@@ -72,6 +73,7 @@ Click on the buttons below for specific information regarding suitable repositor
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
     ArrayExpress
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseExample2">
@@ -86,6 +88,7 @@ Click on the buttons below for specific information regarding suitable repositor
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
     European Genome-phenome Archive
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseExample3">
@@ -100,6 +103,7 @@ Click on the buttons below for specific information regarding suitable repositor
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
     FEGA Sweden
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseExample4">
@@ -127,6 +131,7 @@ The [ProteomeXchange](http://www.proteomexchange.org/) Consortium provides globa
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6">
     PRIDE
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseExample6">
@@ -140,6 +145,7 @@ The [ProteomeXchange](http://www.proteomexchange.org/) Consortium provides globa
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false" aria-controls="collapseExample7">
     PeptideAtlas
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseExample7">
@@ -163,6 +169,7 @@ For datasets that do not fit into domain-specific repositories, use a general re
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample9" role="button" aria-expanded="false" aria-controls="collapseExample9">
     SciLifeLab Data Repository
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseExample9">
@@ -177,6 +184,7 @@ For datasets that do not fit into domain-specific repositories, use a general re
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample8">
     Zenodo
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseExample8">

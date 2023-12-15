@@ -35,6 +35,7 @@ A list of relevant data and metadata standards can be found in [FAIRsharing](htt
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
     Gene expression - Transcriptomics
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseExample1">
@@ -60,6 +61,7 @@ A list of relevant data and metadata standards can be found in [FAIRsharing](htt
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
     Gene expression - Microarray-based
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseExample2">
@@ -80,6 +82,7 @@ A list of relevant data and metadata standards can be found in [FAIRsharing](htt
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
     Genome-wide association studies (GWAS)
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseExample3">
@@ -101,6 +104,7 @@ A list of relevant data and metadata standards can be found in [FAIRsharing](htt
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
     Metagenomics
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseExample4">
@@ -126,6 +130,7 @@ Images and structural data cover a wide range of data types and thus metadata st
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5">
     X-ray diffraction
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseExample5">
@@ -141,6 +146,7 @@ Images and structural data cover a wide range of data types and thus metadata st
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6">
     Electron microscopy
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseExample6">
@@ -160,6 +166,7 @@ Images and structural data cover a wide range of data types and thus metadata st
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false" aria-controls="collapseExample7">
     NMR
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseExample7">
@@ -179,6 +186,7 @@ Images and structural data cover a wide range of data types and thus metadata st
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample8">
     Neutron scattering
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseExample8">

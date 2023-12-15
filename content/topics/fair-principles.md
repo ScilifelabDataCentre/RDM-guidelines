@@ -13,6 +13,7 @@ Data and metadata should be easy to find by both humans and computer systems. Ba
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseFind1" role="button" aria-expanded="false" aria-controls="collapseFind1">
     F1: Persistent identifier
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseFind1">
@@ -30,6 +31,7 @@ Data and metadata should be easy to find by both humans and computer systems. Ba
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseFind2" role="button" aria-expanded="false" aria-controls="collapseFind2">
     F2: Rich metadata
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseFind2">
@@ -47,6 +49,7 @@ Data and metadata should be easy to find by both humans and computer systems. Ba
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseFind3" role="button" aria-expanded="false" aria-controls="collapseFind3">
     F3: Include identifier
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseFind3">
@@ -64,6 +67,7 @@ Data and metadata should be easy to find by both humans and computer systems. Ba
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseFind4" role="button" aria-expanded="false" aria-controls="collapseFind4">
     F4: Searchable resource
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseFind4">
@@ -83,6 +87,7 @@ Data and metadata should be stored for the long term such that they can be easil
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseAccess1" role="button" aria-expanded="false" aria-controls="collapseAccess1">
     A1: Standardized communication protocol
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseAccess1">
@@ -100,6 +105,7 @@ Data and metadata should be stored for the long term such that they can be easil
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseAccess2" role="button" aria-expanded="false" aria-controls="collapseAccess2">
     A1.1: Open protocol
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseAccess2">
@@ -116,6 +122,7 @@ Data and metadata should be stored for the long term such that they can be easil
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseAccess3" role="button" aria-expanded="false" aria-controls="collapseAccess3">
     A1.2: Authentication
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseAccess3">
@@ -132,6 +139,7 @@ Data and metadata should be stored for the long term such that they can be easil
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseAccess4" role="button" aria-expanded="false" aria-controls="collapseAccess4">
     A2: Persistent metadata
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseAccess4">
@@ -151,6 +159,7 @@ Data should be ready to be exchanged, interpreted and combined in a (semi)automa
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseInterop1" role="button" aria-expanded="false" aria-controls="collapseInterop1">
     I1: Formal language
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseInterop1">
@@ -168,6 +177,7 @@ Data should be ready to be exchanged, interpreted and combined in a (semi)automa
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseInterop2" role="button" aria-expanded="false" aria-controls="collapseInterop2">
     I2: FAIR vocabularies
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseInterop2">
@@ -185,6 +195,7 @@ Data should be ready to be exchanged, interpreted and combined in a (semi)automa
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseInterop3" role="button" aria-expanded="false" aria-controls="collapseInterop3">
     I3: Include references
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseInterop3">
@@ -204,6 +215,7 @@ Data and metadata are sufficiently well-described to allow data to be reused in 
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseReuse1" role="button" aria-expanded="false" aria-controls="collapseReuse1">
     R1: Rich description
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseReuse1">
@@ -233,6 +245,7 @@ Data and metadata are sufficiently well-described to allow data to be reused in 
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseReuse2" role="button" aria-expanded="false" aria-controls="collapseReuse2">
     R1.1: License
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseReuse2">
@@ -250,6 +263,7 @@ Data and metadata are sufficiently well-described to allow data to be reused in 
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseReuse3" role="button" aria-expanded="false" aria-controls="collapseReuse3">
     R1.2: Provenance
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseReuse3">
@@ -267,6 +281,7 @@ Data and metadata are sufficiently well-described to allow data to be reused in 
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseReuse4" role="button" aria-expanded="false" aria-controls="collapseReuse4">
     R1.3: Community standards
+    <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseReuse4">

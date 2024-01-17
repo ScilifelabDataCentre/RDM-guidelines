@@ -10,7 +10,7 @@ toc: True
 This is a glossary where you find definitions of key terms in GDPR and the Swedish ethical review legislation.
 
 <div class="alert alert-warning" role="alert">
- Note that the term names and definitions represent our understanding of the legislation, and does not constitute legal advice in individal cases. Please consult the legal office of your university if you need assistance.
+ Note that the term names and definitions represent our understanding of the legislation, and do not constitute legal advice in individual cases. Please consult the legal office of your university if you need assistance.
 </div>
 
 
@@ -52,7 +52,7 @@ Data retention rules in the GDPR require any personal data that is collected or 
 
 *In Swedish:* registrerad
 
-Any individual person who can be identified, directly or indirectly, via an identifier such as a name, an ID number, location data, or via factors specific to the person's physical, physiological, genetic, mental, economic, cultural or social identity.
+Any person who can be identified, directly or indirectly, via an identifier such as a name, an ID number, location data, or via factors specific to the person's physical, physiological, genetic, mental, economic, cultural or social identity.
 
 -   https://gdpr-info.eu/art-4-gdpr/
 
@@ -114,7 +114,7 @@ Personal data processing must be protected by technical and other measures, depe
 
 -   https://www.imy.se/en/organisations/data-protection/this-applies-accordning-to-gdpr/information-security/
 
-### **lawful gound, legal basis**
+### **lawful ground, legal basis**
 
 *In Swedish:* rättslig grund
 

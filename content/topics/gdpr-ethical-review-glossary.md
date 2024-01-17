@@ -114,7 +114,7 @@ Personal data processing must be protected by technical and other measures, depe
 
 -   https://www.imy.se/en/organisations/data-protection/this-applies-accordning-to-gdpr/information-security/
 
-### **lawful ground, legal basis**
+### **lawful grounds, legal basis**
 
 *In Swedish:* rättslig grund
 

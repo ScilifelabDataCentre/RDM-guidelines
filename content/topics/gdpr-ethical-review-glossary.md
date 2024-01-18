@@ -52,7 +52,7 @@ Data retention rules in the GDPR require any personal data that is collected or 
 
 *In Swedish:* registrerad
 
-Any person who can be identified, directly or indirectly, via an identifier such as a name, an ID number, location data, or via factors specific to the person's physical, physiological, genetic, mental, economic, cultural or social identity.
+Any person that can be identified using an identifier, either directly or indirectly. Identifiers can comprise a name, an ID number, location data, or factors specific to the person's physical, physiological, genetic, mental, economic, cultural, or social identity.
 
 -   https://gdpr-info.eu/art-4-gdpr/
 

@@ -488,6 +488,17 @@
             "url": "https://data.scilifelab.se/resources/e-infrastructure/",
             "description": "Information page regarding compute resources related to hosting, simulation, and analysis that are available to researchers in Sweden. It contains information about the services the resources provide, and how to apply for access to them.",
             "provider": "SciLifeLab Data Platform"         
+        },
+        {
+            "title": "RDMkit on Data organisation",
+            "type": ["Guidance"],
+            "phase": ["Plan", "Collect", "Share"],
+            "topic": ["Metadata", "README files"],
+            "level": ["Basic"],
+            "url": "https://rdmkit.elixir-europe.org/data_organisation",
+            "description": "Best practice guidance regarding the task of organising data, in terms of naming files, file versioning, folder structure and file formats.",
+            "provider": "RDMkit",
+            "licence": "CC BY 4.0"
         }
     ]
 }

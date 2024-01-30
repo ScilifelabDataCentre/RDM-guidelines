@@ -1,5 +1,13 @@
-{{ if not .IsHome }}
-{{ with .Site.GetPage "section" "highlights" }}
+</div>{{ if .IsHome }}
+  <header class="header" style="background-image: url('/img/illustrations/circle_zoomed.png'); color: white; ">
+    <div class="container">
+      <div class="py-2 my-1">
+        {{ .Content }}
+      </div>
+    </div>
+  </header>
+{{ else }}
+{{ with .Site.GetPage "section" }}
 <header class="header"
   style="background-image: url('{{ if .Params.header_image }}{{ .Params.header_image }}{{ else }}/img/illustrations/bubble_matrix.png{{ end }}');">
   <div class="container">
@@ -17,9 +25,9 @@
 </header>
 {{ end }}
 {{ if .Parent }}
-<nav class="breadcrumbs pt-1 bg-light" aria-label="breadcrumb">
+<nav class="breadcrumbs pt-2 pb-2 bg-light sticky-top2" aria-label="breadcrumb">
   <div class="container">
-    <ol class="breadcrumb">
+    <ol class="breadcrumb ">
       {{ if .Parent.Parent }}
       {{ if .Parent.Parent.Parent }}
       {{ if .Parent.Parent.Parent.Parent }}

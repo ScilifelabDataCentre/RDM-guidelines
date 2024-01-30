@@ -42,18 +42,20 @@ SciLifeLab Data Repository
 
 Data that needs to be protected from unauthorised access may be deposited in a *controlled access repository*. In these repositories access will typically only be granted after a formal application procedure. When submitting any personal data for archiving and sharing in a controlled access repository, you must be sure that you have the legal right to do so.
 
-Here are two repositories for sharing and archiving data under controlled access:
+Here are some repositories for sharing and archiving data under controlled access:
 
 ### [European Genome-phenome Archive](https://ega-archive.org)
 This is a service for sharing personally identifiable genetic and phenotypic data resulting from biomedical research projects. The repository is hosted by the European Bioinformatics Institute (EMBL-EBI) and the Centre for Genomic Regulation (CRG). Any data submitted to the repository is subject to controlled access, which means that access to the data only will be granted after a formal application procedure.
 
 ### [FEGA Sweden](https://fega.nbis.se/)
-This is a repository for storing and sharing personal identifiable genetic and phenotypic data in Sweden in a way that meets the requirements of the General Data Protection Regulation (GDPR). It is part of a federation of national nodes, [Federated European Genome-phenome Archive](https://ega-archive.org/federated), which is tightly connected to the European Genome-phenome Archive (EGA). FEGA Sweden is not yet operational, but researchers may express their interest in depositing data to the repository by filling in [a web form](https://nbis.se/support/supportform/index.php#sdaform).
+This is a repository for storing and sharing personal identifiable genetic and phenotypic data in Sweden in a way that meets the requirements of the General Data Protection Regulation (GDPR). It is part of a federation of national nodes, [Federated European Genome-phenome Archive](https://ega-archive.org/federated), which is tightly connected to the European Genome-phenome Archive (EGA). FEGA Sweden is not yet operational, but researchers may express their interest in depositing data to the repository by filling in [a web form](https://fega.nbis.se/submission/submission-request.html).
 
 <div class="alert alert-warning" role="alert">
 <b>Do you plan to submit data to FEGA Sweden?</b> While waiting for the repository to become operational, you may want to create a metadata record in SciLifeLab Data Repository (see below). This will give you a DOI to put in your research article. Once your data has been released in FEGA Sweden, our data management support team will help you update your metadata record with appropriate information.
 </div>
 
+### [AIDA Data Hub](https://datahub.aida.scilifelab.se/)
+This platform is part of the [Analytic Imaging Diagnostics Arena (AIDA)](https://medtech4health.se/aida/) and NBIS/SciLifeLab. It provides Data Sharing, Policy Support, and Services for researchers in Swedish medical imaging AI, and facilitates sharing of FAIR medical imaging research data for Open Science. The [AIDA Data Sharing Policy](https://datahub.aida.scilifelab.se/sharing/) is a comprehensive resource developed by ~50 AIDA partners in healthcare, industry, and academia, which includes legal analyses, best practices, and practical instructions for how to carry out ethically and legally correct sharing of sensitive personal data such as medical images in Sweden and similar countries. The [AIDA Dataset Register](https://datahub.aida.scilifelab.se/datasets/) provides Digital Object Identifiers (DOI) and landing pages for the datasets that have been shared on the AIDA Data Hub.
 
 ## If data cannot be deposited in a repository
 
@@ -94,12 +96,12 @@ To let us handle access requests to your data, you need to take the following st
 4. In your manuscript add a section on Data Availability and make sure it includes information on where to go for requesting access to the data. You could for example write the following in your manuscript:
 > The data is deposited on a secure Swedish server and has been assigned a DOI (XXX). Data access requests may be submitted to the Science for Life Laboratory Data Centre through the DOI link.
 5. When a user applies for access to [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se), the application will be vetted and you will be contacted by us. Then you can make a decision on access approved or denied. Ideally, you can (should) delegate this decision to an independent Data Access Committee (DAC).
-6. When a user has been approved for access, SciLifeLab Data Centre will document the processing and arrange for the physical file access. Until FEGA Sweden is up and running, the physical file access will be that you, as a PI, copies the dataset from your Bianca project space, to the specified project space of the approved applicant. Because of SNIC user policy, only PIs at a Swedish academic institution can have a project at Bianca. So to share data with a collaborator outside Sweden, the PI in Sweden needs to have applied for a project at Bianca. Please see the [Bianca user guide](https://www.uppmax.uu.se/support/user-guides/bianca-user-guide/) for information on how to do this.
+6. When a user has been approved for access, SciLifeLab Data Centre will document the processing and arrange for the physical file access. Until FEGA Sweden is up and running, the physical file access will be that you, as a PI, copies the dataset from your Bianca project space, to the specified project space of the approved applicant. Because of NAISS user policy, only PIs at a Swedish academic institution can have a project at Bianca. So to share data with a collaborator outside Sweden, the PI in Sweden needs to have applied for a project at Bianca. Please see the [Bianca user guide](https://www.uppmax.uu.se/support/user-guides/bianca-user-guide/) for information on how to do this.
 7. SciLifeLab Data Centre will keep track of current and expired approvals.
 
 If you need any help connected to data submission, please [contact us](../../contact/)!
 
 ## Resources
+Please find below resources concerning research involving human data in form of training, guidance and/or tools.
 
-* [RDMkit on Human data](https://rdmkit.elixir-europe.org/human_data)
-* [SciLifeLab Data Repository Metadata record tutorial](https://www.youtube.com/watch?v=_y09LCpLl9A&list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS&index=5) (video)
+{{< resources-per-page-topics >}}

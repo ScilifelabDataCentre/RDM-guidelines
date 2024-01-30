@@ -1,5 +1,6 @@
 ---
 title: Preserving phase
+phase: Preserve
 contributors: []
 toc: True
 ---
@@ -7,7 +8,10 @@ toc: True
 # Preserve
 After the project is finished, the data needs to be stored in a backed-up fashion at least for 10 years, and for as long as the data is of scientific value. After this time, some of the data should be archived and some can be disposed. It is best to contact your [university](/topics/university-rdm-resources) for information about the procedures for this.
 
-[SNIC](https://www.snic.se/allocations/storage/) offers storage for small and medium-sized datasets. In the future also large-sized storage will be offered.
+## Storage
+[NAISS](https://supr.naiss.se/round/storage/) offers storage for small and medium-sized datasets. In the future also large-sized storage will be offered. SciLifeLab offers storage resources to support data-driven life science, they are collectively referred to as [SciLifeLab FAIR Storage](https://data.scilifelab.se/services/fairstorage/).
 
 ## Resources
-* [RDMkit on Preserving Data](https://rdmkit.elixir-europe.org/preserving)
+Please find below resources concerning the research data life cycle phase preserve in form of training, guidance and/or tools.
+
+{{< resources-per-page-phases >}}

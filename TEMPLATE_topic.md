@@ -1,11 +1,14 @@
 ---
 title: <!-- add title -->
-category: <!-- add category -->
+contributors: []
 toc: True
 ---
 
 # <!-- Title -->
 
 
-<!-- ## Resources & Training
-* -->
+<!-- ## Resources
+Please find below resources concerning --add title/topic--- in form of training, guidance and/or tools.
+
+{{< resources-per-page-topics >}}
+ -->

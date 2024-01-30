@@ -17,7 +17,7 @@ SciLifeLab Data Management Support offers tools, guidance, training and hands-on
 We support various RDM aspects, such as publishing data in repositories, sharing data and code, writing data management plans (DMPs), guidance on working with sensitive human data, guidance on implementing the FAIR principles and adhering to Open Science and much more.
 
 <h3><b>Want expert advice or hands-on support?</b></h3>
-<p class="card-text">We offer consultations and support on all aspects of data management to researchers and research infrastructures in Swedish life science research. Contact our team via email, <a href = "mailto:data-management@scilifelab.se">data-management@scilifelab.se</a>, or the contact form for expert advise on setting up DMPs, sharing data, choosing repositories etc.</p>
+<p class="card-text">We offer <b>free</b> consultations and support on all aspects of data management to researchers and research infrastructures in Swedish life science research. Contact our team via email, <a href = "mailto:data-management@scilifelab.se">data-management@scilifelab.se</a>, or the contact form for expert advise on setting up DMPs, sharing data, choosing repositories etc.</p>
 <a href="/contact/"><b>Contact form to get support <i class="bi bi-arrow-right-square-fill"></i></b></a>
 <br><br><br>
 
@@ -46,7 +46,7 @@ To the right you can find a digital flyer about the SciLifeLab Data Management S
 </div>
   <div class="col-md-2 offset-md-1">
     <div class="card-body p-2 pb-0">
-    <ul><a href="/files/SciLifeLab_Data_Management_Support_flyer_2023-04-26.pdf"><img src="/img/SciLifeLab_Data_Management_Support_flyer_2023-04-26-page-001.jpg"class="img-fluid"><br><br>Digital flyer</a>
+    <ul><a href="/files/SciLifeLab_Data_Management_Support_flyer_2023-09-01.pdf"><img src="/img/SciLifeLab_Data_Management_Support_flyer_2003-09-01-page-001.jpg"class="img-fluid"><br><br>Digital flyer</a>
     <br></ul>
     </div>
   </div>

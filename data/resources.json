@@ -31,7 +31,7 @@
             "provider": "SND"
         },
         {
-            "title": "ELSI checklist in DSW",
+            "title": "ELSI checklist in Data Stewardship Wizard",
             "type": ["Tool"],
             "phase": ["Plan"],
             "topic": ["Research involving human data"],
@@ -130,7 +130,7 @@
             "provider": "EBI"
         },
         {
-            "title": "RDMkit on Reusing Data",
+            "title": "RDMkit on Reusing data",
             "type": ["Guidance"],
             "phase": ["Reuse"],
             "level": ["Basic"],
@@ -140,7 +140,7 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "RDMkit on Existing Data",
+            "title": "RDMkit on Existing data",
             "type": ["Guidance"],
             "phase": ["Reuse"],
             "level": ["Basic"],
@@ -159,7 +159,7 @@
             "provider": "Google"
         },
         {
-            "title": "RDMkit on Preserving Data",
+            "title": "RDMkit on Preserving data",
             "type": ["Guidance"],
             "phase": ["Preserve"],
             "level": ["Basic"],
@@ -169,7 +169,7 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "RDMkit on Sharing Data",
+            "title": "RDMkit on Sharing data",
             "type": ["Guidance"],
             "phase": ["Share"],
             "level": ["Basic"],
@@ -199,7 +199,7 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "RDMkit on Analysing Data",
+            "title": "RDMkit on Analysing data",
             "type": ["Guidance"],
             "phase": ["Analyse"],
             "level": ["Basic"],
@@ -248,7 +248,7 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "RDMkit on Processing Data",
+            "title": "RDMkit on Processing data",
             "type": ["Guidance"],
             "phase": ["Process"],
             "level": ["Basic"],
@@ -258,7 +258,7 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "RDMkit on Data Quality",
+            "title": "RDMkit on Data quality",
             "type": ["Guidance"],
             "phase": ["Collect","Process"],
             "level": ["Basic"],
@@ -298,7 +298,7 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "SciLifeLab DS Wizard - A short introduction",
+            "title": "SciLifeLab Data Stewardship Wizard - A short introduction",
             "type": ["Guidance"],
             "phase": ["Plan"],
             "level": ["Basic"],
@@ -315,7 +315,7 @@
             "description": "Video presentation of what sections a data management plan consists of.",
             "provider": "SciLifeLab"
         },
-        {"title": "RDMkit on Collecting Data",
+        {"title": "RDMkit on Collecting data",
             "type": ["Guidance"],
             "phase": ["Collect"],
             "level": ["Basic"],
@@ -344,7 +344,7 @@
             "provider": "RDMkit",
             "licence": "CC BY 4.0"
         },
-        {"title": "SciLifeLab DS Wizard",
+        {"title": "SciLifeLab Data Stewardship Wizard (DSW)",
             "type": ["Tool"],
             "phase": ["Plan"],
             "level": ["Basic"],

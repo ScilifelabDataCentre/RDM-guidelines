@@ -31,7 +31,7 @@
             "provider": "SND"
         },
         {
-            "title": "ELSI checklist in DSW",
+            "title": "ELSI checklist in Data Stewardship Wizard",
             "type": ["Tool"],
             "phase": ["Plan"],
             "topic": ["Research involving human data"],
@@ -298,7 +298,7 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "SciLifeLab DS Wizard - A short introduction",
+            "title": "SciLifeLab Data Stewardship Wizard - A short introduction",
             "type": ["Guidance"],
             "phase": ["Plan"],
             "level": ["Basic"],
@@ -344,7 +344,7 @@
             "provider": "RDMkit",
             "licence": "CC BY 4.0"
         },
-        {"title": "SciLifeLab DS Wizard",
+        {"title": "SciLifeLab Data Stewardship Wizard (DSW)",
             "type": ["Tool"],
             "phase": ["Plan"],
             "level": ["Basic"],

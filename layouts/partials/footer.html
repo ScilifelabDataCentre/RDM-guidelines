@@ -5,7 +5,7 @@
         <h4>Guidelines</h4>
         <ul class="list-unstyled text-small">
           {{ range .Site.Menus.bottom_guidelines }}
-          <li class="mb-1"><a class="link-secondary text-decoration-none"
+          <li class="mb-1"><a class="small-text-link"
               href="{{ .Page.RelPermalink }}">{{ .Title }}</a></li>
           {{ end }}
         </ul>
@@ -14,7 +14,7 @@
         <h4>Quick links</h4>
         <ul class="list-unstyled text-small">
           {{ range .Site.Menus.bottom_about }}
-          <li class="mb-1"><a class="link-secondary text-decoration-none"
+          <li class="mb-1"><a class="small-text-link"
               href="{{ .Page.RelPermalink }}">{{ .Name }}</a></li>
           {{ end }}
         </ul>
@@ -40,19 +40,19 @@
       </div>
     </div>
     <div class="row mt-3 mt-md-0">
-      <div class="col py-1 text-muted">
+      <div class="col py-1">
         <p>If you notice anything that isn’t up to date, or want to suggest an addition, then please get in touch using
-          our <a href="/contact/">contact form</a> or <a href="mailto:data-management@scilifelab.se">email us</a>.</p>
+          our <a class="small-text-link" href="/contact/">contact form</a> or <a class="small-text-link" href="mailto:data-management@scilifelab.se">email us</a>.</p>
       </div>
     </div>
     <div class="row">
-      <div class="col py-1 small text-muted">
-        <span><a href="/privacy">Privacy policy</a> | <a href="https://github.com/ScilifelabDataCentre/RDM-guidelines">
+      <div class="col py-1 small">
+        <span><a class="small-text-link" href="/privacy">Privacy policy</a> | <a class="small-text-link" href="https://github.com/ScilifelabDataCentre/RDM-guidelines">
             Website code on GitHub</a> | The content of
-            <a rel="dct:publisher"
+            <a class="small-text-link" rel="dct:publisher"
                href="data-guidelines.scilifelab.se">data-guidelines.scilifelab.se</a>
             is published under a CC0 licence
-            <a rel="license"
+            <a class="small-text-link"rel="license"
                  href="http://creativecommons.org/publicdomain/zero/1.0/">
                 <img src="https://licensebuttons.net/p/zero/1.0/80x15.png" style="border-style: none;" alt="CC0" />
             </a>if not otherwise noted.

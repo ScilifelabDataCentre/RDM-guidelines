@@ -64,6 +64,16 @@ h5 a:hover {
   font-weight: bold;
 }
 
+.card-body-style {
+  color: black;
+  text-decoration: none;
+}
+
+.card-body-style:hover {
+  color: black;
+  text-decoration: none;
+}
+
 h1 {
   font-size: 2rem;
   margin-top: 0.67em;
@@ -294,9 +304,14 @@ html {
   background-color: rgba(4, 92, 100, 0.25) !important;
 }
 
-/* Calls & Jobs block for the homepage */
+/* Jobs block for the homepage */
 .job {
   background-color: rgba(76, 151, 159, 0.25) !important;
+}
+
+/* Calls block for the homepage */
+.call {
+  background-color: rgba(4, 92, 100, 0.25) !important;
 }
 
 /* Events & Training block for the homepage */

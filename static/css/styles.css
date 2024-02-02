@@ -26,8 +26,9 @@ blockquote {
 }
 
 a {
-    color: #4C979F;
-    text-decoration: none;
+    color: #045c64;
+    text-decoration: underline;
+    text-underline-offset: 3.2px;
 }
 
 a:hover,
@@ -35,6 +36,20 @@ a:focus,
 a:active {
   color: #045c64;
   text-decoration: underline;
+}
+
+li a {
+  color: #045c64;
+  text-decoration: none;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a {
+  color: #4c979f;
+  text-decoration: none;
 }
 
 h2 a:hover,
@@ -118,6 +133,15 @@ h6 {
 
 .btn-aqua:hover {
   color: #3f3f3f;
+}
+
+.btn-teal {
+  color: #fff;
+  background-color: #045c64;
+}
+
+.btn-teal:hover {
+  color: #a7c947;
 }
 
 #btn-back-to-top {
@@ -319,6 +343,6 @@ html {
 }
 
 .event-type {
-  background-color: #a48fa9;
+  background-color: #491f53;
   color: white;
 }

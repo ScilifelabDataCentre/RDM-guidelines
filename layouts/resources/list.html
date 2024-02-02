@@ -6,13 +6,13 @@
 </section>
 
 <section>
-  <div class="modal fade" id="suggestionModal" tabindex="-1" aria-labelledby="suggestionModalLabel" aria-hidden="true">
+  <div class="modal fade" id="suggestionModal" tabindex="-1" aria-labelledby="suggestionModal" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <form action="https://forms.dckube.scilifelab.se/api/v1/form/M5GfePAbHxkPdIph/incoming" class="needs-validation"
           novalidate method="POST" accept-charset="utf-8">
           <div class="modal-body">
-            <input type="url" id="originUrl" name="originUrl" value="" hidden />
+            <input type="url" id="originUrl" name="originUrl" aria-labelledby="originUrl" value="" hidden />
           </div>
         </form>
       </div>
@@ -20,7 +20,7 @@
   </div>
 </section>
 
-<section><div><a class="btn btn-aqua" href="/contact/">Inform us of other resources</a></div></section>
+<section><div><a class="btn btn-teal" href="/contact/">Inform us of other resources</a></div></section>
 
 {{ $resource_type := slice }}
 {{ $level := slice }}
@@ -86,7 +86,7 @@
           <div class="d-flex justify-content-between">
             <div>
               {{ range .type }}<span class="badge event-type mb-1 me-1">{{ . }}</span>{{ end }}
-              <h3><a class="" role="button" data-bs-toggle="modal"
+              <h3><a class="small-text-link" role="button" data-bs-toggle="modal"
                   data-bs-target="#descriptionModal{{ $ind }}">{{ .title }}</a></h3>
             </div>
             <div>
@@ -104,7 +104,7 @@
                 See details
               </button>
               <div class="modal fade" id="descriptionModal{{ $ind }}" tabindex="-1"
-                aria-labelledby="descriptionModalLabel{{ $ind }}" aria-hidden="true">
+                aria-labelledby="descriptionModal{{ $ind }}" aria-hidden="true">
                 <div class="modal-dialog modal-lg">
                   <div class="modal-content">
                     <div class="modal-header">

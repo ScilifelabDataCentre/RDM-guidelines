@@ -46,7 +46,7 @@ To the right you can find a digital flyer about the SciLifeLab Data Management S
 </div>
   <div class="col-md-2 offset-md-1">
     <div class="card-body p-2 pb-0">
-    <ul><a href="/files/SciLifeLab_Data_Management_Support_flyer_2023-09-01.pdf"><img src="/img/SciLifeLab_Data_Management_Support_flyer_2003-09-01-page-001.jpg"class="img-fluid"><br><br>Digital flyer</a>
+    <ul><a href="/files/SciLifeLab_Data_Management_Support_flyer_2023-09-01.pdf"><img src="/img/SciLifeLab_Data_Management_Support_flyer_2003-09-01-page-001.jpg" alt="Support flyer" class="img-fluid"><br><br>Digital flyer (PDF)</a>
     <br></ul>
     </div>
   </div>

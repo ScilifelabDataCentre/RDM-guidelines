@@ -31,4 +31,4 @@ The research data life cycle can be divided into several phases as seen in the w
 </div>
 <br><br><br>
 
-<p>RDM life cycle from <a class="small-text-link" href="https://rdmkit.elixir-europe.org/">RDMkit</a> licensed under <a class="small-text-link" href="http://creativecommons.org/licenses/by/4.0/">CreativeCommons Attribution 4.0 International License</a>. </p>
+<p>RDM life cycle from <a href="https://rdmkit.elixir-europe.org/">RDMkit</a> licensed under <a href="http://creativecommons.org/licenses/by/4.0/">CreativeCommons Attribution 4.0 International License</a>. </p>

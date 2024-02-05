@@ -38,9 +38,9 @@ a:active {
   text-decoration: underline;
 }
 
-li a {
+.toc-style a {
   color: #045c64;
-  text-decoration: none;
+  text-decoration: none;  
 }
 
 h1 a,
@@ -59,9 +59,30 @@ h5 a:hover {
   text-decoration: none;
   color: #045c64;
 }
-.small-text-link {
+.footer-link {
   color: #045c64;
   font-weight: bold;
+  text-decoration: none;
+}
+
+.small-side-header {
+  font-size: 1rem;
+  margin-top: 1.33em;
+}
+
+.resources-header-black {
+  color: black;
+  font-size: 1.17rem;
+  margin-top: 1em;
+}
+
+.resources-header-teal {
+  color: #045c64;
+  font-size: 1.17rem;
+  font-weight: bold;
+  margin-top: 1.33rem;
+  margin-bottom: 1.33rem;
+  text-decoration: none;
 }
 
 .card-body-style {

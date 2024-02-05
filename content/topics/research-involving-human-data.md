@@ -93,7 +93,7 @@ Before embarking on a new project, consider the following:
 * Have Data Protection Impact Assessments ([DPIA](#data-protection-impact-assessment-dpia)) been performed for the personal data?
 * What is there to show that the individuals concerned have given their consent?
   * Inform in a transparent and honest way
-* What happens with the data [after project completion](#repositories-for-publishing-human-data)?
+* What happens with the data [after project completion](#sharing-human-data)?
   * How long will the collected data be kept? Erase the data when they are no longer needed.
 
 

@@ -41,7 +41,7 @@
 <section>
   <div class="row mt-3 mb-5">
     <div class="col-lg-2" id="resource-filters">
-      <h3>Type</h3>
+      <div class="resources-header-black">Type</div>
       {{ range sort $resource_type }}
         <div class="form-check">
           <input class="form-check-input" type="checkbox" id="{{ . }}" name="type" value="{{ delimit (split . " ") "-" | lower }}">
@@ -49,7 +49,7 @@
         </div>
       {{ end }}
 
-      <h3 class="mt-3">Phase</h3>
+      <div class="resources-header-black">Phase</div>
       {{ range sort $phase }}
         <div class="form-check">
           <input class="form-check-input" type="checkbox" id="{{ . }}" name="phase" value="{{ delimit (split . " ") "-" | lower }}">
@@ -57,7 +57,7 @@
         </div>
       {{ end }}
 
-      <h3>Level</h3>
+      <div class="resources-header-black">Level</div>
       {{ range sort $level }}
         <div class="form-check">
           <input class="form-check-input" type="checkbox" id="{{ . }}" name="level" value="{{ delimit (split . " ") "-" | lower }}">
@@ -85,13 +85,13 @@
         <div class="p-3 border rounded h-100">
           <div class="d-flex justify-content-between">
             <div>
-              {{ range .type }}<span class="badge event-type mb-1 me-1">{{ . }}</span>{{ end }}
-              <h3><a class="small-text-link" role="button" data-bs-toggle="modal"
-                  data-bs-target="#descriptionModal{{ $ind }}">{{ .title }}</a></h3>
+              {{ range .type }}<span class="badge event-type mb-1 me-1">{{ . }}</span>{{ end }}<br><br>
+              <a class="resources-header-teal" role="button" data-bs-toggle="modal"
+                  data-bs-target="#descriptionModal{{ $ind }}">{{ .title }}</a>
             </div>
-            <div>
-            </div>
-          </div>
+          <div>
+        </div>
+      </div>
           {{ if .provider }}<div class="row">
             <div class="col">
               <b>Content provider:</b> {{.provider}}
@@ -108,7 +108,7 @@
                 <div class="modal-dialog modal-lg">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h3 class="modal-title" id="descriptionModalLabel">{{ .title }}</h3>
+                      <div class="resources-header-black modal-title" id="descriptionModalLabel">{{ .title }}</div>
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">

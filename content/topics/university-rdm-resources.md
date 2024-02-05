@@ -36,7 +36,7 @@ Most often there are information resources at your university regarding research
     <tr>
       <td><a href="https://www.kth.se/en/biblioteket/publicera-analysera/hantera-forskningsdata/">KTH Royal Institute of Technology</a></td>
       <td><a href = "mailto:researchdata@kth.se">researchdata@kth.se</a></td>
-      <td><a href="https://intra.kth.se/polopoly_fs/1.1037531.1608134528!/Guidelines-on-managing-research-data.pdf">Guidelines on managing research data</a></td>
+      <td><a href="https://intra.kth.se/polopoly_fs/1.1037531.1608134528!/Guidelines-on-managing-research-data.pdf">Guidelines on managing research data</a> (PDF)</td>
     </tr>
     <tr>
       <td><a href="https://ep.liu.se/en/datamanagement.aspx">Linköping University</td>
@@ -46,7 +46,7 @@ Most often there are information resources at your university regarding research
     <tr>
       <td><a href="https://lnu.se/en/medarbetare/researcher/researcher5/research-data/">Linnaeus University</td>
       <td><a href = "mailto:dau@lnu.se">dau@lnu.se</a></td>
-      <td><a href="https://lnu.se/globalassets/dokument---gemensamma/bibliotek/sektion-publicering/policy-for-hantering-av-forskningsdata.pdf">Research data policy (in swedish)</a></td>
+      <td><a href="https://lnu.se/globalassets/dokument---gemensamma/bibliotek/sektion-publicering/policy-for-hantering-av-forskningsdata.pdf">Research data policy (in swedish)</a> (PDF)</td>
     </tr>
     <tr>
       <td><a href="https://www.lub.lu.se/en/services-and-support/research-data/contacts-and-research-data-initiatives">Lund University</a></td>
@@ -66,7 +66,7 @@ Most often there are information resources at your university regarding research
     <tr>
       <td><a href="https://www.umu.se/en/library/research-data/">Umeå University</a></td>
       <td><a href="https://www.umu.se/en/library/research-data/organisation-and-contacts/">Contact page</a></td>
-      <td><a href="https://www.umu.se/globalassets/fristaende-webbar/regelverk/forskning/forskningsdatapolicy_umu_rektor_210309_eng_checked_210309.pdf">Research data policy</a></td>
+      <td><a href="https://www.umu.se/globalassets/fristaende-webbar/regelverk/forskning/forskningsdatapolicy_umu_rektor_210309_eng_checked_210309.pdf">Research data policy</a> (PDF)</td>
     </tr>
     <tr>
       <td><a href="https://medarbetarportalen.gu.se/service-stod/hantering-av-forskningsdata/?languageId=100001">University of Gothenburg</a></td>
@@ -87,7 +87,7 @@ Most often there are information resources at your university regarding research
   </table>
 </div>
 
-For other sites, the Swedish National Data Service ([SND](https://snd.gu.se/en)) network is listed [here](https://snd.gu.se/en/about-us/snd-network).
+See the Swedish National Data Service ([SND](https://snd.gu.se/en)) network for [other sites](https://snd.gu.se/en/about-us/snd-network).
 
 ## Data Protection Officers
 

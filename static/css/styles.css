@@ -382,3 +382,18 @@ html {
   background-color: #491f53;
   color: white;
 }
+
+.event-type-grape {
+  background-color: #491f53;
+  color: white;
+}
+
+.event-type-teal {
+  background-color: #045c64;
+  color: white;
+}
+
+.event-type-grey {
+  background-color: #3f3f3f;
+  color: white;
+}

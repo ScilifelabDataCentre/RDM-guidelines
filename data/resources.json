@@ -1,5 +1,24 @@
 {
     "items": [
+        {"title": "RDMkit on Your role",
+            "type": ["Guidance"],
+            "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse"],
+            "topic": ["What is Research Data Management"],
+            "level": ["Basic"],
+            "url": "https://rdmkit.elixir-europe.org/your_role",
+            "description": "Best practice guidance regarding the different roles a professional can have in research data management.",
+            "provider": "RDMkit",
+            "licence": "CC BY 4.0"
+        },
+        {
+            "title": "NBIS course catalogue",
+            "type": ["Training"],
+            "phase": ["Analyse"],
+            "level": ["Basic", "Intermediate", "Advanced"],
+            "url": "https://uppsala.instructure.com/courses/48087/pages/nbis-training-catalogue",
+            "description": "The NBIS training catalogue.",
+            "provider": "NBIS"
+        },        
         {
             "title": "Keynote: First FAIR steps, Rob Hooft",
             "type": ["Guidance"],
@@ -229,15 +248,6 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "NBIS course catalogue",
-            "type": ["Training"],
-            "phase": ["Analyse"],
-            "level": ["Basic", "Intermediate", "Advanced"],
-            "url": "https://uppsala.instructure.com/courses/48087/pages/nbis-training-catalogue",
-            "description": "The NBIS training catalogue.",
-            "provider": "NBIS"
-        },
-        {
             "title": "Data organisation module",
             "type": ["Training"],
             "phase": ["Collect"],
@@ -331,16 +341,6 @@
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/data_transfer.html",
             "description": "Best practice guidance regarding the task of transferring data.",
-            "provider": "RDMkit",
-            "licence": "CC BY 4.0"
-        },
-        {"title": "RDMkit on Your role",
-            "type": ["Guidance"],
-            "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse"],
-            "topic": ["What is Research Data Management"],
-            "level": ["Basic"],
-            "url": "https://rdmkit.elixir-europe.org/your_role",
-            "description": "Best practice guidance regarding the different roles a professional can have in research data management.",
             "provider": "RDMkit",
             "licence": "CC BY 4.0"
         },

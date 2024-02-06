@@ -27,8 +27,10 @@
 {{ $phase := slice }}
 {{ $open_resources := slice }}
 {{ $level := slice }}
-{{ range sort $.Site.Data.resources.items ".title" "asc" }}
-    {{ $open_resources = $open_resources | append . }}
+<!-- Go through all resources without sorting, collect type, phase & level.
+A dirty fix in order to obtain phase and levels in 'right' order, that 
+requires that the first 2 resources in resources.json always is the same as now. --> 
+{{ range $.Site.Data.resources.items }}
     {{ $resource_type = $resource_type | append .type }}
     {{ $level = $level | append .level }}
     {{ $phase = $phase | append .phase }}
@@ -36,6 +38,10 @@
 {{ $resource_type = $resource_type | uniq }}
 {{ $level = $level | uniq }}
 {{ $phase = $phase | uniq }}
+<!-- Collect and sort all resources on title -->
+{{ range sort $.Site.Data.resources.items ".title" "asc" }}
+    {{ $open_resources = $open_resources | append . }}
+{{ end }}
 
 {{ if ge (len $open_resources) 1 }}
 <section>
@@ -50,7 +56,7 @@
       {{ end }}
 
       <div class="resources-header-black">Phase</div>
-      {{ range sort $phase }}
+      {{ range $phase }}
         <div class="form-check">
           <input class="form-check-input" type="checkbox" id="{{ . }}" name="phase" value="{{ delimit (split . " ") "-" | lower }}">
           <label class="form-check-label" for="{{ . }}">{{ . }}</label>
@@ -58,7 +64,7 @@
       {{ end }}
 
       <div class="resources-header-black">Level</div>
-      {{ range sort $level }}
+      {{ range $level }}
         <div class="form-check">
           <input class="form-check-input" type="checkbox" id="{{ . }}" name="level" value="{{ delimit (split . " ") "-" | lower }}">
           <label class="form-check-label" for="{{ . }}">{{ . }}</label>

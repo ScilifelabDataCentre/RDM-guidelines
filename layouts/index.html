@@ -79,7 +79,7 @@
             <h2>Get Support</h2>
             <p class="card-text">Do you need support with research data management?<br><br>We offer support to anyone
               involved in life science research that is affiliated with a Swedish university or research institute.
-              <br><br></p>
+              <br></p>
             <div class="row">
               <b>Go to support page <i class="bi bi-arrow-right-circle-fill"></i></b><br>
             </div>
@@ -99,7 +99,7 @@
           <h3>{{ .Title }}</h3>
           {{ if eq .Params.category "event"}}
           <h2><a href={{ .Params.update_url }}>{{ .Params.Theme }}</a></h2>
-          <p class="card-text">{{ .Description }}<br><br>Next date: {{ .Params.date_start | time.Format ":date_medium" }}</p>
+          <p class="card-text">{{ .Description }}<br>Next date: {{ .Params.date_start | time.Format ":date_medium" }}</p>
           {{else }}
           <p class="card-text">{{ .Description }}</p>
           {{ end }}
@@ -115,7 +115,7 @@
       <a class="card-body-style" href="https://data.scilifelab.se/events/">
         <h2>Events & Training</h2>
         <p class="card-text">Upcoming conferences, webinars, workshops, and training opportunities in Sweden related to data-driven life science can be found on the SciLifeLab Data Platform.
-        <br><br></p>
+        <br></p>
         <div class="row">
           <b>Go to Events & Training on the Data Platform <i class="bi bi-arrow-right-circle-fill"></i></b><br>
         </div>

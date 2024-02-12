@@ -176,7 +176,7 @@ h6 {
 }
 
 .btn-teal:hover {
-  color: #a7c947;
+  color: #fff;
 }
 
 #btn-back-to-top {
@@ -407,3 +407,22 @@ html {
   color: black;
 }
 
+.event-type-lh-grape {
+  background-color: #d2c7d4;
+  color: black;
+}
+
+.event-type-lh-teal {
+  background-color: #c0d6d8;
+  color: black;
+}
+
+.event-type-lh-grey {
+  background-color: #e5e5e5;
+  color: black;
+}
+
+.event-type-lh-lime {
+  background-color: #e9f2d1;
+  color: black;
+}

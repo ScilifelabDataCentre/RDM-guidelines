@@ -92,9 +92,9 @@ requires that the first 2 resources in resources.json always is the same as now.
           <div class="d-flex justify-content-between">
             <div>
               {{ range .type }} 
-              {{ if eq . "Tool"}}<span class="badge event-type-grey mb-1 me-1">{{ . }}</span>             
-              {{ else if eq . "Guidance"}}<span class="badge event-type-grape mb-1 me-1">{{ . }}</span>
-              {{ else if eq . "Training"}}<span class="badge event-type-teal mb-1 me-1">{{ . }}</span>
+              {{ if eq . "Tool"}}<span class="badge event-type-lh-grey mb-1 me-1">{{ . }}</span>             
+              {{ else if eq . "Guidance"}}<span class="badge event-type-lh-lime mb-1 me-1">{{ . }}</span>
+              {{ else if eq . "Training"}}<span class="badge event-type-lh-teal mb-1 me-1">{{ . }}</span>
               {{ else }} <span class="badge event-type mb-1 me-1">{{ . }}</span>
               {{ end }}     
               {{ end }}<br><br>

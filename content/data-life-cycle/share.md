@@ -55,7 +55,7 @@ Click on the buttons below for specific information regarding suitable repositor
   The <a href="https://www.ebi.ac.uk/ena">European Nucleotide Archive</a> hosts an instance of the Sequence Read Archive (SRA), the same archive that exists on NCBI. SRA accepts raw sequence data from any sequencing platform, generated in any research project. There are several ways to <a href="https://www.ebi.ac.uk/ena/submit">submit</a> data to ENA, for more information see the <a href="https://ena-docs.readthedocs.io/en/latest/">documentation</a>. We also recommend the following two specialised guidelines:
   <ul>
   <li><a href="https://biodiversitydata-se.github.io/mol-data/index.html">Guide for submission of metabarcoding data to ENA</a> provided by the Swedish Biodiversity Data Infrastructure (<a href="https://biodiversitydata.se/">SBDI</a>)</li>
-    <li><a href="https://covid19dataportal.se/support_services/tutorial_ena/tutorial_ena_intro/">Tutorial for SARS-CoV-2 genome data submission to ENA</a> provided by the <a href="https://covid19dataportal.se/">Swedish Covid-19 Data Portal</a></li>
+    <li><a href="https://www.pathogens.se/support_services/tutorial_ena/tutorial_ena_intro/">Tutorial for SARS-CoV-2 genome data submission to ENA</a> provided by the <a href="https://www.pathogens.se/">Swedish Pathogens Portal</a></li>
   </ul>
 
   For convenience, we have created templates for the most frequent data types and their corresponding <a href="https://www.ebi.ac.uk/ena/browser/checklists">ENA checklists</a>. The templates come with instructions on how to do an interactive submission, via the ENA Webin Portal, but even when doing a programmatic submission, the template can be useful for collecting all necessary descriptions / metadata.  Download an appropriate template, and fill in the sheets according to the instructions in the template:
@@ -64,6 +64,7 @@ Click on the buttons below for specific information regarding suitable repositor
     <li><a href="/meta-data-templates/metadata_template_virus_ERC000033.xlsx">ERC000033 ENA virus pathogen reporting standard checklist</a></li>
     <li><a href="/meta-data-templates/metadata_template_sewage_ERC000036.xlsx">ERC000036 ENA sewage checklist</a></li>
     <li><a href="/meta-data-templates/metadata_template_ENA_binned_metagenome_ERC000050.xlsx">ERC000050 ENA binned metagenome checklist</a></li>
+    <li><a href="/meta-data-templates/metadata_template_tree-of-life_ERC000053.xlsx">ERC000053 Tree of Life Checklist</a></li>
   </ul>
   </span>
   </div>

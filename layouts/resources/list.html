@@ -193,25 +193,6 @@ requires that the first 2 resources in resources.json always is the same as now.
 {{ end }}
 
 <script>
-  // set origin url in the form
-  document.getElementById('originUrl').value = location.href;
-
-  // Validate the form by checking mandatory fields and recaptcha
-  var form = document.querySelector('.needs-validation');
-  form.addEventListener('submit', function (event) {
-    if (form.checkValidity() === false) {
-      event.preventDefault();
-      alert("Please fill out all required fields.");
-      event.stopPropagation();
-      form.classList.add('was-validated')
-    }
-    var recaptcha = $("#g-recaptcha-response").val();
-    if (recaptcha === "") {
-      event.preventDefault();
-      alert("Please tick 'I'm not a robot' above the 'Submit the form' button.");
-    }
-  });
-
 // ADD LEVEL BELOW HERE!
   // Filter jobs based on selected criteria
   $('div#resource-filters input:checkbox').on('change', function(){

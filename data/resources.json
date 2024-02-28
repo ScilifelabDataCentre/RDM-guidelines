@@ -50,7 +50,7 @@
             "provider": "SND"
         },
         {
-            "title": "ELSI checklist in DSW",
+            "title": "ELSI checklist in Data Stewardship Wizard",
             "type": ["Tool"],
             "phase": ["Plan"],
             "topic": ["Research involving human data"],
@@ -149,7 +149,7 @@
             "provider": "EBI"
         },
         {
-            "title": "RDMkit on Reusing Data",
+            "title": "RDMkit on Reusing data",
             "type": ["Guidance"],
             "phase": ["Reuse"],
             "level": ["Basic"],
@@ -159,7 +159,7 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "RDMkit on Existing Data",
+            "title": "RDMkit on Existing data",
             "type": ["Guidance"],
             "phase": ["Reuse"],
             "level": ["Basic"],
@@ -178,7 +178,7 @@
             "provider": "Google"
         },
         {
-            "title": "RDMkit on Preserving Data",
+            "title": "RDMkit on Preserving data",
             "type": ["Guidance"],
             "phase": ["Preserve"],
             "level": ["Basic"],
@@ -188,7 +188,7 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "RDMkit on Sharing Data",
+            "title": "RDMkit on Sharing data",
             "type": ["Guidance"],
             "phase": ["Share"],
             "level": ["Basic"],
@@ -218,7 +218,7 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "RDMkit on Analysing Data",
+            "title": "RDMkit on Analysing data",
             "type": ["Guidance"],
             "phase": ["Analyse"],
             "level": ["Basic"],
@@ -258,7 +258,7 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "RDMkit on Processing Data",
+            "title": "RDMkit on Processing data",
             "type": ["Guidance"],
             "phase": ["Process"],
             "level": ["Basic"],
@@ -268,7 +268,7 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "RDMkit on Data Quality",
+            "title": "RDMkit on Data quality",
             "type": ["Guidance"],
             "phase": ["Collect","Process"],
             "level": ["Basic"],
@@ -308,7 +308,7 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "SciLifeLab DS Wizard - A short introduction",
+            "title": "SciLifeLab Data Stewardship Wizard - A short introduction",
             "type": ["Guidance"],
             "phase": ["Plan"],
             "level": ["Basic"],
@@ -325,7 +325,7 @@
             "description": "Video presentation of what sections a data management plan consists of.",
             "provider": "SciLifeLab"
         },
-        {"title": "RDMkit on Collecting Data",
+        {"title": "RDMkit on Collecting data",
             "type": ["Guidance"],
             "phase": ["Collect"],
             "level": ["Basic"],
@@ -344,7 +344,17 @@
             "provider": "RDMkit",
             "licence": "CC BY 4.0"
         },
-        {"title": "SciLifeLab DS Wizard",
+        {"title": "RDMkit on Your role",
+            "type": ["Guidance"],
+            "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse"],
+            "topic": ["What is Research Data Management"],
+            "level": ["Basic"],
+            "url": "https://rdmkit.elixir-europe.org/your_role",
+            "description": "Best practice guidance regarding the different roles a professional can have in research data management.",
+            "provider": "RDMkit",
+            "licence": "CC BY 4.0"
+        },
+        {"title": "SciLifeLab Data Stewardship Wizard (DSW)",
             "type": ["Tool"],
             "phase": ["Plan"],
             "level": ["Basic"],
@@ -358,7 +368,7 @@
             "phase": ["Plan", "Collect", "Process", "Analyse", "Share"],
             "topic": ["README files"], 
             "level": ["Basic"],
-            "url": "https://uppsala.instructure.com/courses/48087/pages/introduction-to-data-management-practices",
+            "url": "https://uppsala.instructure.com/courses/79097/pages/introduction-to-data-management-practices",
             "description": "This course will introduce important aspects of Research Data Management (concept of FAIR, Metadata standards, Data Organisation, Data Publication, Data Management Planning, Data Refinement (Open Refine), Data Versioning, Programming/Analysis in R) through a series of lectures and hands-on computer exercises. The course is intended for researchers that want to take the first steps towards a more systematic and reproducible approach to analysing and managing research data. All lessons are available online as self-study materials",
             "provider": "NBIS",
             "licence": "CC BY 4.0"
@@ -488,6 +498,17 @@
             "url": "https://data.scilifelab.se/resources/e-infrastructure/",
             "description": "Information page regarding compute resources related to hosting, simulation, and analysis that are available to researchers in Sweden. It contains information about the services the resources provide, and how to apply for access to them.",
             "provider": "SciLifeLab Data Platform"         
+        },
+        {
+            "title": "RDMkit on Data organisation",
+            "type": ["Guidance"],
+            "phase": ["Plan", "Collect", "Share"],
+            "topic": ["Metadata", "README files"],
+            "level": ["Basic"],
+            "url": "https://rdmkit.elixir-europe.org/data_organisation",
+            "description": "Best practice guidance regarding the task of organising data, in terms of naming files, file versioning, folder structure and file formats.",
+            "provider": "RDMkit",
+            "licence": "CC BY 4.0"
         }
     ]
 }

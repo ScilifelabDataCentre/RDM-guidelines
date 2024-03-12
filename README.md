@@ -20,19 +20,77 @@ This is the repository for SciLifelab Research Data Management (RDM) guidelines,
 
 For internal / editorial contribution process, please see [internal contribution page](https://github.com/ScilifelabDataCentre/RDM-guidelines/blob/main/internal-contribution.md).
 
-### Step 1: Access the code
+### Step 1: Github account
 
-The code is hosted on [GitHub](http://github.com/), so you'll need an account.
+The code is hosted on [GitHub](http://github.com/), so you'll need an account. 2-factor authentication is required, to decrease the risk of unauthorised access, and all commits needs to be signed.
+
+#### Setting up 2-factor authentication (2FA)
+
+* The easiest way is to follow the instructions from Github: [Configuring two-factor authentication - GitHub Docs](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication)
+
+* TOTP, Github app, and security key are recommended
+
+* Make sure that you keep the backup codes and/or set up multiple ways to login in case you e.g. lose your phone
+
+#### Setting up git commit signing
+Git commits can be signed using e.g. GPG or SSH keys. All software required for SSH keys is installed by default on most computers, while GPG may require some software to be installed.
+
+**SSH**
+[About commit signature verification - GitHub Docs](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification)
+
+1. Create a ssh key (unless you want to reuse an existing one) [Generating a new SSH key and adding it to the ssh-agent - GitHub Docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent):
+    ```
+    ssh-keygen -t ed25519 -f ~/.ssh/id_github_sign
+    ```
+1. Add your public key to the clipboard (so it can be pasted using cmd-v):
+    ```
+    pbcopy < ~/.ssh/id_github_sign.pub
+    ```
+1. Add the generated key to your Github account (**change key type to be: Signing**): [Adding a new SSH key to your GitHub account - GitHub Docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account)
+
+1. Tell git to use your ssh key:
+    ```
+    git config --global gpg.format ssh
+    git config --global user.signingkey "key::$(cat ~/.ssh/id_github_sign.pub)"
+    ```
+1. Load your ssh key into ssh-agent (needs to be repeated each time you reboot your computer):
+    ```
+    ssh-add ~/.ssh/id_github_sign
+    ```
+    * If you not want to use ssh-agent (ssh-add) and don’t mind writing you password every time, you may change command 4.2 into:
+
+        ```
+        git config --global user.signingkey ~/.ssh/id_github_sign.pub
+        ```
+
+**GPG**
+
+Follow the instructions at [Signing git commits using GPG (Ubuntu/Mac)(https://gist.github.com/ankurk91/c4f0e23d76ef868b139f3c28bde057fc)]
+
+*Recommended settings*
+* Perform commit signing automatically (you can use git commit instead of git commit -S):
+```
+git config --global commit.gpgsign true
+git config --global tag.gpgsign true
+```
+
+* Allow verification (or even display) of signatures with an ssh key (not required):
+```
+git config --global gpg.ssh.allowedSignersFile ~/.ssh/allowed_signers
+echo  "$(git config --global user.email) $(cat ~/.ssh/id_github_sign.pub)" > ~/.
+```
+
+### Step 2: Access the code
 
 Next, visit the code repository: [https://github.com/ScilifelabDataCentre/RDM-guidelines](https://github.com/ScilifelabDataCentre/RDM-guidelines)
 
 In the top right, you'll see a button that says _"Fork"_. Click this, then select your username.
 This makes a copy of the repository under your personal account that you can edit.
 
-### Step 2a: Edit the files (online)
+### Step 3a: Edit the files (online)
 
 > This is best if you only want to make one or two minor tweaks.
-> If you want to make more substantial edits over a longer time frame, we recommend editing locally (_Step 2b_).
+> If you want to make more substantial edits over a longer time frame, we recommend editing locally (_Step 3b_).
 
 The easiest way to edit the website files is on the GitHub website.
 
@@ -40,9 +98,9 @@ On the web page of your _forked_ copy of the repository, look in the `content/` 
 
 This opens a web-based editor where you can add and edit content. When you're finished, scroll to the bottom and fill in / submit the _"Commit changes"_ form.
 
-You're nearly done - you can now skip to _Step 3_.
+You're nearly done - you can now skip to _Step 4_.
 
-### Step 2b: Edit the files (locally)
+### Step 3b: Edit the files (locally)
 
 #### Git setup
 
@@ -111,7 +169,7 @@ $ hugo serve
 Use the URL printed at the bottom of the message (`http://localhost:1313/`) to view the site.
 Every time you save a file, the page will automatically refresh in the browser.
 
-### Step 3: Make a pull request
+### Step 4: Make a pull request
 
 Once you're finished with your edits and they are committed and pushed to your forked repository, it's time to open a pull request.
 

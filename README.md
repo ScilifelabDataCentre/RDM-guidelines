@@ -51,21 +51,22 @@ Git commits can be signed using e.g. GPG or SSH keys. All software required for 
 1. Tell git to use your ssh key:
     ```
     git config --global gpg.format ssh
+    git config --global user.signingkey ~/.ssh/id_github_sign.pub
+    ```
+
+    **Note:** If you mind writing your password when doing commits, you can change the second command above to:
+    
+    ```
     git config --global user.signingkey "key::$(cat ~/.ssh/id_github_sign.pub)"
     ```
-1. Load your ssh key into ssh-agent (needs to be repeated each time you reboot your computer):
+    and load your ssh key into ssh-agent (needs to be repeated each time you reboot your computer):
     ```
     ssh-add ~/.ssh/id_github_sign
     ```
-    * If you not want to use ssh-agent (ssh-add) and don’t mind writing you password every time, you may change command 4.2 into:
-
-        ```
-        git config --global user.signingkey ~/.ssh/id_github_sign.pub
-        ```
-
+    
 **GPG**
 
-Follow the instructions at [Signing git commits using GPG (Ubuntu/Mac)(https://gist.github.com/ankurk91/c4f0e23d76ef868b139f3c28bde057fc)]
+Follow the instructions at [Signing git commits using GPG (Ubuntu/Mac)](https://gist.github.com/ankurk91/c4f0e23d76ef868b139f3c28bde057fc)
 
 *Recommended settings*
 * Perform commit signing automatically (you can use git commit instead of git commit -S):

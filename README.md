@@ -36,6 +36,7 @@ The code is hosted on [GitHub](http://github.com/), so you'll need an account. 2
 Git commits can be signed using e.g. GPG or SSH keys. All software required for SSH keys is installed by default on most computers, while GPG may require some software to be installed.
 
 **SSH**
+
 [About commit signature verification - GitHub Docs](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification)
 
 1. Create a ssh key (unless you want to reuse an existing one) [Generating a new SSH key and adding it to the ssh-agent - GitHub Docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent):
@@ -43,9 +44,17 @@ Git commits can be signed using e.g. GPG or SSH keys. All software required for 
     ssh-keygen -t ed25519 -f ~/.ssh/id_github_sign
     ```
 1. Add your public key to the clipboard (so it can be pasted using cmd-v):
+    
+    *On macOS*
     ```
     pbcopy < ~/.ssh/id_github_sign.pub
     ```
+
+    *On Windows*
+    ```
+    clip < ~/.ssh/id_ed25519.pub
+    ```
+    **Note:** If you in PowerShell get an error message about `The '<' operator is reserved for future use`, write instead `cat ~/.ssh/id_ed25519.pub | clip` 
 1. Add the generated key to your Github account (**change key type to be: Signing**): [Adding a new SSH key to your GitHub account - GitHub Docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account)
 
 1. Tell git to use your ssh key:

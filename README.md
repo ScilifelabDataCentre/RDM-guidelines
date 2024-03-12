@@ -37,13 +37,13 @@ Git commits can be signed using e.g. GPG or SSH keys. All software required for 
 
 **SSH**
 
-[About commit signature verification - GitHub Docs](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification)
+The steps outlined below is adapted from [About commit signature verification - GitHub Docs](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification)
 
-1. Create a ssh key (unless you want to reuse an existing one) [Generating a new SSH key and adding it to the ssh-agent - GitHub Docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent):
+1. Create a ssh key (unless you want to reuse an existing one) (for additional information see [Generating a new SSH key and adding it to the ssh-agent - GitHub Docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)):
     ```
     ssh-keygen -t ed25519 -f ~/.ssh/id_github_sign
     ```
-1. Add your public key to the clipboard (so it can be pasted using cmd-v):
+1. Add your public key to the clipboard (i.e. put it in the computer's memory, so that it can be pasted in the next step by pressing the keys cmd-v (macOS) or ctrl-v (Windows) on the keyboard):
     
     *On macOS*
     ```
@@ -55,9 +55,9 @@ Git commits can be signed using e.g. GPG or SSH keys. All software required for 
     clip < ~/.ssh/id_github_sign.pub
     ```
     **Note:** If you in PowerShell get an error message about `The '<' operator is reserved for future use`, write instead `cat ~/.ssh/id_github_sign.pub | clip` 
-1. Add the generated key to your Github account (**change key type to be: Signing**): [Adding a new SSH key to your GitHub account - GitHub Docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account)
+1. Add the generated key to your Github account (**change key type to be: Signing**) by following the instructions given in [Adding a new SSH key to your GitHub account - GitHub Docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account)
 
-1. Tell git to use your ssh key:
+1. Next, tell git to use your ssh key:
     ```
     git config --global gpg.format ssh
     git config --global user.signingkey ~/.ssh/id_github_sign.pub

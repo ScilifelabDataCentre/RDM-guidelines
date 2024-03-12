@@ -52,9 +52,9 @@ Git commits can be signed using e.g. GPG or SSH keys. All software required for 
 
     *On Windows*
     ```
-    clip < ~/.ssh/id_ed25519.pub
+    clip < ~/.ssh/id_github_sign.pub
     ```
-    **Note:** If you in PowerShell get an error message about `The '<' operator is reserved for future use`, write instead `cat ~/.ssh/id_ed25519.pub | clip` 
+    **Note:** If you in PowerShell get an error message about `The '<' operator is reserved for future use`, write instead `cat ~/.ssh/id_github_sign.pub | clip` 
 1. Add the generated key to your Github account (**change key type to be: Signing**): [Adding a new SSH key to your GitHub account - GitHub Docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account)
 
 1. Tell git to use your ssh key:

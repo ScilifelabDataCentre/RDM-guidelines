@@ -194,7 +194,7 @@ Images and structural data cover a wide range of data types and thus metadata st
   <span>
       <ul>
         <li>ENDF/B-VI of Cross-Section Evaluation Working Group (<a href="https://www.nndc.bnl.gov/csewg/">CSEWG</a>) and JEFF of OECD/NEA have been widely utilized in the nuclear community. The latest versions of the two nuclear reaction data libraries are <a href="https://doi.org/10.25504/FAIRsharing.4ed3fb">JEFF-3.3</a> and ENDF/B-VIII.0 (<a href="https://www.sciencedirect.com/science/article/pii/S0969804319301484#bib3">Brown et al., 2018</a>) with a significant upgrade in data for a number of nuclides (<a href="https://www.sciencedirect.com/science/article/pii/S0969804319301484#bib6">Carlson et al., 2018</a>).</li>
-        <li>Neutron scattering data are stored in the internationally-adopted <a href="https://www.oecd-nea.org/dbdata/data/manual-endf/endf102.pdf">ENDF-6</a> format maintained by <a href="https://www.nndc.bnl.gov/csewg/">CSEWG</a>.</li>
+        <li>Neutron scattering data are stored in the internationally-adopted <a href="https://www.oecd-nea.org/dbdata/data/manual-endf/endf102.pdf">ENDF-6</a> (PDF) format maintained by <a href="https://www.nndc.bnl.gov/csewg/">CSEWG</a>.</li>
         <li>Processed structural information is submitted in the <a href="https://doi.org/10.25504/FAIRsharing.fd28en">PDBx/mmCIF</a> format.</li>
       </ul>
   </span>

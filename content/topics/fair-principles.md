@@ -6,7 +6,7 @@ toc: True
 
 # FAIR principles
 
-[FAIR](https://www.force11.org/group/fairgroup/fairprinciples) stands for Findable, Accessible, Interoperable and Reusable. In [Wilkinson, et al 2016](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4792175/pdf/sdata201618.pdf) a set of principles were defined for each of these properties. Below, each of the principles are explained further (click on the buttons for detailed information), as adapted from [FAIR principles translation](http://www.snf.ch/SiteCollectionDocuments/FAIR_principles_translation_SNSF_logo.pdf).
+[FAIR](https://www.force11.org/group/fairgroup/fairprinciples) stands for Findable, Accessible, Interoperable and Reusable. In [Wilkinson, et al 2016](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4792175/pdf/sdata201618.pdf) (PDF) a set of principles were defined for each of these properties. Below, each of the principles are explained further (click on the buttons for detailed information), as adapted from [FAIR principles translation](http://www.snf.ch/SiteCollectionDocuments/FAIR_principles_translation_SNSF_logo.pdf) (PDF).
 
 ## Findable
 Data and metadata should be easy to find by both humans and computer systems. Basic machine readable descriptive metadata allows the discovery of interesting datasets and services.
@@ -18,7 +18,7 @@ Data and metadata should be easy to find by both humans and computer systems. Ba
 </p>
 <div class="collapse" id="collapseFind1">
   <div class="card">
-    <div class="card-header"><h4><b>F1: (meta)data are assigned a globally unique and persistent identifier</b></h4></div>
+    <div class="card-header"><h3>F1: (meta)data are assigned a globally unique and persistent identifier</h3></div>
     <div class="card-body">
     <span>
       <b>Explanation:</b> Each dataset is assigned a globally unique and persistent identifier (PID), for example a <a href="https://www.doi.org/">DOI</a>. These identifiers allow to find, cite and track (meta)data.	<br><br>
@@ -36,7 +36,7 @@ Data and metadata should be easy to find by both humans and computer systems. Ba
 </p>
 <div class="collapse" id="collapseFind2">
   <div class="card">
-    <div class="card-header"><h4><b>F2: data are described with rich metadata</b></h4></div>
+    <div class="card-header"><h3>F2: data are described with rich metadata</h3></div>
     <div class="card-body">
     <span>
       <b>Explanation:</b> Each dataset is thoroughly (see below, in R1) described: these metadata document how the data was generated, under what term (license) and how it can be (re)used, and provide the necessary context for proper interpretation. This information needs to be machine-readable.	<br><br>
@@ -54,7 +54,7 @@ Data and metadata should be easy to find by both humans and computer systems. Ba
 </p>
 <div class="collapse" id="collapseFind3">
   <div class="card">
-    <div class="card-header"><h4><b>F3: metadata clearly and explicitly include the identifier of the data it describes</b></h4></div>
+    <div class="card-header"><h3>F3: metadata clearly and explicitly include the identifier of the data it describes</h3></div>
     <div class="card-body">
     <span>
       <b>Explanation:</b>The metadata and the dataset they describe are separate files. The association between a metadata file and the dataset is obvious thanks to the mention of the dataset’s PID in the metadata. 	<br><br>
@@ -72,7 +72,7 @@ Data and metadata should be easy to find by both humans and computer systems. Ba
 </p>
 <div class="collapse" id="collapseFind4">
   <div class="card">
-    <div class="card-header"><h4><b>F4: (meta)data are registered or indexed in a searchable resource</b></h4></div>
+    <div class="card-header"><h3>F4: (meta)data are registered or indexed in a searchable resource</h3></div>
     <div class="card-body">
     <span>
       <b>Explanation:</b> Metadata are used to build easily searchable indexes of datasets. These resources will allow to search for existing datasets similarly to searching for a book in a library.	<br><br>
@@ -92,7 +92,7 @@ Data and metadata should be stored for the long term such that they can be easil
 </p>
 <div class="collapse" id="collapseAccess1">
   <div class="card">
-    <div class="card-header"><h4><b>A1: (meta)data are retrievable by their identifier using a standardized communications protocol</b></h4></div>
+    <div class="card-header"><h3>A1: (meta)data are retrievable by their identifier using a standardized communications protocol</h3></div>
     <div class="card-body">
     <span>
       <b>Explanation:</b> If one knows a dataset’s identifier and the location where it is archived, one can access at least the metadata. Furthermore, the user knows how to proceed to get access to the data.	<br><br>
@@ -110,7 +110,7 @@ Data and metadata should be stored for the long term such that they can be easil
 </p>
 <div class="collapse" id="collapseAccess2">
   <div class="card">
-    <div class="card-header"><h4><b>A1.1: the protocol is open, free, and universally implementable</b></h4></div>
+    <div class="card-header"><h3>A1.1: the protocol is open, free, and universally implementable</h3></div>
     <div class="card-body">
     <span>
       <b>Explanation:</b> Anyone with a computer and an internet connection can access at least the metadata.
@@ -127,7 +127,7 @@ Data and metadata should be stored for the long term such that they can be easil
 </p>
 <div class="collapse" id="collapseAccess3">
   <div class="card">
-    <div class="card-header"><h4><b>A1.2: the protocol allows for an authentication and authorization procedure, where necessary</b></h4></div>
+    <div class="card-header"><h3>A1.2: the protocol allows for an authentication and authorization procedure, where necessary</h3></div>
     <div class="card-body">
     <span>
       <b>Explanation:</b> It often makes sense to request users to create a user account on a repository. This allows to authenticate the owner (or contributor) of each dataset, and to potentially set user specific rights.
@@ -144,7 +144,7 @@ Data and metadata should be stored for the long term such that they can be easil
 </p>
 <div class="collapse" id="collapseAccess4">
   <div class="card">
-    <div class="card-header"><h4><b>A2: metadata are accessible, even when the data are no longer available</b></h4></div>
+    <div class="card-header"><h3>A2: metadata are accessible, even when the data are no longer available</h3></div>
     <div class="card-body">
     <span>
       <b>Explanation:</b> Maintaining all datasets in a readily usable state eternally would require an enormous amount of curation work (adapting to new standards for formats, converting to different format if specifically needed software is discontinued, etc.). Keeping the metadata describing each dataset accessible, however, can be done with much less resources. This allows to build comprehensive data indexes including all current, past and potentially arising datasets.	<br><br>
@@ -164,7 +164,7 @@ Data should be ready to be exchanged, interpreted and combined in a (semi)automa
 </p>
 <div class="collapse" id="collapseInterop1">
   <div class="card">
-    <div class="card-header"><h4><b>I1: (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation</b></h4></div>
+    <div class="card-header"><h3>I1: (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation</h3></div>
     <div class="card-body">
     <span>
       <b>Explanation:</b> Interoperability typically means that each computer system has at least knowledge of the other system’s formats in which data is exchanged. If (meta)data are to be searchable and if compatible data sources should be combinable in a (semi)automatic way, computer systems need to be able to decide if the content of datasets are comparable. Obvious issues arise when different languages are used to describe the data or when spelling errors make the comparison of descriptions and variable names more difficult. It is critical to use controlled vocabularies and a well-defined framework to describe and structure (meta)data in order to ensure findability and interoperability of datasets.	<br><br>
@@ -182,7 +182,7 @@ Data should be ready to be exchanged, interpreted and combined in a (semi)automa
 </p>
 <div class="collapse" id="collapseInterop2">
   <div class="card">
-    <div class="card-header"><h4><b>I2: (meta)data use vocabularies that follow FAIR principles</b></h4></div>
+    <div class="card-header"><h3>I2: (meta)data use vocabularies that follow FAIR principles</h3></div>
     <div class="card-body">
     <span>
       <b>Explanation:</b> The controlled vocabulary used to describe datasets needs to be documented. This documentation needs to be easily findable and accessible by anyone who uses the dataset.	<br><br>
@@ -200,7 +200,7 @@ Data should be ready to be exchanged, interpreted and combined in a (semi)automa
 </p>
 <div class="collapse" id="collapseInterop3">
   <div class="card">
-    <div class="card-header"><h4><b>I3: (meta)data include qualified references to other (meta)data</b></h4></div>
+    <div class="card-header"><h3>I3: (meta)data include qualified references to other (meta)data</h3></div>
     <div class="card-body">
     <span>
       <b>Explanation:</b> If the dataset builds on another dataset, if additional datasets are needed to complete the data, or if complementary information is stored in a different dataset, this needs to be specified. In particular, the scientific link between the datasets needs to be described. Furthermore, all datasets need to be properly cited (i.e. including their persistent identifiers).	<br><br>
@@ -220,7 +220,7 @@ Data and metadata are sufficiently well-described to allow data to be reused in 
 </p>
 <div class="collapse" id="collapseReuse1">
   <div class="card">
-    <div class="card-header"><h4><b>R1: meta(data) are richly described with a plurality of accurate and relevant attributes</b></h4></div>
+    <div class="card-header"><h3>R1: meta(data) are richly described with a plurality of accurate and relevant attributes</h3></div>
     <div class="card-body">
     <span>
       <b>Explanation:</b> Description of a dataset is required at two different levels:
@@ -250,7 +250,7 @@ Data and metadata are sufficiently well-described to allow data to be reused in 
 </p>
 <div class="collapse" id="collapseReuse2">
   <div class="card">
-    <div class="card-header"><h4><b>R1.1: (meta)data are released with a clear and accessible data usage license</b></h4></div>
+    <div class="card-header"><h3>R1.1: (meta)data are released with a clear and accessible data usage license</h3></div>
     <div class="card-body">
     <span>
       <b>Explanation:</b> The conditions under which the data can be used should be clear to machines and humans. This has to be specified in the metadata describing a dataset.	<br><br>
@@ -268,7 +268,7 @@ Data and metadata are sufficiently well-described to allow data to be reused in 
 </p>
 <div class="collapse" id="collapseReuse3">
   <div class="card">
-    <div class="card-header"><h4><b>R1.2. (meta)data are associated with detailed provenance</b></h4></div>
+    <div class="card-header"><h3>R1.2. (meta)data are associated with detailed provenance</h3></div>
     <div class="card-body">
     <span>
       <b>Explanation:</b> Detailed information about the provenance of data is necessary for reuse: this will, for example, allow researchers to understand how the data was generated, in which context it can be reused, and how reliable it is. Provenance is a central issue in scientific databases to validate data.	<br><br>
@@ -286,7 +286,7 @@ Data and metadata are sufficiently well-described to allow data to be reused in 
 </p>
 <div class="collapse" id="collapseReuse4">
   <div class="card">
-    <div class="card-header"><h4><b>R1.3: (meta)data meet domain relevant community standards</b></h4></div>
+    <div class="card-header"><h3>R1.3: (meta)data meet domain relevant community standards</h3></div>
     <div class="card-body">
     <span>
       <b>Explanation:</b> It is easier to reuse datasets if they are similar: same type of data, data organized in a standardized way, well-established and sustainable file formats, documentation (metadata) following a common template and using common vocabulary. If community standards or best practices for data archiving and sharing exist, they should be followed. Note that quality issues are not addressed by the FAIR principles. How reliable data is lies in the eye of the beholder and depends on the foreseen application.	<br><br>

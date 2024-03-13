@@ -15,4 +15,4 @@ You are also more than welcome to contact us if you have a question or want supp
 
 You can fill in the below form to get in touch with us. If you prefer though, you can instead email us at [data-management@scilifelab.se](mailto:data-management@scilifelab.se).
 
-### Contact form
+## Contact form

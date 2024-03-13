@@ -55,7 +55,7 @@ Click on the buttons below for specific information regarding suitable repositor
   The <a href="https://www.ebi.ac.uk/ena">European Nucleotide Archive</a> hosts an instance of the Sequence Read Archive (SRA), the same archive that exists on NCBI. SRA accepts raw sequence data from any sequencing platform, generated in any research project. There are several ways to <a href="https://www.ebi.ac.uk/ena/submit">submit</a> data to ENA, for more information see the <a href="https://ena-docs.readthedocs.io/en/latest/">documentation</a>. We also recommend the following two specialised guidelines:
   <ul>
   <li><a href="https://biodiversitydata-se.github.io/mol-data/index.html">Guide for submission of metabarcoding data to ENA</a> provided by the Swedish Biodiversity Data Infrastructure (<a href="https://biodiversitydata.se/">SBDI</a>)</li>
-    <li><a href="https://covid19dataportal.se/support_services/tutorial_ena/tutorial_ena_intro/">Tutorial for SARS-CoV-2 genome data submission to ENA</a> provided by the <a href="https://covid19dataportal.se/">Swedish Covid-19 Data Portal</a></li>
+    <li><a href="https://www.pathogens.se/support_services/tutorial_ena/tutorial_ena_intro/">Tutorial for SARS-CoV-2 genome data submission to ENA</a> provided by the <a href="https://www.pathogens.se/">Swedish Pathogens Portal</a></li>
   </ul>
 
   For convenience, we have created templates for the most frequent data types and their corresponding <a href="https://www.ebi.ac.uk/ena/browser/checklists">ENA checklists</a>. The templates come with instructions on how to do an interactive submission, via the ENA Webin Portal, but even when doing a programmatic submission, the template can be useful for collecting all necessary descriptions / metadata.  Download an appropriate template, and fill in the sheets according to the instructions in the template:
@@ -64,6 +64,7 @@ Click on the buttons below for specific information regarding suitable repositor
     <li><a href="/meta-data-templates/metadata_template_virus_ERC000033.xlsx">ERC000033 ENA virus pathogen reporting standard checklist (Excel spreadsheet)</a></li>
     <li><a href="/meta-data-templates/metadata_template_sewage_ERC000036.xlsx">ERC000036 ENA sewage checklist (Excel spreadsheet)</a></li>
     <li><a href="/meta-data-templates/metadata_template_ENA_binned_metagenome_ERC000050.xlsx">ERC000050 ENA binned metagenome checklist (Excel spreadsheet)</a></li>
+        <li><a href="/meta-data-templates/metadata_template_tree-of-life_ERC000053.xlsx">ERC000053 Tree of Life Checklist (Excel spreadsheet)</a></li>
   </ul>
   </span>
   </div>
@@ -109,7 +110,7 @@ Click on the buttons below for specific information regarding suitable repositor
 <div class="collapse" id="collapseExample4">
   <div class="card card-body">
   <span>
-  <a href="https://fega.nbis.se/">FEGA Sweden</a> is a repository for storing and sharing personal identifiable genetic and phenotypic data in Sweden in a way that meets the requirements of the General Data Protection Regulation (GDPR). It is part of a federation of national nodes, <a href="https://ega-archive.org/federated">Federated European Genome-phenome Archive</a>, which is tightly connected to the European Genome-phenome Archive (EGA). FEGA Sweden is not yet operational, but researchers may express their interest in depositing data to the repository by filling in <a href="https://nbis.se/support/supportform/index.php#sdaform">a web form</a>.
+  <a href="https://fega.nbis.se/">FEGA Sweden</a> This is a repository for storing and sharing personally identifiable genetic and phenotypic data in Sweden in a way that meets the requirements of the General Data Protection Regulation (GDPR). It is part of the <a href="https://ega-archive.org/about/projects-and-funders/federated-ega/">Federated European Genome-phenome Archive</a>, which is a network consisting of several national nodes and the European Genome-phenome Archive (EGA). FEGA Sweden is currently transitioning into operational mode and researchers may express their interest in depositing data to the repository by filling in <a href="https://fega.nbis.se/submission/submission-request.html">a web form</a>.
   </span>
   </div>
   <br>
@@ -160,7 +161,7 @@ The [ProteomeXchange](http://www.proteomexchange.org/) Consortium provides globa
 
 ### Other data
 
-Guidance on where to publish COVID-19 and Pandemic Preparedness research data, can be found on the <a href="https://covid19dataportal.se/share-data/">Swedish COVID-19 & Pandemic Preparedness Data Portal</a>.
+Guidance on where to publish COVID-19 and Pandemic Preparedness research data, can be found on the <a href="https://pathogens.se/share-data/">Swedish Pathogens Portal</a>.
 
 For other domain-specific repositories, see e.g. <a href="https://elixir-europe.org/services/tag/elixir-deposition-databases">ELIXIR Deposition databases</a>, <a href="https://www.nature.com/sdata/policies/repositories">Scientific Data recommended repositories</a>, <a href="https://www.ebi.ac.uk/submission/">EBI archive wizard</a> (help to find the right repository depending on data type), or <a href="https://fairsharing.org/databases/">FAIRsharing</a> (the latter can also assist in finding metadata standards suitable for describing your datasets).
 

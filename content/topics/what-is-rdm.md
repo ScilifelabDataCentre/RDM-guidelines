@@ -20,7 +20,7 @@ Research data needs to be secured beyond the project’s time frame.
 Please find below a video presentation on the topic 'The why of research data management' produced by [ELIXIR](https://elixir-europe.org/), a European life sciences infrastructure.
 
 <div>
-    <a href="https://www.youtube.com/watch?v=S7HfUe1hWcg"><img src="/img/elixir-why-dm-comics.jpg" alt="ELIXIR why DM comics" class="img-fluid"></a>
+    <a href="https://www.youtube.com/watch?v=S7HfUe1hWcg"><img src="/img/elixir-why-dm-comics-play-button-frame.jpg" alt="ELIXIR why DM comics"  class="img-fluid"></a>
 </div>
 
 ## What is a Data Steward?

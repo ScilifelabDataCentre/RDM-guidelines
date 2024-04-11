@@ -60,29 +60,6 @@ Please find below a selection of [SciLifeLab Genomics services](https://www.scil
   </div>
   <br>
 </div>
-<p>
-  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
-    MSCG
-    <i class="bi bi-chevron-double-down p-2"></i>
-  </a>
-</p>
-<div class="collapse" id="collapseExample3">
-  <div class="card card-body">
-  <span>
-    <p>
-      <a href="https://www.scilifelab.se/units/microbial-single-cell-genomics/">Microbial Single Cell Genomics</a> (MSCG) provides customized, low to high-throughput experimental services for Swedish and international researchers working with prokaryotic and eukaryotic microbes.
-    </p>
-    <ul>
-      <li> Evolution and diversity of microbes in nature</li>
-      <li> De novo sequencing of uncultured microbial dark matter</li>
-      <li> Asses metabolic potential at the single cell level</li>
-      <li> Characterize cell fate, differentiation and developmental stages</li>
-      <li> Explore host-pathogen interactions</li>
-      <li> Study the effect of perturbations on microbial gene expression profiles</li>
-    </ul>
-  </span>
-  </div>
-</div>
 &nbsp;
 
 ### Imaging data

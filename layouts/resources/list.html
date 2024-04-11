@@ -92,9 +92,9 @@ requires that the first 2 resources in resources.json always is the same as now.
           <div class="d-flex justify-content-between">
             <div>
               {{ range .type }} 
-              {{ if eq . "Tool"}}<span class="badge event-type-lh-grey mb-1 me-1">{{ . }}</span>             
+              {{ if eq . "Tool"}}<span class="badge event-type-lh-teal mb-1 me-1">{{ . }}</span>             
               {{ else if eq . "Guidance"}}<span class="badge event-type-lh-lime mb-1 me-1">{{ . }}</span>
-              {{ else if eq . "Training"}}<span class="badge event-type-lh-teal mb-1 me-1">{{ . }}</span>
+              {{ else if eq . "Training"}}<span class="badge event-type-lh-grape mb-1 me-1">{{ . }}</span>
               {{ else }} <span class="badge event-type mb-1 me-1">{{ . }}</span>
               {{ end }}     
               {{ end }}<br><br>
@@ -106,12 +106,12 @@ requires that the first 2 resources in resources.json always is the same as now.
       </div>
           {{ if .provider }}<div class="row">
             <div class="col">
-              <b>Content provider:</b> {{.provider}}
+              <small><b>Content provider:</b> {{.provider}}</small>
             </div>
           </div>{{ end }}
           <div class="row mt-3">
             <div class="col">
-              <button type="button" class="btn btn-details btn-primary" data-bs-toggle="modal"
+              <button type="button" class="btn btn-details" data-bs-toggle="modal"
                 data-bs-target="#descriptionModal{{ $ind }}">
                 See details
               </button>
@@ -133,9 +133,9 @@ requires that the first 2 resources in resources.json always is the same as now.
                         <div class="col">
                           <b>Resource type:</b> 
                           {{ range .type }}
-                          {{ if eq . "Tool"}}<span class="badge event-type-grey mb-1 me-1">{{ . }}</span>             
-                          {{ else if eq . "Guidance"}}<span class="badge event-type-grape mb-1 me-1">{{ . }}</span>
-                          {{ else if eq . "Training"}}<span class="badge event-type-teal mb-1 me-1">{{ . }}</span>
+                          {{ if eq . "Tool"}}<span class="badge event-type-lh-teal mb-1 me-1">{{ . }}</span>             
+                          {{ else if eq . "Guidance"}}<span class="badge event-type-lh-lime mb-1 me-1">{{ . }}</span>
+                          {{ else if eq . "Training"}}<span class="badge event-type-lh-grape mb-1 me-1">{{ . }}</span>
                           {{ else }} <span class="badge event-type mb-1 me-1">{{ . }}</span>
                           {{ end }}
                           {{ end }}

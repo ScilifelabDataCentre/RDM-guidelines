@@ -293,6 +293,18 @@ html {
   clear: both;
 }
 
+.btn-details.collapsed {
+  background-color: #e5e5e5 !important;
+  color: black !important;
+  border-color: #491f53;
+}
+
+.btn-details:not(.collapsed) {
+  background-color: #e5e5e5 !important;
+  color: black !important;
+  border-color: #e5e5e5;
+}
+
 .btn-primary.collapsed {
   background-color: #d2c7d4 !important;
   color: black !important;

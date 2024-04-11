@@ -6,13 +6,13 @@
 </section>
 
 <section>
-  <div class="modal fade" id="suggestionModal" tabindex="-1" aria-labelledby="suggestionModalLabel" aria-hidden="true">
+  <div class="modal fade" id="suggestionModal" tabindex="-1" aria-labelledby="suggestionModal" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <form action="https://forms.dckube.scilifelab.se/api/v1/form/M5GfePAbHxkPdIph/incoming" class="needs-validation"
           novalidate method="POST" accept-charset="utf-8">
           <div class="modal-body">
-            <input type="url" id="originUrl" name="originUrl" value="" hidden />
+            <input type="url" id="originUrl" name="originUrl" aria-labelledby="originUrl" value="" hidden />
           </div>
         </form>
       </div>
@@ -20,15 +20,17 @@
   </div>
 </section>
 
-<section><div><a class="btn btn-aqua" href="/contact/">Inform us of other resources</a></div></section>
+<section><div><a class="btn btn-teal" href="/contact/">Inform us of other resources</a></div></section>
 
 {{ $resource_type := slice }}
 {{ $level := slice }}
 {{ $phase := slice }}
 {{ $open_resources := slice }}
 {{ $level := slice }}
-{{ range sort $.Site.Data.resources.items ".title" "asc" }}
-    {{ $open_resources = $open_resources | append . }}
+<!-- Go through all resources without sorting, collect type, phase & level.
+A dirty fix in order to obtain phase and levels in 'right' order, that 
+requires that the first 2 resources in resources.json always is the same as now. --> 
+{{ range $.Site.Data.resources.items }}
     {{ $resource_type = $resource_type | append .type }}
     {{ $level = $level | append .level }}
     {{ $phase = $phase | append .phase }}
@@ -36,12 +38,16 @@
 {{ $resource_type = $resource_type | uniq }}
 {{ $level = $level | uniq }}
 {{ $phase = $phase | uniq }}
+<!-- Collect and sort all resources on title -->
+{{ range sort $.Site.Data.resources.items ".title" "asc" }}
+    {{ $open_resources = $open_resources | append . }}
+{{ end }}
 
 {{ if ge (len $open_resources) 1 }}
 <section>
   <div class="row mt-3 mb-5">
     <div class="col-lg-2" id="resource-filters">
-      <h3>Type</h3>
+      <div class="resources-header-black">Type</div>
       {{ range sort $resource_type }}
         <div class="form-check">
           <input class="form-check-input" type="checkbox" id="{{ . }}" name="type" value="{{ delimit (split . " ") "-" | lower }}">
@@ -49,16 +55,16 @@
         </div>
       {{ end }}
 
-      <h3 class="mt-3">Phase</h3>
-      {{ range sort $phase }}
+      <div class="resources-header-black">Phase</div>
+      {{ range $phase }}
         <div class="form-check">
           <input class="form-check-input" type="checkbox" id="{{ . }}" name="phase" value="{{ delimit (split . " ") "-" | lower }}">
           <label class="form-check-label" for="{{ . }}">{{ . }}</label>
         </div>
       {{ end }}
 
-      <h3>Level</h3>
-      {{ range sort $level }}
+      <div class="resources-header-black">Level</div>
+      {{ range $level }}
         <div class="form-check">
           <input class="form-check-input" type="checkbox" id="{{ . }}" name="level" value="{{ delimit (split . " ") "-" | lower }}">
           <label class="form-check-label" for="{{ . }}">{{ . }}</label>
@@ -85,30 +91,36 @@
         <div class="p-3 border rounded h-100">
           <div class="d-flex justify-content-between">
             <div>
-              {{ range .type }}<span class="badge event-type mb-1 me-1">{{ . }}</span>{{ end }}
-              <h3><a class="" role="button" data-bs-toggle="modal"
-                  data-bs-target="#descriptionModal{{ $ind }}">{{ .title }}</a></h3>
+              {{ range .type }} 
+              {{ if eq . "Tool"}}<span class="badge event-type-lh-teal mb-1 me-1">{{ . }}</span>             
+              {{ else if eq . "Guidance"}}<span class="badge event-type-lh-lime mb-1 me-1">{{ . }}</span>
+              {{ else if eq . "Training"}}<span class="badge event-type-lh-grape mb-1 me-1">{{ . }}</span>
+              {{ else }} <span class="badge event-type mb-1 me-1">{{ . }}</span>
+              {{ end }}     
+              {{ end }}<br><br>
+              <a class="resources-header-teal" role="button" data-bs-toggle="modal"
+                  data-bs-target="#descriptionModal{{ $ind }}">{{ .title }}</a>
             </div>
-            <div>
-            </div>
-          </div>
+          <div>
+        </div>
+      </div>
           {{ if .provider }}<div class="row">
             <div class="col">
-              <b>Content provider:</b> {{.provider}}
+              <small><b>Content provider:</b> {{.provider}}</small>
             </div>
           </div>{{ end }}
           <div class="row mt-3">
             <div class="col">
-              <button type="button" class="btn btn-details btn-primary" data-bs-toggle="modal"
+              <button type="button" class="btn btn-details" data-bs-toggle="modal"
                 data-bs-target="#descriptionModal{{ $ind }}">
                 See details
               </button>
               <div class="modal fade" id="descriptionModal{{ $ind }}" tabindex="-1"
-                aria-labelledby="descriptionModalLabel{{ $ind }}" aria-hidden="true">
+                aria-labelledby="descriptionModal{{ $ind }}" aria-hidden="true">
                 <div class="modal-dialog modal-lg">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h3 class="modal-title" id="descriptionModalLabel">{{ .title }}</h3>
+                      <div class="resources-header-black modal-title" id="descriptionModalLabel">{{ .title }}</div>
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -119,7 +131,14 @@
                       </div>{{ end }}
                       <div class="row mt-3">
                         <div class="col">
-                          <b>Resource type:</b> {{ range .type }}<span class="badge event-type mb-1 me-1">{{ . }}</span>{{ end }}
+                          <b>Resource type:</b> 
+                          {{ range .type }}
+                          {{ if eq . "Tool"}}<span class="badge event-type-lh-teal mb-1 me-1">{{ . }}</span>             
+                          {{ else if eq . "Guidance"}}<span class="badge event-type-lh-lime mb-1 me-1">{{ . }}</span>
+                          {{ else if eq . "Training"}}<span class="badge event-type-lh-grape mb-1 me-1">{{ . }}</span>
+                          {{ else }} <span class="badge event-type mb-1 me-1">{{ . }}</span>
+                          {{ end }}
+                          {{ end }}
                         </div>
                       </div>
                       {{ if .phase }}<div class="row mt-1">
@@ -174,25 +193,6 @@
 {{ end }}
 
 <script>
-  // set origin url in the form
-  document.getElementById('originUrl').value = location.href;
-
-  // Validate the form by checking mandatory fields and recaptcha
-  var form = document.querySelector('.needs-validation');
-  form.addEventListener('submit', function (event) {
-    if (form.checkValidity() === false) {
-      event.preventDefault();
-      alert("Please fill out all required fields.");
-      event.stopPropagation();
-      form.classList.add('was-validated')
-    }
-    var recaptcha = $("#g-recaptcha-response").val();
-    if (recaptcha === "") {
-      event.preventDefault();
-      alert("Please tick 'I'm not a robot' above the 'Submit the form' button.");
-    }
-  });
-
 // ADD LEVEL BELOW HERE!
   // Filter jobs based on selected criteria
   $('div#resource-filters input:checkbox').on('change', function(){

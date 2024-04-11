@@ -10,17 +10,25 @@ Quite often large amounts of data is generated, and it can be worth spending som
 ## SciLifeLab Data Delivery System
 The Data Delivery System (DDS) is a cloud-based system for the delivery of data from SciLifeLab platforms to their users. It consists of a command line interface (CLI) and a web interface. This system is e.g. used by the National Genomics Infrastucture (NGI) for delivers of sequencing data.
 
-* [DDS homepage](https://delivery.scilifelab.se/)
-* [DDS documentation](https://scilifelabdatacentre.github.io/dds_cli/)
-* [NGI guide on DDS](https://ngisweden.scilifelab.se/resources/data-delivery-dds/)
+<div>
+  <ul class=list-link>
+    <li><a href="https://delivery.scilifelab.se/">DDS homepage</a></li>
+    <li><a href="https://scilifelabdatacentre.github.io/dds_cli/">DDS documentation</a></li>
+    <li><a href="https://ngisweden.scilifelab.se/resources/data-delivery-dds/">NGI guide on DDS</a></li>
+  </ul>
+</div>
 
 ## Uppmax
 
 Please find below some useful links from the compute resource Uppmax regarding data transfer:
 
-* [Basic SFTP commands for transferring files](https://uppmax.uu.se/support-sv/user-guides/basic-sftp-commands/)
-* [NAISS-SENS Bianca Deliver user guide for NGI data](https://scilifelabdatacentre.github.io/dds_cli/installation/#bianca)
-* [Transit user guide - secure data transfer of sensitive data](https://uppmax.uu.se/support-sv/user-guides/transit-user-guide/)
+<div>
+  <ul class=list-link>
+    <li><a href="https://uppmax.uu.se/support-sv/user-guides/basic-sftp-commands/">Basic SFTP commands for transferring files </a></li>
+    <li><a href="https://scilifelabdatacentre.github.io/dds_cli/installation/#bianca">NAISS-SENS Bianca Deliver user guide for NGI data</a></li>
+    <li><a href="https://uppmax.uu.se/support-sv/user-guides/transit-user-guide/">Transit user guide - secure data transfer of sensitive data</a></li>
+  </ul>
+</div>
 
 ### Using Aspera on Uppmax
 

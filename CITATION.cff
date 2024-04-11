@@ -1,17 +1,28 @@
-cff-version: 1.2.0
+cff-version: 1.2.1
 message: "This is the repository for SciLifelab Research Data Management (RDM) guidelines, a central resource to provide information about data management."
 authors:
 - family-names: "Kallberg"
   given-names: "Yvonne"
+  orcid: 0000-0002-3977-9600
 - family-names: "Asklof"
   given-names: "Anna"
-- family-names: "Hughes"
-  given-names: "Liane"
 - family-names: "Kronander"
   given-names: "Elin"
+  orcid: 0000-0003-0280-6318
+- family-names: "Hughes"
+  given-names: "Liane"
+  orcid: 0000-0002-4784-5436
 - family-names: "Englund"
   given-names: "Markus"
-- family-names: "Torstensson"
-  given-names: "Elisavet"
+  orcid: 0000-0003-1688-7112
+- family-names: "Stark"
+  given-names: "Katarina Öjefors"
+  orcid: 0000-0001-7970-7778
+- family-names: "Kultima"
+  given-names: "Hanna"
+  orcid: 0000-0001-7724-2567
+- family-names: "Jareborg"
+  given-names: "Niclas"
+  orcid: 0000-0002-4520-044X
 title: "RDM-guidelines"
 url: "https://github.com/ScilifelabDataCentre/RDM-guidelines"

@@ -11,10 +11,6 @@ toc: True
   <B><I>Disclaimer!</I></B> The PI, as well as everyone with access to sensitive personal data, is responsible for following current laws and regulations, and SciLifeLab will not assume legal responsibility for advice provided in these guidelines.
 </div>
 
-<!-- Generella riktlinjer för publicering av human data. Vilka olika nivåer finns.  
-The recommendations on publishing human data varies depending on the nature of the human data in question. The principle "As open as possible, as closed as necessary" is of great importance when it comes to publishing human data. -->
-
-
 <a href="/topics/research-involving-human-data"><b>See more guidelines on research involving human data <i class="bi bi-arrow-right-square-fill"></i></b></a>
 <br/><br/>
 
@@ -22,17 +18,6 @@ The recommendations on publishing human data varies depending on the nature of t
 ## Sharing non-personal data
 
 If your data cannot be linked to a living person, there is nothing in GDPR that prohibits you from sharing the data publicly. Data may however be sensitive under other regulations, so make sure that you take all relevant legal aspects into account. If you are dealing with human data, you should of course also think about the ethical and societal implications of sharing the data.
-
-<!--There are many repositories for sharing human-related data publicly. Here are a few examples:
-
-European Nucleotide Archive (ENA)
-: The [European Nucleotide Archive](https://www.ebi.ac.uk/ena/browser/home) is a public repository for nucleotide sequences hosted by the European Bioinformatics Institute (EMBL-EBI).
-
-ArrayExpress
-: [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress) is a repository for functional genomics data hosted by the European Bioinformatics Institute (EMBL-EBI).
-
-SciLifeLab Data Repository
-: The [SciLifeLab Data Repository](https://figshare.scilifelab.se) is a an institutional repository hosted by SciLifeLab for depositing and describing data related to life science research. It is particularily useful for sharing files that are not suited for discipline-specific repositories. -->
 
 <a href="/data-life-cycle/share/"><b>Learn more about data sharing and repositories <i class="bi bi-arrow-right-square-fill"></i></b></a>
 <br/><br/>
@@ -47,8 +32,8 @@ Here are some repositories for sharing and archiving data under controlled acces
 ### European Genome-phenome Archive (EGA)
 [European Genome-phenome Archive](https://ega-archive.org) is a service for sharing personally identifiable genetic and phenotypic data resulting from biomedical research projects. The repository is hosted by the European Bioinformatics Institute (EMBL-EBI) and the Centre for Genomic Regulation (CRG). Any data submitted to the repository is subject to controlled access, which means that access to the data only will be granted after a formal application procedure.
 
-### [FEGA Sweden](https://fega.nbis.se/)
-This is a repository for storing and sharing personally identifiable genetic and phenotypic data in Sweden in a way that meets the requirements of the General Data Protection Regulation (GDPR). It is part of the [Federated European Genome-phenome Archive](https://ega-archive.org/about/projects-and-funders/federated-ega/) (FEGA), which is a network consisting of several national nodes and the European Genome-phenome Archive (EGA). FEGA Sweden is currently transitioning into operational mode and researchers may express their interest in depositing data to the repository by filling in [a web form](https://fega.nbis.se/submission/submission-request.html).
+### FEGA Sweden
+[FEGA Sweden](https://fega.nbis.se/) is a repository for storing and sharing personally identifiable genetic and phenotypic data in Sweden in a way that meets the requirements of the General Data Protection Regulation (GDPR). It is part of the [Federated European Genome-phenome Archive](https://ega-archive.org/about/projects-and-funders/federated-ega/) (FEGA), which is a network consisting of several national nodes and the European Genome-phenome Archive (EGA). FEGA Sweden is currently transitioning into operational mode and researchers may express their interest in depositing data to the repository by filling in [a web form](https://fega.nbis.se/submission/submission-request.html).
 
 
 ### Analytic Imaging Diagnostics Arena (AIDA) Data Hub

@@ -175,5 +175,3 @@ The role of the data protection officer (dataskyddsombud) is to check that the G
 https://www.vr.se/english/mandates/open-science/open-access-to-research-data/the-swedish-research-councils-recommendation.html)
 * Formas - [Requirements for open access to research results and data](
 https://formas.se/en/start-page/applying-for-funding/how-it-works/good-to-know-before-you-apply.html#h-Openaccesstoresearchresultsanddata)
-* UK Research and Innovation - [Common Principles on Data Policy](https://www.ukri.org/funding/information-for-award-holders/data-policy/common-principles-on-data-policy/)
-<!-- * SciLifeLab - -->

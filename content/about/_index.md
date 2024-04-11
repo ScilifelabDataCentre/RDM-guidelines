@@ -63,7 +63,7 @@ The content of the website is moderated by an [editorial group](/about/contribut
   <div class="col-sm-12 col-md-12 col-lg-9">
   NBIS (National Bioinformatics Infrastructure Sweden), a distributed national research infrastructure and the bioinformatics platform at SciLifeLab, is offering bioinformatics support, infrastructure and tools, as well as data management support, to the Swedish life science researchers community.
 
-  NBIS is supported by the [Swedish Research Council (Vetenskapsrådet)](http://www.vr.se/), SciLifeLab, all major Swedish universities and the [Knut and Alice Wallenberg Foundation](https://www.wallenberg.com/kaw/en), and is also the Swedish contact point to the European infrastructure for biological information [ELIXIR](https://www.elixir-europe.org/).
+  NBIS is supported by the [Swedish Research Council (Vetenskapsrådet)](http://www.vr.se/), SciLifeLab, all major Swedish universities and the [Knut and Alice Wallenberg Foundation](https://kaw.wallenberg.org), and is also the Swedish contact point to the European infrastructure for biological information [ELIXIR](https://www.elixir-europe.org/).
 
   General information about NBIS is available at [NBIS.se](https://nbis.se).
   </div>

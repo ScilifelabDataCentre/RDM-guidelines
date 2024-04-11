@@ -42,9 +42,12 @@ The [Swedish Authority for Privacy Protection (IMY)](https://www.imy.se/en/) uph
 * **The Ethical Review Act** – Ethical review by the [Ethical Review Authority](https://etikprovningsmyndigheten.se/) is needed when research involves human data, according to the Swedish ethical review act ([Lag (2003:460) om etikprövning av forskning som avser människor](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2003460-om-etikprovning-av-forskning-som_sfs-2003-460) - *Swedish*). See also [Ethical considerations](#ethical-considerations) below.
 
 * **Other regulations**
-  * [The Patient Data Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/patientdatalag-2008355_sfs-2008-355)
-  * [The Biobank Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/biobankslag-202338_sfs-2023-38)
-
+  <div>
+    <ul class=list-link>
+      <li><a href="https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/patientdatalag-2008355_sfs-2008-355">The Patient Data Act</a></li>
+      <li><a href="https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/biobankslag-202338_sfs-2023-38">The Biobank Act</a></li>
+    </ul>
+  </div>
 
 ## Who is responsible for the data?
 
@@ -93,7 +96,7 @@ Before embarking on a new project, consider the following:
 * Have Data Protection Impact Assessments ([DPIA](#data-protection-impact-assessment-dpia)) been performed for the personal data?
 * What is there to show that the individuals concerned have given their consent?
   * Inform in a transparent and honest way
-* What happens with the data [after project completion](#repositories-for-publishing-human-data)?
+* What happens with the data [after project completion](#sharing-human-data)?
   * How long will the collected data be kept? Erase the data when they are no longer needed.
 
 

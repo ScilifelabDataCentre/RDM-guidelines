@@ -59,12 +59,12 @@ Click on the buttons below for specific information regarding suitable repositor
   </ul>
 
   For convenience, we have created templates for the most frequent data types and their corresponding <a href="https://www.ebi.ac.uk/ena/browser/checklists">ENA checklists</a>. The templates come with instructions on how to do an interactive submission, via the ENA Webin Portal, but even when doing a programmatic submission, the template can be useful for collecting all necessary descriptions / metadata.  Download an appropriate template, and fill in the sheets according to the instructions in the template:
-  <ul>
-    <li><a href="/meta-data-templates/metadata_template_default_ERC000011.xlsx">ERC000011 ENA default sample checklist</a></li>
-    <li><a href="/meta-data-templates/metadata_template_virus_ERC000033.xlsx">ERC000033 ENA virus pathogen reporting standard checklist</a></li>
-    <li><a href="/meta-data-templates/metadata_template_sewage_ERC000036.xlsx">ERC000036 ENA sewage checklist</a></li>
-    <li><a href="/meta-data-templates/metadata_template_ENA_binned_metagenome_ERC000050.xlsx">ERC000050 ENA binned metagenome checklist</a></li>
-    <li><a href="/meta-data-templates/metadata_template_tree-of-life_ERC000053.xlsx">ERC000053 Tree of Life Checklist</a></li>
+  <ul class=list-link>
+    <li><a href="/meta-data-templates/metadata_template_default_ERC000011.xlsx">ERC000011 ENA default sample checklist (Excel spreadsheet)</a></li>
+    <li><a href="/meta-data-templates/metadata_template_virus_ERC000033.xlsx">ERC000033 ENA virus pathogen reporting standard checklist (Excel spreadsheet)</a></li>
+    <li><a href="/meta-data-templates/metadata_template_sewage_ERC000036.xlsx">ERC000036 ENA sewage checklist (Excel spreadsheet)</a></li>
+    <li><a href="/meta-data-templates/metadata_template_ENA_binned_metagenome_ERC000050.xlsx">ERC000050 ENA binned metagenome checklist (Excel spreadsheet)</a></li>
+        <li><a href="/meta-data-templates/metadata_template_tree-of-life_ERC000053.xlsx">ERC000053 Tree of Life Checklist (Excel spreadsheet)</a></li>
   </ul>
   </span>
   </div>
@@ -138,7 +138,7 @@ The [ProteomeXchange](http://www.proteomexchange.org/) Consortium provides globa
 <div class="collapse" id="collapseExample6">
   <div class="card card-body">
   <span>
-  <a href="https://www.ebi.ac.uk/pride/">PRIDE</a> admits protein and peptide identification/quantification data with the accompanying mass spectra evidence and any other related data types. Submission is done using the <a href="https://www.ebi.ac.uk/pride/markdownpage/pridesubmissiontool">PX Submission Tool</a>, see <a href="https://www.ebi.ac.uk/pride/static/markdown/submitdatapage/files/Submission_Tutorial.pdf">tutorial</a>.
+  <a href="https://www.ebi.ac.uk/pride/">PRIDE</a> admits protein and peptide identification/quantification data with the accompanying mass spectra evidence and any other related data types. Submission is done using the <a href="https://www.ebi.ac.uk/pride/markdownpage/pridesubmissiontool">PX Submission Tool</a>, see <a href="https://www.ebi.ac.uk/pride/static/markdown/submitdatapage/files/Submission_Tutorial.pdf">tutorial (PDF)</a>.
   </span>
   </div>
   <br>

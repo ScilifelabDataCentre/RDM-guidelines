@@ -24,7 +24,7 @@
           research data life cycle, including information on relevant resources and training material.
           <br></p>
         {{- partial "data_life_cycle.html" . -}}
-        <br><br><p>RDM life cycle from <a href="https://rdmkit.elixir-europe.org/">RDMkit</a> licensed under <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+        <br><br><p>RDM life cycle from <a href="https://rdmkit.elixir-europe.org/">RDMkit</a> licensed under <a href="http://creativecommons.org/licenses/by/4.0/">CreativeCommons Attribution 4.0 International License</a>. </p>
       </div>
       <br>
 
@@ -74,15 +74,16 @@
 
     <div class="col-md-3 text-black offset-md-1 pb-3 pt-5 px-2">
       <div class="card-body pb-4 px-0 pt-0">
-      <div class="card-body  support rounded pt-1">
-        <h2><a style="color:black" href="/rdm-support/">Get Support</a></h2>
-        <p class="card-text">Do you need support with research data management?<br><br>We offer support to anyone
-          involved in life science research that is affiliated with a Swedish university or research institute.
-          <br></p>
-        <div class="row">
-          <h4><b><a style="color:black" href="/rdm-support/">Click here to get support <i
-                  class="bi bi-arrow-right-circle-fill"></i></a></b></h4><br>
-        </div>
+      <div class="card-body support rounded pt-1">
+        <a class="card-body-style" href="/rdm-support/">
+            <h2>Get Support</h2>
+            <p class="card-text">Do you need support with research data management?<br><br>We offer support to anyone
+              involved in life science research that is affiliated with a Swedish university or research institute.
+              <br></p>
+            <div class="row">
+              <b>Go to support page <i class="bi bi-arrow-right-circle-fill"></i></b><br>
+            </div>
+        </a>      
       </div>
       </div>
       {{ with .Site.GetPage "Section" "updates" }}
@@ -97,8 +98,8 @@
         <div class="card-body update rounded pt-1">
           <h3>{{ .Title }}</h3>
           {{ if eq .Params.category "event"}}
-          <h2><a style="color:black" href={{ .Params.update_url }}>{{ .Params.Theme }}</a></h2>
-          <p class="card-text">{{ .Description }}<br><br>Next date: {{ .Params.date_start | time.Format ":date_medium" }}</p>
+          <h2><a href={{ .Params.update_url }}>{{ .Params.Theme }}</a></h2>
+          <p class="card-text">{{ .Description }}<br>Next date: {{ .Params.date_start | time.Format ":date_medium" }}</p>
           {{else }}
           <p class="card-text">{{ .Description }}</p>
           {{ end }}
@@ -111,29 +112,38 @@
     {{ end }}
     <div class="card-body pb-4 px-0 pt-0">
     <div class="card-body training rounded pt-1">
-      <h2><a style="color:black" href="https://data.scilifelab.se/events/">Events & Training</a></h2>
-      <p class="card-text">Upcoming conferences, webinars, workshops, and training opportunities in Sweden related to data-driven life science can be found on the SciLifeLab Data Platform.
+      <a class="card-body-style" href="https://data.scilifelab.se/events/">
+        <h2>Events & Training</h2>
+        <p class="card-text">Upcoming conferences, webinars, workshops, and training opportunities in Sweden related to data-driven life science can be found on the SciLifeLab Data Platform.
         <br></p>
-      <div class="row">
-        <h4><b><a style="color:black" href="https://data.scilifelab.se/events/">Go to Events & Training on the Data Platform <i
-                class="bi bi-arrow-right-circle-fill"></i></a></b></h4><br>
-      </div>
+        <div class="row">
+          <b>Go to Events & Training on the Data Platform <i class="bi bi-arrow-right-circle-fill"></i></b><br>
+        </div>
+      </a>
     </div>
     </div>
     <div class="card-body pb-4 px-0 pt-0">
     <div class="card-body job rounded pt-1">
-      <h2><a style="color:black" href="https://data.scilifelab.se/funding_calls/">Calls</a> & <a style="color:black" href="https://data.scilifelab.se/jobs/">Jobs</a></h2>
-      <p class="card-text">Available positions and funding opportunities within data-driven life science can be found on the SciLifeLab Data Platform.
+      <a class="card-body-style" href="https://data.scilifelab.se/jobs/">
+        <h2>Jobs</h2>
+        <p class="card-text">Available positions within data-driven life science can be found on the SciLifeLab Data Platform.
         <br></p>
-      <div class="row">
-        <h4><b><a style="color:black" href="https://data.scilifelab.se/funding_calls/">Go to calls on the Data Platform <i
-                class="bi bi-arrow-right-circle-fill"></i></a></b></h4><br>
-      </div>
-      <div class="row">
-        <h4><b><a style="color:black" href="https://data.scilifelab.se/jobs/">Go to jobs on the Data Platform <i
-                class="bi bi-arrow-right-circle-fill"></i></a></b></h4><br>
-      </div>
+        <div class="row">
+          <b>Go to jobs on the Data Platform <i class="bi bi-arrow-right-circle-fill"></i></b><br>
+        </div>
+      </a>
     </div>
+    </div>
+    <div class="card-body pb-4 px-0 pt-0">
+    <div class="card-body call rounded pt-1">
+      <a class="card-body-style" href="https://data.scilifelab.se/funding_calls/">
+        <h2>Calls</h2>
+        <p class="card-text">Available funding opportunities within data-driven life science can be found on the SciLifeLab Data Platform.
+        <br></p>
+        <div class="row">
+          <b>Go to calls on the Data Platform <i class="bi bi-arrow-right-circle-fill"></i></b><br>
+        </div>
+      </a>
     </div>
     </div>
   </div>

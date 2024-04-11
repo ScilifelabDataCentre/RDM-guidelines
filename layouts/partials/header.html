@@ -1,5 +1,5 @@
 </div>{{ if .IsHome }}
-  <header class="header" style="background-image: url('/img/illustrations/circle_zoomed.png'); color: white; ">
+  <header class="header" style="background-image: url('/img/illustrations/circle_zoomed.png'); color: white; background-color: #42786E">
     <div class="container">
       <div class="py-2 my-1">
         {{ .Content }}
@@ -9,7 +9,7 @@
 {{ else }}
 {{ with .Site.GetPage "section" }}
 <header class="header"
-  style="background-image: url('{{ if .Params.header_image }}{{ .Params.header_image }}{{ else }}/img/illustrations/bubble_matrix.png{{ end }}');">
+  style="background-image: url('{{ if .Params.header_image }}{{ .Params.header_image }}{{ else }}/img/illustrations/bubble_matrix.png{{ end }}'); color:white; background-color: #42786E">
   <div class="container">
     <h1>{{ .FirstSection.Title }}</h1>
     {{ .FirstSection.Params.description }}
@@ -17,7 +17,7 @@
 </header>
 {{ else }}
 <header class="header"
-  style="background-image: url('{{ if .Params.header_image }}{{ .Params.header_image }}{{ else }}/img/illustrations/bubble_matrix.png{{ end }}');">
+  style="background-image: url('{{ if .Params.header_image }}{{ .Params.header_image }}{{ else }}/img/illustrations/bubble_matrix.png{{ end }}'); color:white; background-color: #42786E">
   <div class="container">
     <h1>{{ .FirstSection.Title }}</h1>
     {{ .FirstSection.Params.description }}
@@ -27,11 +27,11 @@
 {{ if .Parent }}
 <nav class="breadcrumbs pt-2 pb-2 bg-light sticky-top2" aria-label="breadcrumb">
   <div class="container">
-    <ol class="breadcrumb ">
+    <ol class="breadcrumb">
       {{ if .Parent.Parent }}
       {{ if .Parent.Parent.Parent }}
       {{ if .Parent.Parent.Parent.Parent }}
-      <li class="breadcrumb-item"><a
+      <li class="breadcrumb-item"><a class="breadcrumb-style" 
           href="{{ .Parent.Parent.Parent.Parent.RelPermalink }}">{{ .Parent.Parent.Parent.Parent.Title }}</a></li>
       {{ end }}
       <li class="breadcrumb-item"><a
@@ -40,7 +40,7 @@
       <li class="breadcrumb-item"><a href="{{ .Parent.Parent.RelPermalink }}">{{ .Parent.Parent.Title }}</a></li>
       {{ end }}
       <li class="breadcrumb-item"><a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a></li>
-      <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+      <li class="breadcrumb-item active" aria-current="page" style="color: black;">{{ .Title }}</li>
     </ol>
   </div>
 </nav>

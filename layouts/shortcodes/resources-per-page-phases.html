@@ -20,7 +20,7 @@
 {{ end }}
 {{ if gt (len $training_resources) 0 }}
 <h3>Training resources</h3>
-<ul>
+<ul class="list-link">
 {{ range $training_resources }}
   <li><a href="{{ .url}}">{{ .title }}</a></li>
 {{ end }}
@@ -34,7 +34,7 @@
 {{ end }}
 {{ if gt (len $guidances_resources) 0 }}
 <h3>Guiding resources</h3>
-<ul>
+<ul class="list-link">
 {{ range $guidances_resources }}
   <li><a href="{{ .url}}">{{ .title }}</a></li>
 {{ end }}
@@ -48,7 +48,7 @@
 {{ end }}
 {{ if gt (len $tools_resources) 0 }}
 <h3>Tools</h3>
-<ul>
+<ul class="list-link">
 {{ range $tools_resources }}
   <li><a href="{{ .url}}">{{ .title }}</a></li>
 {{ end }}

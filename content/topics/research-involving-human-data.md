@@ -42,9 +42,12 @@ The [Swedish Authority for Privacy Protection (IMY)](https://www.imy.se/en/) uph
 * **The Ethical Review Act** – Ethical review by the [Ethical Review Authority](https://etikprovningsmyndigheten.se/) is needed when research involves human data, according to the Swedish ethical review act ([Lag (2003:460) om etikprövning av forskning som avser människor](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2003460-om-etikprovning-av-forskning-som_sfs-2003-460) - *Swedish*). See also [Ethical considerations](#ethical-considerations) below.
 
 * **Other regulations**
-  * [The Patient Data Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/patientdatalag-2008355_sfs-2008-355)
-  * [The Biobank Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/biobankslag-202338_sfs-2023-38)
-
+  <div>
+    <ul class=list-link>
+      <li><a href="https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/patientdatalag-2008355_sfs-2008-355">The Patient Data Act</a></li>
+      <li><a href="https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/biobankslag-202338_sfs-2023-38">The Biobank Act</a></li>
+    </ul>
+  </div>
 
 ## Who is responsible for the data?
 

@@ -15,7 +15,7 @@
             "type": ["Training"],
             "phase": ["Analyse"],
             "level": ["Basic", "Intermediate", "Advanced"],
-            "url": "https://uppsala.instructure.com/courses/48087/pages/nbis-training-catalogue",
+            "url": "https://uppsala.instructure.com/courses/79097/",
             "description": "The NBIS training catalogue.",
             "provider": "NBIS"
         },        
@@ -246,15 +246,6 @@
             "description": "Training material regarding versioning of data and code using Git.",
             "provider": "NBIS",
             "licence": "CC BY 4.0"
-        },
-        {
-            "title": "NBIS course catalogue",
-            "type": ["Training"],
-            "phase": ["Analyse"],
-            "level": ["Basic", "Intermediate", "Advanced"],
-            "url": "https://uppsala.instructure.com/courses/79097/",
-            "description": "The NBIS training catalogue.",
-            "provider": "NBIS"
         },
         {
             "title": "Data organisation module",

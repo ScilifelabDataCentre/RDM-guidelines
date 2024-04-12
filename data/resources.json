@@ -499,6 +499,15 @@
             "description": "Best practice guidance regarding the task of organising data, in terms of naming files, file versioning, folder structure and file formats.",
             "provider": "RDMkit",
             "licence": "CC BY 4.0"
+        },
+        {
+            "title": "NBIS Submission documentation",
+            "type": ["Guidance"],
+            "phase": ["Share"],
+            "level": ["Basic"],
+            "url": "https://github.com/NBISweden/data-submission-documentation",
+            "description": "Documentation on data submissions done by data stewards into public repositories, including standard operating procedures for submissions to ENA.",
+            "provider": "NBIS"
         }
     ]
 }

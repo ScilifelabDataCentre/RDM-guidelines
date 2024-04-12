@@ -49,7 +49,7 @@ Here are a few repositories where you can register metadata records:
 SciLifeLab is hosting an institutional repository, [SciLifeLab Data Repository](https://figshare.scilifelab.se), for publishing any kind of research-related data, e.g. documents, figures, or presentations. This repository is an instance of Figshare, which means that every item will get a unique DOI. You can read more in the [repository's guidelines](https://www.scilifelab.se/data/repository). If you need any help connected to the SciLifeLab Data Repository, please [contact us](../../contact/)!
 
 ### BioStudies
-[BioStudies](https://www.ebi.ac.uk/biostudies/) database contains descriptions of biological studies and is especially suited for linking a study to datasets in different repositories. However, it can also be used to describe sensitive data that has not been uploaded to a repository. BioStudies is hosted by the European Bioinformatics Institute (EMBL-EBI).
+[BioStudies](https://www.ebi.ac.uk/biostudies/) database contains descriptions of biological studies and is especially suited for linking a study to datasets in different repositories. However, it can also be used to describe sensitive data that has not been uploaded to a repository. BioStudies is hosted by the European Bioinformatics Institute (EMBL-EBI). For an example submission to BioStudies (though not related to human data), see [NBIS Submission documentation](https://github.com/NBISweden/data-submission-documentation/tree/main/BioStudies). 
 
 
 ## How can SciLifeLab help you sharing human data?

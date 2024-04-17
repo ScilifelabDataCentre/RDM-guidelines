@@ -16,6 +16,7 @@
   role: advisory
 - name: Anna Asklöf
   git: annaasklof
+  orcid: 0009-0005-1719-2357
   affiliation: SciLifeLab Data Centre
   role: editor
 - name: Liane Hughes

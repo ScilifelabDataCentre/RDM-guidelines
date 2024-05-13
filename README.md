@@ -20,6 +20,13 @@ This is the repository for SciLifelab Research Data Management (RDM) guidelines,
 
 For internal / editorial contribution process, please see [internal contribution page](https://github.com/ScilifelabDataCentre/RDM-guidelines/blob/main/internal-contribution.md).
 
+<!--- If we move the how-to steps below, we could add a text e.g.:'That page also includes information on how to contribute using the GitHub way.' --->
+
+<!--- Perhaps add other ways of contributing, not only GitHub, and not only by cloning things. I could even see that the GitHub way could belong to the internal-contribution.md page.
+
+What is needed of the below text if you just click on the pen at remote repo directly?
+
+Also, add the email way of doing things, using the contact form -->
 ### Step 1: Github account
 
 The code is hosted on [GitHub](http://github.com/), so you'll need an account. 2-factor authentication is required, to decrease the risk of unauthorised access, and all commits needs to be signed.
@@ -170,7 +177,7 @@ For Windows users (additional instructions can be found [here](https://gohugo.io
 
 7. In PowerShell or your preferred CLI, add the hugo.exe executable to your PATH by navigating to `C:\Hugo\bin` (or the location of your hugo.exe file) and use the command `set PATH=%PATH%;C:\Hugo\bin`. If the hugo command does not work after a reboot, you may have to run the command prompt as administrator.
 
-Once Hugo is installed, simply run the following command in the repository root (RDM-guidelines) directory:
+Once Hugo is installed, use PowerShell or your preferred CLI and navigate to the repository root directory (i.e. where RDM-guidelines resides, e.g. `cd C:\Users\firstname.lastname\GitHub\RDM-guidelines`), and run the command:
 
 ```console
 $ hugo serve

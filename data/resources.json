@@ -2,6 +2,7 @@
     "items": [
         {"title": "RDMkit on Your role",
             "type": ["Guidance"],
+            "search_tags": ["RDMkit","role","profession"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse"],
             "topic": ["What is Research Data Management"],
             "level": ["Basic"],
@@ -13,6 +14,7 @@
         {
             "title": "NBIS course catalogue",
             "type": ["Training"],
+            "search_tags": ["catalogue","NBIS","course"],
             "phase": ["Analyse"],
             "level": ["Basic", "Intermediate", "Advanced"],
             "url": "https://uppsala.instructure.com/courses/79097/",
@@ -22,6 +24,7 @@
         {
             "title": "Keynote: First FAIR steps, Rob Hooft",
             "type": ["Guidance"],
+            "search_tags": ["video","FAIR"],
             "phase": ["Share", "Reuse"],
             "topic": ["FAIR principles"],
             "level": ["Basic"],
@@ -32,6 +35,7 @@
         {
             "title": "SciLifeLab Data Repository Metadata record tutorial",
             "type": ["Guidance"],
+            "search_tags": ["video","metadata","data repository"],
             "phase": ["Share"],
             "topic": ["Sharing human data"],
             "level": ["Basic"],
@@ -42,6 +46,7 @@
         {
             "title": "SND on Research material with personal data",
             "type": ["Guidance"],
+            "search_tags": ["SND","human data","personal data"],
             "phase": ["Plan", "Collect", "Preserve", "Share"],
             "topic": ["Research involving human data"],
             "level": ["Basic"],
@@ -52,6 +57,7 @@
         {
             "title": "ELSI checklist in Data Stewardship Wizard",
             "type": ["Tool"],
+            "search_tags": ["ELSI","checklist","human data"],
             "phase": ["Plan"],
             "topic": ["Research involving human data"],
             "level": ["Basic"],
@@ -62,6 +68,7 @@
         {
             "title": "RDMkit on Metadata",
             "type": ["Guidance"],
+            "search_tags": ["RDMkit","metadata"],
             "phase": ["Plan", "Collect", "Share"],
             "topic": ["Metadata", "README files"],
             "level": ["Basic"],
@@ -73,6 +80,7 @@
         {
             "title": "Metadata module",
             "type": ["Training"],
+            "search_tags": ["material","metadata"],
             "phase": ["Plan", "Collect", "Share"],
             "topic": ["Metadata"],
             "level": ["Basic"],
@@ -84,6 +92,7 @@
         {
             "title": "Open Science and FAIR",
             "type": ["Training"],
+            "search_tags": ["material","open science","FAIR"],
             "phase": ["Share", "Reuse"],
             "topic": ["FAIR principles"],
             "level": ["Basic"],
@@ -95,6 +104,7 @@
         {
             "title": "RDMkit on Human data",
             "type": ["Guidance"],
+            "search_tags": ["RDMkit","human data"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share","Reuse"],
             "topic": ["Research involving human data", "Sharing human data"],
             "level": ["Basic"],
@@ -106,6 +116,7 @@
         {
             "title": "DataCite Commons",
             "type": ["Tool"],
+            "search_tags": ["search","DataCite","reuse"],
             "phase": ["Reuse"],
             "level": ["Basic"],
             "url": "https://commons.datacite.org/",
@@ -115,6 +126,7 @@
         {
             "title": "The Swedish COVID-19 Data Portal one year on",
             "type": ["Guidance"],
+            "search_tags": ["video","reuse","COVID","portal"],
             "phase": ["Reuse"],
             "level": ["Basic"],
             "url": "https://www.youtube.com/watch?v=UUsoY6Lfa1o&list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS&index=7",
@@ -124,6 +136,7 @@
         {
             "title": "Swedish COVID-19 Data Portal",
             "type": ["Guidance"],
+            "search_tags": ["video","reuse","COVID","portal"],
             "phase": ["Reuse"],
             "level": ["Basic"],
             "url": "https://www.youtube.com/watch?v=Q2W1MvxMkJ0&list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS&index=12",
@@ -133,6 +146,7 @@
         {
             "title": "EBI repository wizard",
             "type": ["Guidance"],
+            "search_tags": ["EBI","publication","submission","repository"],
             "phase": ["Share"],
             "level": ["Basic"],
             "url": "https://www.ebi.ac.uk/submission/",
@@ -142,6 +156,7 @@
         {
             "title": "EBI submission YouTube playlist",
             "type": ["Guidance"],
+            "search_tags": ["EBI","submission","publication","video","repository"],
             "phase": ["Share"],
             "level": ["Basic"],
             "url": "https://www.youtube.com/playlist?list=PL67E0627174F36FCF",
@@ -151,6 +166,7 @@
         {
             "title": "RDMkit on Reusing data",
             "type": ["Guidance"],
+            "search_tags": ["RDMkit","reuse"],
             "phase": ["Reuse"],
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/reusing",
@@ -161,6 +177,7 @@
         {
             "title": "RDMkit on Existing data",
             "type": ["Guidance"],
+            "search_tags": ["RDMkit","reuse"],
             "phase": ["Reuse"],
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/existing_data",
@@ -171,6 +188,7 @@
         {
             "title": "Google dataset search",
             "type": ["Tool"],
+            "search_tags": ["Google","search","reuse"],
             "phase": ["Reuse"],
             "level": ["Basic"],
             "url": "https://datasetsearch.research.google.com",
@@ -180,6 +198,7 @@
         {
             "title": "RDMkit on Preserving data",
             "type": ["Guidance"],
+            "search_tags": ["RDMkit","preserve"],
             "phase": ["Preserve"],
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/preserving",
@@ -190,6 +209,7 @@
         {
             "title": "RDMkit on Sharing data",
             "type": ["Guidance"],
+            "search_tags": ["RDMkit","share"],
             "phase": ["Share"],
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/sharing",
@@ -200,6 +220,7 @@
         {
             "title": "RDMkit on Data publication",
             "type": ["Guidance"],
+            "search_tags": ["RDMkit","publication"],
             "phase": ["Share"],
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/data_publication",
@@ -210,6 +231,7 @@
         {
             "title": "Data publication module",
             "type": ["Training"],
+            "search_tags": ["material","publication","submission","ENA"],
             "phase": ["Share"],
             "level": ["Basic"],
             "url": "https://nbisweden.github.io/module-data-publication-dm-practices/",
@@ -220,6 +242,7 @@
         {
             "title": "RDMkit on Analysing data",
             "type": ["Guidance"],
+            "search_tags": ["RDMkit","analyse"],
             "phase": ["Analyse"],
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/analysing",
@@ -230,6 +253,7 @@
         {
             "title": "R module",
             "type": ["Training"],
+            "search_tags": ["material","R"],
             "phase": ["Analyse"],
             "level": ["Basic"],
             "url": "https://nbisweden.github.io/module-r-intro-dm-practices/",
@@ -240,6 +264,7 @@
         {
             "title": "Versioning module",
             "type": ["Training"],
+            "search_tags": ["material","git","versioning"],
             "phase": ["Analyse"],
             "level": ["Basic"],
             "url": "https://nbisweden.github.io/module-versioning-dm-practices/",
@@ -250,6 +275,7 @@
         {
             "title": "Data organisation module",
             "type": ["Training"],
+            "search_tags": ["material","data organisation","organisation","organization"],
             "phase": ["Collect"],
             "level": ["Basic"],
             "url": "https://nbisweden.github.io/module-organising-data-dm-practices/",
@@ -260,6 +286,7 @@
         {
             "title": "RDMkit on Processing data",
             "type": ["Guidance"],
+            "search_tags": ["RDM","process"],
             "phase": ["Process"],
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/processing",
@@ -270,6 +297,7 @@
         {
             "title": "RDMkit on Data quality",
             "type": ["Guidance"],
+            "search_tags": ["RDMkit","quality"],
             "phase": ["Collect","Process"],
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/data_quality",
@@ -280,6 +308,7 @@
         {
             "title": "OpenRefine module",
             "type": ["Training"],
+            "search_tags": ["OpenRefine","cleaning","material","tool"],
             "phase": ["Process", "Analyse"],
             "level": ["Basic"],
             "url": "https://nbisweden.github.io/module-openrefine-dm-practices/",
@@ -290,6 +319,7 @@
         {
             "title": "RDMkit on Data Management Planning",
             "type": ["Guidance"],
+            "search_tags": ["RDMkit","DMP","data management plan"],
             "phase": ["Plan"],
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/planning",
@@ -300,6 +330,7 @@
         {
             "title": "DMP module",
             "type": ["Training"],
+            "search_tags": ["DMP","data management plan","material"],
             "phase": ["Plan"],
             "level": ["Basic"],
             "url": "https://nbisweden.github.io/module-dmp-dm-practices/",
@@ -310,6 +341,7 @@
         {
             "title": "SciLifeLab Data Stewardship Wizard - A short introduction",
             "type": ["Guidance"],
+            "search_tags": ["DSW","DMP","video"],
             "phase": ["Plan"],
             "level": ["Basic"],
             "url": "https://www.youtube.com/watch?v=HY2DVnNGkAs",
@@ -319,6 +351,7 @@
         {
             "title": "How to write a Data Management Plan",
             "type": ["Guidance"],
+            "search_tags": ["DMP","data management plan","video"],
             "phase": ["Plan"],
             "level": ["Basic"],
             "url": "https://www.youtube.com/watch?v=HDfwz60FXjw",
@@ -327,6 +360,7 @@
         },
         {"title": "RDMkit on Collecting data",
             "type": ["Guidance"],
+            "search_tags": ["RDMkit","collect"],
             "phase": ["Collect"],
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/collecting",
@@ -336,6 +370,7 @@
         },
         {"title": "RDMkit on Data transfer",
             "type": ["Guidance"],
+            "search_tags": ["RDMkit","transfer","data transfer"],
             "phase": ["Collect"],
             "topic": ["Data transfer"],
             "level": ["Basic"],
@@ -346,6 +381,7 @@
         },
         {"title": "SciLifeLab Data Stewardship Wizard (DSW)",
             "type": ["Tool"],
+            "search_tags": ["DSW","DMP"],
             "phase": ["Plan"],
             "level": ["Basic"],
             "url": "https://dsw.scilifelab.se",
@@ -355,6 +391,7 @@
         {
             "title": "Introduction to data management practices",
             "type": ["Training"],
+            "search_tags": ["data management","course","FAIR", "open science","metadata","git","DMP","organisation","organization","data organisation","OpenRefine","publication","R","RStudio"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Share"],
             "topic": ["README files"], 
             "level": ["Basic"],
@@ -366,6 +403,7 @@
         {
             "title": "PhD course in Open Science and Reproducible Research",
             "type": ["Training"],
+            "search_tags": ["KI","course","open science","reproducible"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Share"],
             "level": ["Basic"],
             "url": "https://osf.io/q9nsp/",
@@ -377,6 +415,7 @@
         {
             "title": "BAS Online",
             "type": ["Training"],
+            "search_tags": ["SND","BAS","material","legal","DMP","metadata"],
             "phase": ["Plan", "Collect", "Analyse"],
             "level": ["Basic"],
             "url": "https://snd.gu.se/sv/hantera-data/utbildning/bas-online",
@@ -386,6 +425,7 @@
         {
             "title": "General information about research data on UU intranet",
             "type": ["Guidance"],
+            "search_tags": ["Uppsala","UU","DMP","research data"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share","Reuse"],
             "level": ["Basic"],
             "url": "https://mp.uu.se/web/info/forska/forskningsdata",
@@ -395,6 +435,7 @@
         {
             "title": "Tools for Reproducible Research",
             "type": ["Training"],
+            "search_tags": ["tool","reproducible","course","material"],
             "phase": ["Process", "Analyse"],
             "level": ["Intermediate"],
             "url": "https://uppsala.instructure.com/courses/58267",
@@ -405,6 +446,7 @@
         {
             "title": "Online course on Open science and data management",
             "type": ["Training"],
+            "search_tags": ["KTH","course","open science","data management"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share","Reuse"],
             "level": ["Basic"],
             "url": "https://canvas.kth.se/courses/29371",
@@ -415,6 +457,7 @@
         {
             "title": "Stockholm trio carpentries events",
             "type": ["Training"],
+            "search_tags": ["Stockholm","trio","carpentries","event","Git", "BaSH", "Python", "R"],
             "phase": ["Analyse"],
             "level": ["Basic"],
             "url": "https://stockholmuniversityrdmteam.github.io/2023-05-09-CarpentryStockholmTrio/",
@@ -425,6 +468,7 @@
         {
             "title": "KTH calendar with upcoming events such as DMP workshops, PhD seminars etc",
             "type": ["Training"],
+            "search_tags": ["KTH", "calendar", "event","workshop"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share","Reuse"],
             "level": ["Basic", "Intermediate", "Advanced"],
             "url": "https://www.kth.se/en/biblioteket/publicera-analysera/hantera-forskningsdata",
@@ -434,6 +478,7 @@
         {
             "title": "Programming formalisms for (life) scientists and bioinformaticians",
             "type": ["Training"],
+            "search_tags": ["programming","formalism","course","material"],
             "phase": ["Analyse"],
             "level": ["Intermediate"],
             "url": "https://uppsala.instructure.com/courses/69215",
@@ -444,6 +489,7 @@
         {
             "title": "Data Management Expert Guide (DMEG)",
             "type": ["Guidance"],
+            "search_tags": ["DMEG","FAIR", "social science","CESSDA"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share","Reuse"],
             "level": ["Basic"],
             "url": "https://dmeg.cessda.eu/Data-Management-Expert-Guide",
@@ -454,6 +500,7 @@
         {
             "title": "UPPMAX courses and workshops",
             "type": ["Training"],
+            "search_tags": ["UPPMAX","course", "workshop", "infrastructure"],
             "phase": ["Analyse"],
             "level": ["Basic", "Intermediate", "Advanced"],
             "url": "https://www.uppmax.uu.se/support/courses-and-workshops/",
@@ -463,6 +510,7 @@
         {
             "title": "AIDA Data Sharing Policy",
             "type": ["Guidance"],
+            "search_tags": ["AIDA","policy", "share"],
             "phase": ["Plan", "Share"],
             "level": ["Basic"],
             "url": "https://datahub.aida.scilifelab.se/sharing/",
@@ -472,6 +520,7 @@
         {
             "title": "Storage resources available for researchers in Sweden",
             "type": ["Guidance"],
+            "search_tags": ["storage","resources","infrastructure"],
             "phase": ["Collect", "Process", "Analyse", "Preserve"],
             "topic": [""],
             "level": ["Basic"],
@@ -482,6 +531,7 @@
         {
             "title": "Compute resources available for researchers in Sweden",
             "type": ["Guidance"],
+            "search_tags": ["compute","resources","infrastructure"],
             "phase": ["Analyse"],
             "topic": [""],
             "level": ["Basic"],
@@ -492,6 +542,7 @@
         {
             "title": "RDMkit on Data organisation",
             "type": ["Guidance"],
+            "search_tags": ["RDMkit","organisation", "organization", "data organisation","Metadata", "README files"],
             "phase": ["Plan", "Collect", "Share"],
             "topic": ["Metadata", "README files"],
             "level": ["Basic"],
@@ -503,6 +554,7 @@
         {
             "title": "NBIS Submission documentation",
             "type": ["Guidance"],
+            "search_tags": ["NBIS","share","submission","documentation","publication","SOP","ENA","EBI","BioStudies"],
             "phase": ["Share"],
             "level": ["Basic"],
             "url": "https://github.com/NBISweden/data-submission-documentation",

@@ -9,16 +9,7 @@
             "description": "Best practice guidance regarding the different roles a professional can have in research data management.",
             "provider": "RDMkit",
             "licence": "CC BY 4.0"
-        },
-        {
-            "title": "NBIS course catalogue",
-            "type": ["Training"],
-            "phase": ["Analyse"],
-            "level": ["Basic", "Intermediate", "Advanced"],
-            "url": "https://uppsala.instructure.com/courses/79097/",
-            "description": "The NBIS training catalogue.",
-            "provider": "NBIS"
-        },        
+        },       
         {
             "title": "Keynote: First FAIR steps, Rob Hooft",
             "type": ["Guidance"],
@@ -423,15 +414,6 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "KTH calendar with upcoming events such as DMP workshops, PhD seminars etc",
-            "type": ["Training"],
-            "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share","Reuse"],
-            "level": ["Basic", "Intermediate", "Advanced"],
-            "url": "https://www.kth.se/en/biblioteket/publicera-analysera/hantera-forskningsdata",
-            "description": "Workshops/seminars both on-site and online. Events for drafting a good DMP is given several times per year, and also more targeted webinars are offered on a regular basis. Target audience is both  PhD students and senior researchers.",
-            "provider": "KTH"
-        },
-        {
             "title": "Programming formalisms for (life) scientists and bioinformaticians",
             "type": ["Training"],
             "phase": ["Analyse"],
@@ -450,15 +432,6 @@
             "description": "The DMEG is designed by European experts to help social science researchers make their research data Findable, Accessible, Interoperable and Reusable (FAIR).",
             "provider": "CESSDA ERIC",
             "licence": "CC BY-SA 4.0"
-        },
-        {
-            "title": "UPPMAX courses and workshops",
-            "type": ["Training"],
-            "phase": ["Analyse"],
-            "level": ["Basic", "Intermediate", "Advanced"],
-            "url": "https://www.uppmax.uu.se/support/courses-and-workshops/",
-            "description": "Information about courses and workshops, including links to extra material, given by UPPMAX, Uppsala University's resource of high-performance computers, large-scale storage and know-how of high-performance computing.",
-            "provider": "UPPMAX"
         },
         {
             "title": "AIDA Data Sharing Policy",

@@ -357,7 +357,7 @@
             "type": ["Guidance"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share","Reuse"],
             "level": ["Basic"],
-            "url": "https://mp.uu.se/web/info/forska/forskningsdata",
+            "url": "https://www.uu.se/en/staff/gateway/research/research-handbook/research-data",
             "description": "General information about handling data - DMP, documentation & metadata, FAIR, organizing files & folders, versioning, ethical & legal aspects, open data, archiving. Information is mostly on a generic level, not discipline specific. Lectures in Phd courses on ethics and scientific writing. Target audience is researchers and doctoral students at UU.",
             "provider": "UU"
         },

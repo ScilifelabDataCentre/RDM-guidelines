@@ -1,7 +1,8 @@
 {
     "items": [
         {"title": "RDMkit on Your role",
-            "type": ["Guidance"],
+            "target": ["guidance"],
+            "type": ["Web page"],
             "search_tags": ["RDMkit","role","profession"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse"],
             "topic": ["What is Research Data Management"],
@@ -12,18 +13,9 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "NBIS course catalogue",
-            "type": ["Training"],
-            "search_tags": ["catalogue","NBIS","course"],
-            "phase": ["Analyse"],
-            "level": ["Basic", "Intermediate", "Advanced"],
-            "url": "https://uppsala.instructure.com/courses/79097/",
-            "description": "The NBIS training catalogue.",
-            "provider": "NBIS"
-        },        
-        {
             "title": "Keynote: First FAIR steps, Rob Hooft",
-            "type": ["Guidance"],
+            "target": ["guidance"],
+            "type": ["Video"],
             "search_tags": ["video","FAIR"],
             "phase": ["Share", "Reuse"],
             "topic": ["FAIR principles"],
@@ -34,7 +26,8 @@
         },
         {
             "title": "SciLifeLab Data Repository Metadata record tutorial",
-            "type": ["Guidance"],
+            "target": ["guidance"],
+            "type": ["Video"],
             "search_tags": ["video","metadata","data repository"],
             "phase": ["Share"],
             "topic": ["Sharing human data"],
@@ -45,7 +38,8 @@
         },
         {
             "title": "SND on Research material with personal data",
-            "type": ["Guidance"],
+            "target": ["guidance"],
+            "type": ["Web page"],
             "search_tags": ["SND","human data","personal data"],
             "phase": ["Plan", "Collect", "Preserve", "Share"],
             "topic": ["Research involving human data"],
@@ -56,6 +50,7 @@
         },
         {
             "title": "ELSI checklist in Data Stewardship Wizard",
+            "target": ["tool"],
             "type": ["Tool"],
             "search_tags": ["ELSI","checklist","human data"],
             "phase": ["Plan"],
@@ -67,7 +62,8 @@
         },
         {
             "title": "RDMkit on Metadata",
-            "type": ["Guidance"],
+            "target": ["guidance"],
+            "type": ["Web page"],
             "search_tags": ["RDMkit","metadata"],
             "phase": ["Plan", "Collect", "Share"],
             "topic": ["Metadata", "README files"],
@@ -79,7 +75,8 @@
         },
         {
             "title": "Metadata module",
-            "type": ["Training"],
+            "target": ["training"],
+            "type": ["Material"],
             "search_tags": ["material","metadata"],
             "phase": ["Plan", "Collect", "Share"],
             "topic": ["Metadata"],
@@ -91,7 +88,8 @@
         },
         {
             "title": "Open Science and FAIR",
-            "type": ["Training"],
+            "target": ["training"],
+            "type": ["Material"],
             "search_tags": ["material","open science","FAIR"],
             "phase": ["Share", "Reuse"],
             "topic": ["FAIR principles"],
@@ -103,7 +101,8 @@
         },
         {
             "title": "RDMkit on Human data",
-            "type": ["Guidance"],
+            "target": ["guidance"],
+            "type": ["Web page"],
             "search_tags": ["RDMkit","human data"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share","Reuse"],
             "topic": ["Research involving human data", "Sharing human data"],
@@ -115,6 +114,7 @@
         },
         {
             "title": "DataCite Commons",
+            "target": ["tool"],
             "type": ["Tool"],
             "search_tags": ["search","DataCite","reuse"],
             "phase": ["Reuse"],
@@ -125,7 +125,8 @@
         },
         {
             "title": "The Swedish COVID-19 Data Portal one year on",
-            "type": ["Guidance"],
+            "target": ["guidance"],
+            "type": ["Video"],
             "search_tags": ["video","reuse","COVID","portal"],
             "phase": ["Reuse"],
             "level": ["Basic"],
@@ -135,7 +136,8 @@
         },
         {
             "title": "Swedish COVID-19 Data Portal",
-            "type": ["Guidance"],
+            "target": ["guidance"],
+            "type": ["Video"],
             "search_tags": ["video","reuse","COVID","portal"],
             "phase": ["Reuse"],
             "level": ["Basic"],
@@ -145,7 +147,8 @@
         },
         {
             "title": "EBI repository wizard",
-            "type": ["Guidance"],
+            "target": ["guidance"],
+            "type": ["Web page"],
             "search_tags": ["EBI","publication","submission","repository"],
             "phase": ["Share"],
             "level": ["Basic"],
@@ -155,7 +158,8 @@
         },
         {
             "title": "EBI submission YouTube playlist",
-            "type": ["Guidance"],
+            "target": ["guidance"],
+            "type": ["Video"],
             "search_tags": ["EBI","submission","publication","video","repository"],
             "phase": ["Share"],
             "level": ["Basic"],
@@ -165,7 +169,8 @@
         },
         {
             "title": "RDMkit on Reusing data",
-            "type": ["Guidance"],
+            "target": ["guidance"],
+            "type": ["Web page"],
             "search_tags": ["RDMkit","reuse"],
             "phase": ["Reuse"],
             "level": ["Basic"],
@@ -176,7 +181,8 @@
         },
         {
             "title": "RDMkit on Existing data",
-            "type": ["Guidance"],
+            "target": ["guidance"],
+            "type": ["Web page"],
             "search_tags": ["RDMkit","reuse"],
             "phase": ["Reuse"],
             "level": ["Basic"],
@@ -187,6 +193,7 @@
         },
         {
             "title": "Google dataset search",
+            "target": ["tool"],
             "type": ["Tool"],
             "search_tags": ["Google","search","reuse"],
             "phase": ["Reuse"],
@@ -197,7 +204,8 @@
         },
         {
             "title": "RDMkit on Preserving data",
-            "type": ["Guidance"],
+            "target": ["guidance"],
+            "type": ["Web page"],
             "search_tags": ["RDMkit","preserve"],
             "phase": ["Preserve"],
             "level": ["Basic"],
@@ -208,7 +216,8 @@
         },
         {
             "title": "RDMkit on Sharing data",
-            "type": ["Guidance"],
+            "target": ["guidance"],
+            "type": ["Web page"],
             "search_tags": ["RDMkit","share"],
             "phase": ["Share"],
             "level": ["Basic"],
@@ -219,7 +228,8 @@
         },
         {
             "title": "RDMkit on Data publication",
-            "type": ["Guidance"],
+            "target": ["guidance"],
+            "type": ["Web page"],
             "search_tags": ["RDMkit","publication"],
             "phase": ["Share"],
             "level": ["Basic"],
@@ -230,7 +240,8 @@
         },
         {
             "title": "Data publication module",
-            "type": ["Training"],
+            "target": ["training"],
+            "type": ["Material"],
             "search_tags": ["material","publication","submission","ENA"],
             "phase": ["Share"],
             "level": ["Basic"],
@@ -241,7 +252,8 @@
         },
         {
             "title": "RDMkit on Analysing data",
-            "type": ["Guidance"],
+            "target": ["guidance"],
+            "type": ["Web page"],
             "search_tags": ["RDMkit","analyse"],
             "phase": ["Analyse"],
             "level": ["Basic"],
@@ -252,7 +264,8 @@
         },
         {
             "title": "R module",
-            "type": ["Training"],
+            "target": ["training"],
+            "type": ["Material"],
             "search_tags": ["material","R"],
             "phase": ["Analyse"],
             "level": ["Basic"],
@@ -263,7 +276,8 @@
         },
         {
             "title": "Versioning module",
-            "type": ["Training"],
+            "target": ["training"],
+            "type": ["Material"],
             "search_tags": ["material","git","versioning"],
             "phase": ["Analyse"],
             "level": ["Basic"],
@@ -274,7 +288,8 @@
         },
         {
             "title": "Data organisation module",
-            "type": ["Training"],
+            "target": ["training"],
+            "type": ["Material"],
             "search_tags": ["material","data organisation","organisation","organization"],
             "phase": ["Collect"],
             "level": ["Basic"],
@@ -285,7 +300,8 @@
         },
         {
             "title": "RDMkit on Processing data",
-            "type": ["Guidance"],
+            "target": ["guidance"],
+            "type": ["Web page"],
             "search_tags": ["RDM","process"],
             "phase": ["Process"],
             "level": ["Basic"],
@@ -296,7 +312,8 @@
         },
         {
             "title": "RDMkit on Data quality",
-            "type": ["Guidance"],
+            "target": ["guidance"],
+            "type": ["Web page"],
             "search_tags": ["RDMkit","quality"],
             "phase": ["Collect","Process"],
             "level": ["Basic"],
@@ -307,7 +324,8 @@
         },
         {
             "title": "OpenRefine module",
-            "type": ["Training"],
+            "target": ["training"],
+            "type": ["Material"],
             "search_tags": ["OpenRefine","cleaning","material","tool"],
             "phase": ["Process", "Analyse"],
             "level": ["Basic"],
@@ -318,7 +336,8 @@
         },
         {
             "title": "RDMkit on Data Management Planning",
-            "type": ["Guidance"],
+            "target": ["guidance"],
+            "type": ["Web page"],
             "search_tags": ["RDMkit","DMP","data management plan"],
             "phase": ["Plan"],
             "level": ["Basic"],
@@ -329,7 +348,8 @@
         },
         {
             "title": "DMP module",
-            "type": ["Training"],
+            "target": ["training"],
+            "type": ["Material"],
             "search_tags": ["DMP","data management plan","material"],
             "phase": ["Plan"],
             "level": ["Basic"],
@@ -340,7 +360,8 @@
         },
         {
             "title": "SciLifeLab Data Stewardship Wizard - A short introduction",
-            "type": ["Guidance"],
+            "target": ["guidance"],
+            "type": ["Video"],
             "search_tags": ["DSW","DMP","video"],
             "phase": ["Plan"],
             "level": ["Basic"],
@@ -350,7 +371,8 @@
         },
         {
             "title": "How to write a Data Management Plan",
-            "type": ["Guidance"],
+            "target": ["guidance"],
+            "type": ["Video"],
             "search_tags": ["DMP","data management plan","video"],
             "phase": ["Plan"],
             "level": ["Basic"],
@@ -358,8 +380,10 @@
             "description": "Video presentation of what sections a data management plan consists of.",
             "provider": "SciLifeLab"
         },
-        {"title": "RDMkit on Collecting data",
-            "type": ["Guidance"],
+        {   
+            "title": "RDMkit on Collecting data",
+            "target": ["guidance"],
+            "type": ["Web page"],
             "search_tags": ["RDMkit","collect"],
             "phase": ["Collect"],
             "level": ["Basic"],
@@ -368,8 +392,10 @@
             "provider": "RDMkit",
             "licence": "CC BY 4.0"
         },
-        {"title": "RDMkit on Data transfer",
-            "type": ["Guidance"],
+        {
+            "title": "RDMkit on Data transfer",
+            "target": ["guidance"],
+            "type": ["Web page"],
             "search_tags": ["RDMkit","transfer","data transfer"],
             "phase": ["Collect"],
             "topic": ["Data transfer"],
@@ -379,7 +405,9 @@
             "provider": "RDMkit",
             "licence": "CC BY 4.0"
         },
-        {"title": "SciLifeLab Data Stewardship Wizard (DSW)",
+        {
+            "title": "SciLifeLab Data Stewardship Wizard (DSW)",
+            "target": ["tool"],
             "type": ["Tool"],
             "search_tags": ["DSW","DMP"],
             "phase": ["Plan"],
@@ -389,32 +417,9 @@
             "provider": "SciLifeLab"
         },
         {
-            "title": "Introduction to data management practices",
-            "type": ["Training"],
-            "search_tags": ["data management","course","FAIR", "open science","metadata","git","DMP","organisation","organization","data organisation","OpenRefine","publication","R","RStudio"],
-            "phase": ["Plan", "Collect", "Process", "Analyse", "Share"],
-            "topic": ["README files"], 
-            "level": ["Basic"],
-            "url": "https://uppsala.instructure.com/courses/79097/pages/introduction-to-data-management-practices",
-            "description": "This course will introduce important aspects of Research Data Management (concept of FAIR, Metadata standards, Data Organisation, Data Publication, Data Management Planning, Data Refinement (Open Refine), Data Versioning, Programming/Analysis in R) through a series of lectures and hands-on computer exercises. The course is intended for researchers that want to take the first steps towards a more systematic and reproducible approach to analysing and managing research data. All lessons are available online as self-study materials",
-            "provider": "NBIS",
-            "licence": "CC BY 4.0"
-        },
-        {
-            "title": "PhD course in Open Science and Reproducible Research",
-            "type": ["Training"],
-            "search_tags": ["KI","course","open science","reproducible"],
-            "phase": ["Plan", "Collect", "Process", "Analyse", "Share"],
-            "level": ["Basic"],
-            "url": "https://osf.io/q9nsp/",
-            "description": "Course covering the topics of open access, open data, open code, open material, preregistration, replication research, metascience. It is given fully online every semester, and is open to PhD students from all over Sweden (and the world), primarily PhD students in quantitative sciences. ",
-            "provider": "KI",
-            "DOI": "10.17605/OSF.IO/6Q3DZ",
-            "DOIurl": "https://doi.org/10.17605/OSF.IO/6Q3DZ"
-        },
-        {
             "title": "BAS Online",
-            "type": ["Training"],
+            "target": ["training"],
+            "type": ["Material"],
             "search_tags": ["SND","BAS","material","legal","DMP","metadata"],
             "phase": ["Plan", "Collect", "Analyse"],
             "level": ["Basic"],
@@ -424,28 +429,19 @@
         },
         {
             "title": "General information about research data on UU intranet",
-            "type": ["Guidance"],
+            "target": ["guidance"],
+            "type": ["Web page"],
             "search_tags": ["Uppsala","UU","DMP","research data"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share","Reuse"],
             "level": ["Basic"],
-            "url": "https://mp.uu.se/web/info/forska/forskningsdata",
+            "url": "https://www.uu.se/en/staff/gateway/research/research-handbook/research-data",
             "description": "General information about handling data - DMP, documentation & metadata, FAIR, organizing files & folders, versioning, ethical & legal aspects, open data, archiving. Information is mostly on a generic level, not discipline specific. Lectures in Phd courses on ethics and scientific writing. Target audience is researchers and doctoral students at UU.",
             "provider": "UU"
         },
         {
-            "title": "Tools for Reproducible Research",
-            "type": ["Training"],
-            "search_tags": ["tool","reproducible","course","material"],
-            "phase": ["Process", "Analyse"],
-            "level": ["Intermediate"],
-            "url": "https://uppsala.instructure.com/courses/58267",
-            "description": "Teacher-led workshop given twice a year covering the topics of Data management, Project organisation, Git, Conda, Snakemake, Nextflow, R Markdown, Jupyter, Docker, and Singularity. All material is available online for self-paced learning at [Workshop reproducible research](https://github.com/NBISweden/workshop-reproducible-research/). The course is open for PhD students, postdocs, group leaders and core facility staff.",
-            "provider": "NBIS",
-            "licence": "CC BY 4.0"
-        },
-        {
             "title": "Online course on Open science and data management",
-            "type": ["Training"],
+            "target": ["training"],
+            "type": ["Course"],
             "search_tags": ["KTH","course","open science","data management"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share","Reuse"],
             "level": ["Basic"],
@@ -455,40 +451,9 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "Stockholm trio carpentries events",
-            "type": ["Training"],
-            "search_tags": ["Stockholm","trio","carpentries","event","Git", "BaSH", "Python", "R"],
-            "phase": ["Analyse"],
-            "level": ["Basic"],
-            "url": "https://stockholmuniversityrdmteam.github.io/2023-05-09-CarpentryStockholmTrio/",
-            "description": "Hands-on-practice either online or on-site, giving basic skills in Git, BaSH, Python and R. Target audience is PhD students without prior experience in coding.",
-            "provider": "KTH, SU, KI",
-            "licence": "CC BY 4.0"
-        },
-        {
-            "title": "KTH calendar with upcoming events such as DMP workshops, PhD seminars etc",
-            "type": ["Training"],
-            "search_tags": ["KTH", "calendar", "event","workshop"],
-            "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share","Reuse"],
-            "level": ["Basic", "Intermediate", "Advanced"],
-            "url": "https://www.kth.se/en/biblioteket/publicera-analysera/hantera-forskningsdata",
-            "description": "Workshops/seminars both on-site and online. Events for drafting a good DMP is given several times per year, and also more targeted webinars are offered on a regular basis. Target audience is both  PhD students and senior researchers.",
-            "provider": "KTH"
-        },
-        {
-            "title": "Programming formalisms for (life) scientists and bioinformaticians",
-            "type": ["Training"],
-            "search_tags": ["programming","formalism","course","material"],
-            "phase": ["Analyse"],
-            "level": ["Intermediate"],
-            "url": "https://uppsala.instructure.com/courses/69215",
-            "description": "This course aims to give scientists, bioinformaticians and others working with scientific software with some experience in programming and scripting, an understanding of the underlying principles of development design and programming. The material is availible online.",
-            "provider": "NBIS, UPPMAX",
-            "licence": "CC BY-SA 4.0"
-        },
-        {
             "title": "Data Management Expert Guide (DMEG)",
-            "type": ["Guidance"],
+            "target": ["guidance"],
+            "type": ["Web page"],
             "search_tags": ["DMEG","FAIR", "social science","CESSDA"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share","Reuse"],
             "level": ["Basic"],
@@ -498,18 +463,9 @@
             "licence": "CC BY-SA 4.0"
         },
         {
-            "title": "UPPMAX courses and workshops",
-            "type": ["Training"],
-            "search_tags": ["UPPMAX","course", "workshop", "infrastructure"],
-            "phase": ["Analyse"],
-            "level": ["Basic", "Intermediate", "Advanced"],
-            "url": "https://www.uppmax.uu.se/support/courses-and-workshops/",
-            "description": "Information about courses and workshops, including links to extra material, given by UPPMAX, Uppsala University's resource of high-performance computers, large-scale storage and know-how of high-performance computing.",
-            "provider": "UPPMAX"
-        },
-        {
             "title": "AIDA Data Sharing Policy",
-            "type": ["Guidance"],
+            "target": ["guidance"],
+            "type": ["Web page"],
             "search_tags": ["AIDA","policy", "share"],
             "phase": ["Plan", "Share"],
             "level": ["Basic"],
@@ -519,7 +475,8 @@
         },
         {
             "title": "Storage resources available for researchers in Sweden",
-            "type": ["Guidance"],
+            "target": ["guidance"],
+            "type": ["Web page"],
             "search_tags": ["storage","resources","infrastructure"],
             "phase": ["Collect", "Process", "Analyse", "Preserve"],
             "topic": [""],
@@ -530,7 +487,8 @@
         },
         {
             "title": "Compute resources available for researchers in Sweden",
-            "type": ["Guidance"],
+            "target": ["guidance"],
+            "type": ["Web page"],
             "search_tags": ["compute","resources","infrastructure"],
             "phase": ["Analyse"],
             "topic": [""],
@@ -541,7 +499,8 @@
         },
         {
             "title": "RDMkit on Data organisation",
-            "type": ["Guidance"],
+            "target": ["guidance"],
+            "type": ["Web page"],
             "search_tags": ["RDMkit","organisation", "organization", "data organisation","Metadata", "README files"],
             "phase": ["Plan", "Collect", "Share"],
             "topic": ["Metadata", "README files"],
@@ -553,7 +512,8 @@
         },
         {
             "title": "NBIS Submission documentation",
-            "type": ["Guidance"],
+            "target": ["guidance"],
+            "type": ["Web page"],
             "search_tags": ["NBIS","share","submission","documentation","publication","SOP","ENA","EBI","BioStudies"],
             "phase": ["Share"],
             "level": ["Basic"],

@@ -1,248 +1,307 @@
 {{ define "main" }}
 
 <section>
-  <div>
-    {{ .Content }}</div>
-</section>
-
-<section>
-  <div class="modal fade" id="suggestionModal" tabindex="-1" aria-labelledby="suggestionModal" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <form action="https://forms.dckube.scilifelab.se/api/v1/form/M5GfePAbHxkPdIph/incoming" class="needs-validation"
-          novalidate method="POST" accept-charset="utf-8">
-          <div class="modal-body">
-            <input type="url" id="originUrl" name="originUrl" aria-labelledby="originUrl" value="" hidden />
+  <div class="row">
+    <div class="col">Please find below resources concerning data management in form of training, guidance and tools. 
+      Use the left-hand filters in order to select type of resource, phase of the research data life cycle, and / 
+      or level of skill required in order to maximise the benefit of the resource. 
+      Click the button to the right to inform us of any relevant resources that are missing from this list.
+    </div>
+    <div class="col-lg-2">
+      <div class="modal fade" id="suggestionModal" tabindex="-1" aria-labelledby="suggestionModal" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <form action="https://forms.dckube.scilifelab.se/api/v1/form/M5GfePAbHxkPdIph/incoming" class="needs-validation"
+              novalidate method="POST" accept-charset="utf-8">
+              <div class="modal-body">
+                <input type="url" id="originUrl" name="originUrl" aria-labelledby="originUrl" value="" hidden />
+              </div>
+            </form>
           </div>
-        </form>
+        </div>
       </div>
+      <div><a class="btn btn-teal" href="/contact/">Inform us of other resources</a></div><br><br>
     </div>
   </div>
 </section>
 
-<section><div><a class="btn btn-teal" href="/contact/">Inform us of other resources</a></div></section>
-
-{{ $resource_type := slice }}
+{{/* Compile list of the resources in Hugo */}}
+<!-- t for training, g for guidance to for tool -->
+<!-- {{ $type := slice }} -->
 {{ $level := slice }}
 {{ $phase := slice }}
-{{ $open_resources := slice }}
-{{ $level := slice }}
+{{ $t_rlist := slice }}
+{{ $t_type := slice }}
+{{ $g_rlist := slice }}
+{{ $g_type := slice }}
+{{ $to_rlist := slice }}
+{{ $to_type := slice }}
+
 <!-- Go through all resources without sorting, collect type, phase & level.
 A dirty fix in order to obtain phase and levels in 'right' order, that 
 requires that the first 2 resources in resources.json always is the same as now. --> 
 {{ range $.Site.Data.resources.items }}
-    {{ $resource_type = $resource_type | append .type }}
+    <!-- {{ $type = $type | append .type }} -->
     {{ $level = $level | append .level }}
     {{ $phase = $phase | append .phase }}
 {{ end }}
-{{ $resource_type = $resource_type | uniq }}
+<!-- {{ $type = $type | uniq }} -->
 {{ $level = $level | uniq }}
 {{ $phase = $phase | uniq }}
 <!-- Collect and sort all resources on title -->
 {{ range sort $.Site.Data.resources.items ".title" "asc" }}
-    {{ $open_resources = $open_resources | append . }}
+  {{ if in .target "training"}}
+    {{ $t_rlist = $t_rlist | append . }}
+    {{ $t_type = $t_type | append .type }}
+  {{ end }}
+  {{ if in .target "guidance"}}
+    {{ $g_rlist = $g_rlist | append . }}
+    {{ $g_type = $g_type | append .type }}
+  {{ end }}
+  {{ if in .target "tool"}}
+    {{ $to_rlist = $to_rlist | append . }}
+    {{ $to_type = $to_type | append .type }}
+  {{ end }}
 {{ end }}
+{{ $t_type = $t_type | uniq }}
+{{ $g_type = $g_type | uniq }}
+{{ $to_type = $to_type | uniq }}
 
-{{ if ge (len $open_resources) 1 }}
-<section>
-  <div class="row mt-3 mb-5">
-    <div class="col-lg-2" id="resource-filters">
-      <div class="resources-header-black">Type</div>
-      {{ range sort $resource_type }}
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="{{ . }}" name="type" value="{{ delimit (split . " ") "-" | lower }}">
-          <label class="form-check-label" for="{{ . }}">{{ . }}</label>
-        </div>
-      {{ end }}
+{{ $resources := dict "training" (dict "type" $t_type "level" $level "phase" $phase "rlist" $t_rlist) 
+                      "guidance" (dict "type" $g_type "level" $level "phase" $phase "rlist" $g_rlist)
+                      "tool" (dict "type" $to_type "level" $level "phase" $phase "rlist" $to_rlist) }}
 
-      <div class="resources-header-black">Phase</div>
-      {{ range $phase }}
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="{{ . }}" name="phase" value="{{ delimit (split . " ") "-" | lower }}">
-          <label class="form-check-label" for="{{ . }}">{{ . }}</label>
-        </div>
-      {{ end }}
+<!-- Tab list -->
+<!-- note: put more to the right, so that it starts beyond filter column -->
+<ul class="nav nav-tabs nav-justified resources-tab-list mb-3">
+  <li class="nav-item cont-links">
+    <a class="nav-link active" href="#resources-training" data-bs-toggle="tab" role="tab">
+      Training
+    </a>
+  </li>
+  <li class="nav-item cont-links">
+    <a class="nav-link" href="#resources-guidance" data-bs-toggle="tab" role="tab">
+      Guidance
+    </a>
+  </li>
+  <li class="nav-item cont-links">
+    <a class="nav-link" href="#resources-tool" data-bs-toggle="tab" role="tab">
+      Tool
+    </a>
+  </li>
+</ul>
 
-      <div class="resources-header-black">Level</div>
-      {{ range $level }}
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="{{ . }}" name="level" value="{{ delimit (split . " ") "-" | lower }}">
-          <label class="form-check-label" for="{{ . }}">{{ . }}</label>
-        </div>
-      {{ end }}
-
-    </div>
-    <div class="col-lg">
-      <div class="row g-2" id="resources-container">
-      {{ range $ind, $cont := $open_resources }}
-
-      {{/* Add custom attributes for filtering purposes */}}
-      {{ $this_resource_type := slice }}
-      {{ range .type }}{{ $this_resource_type = $this_resource_type | append (delimit (split . " ") "-" | lower) }} {{ end }}
-      {{ $this_resource_type = delimit $this_resource_type " " }}
-      {{ $this_phase := slice }}
-      {{ range .phase }}{{ $this_phase = $this_phase | append (delimit (split . " ") "-" | lower) }} {{ end }}
-      {{ $this_phase = delimit $this_phase " " }}
-      {{ $this_level := slice }}
-      {{ range .level }}{{ $this_level = $this_level | append (delimit (split . " ") "-" | lower) }} {{ end }}
-      {{ $this_level := delimit $this_level " " }}
-
-      <div class="col-md-4 col-lg-4 resource" data-resource-type="{{ $this_resource_type }}" data-phase="{{ $this_phase }}" data-level="{{ $this_level }}">
-        <div class="p-3 border rounded h-100">
-          <div class="d-flex justify-content-between">
-            <div>
-              {{ range .type }} 
-              {{ if eq . "Tool"}}<span class="badge event-type-lh-teal mb-1 me-1">{{ . }}</span>             
-              {{ else if eq . "Guidance"}}<span class="badge event-type-lh-lime mb-1 me-1">{{ . }}</span>
-              {{ else if eq . "Training"}}<span class="badge event-type-lh-grape mb-1 me-1">{{ . }}</span>
-              {{ else }} <span class="badge event-type mb-1 me-1">{{ . }}</span>
-              {{ end }}     
-              {{ end }}<br><br>
-              <a class="resources-header-teal" role="button" data-bs-toggle="modal"
-                  data-bs-target="#descriptionModal{{ $ind }}">{{ .title }}</a>
+<!--  Tab content -->
+<div class="tab-content">
+  {{ $targets := slice "training" "guidance" "tool" }}
+  {{ range $target := $targets }}
+    {{ $target_rlist := index (index $resources $target) "rlist" }}
+    {{ $target_type := index (index $resources $target) "type" }}
+    {{ $target_phase := index (index $resources $target) "phase" }}
+    {{ $target_level := index (index $resources $target) "level" }}
+    <div class="tab-pane fade {{ if eq $target "training" }}show active{{ end }}" 
+        id="resources-{{ $target }}" role="tabpanel">
+      <div class="row">
+        <div class="col-lg-2 mb-2 mb-lg-0 pe-lg-0">
+          <div class="resources-header-black">Search</div>
+          <div class="input-group">
+            <input type="text" id="Search" class="form-control" placeholder="Name/Keywords" resoures="{{ $target }}_resources">
+            <label class ="form-control-label" for="Search" aria-labelledby="Search"> 
+          </div>
+          <!-- {{ if not (eq $target "tool") }}
+            <div class="resources-header-black">Type</div>
+            {{ range sort $target_type }}
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="{{ . }}" name="type" value="{{ delimit (split . " ") "-" | lower }}">
+                <label class="form-check-label" for="{{ . }}">{{ . }}</label>
+              </div>
+            {{ end }}
+          {{ end }} -->
+          <div class="resources-header-black">Phase</div>
+          {{ range $phase }}
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="{{ . }}" name="phase" value="{{ delimit (split . " ") "-" | lower }}">
+              <label class="form-check-label" for="{{ . }}">{{ . }}</label>
             </div>
-          <div>
-        </div>
-      </div>
-          {{ if .provider }}<div class="row">
-            <div class="col">
-              <small><b>Content provider:</b> {{.provider}}</small>
+          {{ end }}
+          <!-- <div class="resources-header-black">Level</div>
+          {{ range $level }}
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="{{ . }}" name="level" value="{{ delimit (split . " ") "-" | lower }}">
+              <label class="form-check-label" for="{{ . }}">{{ . }}</label>
             </div>
-          </div>{{ end }}
-          <div class="row mt-3">
-            <div class="col">
-              <button type="button" class="btn btn-details" data-bs-toggle="modal"
-                data-bs-target="#descriptionModal{{ $ind }}">
-                See details
-              </button>
-              <div class="modal fade" id="descriptionModal{{ $ind }}" tabindex="-1"
-                aria-labelledby="descriptionModal{{ $ind }}" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <div class="resources-header-black modal-title" id="descriptionModalLabel">{{ .title }}</div>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          {{ end }} -->
+        </div>
+        <div class="col-lg">
+          <div id="{{ $target }}_resources" class="row g-2"> <!-- previous id="resources-container" -->
+            {{ range $ind, $cont := $target_rlist }}
+              <div class="col-md-4 col-lg-4 resource" data-type="{{ delimit (apply .type "urlize" ".") " "  }}" 
+                data-phase="{{ delimit (apply .phase "urlize" ".") " "  }}" 
+                data-level="{{ delimit (apply .level "urlize" ".") " "  }}" 
+                {{ with .search_tags }}data-search-tags="{{ delimit . ":" | lower }}"{{ end }}>
+                <div class="p-3 border rounded h-100">
+                  <div class="d-flex justify-content-between">
+                    <span class="badge event-type-lh-grape mb-1 me-1">{{ delimit .type ", " }}</span>
+                    <!--{{ range $target_type }} 
+                      {{ if eq . "Tool"}}<span class="badge event-type-lh-teal mb-1 me-1">{{ . }}</span>             
+                      {{ else if eq . "Guidance"}}<span class="badge event-type-lh-lime mb-1 me-1">{{ . }}</span>
+                      {{ else if eq . "Training"}}<span class="badge event-type-lh-grape mb-1 me-1">{{ . }}</span>
+                      {{ else }} <span class="badge event-type mb-1 me-1">{{ . }}</span>
+                      {{ end }}     
+                    {{ end }} -->
+                  </div>
+                  <br>
+                  <a class="resources-header-teal" role="button" data-bs-toggle="modal"
+                      data-bs-target="#descriptionModal{{ $ind }}">{{ .title }}</a>
+                  {{ if .provider }}<div class="row">
+                    <div class="col">
+                      <small><b>Content provider:</b> {{ .provider }}</small>
                     </div>
-                    <div class="modal-body">
-                      {{ if .description }}<div class="row mt-1">
-                        <div class="col"><b>Brief description:</b><br>
-                          {{ .description | markdownify }}
-                        </div>
-                      </div>{{ end }}
-                      <div class="row mt-3">
-                        <div class="col">
-                          <b>Resource type:</b> 
-                          {{ range .type }}
-                          {{ if eq . "Tool"}}<span class="badge event-type-lh-teal mb-1 me-1">{{ . }}</span>             
-                          {{ else if eq . "Guidance"}}<span class="badge event-type-lh-lime mb-1 me-1">{{ . }}</span>
-                          {{ else if eq . "Training"}}<span class="badge event-type-lh-grape mb-1 me-1">{{ . }}</span>
-                          {{ else }} <span class="badge event-type mb-1 me-1">{{ . }}</span>
-                          {{ end }}
-                          {{ end }}
+                  </div>{{ end }}
+                  <div class="row mt-3">
+                    <div class="col">
+                      <button type="button" class="btn btn-details" data-bs-toggle="modal"
+                        data-bs-target="#descriptionModal{{ $ind }}">
+                        See details
+                      </button>
+                      <div class="modal fade" id="descriptionModal{{ $ind }}" tabindex="-1"
+                        aria-labelledby="descriptionModal{{ $ind }}" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <div class="resources-header-black modal-title" id="descriptionModalLabel">{{ .title }}</div>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              {{ if .description }}<div class="row mt-1">
+                                <div class="col"><b>Brief description:</b><br>
+                                  {{ .description | markdownify }}
+                                </div>
+                              </div>{{ end }}
+                              <div class="row mt-3">
+                                <div class="col">
+                                  <b>Resource type:</b> 
+                                  <span class="badge event-type-lh-grape mb-1 me-1">{{ delimit .type ", " }}</span>
+                                  <!-- {{ range .type }}
+                                    {{ if eq . "Tool"}}<span class="badge event-type-lh-teal mb-1 me-1">{{ . }}</span>             
+                                    {{ else if eq . "Guidance"}}<span class="badge event-type-lh-lime mb-1 me-1">{{ . }}</span>
+                                    {{ else if eq . "Training"}}<span class="badge event-type-lh-grape mb-1 me-1">{{ . }}</span>
+                                    {{ else }} <span class="badge event-type mb-1 me-1">{{ . }}</span>
+                                    {{ end }}
+                                  {{ end }} -->
+                                </div>
+                              </div>
+                              {{ if .phase }}<div class="row mt-1">
+                                <div class="col">
+                                  <b>Phase:</b> {{ delimit .phase ", " }}
+                                </div>
+                              </div>{{ end }}
+                              {{ if .level }}<div class="row mt-1">
+                                <div class="col">
+                                  <b>Difficulty level:</b> {{ delimit .level ", "}}
+                                </div>
+                              </div>{{ end }}
+                              {{ if .provider }}<div class="row mt-1">
+                                <div class="col">
+                                  <b>Content provider:</b> {{ .provider }}
+                                </div>
+                              </div>{{ end }}
+                              {{ if .DOI }}<div class="row mt-3">
+                                <div class="col"><b>DOI:</b>
+                                  <a target="_blank" href="{{ .DOIurl }}"><i class="bi bi-globe"></i> {{ .DOI }}</a>
+                                </div>
+                              </div>{{ end }}
+                              {{ if .licence }}<div class="row mt-1">
+                                <div class="col">
+                                  <b>Licence:</b> {{ .licence }}
+                                </div>
+                              </div>{{ end }}
+                              <div class="row mt-3">
+                                <div class="col-md">
+                                  <p>For more information, <a target="_blank" href="{{ .url }}"><i class="bi bi-globe"></i> visit the resource directly</a>.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                          </div>
                         </div>
                       </div>
-                      {{ if .phase }}<div class="row mt-1">
-                        <div class="col">
-                          <b>Phase:</b> {{ delimit .phase ", " }}
-                        </div>
-                      </div>{{ end }}
-                      {{ if .level }}<div class="row mt-1">
-                        <div class="col">
-                          <b>Difficulty level:</b> {{ delimit .level ", "}}
-                        </div>
-                      </div>{{ end }}
-                      {{ if .provider }}<div class="row mt-1">
-                        <div class="col">
-                          <b>Content provider:</b> {{ .provider }}
-                        </div>
-                      </div>{{ end }}
-                      {{ if .DOI }}<div class="row mt-3">
-                        <div class="col"><b>DOI:</b>
-                          <a target="_blank" href="{{ .DOIurl }}"><i class="bi bi-globe"></i> {{ .DOI }}</a>
-                        </div>
-                      </div>{{ end }}
-                      {{ if .licence }}<div class="row mt-1">
-                        <div class="col">
-                          <b>Licence:</b> {{ .licence }}
-                        </div>
-                      </div>{{ end }}
-                      <div class="row mt-3">
-                        <div class="col-md">
-                          <p>For more information, <a target="_blank" href="{{ .url }}"><i class="bi bi-globe"></i> visit the resource directly</a>.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
                   </div>
                 </div>
               </div>
+            {{ end }}
+            <div id="no-filtered-resource" style="display:none;">
+              <p class="text-center">No resources found for selected criteria.</p>
             </div>
           </div>
         </div>
       </div>
-      {{ end }}
-      <div id="no-filtered-resources" style="display:none;">
-        <p class="text-center">No resources found for selected criteria.</p>
-      </div>
-      </div>
     </div>
-  </div>
-</section>
-{{ end }}
+  {{ end }}
+</div>
 
 <script>
-// ADD LEVEL BELOW HERE!
-  // Filter jobs based on selected criteria
-  $('div#resource-filters input:checkbox').on('change', function(){
+  // Function to search and filter the resource based on selected input
+  function searchAndFilter (){
+    // Get all the inputs
     var selected_filters = new Object();
 
-    // Collect and create a list with selected values
-    var resource_type = $('input:checkbox[name="type"]:checked').map(function () {return this.value}).get();
-    if (resource_type.length) { selected_filters['data-resource-type'] = resource_type };
+    var selected_type = $("input:checkbox[name=type]:checked").map(function () {return this.value}).get();
+    if (selected_type.length){ selected_filters['data-type'] = selected_type };
 
-    var phase = $('input:checkbox[name="phase"]:checked').map(function () {return this.value}).get();
-    if (phase.length) { selected_filters['data-phase'] = phase };
+    var selected_phase = $('input:checkbox[name="phase"]:checked').map(function () {return this.value}).get();
+    if (selected_phase.length) { selected_filters['data-phase'] = selected_phase };
 
-    var level = $('input:checkbox[name="level"]:checked').map(function () {return this.value}).get();
-    if (level.length) { selected_filters['data-level'] = level };
+    var selected_level = $('input:checkbox[name="level"]:checked').map(function () {return this.value}).get();
+    if (selected_level.length) { selected_filters['data-level'] = selected_level };
+  
+    var search_text = $("div.tab-pane.active input[type=text]").val().toLowerCase();
+    if (search_text.length){ selected_filters['data-search-tags'] = [search_text] };
 
-    // Hide all displayed jobs and message
-    $('div#resources-container div.resource').hide();
-    $('div#no-filtered-resources').hide();
+    // Hide all resources before filtering
+    $(`div.tab-pane.active div.resource`).hide();
+    $(`div.tab-pane.active div#no-filtered-resource`).hide();
 
-    // Show relavant jobs based on selected criteria
+    // Show relavant resources based on selected criteria
     if (!Object.keys(selected_filters).length) {
-      $('div#resources-container div.resource').show();
+      $("div.tab-pane.active div.resource").show();
     } else {
-      var all_selected_events = [];
-      // Iterate over all selected criteria and collect the events
+      var all_selected_resources = [];
+      // Iterate over all selected criteria and collect the resources
       for (var [filter_name, filter_list] of Object.entries(selected_filters)) {
-        var s_events = new Set;
+        var r_resources = new Set;
         filter_list.forEach(function (filter_value) {
-          $(`div#resources-container div[${filter_name}*=${filter_value}]`).each(function () { s_events.add(this); });
+          $(`div.tab-pane.active div.resource[${filter_name}*=${filter_value}]`).each(function () { r_resources.add(this); });
         });
-        all_selected_events.push(s_events);
+        all_selected_resources.push(r_resources);
       };
-
-      // When multiple criteria selectd it should act as AND not OR
-      selected_events = all_selected_events.reduce(function (x, y) {
+      // When multiple criteria selected it should act as AND not OR
+      selected_resources = all_selected_resources.reduce(function (x, y) {
         var z = new Set;
         x.forEach(v => y.has(v) && z.add(v));
         return z;
       });
-      // Set display for event with selected criteria
-      if (selected_events.size) {
-        selected_events.forEach(function (sEvent) { sEvent.style.display = ''; })
+      // Set display for resource with selected criteria
+      if (selected_resources.size) {
+        selected_resources.forEach(function (rResource) { rResource.style.display = ''; })
       } else {
-        // Display a message if no events available for selected criteria
-        $('div#no-filtered-resources').show();
+        // Display a message if no resources available for selected criteria
+        $('div.tab-pane.active div#no-filtered-resource').show();
       };
     };
 
-  });
+    // Bring the tab top to the viewport if it isn't
+    var tab_top = document.querySelector("ul.resources-tab-list").getBoundingClientRect().top;
+    if (tab_top < 0){ $("html").scrollTop(window.pageYOffset + tab_top - 15); }
+  }
 
+  // Call the search function on inputs
+  $('input:checkbox').on('change', searchAndFilter);
+  $("input[type=text]").on("input", searchAndFilter);
 </script>
 
 {{ end }}
+

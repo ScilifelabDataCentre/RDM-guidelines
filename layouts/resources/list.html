@@ -1,29 +1,6 @@
 {{ define "main" }}
 
-<section>
-  <div class="row">
-    <div class="col">Please find below resources concerning data management in form of training, guidance and tools. 
-      Use the left-hand filters in order to select type of resource, phase of the research data life cycle, and / 
-      or level of skill required in order to maximise the benefit of the resource. 
-      Click the button to the right to inform us of any relevant resources that are missing from this list.
-    </div>
-    <div class="col-lg-2">
-      <div class="modal fade" id="suggestionModal" tabindex="-1" aria-labelledby="suggestionModal" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <form action="https://forms.dckube.scilifelab.se/api/v1/form/M5GfePAbHxkPdIph/incoming" class="needs-validation"
-              novalidate method="POST" accept-charset="utf-8">
-              <div class="modal-body">
-                <input type="url" id="originUrl" name="originUrl" aria-labelledby="originUrl" value="" hidden />
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-      <div><a class="btn btn-teal" href="/contact/">Inform us of other resources</a></div><br><br>
-    </div>
-  </div>
-</section>
+{{ .Content}}
 
 {{/* Compile list of the resources in Hugo */}}
 <!-- t for training, g for guidance to for tool -->
@@ -32,10 +9,13 @@
 {{ $phase := slice }}
 {{ $t_rlist := slice }}
 {{ $t_type := slice }}
+{{ $t_provider := slice }}
 {{ $g_rlist := slice }}
 {{ $g_type := slice }}
+{{ $g_provider := slice }}
 {{ $to_rlist := slice }}
 {{ $to_type := slice }}
+{{ $to_provider := slice }}
 
 <!-- Go through all resources without sorting, collect type, phase & level.
 A dirty fix in order to obtain phase and levels in 'right' order, that 
@@ -53,23 +33,28 @@ requires that the first 2 resources in resources.json always is the same as now.
   {{ if in .target "training"}}
     {{ $t_rlist = $t_rlist | append . }}
     {{ $t_type = $t_type | append .type }}
+    {{ $t_provider =  $t_provider | append .provider }}
   {{ end }}
   {{ if in .target "guidance"}}
     {{ $g_rlist = $g_rlist | append . }}
     {{ $g_type = $g_type | append .type }}
+    {{ $g_provider =  $g_provider | append .provider }}
   {{ end }}
   {{ if in .target "tool"}}
     {{ $to_rlist = $to_rlist | append . }}
     {{ $to_type = $to_type | append .type }}
+    {{ $to_provider =  $to_provider | append .provider }}
   {{ end }}
 {{ end }}
 {{ $t_type = $t_type | uniq }}
 {{ $g_type = $g_type | uniq }}
 {{ $to_type = $to_type | uniq }}
-
-{{ $resources := dict "training" (dict "type" $t_type "level" $level "phase" $phase "rlist" $t_rlist) 
-                      "guidance" (dict "type" $g_type "level" $level "phase" $phase "rlist" $g_rlist)
-                      "tool" (dict "type" $to_type "level" $level "phase" $phase "rlist" $to_rlist) }}
+{{ $t_provider = $t_provider | uniq }}
+{{ $g_provider = $g_provider | uniq }}
+{{ $to_provider = $to_provider | uniq }}
+{{ $resources := dict "training" (dict "type" $t_type "level" $level "phase" $phase "rlist" $t_rlist "provider" $t_provider) 
+                      "guidance" (dict "type" $g_type "level" $level "phase" $phase "rlist" $g_rlist "provider" $g_provider)
+                      "tool" (dict "type" $to_type "level" $level "phase" $phase "rlist" $to_rlist "provider" $to_provider) }}
 
 <!-- Tab list -->
 <!-- note: put more to the right, so that it starts beyond filter column -->
@@ -97,6 +82,7 @@ requires that the first 2 resources in resources.json always is the same as now.
   {{ range $target := $targets }}
     {{ $target_rlist := index (index $resources $target) "rlist" }}
     {{ $target_type := index (index $resources $target) "type" }}
+    {{ $target_provider := index (index $resources $target) "provider" }}
     {{ $target_phase := index (index $resources $target) "phase" }}
     {{ $target_level := index (index $resources $target) "level" }}
     <div class="tab-pane fade {{ if eq $target "training" }}show active{{ end }}" 
@@ -117,6 +103,13 @@ requires that the first 2 resources in resources.json always is the same as now.
               </div>
             {{ end }}
           {{ end }} -->
+          <div class="resources-header-black">Provider</div>
+          {{ range sort $target_provider }}
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="{{ . }}" name="provider" value="{{ delimit (split . " ") "-" | lower }}">
+              <label class="form-check-label" for="{{ . }}">{{ . }}</label>
+            </div>
+          {{ end }}          
           <div class="resources-header-black">Phase</div>
           {{ range $phase }}
             <div class="form-check">
@@ -135,9 +128,11 @@ requires that the first 2 resources in resources.json always is the same as now.
         <div class="col-lg">
           <div id="{{ $target }}_resources" class="row g-2"> <!-- previous id="resources-container" -->
             {{ range $ind, $cont := $target_rlist }}
-              <div class="col-md-4 col-lg-4 resource" data-type="{{ delimit (apply .type "urlize" ".") " "  }}" 
-                data-phase="{{ delimit (apply .phase "urlize" ".") " "  }}" 
-                data-level="{{ delimit (apply .level "urlize" ".") " "  }}" 
+              <div class="col-md-4 col-lg-4 resource" 
+                data-type="{{ delimit (apply .type "urlize" ".") " " }}" 
+                data-phase="{{ delimit (apply .phase "urlize" ".") " " }}" 
+                data-level="{{ delimit (apply .level "urlize" ".") " " }}" 
+                data-provider="{{ delimit (apply .provider "urlize" ".") " " }}" 
                 {{ with .search_tags }}data-search-tags="{{ delimit . ":" | lower }}"{{ end }}>
                 <div class="p-3 border rounded h-100">
                   <div class="d-flex justify-content-between">
@@ -155,7 +150,7 @@ requires that the first 2 resources in resources.json always is the same as now.
                       data-bs-target="#descriptionModal{{ $ind }}">{{ .short_title }}</a>
                   {{ if .provider }}<div class="row">
                     <div class="col">
-                      <small><b>Content provider:</b> {{ .provider }}</small>
+                      <small><b>Content provider:</b> {{ delimit .provider ", " }}</small>
                     </div>
                   </div>{{ end }}
                   <div class="row mt-3">
@@ -203,7 +198,7 @@ requires that the first 2 resources in resources.json always is the same as now.
                               </div>{{ end }}
                               {{ if .provider }}<div class="row mt-1">
                                 <div class="col">
-                                  <b>Content provider:</b> {{ .provider }}
+                                  <b>Content provider:</b> {{ delimit .provider ", " }}
                                 </div>
                               </div>{{ end }}
                               {{ if .DOI }}<div class="row mt-3">
@@ -249,8 +244,11 @@ requires that the first 2 resources in resources.json always is the same as now.
     // Get all the inputs
     var selected_filters = new Object();
 
-    var selected_type = $("input:checkbox[name=type]:checked").map(function () {return this.value}).get();
+    var selected_type = $('input:checkbox[name="type"]:checked').map(function () {return this.value}).get();
     if (selected_type.length){ selected_filters['data-type'] = selected_type };
+
+    var selected_provider = $('input:checkbox[name=provider]:checked').map(function () {return this.value}).get();
+    if (selected_provider.length){ selected_filters['data-provider'] = selected_provider };
 
     var selected_phase = $('input:checkbox[name="phase"]:checked').map(function () {return this.value}).get();
     if (selected_phase.length) { selected_filters['data-phase'] = selected_phase };

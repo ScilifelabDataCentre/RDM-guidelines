@@ -11,7 +11,7 @@
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/your_role",
             "description": "Best practice guidance regarding the different roles a professional can have in research data management.",
-            "provider": "RDMkit",
+            "provider":  ["RDMkit"],
             "licence": "CC BY 4.0"
         },
         {
@@ -25,7 +25,7 @@
             "level": ["Basic"],
             "url": "https://www.youtube.com/watch?v=2ZL8o8fZSys&list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS&index=14&t=13s",
             "description": "Video presentation about FAIR principles in life science research practice.",
-            "provider": "SciLifeLab"
+            "provider":  ["SciLifeLab"]
         },
         {
             "title": "SciLifeLab Data Repository Metadata record tutorial",
@@ -38,7 +38,7 @@
             "level": ["Basic"],
             "url": "https://www.youtube.com/watch?v=_y09LCpLl9A&list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS&index=5",
             "description": "Video presentation about how to submit a metadata record in SciLifeLab Data Repository in order to make sensitive data findable while still adhering to GDPR.",
-            "provider": "SciLifeLab"
+            "provider":  ["SciLifeLab"]
         },
         {
             "title": "SND on Research material with personal data",
@@ -51,7 +51,7 @@
             "level": ["Basic"],
             "url": "https://snd.gu.se/en/manage-data/plan/research-material-with-personal-data",
             "description": "Swedish National Data Service (SND) guidance on working with research material containing personal data.",
-            "provider": "SND"
+            "provider":  ["SND"]
         },
         {
             "title": "ELSI checklist in Data Stewardship Wizard",
@@ -64,7 +64,7 @@
             "level": ["Basic"],
             "url": "https://dsw.scilifelab.se/",
             "description": "A checklist, implemented in Data Stewardship Wizard, that covers Ethical, Legal and Social Implications (ELSI) considerations when working with human data. Log in using your university credentials, click on **Projects** in the left sidebar, then on the **Create** button, and choose *ELSI Checklist Template*.",
-            "provider": "SciLifeLab"
+            "provider":  ["SciLifeLab"]
         },
         {
             "title": "RDMkit on Metadata",
@@ -77,7 +77,7 @@
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/metadata_management",
             "description": "Best practice guidance regarding the task of managing metadata.",
-            "provider": "RDMkit",
+            "provider":  ["RDMkit"],
             "licence": "CC BY 4.0"
         },
         {
@@ -91,7 +91,7 @@
             "level": ["Basic"],
             "url": "https://nbisweden.github.io/module-metadata-dm-practices/",
             "description": "Training material regarding managing metadata, including metadata standards, data dictionaries, controlled vocabularies and ontologies.",
-            "provider": "NBIS",
+            "provider":  ["NBIS"],
             "licence": "CC BY 4.0"
         },
         {
@@ -105,7 +105,7 @@
             "level": ["Basic"],
             "url": "https://nbisweden.github.io/module-open-science-dm-practices/index.html",
             "description": "Training material regarding what Open Science and FAIR principles mean.",
-            "provider": "NBIS",
+            "provider":  ["NBIS"],
             "licence": "CC BY 4.0"
         },
         {
@@ -119,7 +119,7 @@
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/human_data",
             "description": "Best practice guidance regarding working with human data.",
-            "provider": "RDMkit",
+            "provider":  ["RDMkit"],
             "licence": "CC BY 4.0"
         },
         {
@@ -132,7 +132,7 @@
             "level": ["Basic"],
             "url": "https://commons.datacite.org/",
             "description": "Web search interface to works, people, organizations and repositories.",
-            "provider": "DataCite"
+            "provider": ["DataCite"]
         },
         {
             "title": "The Swedish COVID-19 Data Portal one year on",
@@ -144,7 +144,7 @@
             "level": ["Basic"],
             "url": "https://www.youtube.com/watch?v=UUsoY6Lfa1o&list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS&index=7",
             "description": "Video presentation about the improved Swedish COVID-19 data portal.",
-            "provider": "SciLifeLab"
+            "provider":  ["SciLifeLab"]
         },
         {
             "title": "Swedish COVID-19 Data Portal",
@@ -156,7 +156,7 @@
             "level": ["Basic"],
             "url": "https://www.youtube.com/watch?v=Q2W1MvxMkJ0&list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS&index=12",
             "description": "Video presentation about the Swedish COVID-19 data portal by Arnold Kochari at SciLifeLab.",
-            "provider": "SciLifeLab"
+            "provider":  ["SciLifeLab"]
         },
         {
             "title": "EBI repository wizard",
@@ -168,7 +168,7 @@
             "level": ["Basic"],
             "url": "https://www.ebi.ac.uk/submission/",
             "description": "The wizard guides through the decision process of finding a suitable repository.",
-            "provider": "EBI"
+            "provider": ["EBI"]
         },
         {
             "title": "EBI submission YouTube playlist",
@@ -180,7 +180,7 @@
             "level": ["Basic"],
             "url": "https://www.youtube.com/playlist?list=PL67E0627174F36FCF",
             "description": "Collection of instruction videos on how to submit to the various repositories at EBI.",
-            "provider": "EBI"
+            "provider": ["EBI"]
         },
         {
             "title": "RDMkit on Reusing data",
@@ -192,7 +192,7 @@
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/reusing",
             "description": "Best practice guidance regarding the phase of data reuse.",
-            "provider": "RDMkit",
+            "provider":  ["RDMkit"],
             "licence": "CC BY 4.0"
         },
         {
@@ -205,7 +205,7 @@
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/existing_data",
             "description": "Best practice guidance regarding the task of reusing data.",
-            "provider": "RDMkit",
+            "provider":  ["RDMkit"],
             "licence": "CC BY 4.0"
         },
         {
@@ -218,7 +218,7 @@
             "level": ["Basic"],
             "url": "https://datasetsearch.research.google.com",
             "description": "Google search engine for finding data sets.",
-            "provider": "Google"
+            "provider": ["Google"]
         },
         {
             "title": "RDMkit on Preserving data",
@@ -230,7 +230,7 @@
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/preserving",
             "description": "Best practice guidance regarding the phase of preserving data.",
-            "provider": "RDMkit",
+            "provider":  ["RDMkit"],
             "licence": "CC BY 4.0"
         },
         {
@@ -243,7 +243,7 @@
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/sharing",
             "description": "Best practice guidance regarding the phase of data sharing.",
-            "provider": "RDMkit",
+            "provider":  ["RDMkit"],
             "licence": "CC BY 4.0"
         },
         {
@@ -256,7 +256,7 @@
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/data_publication",
             "description": "Best practice guidance regarding the task of publishing data.",
-            "provider": "RDMkit",
+            "provider":  ["RDMkit"],
             "licence": "CC BY 4.0"
         },
         {
@@ -269,7 +269,7 @@
             "level": ["Basic"],
             "url": "https://nbisweden.github.io/module-data-publication-dm-practices/",
             "description": "Training material regarding the why and how of data publication.",
-            "provider": "NBIS",
+            "provider":  ["NBIS"],
             "licence": "CC BY 4.0"
         },
         {
@@ -282,7 +282,7 @@
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/analysing",
             "description": "Best practice guidance regarding the phase of data analysis.",
-            "provider": "RDMkit",
+            "provider":  ["RDMkit"],
             "licence": "CC BY 4.0"
         },
         {
@@ -295,7 +295,7 @@
             "level": ["Basic"],
             "url": "https://nbisweden.github.io/module-r-intro-dm-practices/",
             "description": "Training material introducing how to work with R and tidy data.",
-            "provider": "NBIS",
+            "provider":  ["NBIS"],
             "licence": "CC BY 4.0"
         },
         {
@@ -308,7 +308,7 @@
             "level": ["Basic"],
             "url": "https://nbisweden.github.io/module-versioning-dm-practices/",
             "description": "Training material regarding versioning of data and code using Git.",
-            "provider": "NBIS",
+            "provider":  ["NBIS"],
             "licence": "CC BY 4.0"
         },
         {
@@ -321,7 +321,7 @@
             "level": ["Basic"],
             "url": "https://nbisweden.github.io/module-organising-data-dm-practices/",
             "description": "Training material regarding good data organisation practices.",
-            "provider": "NBIS",
+            "provider":  ["NBIS"],
             "licence": "CC BY 4.0"
         },
         {
@@ -334,7 +334,7 @@
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/processing",
             "description": "Best practice guidance regarding the phase of processing data.",
-            "provider": "RDMkit",
+            "provider":  ["RDMkit"],
             "licence": "CC BY 4.0"
         },
         {
@@ -347,7 +347,7 @@
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/data_quality",
             "description": "Best practice guidance regarding the task of data quality management.",
-            "provider": "RDMkit",
+            "provider":  ["RDMkit"],
             "licence": "CC BY 4.0"
         },
         {
@@ -360,7 +360,7 @@
             "level": ["Basic"],
             "url": "https://nbisweden.github.io/module-openrefine-dm-practices/",
             "description": "Training material regarding OpenRefine, a tool for cleaning tabular data.",
-            "provider": "NBIS",
+            "provider":  ["NBIS"],
             "licence": "CC BY 4.0"
         },
         {
@@ -373,7 +373,7 @@
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/planning",
             "description": "Best practice guidance regarding the phase of data management planning.",
-            "provider": "RDMkit",
+            "provider":  ["RDMkit"],
             "licence": "CC BY 4.0"
         },
         {
@@ -386,7 +386,7 @@
             "level": ["Basic"],
             "url": "https://nbisweden.github.io/module-dmp-dm-practices/",
             "description": "Training material regarding the what, why, and how of data management plans.",
-            "provider": "NBIS",
+            "provider":  ["NBIS"],
             "licence": "CC BY 4.0"
         },
         {
@@ -399,7 +399,7 @@
             "level": ["Basic"],
             "url": "https://www.youtube.com/watch?v=HY2DVnNGkAs",
             "description": "Short introduction video of Data Stewardship Wizard (DSW) tool.",
-            "provider": "SciLifeLab"
+            "provider":  ["SciLifeLab"]
         },
         {
             "title": "How to write a Data Management Plan",
@@ -411,7 +411,7 @@
             "level": ["Basic"],
             "url": "https://www.youtube.com/watch?v=HDfwz60FXjw",
             "description": "Video presentation of what sections a data management plan consists of.",
-            "provider": "SciLifeLab"
+            "provider":  ["SciLifeLab"]
         },
         {   
             "title": "RDMkit on Collecting data",
@@ -423,7 +423,7 @@
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/collecting",
             "description": "Best practice guidance regarding the phase of collecting data.",
-            "provider": "RDMkit",
+            "provider":  ["RDMkit"],
             "licence": "CC BY 4.0"
         },
         {
@@ -437,7 +437,7 @@
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/data_transfer.html",
             "description": "Best practice guidance regarding the task of transferring data.",
-            "provider": "RDMkit",
+            "provider":  ["RDMkit"],
             "licence": "CC BY 4.0"
         },
         {
@@ -450,7 +450,7 @@
             "level": ["Basic"],
             "url": "https://dsw.scilifelab.se",
             "description": "Tool to create data management plans complying with requirements from Swedish research council while giving Life Science specific guidance.",
-            "provider": "SciLifeLab"
+            "provider":  ["SciLifeLab"]
         },
         {
             "title": "BAS Online",
@@ -462,7 +462,7 @@
             "level": ["Basic"],
             "url": "https://snd.gu.se/sv/hantera-data/utbildning/bas-online",
             "description": "BAS Online is divided into six sessions consisting of short video presentations, exercises and other material such as texts and linked resources. The course is primarily aimed at those who work at a research data support unit at a Swedish university, and covers topics such as Data management and data management plans, Metadata, Metadata standards, Documentation of research data, Law and research data.",
-            "provider": "SND"
+            "provider":  ["SND"]
         },
         {
             "title": "General information about research data on UU intranet",
@@ -474,7 +474,7 @@
             "level": ["Basic"],
             "url": "https://www.uu.se/en/staff/gateway/research/research-handbook/research-data",
             "description": "General information about handling data - DMP, documentation & metadata, FAIR, organizing files & folders, versioning, ethical & legal aspects, open data, archiving. Information is mostly on a generic level, not discipline specific. Lectures in Phd courses on ethics and scientific writing. Target audience is researchers and doctoral students at UU.",
-            "provider": "UU"
+            "provider": ["UU"]
         },
         {
             "title": "Online course on Open science and data management",
@@ -486,7 +486,7 @@
             "level": ["Basic"],
             "url": "https://canvas.kth.se/courses/29371",
             "description": "Online course available at all time with reflection and discussion material covering the topics of basic data management, DMP, management of open versus confidential data, basic legal and information security, sharing, publishing, and archiving. Target audience is PhD students and Researchers, with additional sections with material for leaders of larger collaborative projects (samverkansledare).",
-            "provider": "KTH",
+            "provider":  ["KTH"],
             "licence": "CC BY 4.0"
         },
         {
@@ -499,7 +499,7 @@
             "level": ["Basic"],
             "url": "https://dmeg.cessda.eu/Data-Management-Expert-Guide",
             "description": "The DMEG is designed by European experts to help social science researchers make their research data Findable, Accessible, Interoperable and Reusable (FAIR).",
-            "provider": "CESSDA ERIC",
+            "provider": ["CESSDA ERIC"],
             "licence": "CC BY-SA 4.0"
         },
         {
@@ -512,7 +512,7 @@
             "level": ["Basic"],
             "url": "https://datahub.aida.scilifelab.se/sharing/",
             "description": "The AIDA (Analytical Imaging Diagnostics Arena) Data Sharing Policy is a comprehensive resource developed by ~50 AIDA partners in healthcare, industry, and academia, which includes legal analyses, best practices, and practical instructions for how to carry out ethically and legally correct sharing of sensitive personal data such as medical images in Sweden and similar countries.",
-            "provider": "AIDA"
+            "provider": ["AIDA"]
         },
         {
             "title": "Storage resources available for researchers in Sweden",
@@ -525,7 +525,7 @@
             "level": ["Basic"],
             "url": "https://data.scilifelab.se/resources/storage/",
             "description": "Information page regarding storage resources available to researchers in Sweden, and how to apply for access.",
-            "provider": "SciLifeLab Data Platform"
+            "provider":  ["SciLifeLab Data Platform"]
         },
         {
             "title": "Compute resources available for researchers in Sweden",
@@ -538,7 +538,7 @@
             "level": ["Basic"],
             "url": "https://data.scilifelab.se/resources/e-infrastructure/",
             "description": "Information page regarding compute resources related to hosting, simulation, and analysis that are available to researchers in Sweden. It contains information about the services the resources provide, and how to apply for access to them.",
-            "provider": "SciLifeLab Data Platform"         
+            "provider":  ["SciLifeLab Data Platform"]         
         },
         {
             "title": "RDMkit on Data organisation",
@@ -551,7 +551,7 @@
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/data_organisation",
             "description": "Best practice guidance regarding the task of organising data, in terms of naming files, file versioning, folder structure and file formats.",
-            "provider": "RDMkit",
+            "provider":  ["RDMkit"],
             "licence": "CC BY 4.0"
         },
         {
@@ -564,7 +564,7 @@
             "level": ["Basic"],
             "url": "https://github.com/NBISweden/data-submission-documentation",
             "description": "Documentation on data submissions done by data stewards into public repositories, including standard operating procedures for submissions to ENA.",
-            "provider": "NBIS"
+            "provider":  ["NBIS"]
         }
     ]
 }

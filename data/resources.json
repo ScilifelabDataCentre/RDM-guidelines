@@ -1,6 +1,8 @@
 {
     "items": [
-        {"title": "RDMkit on Your role",
+        {
+            "title": "RDMkit on Your role",
+            "short_title": "RDMkit: Your role",
             "target": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","role","profession"],
@@ -14,6 +16,7 @@
         },
         {
             "title": "Keynote: First FAIR steps, Rob Hooft",
+            "short_title": "First FAIR steps, Rob Hooft",
             "target": ["guidance"],
             "type": ["Video"],
             "search_tags": ["video","FAIR"],
@@ -26,6 +29,7 @@
         },
         {
             "title": "SciLifeLab Data Repository Metadata record tutorial",
+            "short_title": "Metadata record tutorial",
             "target": ["guidance"],
             "type": ["Video"],
             "search_tags": ["video","metadata","data repository"],
@@ -38,6 +42,7 @@
         },
         {
             "title": "SND on Research material with personal data",
+            "short_title": "SND: Research with personal data",
             "target": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["SND","human data","personal data"],
@@ -50,6 +55,7 @@
         },
         {
             "title": "ELSI checklist in Data Stewardship Wizard",
+            "short_title": "ELSI checklist in DSW",
             "target": ["tool"],
             "type": ["Tool"],
             "search_tags": ["ELSI","checklist","human data"],
@@ -62,6 +68,7 @@
         },
         {
             "title": "RDMkit on Metadata",
+            "short_title": "RDMkit: Metadata",
             "target": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","metadata"],
@@ -75,6 +82,7 @@
         },
         {
             "title": "Metadata module",
+            "short_title": "Metadata module",
             "target": ["training"],
             "type": ["Material"],
             "search_tags": ["material","metadata"],
@@ -87,7 +95,8 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "Open Science and FAIR",
+            "title": "Open Science and FAIR module",
+            "short_title": "Open Science & FAIR module",
             "target": ["training"],
             "type": ["Material"],
             "search_tags": ["material","open science","FAIR"],
@@ -101,6 +110,7 @@
         },
         {
             "title": "RDMkit on Human data",
+            "short_title": "RDMkit: Human data",
             "target": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","human data"],
@@ -114,6 +124,7 @@
         },
         {
             "title": "DataCite Commons",
+            "short_title": "DataCite Commons",
             "target": ["tool"],
             "type": ["Tool"],
             "search_tags": ["search","DataCite","reuse"],
@@ -125,6 +136,7 @@
         },
         {
             "title": "The Swedish COVID-19 Data Portal one year on",
+            "short_title": "Swedish COVID-19 Portal 1 year",
             "target": ["guidance"],
             "type": ["Video"],
             "search_tags": ["video","reuse","COVID","portal"],
@@ -136,6 +148,7 @@
         },
         {
             "title": "Swedish COVID-19 Data Portal",
+            "short_title": "Swedish COVID-19 Portal",
             "target": ["guidance"],
             "type": ["Video"],
             "search_tags": ["video","reuse","COVID","portal"],
@@ -147,6 +160,7 @@
         },
         {
             "title": "EBI repository wizard",
+            "short_title": "EBI repository wizard",
             "target": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["EBI","publication","submission","repository"],
@@ -158,6 +172,7 @@
         },
         {
             "title": "EBI submission YouTube playlist",
+            "short_title": "EBI submission on YouTube",
             "target": ["guidance"],
             "type": ["Video"],
             "search_tags": ["EBI","submission","publication","video","repository"],
@@ -169,6 +184,7 @@
         },
         {
             "title": "RDMkit on Reusing data",
+            "short_title": "RDMkit: Reusing data",
             "target": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","reuse"],
@@ -181,6 +197,7 @@
         },
         {
             "title": "RDMkit on Existing data",
+            "short_title": "RDMkit: Existing data",
             "target": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","reuse"],
@@ -193,6 +210,7 @@
         },
         {
             "title": "Google dataset search",
+            "short_title": "Google dataset search",
             "target": ["tool"],
             "type": ["Tool"],
             "search_tags": ["Google","search","reuse"],
@@ -204,6 +222,7 @@
         },
         {
             "title": "RDMkit on Preserving data",
+            "short_title": "RDMkit: Preserving data",
             "target": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","preserve"],
@@ -216,6 +235,7 @@
         },
         {
             "title": "RDMkit on Sharing data",
+            "short_title": "RDMkit: Sharing data",
             "target": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","share"],
@@ -228,6 +248,7 @@
         },
         {
             "title": "RDMkit on Data publication",
+            "short_title": "RDMkit: Data publication",
             "target": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","publication"],
@@ -240,6 +261,7 @@
         },
         {
             "title": "Data publication module",
+            "short_title": "Data publication module",
             "target": ["training"],
             "type": ["Material"],
             "search_tags": ["material","publication","submission","ENA"],
@@ -252,6 +274,7 @@
         },
         {
             "title": "RDMkit on Analysing data",
+            "short_title": "RDMkit: Analysing data",
             "target": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","analyse"],
@@ -264,6 +287,7 @@
         },
         {
             "title": "R module",
+            "short_title": "R module",
             "target": ["training"],
             "type": ["Material"],
             "search_tags": ["material","R"],
@@ -276,6 +300,7 @@
         },
         {
             "title": "Versioning module",
+            "short_title": "Versioning module",
             "target": ["training"],
             "type": ["Material"],
             "search_tags": ["material","git","versioning"],
@@ -288,6 +313,7 @@
         },
         {
             "title": "Data organisation module",
+            "short_title": "Data organisation module",
             "target": ["training"],
             "type": ["Material"],
             "search_tags": ["material","data organisation","organisation","organization"],
@@ -300,6 +326,7 @@
         },
         {
             "title": "RDMkit on Processing data",
+            "short_title": "RDMkit: Processing data",
             "target": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDM","process"],
@@ -312,6 +339,7 @@
         },
         {
             "title": "RDMkit on Data quality",
+            "short_title": "RDMkit: Data quality",
             "target": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","quality"],
@@ -324,6 +352,7 @@
         },
         {
             "title": "OpenRefine module",
+            "short_title": "OpenRefine module",
             "target": ["training"],
             "type": ["Material"],
             "search_tags": ["OpenRefine","cleaning","material","tool"],
@@ -336,6 +365,7 @@
         },
         {
             "title": "RDMkit on Data Management Planning",
+            "short_title": "RDMkit: DM Planning",
             "target": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","DMP","data management plan"],
@@ -348,6 +378,7 @@
         },
         {
             "title": "DMP module",
+            "short_title": "DMP module",
             "target": ["training"],
             "type": ["Material"],
             "search_tags": ["DMP","data management plan","material"],
@@ -360,6 +391,7 @@
         },
         {
             "title": "SciLifeLab Data Stewardship Wizard - A short introduction",
+            "short_title": "Introduction SciLifeLab DSW",
             "target": ["guidance"],
             "type": ["Video"],
             "search_tags": ["DSW","DMP","video"],
@@ -371,6 +403,7 @@
         },
         {
             "title": "How to write a Data Management Plan",
+            "short_title": "How to write a DMP",
             "target": ["guidance"],
             "type": ["Video"],
             "search_tags": ["DMP","data management plan","video"],
@@ -382,6 +415,7 @@
         },
         {   
             "title": "RDMkit on Collecting data",
+            "short_title": "RDMkit: Collecting data",
             "target": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","collect"],
@@ -394,6 +428,7 @@
         },
         {
             "title": "RDMkit on Data transfer",
+            "short_title": "RDMkit: Data transfer",
             "target": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","transfer","data transfer"],
@@ -407,6 +442,7 @@
         },
         {
             "title": "SciLifeLab Data Stewardship Wizard (DSW)",
+            "short_title": "SciLifeLab Data Stewardship Wizard",
             "target": ["tool"],
             "type": ["Tool"],
             "search_tags": ["DSW","DMP"],
@@ -418,6 +454,7 @@
         },
         {
             "title": "BAS Online",
+            "short_title": "BAS Online",
             "target": ["training"],
             "type": ["Material"],
             "search_tags": ["SND","BAS","material","legal","DMP","metadata"],
@@ -429,6 +466,7 @@
         },
         {
             "title": "General information about research data on UU intranet",
+            "short_title": "Research data on UU intranet",
             "target": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["Uppsala","UU","DMP","research data"],
@@ -440,6 +478,7 @@
         },
         {
             "title": "Online course on Open science and data management",
+            "short_title": "Open science and data management",
             "target": ["training"],
             "type": ["Course"],
             "search_tags": ["KTH","course","open science","data management"],
@@ -452,6 +491,7 @@
         },
         {
             "title": "Data Management Expert Guide (DMEG)",
+            "short_title": "Data Management Expert Guide",
             "target": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["DMEG","FAIR", "social science","CESSDA"],
@@ -464,6 +504,7 @@
         },
         {
             "title": "AIDA Data Sharing Policy",
+            "short_title": "AIDA Data Sharing Policy",
             "target": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["AIDA","policy", "share"],
@@ -475,6 +516,7 @@
         },
         {
             "title": "Storage resources available for researchers in Sweden",
+            "short_title": "Storage resources in Sweden",
             "target": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["storage","resources","infrastructure"],
@@ -487,6 +529,7 @@
         },
         {
             "title": "Compute resources available for researchers in Sweden",
+            "short_title": "Compute resources in Sweden",
             "target": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["compute","resources","infrastructure"],
@@ -499,6 +542,7 @@
         },
         {
             "title": "RDMkit on Data organisation",
+            "short_title": "RDMkit: Data organisation",
             "target": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","organisation", "organization", "data organisation","Metadata", "README files"],
@@ -512,6 +556,7 @@
         },
         {
             "title": "NBIS Submission documentation",
+            "short_title": "NBIS Submission documentation",
             "target": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["NBIS","share","submission","documentation","publication","SOP","ENA","EBI","BioStudies"],

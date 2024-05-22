@@ -161,8 +161,8 @@
         {
             "title": "EBI repository wizard",
             "short_title": "EBI repository wizard",
-            "target": ["guidance"],
-            "type": ["Web page"],
+            "target": ["tool"],
+            "type": ["Tool"],
             "search_tags": ["EBI","publication","submission","repository"],
             "phase": ["Share"],
             "level": ["Basic"],

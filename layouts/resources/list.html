@@ -135,25 +135,6 @@ requires that the first 2 resources in resources.json always is the same as now.
                 data-provider="{{ delimit (apply .provider "urlize" ".") " " }}" 
                 {{ with .search_tags }}data-search-tags="{{ delimit . ":" | lower }}"{{ end }}>
                 <div class="p-3 border rounded h-100">
-                  {{ if eq $target "guidance" }}
-                    <div class="d-flex justify-content-between">
-                      <!-- <span class="badge event-type-lh-grape mb-1 me-1">{{ delimit .type ", " }}</span> -->
-                      {{ range .type }}
-                        {{ if eq . "Web page"}}<span class="badge event-type-lh-grape mb-1 me-1">{{ . }}</span>             
-                        {{ else if eq . "Video"}}<span class="badge event-type-lh-teal mb-1 me-1">{{ . }}</span>
-                        {{ else }} <span class="badge event-type-lh-lime mb-1 me-1">{{ . }}</span>
-                        {{ end }}
-                      {{ end }}    
-                      <!--{{ range $target_type }} 
-                        {{ if eq . "Tool"}}<span class="badge event-type-lh-teal mb-1 me-1">{{ . }}</span>             
-                        {{ else if eq . "Guidance"}}<span class="badge event-type-lh-lime mb-1 me-1">{{ . }}</span>
-                        {{ else if eq . "Training"}}<span class="badge event-type-lh-grape mb-1 me-1">{{ . }}</span>
-                        {{ else }} <span class="badge event-type mb-1 me-1">{{ . }}</span>
-                        {{ end }}     
-                      {{ end }} -->
-                    </div>
-                    <br>
-                  {{ end }}
                   <a class="resources-header-teal" role="button" data-bs-toggle="modal"
                       data-bs-target="#descriptionModal{{ $ind }}">{{ .short_title }}</a>
                   {{ if .provider }}<div class="row">
@@ -231,6 +212,25 @@ requires that the first 2 resources in resources.json always is the same as now.
                           </div>
                         </div>
                       </div>
+                    </div>
+                    <div class="col">
+                      {{ if eq $target "guidance" }}
+                        <div class="d-flex justify-content-between">
+                          <!-- <span class="badge event-type-lh-grape mb-1 me-1">{{ delimit .type ", " }}</span> 
+                            {{ if eq . "Video"}}<span class="badge event-type-lh-teal mb-1 me-1">{{ . }}</span> {{ end }} -->
+                          {{ range .type }}
+                            {{ if eq . "Video"}}<i class="bi-camera-video-fill" style="font-size: 24px;"> </i>
+                            {{ end }}
+                          {{ end }}    
+                          <!--{{ range $target_type }} 
+                            {{ if eq . "Tool"}}<span class="badge event-type-lh-teal mb-1 me-1">{{ . }}</span>             
+                            {{ else if eq . "Guidance"}}<span class="badge event-type-lh-lime mb-1 me-1">{{ . }}</span>
+                            {{ else if eq . "Training"}}<span class="badge event-type-lh-grape mb-1 me-1">{{ . }}</span>
+                            {{ else }} <span class="badge event-type mb-1 me-1">{{ . }}</span>
+                            {{ end }}     
+                          {{ end }} -->
+                        </div>
+                      {{ end }}
                     </div>
                   </div>
                 </div>

@@ -480,7 +480,7 @@
             "title": "Online course on Open science and data management",
             "short_title": "Open science and data management",
             "target": ["training"],
-            "type": ["Course"],
+            "type": ["Material"],
             "search_tags": ["KTH","course","open science","data management"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share","Reuse"],
             "level": ["Basic"],
@@ -525,7 +525,7 @@
             "level": ["Basic"],
             "url": "https://data.scilifelab.se/resources/storage/",
             "description": "Information page regarding storage resources available to researchers in Sweden, and how to apply for access.",
-            "provider":  ["SciLifeLab Data Platform"]
+            "provider":  ["SciLifeLab"]
         },
         {
             "title": "Compute resources available for researchers in Sweden",
@@ -538,7 +538,7 @@
             "level": ["Basic"],
             "url": "https://data.scilifelab.se/resources/e-infrastructure/",
             "description": "Information page regarding compute resources related to hosting, simulation, and analysis that are available to researchers in Sweden. It contains information about the services the resources provide, and how to apply for access to them.",
-            "provider":  ["SciLifeLab Data Platform"]         
+            "provider":  ["SciLifeLab"]         
         },
         {
             "title": "RDMkit on Data organisation",

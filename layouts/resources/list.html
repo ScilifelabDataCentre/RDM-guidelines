@@ -103,13 +103,13 @@ requires that the first 2 resources in resources.json always is the same as now.
               </div>
             {{ end }}
           {{ end }} -->
-          <div class="resources-header-black">Provider</div>
+          <!-- <div class="resources-header-black">Provider</div>
           {{ range sort $target_provider }}
             <div class="form-check">
               <input class="form-check-input" type="checkbox" id="{{ . }}" name="provider" value="{{ delimit (split . " ") "-" | lower }}">
               <label class="form-check-label" for="{{ . }}">{{ . }}</label>
             </div>
-          {{ end }}          
+          {{ end }} -->         
           <div class="resources-header-black">Phase</div>
           {{ range $phase }}
             <div class="form-check">

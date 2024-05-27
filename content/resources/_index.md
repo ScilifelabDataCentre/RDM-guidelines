@@ -15,9 +15,8 @@ menu:
 ---
 <section> <br>
   <div class="row">
-    <div class="col">Please find below resources concerning data management in form of training, guidance and tools. 
-      Use the left-hand filters in order to select type of resource, phase of the research data life cycle, and / 
-      or level of skill required in order to maximise the benefit of the resource. 
+    <div class="col">Please find below resources concerning data management in form of training, guidance and tools, 
+    separated into tabs. Use search and filter fields to the left, to limit the resources displayed. 
       Click the button to the right to inform us of any relevant resources that are missing from this list.
     </div>
     <div class="col-lg-2">

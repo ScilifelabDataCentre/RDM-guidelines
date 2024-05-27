@@ -81,8 +81,8 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "Metadata module",
-            "short_title": "Metadata module",
+            "title": "Metadata",
+            "short_title": "Metadata",
             "target": ["training"],
             "type": ["Material"],
             "search_tags": ["material","metadata"],
@@ -95,8 +95,8 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "Open Science and FAIR module",
-            "short_title": "Open Science & FAIR module",
+            "title": "Open Science and FAIR",
+            "short_title": "Open Science & FAIR",
             "target": ["training"],
             "type": ["Material"],
             "search_tags": ["material","open science","FAIR"],
@@ -260,8 +260,8 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "Data publication module",
-            "short_title": "Data publication module",
+            "title": "Data publication",
+            "short_title": "Data publication",
             "target": ["training"],
             "type": ["Material"],
             "search_tags": ["material","publication","submission","ENA"],
@@ -286,8 +286,8 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "R module",
-            "short_title": "R module",
+            "title": "R",
+            "short_title": "R",
             "target": ["training"],
             "type": ["Material"],
             "search_tags": ["material","R"],
@@ -299,8 +299,8 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "Versioning module",
-            "short_title": "Versioning module",
+            "title": "Versioning",
+            "short_title": "Versioning",
             "target": ["training"],
             "type": ["Material"],
             "search_tags": ["material","git","versioning"],
@@ -312,8 +312,8 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "Data organisation module",
-            "short_title": "Data organisation module",
+            "title": "Data organisation",
+            "short_title": "Data organisation",
             "target": ["training"],
             "type": ["Material"],
             "search_tags": ["material","data organisation","organisation","organization"],
@@ -351,8 +351,8 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "OpenRefine module",
-            "short_title": "OpenRefine module",
+            "title": "OpenRefine",
+            "short_title": "OpenRefine",
             "target": ["training"],
             "type": ["Material"],
             "search_tags": ["OpenRefine","cleaning","material","tool"],
@@ -377,8 +377,8 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "DMP module",
-            "short_title": "DMP module",
+            "title": "DMP",
+            "short_title": "DMP",
             "target": ["training"],
             "type": ["Material"],
             "search_tags": ["DMP","data management plan","material"],

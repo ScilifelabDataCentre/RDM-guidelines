@@ -159,19 +159,19 @@ requires that the first 2 resources in resources.json always is the same as now.
                             <div class="modal-body">
                               {{ if .description }}<div class="row mt-1">
                                 <div class="col"><b>Brief description:</b><br>
-                                  {{ .description | markdownify }} <br><br>
+                                  {{ .description | markdownify }} 
                                 </div>
                               </div>{{ end }}
                               {{ if eq $target "guidance" }}
                                 <div class="row mt-3">
                                   <div class="col">
-                                    <b>Resource type:</b>
+                                    <!-- <b>Resource type:</b> 
                                     {{ range .type }}
-                                      {{ if eq . "Web page" }}<span class="badge event-type-lh-grape mb-1 me-1">{{ . }}</span>             
+                                      <!--{{ if eq . "Web page" }}<span class="badge event-type-lh-grape mb-1 me-1">{{ . }}</span>             
                                       {{ else if eq . "Video" }}<span class="badge event-type-lh-teal mb-1 me-1">{{ . }}</span>
                                       {{ else }} <span class="badge event-type-lh-lime mb-1 me-1">{{ . }}</span>
-                                      {{ end }}
-                                    {{ end }}    
+                                      {{ end }} 
+                                    {{ end }}    -->
                                   </div>
                                 </div>
                               {{ end }}
@@ -180,11 +180,11 @@ requires that the first 2 resources in resources.json always is the same as now.
                                   <b>Phase:</b> {{ delimit .phase ", " }}
                                 </div>
                               </div>{{ end }}
-                              {{ if .level }}<div class="row mt-1">
+                              <!-- {{ if .level }}<div class="row mt-1">
                                 <div class="col">
                                   <b>Difficulty level:</b> {{ delimit .level ", "}}
                                 </div>
-                              </div>{{ end }}
+                              </div>{{ end }} -->
                               {{ if .provider }}<div class="row mt-1">
                                 <div class="col">
                                   <b>Content provider:</b> {{ delimit .provider ", " }}

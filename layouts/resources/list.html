@@ -87,7 +87,7 @@ requires that the first 2 resources in resources.json always is the same as now.
     {{ $target_level := index (index $resources $target) "level" }}
     <div class="tab-pane fade {{ if eq $target "training" }}show active{{ end }}" 
         id="resources-{{ $target }}" role="tabpanel">
-      <div class="row">
+      <div class="row bg-light-teal">
         <div class="col-lg-2 mb-2 mb-lg-0 pe-lg-0">
           <div class="resources-header-black">Search</div>
           <div class="input-group">

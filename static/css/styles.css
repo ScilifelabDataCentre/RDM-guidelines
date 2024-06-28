@@ -268,6 +268,10 @@ html {
   background-color: #3f3f3f;
 }
 
+.bg-light-teal {
+  background-color: rgba(4, 92, 100, 0.25);
+}
+
 /* Homepage */
 
 .cont-links a {

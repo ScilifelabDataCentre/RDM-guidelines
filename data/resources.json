@@ -440,6 +440,17 @@
             "url": "https://github.com/NBISweden/data-submission-documentation",
             "description": "Documentation on data submissions done by data stewards into public repositories, including standard operating procedures for submissions to ENA.",
             "provider": "NBIS"
+        },
+        {
+            "title": "Sharing personal data through SND",
+            "type": ["Guidance"],
+            "phase": ["Share"],
+            "topic": ["Sharing human data"],
+            "level": ["Basic"],
+            "url": "https://github.com/NBISweden/data-submission-documentation",
+            "description": "Swedish National Data Service (SND) guidance on sharing data with personal information.",
+            "provider": "SND"
         }
+        
     ]
 }

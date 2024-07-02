@@ -12,7 +12,7 @@ In the era of [FAIR](/topics/fair-principles) (Findable, Accessible, Interoperab
 
 <br/>
 
-  <img class="img-fluid" src="/img/illustrations/repository_overview.png" alt="Repository overview">
+  <img class="img-fluid" src="/img/illustrations/repository_overview_v2.png" alt="Repository overview">
 
 &nbsp;&nbsp;
 

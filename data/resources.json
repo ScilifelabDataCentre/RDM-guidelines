@@ -13,7 +13,7 @@
             "description": "Best practice guidance regarding the different roles a professional can have in research data management.",
             "provider":  ["RDMkit"],
             "licence": "CC BY 4.0"
-        },
+        },       
         {
             "title": "Keynote: First FAIR steps, Rob Hooft",
             "short_title": "First FAIR steps, Rob Hooft",
@@ -286,11 +286,8 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "R",
-            "short_title": "R",
-            "target": ["training"],
-            "type": ["Material"],
-            "search_tags": ["material","R"],
+            "title": "Introduction to R",
+            "type": ["Training"],
             "phase": ["Analyse"],
             "level": ["Basic"],
             "url": "https://nbisweden.github.io/module-r-intro-dm-practices/",
@@ -450,7 +447,18 @@
             "level": ["Basic"],
             "url": "https://dsw.scilifelab.se",
             "description": "Tool to create data management plans complying with requirements from Swedish research council while giving Life Science specific guidance.",
-            "provider":  ["SciLifeLab"]
+            "provider": ["SciLifeLab"]
+        },
+        {
+            "title": "Introduction to data management practices",
+            "type": ["Training"],
+            "phase": ["Plan", "Collect", "Process", "Analyse", "Share"],
+            "topic": ["README files"], 
+            "level": ["Basic"],
+            "url": "https://uppsala.instructure.com/courses/79097/pages/introduction-to-data-management-practices",
+            "description": "This course will introduce important aspects of Research Data Management (concept of FAIR, Metadata standards, Data Organisation, Data Publication, Data Management Planning, Data Refinement (Open Refine), Data Versioning, Programming/Analysis in R) through a series of lectures and hands-on computer exercises. The course is intended for researchers that want to take the first steps towards a more systematic and reproducible approach to analysing and managing research data. All lessons are available online as self-study materials",
+            "provider": ["NBIS"],
+            "licence": "CC BY 4.0"
         },
         {
             "title": "BAS Online",

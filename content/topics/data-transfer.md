@@ -24,9 +24,9 @@ Please find below some useful links from the compute resource Uppmax regarding d
 
 <div>
   <ul class=list-link>
-    <li><a href="https://uppmax.uu.se/support-sv/user-guides/basic-sftp-commands/">Basic SFTP commands for transferring files </a></li>
+    <li><a href="https://docs.uppmax.uu.se/cluster_guides/transfer_rackham/">File transfer to/from Rackham</a></li>
+     <li><a href="https://docs.uppmax.uu.se/cluster_guides/transfer_bianca/">File transfer to/from Bianca</a></li>
     <li><a href="https://scilifelabdatacentre.github.io/dds_cli/installation/#bianca">NAISS-SENS Bianca Deliver user guide for NGI data</a></li>
-    <li><a href="https://uppmax.uu.se/support-sv/user-guides/transit-user-guide/">Transit user guide - secure data transfer of sensitive data</a></li>
   </ul>
 </div>
 
@@ -36,7 +36,7 @@ Aspera  (ascp) is a command-line transfer program that can be used for stable tr
 
 1. Open a terminal window and log in to Uppmax using your credentials:  
   `ssh -X username@rackham.uppmax.uu.se`
-1. Use [interactive](https://www.uppmax.uu.se/support/faq/running-jobs-faq/how-can-i-run-interactively-on-a-compute-node/) mode in order to execute the transfer at a compute node using a compute project:  
+1. Use [interactive](https://docs.uppmax.uu.se/cluster_guides/interactive_more/) mode in order to execute the transfer at a compute node using a compute project:  
   `interactive -A project-name`
 1. In order to be able to use the ascp command, it needs to be activated by typing:  
   `module load ascp`

@@ -144,7 +144,7 @@ And be able to **demonstrate** that the GDPR is followed.
 As a controller you should:
 * Ensure that data processing agreements are established when needed.
 * Ensure that all Processors are informed on what can and cannot be done to the data.
-* Ensure that all processing is done in a compute environment with a suitable level of security, e.g. [Bianca at Uppmax](http://www.uppmax.uu.se/support/user-guides/bianca-user-guide/).
+* Ensure that all processing is done in a compute environment with a suitable level of security, e.g. [Bianca at Uppmax](https://docs.uppmax.uu.se/cluster_guides/bianca/).
 
 As a Processor you should:
 * Only handle the data according to the instructions from the controller.
@@ -161,7 +161,7 @@ To ensure that the personal data that you process in the project is protected at
 
 The security measures taken should be based on an evaluation of the risks for, and consequences of, the personal data not being correct and protected. Appropriate technical and organisational measures shall be implemented to ensure a level of security appropriate to the risk. It is advisable that the researcher seek guidance from the legal and information security functions of the university adminstration about this.
 
-The UPPMAX [Bianca](http://www.uppmax.uu.se/support/user-guides/bianca-user-guide/) system has been designed to have technical and information security procedures that are appropriate for processing sensitive human data for analysis. Using this system then relieves the researcher from having to define these technical and security procedures themselves (at least for the analysis phase of a project). The researcher can decide to analyse (sensitive) personal data elsewhere, but then they will have to define the appropriate procedures. In case the controller work at a different institute than Uppsala University, a data processing agreement between that institute and UPPMAX/Uppsala University, needs to be established - see [instructions](https://www.uppmax.uu.se/support/faq/general-miscellaneous-faq/sensitive+data+questions/) at UPPMAX.
+The UPPMAX [Bianca](https://docs.uppmax.uu.se/cluster_guides/bianca/) system has been designed to have technical and information security procedures that are appropriate for processing sensitive human data for analysis. Using this system then relieves the researcher from having to define these technical and security procedures themselves (at least for the analysis phase of a project). The researcher can decide to analyse (sensitive) personal data elsewhere, but then they will have to define the appropriate procedures. In case the controller work at a different institute than Uppsala University, a data processing agreement between that institute and UPPMAX/Uppsala University, needs to be established - see [instructions](https://www.uppmax.uu.se/support/faq/general-miscellaneous-faq/sensitive+data+questions/) at UPPMAX.
 
 
 

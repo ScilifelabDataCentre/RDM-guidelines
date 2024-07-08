@@ -287,7 +287,10 @@
         },
         {
             "title": "Introduction to R",
-            "type": ["Training"],
+            "short_title": "Introduction to R",
+            "target": ["training"],
+            "type": ["Material"],
+            "search_tags": ["material", "Introduction to R"],
             "phase": ["Analyse"],
             "level": ["Basic"],
             "url": "https://nbisweden.github.io/module-r-intro-dm-practices/",
@@ -451,7 +454,10 @@
         },
         {
             "title": "Introduction to data management practices",
-            "type": ["Training"],
+            "short_title": "Intro DM practices",
+            "target": ["training"],
+            "type": ["Course"],
+            "search_tags": ["course", "material", "Introduction to data management practices"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Share"],
             "topic": ["README files"], 
             "level": ["Basic"],

@@ -458,5 +458,5 @@ html {
 .nav-tabs .nav-item .nav-link.active {
   background-color: #FFF;
   color: #045C64;
-  border-color: #4C979F;
+  border-color: #4C979F #4C979F #FFF #4C979F ;
 }

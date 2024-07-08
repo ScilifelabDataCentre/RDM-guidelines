@@ -446,3 +446,15 @@ html {
   background-color: #e9f2d1;
   color: black;
 }
+
+/* Resources page */
+
+.nav-tabs .nav-item .nav-link {
+  background-color: #4C979F;
+  color: #FFF;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+  background-color: #FFF;
+  color: #045C64;
+}

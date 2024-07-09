@@ -142,6 +142,26 @@ requires that the first 2 resources in resources.json always is the same as now.
                       <small><b>Content provider:</b> {{ delimit .provider ", " }}</small>
                     </div>
                   </div>{{ end }}
+                  <div class="col">
+                    <small><b>Phases: &nbsp;</b>
+                      {{ range .phase }}
+                        {{ if eq . "Plan"}}<i class="bi bi-pencil-square" style="font-size: 18px; color:#F96C37"> </i>
+                        {{ end }}
+                        {{ if eq . "Collect"}}<i class="bi bi-hourglass-bottom" style="font-size: 18px; color:#F9C54B"> </i>
+                        {{ end }}
+                        {{ if eq . "Process"}}<i class="bi bi-pc-display-horizontal" style="font-size: 18px; color:#8ABA56"> </i>
+                        {{ end }}
+                        {{ if eq . "Analyse"}}<i class="bi bi-bar-chart-fill" style="font-size: 18px; color:#31B890"> </i>
+                        {{ end }}
+                        {{ if eq . "Preserve"}}<i class="bi bi-server" style="font-size: 18px; color:#4276A5"> </i>
+                        {{ end }}
+                        {{ if eq . "Share"}}<i class="bi bi-share-fill" style="font-size: 18px; color:#9E52AD"> </i>
+                        {{ end }}
+                        {{ if eq . "Reuse"}}<i class="bi bi-arrow-repeat" style="font-size: 18px; color:#FB484B"> </i>
+                        {{ end }}
+                      {{ end }}
+                    </small>
+                  </div>
                   <div class="row mt-3">
                     <div class="col">
                       <button type="button" class="btn btn-details" data-bs-toggle="modal"

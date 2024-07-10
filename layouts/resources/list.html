@@ -58,7 +58,7 @@ requires that the first 2 resources in resources.json always is the same as now.
 
 <!-- Tab list -->
 <!-- note: put more to the right, so that it starts beyond filter column -->
-<ul class="nav nav-tabs nav-justified resources-tab-list mb-3">
+<ul class="nav nav-tabs nav-justified resources-tab-list">
   <li class="nav-item cont-links">
     <a class="nav-link active" href="#resources-training" data-bs-toggle="tab" role="tab">
       Training
@@ -197,7 +197,23 @@ requires that the first 2 resources in resources.json always is the same as now.
                               {{ end }}
                               {{ if .phase }}<div class="row mt-1">
                                 <div class="col">
-                                  <b>Phase:</b> {{ delimit .phase ", " }}
+                                  <b>Phase:</b> <!--{{ delimit .phase ", " }}-->
+                                  {{ range .phase }}
+                                  {{ if eq . "Plan"}} <small>Plan&nbsp;</small><i class="bi bi-pencil-square" style="font-size: 18px; color:#F96C37">&nbsp; </i>
+                                  {{ end }}
+                                  {{ if eq . "Collect"}}<small>Collect&nbsp;</small><i class="bi bi-hourglass-bottom" style="font-size: 18px; color:#F9C54B">&nbsp; </i>
+                                  {{ end }}
+                                  {{ if eq . "Process"}}<small>Process&nbsp;</small><i class="bi bi-pc-display-horizontal" style="font-size: 18px; color:#8ABA56">&nbsp; </i>
+                                  {{ end }}
+                                  {{ if eq . "Analyse"}}<small>Analyse&nbsp;</small><i class="bi bi-bar-chart-fill" style="font-size: 18px; color:#31B890">&nbsp; </i>
+                                  {{ end }}
+                                  {{ if eq . "Preserve"}}<small>Preserve&nbsp;</small><i class="bi bi-server" style="font-size: 18px; color:#4276A5">&nbsp; </i>
+                                  {{ end }}
+                                  {{ if eq . "Share"}}<small>Share&nbsp;</small><i class="bi bi-share-fill" style="font-size: 18px; color:#9E52AD">&nbsp; </i>
+                                  {{ end }}
+                                  {{ if eq . "Reuse"}}<small>Reuse&nbsp;</small><i class="bi bi-arrow-repeat" style="font-size: 18px; color:#FB484B">&nbsp; </i>
+                                  {{ end }}
+                                {{ end }}
                                 </div>
                               </div>{{ end }}
                               <!-- {{ if .level }}<div class="row mt-1">

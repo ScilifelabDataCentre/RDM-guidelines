@@ -39,6 +39,10 @@ Here are some repositories for sharing and archiving data under controlled acces
 ### Analytic Imaging Diagnostics Arena (AIDA) Data Hub
 [AIDA Data Hub](https://datahub.aida.scilifelab.se/) platform is part of the [Analytic Imaging Diagnostics Arena (AIDA)](https://medtech4health.se/aida/) and NBIS/SciLifeLab. It provides Data Sharing, Policy Support, and Services for researchers in Swedish medical imaging AI, and facilitates sharing of FAIR medical imaging research data for Open Science. The [AIDA Data Sharing Policy](https://datahub.aida.scilifelab.se/sharing/) is a comprehensive resource developed by ~50 AIDA partners in healthcare, industry, and academia, which includes legal analyses, best practices, and practical instructions for how to carry out ethically and legally correct sharing of sensitive personal data such as medical images in Sweden and similar countries. The [AIDA Dataset Register](https://datahub.aida.scilifelab.se/datasets/) provides Digital Object Identifiers (DOI) and landing pages for the datasets that have been shared on the AIDA Data Hub.
 
+### Swedish National Data Service (SND)
+
+Some organizations have signed agreements with SND, allowing for researchers to share datasets containing personal information in the national SND research catalogue. For more information, please visit [Sharing data with personal information through SND](https://snd.se/en/describe-share-data/share-data-step-step/1-preparations/sharing-data-personal-information). 
+
 ## If data cannot be deposited in a repository
 
 It is not always possible to deposit personally identifiable data in a controlled access repository. In that case, you could register a *metadata record* for the data. This record will serve multiple purposes: First, it will enable unambiguous identification of the data. Second, it will provide a description of the data so that others can understand what the data is about. Third, the metadata record may contain instructions on how to get access to the data.

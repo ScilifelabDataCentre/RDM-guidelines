@@ -274,20 +274,21 @@ html {
 
 /* Homepage */
 
+.column {
+  float: left;
+  width: 50%;
+}
+
 .cont-links a {
-  color: #491f53;
+  color: #045c64;
+  font-weight: bold;
 }
 
 .cont-links a:hover,
 .cont-links a:focus,
 .cont-links a:active {
-  color: #491f53;
+  color: #045c64;
   text-decoration: underline;
-}
-
-.column {
-  float: left;
-  width: 50%;
 }
 
 /* Clear floats after the columns */
@@ -373,18 +374,6 @@ html {
   background-color: rgba(4, 92, 100, 0.25);
 }
 
-.cont-links a {
-  color: #045c64;
-  font-weight: bold;
-}
-
-.cont-links a:hover,
-.cont-links a:focus,
-.cont-links a:active {
-  color: #045c64;
-  text-decoration: underline;
-}
-
 /*-----Contributors cards-----*/
 .card-img-top {
   height: 9rem;
@@ -450,13 +439,20 @@ html {
 /* Resources page */
 
 .nav-tabs .nav-item .nav-link {
-  background-color: #4C979F;
+  background-color: rgba(76, 151, 159, 0.75);
   color: #FFF;
-  border-color: #FFF;
+  border-color: #4C979F;
+  border-bottom-color: #4C979F;
 }
 
 .nav-tabs .nav-item .nav-link.active {
   background-color: #FFF;
   color: #045C64;
-  border-color: #4C979F #4C979F #FFF #4C979F ;
+  border-color: #4C979F;
+  border-bottom-color: transparent;
+}
+.tab-content {
+  border: 1px solid #4C979F;
+  border-top: transparent;
+  padding: 15px;
 }

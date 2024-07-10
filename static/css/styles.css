@@ -439,9 +439,9 @@ html {
 /* Resources page */
 
 .nav-tabs .nav-item .nav-link {
-  background-color: #4C979F;
+  background-color: rgba(76, 151, 159, 0.75);
   color: #FFF;
-  border-color: #FFF;
+  border-color: #4C979F;
   border-bottom-color: #4C979F;
 }
 

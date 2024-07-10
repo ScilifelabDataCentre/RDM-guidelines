@@ -458,5 +458,17 @@ html {
 .nav-tabs .nav-item .nav-link.active {
   background-color: #FFF;
   color: #045C64;
-  border-color: #4C979F #4C979F #FFF #4C979F ;
+  border-color: #4C979F #4C979F #FFF #4C979F;
+}
+
+.tab-content {
+  border: 1px solid #4C979F;
+  border-top: transparent;
+  padding: 15px;
+}
+
+.tab-content .tab-pane {
+  background-color: #FFF;
+  min-height: 200px;
+  height: auto;
 }

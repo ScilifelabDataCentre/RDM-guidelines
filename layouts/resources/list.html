@@ -279,7 +279,7 @@ requires that the first 2 resources in resources.json always is the same as now.
       for (var [filter_name, filter_list] of Object.entries(selected_filters)) {
         var r_resources = new Set;
         filter_list.forEach(function (filter_value) {
-          $(`div.tab-pane.active div.resource[${filter_name}*=${filter_value}]`).each(function () { r_resources.add(this); });
+          $(`div.tab-pane.active div.resource[${filter_name}*='${filter_value}']`).each(function () { r_resources.add(this); });
         });
         all_selected_resources.push(r_resources);
       };

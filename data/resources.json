@@ -1,4 +1,4 @@
-{
+{   "phases": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse"],
     "items": [
         {
             "title": "RDMkit on Your role",

@@ -7,7 +7,6 @@
 <!-- {{ $type := slice }} -->
 {{ $level := slice }}
 {{ $phase := slice }}
-{{ $phases := slice }}
 {{ $t_rlist := slice }}
 {{ $t_type := slice }}
 {{ $t_provider := slice }}
@@ -18,19 +17,10 @@
 {{ $to_type := slice }}
 {{ $to_provider := slice }}
 
-<!-- Go through all resources without sorting, collect type, phase & level.
-A dirty fix in order to obtain phase and levels in 'right' order, that 
-requires that the first 2 resources in resources.json always is the same as now. --> 
-{{ range $.Site.Data.resources.items }}
-    <!-- {{ $type = $type | append .type }} -->
-    {{ $level = $level | append .level }}
-    {{ $phase = $phase | append .phase }}
-{{ end }}
-<!-- {{ $type = $type | uniq }} -->
-{{ $level = $level | uniq }}
-{{ $phase = $phase | uniq }}
 <!-- Collect and sort all resources on title -->
 {{ range sort $.Site.Data.resources.items ".title" "asc" }}
+{{ $phase = $phase | append .phase }}
+{{ $level = $level | append .level }}
   {{ if in .target "training"}}
     {{ $t_rlist = $t_rlist | append . }}
     {{ $t_type = $t_type | append .type }}
@@ -47,6 +37,8 @@ requires that the first 2 resources in resources.json always is the same as now.
     {{ $to_provider =  $to_provider | append .provider }}
   {{ end }}
 {{ end }}
+{{ $level = $level | uniq }}
+{{ $phase = $phase | uniq }}
 {{ $t_type = $t_type | uniq }}
 {{ $g_type = $g_type | uniq }}
 {{ $to_type = $to_type | uniq }}

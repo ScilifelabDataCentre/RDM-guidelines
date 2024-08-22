@@ -1,4 +1,5 @@
 {   "phases": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse"],
+    "levels": ["Basic", "Intermediate", "Advanced"],
     "items": [
         {
             "title": "RDMkit on Your role",

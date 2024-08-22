@@ -5,7 +5,7 @@
 {{/* Compile list of the resources in Hugo */}}
 <!-- t for training, g for guidance to for tool -->
 <!-- {{ $type := slice }} -->
-{{ $level := slice }}
+{{ $level := $.Site.Data.resources.levels }}
 {{ $phase := $.Site.Data.resources.phases }}
 {{ $t_rlist := slice }}
 {{ $t_type := slice }}
@@ -20,6 +20,7 @@
 <!-- Collect and sort all resources on title -->
 {{ range sort $.Site.Data.resources.items ".title" "asc" }}
 {{ $phase = $phase | append .phase }}
+{{ $level = $level | append .level }}
   {{ if in .target "training"}}
     {{ $t_rlist = $t_rlist | append . }}
     {{ $t_type = $t_type | append .type }}

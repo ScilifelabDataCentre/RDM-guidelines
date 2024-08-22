@@ -6,7 +6,7 @@
 <!-- t for training, g for guidance to for tool -->
 <!-- {{ $type := slice }} -->
 {{ $level := slice }}
-{{ $phase := slice }}
+{{ $phase := $.Site.Data.resources.phases }}
 {{ $t_rlist := slice }}
 {{ $t_type := slice }}
 {{ $t_provider := slice }}
@@ -20,7 +20,6 @@
 <!-- Collect and sort all resources on title -->
 {{ range sort $.Site.Data.resources.items ".title" "asc" }}
 {{ $phase = $phase | append .phase }}
-{{ $level = $level | append .level }}
   {{ if in .target "training"}}
     {{ $t_rlist = $t_rlist | append . }}
     {{ $t_type = $t_type | append .type }}
@@ -103,7 +102,7 @@
             </div>
           {{ end }} -->         
           <div class="resources-header-black">Phase</div>
-          {{ range $.Site.Data.resources.phases }}
+          {{ range $phase }}
             <div class="form-check">
               <input class="form-check-input" type="checkbox" id="{{ . }}" name="phase" value="{{ delimit (split . " ") "-" | lower }}">
               <label class="form-check-label" for="{{ . }}">{{ . }}</label>

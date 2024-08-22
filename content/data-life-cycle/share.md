@@ -165,7 +165,7 @@ Guidance on where to publish COVID-19 and Pandemic Preparedness research data, c
 
 For other domain-specific repositories, see e.g. <a href="https://elixir-europe.org/services/tag/elixir-deposition-databases">ELIXIR Deposition databases</a>, <a href="https://www.nature.com/sdata/policies/repositories">Scientific Data recommended repositories</a>, <a href="https://www.ebi.ac.uk/submission/">EBI archive wizard</a> (help to find the right repository depending on data type), or <a href="https://fairsharing.org/databases/">FAIRsharing</a> (the latter can also assist in finding metadata standards suitable for describing your datasets).
 
-For datasets that do not fit into domain-specific repositories, use a general repository e.g. <a href="https://www.scilifelab.se/data/repository/">SciLifeLab Data Repository</a>, <a href="https://su.figshare.com/">Stockholm University Figshare</a> and <a href="https://zenodo.org/">Zenodo</a>.
+For datasets that do not fit into domain-specific repositories, use an institutional or general repository e.g. <a href="https://www.scilifelab.se/data/repository/">SciLifeLab Data Repository</a>, <a href="https://su.figshare.com/">Stockholm University Figshare</a>, <a href="https://snd.se/en/describe-and-share-data">Swedish National Data Service (SND)</a> or <a href="https://zenodo.org/">Zenodo</a>.
 
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample8">

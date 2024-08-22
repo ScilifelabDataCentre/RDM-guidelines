@@ -42,9 +42,12 @@ The [Swedish Authority for Privacy Protection (IMY)](https://www.imy.se/en/) uph
 * **The Ethical Review Act** – Ethical review by the [Ethical Review Authority](https://etikprovningsmyndigheten.se/) is needed when research involves human data, according to the Swedish ethical review act ([Lag (2003:460) om etikprövning av forskning som avser människor](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2003460-om-etikprovning-av-forskning-som_sfs-2003-460) - *Swedish*). See also [Ethical considerations](#ethical-considerations) below.
 
 * **Other regulations**
-  * [The Patient Data Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/patientdatalag-2008355_sfs-2008-355)
-  * [The Biobank Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/biobankslag-202338_sfs-2023-38)
-
+  <div>
+    <ul class=list-link>
+      <li><a href="https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/patientdatalag-2008355_sfs-2008-355">The Patient Data Act</a></li>
+      <li><a href="https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/biobankslag-202338_sfs-2023-38">The Biobank Act</a></li>
+    </ul>
+  </div>
 
 ## Who is responsible for the data?
 
@@ -93,7 +96,7 @@ Before embarking on a new project, consider the following:
 * Have Data Protection Impact Assessments ([DPIA](#data-protection-impact-assessment-dpia)) been performed for the personal data?
 * What is there to show that the individuals concerned have given their consent?
   * Inform in a transparent and honest way
-* What happens with the data [after project completion](#repositories-for-publishing-human-data)?
+* What happens with the data [after project completion](#sharing-human-data)?
   * How long will the collected data be kept? Erase the data when they are no longer needed.
 
 
@@ -141,7 +144,7 @@ And be able to **demonstrate** that the GDPR is followed.
 As a controller you should:
 * Ensure that data processing agreements are established when needed.
 * Ensure that all Processors are informed on what can and cannot be done to the data.
-* Ensure that all processing is done in a compute environment with a suitable level of security, e.g. [Bianca at Uppmax](http://www.uppmax.uu.se/support/user-guides/bianca-user-guide/).
+* Ensure that all processing is done in a compute environment with a suitable level of security, e.g. [Bianca at Uppmax](https://docs.uppmax.uu.se/cluster_guides/bianca/).
 
 As a Processor you should:
 * Only handle the data according to the instructions from the controller.
@@ -158,7 +161,7 @@ To ensure that the personal data that you process in the project is protected at
 
 The security measures taken should be based on an evaluation of the risks for, and consequences of, the personal data not being correct and protected. Appropriate technical and organisational measures shall be implemented to ensure a level of security appropriate to the risk. It is advisable that the researcher seek guidance from the legal and information security functions of the university adminstration about this.
 
-The UPPMAX [Bianca](http://www.uppmax.uu.se/support/user-guides/bianca-user-guide/) system has been designed to have technical and information security procedures that are appropriate for processing sensitive human data for analysis. Using this system then relieves the researcher from having to define these technical and security procedures themselves (at least for the analysis phase of a project). The researcher can decide to analyse (sensitive) personal data elsewhere, but then they will have to define the appropriate procedures. In case the controller work at a different institute than Uppsala University, a data processing agreement between that institute and UPPMAX/Uppsala University, needs to be established - see [instructions](https://www.uppmax.uu.se/support/faq/general-miscellaneous-faq/sensitive+data+questions/) at UPPMAX.
+The UPPMAX [Bianca](https://docs.uppmax.uu.se/cluster_guides/bianca/) system has been designed to have technical and information security procedures that are appropriate for processing sensitive human data for analysis. Using this system then relieves the researcher from having to define these technical and security procedures themselves (at least for the analysis phase of a project). The researcher can decide to analyse (sensitive) personal data elsewhere, but then they will have to define the appropriate procedures. In case the controller work at a different institute than Uppsala University, a data processing agreement between that institute and UPPMAX/Uppsala University, needs to be established - see [instructions here](https://www.uu.se/en/centre/uppmax/get-started/create-account-and-apply-for-project/apply-for-projects/applying-for-naiss-sens-project/puba).
 
 
 

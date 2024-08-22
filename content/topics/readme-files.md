@@ -11,8 +11,12 @@ In general, a README file contains information regarding the structure and conte
 ## Content of a README file
 The content could either be on a higher project-level or on a more detailed data-level. Templates for README files on the two levels can be found below.
 
-* [Project-level README file template](/files/template-project-level-README.txt)
-* [Data-level README file template](/files/template-data-level-README.txt)
+<div>
+  <ul class=list-link>
+    <li><a href="/files/template-project-level-README.txt">Project-level README file template</a></li>
+    <li><a href="/files/template-data-level-README.txt">Data-level README file template</a></li>
+  </ul>
+</div>
 
 ## Manifest files
 A manifest file can function as a complement to a README file and could contain a list of all files that are part of the project the README file covers. Just as the README file, a manifest file is generally a text file written in an open format such as text format (.txt). The target audience for the manifest is the same as for the README file, i.e. potential users of your data, including yourself and your research collaborators.

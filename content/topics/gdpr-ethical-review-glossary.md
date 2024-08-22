@@ -54,7 +54,7 @@ Data retention rules in the GDPR require any personal data that is collected or 
 
 Any person that can be identified using an identifier, either directly or indirectly. Identifiers can comprise a name, an ID number, location data, or factors specific to the person's physical, physiological, genetic, mental, economic, cultural, or social identity.
 
--   https://gdpr-info.eu/art-4-gdpr/
+-   https://gdpr-info.eu/art-4-gdpr/ (1)
 
 ### **data processing agreement**
 
@@ -164,7 +164,7 @@ A breach of security leading to the accidental or unlawful destruction, loss, al
 
 Anything done with personal data, e.g. collection, recording, storage, adaptation, dissemination.
 
--   https://gdpr-info.eu/art-4-gdpr/
+-   https://gdpr-info.eu/art-4-gdpr/ (2)
 
 ### **processor**
 
@@ -180,7 +180,7 @@ An entity that processes personal data on behalf of a data controller.
 
 The processing of personal data in such a manner that the personal data can no longer be attributed to a specific data subject without the use of additional information, provided that such additional information is kept separately and is subject to technical and organizational measures to ensure that the personal data are not attributed to an identified or identifiable natural person.
 
--   https://gdpr-info.eu/art-4-gdpr/ (1)
+-   https://gdpr-info.eu/art-4-gdpr/ (5)
 
 ### **public authority**
 

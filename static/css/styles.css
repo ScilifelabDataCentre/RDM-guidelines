@@ -26,8 +26,9 @@ blockquote {
 }
 
 a {
-  color: #4c979f;
-  text-decoration: none;
+    color: #045c64;
+    text-decoration: underline;
+    text-underline-offset: 3.2px;
 }
 
 a:hover,
@@ -37,12 +38,69 @@ a:active {
   text-decoration: underline;
 }
 
+.toc-style a {
+  color: #045c64;
+  text-decoration: none;  
+}
+
+.list-link a {
+  color: #045c64;
+  text-decoration: none;
+}
+.breadcrumb-item a {
+  text-decoration: none; 
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a {
+  color: #4c979f;
+  text-decoration: none;
+}
+
 h2 a:hover,
 h3 a:hover,
 h4 a:hover,
 h5 a:hover {
   text-decoration: none;
   color: #045c64;
+}
+.footer-link {
+  color: #045c64;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.small-side-header {
+  font-size: 1rem;
+  margin-top: 1.33em;
+}
+
+.resources-header-black {
+  color: black;
+  font-size: 1.17rem;
+  margin-top: 1em;
+}
+
+.resources-header-teal {
+  color: #045c64;
+  font-size: 1.17rem;
+  font-weight: bold;
+  margin-top: 1.33rem;
+  margin-bottom: 1.33rem;
+  text-decoration: none;
+}
+
+.card-body-style {
+  color: black;
+  text-decoration: none;
+}
+
+.card-body-style:hover {
+  color: black;
+  text-decoration: none;
 }
 
 h1 {
@@ -116,6 +174,15 @@ h6 {
   color: #3f3f3f;
 }
 
+.btn-teal {
+  color: #fff;
+  background-color: #045c64;
+}
+
+.btn-teal:hover {
+  color: #fff;
+}
+
 #btn-back-to-top {
   position: fixed;
   bottom: 40px;
@@ -176,7 +243,7 @@ html {
 
 /* Main menu */
 .navbar-light .navbar-nav .nav-main-menu {
-  color: #4c979f;
+  color: #045c64;
 }
 
 .navbar-light .navbar-nav .nav-main-menu:hover,
@@ -184,6 +251,7 @@ html {
 .navbar-light .navbar-nav .nav-main-menu:active,
 .navbar-light .navbar-nav .nav-main-menu.active {
   color: #045c64;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -200,22 +268,27 @@ html {
   background-color: #3f3f3f;
 }
 
+.bg-light-teal {
+  background-color: rgba(4, 92, 100, 0.25);
+}
+
 /* Homepage */
 
+.column {
+  float: left;
+  width: 50%;
+}
+
 .cont-links a {
-  color: #491f53;
+  color: #045c64;
+  font-weight: bold;
 }
 
 .cont-links a:hover,
 .cont-links a:focus,
 .cont-links a:active {
-  color: #491f53;
+  color: #045c64;
   text-decoration: underline;
-}
-
-.column {
-  float: left;
-  width: 50%;
 }
 
 /* Clear floats after the columns */
@@ -223,6 +296,18 @@ html {
   content: "";
   display: table;
   clear: both;
+}
+
+.btn-details.collapsed {
+  background-color: #e5e5e5 !important;
+  color: black !important;
+  border-color: #491f53;
+}
+
+.btn-details:not(.collapsed) {
+  background-color: #e5e5e5 !important;
+  color: black !important;
+  border-color: #e5e5e5;
 }
 
 .btn-primary.collapsed {
@@ -265,9 +350,14 @@ html {
   background-color: rgba(4, 92, 100, 0.25) !important;
 }
 
-/* Calls & Jobs block for the homepage */
+/* Jobs block for the homepage */
 .job {
   background-color: rgba(76, 151, 159, 0.25) !important;
+}
+
+/* Calls block for the homepage */
+.call {
+  background-color: rgba(4, 92, 100, 0.25) !important;
 }
 
 /* Events & Training block for the homepage */
@@ -282,18 +372,6 @@ html {
 /*-----Cards-----*/
 .cards {
   background-color: rgba(4, 92, 100, 0.25);
-}
-
-.cont-links a {
-  color: #045c64;
-  font-weight: bold;
-}
-
-.cont-links a:hover,
-.cont-links a:focus,
-.cont-links a:active {
-  color: #045c64;
-  text-decoration: underline;
 }
 
 /*-----Contributors cards-----*/
@@ -314,6 +392,67 @@ html {
 }
 
 .event-type {
-  background-color: #a48fa9;
+  background-color: #491f53;
   color: white;
+}
+
+.event-type-grape {
+  background-color: #491f53;
+  color: white;
+}
+
+.event-type-teal {
+  background-color: #045c64;
+  color: white;
+}
+
+.event-type-grey {
+  background-color: #3f3f3f;
+  color: white;
+}
+
+.event-type-lime {
+  background-color: #a7c947;
+  color: black;
+}
+
+.event-type-lh-grape {
+  background-color: #d2c7d4;
+  color: black;
+}
+
+.event-type-lh-teal {
+  background-color: #c0d6d8;
+  color: black;
+}
+
+.event-type-lh-grey {
+  background-color: #e5e5e5;
+  color: black;
+}
+
+.event-type-lh-lime {
+  background-color: #e9f2d1;
+  color: black;
+}
+
+/* Resources page */
+
+.nav-tabs .nav-item .nav-link {
+  background-color: rgba(76, 151, 159, 0.75);
+  color: #FFF;
+  border-color: #4C979F;
+  border-bottom-color: #4C979F;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+  background-color: #FFF;
+  color: #045C64;
+  border-color: #4C979F;
+  border-bottom-color: transparent;
+}
+.tab-content {
+  border: 1px solid #4C979F;
+  border-top: transparent;
+  padding: 15px;
 }

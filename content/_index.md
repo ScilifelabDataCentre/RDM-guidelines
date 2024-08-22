@@ -7,4 +7,4 @@ menu:
         weight: 10
 ---
 
-The purpose of these guidelines is to serve as an information resource to life science researchers in Sweden regarding research data management.
+<p><big>The purpose of these guidelines is to serve as an information resource to life science researchers in Sweden regarding Research Data Management (RDM).</big></p>

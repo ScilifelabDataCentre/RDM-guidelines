@@ -10,17 +10,25 @@ Quite often large amounts of data is generated, and it can be worth spending som
 ## SciLifeLab Data Delivery System
 The Data Delivery System (DDS) is a cloud-based system for the delivery of data from SciLifeLab platforms to their users. It consists of a command line interface (CLI) and a web interface. This system is e.g. used by the National Genomics Infrastucture (NGI) for delivers of sequencing data.
 
-* [DDS homepage](https://delivery.scilifelab.se/)
-* [DDS documentation](https://scilifelabdatacentre.github.io/dds_cli/)
-* [NGI guide on DDS](https://ngisweden.scilifelab.se/resources/data-delivery-dds/)
+<div>
+  <ul class=list-link>
+    <li><a href="https://delivery.scilifelab.se/">DDS homepage</a></li>
+    <li><a href="https://scilifelabdatacentre.github.io/dds_cli/">DDS documentation</a></li>
+    <li><a href="https://ngisweden.scilifelab.se/resources/data-delivery-dds/">NGI guide on DDS</a></li>
+  </ul>
+</div>
 
 ## Uppmax
 
 Please find below some useful links from the compute resource Uppmax regarding data transfer:
 
-* [Basic SFTP commands for transferring files](https://uppmax.uu.se/support-sv/user-guides/basic-sftp-commands/)
-* [NAISS-SENS Bianca Deliver user guide for NGI data](https://scilifelabdatacentre.github.io/dds_cli/installation/#bianca)
-* [Transit user guide - secure data transfer of sensitive data](https://uppmax.uu.se/support-sv/user-guides/transit-user-guide/)
+<div>
+  <ul class=list-link>
+    <li><a href="https://docs.uppmax.uu.se/cluster_guides/transfer_rackham/">File transfer to/from Rackham</a></li>
+     <li><a href="https://docs.uppmax.uu.se/cluster_guides/transfer_bianca/">File transfer to/from Bianca</a></li>
+    <li><a href="https://scilifelabdatacentre.github.io/dds_cli/installation/#bianca">NAISS-SENS Bianca Deliver user guide for NGI data</a></li>
+  </ul>
+</div>
 
 ### Using Aspera on Uppmax
 
@@ -28,7 +36,7 @@ Aspera  (ascp) is a command-line transfer program that can be used for stable tr
 
 1. Open a terminal window and log in to Uppmax using your credentials:  
   `ssh -X username@rackham.uppmax.uu.se`
-1. Use [interactive](https://www.uppmax.uu.se/support/faq/running-jobs-faq/how-can-i-run-interactively-on-a-compute-node/) mode in order to execute the transfer at a compute node using a compute project:  
+1. Use [interactive](https://docs.uppmax.uu.se/cluster_guides/interactive_more/) mode in order to execute the transfer at a compute node using a compute project:  
   `interactive -A project-name`
 1. In order to be able to use the ascp command, it needs to be activated by typing:  
   `module load ascp`

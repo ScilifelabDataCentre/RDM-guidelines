@@ -29,7 +29,7 @@ The content of the website is moderated by an [editorial group](/about/contribut
 <div class="container">
 <div class="row">
   <div class="col-sm-12 col-md-12 col-lg-3">
-      <figure class="figure float-right"><img width="170" src="/img/logos/scilifelab-logo.svg"></figure>
+      <figure class="figure float-right"><img width="170" src="/img/logos/scilifelab-logo.svg" alt="SciLifeLab logo"></figure>
   </div>
   <div class="col-sm-12 col-md-12 col-lg-9">
   SciLifeLab (Science for Life Laboratory) is an institution for the advancement of molecular biosciences in Sweden. We are funded as a national research infrastructure by the Swedish government.
@@ -46,7 +46,7 @@ The content of the website is moderated by an [editorial group](/about/contribut
 <br/><br/>
 <div class="row">
   <div class="col-sm-12 col-md-12 col-lg-3">
-    <figure class="figure float-right"><img width="170" src="/img/logos/dc_branding_light_bg.svg"></figure>
+    <figure class="figure float-right"><img width="170" src="/img/logos/dc_branding_light_bg.svg" alt="SciLifeLab Data Centre logo"></figure>
   </div>
   <div class="col-sm-12 col-md-12 col-lg-9">
 
@@ -58,12 +58,12 @@ The content of the website is moderated by an [editorial group](/about/contribut
 <br/><br/>
 <div class="row">
   <div class="col-sm-12 col-md-12 col-lg-3">
-    <figure class="figure float-right"><img width="170" src="/img/logos/nbislogo-orange-txt.svg"></figure>
+    <figure class="figure float-right"><img width="170" src="/img/logos/nbislogo-orange-txt.svg" alt="NBIS logo"></figure>
   </div>
   <div class="col-sm-12 col-md-12 col-lg-9">
   NBIS (National Bioinformatics Infrastructure Sweden), a distributed national research infrastructure and the bioinformatics platform at SciLifeLab, is offering bioinformatics support, infrastructure and tools, as well as data management support, to the Swedish life science researchers community.
 
-  NBIS is supported by the [Swedish Research Council (Vetenskapsrådet)](http://www.vr.se/), SciLifeLab, all major Swedish universities and the [Knut and Alice Wallenberg Foundation](https://www.wallenberg.com/kaw/en), and is also the Swedish contact point to the European infrastructure for biological information [ELIXIR](https://www.elixir-europe.org/).
+  NBIS is supported by the [Swedish Research Council (Vetenskapsrådet)](http://www.vr.se/), SciLifeLab, all major Swedish universities and the [Knut and Alice Wallenberg Foundation](https://kaw.wallenberg.org), and is also the Swedish contact point to the European infrastructure for biological information [ELIXIR](https://www.elixir-europe.org/).
 
   General information about NBIS is available at [NBIS.se](https://nbis.se).
   </div>

@@ -11,8 +11,8 @@ This is the repository for SciLifelab Research Data Management (RDM) guidelines,
 
 * Information can be unified and kept up do date by the team and the community if there is only one set of guidelines, and not multiple sources, as well as clear and easy ways of contributing.
 
-## Project goals
-* Create the authoritative set of Research data management (RDM) best practice guidelines for life science research in Sweden, hosted at [data.scilifelab.se](https://data.scilifelab.se/) (to ensure that unified information is conveyed to all recipients), including information about human data
+## Purpose
+* Create the authoritative set of Research data management (RDM) best practice guidelines for life science research in Sweden, hosted by SciLifeLab Data Centre and listed as a service at the data platform [data.scilifelab.se](https://data.scilifelab.se/) (to ensure that unified information is conveyed to all recipients), including information about human data
 
 * A single point of entry web portal/resource for national use and to connect to other efforts, eg. Training, RDMkit
 

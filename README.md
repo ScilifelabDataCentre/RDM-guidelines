@@ -165,7 +165,7 @@ For Windows users (additional instructions can be found [here](https://gohugo.io
 
 1. Open Windows Explorer.
 
-2. Create a new folder: C:\Hugo, assuming you want Hugo on your C drive, although this can go anywhere
+2. Create a new folder: C:\Hugo, assuming you want Hugo on your C drive, although this can go anywhere.
 
 3. Create a subfolder in the Hugo folder: `C:\Hugo\bin`
 
@@ -193,10 +193,10 @@ Once you're finished with your edits and they are committed and pushed to your f
 You can find full documentation on the [GitHub help website](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests), however in short:
 
 - Visit the main repository: [https://github.com/ScilifelabDataCentre/RDM-guidelines](https://github.com/ScilifelabDataCentre/RDM-guidelines)
-- Click the button that reads _"New Pull Request"_
-- Click the text link near the top that says _"compare across forks"_
+- Click the button that reads _"New Pull Request"_.
+- Click the text link near the top that says _"compare across forks"_.
 - In the right-hand _"head repository"_ drop down, select your username / fork.
-- If you're happy with the list of commits shown, and the diff in the _"Files Changed"_ tab, fill in a title and description and click _"Create pull request"_
+- If you're happy with the list of commits shown, and the diff in the _"Files Changed"_ tab, fill in a title and description and click _"Create pull request"_.
 
 Once created, a member of the website team will review your changes.
 Once approved, they will be merged and deployed.

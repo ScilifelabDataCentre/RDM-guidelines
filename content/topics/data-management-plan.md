@@ -72,7 +72,6 @@ Luckily, there are tools to assist you:
   - The tool most universities have chosen to offer (check with your institute)
   - Good guidance but typically generic and not Life Science specific
   - Most often free text answers
-
 * [Data Stewardship wizard](http://dsw.scilifelab.se/) 
   - Provided by [SciLifeLab](https://www.scilifelab.se)
   - Gives Life Science specific guidance

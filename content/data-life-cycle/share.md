@@ -61,6 +61,7 @@ Click on the buttons below for specific information regarding suitable repositor
   For convenience, we have created templates for the most frequent data types and their corresponding <a href="https://www.ebi.ac.uk/ena/browser/checklists">ENA checklists</a>. The templates come with instructions on how to do an interactive submission, via the ENA Webin Portal, but even when doing a programmatic submission, the template can be useful for collecting all necessary descriptions / metadata.  Download an appropriate template, and fill in the sheets according to the instructions in the template:
   <ul class=list-link>
     <li><a href="/meta-data-templates/metadata_template_default_ERC000011.xlsx">ERC000011 ENA default sample checklist (Excel spreadsheet)</a></li>
+    <li><a href="/meta-data-templates/metadata_template_human-gut_ERC000015.xlsx">ERC000015 GSC MIxS human gut (Excel spreadsheet)</a></li>
     <li><a href="/meta-data-templates/metadata_template_virus_ERC000033.xlsx">ERC000033 ENA virus pathogen reporting standard checklist (Excel spreadsheet)</a></li>
     <li><a href="/meta-data-templates/metadata_template_sewage_ERC000036.xlsx">ERC000036 ENA sewage checklist (Excel spreadsheet)</a></li>
     <li><a href="/meta-data-templates/metadata_template_ENA_binned_metagenome_ERC000050.xlsx">ERC000050 ENA binned metagenome checklist (Excel spreadsheet)</a></li>

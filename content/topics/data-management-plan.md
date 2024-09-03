@@ -4,16 +4,17 @@ contributors: []
 toc: True
 ---
 
-# Data management Plan (DMP)
-
-## What is a Data Management Plan?
-<img class="img-fluid" src="/img/illustrations/now-what.jpg" alt="Now what - DMP">
+# Data management Plan
 
 There are a lot of terms regarding data management and a lot of best practices to collect and implement, but how do we gather all the decisions made and how do we know that we have covered it all, that our data will be well managed throughout its life cycle? The answer is to write a data management plan (DMP).
 
 A DMP is a document addressing requirements and practices for managing the project’s data, code and documentation, throughout the data life cycle, i.e from the initial planning until the project ends and beyond.
 
 It outlines the data management strategies in a project. Making plans for how you will collect, document, organize, and preserve your data are all part of the data management strategy.
+
+&nbsp;
+<img class="img-fluid" src="/img/illustrations/now-what.jpg" alt="Now what - DMP">
+&nbsp;
 
 ## Why write a DMP?
 There are several reasons why writing a data management plan is a very good idea:
@@ -31,7 +32,7 @@ If the reasons above don’t persuade you, the last argument is that it is more 
 * **Return on investment**: well planned data maximizes the research potential of the data and provides greater returns on public investments and research.
 
 
-## When write a DMP?
+## When to write a DMP?
 A DMP is a **living document**, the initial version is written the same time as a new project idea is emerging, before e.g. applying for funds, and then successively updated as the project continues and new decisions are made. Ideally it should be updated continously, but there are three major time points:
 
 1. **Project planning:** The DMP should outline the strategies for data management in sufficient detail to be able to estimate the resources needed to implement the DMP, so that this can be included in the proposal for funding (e.g. data production, data analysis, storage during and after project, costs related to publishing of data).
@@ -61,7 +62,7 @@ A DMP typically is divided into six sections:
     * Who are the responsible persons for data management?
     * What resources (costs, labour input or other) will be required for data management?
 
-## How write a DMP?
+## How to write a DMP?
 Standard DMP templates can most often be found at funder agencies, e.g. [Swedish Research Council](https://www.vr.se/english/applying-for-funding/requirements-terms-and-conditions/producing-a-data-management-plan/data-management-plan-template.html) and [Science Europe](https://www.scienceeurope.org/media/jezkhnoo/se_rdm_practical_guide_final.pdf), and it is of course possible to write in your favorite text editor.
 
 However, the questions in these templates are quite high-level, with little or no guidance on how to answer them.

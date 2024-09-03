@@ -4,7 +4,7 @@ contributors: []
 toc: True
 ---
 
-# Data management Plan
+# Data Management Plan
 
 There are a lot of terms regarding data management and a lot of best practices to collect and implement, but how do we gather all the decisions made and how do we know that we have covered it all, that our data will be well managed throughout its life cycle? The answer is to write a data management plan (DMP).
 

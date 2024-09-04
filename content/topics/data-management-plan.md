@@ -43,7 +43,9 @@ A DMP is a **living document**, the initial version is written the same time as 
 
 ## The main parts of a DMP
 
-<img class="img-fluid" src="/img/illustrations/dmp-sections.PNG" alt="DMP sections"><br>
+&nbsp;
+<img class="img-fluid" src="/img/illustrations/dmp-sections.PNG" alt="DMP sections">
+&nbsp;
 
 A DMP typically is divided into six sections:
 

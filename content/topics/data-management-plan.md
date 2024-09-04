@@ -43,10 +43,6 @@ A DMP is a **living document**, the initial version is written the same time as 
 
 ## The main parts of a DMP
 
-&nbsp;
-<img class="img-fluid" src="/img/illustrations/dmp-sections.PNG" alt="DMP sections">
-&nbsp;
-
 A DMP typically is divided into six sections:
 
 1. **Description of data**
@@ -63,6 +59,10 @@ A DMP typically is divided into six sections:
 6. **Responsibility and resources**
     * Who are the responsible persons for data management?
     * What resources (costs, labour input or other) will be required for data management?
+
+&nbsp;
+<img class="img-fluid" src="/img/illustrations/dmp-sections.PNG" alt="DMP sections">
+&nbsp;
 
 ## How to write a DMP?
 Standard DMP templates can most often be found at funder agencies, e.g. [Swedish Research Council](https://www.vr.se/english/applying-for-funding/requirements-terms-and-conditions/producing-a-data-management-plan/data-management-plan-template.html) and [Science Europe](https://www.scienceeurope.org/media/jezkhnoo/se_rdm_practical_guide_final.pdf), and it is of course possible to write in your favorite text editor.

@@ -2,7 +2,6 @@
     "levels": ["Basic", "Intermediate", "Advanced"],
     "targets": ["training", "guidance", "tool"],
     "types": ["Web page", "Video", "Material", "Tool", "Course"],
-    "topics": ["Data transfer", "FAIR principles", "Metadata", "README files", "University RDM resources", "What is Research Data Management", "Research involving human data", "Sharing human data", "GDPR and ethical review glossary", "Data Management Plan"],
     "items": [
         {
             "title": "RDMkit on Your role",

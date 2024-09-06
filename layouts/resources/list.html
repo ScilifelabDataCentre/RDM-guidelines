@@ -7,7 +7,11 @@
 <!-- {{ $type := slice }} -->
 {{ $level := $.Site.Data.resources.levels }}
 {{ $phase := $.Site.Data.resources.phases }}
-{{ $topic := $.Site.Data.resources.topics }}
+{{ $topic := where .Site.RegularPages "Section" "topics" }}
+{{ $topic_titles := slice}}
+{{ range $topic }}
+   {{ $topic_titles = $topic_titles | append .Title }}
+{{end}}
 {{ $t_rlist := slice }}
 {{ $t_type := slice }}
 {{ $t_provider := slice }}
@@ -301,7 +305,7 @@
   could be collected on the fly, in order to always obtain an updated list -->
   {{ if .topic }}
     {{ range .topic }}
-      {{ if not (in $topic .) }}
+      {{ if not (in $topic_titles .) }}
           {{ errorf "Resource %d (%s) has a topic typo: %+s " $itemIndex $item.title . }}
       {{ end }}
     {{ end }}

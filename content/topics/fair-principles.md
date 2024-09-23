@@ -1,6 +1,7 @@
 ---
 title: FAIR principles
 contributors: []
+category: Other
 toc: True
 ---
 

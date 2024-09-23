@@ -1,6 +1,7 @@
 ---
 title: What is Research Data Management
 contributors: []
+category: Other
 toc: True
 ---
 

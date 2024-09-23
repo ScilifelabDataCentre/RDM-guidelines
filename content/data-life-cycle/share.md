@@ -61,6 +61,7 @@ Click on the buttons below for specific information regarding suitable repositor
   For convenience, we have created templates for the most frequent data types and their corresponding <a href="https://www.ebi.ac.uk/ena/browser/checklists">ENA checklists</a>. The templates come with instructions on how to do an interactive submission, via the ENA Webin Portal, but even when doing a programmatic submission, the template can be useful for collecting all necessary descriptions / metadata.  Download an appropriate template, and fill in the sheets according to the instructions in the template:
   <ul class=list-link>
     <li><a href="/meta-data-templates/metadata_template_default_ERC000011.xlsx">ERC000011 ENA default sample checklist (Excel spreadsheet)</a></li>
+    <li><a href="/meta-data-templates/metadata_template_human-gut_ERC000015.xlsx">ERC000015 GSC MIxS human gut (Excel spreadsheet)</a></li>
     <li><a href="/meta-data-templates/metadata_template_virus_ERC000033.xlsx">ERC000033 ENA virus pathogen reporting standard checklist (Excel spreadsheet)</a></li>
     <li><a href="/meta-data-templates/metadata_template_sewage_ERC000036.xlsx">ERC000036 ENA sewage checklist (Excel spreadsheet)</a></li>
     <li><a href="/meta-data-templates/metadata_template_ENA_binned_metagenome_ERC000050.xlsx">ERC000050 ENA binned metagenome checklist (Excel spreadsheet)</a></li>
@@ -165,34 +166,61 @@ Guidance on where to publish COVID-19 and Pandemic Preparedness research data, c
 
 For other domain-specific repositories, see e.g. <a href="https://elixir-europe.org/services/tag/elixir-deposition-databases">ELIXIR Deposition databases</a>, <a href="https://www.nature.com/sdata/policies/repositories">Scientific Data recommended repositories</a>, <a href="https://www.ebi.ac.uk/submission/">EBI archive wizard</a> (help to find the right repository depending on data type), or <a href="https://fairsharing.org/databases/">FAIRsharing</a> (the latter can also assist in finding metadata standards suitable for describing your datasets).
 
-For datasets that do not fit into domain-specific repositories, use a general repository e.g. <a href="https://www.scilifelab.se/data/repository/">SciLifeLab Data Repository</a>, <a href="https://figshare.com/">Figshare</a> and <a href="https://zenodo.org/">Zenodo</a>.
+For datasets that do not fit into domain-specific repositories, use an institutional or general repository e.g. <a href="https://www.scilifelab.se/data/repository/">SciLifeLab Data Repository</a>, <a href="https://su.figshare.com/">Stockholm University Figshare</a>, <a href="https://snd.se/en/describe-and-share-data">Swedish National Data Service (SND)</a> or <a href="https://zenodo.org/">Zenodo</a>.
 
-<p>
-  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample9" role="button" aria-expanded="false" aria-controls="collapseExample9">
-    SciLifeLab Data Repository
-    <i class="bi bi-chevron-double-down p-2"></i>
-  </a>
-</p>
-<div class="collapse" id="collapseExample9">
-  <div class="card card-body">
-  <span>
-  The <a href="https://www.scilifelab.se/data/repository/">SciLifeLab Data Repository</a>, powered by Figshare and supported by SciLifeLab and the Knut and Alice Wallenberg foundation through the Data-Driven Life Science (DDLS) program, is a repository for publishing any kind of research-related data, e.g. documents, figures, or presentations. Figshare is an open data repository used by researchers in numerous disciplines. Through an agreement with Figshare, SciLifeLab offers researchers and units the opportunity to upload and publish their research data through a dedicated portal.
-
-  </span>
-  </div>
-  <br>
-</div>
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample8">
-    Zenodo
+    SciLifeLab Data Repository
     <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseExample8">
   <div class="card card-body">
   <span>
-  <a href="https://zenodo.org/">Zenodo</a> is a general-purpose repository operated by CERN. It can be used for sharing basically any kind of data, but also for just describing data stored elsewhere. Zenodo doesn't enforce standardised descriptions of data, so datasets described there might be more difficult to find than those described in the two repositories mentioned above.
+  The <a href="https://www.scilifelab.se/data/repository/">SciLifeLab Data Repository</a>, powered by Figshare and supported by SciLifeLab and the Knut and Alice Wallenberg foundation through the Data-Driven Life Science (DDLS) program, is a repository for publishing any kind of research-related data, e.g. documents, figures, or presentations. Figshare is an open data repository used by researchers in numerous disciplines. Through an agreement with Figshare, SciLifeLab offers researchers and units the opportunity to upload and publish their research data through a dedicated portal.
+  </span>
+  </div>
+  <br>
+</div>
+<p>
+  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample9" role="button" aria-expanded="false" aria-controls="collapseExample9">
+    Stockholm University Figshare
+    <i class="bi bi-chevron-double-down p-2"></i>
+  </a>
+</p>
+<div class="collapse" id="collapseExample9">
+  <div class="card card-body">
+  <span>
+  <a href="https://su.figshare.com/">Stockholm University Figshare</a>  is a repository for publishing any kind of research-related data, e.g. documents, figures, or presentations. Figshare is an open data repository used by researchers in numerous disciplines. Through an agreement with Figshare, Stockholm University offers researchers the opportunity to upload and publish their research data through a dedicated portal.
+  </span>
+  </div>
+  <br>
+</div>
+<p>
+<p>
+  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample10" role="button" aria-expanded="false" aria-controls="collapseExample10">
+    SND research data catalogue
+    <i class="bi bi-chevron-double-down p-2"></i>
+  </a>
+</p>
+<div class="collapse" id="collapseExample10">
+  <div class="card card-body">
+  <span>
+  <a href="https://snd.se/en/describe-and-share-data">Swedish National Data Service (SND)</a> has a  research data catalogue accepting data from all disciplines. DORIS is the tool that researchers can use to publish data in SND’s research data catalogue. 
+  </span>
+  </div>
+  <br>
+</div>
 
+  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample11" role="button" aria-expanded="false" aria-controls="collapseExample11">
+    Zenodo
+    <i class="bi bi-chevron-double-down p-2"></i>
+  </a>
+</p>
+<div class="collapse" id="collapseExample11">
+  <div class="card card-body">
+  <span>
+  <a href="https://zenodo.org/">Zenodo</a> is a general-purpose repository operated by CERN. It can be used for sharing basically any kind of data, but also for just describing data stored elsewhere. Zenodo doesn't enforce standardised descriptions of data, so datasets described there might be more difficult to find than those described in the two repositories mentioned above.
   </span>
   </div>
   <br>

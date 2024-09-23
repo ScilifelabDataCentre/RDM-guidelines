@@ -11,7 +11,7 @@ The steps below outlines the mutually agreed steps in order to update the RDM-gu
 1. If the issue is a missing page:
     1. Create the new page either in folder [content/topics](./content/topics) (most likely) or [content/data-life-cycle](./content/data-life-cycle).
     1. Add metadata header to the top of the page by copying the header in [TEMPLATE_topic.md](./TEMPLATE_topic.md).
-    1. Remember to add link to the new page in the main index page ([content/_index.md](./content/_index.md)) as well as the topic index page ([content/topics/_index.md](./content/topics/_index.md)) (or if this is a new data-life-cycle page [content/data-life-cycle/_index.md](./content/data-life-cycle/_index.md)).
+    1. Remember to add link to the new page in the main index page ([content/_index.md](./content/_index.md)) (if this is a new data-life-cycle page, update also [content/data-life-cycle/_index.md](./content/data-life-cycle/_index.md)). -->
     1. If this is a new topic page, also [shortcode for display topics](./layouts/shortcodes/display-topics.html) needs to be updated with the new topic. <!-- not sure if more info is needed? -->
     1. If appropriate, add links from other pages to this new page.
     1. If there is a resource, remove the commented out characters in the Resources section, change '--add topic/title--' to the topic title, and add the resource to the [resources.json](./data/resources.json) page as outlined [below](#about-resources).

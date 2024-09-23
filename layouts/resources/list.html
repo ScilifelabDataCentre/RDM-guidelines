@@ -5,8 +5,13 @@
 {{/* Compile list of the resources in Hugo */}}
 <!-- t for training, g for guidance to for tool -->
 <!-- {{ $type := slice }} -->
-{{ $level := slice }}
-{{ $phase := slice }}
+{{ $level := $.Site.Data.resources.levels }}
+{{ $phase := $.Site.Data.resources.phases }}
+{{ $topic := where .Site.RegularPages "Section" "topics" }}
+{{ $topic_titles := slice}}
+{{ range $topic }}
+   {{ $topic_titles = $topic_titles | append .Title }}
+{{end}}
 {{ $t_rlist := slice }}
 {{ $t_type := slice }}
 {{ $t_provider := slice }}
@@ -17,17 +22,7 @@
 {{ $to_type := slice }}
 {{ $to_provider := slice }}
 
-<!-- Go through all resources without sorting, collect type, phase & level.
-A dirty fix in order to obtain phase and levels in 'right' order, that 
-requires that the first 2 resources in resources.json always is the same as now. --> 
-{{ range $.Site.Data.resources.items }}
-    <!-- {{ $type = $type | append .type }} -->
-    {{ $level = $level | append .level }}
-    {{ $phase = $phase | append .phase }}
-{{ end }}
-<!-- {{ $type = $type | uniq }} -->
-{{ $level = $level | uniq }}
-{{ $phase = $phase | uniq }}
+
 <!-- Collect and sort all resources on title -->
 {{ range sort $.Site.Data.resources.items ".title" "asc" }}
   {{ if in .target "training"}}
@@ -244,6 +239,88 @@ requires that the first 2 resources in resources.json always is the same as now.
     </div>
   {{ end }}
 </div>
+<!-- Validate the resources.json file, check that all mandatory fields have values
+  and that fields with 'controlled vocabulary' has valid values.  For arrays, check that
+  first element is not empty. -->
+{{ range $itemIndex, $item := $.Site.Data.resources.items }}
+  {{ if not (.title) }}
+    {{ errorf "Resource %d (%s) is missing a title" $itemIndex .short_title }}
+  {{ end }}
+  {{ if not (.short_title) }}
+    {{ errorf "Resource %d (%s) is missing a short_title" $itemIndex .title }}
+  {{ end }} 
+  {{ if not (index .target 0) }}
+    {{ errorf "Resource %d (%s) is missing a target" $itemIndex .title }}
+  {{ end }}  
+  {{ if not (index .type 0) }}
+    {{ errorf "Resource %d (%s) is missing a type" $itemIndex .title }}
+  {{ end }}  
+  {{ if not (index .search_tags 0) }}
+    {{ errorf "Resource %d (%s) is missing search_tags" $itemIndex .title }}
+  {{ end }}
+  {{ if and .topic (not (index .topic 0)) }}
+    {{ errorf "Resource %d (%s) has an empty topic" $itemIndex .title }}
+  {{ end }}    
+  {{ if and .phase (not (index .phase 0)) }}
+    {{ errorf "Resource %d (%s) has an empty phase" $itemIndex .title }}
+  {{ end }}    
+  {{ if and (not (index .phase 0)) (not (index .topic 0)) }}
+    {{ errorf "Resource %d (%s) is missing both phase and topic" $itemIndex .title }}
+  {{ end }}  
+  {{ if not (index .level 0) }}
+    {{ errorf "Resource %d (%s) is missing a level" $itemIndex .title }}
+  {{ end }}  
+  {{ if not (.url) }}
+    {{ errorf "Resource %d (%s) is missing a url" $itemIndex .title }}
+  {{ end }}  
+  {{ if not (.description) }}
+    {{ errorf "Resource %d (%s) is missing a description" $itemIndex .title }}
+  {{ end }}  
+  {{ if not (index .provider 0) }}
+    {{ errorf "Resource %d (%s) is missing a provider" $itemIndex .title }}
+  {{ end }}
+
+  <!-- Validate fields with 'controlled vocabularies' -->
+  {{ range .target}}
+    {{ if not (in $.Site.Data.resources.targets .) }} 
+      {{ errorf "Resource %d (%s) has a target typo: %s" $itemIndex $item.title . }}
+    {{ end }}
+  {{ end }}
+  {{ range .type }}
+    {{ if not (in $.Site.Data.resources.types .) }} 
+      {{ errorf "Resource %d (%s) has a type typo: %s" $itemIndex $item.title . }}
+    {{ end }}
+  {{ end }}
+  <!-- ensure that at least the title is given as a search tag -->
+  {{ $count := 0  }}
+  {{ range .search_tags }}  
+    {{ if eq $item.title . }}
+        {{ $count = 1 }}
+    {{ end }}
+  {{ end }}
+  {{ if eq $count 0 }}
+    {{ errorf "Resource %d does not have it's title (%s) as search tag" $itemIndex .title }}
+  {{ end }}
+  <!-- Note: Code for checking topic typos is dependent on an array in resources.json. It would be better if the list of topics 
+  could be collected on the fly, in order to always obtain an updated list -->
+  {{ if .topic }}
+    {{ range .topic }}
+      {{ if not (in $topic_titles .) }}
+          {{ errorf "Resource %d (%s) has a topic typo: %+s " $itemIndex $item.title . }}
+      {{ end }}
+    {{ end }}
+  {{ end }} 
+  {{ range .phase }}
+    {{ if not (in $phase .) }}
+      {{ errorf "Resource %d (%s) has a phase typo: %s" $itemIndex $item.title . }}
+    {{ end }}
+  {{ end }}
+  {{ range .level }}
+    {{ if not (in $level .) }}
+      {{ errorf "Resource %d (%s) has a level typo: %s" $itemIndex $item.title . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
 
 <script>
   // Function to search and filter the resource based on selected input
@@ -279,7 +356,7 @@ requires that the first 2 resources in resources.json always is the same as now.
       for (var [filter_name, filter_list] of Object.entries(selected_filters)) {
         var r_resources = new Set;
         filter_list.forEach(function (filter_value) {
-          $(`div.tab-pane.active div.resource[${filter_name}*='${filter_value}']`).each(function () { r_resources.add(this); });
+          $(`div.tab-pane.active div.resource[${filter_name}*=${filter_value}]`).each(function () { r_resources.add(this); });
         });
         all_selected_resources.push(r_resources);
       };

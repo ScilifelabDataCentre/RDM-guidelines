@@ -24,6 +24,9 @@ blockquote {
   margin-left: 1rem;
   color: #666;
 }
+p.big {
+  font-size: 18px;
+}
 
 a {
     color: #045c64;

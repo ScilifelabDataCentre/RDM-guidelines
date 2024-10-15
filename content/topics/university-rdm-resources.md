@@ -50,8 +50,8 @@ Most often there are information resources at your university regarding research
       <td><a href="https://lnu.se/globalassets/dokument---gemensamma/bibliotek/sektion-publicering/policy-for-hantering-av-forskningsdata.pdf">Research data policy (in swedish)</a> (PDF)</td>
     </tr>
     <tr>
-      <td><a href="https://www.lub.lu.se/en/services-and-support/research-data/contacts-and-research-data-initiatives">Lund University</a></td>
-      <td>See web page for contact information</td>
+      <td><a href="https://www.lub.lu.se/en/services-and-support/research-data">Lund University</a></td>
+      <td><a href = "mailto:servicedesk@lu.se">servicedesk@lu.se</a></td>
       <td></td>
     </tr>
     <tr>

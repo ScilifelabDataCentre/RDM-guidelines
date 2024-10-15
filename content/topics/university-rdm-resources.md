@@ -62,7 +62,7 @@ Most often there are information resources at your university regarding research
     <tr>
       <td><a href="https://www.slu.se/en/subweb/library/publish-and-analyse/archiving-and-publishing-research-data">SLU Swedish University of Agricultural Sciences</a></td>
       <td><a href = "mailto:dms@slu.se">dms@slu.se</a></td>
-      <td><a href="https://www.slu.se/en/subweb/library/publish-and-analyse/archiving-and-publishing-research-data/slus-datahanteringspolicy/">Data Management Policy</a></td>
+      <td><a href="https://www.umu.se/globalassets/fristaende-webbar/regelverk/forskning/forskningsdatapolicy_umu_rektor_210309_eng_checked_210309.pdf">Research data policy</a> (PDF)</td>
     </tr>
     <tr>
       <td><a href="https://www.umu.se/en/library/research-data/">Umeå University</a></td>
@@ -75,7 +75,7 @@ Most often there are information resources at your university regarding research
       <td></td>
     </tr>
     <tr>
-      <td><a href="https://mp.uu.se/en/web/info/forska/forskningsdata">Uppsala University</a></td>
+      <td><a href="https://www.uu.se/en/staff/gateway/research/research-handbook/research-data#contact">Uppsala University</a></td>
       <td><a href = "mailto:dataoffice@uu.se">dataoffice@uu.se</a></td>
       <td></td>
     </tr>

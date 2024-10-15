@@ -67,7 +67,9 @@ Most often there are information resources at your university regarding research
     <tr>
       <td><a href="https://www.umu.se/en/library/research-data/">Umeå University</a></td>
       <td><a href="https://www.umu.se/en/library/research-data/organisation-and-contacts/">Contact page</a></td>
-      <td><a href="https://www.umu.se/globalassets/fristaende-webbar/regelverk/forskning/forskningsdatapolicy_umu_rektor_210309_eng_checked_210309.pdf">Research data policy</a> (PDF)</td>
+      <td><a href="https://www.umu.se/globalassets/fristaende-webbar/regelverk/forskning/forskningsdatapolicy_umu_rektor_210309_eng_checked_210309.pdf">Research data policy</a>
+       <br><a href="https://www.umu.se/globalassets/fristaende-webbar/regelverk/engelska/research/e28---open-access-policy-for-scientific-publishing-at-umea-university-fs-1.1-911-17.pdf">Open access policy</a> (PDF)
+      </td>
     </tr>
     <tr>
       <td><a href="https://medarbetarportalen.gu.se/service-stod/hantering-av-forskningsdata/?languageId=100001">University of Gothenburg</a></td>

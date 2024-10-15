@@ -28,7 +28,7 @@ Most often there are information resources at your university regarding research
       <td></td>
     </tr>
     <tr>
-      <td><a href="https://staff.ki.se/research-data-management">Karolinska Institutet</a></td>
+      <td><a href="https://staff.ki.se/research-support/research-data-management/about-research-data-office-rdo">Karolinska Institutet</a></td>
       <td><a href = "mailto:rdo@ki.se">rdo@ki.se</a></td>
       <td><a href="https://staff.ki.se/guidelines-for-research-documentation-and-data-management">Guidelines for research documentation and data management</a>
        <br><a href="https://staff.ki.se/policy-for-open-access-to-research-data">Policy for open access to research data</a>

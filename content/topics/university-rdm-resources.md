@@ -72,7 +72,7 @@ Most often there are information resources at your university regarding research
       </td>
     </tr>
     <tr>
-      <td><a href="https://medarbetarportalen.gu.se/service-stod/hantering-av-forskningsdata/?languageId=100001">University of Gothenburg</a></td>
+      <td><a href="https://www.ub.gu.se/en/publish/open-access/research-data-and-open-access">University of Gothenburg</a></td>
       <td><a href = "mailto:researchdata@gu.se">researchdata@gu.se</a></td>
       <td></td>
     </tr>

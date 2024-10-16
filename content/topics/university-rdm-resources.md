@@ -55,8 +55,8 @@ Most often there are information resources at your university regarding research
       <td></td>
     </tr>
     <tr>
-      <td><a href="https://medarbetare.su.se/en/support-and-service/legal">Stockholm University</a></td>
-      <td><a href = "mailto:opendata@su.se">dso@su.se</a></td>
+      <td><a href="https://medarbetare.su.se/en/research/your-research/research-data">Stockholm University</a></td>
+      <td><a href = "mailto:opendata@su.se">opendata@su.se</a></td>
       <td><a href="https://medarbetare.su.se/en/our-su/governance/rules--regulations/research/open-science-policy">Policy for open science</a></td>
     </tr>
     <tr>

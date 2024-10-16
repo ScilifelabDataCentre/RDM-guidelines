@@ -139,7 +139,7 @@ The role of the data protection officer (dataskyddsombud) is to check that the G
     <tr>
       <td>Stockholm University</td>
       <td><a href = "mailto:dso@su.se">dso@su.se</a></td>
-      <td><a href="https://www.su.se/english/staff/organisation-governance/legal-information">GDPR at SU</a></td>
+      <td><a href="https://medarbetare.su.se/vart-su/styrning/regelboken/personuppgifter-gdpr">GDPR at SU (In Swedish)</a></td>
     </tr>
     <tr>
       <td>Swedish University of Agricultural Sciences</td>
@@ -149,17 +149,17 @@ The role of the data protection officer (dataskyddsombud) is to check that the G
     <tr>
       <td>Umeå University</td>
       <td><a href = "mailto:pulo@umu.se">pulo@umu.se</a></td>
-      <td><a href="https://www.aurora.umu.se/stod-och-service/rad-och-riktlinjer/juridik-och-personuppgifter/personuppgifter">Personuppgifter</a></td>
+      <td><a href="https://www.umu.se/en/about-the-website/legal-information/processing-of-personal-data/">Personuppgifter</a></td>
     </tr>
     <tr>
       <td>University of Gothenburg</td>
       <td><a href = "mailto:dataskydd@gu.se">dataskydd@gu.se</a></td>
-      <td><a href="https://medarbetarportalen.gu.se/processing-personal-data">Routines for processing personal data</a></td>
+      <td><a href="https://www.gu.se/en/about-the-website/processing-personal-data">Routines for processing personal data</a></td>
     </tr>
     <tr>
       <td>Uppsala University</td>
       <td><a href = "mailto:dataskyddsombud@uu.se">dataskyddsombud@uu.se</a></td>
-      <td><a href="https://mp.uu.se/en/web/info/stod/dataskyddsforordningen">General Data Protection Regulation (GDPR) – how it works</a></td>
+      <td><a href="https://www.uu.se/en/students/your-rights/examination/gdpr">General Data Protection Regulation (GDPR) – how it works</a></td>
     </tr>
     <tr>
       <td>Örebro University</td>

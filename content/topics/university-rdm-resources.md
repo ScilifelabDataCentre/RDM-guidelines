@@ -28,9 +28,9 @@ Most often there are information resources at your university regarding research
       <td></td>
     </tr>
     <tr>
-      <td><a href="https://staff.ki.se/research-support/research-data-management/about-research-data-office-rdo">Karolinska Institutet</a></td>
+      <td><a href="https://staff.ki.se/research-support/research-data-management">Karolinska Institutet</a></td>
       <td><a href = "mailto:rdo@ki.se">rdo@ki.se</a></td>
-      <td><a href="https://staff.ki.se/guidelines-for-research-documentation-and-data-management">Guidelines for research documentation and data management</a>
+      <td><a href="https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/guidelines-for-research-documentation-and-data-management">Guidelines for research documentation and data management</a>
        <br><a href="https://staff.ki.se/policy-for-open-access-to-research-data">Policy for open access to research data</a>
       </td>
     </tr>
@@ -51,7 +51,7 @@ Most often there are information resources at your university regarding research
     </tr>
     <tr>
       <td><a href="https://www.lub.lu.se/en/services-and-support/research-data">Lund University</a></td>
-      <td><a href = "mailto:servicedesk@lu.se">servicedesk@lu.se</a></td>
+      <td>See web page for contact information</td>
       <td></td>
     </tr>
     <tr>
@@ -62,22 +62,22 @@ Most often there are information resources at your university regarding research
     <tr>
       <td><a href="https://www.slu.se/en/subweb/library/publish-and-analyse/archiving-and-publishing-research-data">SLU Swedish University of Agricultural Sciences</a></td>
       <td><a href = "mailto:dms@slu.se">dms@slu.se</a></td>
-      <td><a href="https://www.umu.se/globalassets/fristaende-webbar/regelverk/forskning/forskningsdatapolicy_umu_rektor_210309_eng_checked_210309.pdf">Research data policy</a> (PDF)</td>
+      <td><a href="https://www.slu.se/en/subweb/library/publish-and-analyse/archiving-and-publishing-research-data/slus-datahanteringspolicy/">Data management policy</a></td>
     </tr>
     <tr>
       <td><a href="https://www.umu.se/en/library/research-data/">Umeå University</a></td>
       <td><a href="https://www.umu.se/en/library/research-data/organisation-and-contacts/">Contact page</a></td>
-      <td><a href="https://www.umu.se/globalassets/fristaende-webbar/regelverk/forskning/forskningsdatapolicy_umu_rektor_210309_eng_checked_210309.pdf">Research data policy</a>
+      <td><a href="https://www.umu.se/globalassets/fristaende-webbar/regelverk/forskning/forskningsdatapolicy_umu_rektor_210309_eng_checked_210309.pdf">Research data policy</a> (PDF)
        <br><a href="https://www.umu.se/globalassets/fristaende-webbar/regelverk/engelska/research/e28---open-access-policy-for-scientific-publishing-at-umea-university-fs-1.1-911-17.pdf">Open access policy</a> (PDF)
       </td>
     </tr>
     <tr>
-      <td><a href="https://www.ub.gu.se/en/publish/open-access/research-data-and-open-access">University of Gothenburg</a></td>
+      <td><a href="https://gunet.sharepoint.com/sites/mp-utbildning-och-forskning/SitePages/en/Research-data-management.aspx">University of Gothenburg</a></td>
       <td><a href = "mailto:researchdata@gu.se">researchdata@gu.se</a></td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="https://www.uu.se/en/staff/gateway/research/research-handbook/research-data#contact">Uppsala University</a></td>
+      <td><a href="https://www.uu.se/en/staff/gateway/research/research-handbook/research-data">Uppsala University</a></td>
       <td><a href = "mailto:dataoffice@uu.se">dataoffice@uu.se</a></td>
       <td></td>
     </tr>
@@ -139,7 +139,7 @@ The role of the data protection officer (dataskyddsombud) is to check that the G
     <tr>
       <td>Stockholm University</td>
       <td><a href = "mailto:dso@su.se">dso@su.se</a></td>
-      <td><a href="https://medarbetare.su.se/vart-su/styrning/regelboken/personuppgifter-gdpr">GDPR at SU (In Swedish)</a></td>
+      <td><a href="https://medarbetare.su.se/en/support-and-service/legal/personal-data-and-data-protection">Personal data and data protection</a></td>
     </tr>
     <tr>
       <td>Swedish University of Agricultural Sciences</td>
@@ -149,22 +149,22 @@ The role of the data protection officer (dataskyddsombud) is to check that the G
     <tr>
       <td>Umeå University</td>
       <td><a href = "mailto:pulo@umu.se">pulo@umu.se</a></td>
-      <td><a href="https://www.umu.se/en/about-the-website/legal-information/processing-of-personal-data/">Personuppgifter</a></td>
+      <td><a href="https://www.aurora.umu.se/stod-och-service/rad-och-riktlinjer/juridik-och-personuppgifter/personuppgifter">Personuppgifter</a></td>
     </tr>
     <tr>
       <td>University of Gothenburg</td>
       <td><a href = "mailto:dataskydd@gu.se">dataskydd@gu.se</a></td>
-      <td><a href="https://www.gu.se/en/about-the-website/processing-personal-data">Routines for processing personal data</a></td>
+      <td><a href="https://medarbetarportalen.gu.se/processing-personal-data">Routines for processing personal data</a></td>
     </tr>
     <tr>
       <td>Uppsala University</td>
       <td><a href = "mailto:dataskyddsombud@uu.se">dataskyddsombud@uu.se</a></td>
-      <td><a href="https://www.uu.se/en/students/your-rights/examination/gdpr">General Data Protection Regulation (GDPR) – how it works</a></td>
+      <td><a href="https://www.uu.se/en/staff/service-and-tools/general-data-protection-regulation-gdpr">General Data Protection Regulation (GDPR)</a></td>
     </tr>
     <tr>
       <td>Örebro University</td>
       <td><a href = "mailto:dataskyddsombud@oru.se">dataskyddsombud@oru.se</a></td>
-      <td><a href="https://www.oru.se/forskning/forskningsstod/starta-projekt/dataskyddgdpr---forskning/">Dataskydd/GDPR - Forskning (In Swedish)</a></td>
+      <td><a href="https://www.oru.se/forskning/forskningsstod/starta-projekt/dataskyddgdpr---forskning/">Dataskydd/GDPR - Forskning</a> (In Swedish)</td>
     </tr>
   </tbody>
   </table>

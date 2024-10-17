@@ -440,21 +440,21 @@ html {
 
 .nav-tabs .nav-item:nth-child(1) .nav-link {
   background-color: rgba(167, 201, 71, 0.25);
-  color: black;
+  color: #A7C947;
   border-color: #A7C947;
   border-bottom-color: #4C979F;
 }
 
 .nav-tabs .nav-item:nth-child(2) .nav-link {
   background-color: rgba(73,31,83, 0.25);
-  color: black;
+  color: #491F53;
   border-color: #491F53;
   border-bottom-color: #4C979F;
 }
 
 .nav-tabs .nav-item:nth-child(3) .nav-link {
   background-color: rgba(76, 151, 159, 0.25);
-  color: black;
+  color: #4C979F;
   border-color: #4C979F;
   border-bottom-color: #4C979F;
 }

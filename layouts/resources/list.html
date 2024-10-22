@@ -128,8 +128,8 @@
                 data-level="{{ delimit (apply .level "urlize" ".") " " }}" 
                 data-provider="{{ delimit (apply .provider "urlize" ".") " " }}" 
                 {{ with .search_tags }}data-search-tags="{{ delimit . ":" | lower }}"{{ end }}>
-                <div class="p-3 border rounded h-100">
-                  <a class="resources-header-teal" role="button" data-bs-toggle="modal"
+                <div class="p-3 rounded h-100 resource-card-{{$target}}">
+                  <a class="resources-header-{{$target}}" role="button" data-bs-toggle="modal"
                       data-bs-target="#descriptionModal{{ $target}}{{ $ind }}">{{ .short_title }}</a>
                   {{ if .provider }}<div class="row">
                     <div class="col">

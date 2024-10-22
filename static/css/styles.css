@@ -78,21 +78,6 @@ h5 a:hover {
   margin-top: 1.33em;
 }
 
-.resources-header-black {
-  color: black;
-  font-size: 1.17rem;
-  margin-top: 1em;
-}
-
-.resources-header-teal {
-  color: #045c64;
-  font-size: 1.17rem;
-  font-weight: bold;
-  margin-top: 1.33rem;
-  margin-bottom: 1.33rem;
-  text-decoration: none;
-}
-
 .card-body-style {
   color: black;
   text-decoration: none;
@@ -438,6 +423,54 @@ html {
 
 /* Resources page */
 
+.resources-header-black {
+  color: black;
+  font-size: 1.17rem;
+  margin-top: 1em;
+}
+
+.resources-header-teal {
+  color: #045c64;
+  font-size: 1.17rem;
+  font-weight: bold;
+  margin-top: 1.33rem;
+  margin-bottom: 1.33rem;
+  text-decoration: none;
+}
+
+.resources-header-training {
+  color: #A7C947;
+  font-size: 1.17rem;
+  font-weight: bold;
+  margin-top: 1.33rem;
+  margin-bottom: 1.33rem;
+  text-decoration: none;
+}
+.resources-header-guidance {
+  color: rgba(73,31,83, 0.75);
+  font-size: 1.17rem;
+  font-weight: bold;
+  margin-top: 1.33rem;
+  margin-bottom: 1.33rem;
+  text-decoration: none;
+}
+.resources-header-tool {
+  color: #4C979F;
+  font-size: 1.17rem;
+  font-weight: bold;
+  margin-top: 1.33rem;
+  margin-bottom: 1.33rem;
+  text-decoration: none;
+}
+.resource-card-training {
+  background-color: rgba(167, 201, 71, 0.25);
+}
+.resource-card-guidance {
+  background-color: rgba(73,31,83, 0.25);
+}
+.resource-card-tool {
+  background-color: rgba(76, 151, 159, 0.25);
+}
 .nav-tabs .nav-item:nth-child(1) .nav-link {
   background-color: rgba(167, 201, 71, 0.25);
   color: #A7C947;
@@ -447,7 +480,7 @@ html {
 
 .nav-tabs .nav-item:nth-child(2) .nav-link {
   background-color: rgba(73,31,83, 0.25);
-  color: rgba(73,31,83, 0.50);
+  color: rgba(73,31,83, 0.75);
   border-color: rgba(73,31,83, 0.50);
   border-bottom-color: black;
 }
@@ -461,7 +494,6 @@ html {
 
 .nav-tabs .nav-item .nav-link.active {
   background-color: #FFF;
-  color: black;
   border-color: black;
   border-bottom-color: transparent;
 }

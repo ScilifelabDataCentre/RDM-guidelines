@@ -442,31 +442,31 @@ html {
   background-color: rgba(167, 201, 71, 0.25);
   color: #A7C947;
   border-color: #A7C947;
-  border-bottom-color: #4C979F;
+  border-bottom-color: black;
 }
 
 .nav-tabs .nav-item:nth-child(2) .nav-link {
   background-color: rgba(73,31,83, 0.25);
-  color: #491F53;
-  border-color: #491F53;
-  border-bottom-color: #4C979F;
+  color: rgba(73,31,83, 0.50);
+  border-color: rgba(73,31,83, 0.50);
+  border-bottom-color: black;
 }
 
 .nav-tabs .nav-item:nth-child(3) .nav-link {
   background-color: rgba(76, 151, 159, 0.25);
   color: #4C979F;
   border-color: #4C979F;
-  border-bottom-color: #4C979F;
+  border-bottom-color: black;
 }
 
 .nav-tabs .nav-item .nav-link.active {
   background-color: #FFF;
   color: black;
-  border-color: #4C979F;
+  border-color: black;
   border-bottom-color: transparent;
 }
 .tab-content {
-  border: 1px solid #4C979F;
+  border: 1px solid black;
   border-top: transparent;
   padding: 15px;
 }

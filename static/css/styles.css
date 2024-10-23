@@ -14,6 +14,15 @@
   color: 3F3F3F, rgba(63,63,63,1); dark grey
 */
 
+.sr-only {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
+
 body {
   font-family: "Lato", Times, Arial;
 }
@@ -23,6 +32,9 @@ blockquote {
   padding-left: 1rem;
   margin-left: 1rem;
   color: #666;
+}
+p.big {
+  font-size: 18px;
 }
 
 a {

@@ -5,15 +5,15 @@
     <div class="card-body text-center p-0">
       <div class="card-title p-0">
         {{ if .git}}
-        <img src="https://avatars.githubusercontent.com/{{ .git }}" class="card-img-top p-3 rounded-circle">
+        <img src="https://avatars.githubusercontent.com/{{ .git }}" class="card-img-top p-3 rounded-circle" alt="github-avatar">
         {{ else }}
-        <img src="https://avatars.githubusercontent.com/no_github" class="card-img-top p-3 rounded-circle">
+        <img src="https://avatars.githubusercontent.com/no_github" class="card-img-top p-3 rounded-circle" alt="github-avatar-none">
         {{ end }}
       </div>
       <div class="card-text">
       {{ .name }}
       {{ if .git}}
-      <a href="https://github.com/{{.git}}"><i class="bi bi-github" style="color:black"></i></a>
+      <a href="https://github.com/{{.git}}"><span class="sr-only">GitHub link</span><i class="bi bi-github" style="color:black"></i></a>
       {{ end }}
       {{ if .affiliation }}
       <br>{{ .affiliation }}

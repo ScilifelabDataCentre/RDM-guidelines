@@ -90,21 +90,6 @@ h5 a:hover {
   margin-top: 1.33em;
 }
 
-.resources-header-black {
-  color: black;
-  font-size: 1.17rem;
-  margin-top: 1em;
-}
-
-.resources-header-teal {
-  color: #045c64;
-  font-size: 1.17rem;
-  font-weight: bold;
-  margin-top: 1.33rem;
-  margin-bottom: 1.33rem;
-  text-decoration: none;
-}
-
 .card-body-style {
   color: black;
   text-decoration: none;
@@ -450,21 +435,82 @@ html {
 
 /* Resources page */
 
-.nav-tabs .nav-item .nav-link {
-  background-color: rgba(76, 151, 159, 0.75);
-  color: #FFF;
+.resources-header-black {
+  color: black;
+  font-size: 1.17rem;
+  margin-top: 1em;
+}
+
+.resources-header-teal {
+  color: #045c64;
+  font-size: 1.17rem;
+  font-weight: bold;
+  margin-top: 1.33rem;
+  margin-bottom: 1.33rem;
+  text-decoration: none;
+}
+
+.resources-header-training {
+  color: #A7C947;
+  font-size: 1.17rem;
+  font-weight: bold;
+  margin-top: 1.33rem;
+  margin-bottom: 1.33rem;
+  text-decoration: none;
+}
+.resources-header-guidance {
+  color: rgba(73,31,83, 0.75);
+  font-size: 1.17rem;
+  font-weight: bold;
+  margin-top: 1.33rem;
+  margin-bottom: 1.33rem;
+  text-decoration: none;
+}
+.resources-header-tool {
+  color: #4C979F;
+  font-size: 1.17rem;
+  font-weight: bold;
+  margin-top: 1.33rem;
+  margin-bottom: 1.33rem;
+  text-decoration: none;
+}
+.resource-card-training {
+  background-color: rgba(167, 201, 71, 0.25);
+}
+.resource-card-guidance {
+  background-color: rgba(73,31,83, 0.25);
+}
+.resource-card-tool {
+  background-color: rgba(76, 151, 159, 0.25);
+}
+.nav-tabs .nav-item:nth-child(1) .nav-link {
+  background-color: rgba(167, 201, 71, 0.25);
+  color: #A7C947;
+  border-color: #A7C947;
+  border-bottom-color: black;
+}
+
+.nav-tabs .nav-item:nth-child(2) .nav-link {
+  background-color: rgba(73,31,83, 0.25);
+  color: rgba(73,31,83, 0.75);
+  border-color: rgba(73,31,83, 0.50);
+  border-bottom-color: black;
+}
+
+.nav-tabs .nav-item:nth-child(3) .nav-link {
+  background-color: rgba(76, 151, 159, 0.25);
+  color: #4C979F;
   border-color: #4C979F;
-  border-bottom-color: #4C979F;
+  border-bottom-color: black;
 }
 
 .nav-tabs .nav-item .nav-link.active {
   background-color: #FFF;
-  color: #045C64;
-  border-color: #4C979F;
+  border-color: black;
   border-bottom-color: transparent;
 }
 .tab-content {
-  border: 1px solid #4C979F;
+  border: 1px solid black;
   border-top: transparent;
   padding: 15px;
 }

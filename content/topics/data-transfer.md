@@ -48,6 +48,18 @@ Aspera  (ascp) is a command-line transfer program that can be used for stable tr
 
 Note: In order to check the progress and outcome of the transfer, a program such as FileZilla can be used to connect to your upload area at ENA from your local computer, see instructions at ENA on [Using FileZilla on Windows](https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html?highlight=filezilla#using-filezilla-on-windows).
 
+## Transferring files over a wide range of protocols using RClone
+[RClone](https://rclone.org/) is a command-line program that can be used to transfer files across a wide range of protocols (see [documentation](https://rclone.org/docs/)). This can be useful when you can‘t use specialised submission tools or Aspera, such as when transfering files in bulk to [SciLifeLab Data Repository](https://www.scilifelab.se/data/repository/) over the FTPS protocol.
+
+The following example describes how to upload files to SciLifeLab Data Repository (or any other FigShare repository):
+
+1. Find/create your username and password for [ftp uploads to Figshare](https://help.figshare.com/article/upload-large-datasets-and-bulk-upload-using-the-ftp-uploader-desktop-uploader-or-api)
+1. To configure your [ftp connection parameters for rclone](https://rclone.org/ftp/) your command will look something like this (`rclone lfs :ftp:data` will list the content of your data uploads folder on FigShare):
+   ```
+   rclone lsf :ftp:data --ftp-host=ftps.figshare.com --ftp-user=$user --ftp-pass=$(rclone obscure $pass) --ftp-port=21 --ftp-explicit-tls
+   ```
+1. Use `rclone copy path/to/localfile :ftp:data/new-data-item-title-folder` to upload (use the same configuration flags as above)
+
 ## Resources
 Please find below resources concerning data transfer in form of training, guidance and/or tools.
 

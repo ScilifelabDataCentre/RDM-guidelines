@@ -48,8 +48,8 @@ Aspera  (ascp) is a command-line transfer program that can be used for stable tr
 
 Note: In order to check the progress and outcome of the transfer, a program such as FileZilla can be used to connect to your upload area at ENA from your local computer, see instructions at ENA on [Using FileZilla on Windows](https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html?highlight=filezilla#using-filezilla-on-windows).
 
-## Transferring files to over FTPS (and many other protocols) using RClone
-[RClone](https://rclone.org/) is a command-line transfer program that offers similar functionality to rsync but with support for a wide range of protocols, including the FTPS protocol that can be used for transfering files in bulk to [SciLifeLab Data Repository](https://www.scilifelab.se/data/repository/submission/). (Activate RClone on Uppmax using: `module load rclone`).
+## Transferring files over a wide range of protocols using RClone
+[RClone](https://rclone.org/) is a command-line program that can be used to transfer files across a wide range of protocols (see [documentation](https://rclone.org/docs/)). This can be useful when you can‘t use specialised submission tools or Aspera, such as when transfering files in bulk to [SciLifeLab Data Repository](https://www.scilifelab.se/data/repository/) over the FTPS protocol.
 
 The following example describes how to upload files to SciLifeLab Data Repository (or any other FigShare repository):
 

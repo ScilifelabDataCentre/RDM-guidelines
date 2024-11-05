@@ -1,4 +1,4 @@
-baseURL: "http://example.org/"
+baseURL: "https://data-guidelines.scilifelab.se"
 languageCode: "en-us"
 title: "SciLifeLab Research Data Management Guidelines"
 params:

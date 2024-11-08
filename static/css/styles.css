@@ -451,15 +451,7 @@ html {
 }
 
 .resources-header-training {
-  color: #A7C947;
-  font-size: 1.17rem;
-  font-weight: bold;
-  margin-top: 1.33rem;
-  margin-bottom: 1.33rem;
-  text-decoration: none;
-}
-.resources-header-guidance {
-  color: rgba(73,31,83, 0.75);
+  color: rgb(73,31,83);
   font-size: 1.17rem;
   font-weight: bold;
   margin-top: 1.33rem;
@@ -473,41 +465,51 @@ html {
   margin-top: 1.33rem;
   margin-bottom: 1.33rem;
   text-decoration: none;
+  border-color: #4C979F;
+}
+.resources-header-guidance {
+  color: rgb(4,92,100);
+  font-size: 1.17rem;
+  font-weight: bold;
+  margin-top: 1.33rem;
+  margin-bottom: 1.33rem;
+  text-decoration: none;
+  border-color: #045C64;
 }
 .resource-card-training {
-  background-color: rgba(167, 201, 71, 0.25);
-}
-.resource-card-guidance {
-  background-color: rgba(73,31,83, 0.25);
+  border-color: rgb(73,31,83) !important;
 }
 .resource-card-tool {
-  background-color: rgba(76, 151, 159, 0.25);
+  border-color: #4C979F !important;
+}
+.resource-card-guidance {
+  border-color: rgb(4,92,100) !important;
 }
 .nav-tabs .nav-item:nth-child(1) .nav-link {
-  background-color: rgba(167, 201, 71, 0.25);
-  color: #A7C947;
-  border-color: #A7C947;
-  border-bottom-color: black;
-}
-
-.nav-tabs .nav-item:nth-child(2) .nav-link {
   background-color: rgba(73,31,83, 0.25);
-  color: rgba(73,31,83, 0.75);
+  color: black;
   border-color: rgba(73,31,83, 0.50);
   border-bottom-color: black;
 }
 
 .nav-tabs .nav-item:nth-child(3) .nav-link {
   background-color: rgba(76, 151, 159, 0.25);
-  color: #4C979F;
+  color: black;
   border-color: #4C979F;
   border-bottom-color: black;
 }
 
+.nav-tabs .nav-item:nth-child(2) .nav-link {
+  background-color: rgba(4,92,100, 0.25);
+  color: black;
+  border-color: rgb(4,92,100);
+  border-bottom-color: black;
+}
+
 .nav-tabs .nav-item .nav-link.active {
-  background-color: #FFF;
   border-color: black;
   border-bottom-color: transparent;
+  background-color: white;
 }
 .tab-content {
   border: 1px solid black;

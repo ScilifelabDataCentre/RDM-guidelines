@@ -83,13 +83,13 @@
         id="resources-{{ $target }}" role="tabpanel">
       <div class="row">
         <div class="col-lg-2 mb-2 mb-lg-0 pe-lg-0">
-          <div class="resources-header-black">Search</div>
+          <div class="resources-search-filter ">Search</div>
           <div class="input-group">
             <input type="text" id="Search-{{ $target }}" class="form-control" placeholder="Name/Keywords" resoures="{{ $target }}_resources">
             <label class ="form-control-label" for="Search" aria-labelledby="Search"> 
           </div>
           {{ if eq $target "guidance" }}
-            <div class="resources-header-black">Type</div>
+            <div class="resources-search-filter ">Type</div>
             {{ range sort $target_type }}
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="{{ . }}" name="type" value="{{ delimit (split . " ") "-" | lower }}">
@@ -97,21 +97,21 @@
               </div>
             {{ end }}
           {{ end }}
-          <!-- <div class="resources-header-black">Provider</div>
+          <!-- <div class="resources-search-filter ">Provider</div>
           {{ range sort $target_provider }}
             <div class="form-check">
               <input class="form-check-input" type="checkbox" id="{{ . }}" name="provider" value="{{ delimit (split . " ") "-" | lower }}">
               <label class="form-check-label" for="{{ . }}">{{ . }}</label>
             </div>
           {{ end }} -->         
-          <div class="resources-header-black">Phase</div>
+          <div class="resources-search-filter ">Phase</div>
           {{ range $phase }}
             <div class="form-check">
               <input class="form-check-input" type="checkbox" id="{{ $target }}-{{ . }}" name="phase" value="{{ delimit (split . " ") "-" | lower }}">
               <label class="form-check-label" for="{{ . }}">{{ . }}</label>
             </div>
           {{ end }}
-          <!-- <div class="resources-header-black">Level</div>
+          <!-- <div class="resources-search-filter ">Level</div>
           {{ range $level }}
             <div class="form-check">
               <input class="form-check-input" type="checkbox" id="{{ . }}" name="level" value="{{ delimit (split . " ") "-" | lower }}">
@@ -128,8 +128,8 @@
                 data-level="{{ delimit (apply .level "urlize" ".") " " }}" 
                 data-provider="{{ delimit (apply .provider "urlize" ".") " " }}" 
                 {{ with .search_tags }}data-search-tags="{{ delimit . ":" | lower }}"{{ end }}>
-                <div class="p-3 border rounded h-100">
-                  <a class="resources-header-teal" role="button" data-bs-toggle="modal"
+                <div class="p-3 rounded border h-100 resource-card-{{$target}}">
+                  <a class="resources-header-{{$target}}" role="button" data-bs-toggle="modal"
                       data-bs-target="#descriptionModal{{ $target}}{{ $ind }}">{{ .short_title }}</a>
                   {{ if .provider }}<div class="row">
                     <div class="col">
@@ -147,7 +147,7 @@
                         <div class="modal-dialog modal-lg">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <div class="resources-header-black modal-title" id="descriptionModalLabel">{{ .title }}</div>
+                              <div class="resources-search-filter  modal-title" id="descriptionModalLabel">{{ .title }}</div>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">

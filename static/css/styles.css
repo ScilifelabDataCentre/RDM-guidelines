@@ -434,24 +434,61 @@ html {
 }
 
 /* Resources page */
-
 .resources-header-black {
   color: black;
   font-size: 1.17rem;
   margin-top: 1em;
 }
 
-.resources-header-teal {
-  color: #045c64;
+.nav-tabs .nav-item:nth-child(1) .nav-link {
+  background-color: #491F53;
+  color: white;
+  border-bottom-color: black;
+}
+.nav-tabs .nav-item:nth-child(2) .nav-link {
+  background-color: #045C64;
+  color: white;
+  border-bottom-color: black;
+}
+.nav-tabs .nav-item:nth-child(3) .nav-link {
+  background-color: #4C979F;
+  color: white;
+  border-bottom-color: black;
+}
+
+.nav-tabs .nav-item:nth-child(1) .nav-link.active {
+  border-color: black;
+  border-bottom-color: transparent;
+  background-color: white;
+  color: #491F53;
+}
+.nav-tabs .nav-item:nth-child(2) .nav-link.active {
+  border-color: black;
+  border-bottom-color: transparent;
+  background-color: white;
+  color: #045C64;
+}
+.nav-tabs .nav-item:nth-child(3) .nav-link.active {
+  border-color: black;
+  border-bottom-color: transparent;
+  background-color: white;
+  color: #4C979F;
+}
+.tab-content {
+  border: 1px solid black;
+  border-top: transparent;
+  padding: 15px;
+}
+.resources-header-training {
+  color: #491F53;
   font-size: 1.17rem;
   font-weight: bold;
   margin-top: 1.33rem;
   margin-bottom: 1.33rem;
   text-decoration: none;
 }
-
-.resources-header-training {
-  color: rgb(73,31,83);
+.resources-header-guidance {
+  color: #045C64;
   font-size: 1.17rem;
   font-weight: bold;
   margin-top: 1.33rem;
@@ -465,54 +502,23 @@ html {
   margin-top: 1.33rem;
   margin-bottom: 1.33rem;
   text-decoration: none;
-  border-color: #4C979F;
 }
-.resources-header-guidance {
-  color: rgb(4,92,100);
-  font-size: 1.17rem;
-  font-weight: bold;
-  margin-top: 1.33rem;
-  margin-bottom: 1.33rem;
-  text-decoration: none;
-  border-color: #045C64;
+.resources-header-training:hover {
+  color: #491F53;
+}
+.resources-header-guidance:hover {
+  color: #045C64;
+}
+.resources-header-tool:hover {
+  color: #4C979F;
 }
 .resource-card-training {
-  border-color: rgb(73,31,83) !important;
+  border-color: #491F53 !important;
 }
 .resource-card-tool {
   border-color: #4C979F !important;
 }
 .resource-card-guidance {
-  border-color: rgb(4,92,100) !important;
-}
-.nav-tabs .nav-item:nth-child(1) .nav-link {
-  background-color: rgba(73,31,83, 0.25);
-  color: black;
-  border-color: rgba(73,31,83, 0.50);
-  border-bottom-color: black;
+  border-color: #045C64 !important;
 }
 
-.nav-tabs .nav-item:nth-child(3) .nav-link {
-  background-color: rgba(76, 151, 159, 0.25);
-  color: black;
-  border-color: #4C979F;
-  border-bottom-color: black;
-}
-
-.nav-tabs .nav-item:nth-child(2) .nav-link {
-  background-color: rgba(4,92,100, 0.25);
-  color: black;
-  border-color: rgb(4,92,100);
-  border-bottom-color: black;
-}
-
-.nav-tabs .nav-item .nav-link.active {
-  border-color: black;
-  border-bottom-color: transparent;
-  background-color: white;
-}
-.tab-content {
-  border: 1px solid black;
-  border-top: transparent;
-  padding: 15px;
-}

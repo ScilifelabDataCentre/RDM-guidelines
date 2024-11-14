@@ -597,6 +597,18 @@
             "url": "https://snd.se/en/describe-share-data/share-data-step-step/1-preparations/sharing-data-personal-information",
             "description": "Swedish National Data Service (SND) guidance on sharing data with personal information.",
             "provider": ["SND"]
+        }, 
+        {
+            "title": "The Swedish Reference Genome Portal",
+            "short_title": "Swedish Reference Genome Portal",
+            "target": ["tool"],
+            "type": ["Web page"],
+            "search_tags": ["The Swedish Reference Genome Portal"],
+            "phase": ["Reuse"],
+            "level": ["Basic"],
+            "url": "https://genomes.scilifelab.se",
+            "description": "The Swedish Reference Genome Portal is a free national data service for aggregating, discovering, and visualising non-human eukaryotic genome assemblies and genome annotations (co-)produced by researchers affiliated with a Swedish institution.",
+            "provider": ["SciLifeLab"]
         }
     ]
 }

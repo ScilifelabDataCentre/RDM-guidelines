@@ -31,6 +31,32 @@
             "provider":  ["SciLifeLab"]
         },
         {
+            "title": "An Introduction to Data Management by Karin Granström (NBIS - SciLifeLab)",
+            "short_title": "Intro to Data Management",
+            "target": ["guidance"],
+            "type": ["Video"],
+            "search_tags": ["video","DMP","An Introduction to Data Management by Karin Granström (NBIS - SciLifeLab)", "NGI", "Lite"],
+            "phase": ["Plan"],
+            "topic": ["Data Management Plan"],
+            "level": ["Basic"],
+            "url": "https://www.youtube.com/watch?v=eSjPg54fMC8&list=PLYGrAFgPpIzbZfkCyora4N1RavaaPizOS",
+            "description": "Data Management, at its core ensures transparency, which is essential in research and especially for projects that are publicly funded. Karin Granström, a Data Steward at NBIS, will cover the basics of Data Management, best practices, and the considerations while drafting a Data Management Plan (DMP). The video is produced as part of the 'Nothing Lite about it!' series of talks produced by NGI Sweden and NBIS. The full playlist is available at https://www.youtube.com/playlist?list=PLYGrAFgPpIzbZfkCyora4N1RavaaPizOS",
+            "provider":  ["SciLifeLab"]
+        },
+        {
+            "title": "Research Involving Human Data by Richelle Björvang",
+            "short_title": "Research Involving Human Data",
+            "target": ["guidance"],
+            "type": ["Video"],
+            "search_tags": ["video","human data","Research Involving Human Data by Richelle Björvang", "NGI", "Lite"],
+            "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share"],
+            "topic": ["Research involving human data", "Sharing human data"],
+            "level": ["Basic"],
+            "url": "https://www.youtube.com/watch?v=PU-SMKuf1ME&list=PLYGrAFgPpIzbZfkCyora4N1RavaaPizOS",
+            "description": "What do I as a researcher need to consider before I start working with human data? This talk covers the basics - definitions - and details on how to work with sensitive data. The video is produced as part of the 'Nothing Lite about it!' series of talks produced by NGI Sweden and NBIS. The full playlist is available at https://www.youtube.com/playlist?list=PLYGrAFgPpIzbZfkCyora4N1RavaaPizOS",
+            "provider":  ["SciLifeLab"]
+        },
+        {
             "title": "SciLifeLab Data Repository Metadata record tutorial",
             "short_title": "Metadata record tutorial",
             "target": ["guidance"],

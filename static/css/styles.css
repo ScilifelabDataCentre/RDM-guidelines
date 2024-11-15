@@ -443,16 +443,19 @@ html {
 .nav-tabs .nav-item:nth-child(1) .nav-link {
   background-color: #491F53;
   color: white;
+  font-size: larger;
   border-bottom-color: black;
 }
 .nav-tabs .nav-item:nth-child(2) .nav-link {
   background-color: #045C64;
   color: white;
+  font-size: larger;
   border-bottom-color: black;
 }
 .nav-tabs .nav-item:nth-child(3) .nav-link {
   background-color: #4C979F;
   color: white;
+  font-size: larger;
   border-bottom-color: black;
 }
 
@@ -461,18 +464,21 @@ html {
   border-bottom-color: transparent;
   background-color: white;
   color: #491F53;
+  font-size: larger;
 }
 .nav-tabs .nav-item:nth-child(2) .nav-link.active {
   border-color: black;
   border-bottom-color: transparent;
   background-color: white;
   color: #045C64;
+  font-size: larger;
 }
 .nav-tabs .nav-item:nth-child(3) .nav-link.active {
   border-color: black;
   border-bottom-color: transparent;
   background-color: white;
   color: #4C979F;
+  font-size: larger;
 }
 .tab-content {
   border: 1px solid black;

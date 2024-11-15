@@ -41,7 +41,7 @@ Please find below a selection of [SciLifeLab Genomics services](https://www.scil
 </div>
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
-    ESCG
+    Clinical Genomics
     <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
@@ -49,12 +49,16 @@ Please find below a selection of [SciLifeLab Genomics services](https://www.scil
   <div class="card card-body">
   <span>
     <p>
-      <a href="https://www.scilifelab.se/units/eukaryotic-single-cell-genomics/">Eukaryotic Single Cell Genomics</a> (ESCG) offers high-throughput single cell transcriptomics services.
+      <a href="https://clinical-genomics.scilifelab.se/">Clinical Genomics</a> facilitates the translation of new high-throughput (HTP) techniques, such as next-generation sequencing (NGS), into clinical use, in order to meet the needs from translational researchers and clinicians in healthcare and public health systems.
     </p>
     <ul>
-      <li> Study heterogeneity within putatively homogeneous cell populations</li>
-      <li> Unbiased discovery of cell types in complex tissues</li>
-      <li> Characterizing the cellular and genetic composition of tumors</li>
+      <li> Advanced data analytics</li>
+      <li> Epigenetics</li>
+      <li> Long-read sequencing</li>
+      <li> Metagenomics</li>
+      <li> Multi-omics</li>
+      <li> Single-cell and spatial omics</li>    
+      <li> Ultrasensitive detection</li>
     </ul>
   </span>
   </div>

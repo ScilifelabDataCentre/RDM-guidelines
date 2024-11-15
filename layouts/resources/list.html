@@ -85,37 +85,37 @@
         <div class="col-lg-2 mb-2 mb-lg-0 pe-lg-0">
           <div class="resources-search-filter ">Search</div>
           <div class="input-group">
+            <label class ="form-control-label" for="Search" aria-labelledby="Search">             
             <input type="text" id="Search-{{ $target }}" class="form-control" placeholder="Name/Keywords" resoures="{{ $target }}_resources">
-            <label class ="form-control-label" for="Search" aria-labelledby="Search"> 
           </div>
           {{ if eq $target "guidance" }}
             <div class="resources-search-filter ">Type</div>
             {{ range sort $target_type }}
               <div class="form-check">
+                <label class="form-check-label" for="{{ . }}">{{ . }}</label>                
                 <input class="form-check-input" type="checkbox" id="{{ . }}" name="type" value="{{ delimit (split . " ") "-" | lower }}">
-                <label class="form-check-label" for="{{ . }}">{{ . }}</label>
               </div>
             {{ end }}
           {{ end }}
           <!-- <div class="resources-search-filter ">Provider</div>
           {{ range sort $target_provider }}
             <div class="form-check">
+              <label class="form-check-label" for="{{ . }}">{{ . }}</label>              
               <input class="form-check-input" type="checkbox" id="{{ . }}" name="provider" value="{{ delimit (split . " ") "-" | lower }}">
-              <label class="form-check-label" for="{{ . }}">{{ . }}</label>
             </div>
           {{ end }} -->         
           <div class="resources-search-filter ">Phase</div>
           {{ range $phase }}
             <div class="form-check">
+              <label class="form-check-label" for="{{ $target }}-{{ . }}">{{ . }}</label>              
               <input class="form-check-input" type="checkbox" id="{{ $target }}-{{ . }}" name="phase" value="{{ delimit (split . " ") "-" | lower }}">
-              <label class="form-check-label" for="{{ . }}">{{ . }}</label>
             </div>
           {{ end }}
           <!-- <div class="resources-search-filter ">Level</div>
           {{ range $level }}
             <div class="form-check">
+              <label class="form-check-label" for="{{ . }}">{{ . }}</label>              
               <input class="form-check-input" type="checkbox" id="{{ . }}" name="level" value="{{ delimit (split . " ") "-" | lower }}">
-              <label class="form-check-label" for="{{ . }}">{{ . }}</label>
             </div>
           {{ end }} -->
         </div>

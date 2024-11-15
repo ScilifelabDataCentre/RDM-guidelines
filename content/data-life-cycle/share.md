@@ -36,7 +36,7 @@ General data repositories accept datasets regardless of discipline or institutio
 
 ## Recommended discipline-specific repositories
 
-There are several repositories for life science data types (see e.g. [ELIXIR Deposition Database list](https://elixir-europe.org/platforms/data/elixir-deposition-databases)). A selection of repositories hosted by [EMBL- EBI](https://www.ebi.ac.uk/) is found below.
+There are several repositories for life science data types (see e.g. [ELIXIR Deposition Database list](https://elixir-europe.org/platforms/data/elixir-deposition-databases)), please find a selection of them below.
 
 &nbsp;
 

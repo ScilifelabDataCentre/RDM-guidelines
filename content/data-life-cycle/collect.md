@@ -52,9 +52,13 @@ Please find below a selection of [SciLifeLab Genomics services](https://www.scil
       <a href="https://clinical-genomics.scilifelab.se/">Clinical Genomics</a> facilitates the translation of new high-throughput (HTP) techniques, such as next-generation sequencing (NGS), into clinical use, in order to meet the needs from translational researchers and clinicians in healthcare and public health systems.
     </p>
     <ul>
-      <li> Bridging Translational Research and Routine Diagnostics</li>
-      <li> Harnessing HTP Technologies for Precision Medicine</li>
-      <li> Fostering National Competence for Healthcare Innovation</li>
+      <li> Advanced data analytics</li>
+      <li> Epigenetics</li>
+      <li> Long-read sequencing</li>
+      <li> Metagenomics</li>
+      <li> Multi-omics</li>
+      <li> Single-cell and spatial omics</li>    
+      <li> Ultrasensitive detection</li>
     </ul>
   </span>
   </div>

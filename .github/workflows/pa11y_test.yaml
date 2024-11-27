@@ -6,7 +6,7 @@
 # It can also be run manually from repo's Gihthub page
 #----------------------------------------------------------------
 
-name: Pa11ly Accessibitly Check
+name: Pa11y Accessibility Check
 on:
   workflow_dispatch:
   schedule:
@@ -14,7 +14,7 @@ on:
 
 jobs:
     pa11ly:
-        name: Pa11ly Test
+        name: Pa11y Test
         runs-on: ubuntu-latest
         steps:
             - name: Check out the repo
@@ -25,10 +25,10 @@ jobs:
               with:
                 node-version: 22.x
             
-            - name: Install Pa11ly CI
+            - name: Install Pa11y CI
               run: npm install -g pa11y-ci
             
-            - name: Run Pa11ly CI
+            - name: Run Pa11y CI
               run: |
                 pa11y-ci \
                   --config ${GITHUB_WORKSPACE}/.github/pa11y.config \

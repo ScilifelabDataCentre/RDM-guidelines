@@ -380,12 +380,13 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "OpenRefine",
-            "short_title": "OpenRefine",
+            "title": "OpenRefine training",
+            "short_title": "OpenRefine training",
             "target": ["training"],
             "type": ["Material"],
-            "search_tags": ["OpenRefine","cleaning","material","tool"],
-            "phase": ["Process", "Analyse"],
+            "search_tags": ["OpenRefine training","cleaning","material","tool"],
+            "phase": ["Collect","Process", "Analyse"],
+            "topic": ["Metadata"],
             "level": ["Basic"],
             "url": "https://nbisweden.github.io/module-openrefine-dm-practices/",
             "description": "Training material regarding OpenRefine, a tool for cleaning tabular data.",
@@ -635,6 +636,19 @@
             "url": "https://genomes.scilifelab.se",
             "description": "The Swedish Reference Genome Portal is a free national data service for aggregating, discovering, and visualising non-human eukaryotic genome assemblies and genome annotations (co-)produced by researchers affiliated with a Swedish institution.",
             "provider": ["SciLifeLab"]
+        }, 
+        {
+            "title": "OpenRefine",
+            "short_title": "OpenRefine",
+            "target": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["OpenRefine", "clean"],
+            "phase": ["Collect","Analyse", "Process"],
+            "topic": ["Metadata"],
+            "level": ["Basic"],
+            "url": "https://openrefine.org/",
+            "description": "OpenRefine is a powerful free, open source tool for working with messy data: cleaning it; transforming it from one format into another; and extending it with web services and external data. There is training material available at https://nbisweden.github.io/module-openrefine-dm-practices/",
+            "provider": ["OpenRefine"]
         }
     ]
 }

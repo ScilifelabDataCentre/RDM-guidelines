@@ -112,7 +112,7 @@ Click on the buttons below for specific information regarding suitable repositor
 <div class="collapse" id="collapseExample4">
   <div class="card card-body">
   <span>
-  <a href="https://fega.nbis.se/">FEGA Sweden</a> This is a repository for storing and sharing personally identifiable genetic and phenotypic data in Sweden in a way that meets the requirements of the General Data Protection Regulation (GDPR). It is part of the <a href="https://ega-archive.org/about/projects-and-funders/federated-ega/">Federated European Genome-phenome Archive</a>, which is a network consisting of several national nodes and the European Genome-phenome Archive (EGA). FEGA Sweden is currently transitioning into operational mode and researchers may express their interest in depositing data to the repository by filling in <a href="https://fega.nbis.se/submission/submission-request.html">a web form</a>.
+  <a href="https://fega.nbis.se/">FEGA Sweden</a> This is a repository for storing and sharing personally identifiable genetic and phenotypic data in Sweden in a way that meets the requirements of the General Data Protection Regulation (GDPR). It is part of the <a href="https://ega-archive.org/about/projects-and-funders/federated-ega/">Federated European Genome-phenome Archive</a>, which is a network consisting of several national nodes and the European Genome-phenome Archive (EGA). Researchers can create a submission request by filling in a form on the website</a>.
   </span>
   </div>
   <br>

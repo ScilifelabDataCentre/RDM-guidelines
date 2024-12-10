@@ -28,5 +28,5 @@ The editorial group is responsible for moderating the content of the RDM Guideli
 <br>
 
 ## Advisory group
-The advisory group is responsible for the long term development and sustainability of the RDM Guidelines site.
+The advisory group oversees the long term development and sustainability of the RDM Guidelines site.
 {{< contributors-advisory >}}

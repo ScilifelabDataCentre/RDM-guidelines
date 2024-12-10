@@ -6,13 +6,13 @@ toc: True
 ---
 
 # Sharing
-In the era of [FAIR](/topics/fair-principles) (Findable, Accessible, Interoperable and Reusable) and [Open science](https://www.vr.se/english/mandates/open-science/open-access-to-research-data.html), datasets should be made available to the public. Whenever possible, discipline-specific repositories (with or without controlled access) should be used in order to increase the FAIRness of your research outputs. If no such repository is available, there are general purpose repositories.
+In the era of [FAIR](/topics/fair-principles) (Findable, Accessible, Interoperable and Reusable) and [Open science](https://www.vr.se/english/mandates/open-science/open-access-to-research-data.html), datasets should be made available to the public. Whenever possible, discipline-specific repositories (with or without controlled access) should be used in order to increase the FAIRness of your research outputs. If no such repository is available, there are general-purpose repositories.
 
 ## Finding a suitable repository type
 
 <br/>
 
-  <img class="img-fluid" src="/img/illustrations/repository_overview_v2.png" alt="Repository overview">
+  <img class="img-fluid" src="/img/illustrations/repository_overview_v3.png" alt="Repository overview">
 
 &nbsp;&nbsp;
 
@@ -32,7 +32,7 @@ Many institutions offer support to their employees for managing and depositing d
 
 **Answered no on all questions above?**
 
-General data repositories accept datasets regardless of discipline or institution. These repositories support a wide variety of file types and are particularly useful where a discipline-specific repository does not exist.
+General-purpose data repositories accept datasets regardless of discipline or institution. These repositories support a wide variety of file types and are particularly useful where a discipline-specific repository does not exist.
 
 ## Recommended discipline-specific repositories
 
@@ -232,8 +232,8 @@ For datasets that do not fit into domain-specific repositories, it is recommende
 <p>
 &nbsp;
 
-## General data repositories 
-A general data repository is an appropriate choice only if the data does not need to be published in a controlled-access repository, a discipline specific repository does not exist for the discipline and if there are no institutional repositories available. See below a selection of genrenal data repositories.
+## General-purpose data repositories 
+A general-purpose data repository is an appropriate choice only if the data does not need to be published in a controlled-access repository, a discipline-specific repository does not exist for the discipline and if there are no institutional repositories available. See below a selection of general-purpose data repositories.
 
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample12" role="button" aria-expanded="false" aria-controls="collapseExample12">
     SND research data catalogue

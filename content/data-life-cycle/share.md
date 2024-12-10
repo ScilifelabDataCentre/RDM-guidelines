@@ -170,7 +170,7 @@ For other domain-specific repositories, see e.g. <a href="https://elixir-europe.
 &nbsp;
 
 ## Institutional repositories
-For datasets that do not fit into domain-specific repositories, it is recommendeed to use an institutional repository if your institution provides one. Institutional repositories are often general-purpose repositories with the intention of only being used by researchers at that specific institution. See below a selection of institutional repositories offered by Swedish academic institution operating in the life sciences. 
+For datasets that do not fit into domain-specific repositories, it is recommended to use an institutional repository if available. These repositories are often general-purpose repositories with the intention of only being used by researchers at that specific institution. See below a selection of available repositories offered by Swedish academic institutions operating in the life sciences. 
 
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample8">
@@ -181,7 +181,7 @@ For datasets that do not fit into domain-specific repositories, it is recommende
 <div class="collapse" id="collapseExample8">
   <div class="card card-body">
   <span>
-  <a href="https://kib.ki.se/en/publish-analyse/publish-and-share-research-data/doris-publish-and-share-your-research-data">KI Data Repository</a> is a data repository where Karolinska Institutet's (KI's) researchers can store data.
+  <a href="https://kib.ki.se/en/publish-analyse/publish-and-share-research-data/doris-publish-and-share-your-research-data">KI Data Repository</a> is a data repository where Karolinska Institutet's (KI's) researchers can store, publish and share data.
   </span>
   </div>
   <br>

@@ -6,7 +6,7 @@ toc: True
 ---
 
 # Sharing
-In the era of [FAIR](/topics/fair-principles) (Findable, Accessible, Interoperable and Reusable) and [Open science](https://www.vr.se/english/mandates/open-science/open-access-to-research-data.html), datasets should be made available to the public. Whenever possible, discipline-specific repositories (with or without controlled access) should be used in order to increase the FAIRness of your research outputs. If no such repository is available, there are general purpose repositories.
+In the era of [FAIR](/topics/fair-principles) (Findable, Accessible, Interoperable and Reusable) and [Open science](https://www.vr.se/english/mandates/open-science/open-access-to-research-data.html), datasets should be made available to the public. Whenever possible, discipline-specific repositories (with or without controlled access) should be used in order to increase the FAIRness of your research outputs. If no such repository is available, there are general-purpose repositories.
 
 ## Finding a suitable repository type
 
@@ -232,8 +232,8 @@ For datasets that do not fit into domain-specific repositories, it is recommende
 <p>
 &nbsp;
 
-## General data repositories 
-A general data repository is an appropriate choice only if the data does not need to be published in a controlled-access repository, a discipline specific repository does not exist for the discipline and if there are no institutional repositories available. See below a selection of genrenal data repositories.
+## General-purpose data repositories 
+A general-purpose data repository is an appropriate choice only if the data does not need to be published in a controlled-access repository, a discipline-specific repository does not exist for the discipline and if there are no institutional repositories available. See below a selection of general-purpose data repositories.
 
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample12" role="button" aria-expanded="false" aria-controls="collapseExample12">
     SND research data catalogue

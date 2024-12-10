@@ -32,7 +32,7 @@ Many institutions offer support to their employees for managing and depositing d
 
 **Answered no on all questions above?**
 
-General data repositories accept datasets regardless of discipline or institution. These repositories support a wide variety of file types and are particularly useful where a discipline-specific repository does not exist.
+General-purpose data repositories accept datasets regardless of discipline or institution. These repositories support a wide variety of file types and are particularly useful where a discipline-specific repository does not exist.
 
 ## Recommended discipline-specific repositories
 

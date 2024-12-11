@@ -647,7 +647,7 @@
             "topic": ["Metadata"],
             "level": ["Basic"],
             "url": "https://openrefine.org/",
-            "description": "OpenRefine is a powerful free, open source tool for working with messy data: cleaning it; transforming it from one format into another; and extending it with web services and external data. There is training material available at https://nbisweden.github.io/module-openrefine-dm-practices/",
+            "description": "OpenRefine is a powerful free, open source tool for working with messy data: cleaning it; transforming it from one format into another; and extending it with web services and external data. There is training material available at https://nbisweden.github.io/module-openrefine-dm-practices/.",
             "provider": ["OpenRefine"]
         }, 
         {
@@ -661,6 +661,59 @@
             "url": "https://www.protocols.io/",
             "description": "A secure platform for developing and sharing reproducible methods.",
             "provider": ["protocols.io"]
+        },
+        {
+            "title": "Infectious Diseases Toolkit on Data analysis",
+            "short_title": "IDTk: Data analysis ",
+            "target": ["guidance"],
+            "type": ["Web page"],
+            "search_tags": ["idtk","Infectious Diseases Toolkit on Data analysis", "infectious diseases toolkit", "data analysis"],
+            "phase": ["Analyse"],
+            "level": ["Basic"],
+            "url": "https://www.infectious-diseases-toolkit.org/data-analysis/",
+            "description": "Best practice guidance regarding the task of analyising data, in terms of employing workflows tailored to different types of data, such as epidemiological, clinical, or molecular data.",
+            "provider":  ["IDTk"],
+            "licence": "CC BY 4.0"
+        },
+        {
+            "title": "Infectious Diseases Toolkit on Data description",
+            "short_title": "IDTk: Data description",
+            "target": ["guidance"],
+            "type": ["Web page"],
+            "search_tags": ["idtk","Infectious Diseases Toolkit on Data description", "infectious diseases toolkit", "data description"],
+            "phase": ["Collect"],
+            "topic": ["Metadata"],
+            "level": ["Basic"],
+            "url": "https://www.infectious-diseases-toolkit.org/data-description/",
+            "description": "Best practice guidance regarding the task of describing data, in terms of finding and adhering to relevant standards for (meta)data and documentation.",
+            "provider":  ["IDTk"],
+            "licence": "CC BY 4.0"
+        },
+        {
+            "title": "Infectious Diseases Toolkit on Quality control",
+            "short_title": "IDTk: Quality control",
+            "target": ["guidance"],
+            "type": ["Web page"],
+            "search_tags": ["idtk","Infectious Diseases Toolkit on Quality control", "infectious diseases toolkit", "quality control"],
+            "phase": ["Collect", "Process"],
+            "level": ["Basic"],
+            "url": "https://www.infectious-diseases-toolkit.org/quality-control/",
+            "description": "Best practice guidance regarding the task of quality control, in terms of ensuring the accuracy and reliability of data collected and analysed.",
+            "provider":  ["IDTk"],
+            "licence": "CC BY 4.0"
+        },
+        {
+            "title": "Infectious Diseases Toolkit on Ethical, Legal, and Social Issues",
+            "short_title": "IDTk: Ethical, Legal, and Social Issues",
+            "target": ["guidance"],
+            "type": ["Web page"],
+            "search_tags": ["idtk","Infectious Diseases Toolkit on Ethical, Legal, and Social Issues", "ethical", "legal", "social issues", "ELSI"],
+            "topic": ["Research involving human data"],
+            "level": ["Basic"],
+            "url": "https://www.infectious-diseases-toolkit.org/ethical-legal-and-social-issues/",
+            "description": "Guidance on how to comprehensively assess the ethical, legal, and social implication (ELSI) aspects of your work throughout all stages of data management.",
+            "provider":  ["IDTk"],
+            "licence": "CC BY 4.0"
         }
     ]
 }

@@ -14,7 +14,7 @@ menu:
 
 SciLifeLab is committed to the principles of [FAIR](/topics/fair-principles) (Findable, Accessible, Interoperable and Reusable) research data, i.e. that data should be easily accessed, understood, exchanged and reused. We work actively to ensure that the investments done by the society in research infrastructure resources can achieve the highest possible impact.
 
-The guidelines adhere to the values of [Open Science](https://ec.europa.eu/info/research-and-innovation/strategy/strategy-2020-2024/our-digital-future/open-science_en) and [Transparent research](https://www.ucl.ac.uk/research/strategy-and-policy/research-transparency), as well as good data management practices throughout the research data life cycle.
+The guidelines adhere to the values of [Open Science](https://research-and-innovation.ec.europa.eu/strategy/strategy-research-and-innovation/our-digital-future/open-science_en) and [Transparent research](https://www.ucl.ac.uk/research/strategy-and-policy/research-transparency), as well as good data management practices throughout the research data life cycle.
 
 The SciLifeLab RDM guidelines was built and is maintained by the [SciLifeLab Data Centre](https://scilifelab.se/data) and [NBIS](https://nbis.se). We welcome any questions on any element of the platform. Please get in touch with us by emailing [data-management@scilifelab.se](mailto:data-management@scilifelab.se) or by sending us a message using our [contact form](/contact/).
 

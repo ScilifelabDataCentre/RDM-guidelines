@@ -50,7 +50,7 @@ Most often there are information resources at your university regarding research
     </tr>
     <tr>
       <td><a href="https://www.lub.lu.se/en/services-and-support/research-data">Lund University</a></td>
-      <td>See web page for contact information</td>
+      <td><a href = "mailto:support@researchdata.lu.se">support@researchdata.lu.se</a></td>
       <td><a href="https://www.staff.lu.se/research-and-education/research-support/support-research-process/research-data-management">Research data management</a></td>
     </tr>
     <tr>

@@ -21,7 +21,7 @@ Also, some resources have specific application periods and thus needs to be cont
 <br/><br/>
 
 ## ORCID
-In the planning phase it can be good to adress the question of [Open Researcher and Contributor IDs (ORCID)](https://orcid.org/). An ORCID is a persistent digital identifier for researchers, and allows you to be uniquely identified so that your work is accurately attributed to you. Visit the [ORCID webiste](https://orcid.org/register) in order to register for an ORCID. 
+In the planning phase it can be good to adress the question of [Open Researcher and Contributor IDs (ORCID)](https://orcid.org/). An ORCID is a unique persistent identifier for researchers, and allows you to be uniquely identified and accurately attributed for your work. Visit the [ORCID website](https://orcid.org/register) in order to register an ORCID. 
 
 
 ## Resources

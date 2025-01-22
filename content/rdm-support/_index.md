@@ -13,7 +13,7 @@ menu:
 &nbsp;
 
 
-SciLifeLab Data Management Support offers tools, guidance, training and hands-on support to anyone involved in life science research that is affiliated with a Swedish university or research institute.
+
 We support various RDM aspects, such as publishing data in repositories, sharing data and code, writing data management plans (DMPs), guidance on working with sensitive human data, guidance on implementing the FAIR principles and adhering to Open Science and much more.
 
 <h2>Want expert advice or hands-on support?</h2>

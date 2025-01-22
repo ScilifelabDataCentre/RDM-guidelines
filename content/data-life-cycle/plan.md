@@ -14,6 +14,9 @@ High quality science is often only possible if the infrastructure resources you 
 
 Also, some resources have specific application periods and thus needs to be contacted well in advance. If your project includes sensitive (human) data, note that there are ethical and legal issues that you have to consider, such as apply for an ethics approval, establish necessary agreements and report the data processing to your [Data Protection Officer](/topics/university-rdm-resources/#data-protection-officers). See the page on [Research involving human data](/topics/research-involving-human-data) for more information.
 
+## ORCID
+In the planning phase it can be good to adress the question of [Open Researcher and Contributor IDs (ORCID)](https://orcid.org/). An ORCID is a persistent digital identifier for researchers, and allows you to be uniquely identified so that your work is accurately attributed to you. Visit the [ORCID webiste](https://orcid.org/register) in order to register for an ORCID. 
+
 
 ## Resources
 Please find below resources concerning the research data life cycle phase plan in form of training, guidance and/or tools.

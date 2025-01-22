@@ -14,8 +14,6 @@ menu:
 
 
 
-We support various RDM aspects, such as publishing data in repositories, sharing data and code, writing data management plans (DMPs), guidance on working with sensitive human data, guidance on implementing the FAIR principles and adhering to Open Science and much more.
-
 <h2>Want expert advice or hands-on support?</h2>
 <p class="card-text">We offer <b>free</b> consultations and support on all aspects of data management to researchers and research infrastructures in Swedish life science research. Discuss your data management issues with us by visiting the online <b>NBIS Drop-in</b> at <a href = "https://meet.nbis.se/dropin">https://meet.nbis.se/dropin</a> on Tuesdays at 14:00. Contact our team via email, <a href = "mailto:data-management@scilifelab.se">data-management@scilifelab.se</a>, or the contact form for expert advise on setting up DMPs, sharing data, choosing repositories etc.</p>
 <a href="/contact/"><b>Contact form to get support <i class="bi bi-arrow-right-square-fill"></i></b></a>

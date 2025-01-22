@@ -23,7 +23,7 @@ Most often there are information resources at your university regarding research
     </thead>
     <tbody>
     <tr>
-      <td><a href="https://www.chalmers.se/en/infrastructure/ecommons/chalmers-data-office/">Chalmers University of Technology</a></td>
+      <td><a href="https://www.chalmers.se/en/infrastructure/ecommons/storage-and-data-management/reserch-data-management-support/">Chalmers University of Technology</a></td>
       <td><a href = "mailto:dataoffice@chalmers.se">dataoffice@chalmers.se</a></td>
       <td><a href="https://www.lib.chalmers.se/en/publish-and-analyse/open-access/research-data/"> Open Access - Research data</a></td>
     </tr>

@@ -12,11 +12,11 @@ menu:
 ---
 &nbsp;
 
-SciLifeLab is committed to the principles of [FAIR](/topics/fair-principles) (Findable, Accessible, Interoperable and Reusable) research data, i.e. that data should be easily accessed, understood, exchanged and reused. We work actively to ensure that the investments done by the society in research infrastructure resources can achieve the highest possible impact.
+The purpose of the SciLifeLab RDM guidelines is to serve as an information resource to life science researchers in Sweden regarding research data management and to act as the entry point for SciLifeLab Data Management support. The guidelines describe good data management practices throughout the research data life cycle and provide resources to enable data becoming easily accessed, understood, exchanged and reused.
 
-The guidelines adhere to the values of [Open Science](https://research-and-innovation.ec.europa.eu/strategy/strategy-research-and-innovation/our-digital-future/open-science_en) and [Transparent research](https://www.ucl.ac.uk/research/strategy-and-policy/research-transparency), as well as good data management practices throughout the research data life cycle.
+SciLifeLab is committed to the values of [Open Science](https://research-and-innovation.ec.europa.eu/strategy/strategy-research-and-innovation/our-digital-future/open-science_en), [Transparent research](https://www.ucl.ac.uk/research/strategy-and-policy/research-transparency) and [FAIR principles](/topics/fair-principles) (Findable, Accessible, Interoperable and Reusable). We work actively to ensure that the investments done by the society in research infrastructure resources can achieve the highest possible impact.
 
-The SciLifeLab RDM guidelines was built and is maintained by the [SciLifeLab Data Centre](https://scilifelab.se/data) and [NBIS](https://nbis.se). We welcome any questions on any element of the platform. Please get in touch with us by emailing [data-management@scilifelab.se](mailto:data-management@scilifelab.se) or by sending us a message using our [contact form](/contact/).
+The SciLifeLab RDM guidelines was built and is maintained by the [SciLifeLab Data Centre](https://scilifelab.se/data) and [NBIS](https://nbis.se). We welcome all questions related to research data management or the website itself. Please get in touch with us by emailing [data-management@scilifelab.se](mailto:data-management@scilifelab.se) or by sending us a message using our [contact form](/contact/).
 
 The content of the website is moderated by an [editorial group](/about/contributors/) supported by the SciLifeLab RDM guidelines advisory group. However, contributions are welcome in each of the sections. For example, you can suggest [a new topic](/topics/) or an update to current [research data life cycle](/data-life-cycle) or [topic](/topics/) pages.
 

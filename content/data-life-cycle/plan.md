@@ -17,7 +17,7 @@ High quality science is often only possible if the infrastructure resources you 
 
 Also, some resources have specific application periods and thus needs to be contacted well in advance. If your project includes sensitive (human) data, note that there are ethical and legal issues that you have to consider, such as apply for an ethics approval, establish necessary agreements and report the data processing to your [Data Protection Officer](/topics/university-rdm-resources/#data-protection-officers). 
 
-<a href="/topics/research-involving-human-data"><b>See more guidelines on research involving human data <i class="bi bi-arrow-right-square-fill"></i></b><a>
+<a href="/topics/research-involving-human-data"><b>See more guidelines on research involving human data <i class="bi bi-arrow-right-square-fill"></i></b></a>
 <br/><br/>
 
 ## ORCID

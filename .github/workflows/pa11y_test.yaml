@@ -8,9 +8,10 @@
 
 name: Pa11y Accessibility Check
 on:
-  workflow_dispatch:
-  schedule:
-    - cron: '30 12 * * FRI'
+  pull_request:
+    push:
+      branches:
+        - main
 
 jobs:
     pa11ly:

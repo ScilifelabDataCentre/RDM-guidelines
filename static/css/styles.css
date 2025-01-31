@@ -528,3 +528,43 @@ html {
   border-color: #045C64 !important;
 }
 
+/* Button for copy code to clipboard */
+pre {
+  background: #F2F2F2;
+  color: black;
+  padding: 10px;
+}
+/* copy-code-button.js */
+.copy-code-button {
+  color: #767676;
+  background-color: #F2F2F2;
+  border-color: #767676;
+  border: 2px solid;
+  border-radius: 3px 3px 0px 0px;
+
+  /* right-align */
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+
+  margin-bottom: -2px;
+  padding: 3px 8px;
+  font-size: 0.8em;
+}
+
+.copy-code-button:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.copy-code-button:focus {
+  /* Avoid an ugly focus outline on click in Chrome,
+     but darken the button for accessibility.
+     See https://stackoverflow.com/a/25298082/1481479 */
+  background-color: #F2F2F2;
+  outline: 0;
+}
+
+.copy-code-button:active {
+  background-color: #E5E5E5;
+}

@@ -19,5 +19,7 @@
         </main>
         {{- partial "back_to_top.html" . -}}
         {{- partial "footer.html" . -}}
+
+        {{ block "js-extra" . }}{{ end }}
     </body>
 </html>

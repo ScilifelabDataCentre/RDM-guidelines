@@ -3,3 +3,9 @@
 {{ .Content }}
 
 {{ end }}
+
+{{ define "js-extra" }}
+    {{ if (findRE "<pre" .Content 1) }}
+        <script src="/js/copy-code-button.js"></script>
+    {{ end  }}
+{{ end  }}

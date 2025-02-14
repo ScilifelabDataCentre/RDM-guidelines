@@ -3,8 +3,6 @@
 {{ .Content}}
 
 {{/* Compile list of the resources in Hugo */}}
-<!-- t for training, g for guidance to for tool -->
-<!-- {{ $type := slice }} -->
 {{ $level := $.Site.Data.resources.levels }}
 {{ $phase := $.Site.Data.resources.phases }}
 {{ $topic := where .Site.RegularPages "Section" "topics" }}
@@ -12,6 +10,7 @@
 {{ range $topic }}
    {{ $topic_titles = $topic_titles | append .Title }}
 {{end}}
+<!-- t for training, g for guidance to for tool -->
 {{ $t_rlist := slice }}
 {{ $t_type := slice }}
 {{ $t_provider := slice }}
@@ -96,14 +95,7 @@
                 <input class="form-check-input" type="checkbox" id="{{ . }}" name="type" value="{{ delimit (split . " ") "-" | lower }}">
               </div>
             {{ end }}
-          {{ end }}
-          <!-- <div class="resources-search-filter ">Provider</div>
-          {{ range sort $target_provider }}
-            <div class="form-check">
-              <label class="form-check-label" for="{{ . }}">{{ . }}</label>              
-              <input class="form-check-input" type="checkbox" id="{{ . }}" name="provider" value="{{ delimit (split . " ") "-" | lower }}">
-            </div>
-          {{ end }} -->         
+          {{ end }}       
           <div class="resources-search-filter ">Phase</div>
           {{ range $phase }}
             <div class="form-check">
@@ -111,16 +103,9 @@
               <input class="form-check-input" type="checkbox" id="{{ $target }}-{{ . }}" name="phase" value="{{ delimit (split . " ") "-" | lower }}">
             </div>
           {{ end }}
-          <!-- <div class="resources-search-filter ">Level</div>
-          {{ range $level }}
-            <div class="form-check">
-              <label class="form-check-label" for="{{ . }}">{{ . }}</label>              
-              <input class="form-check-input" type="checkbox" id="{{ . }}" name="level" value="{{ delimit (split . " ") "-" | lower }}">
-            </div>
-          {{ end }} -->
         </div>
         <div class="col-lg">
-          <div id="{{ $target }}_resources" class="row g-2"> <!-- previous id="resources-container" -->
+          <div id="{{ $target }}_resources" class="row g-2">
             {{ range $ind, $cont := $target_rlist }}
               <div class="col-md-4 col-lg-4 resource" 
                 data-type="{{ delimit (apply .type "urlize" ".") " " }}" 
@@ -156,29 +141,11 @@
                                   {{ .description | markdownify }} 
                                 </div>
                               </div>{{ end }}
-                              {{ if eq $target "guidance" }}
-                                <div class="row mt-3">
-                                  <div class="col">
-                                    <!-- <b>Resource type:</b> 
-                                    {{ range .type }}
-                                      <!--{{ if eq . "Web page" }}<span class="badge event-type-lh-grape mb-1 me-1">{{ . }}</span>             
-                                      {{ else if eq . "Video" }}<span class="badge event-type-lh-teal mb-1 me-1">{{ . }}</span>
-                                      {{ else }} <span class="badge event-type-lh-lime mb-1 me-1">{{ . }}</span>
-                                      {{ end }} 
-                                    {{ end }}    -->
-                                  </div>
-                                </div>
-                              {{ end }}
                               {{ if .phase }}<div class="row mt-1">
                                 <div class="col">
                                   <b>Phase:</b> {{ delimit .phase ", " }}
                                 </div>
                               </div>{{ end }}
-                              <!-- {{ if .level }}<div class="row mt-1">
-                                <div class="col">
-                                  <b>Difficulty level:</b> {{ delimit .level ", "}}
-                                </div>
-                              </div>{{ end }} -->
                               {{ if .provider }}<div class="row mt-1">
                                 <div class="col">
                                   <b>Content provider:</b> {{ delimit .provider ", " }}
@@ -210,19 +177,10 @@
                     <div class="col">
                       {{ if eq $target "guidance" }}
                         <div class="d-flex justify-content-between">
-                          <!-- <span class="badge event-type-lh-grape mb-1 me-1">{{ delimit .type ", " }}</span> 
-                            {{ if eq . "Video"}}<span class="badge event-type-lh-teal mb-1 me-1">{{ . }}</span> {{ end }} -->
                           {{ range .type }}
                             {{ if eq . "Video"}}<i class="bi-camera-video-fill" style="font-size: 24px;"> </i>
                             {{ end }}
                           {{ end }}    
-                          <!--{{ range $target_type }} 
-                            {{ if eq . "Tool"}}<span class="badge event-type-lh-teal mb-1 me-1">{{ . }}</span>             
-                            {{ else if eq . "Guidance"}}<span class="badge event-type-lh-lime mb-1 me-1">{{ . }}</span>
-                            {{ else if eq . "Training"}}<span class="badge event-type-lh-grape mb-1 me-1">{{ . }}</span>
-                            {{ else }} <span class="badge event-type mb-1 me-1">{{ . }}</span>
-                            {{ end }}     
-                          {{ end }} -->
                         </div>
                       {{ end }}
                     </div>
@@ -301,8 +259,6 @@
   {{ if eq $count 0 }}
     {{ errorf "Resource %d does not have it's title (%s) as search tag" $itemIndex .title }}
   {{ end }}
-  <!-- Note: Code for checking topic typos is dependent on an array in resources.json. It would be better if the list of topics 
-  could be collected on the fly, in order to always obtain an updated list -->
   {{ if .topic }}
     {{ range .topic }}
       {{ if not (in $topic_titles .) }}

@@ -11,7 +11,7 @@
   Complimentary colors
   color: #E5E5E5, rgba(229, 229, 229, 1); light grey
   color: #A6A6A6, rgba(166,166,166, 1); medium grey
-  color: 3F3F3F, rgba(63,63,63,1); dark grey
+  color: #3F3F3F, rgba(63,63,63,1); dark grey
 */
 
 .sr-only {
@@ -528,3 +528,55 @@ html {
   border-color: #045C64 !important;
 }
 
+/* Styles for markdown formatting of inline code and code blocks and copy to clipboard button */
+pre {
+  color: black;
+  background-color: rgba(229,229,229,0.5);
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  border-radius: 10px;
+  line-height: 1.5;
+  padding: 5px;
+}
+
+.clipboard {
+  display: flex;
+  justify-content: flex-end;
+}
+
+p + .clipboard {
+  margin-top: -1rem; /* Reduce space between <p> above and .clipboard */
+}
+
+.clipboard-button {
+  position: absolute;   /* put the button inside code block */
+  padding: 2px 7px 5px 7px;
+  margin-bottom: 0.2rem;
+  color: #A6A6A6;
+  background-color: rgba(229,229,229,0.5);
+  border-radius: 10px;
+  font-size: 0.8rem;
+  transition: 0.1s;
+}
+
+.clipboard-button:hover {
+  cursor: pointer;
+  background-color: white;
+}
+.clipboard-button:focus {
+  outline: 0;
+}
+
+/* Differences between citation and code blocks - these wont apply to code blocks.. */
+.citation-block {
+  white-space: pre-wrap;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+/* Highlighting that can be applied to version/date in citation blocks */
+.highlight {
+  background-color: #491F53;
+  color: white;
+}

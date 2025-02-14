@@ -70,13 +70,8 @@ The GDPR states that the processing (including storing) of personal data should 
 <a href="/topics/sharing-human-data"><b>See more guidelines on sharing human data <i class="bi bi-arrow-right-square-fill"></i></b></a>
 <br/><br/>
 
-<!-- Data processing agreement, data transfer agreement, data access agreement -->
-
-
 ## GDPR considerations
 
-<!-- Merge content of "PIs working with human data" and “Sensitive personal data”
-Risk assessment, DPIA … -->
 Before embarking on a new project, consider the following:
 * What personal data will be collected and processed?
     * Only collect data that are needed, i.e. ensure to not collect more data than necessary
@@ -116,7 +111,6 @@ Also note that even if public interest is the legal basis, other laws and resear
 
 ### Data Processing
 
-<!-- what is meant / definition; storage & analysis by other than the controller requires agreement -->
 All processing of personal data must comply with the [Principles relating to processing of personal data - Article 5](https://gdpr-info.eu/art-5-gdpr/) in the GDPR. According to these principles, to process personal data, the controller must:
 
 * Identify the **[legal basis](#legal-basis-for-processing-personal-data)** for data processing *before it starts*
@@ -133,13 +127,11 @@ And be able to **demonstrate** that the GDPR is followed.
 
 #### Agreements
 
-<!-- Data processing agreement, data transfer agreement, data access agreement -->
 * A Data Processing Agreement is needed when a Processor (someone from a different university than the controller) is processing the data (e.g. storing or analysing) on behalf of the controller.
 <!-- * A Data Transfer Agreement is needed when... -->
 <!-- * A Data Access Agreement is needed when... -->
 
-
-#### Responsibilities <!-- controller versus processor -->
+#### Responsibilities 
 
 As a controller you should:
 * Ensure that data processing agreements are established when needed.
@@ -152,7 +144,7 @@ As a Processor you should:
 
 
 ### Data Protection Impact Assessment (DPIA)
-<!--- move first part to glossary? --->
+
 A Data Protection Impact Assessment (DPIA) is needed if the personal data processing is likely to result in a high risk to individual people's rights ([IMY on Impact assessments and prior consultation](https://www.imy.se/en/organisations/data-protection/this-applies-accordning-to-gdpr/impact-assessments-and-prior-consultation/)). The purpose of a DPIA is to prevent risks before they occur, by identifying what risks exist and draw up procedures to meet those risks. In order be able to decide if a DPIA is needed, you should perform a risk analysis. Analyse what risks your personal data processing may involve and suggest appropriate security measures. Document your findings so that you can demonstrate that you comply with the GDPR. If the risk analysis shows that a DPIA is needed, there are tools to help you e.g. [PIA software from CNIL](https://www.cnil.fr/en/open-source-pia-software-helps-carry-out-data-protection-impact-assessment).
 
 ### Security of processing
@@ -166,9 +158,7 @@ The UPPMAX [Bianca](https://docs.uppmax.uu.se/cluster_guides/bianca/) system has
 
 
 ## Ethical considerations
-<!--- add texts that is appropriate to link to glossary? --->
-<!-- Ethical review and informed consent
-Merge content of "PIs working with human data" and “Sensitive personal data” -->
+
 Before embarking on a new project, consider the following:
 * Has the project (or parts of the project) undergone ethical review?
 * Have informed consents been collected from the research subjects?
@@ -185,7 +175,6 @@ When you prepare the information for the participants, it might be a good to thi
 * Express clearly that the participant’s personal data may be used in other research projects. Try to define the data reuse conditions by specifying a research purpose rather than by stating with whom the data can be shared. In particular, do not limit the data access to only researchers, since researchers sometimes need help from non-researchers (e.g. technical staff) with the data.
 * Consider which countries the data can be shared with. Can it be shared only within EU/EES? Or perhaps only within Sweden?
 * Personal data must normally be pseudonymised before it is shared. Don’t forget to inform the participants about that. Data that is pseudonymised can only be used to identify individuals in combination with other data. -->
-<!-- ### Other considerations -->
 
 ## Further questions
 If you have further questions regarding sensitive personal data, you are welcome to contact the SciLifeLab data management team (<data-management@scilifelab.se>).

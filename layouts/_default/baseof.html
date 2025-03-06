@@ -19,5 +19,11 @@
         </main>
         {{- partial "back_to_top.html" . -}}
         {{- partial "footer.html" . -}}
+
+        {{ if .Store.Get "needsClipboardJS" }}
+                {{ $clipboardJS := resources.Get "js/clipboard.js" | fingerprint }}
+                <script src="{{ $clipboardJS.RelPermalink }}"></script>
+        {{ end }}
+
     </body>
 </html>

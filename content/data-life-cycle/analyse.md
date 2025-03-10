@@ -1,7 +1,6 @@
 ---
 title: Analysing phase
 phase: Analyse
-contributors: []
 toc: True
 ---
 

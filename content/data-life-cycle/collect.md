@@ -1,7 +1,6 @@
 ---
 title: Collecting phase
 phase: Collect
-contributors: []
 toc: True
 ---
 

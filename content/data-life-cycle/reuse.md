@@ -1,7 +1,6 @@
 ---
 title: Reusing phase
 phase: Reuse
-contributors: []
 toc: True
 ---
 

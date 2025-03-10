@@ -1,7 +1,6 @@
 ---
 title: Preserving phase
 phase: Preserve
-contributors: []
 toc: True
 ---
 

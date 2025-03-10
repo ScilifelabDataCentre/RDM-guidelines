@@ -187,6 +187,20 @@ For datasets that do not fit into domain-specific repositories, it is recommende
   <br>
 </div>
 <p>
+  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample15" role="button" aria-expanded="false" aria-controls="collapseExample15">
+    KTH Data Repository
+    <i class="bi bi-chevron-double-down p-2"></i>
+  </a>
+</p>
+<div class="collapse" id="collapseExample15">
+  <div class="card card-body">
+  <span>
+  The <a href="https://datarepository.kth.se">KTH Data Repository</a> is a general data repository offered as a service from KTH Royal Institute of Technology. The service offers a solution for depositing and preparing documentation and static versions of data and source code for your research project. Deposited data can be kept for internal archive or published as open data.
+  </span>
+  </div>
+  <br>
+</div>
+<p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample9" role="button" aria-expanded="false" aria-controls="collapseExample9">
     KTH Royal Institute of Technology Zenodo community
     <i class="bi bi-chevron-double-down p-2"></i>

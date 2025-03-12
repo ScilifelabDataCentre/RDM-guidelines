@@ -714,6 +714,18 @@
             "description": "Guidance on how to comprehensively assess the ethical, legal, and social implication (ELSI) aspects of your work throughout all stages of data management.",
             "provider":  ["IDTk"],
             "licence": "CC BY 4.0"
-        }
+        },
+        {
+            "title": "Researchdata.se",
+            "short_title": "Researchdata.se",
+            "target": ["tool"],
+            "type": ["Web page"],
+            "search_tags": ["Researchdata.se","SND","profession","RDMkit on Your role"],
+            "phase": ["Share", "Reuse"],
+            "level": ["Basic"],
+            "url": "https://researchdata.se",
+            "description": "Description",
+            "provider":  ["SND"]
+        }    
     ]
 }

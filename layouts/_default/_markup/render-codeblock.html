@@ -1,10 +1,6 @@
 {{/*
     Creates a copy to clipboard button above each code block that switches between a copy and copied state
     by controlling the buttons visibility with js.
-    
-    If the code block is marked as citation style, placeholders inside the citation text will be replaced and
-    the code block will be styled as a citation block.
-    Otherwise, rendered as regular code block.
     */}}
     
     {{- $content := .Inner | safeHTML -}}
@@ -18,22 +14,7 @@
             <img class="clipboard-icon" src="/img/icons/check.svg" alt="Copy to clipboard icon">
         </button>
     </div>
-    
-    {{ if eq $style "citation" }}
-        {{ $year := now.Year }}
-        {{ $date := now.Format "January 2, 2006" }}
-    
-        {{/* Replace citation text placeholders */}}
-        {{ $version := partial "GetVersion.html" }}
-        {{ $portalVersion := $version.tag | default "X.X.X" | strings.TrimPrefix "v" }}
-    
-        {{ $content := replace $content "DATE_ACCESSED" $date }}
-        {{ $content := replace $content "YEAR" $year }}
-        {{ $content := replace $content "VERSION_NUMBER" $portalVersion }}
-    
-        <pre class="citation-block"><code>{{- strings.TrimSpace $content | markdownify -}}</code></pre>
-    {{ else }}
-        <pre><code>{{ $content }}</code></pre>
-    {{ end }}
+
+    <pre><code>{{ $content }}</code></pre>
     
     {{ .Page.Store.Set "needsClipboardJS" true }}

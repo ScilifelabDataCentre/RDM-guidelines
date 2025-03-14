@@ -1,6 +1,5 @@
 ---
 title: README files
-contributors: []
 category: Other
 toc: True
 ---

@@ -1,6 +1,5 @@
 ---
 title: Research involving human data
-contributors: []
 category: Human data
 toc: True
 ---

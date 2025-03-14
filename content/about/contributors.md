@@ -8,7 +8,7 @@ menu:
 ---
 # Contributors
 
-The SciLifeLab RDM guidelines was built and is maintained by the [SciLifeLab Data Centre](https://scilifelab.se/data) and [NBIS](https://nbis.se). All contributors are listed below. If nothing else is stated on a page, the content is created by internal contributors.
+The SciLifeLab RDM guidelines was built and is maintained by the [SciLifeLab Data Centre](https://scilifelab.se/data) and [NBIS](https://nbis.se). All contributors are listed below.
 
 {{< contributors-all >}}
 <br>

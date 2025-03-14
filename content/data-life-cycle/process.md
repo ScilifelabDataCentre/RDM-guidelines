@@ -1,7 +1,6 @@
 ---
 title: Processing phase
 phase: Process
-contributors: []
 toc: True
 ---
 

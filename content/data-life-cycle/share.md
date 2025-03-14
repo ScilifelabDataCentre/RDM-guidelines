@@ -1,7 +1,6 @@
 ---
 title: Sharing phase
 phase: Share
-contributors: []
 toc: True
 ---
 

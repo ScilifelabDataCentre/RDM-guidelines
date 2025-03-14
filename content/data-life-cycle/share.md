@@ -165,12 +165,12 @@ The [ProteomeXchange](http://www.proteomexchange.org/) Consortium provides globa
 
 Guidance on where to publish COVID-19 and Pandemic Preparedness research data, can be found on the <a href="https://pathogens.se/share-data/">Swedish Pathogens Portal</a>.
 
-For other domain-specific repositories, see e.g. <a href="https://elixir-europe.org/services/tag/elixir-deposition-databases">ELIXIR Deposition databases</a>, <a href="https://www.nature.com/sdata/policies/repositories">Scientific Data recommended repositories</a>, <a href="https://www.ebi.ac.uk/submission/">EBI archive wizard</a> (help to find the right repository depending on data type), or <a href="https://fairsharing.org/databases/">FAIRsharing</a> (the latter can also assist in finding metadata standards suitable for describing your datasets).
+For other discipline-specific repositories, see e.g. <a href="https://elixir-europe.org/services/tag/elixir-deposition-databases">ELIXIR Deposition databases</a>, <a href="https://www.nature.com/sdata/policies/repositories">Scientific Data recommended repositories</a>, <a href="https://www.ebi.ac.uk/submission/">EBI archive wizard</a> (help to find the right repository depending on data type), or <a href="https://fairsharing.org/databases/">FAIRsharing</a> (the latter can also assist in finding metadata standards suitable for describing your datasets).
 
 &nbsp;
 
 ## Institutional repositories
-For datasets that do not fit into domain-specific repositories, it is recommended to use an institutional repository if available. These repositories are often general-purpose repositories with the intention of only being used by researchers at that specific institution. See below a selection of available repositories offered by Swedish academic institutions operating in the life sciences. 
+For datasets that do not fit into discipline-specific repositories, it is recommended to use an institutional repository if available. These repositories are often general-purpose repositories with the intention of only being used by researchers at that specific institution. See below a selection of available repositories offered by Swedish academic institutions operating in the life sciences. 
 
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample8">
@@ -182,6 +182,20 @@ For datasets that do not fit into domain-specific repositories, it is recommende
   <div class="card card-body">
   <span>
   <a href="https://kib.ki.se/en/publish-analyse/publish-and-share-research-data/doris-publish-and-share-your-research-data">KI Data Repository</a> is a data repository where Karolinska Institutet's (KI's) researchers can store, publish and share data.
+  </span>
+  </div>
+  <br>
+</div>
+<p>
+  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample15" role="button" aria-expanded="false" aria-controls="collapseExample15">
+    KTH Data Repository
+    <i class="bi bi-chevron-double-down p-2"></i>
+  </a>
+</p>
+<div class="collapse" id="collapseExample15">
+  <div class="card card-body">
+  <span>
+  The <a href="https://datarepository.kth.se">KTH Data Repository</a> is a general data repository offered as a service from KTH Royal Institute of Technology. The service offers a solution for depositing and preparing documentation and static versions of data and source code for your research project. Deposited data can be kept for internal archive or published as open data.
   </span>
   </div>
   <br>

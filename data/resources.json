@@ -510,7 +510,7 @@
             "level": ["Basic"],
             "url": "https://snd.gu.se/sv/hantera-data/utbildning/bas-online",
             "description": "BAS Online is divided into six sessions consisting of short video presentations, exercises and other material such as texts and linked resources. The course is primarily aimed at those who work at a research data support unit at a Swedish university, and covers topics such as Data management and data management plans, Metadata, Metadata standards, Documentation of research data, Law and research data.",
-            "provider":  ["SND"]
+            "provider": ["SND"]
         },
         {
             "title": "General information about research data on UU intranet",
@@ -720,11 +720,11 @@
             "short_title": "Researchdata.se",
             "target": ["tool"],
             "type": ["Web page"],
-            "search_tags": ["Researchdata.se","SND","profession","RDMkit on Your role"],
+            "search_tags": ["Researchdata.se","SND"],
             "phase": ["Share", "Reuse"],
             "level": ["Basic"],
             "url": "https://researchdata.se",
-            "description": "Description",
+            "description": "Researchdata.se is a national web portal where you can find, share, and reuse research data from a wide range of disciplines. The portal focuses on searchability and access to data, making it easy to navigate thousands of datasets to find what you are looking for.",
             "provider":  ["SND"]
         }    
     ]

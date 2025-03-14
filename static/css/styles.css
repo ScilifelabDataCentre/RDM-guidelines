@@ -537,6 +537,7 @@ pre {
   tab-size: 4;
   line-height: 1.5;
   padding: 5px;
+  white-space : pre-wrap !important;
 }
 
 .clipboard {

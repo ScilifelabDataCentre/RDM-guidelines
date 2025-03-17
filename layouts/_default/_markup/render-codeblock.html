@@ -1,0 +1,20 @@
+{{/*
+    Creates a copy to clipboard button above each code block that switches between a copy and copied state
+    by controlling the buttons visibility with js.
+    */}}
+    
+    {{- $content := .Inner | safeHTML -}}
+    {{- $style := index .Attributes "style" | default "code" -}}
+    
+    <div class="clipboard">
+        <button class="clipboard-button copy-button" type="button">
+            <img class="clipboard-icon" src="/img/icons/copy.svg" alt="Copy to clipboard icon">
+        </button>
+        <button class="clipboard-button copied-button" type="button" style="display: none;">
+            <img class="clipboard-icon" src="/img/icons/check.svg" alt="Copy to clipboard icon">
+        </button>
+    </div>
+
+    <pre><code>{{ $content }}</code></pre>
+    
+    {{ .Page.Store.Set "needsClipboardJS" true }}

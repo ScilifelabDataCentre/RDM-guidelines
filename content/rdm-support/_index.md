@@ -25,15 +25,21 @@ We support various RDM aspects, such as publishing data in repositories, sharing
 <div class="row cards pt-5 pb-5 p-4 rounded cont-links text-black d-flex">
   <h3><b>Need a Data Management Plan?</b></h3><br>
   <p class="card-text">It is good research practice to take care of your research data and document the
-  strategies for doing so in a Data Management Plan (DMP). SciLifeLab offers a DMP tool for life science data called <a style="color:black" href="https://dsw.scilifelab.se">Data Stewardship Wizard</a>.
-  <br><br></p>
+  strategies for doing so in a Data Management Plan (DMP). SciLifeLab offers a DMP tool for life science data called Data Stewardship Wizard.
+  <br></p>
+  <a href="https://dsw.scilifelab.se"><b>Go to the Data Stewardship Wizard <i class="bi bi-arrow-right-square-fill"></i></b></a>
+  <br/><br/>
+
   <h3><b>Looking for training to cultivate skills?</b></h3><br>
-  <p class="card-text">NBIS offers <a style="color:black" href="https://nbis.se/training">training and workshops</a> on research data management and reproducibility as well as bioinformatics.
-  <br><br></p>
+  <p class="card-text">NBIS offers training and workshops on research data management and reproducibility as well as bioinformatics.
+  <br></p>
+  <a href="https://nbis.se/training"><b>Learn more about NBIS training <i class="bi bi-arrow-right-square-fill"></i></b></a>
+  <br/><br/>
 
   <h3><b>Want to publish data in a repository?</b></h3><br>
   <p class="card-text">We can guide you in finding suitable discipline-specific repositories for publishing
-  your data. SciLifeLab Data Centre also maintains the <a style="color:black" href="https://figshare.scilifelab.se">SciLifeLab Data Repository</a>, where data that can not be deposited in a discipline-specific repository can be published. It is also possible to publish metadata for data you cannot share openly.</p>
+  your data. SciLifeLab Data Centre also maintains the SciLifeLab Data Repository, where data that can not be deposited in a discipline-specific repository can be published. It is also possible to publish metadata for data you cannot share openly.<br></p>
+  <a href="https://dsw.scilifelab.se"><b>Go to the SciLifeLab Data Repository <i class="bi bi-arrow-right-square-fill"></i></b></a>
 </div>
 <br><br>
 <div class="row mt-2">

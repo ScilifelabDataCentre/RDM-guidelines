@@ -5,13 +5,22 @@ toc: True
 ---
 
 # Collecting
-During this phase all necessary data to be analysed in the project is collected, either by generating new datasets or by [reusing](/data-life-cycle/reuse) earlier collected datasets. This phase lays the foundation of the quality of both the data and the accompanying documentation. Hence, it is important that quality measures are implemented and that all steps of collection is appropriately recorded. During this phase possibly large amounts of data might need to be [transferred](/topics/data-transfer) between data producers, compute facilities and storage facilities.
+During this phase all necessary data to be analysed in the project is collected, either by generating new datasets or by [reusing](/data-life-cycle/reuse) earlier collected datasets. This phase lays the foundation of the quality of both the data and the accompanying documentation. Hence, it is important that quality measures are implemented and that all steps of collection is appropriately recorded. During this phase possibly large amounts of data might need to be transferredbetween data producers, compute facilities and storage facilities.
+
+<a href="/topics/data-transfer"><b>Learn more about data transfer <i class="bi bi-arrow-right-square-fill"></i></b></a>
+<br/><br/>
 
 ## Documentation
-Data documentation should clearly describe how the data was collected, so that someone else can understand and correctly interpret the data. Make use of electronic lab notebooks (often offered by the university / institute) and [metadata standards](/topics/metadata), and name and organise the files produced appropriately, see e.g. *'[A Quick Guide to Organizing Computational Biology Projects](https://doi.org/10.1371/journal.pcbi.1000424)'* for advice.
+Data documentation should clearly describe how the data was collected, so that someone else can understand and correctly interpret the data. Make use of electronic lab notebooks (often offered by the university / institute) and metadata standards, and name and organise the files produced appropriately, see e.g. *'[A Quick Guide to Organizing Computational Biology Projects](https://doi.org/10.1371/journal.pcbi.1000424)'* for advice.
+
+<a href="/topics/metadata"><b>Learn more about metadata standards <i class="bi bi-arrow-right-square-fill"></i></b></a>
+<br/><br/>
 
 ## Data producers
- SciLifeLab provides access to a range of pioneering technologies in molecular biosciences. Please find below a selection of data generating [SciLifeLab services](https://www.scilifelab.se/services/) for genomics, imaging, metabolomics, and proteomics data.
+ SciLifeLab provides access to a range of pioneering technologies in molecular biosciences. Please find below a selection of data generating SciLifeLab services for genomics, imaging, metabolomics, and proteomics data.
+
+ <a href="https://www.scilifelab.se/services/"><b>Learn more about SciLifeLab services <i class="bi bi-arrow-right-square-fill"></i></b></a>
+<br/><br/>
 
 ### Genomics data
 Please find below a selection of [SciLifeLab Genomics services](https://www.scilifelab.se/services/infrastructure?service=genomics)
@@ -228,9 +237,15 @@ Please find below a selection of [SciLifeLab Proteomics services](https://www.sc
 ## Storage
 The PI, and his/her academic institution are ultimately responsible for the data, and ensuring that all data is backed-up is essential. The 3-2-1 rule of thumb means that there should be 3 copies of the data, on 2 different types of media, and 1 of the copies at different physical location. This means that even if all the projects research inputs and outputs are located at a backed-up resource, a (third) copy of the data should be maintained.
 
-At least essential data, such as raw data and other data that may be difficult or even impossible to recreate in case of corruption or loss, should be copied off-site (using e.g. [SciLifeLab FAIR Storage](https://data.scilifelab.se/services/fairstorage/) or storage provided by the institute).
+At least essential data, such as raw data and other data that may be difficult or even impossible to recreate in case of corruption or loss, should be copied off-site (using e.g. SciLifeLab FAIR Storage or storage provided by the institute).
 
-Consider uploading the raw data to a repository already when receiving them, under an embargo (if it is important that the data remains private during the project). This way there is always an off-site backup with the added benefit of making the [data sharing](/data-life-cycle/share) phase more efficient.
+Consider uploading the raw data to a repository already when receiving them, under an embargo (if it is important that the data remains private during the project). This way there is always an off-site backup with the added benefit of making the data sharing phase more efficient.
+
+<a href="https://data.scilifelab.se/services/fairstorage/"><b>Learn more about SciLifeLab FAIR Storage <i class="bi bi-arrow-right-square-fill"></i></b></a>
+<br/>
+
+<a href="/data-life-cycle/share"><b>Learn more about data sharing <i class="bi bi-arrow-right-square-fill"></i></b></a>
+<br/><br/>
 
 ## Resources
 Please find below resources concerning the research data life cycle phase collect in form of training, guidance and/or tools.

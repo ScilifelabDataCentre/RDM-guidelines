@@ -168,7 +168,7 @@ Please find below a selection of [SciLifeLab Proteomics services](https://www.sc
   <div class="card card-body">
   <span>
     <p>
-      <a href="https://www.scilifelab.se/units/global-proteomics-and-proteogenomics/">Global Proteomics and Proteogenomics</a> offers proteomics information combined with sample specific genomic and transcriptomics information.
+      <a href="https://www.scilifelab.se/units/ms-based-protein-analysis-global-proteomics-and-protegenomics-glycoproteomics-and-ms-proteomics/">Global Proteomics and Proteogenomics</a> offers proteomics information combined with sample specific genomic and transcriptomics information.
     </p>
     <ul>
       <li>Personalized proteomics</li>

@@ -171,12 +171,44 @@ Please find below a selection of [SciLifeLab Proteomics services](https://www.sc
       <a href="https://www.scilifelab.se/units/ms-based-protein-analysis-global-proteomics-and-protegenomics-glycoproteomics-and-ms-proteomics/">Global Proteomics and Proteogenomics</a> offers proteomics information combined with sample specific genomic and transcriptomics information.
     </p>
     <ul>
-      <li>Personalized proteomics</li>
-      <li>Disease state/Variant proteomics</li>
-      <li>Unbiased proteogenomics in any species with a sequenced genome</li>
+      <li>Protein identification, expression and quantification</li>
+      <li>Precision medicine proteomics</li>
+      <li>Plasma proteomics</li>
+      <li>Interaction proteomics</li>
+      <li>Phosphoproteomics</li>
+      <li>Post-translational modification (PTM) characterization</li>
+      <li>Disease state/genetic variant proteomics, integration of genomics and transcriptomics</li>
+      <li>Protein-coding regions, mutated proteins, neoantigens</li>
       <li>XenoProteomics</li>
       <li>Meta proteomics</li>
+    </ul>
+  </span>
+  </div>
+  <br>
+</div>
+<p>
+  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample11" role="button" aria-expanded="false" aria-controls="collapseExample11">
+    Glycoproteomics and MS Proteomics
+    <i class="bi bi-chevron-double-down p-2"></i>
+  </a>
+</p>
+<div class="collapse" id="collapseExample11">
+  <div class="card card-body">
+  <span>
+    <p>
+      <a href="https://www.scilifelab.se/units/ms-based-protein-analysis-global-proteomics-and-protegenomics-glycoproteomics-and-ms-proteomics/">Glycoproteomics and MS Proteomics</a> specialize in MS-based protein and peptide analysis using cutting-edge technologies.
+    </p>
+    <ul>
+      <li>Protein identification, expression and quantification</li>
+      <li>Precision medicine proteomics</li>
       <li>Plasma proteomics</li>
+      <li>Interaction proteomics</li>
+      <li>Phosphoproteomics</li>
+      <li>Post-translational modification (PTM) characterization</li>
+      <li>Identification, quantification and site-specific glycosylation analysis of glycopeptides</li>
+      <li>Glycomics screening</li>
+      <li>Characterization of oligosaccharides and glycans</li>
+      <li>Custom-designed biological mass spectrometry methods</li>
     </ul>
   </span>
   </div>

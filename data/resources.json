@@ -70,16 +70,16 @@
             "provider":  ["SciLifeLab"]
         },
         {
-            "title": "SND on Research material with personal data",
-            "short_title": "SND: Research with personal data",
+            "title": "Handbook for data containing personal information",
+            "short_title": "Handbook for data containing personal information",
             "target": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["SND","Swedish National Data Service","human data","personal data","SND on Research material with personal data"],
+            "search_tags": ["SND","Swedish National Data Service","human data","personal data","Handbook for data containing personal information", "personal information"],
             "phase": ["Plan", "Collect", "Preserve", "Share"],
             "topic": ["Research involving human data"],
             "level": ["Basic"],
-            "url": "https://snd.gu.se/en/manage-data/plan/research-material-with-personal-data",
-            "description": "Swedish National Data Service (SND) guidance on working with research material containing personal data.",
+            "url": "https://snd.se/en/resources/handbook-data-containing-personal-information",
+            "description": "Swedish National Data Service (SND) guidance on working with research data containing personal information.",
             "provider":  ["SND"]
         },
         {

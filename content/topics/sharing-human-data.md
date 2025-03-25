@@ -41,7 +41,7 @@ Here are some repositories for sharing and archiving data under controlled acces
 
 ### Swedish National Data Service (SND)
 
-Some organisations have signed agreements with SND, allowing for researchers to share datasets containing personal information in the national SND research catalogue. For more information, please visit [Sharing data with personal information through SND](https://snd.se/en/describe-share-data/share-data-step-step/1-preparations/sharing-data-personal-information). 
+Some organisations have signed agreements with SND, allowing for researchers to share datasets containing personal information in the national SND research catalogue. For more information, please visit [Sharing data with personal information through SND](https://researchdata.se/en/share-data/share-data-quick-guide). 
 
 ## If data cannot be deposited in a repository
 

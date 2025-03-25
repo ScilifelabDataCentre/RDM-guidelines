@@ -16,7 +16,7 @@ Apart from searching directly in repositories where life science data typically 
 * Visit the [Swedish Pathogens Portal list of available data](https://pathogens.se/datasets/all/) in order to find publications about COVID-19/SARS-CoV-2 that involve at least one author affiliated with a Swedish research institution.
 * [The Swedish Reference Genome Portal](https://genomes.scilifelab.se) can be used to discover non-human eukaryotic genome assemblies and genome annotations (co-)produced by researchers affiliated with a Swedish institution. 
 * Search in the Registry of Research Data Repositories [re3data](https://www.re3data.org) to find discipline-specific repositories for your field. 
-* The [Swedish National Data Service (SND) research data catalogue](https://snd.gu.se/en/catalogue) can also be used to search for data from a variety of research disciplines. 
+* The Swedish National Data Service (SND) research data catalogue on [Reserachdata.se](https://researchdata.se/en/catalogue) can also be used to search for data from a variety of research disciplines. 
 
 ## Resources
 Please find below resources concerning the research data life cycle phase reuse in form of training, guidance and/or tools.

@@ -71,7 +71,7 @@
         },
         {
             "title": "Handbook for data containing personal information",
-            "short_title": "Handbook for data containing personal information",
+            "short_title": "Handbook for personal data",
             "target": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["SND","Swedish National Data Service","human data","personal data","Handbook for data containing personal information", "personal information"],
@@ -614,10 +614,10 @@
         }, 
         {
             "title": "Data with personal information in DORIS",
-            "short_title": "Data with personal information in DORIS",
+            "short_title": "Personal data in DORIS",
             "target": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["Data with personal information in DORIS", "Swedish National Data Service"],
+            "search_tags": ["Data with personal information in DORIS", "Swedish National Data Service", "SND"],
             "phase": ["Share"],
             "topic": ["Sharing human data"],
             "level": ["Basic"],

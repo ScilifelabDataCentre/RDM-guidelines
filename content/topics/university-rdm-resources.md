@@ -171,7 +171,7 @@ The role of the data protection officer (dataskyddsombud) is to check that the G
 
 ## Related policies and guidelines
 * National Library of Sweden - [Natio­nal guide­li­nes for promoting open science in Sweden](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2024-01-15-national-guidelines-for-promoting-open-science-in-sweden.html) 
-* Swedish National Data Service (SND) - [Manage data](https://snd.gu.se/en/manage-data)
+* Swedish National Data Service (SND) - [Manage data](https://researchdata.se/en/manage-data)
 * Swedish Research Council - [Good research practice (2017)](https://www.vr.se/english/analysis/reports/our-reports/2017-08-31-good-research-practice.html), [Recommendations of open access to research data](
 https://www.vr.se/english/mandates/open-science/open-access-to-research-data/the-swedish-research-councils-recommendation.html)
 * Formas - [Requirements for open access to research results and data](

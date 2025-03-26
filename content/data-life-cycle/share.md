@@ -249,14 +249,14 @@ For datasets that do not fit into discipline-specific repositories, it is recomm
 A general-purpose data repository is an appropriate choice only if the data does not need to be published in a controlled-access repository, a discipline-specific repository does not exist for the discipline and if there are no institutional repositories available. See below a selection of general-purpose data repositories.
 
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample12" role="button" aria-expanded="false" aria-controls="collapseExample12">
-    SND research data catalogue
+    SND DORIS
     <i class="bi bi-chevron-double-down p-2"></i>
   </a>
 </p>
 <div class="collapse" id="collapseExample12">
   <div class="card card-body">
   <span>
-  <a href="https://snd.se/en/describe-and-share-data">Swedish National Data Service (SND)</a> has a  research data catalogue accepting data from all disciplines. DORIS is the tool that researchers can use to publish data in SND’s research data catalogue. 
+  In <a href="https://snd.se/en/doris-researchers/describe-and-share-data-doris">DORIS</a> (the Swedish National Data Service's (SND) Data Organisation and Information System) you can describe and share research data from all disciplines. By using DORIS, well-documented data are shared in a way that fulfils the FAIR principles.
   </span>
   </div>
   <br>
@@ -270,7 +270,7 @@ A general-purpose data repository is an appropriate choice only if the data does
 <div class="collapse" id="collapseExample13">
   <div class="card card-body">
   <span>
-  <a href="https://figshare.com">Figshare</a> is a general-purpose repository used by researchers in numerous disciplines.. It can be used for sharing basically any kind of data, but also for just describing data stored elsewhere. Figshare is an open data repository used by researchers in numerous disciplines. 
+  <a href="https://figshare.com">Figshare</a> is a general-purpose repository used by researchers in numerous disciplines. It can be used for sharing basically any kind of data, but also for just describing data stored elsewhere. Figshare is an open data repository used by researchers in numerous disciplines. 
   </span>
   </div>
   <br>

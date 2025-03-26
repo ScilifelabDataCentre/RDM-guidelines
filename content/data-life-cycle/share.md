@@ -243,7 +243,7 @@ A general-purpose data repository is an appropriate choice only if the data does
 <div class="collapse" id="collapseExample12">
   <div class="card card-body">
   <span>
-  In <a href="https://snd.se/en/doris-researchers/describe-and-share-data-doris">DORIS</a>(the Swedish National Data Service's (SND) Data Organisation and Information System) you can describe and share research data from all disciplines. By using DORIS, well-documented data are shared in a way that fulfils the FAIR principles.
+  In <a href="https://snd.se/en/doris-researchers/describe-and-share-data-doris">DORIS</a> (the Swedish National Data Service's (SND) Data Organisation and Information System) you can describe and share research data from all disciplines. By using DORIS, well-documented data are shared in a way that fulfils the FAIR principles.
   </span>
   </div>
   <br>

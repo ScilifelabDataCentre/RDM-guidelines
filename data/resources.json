@@ -725,7 +725,8 @@
             "level": ["Basic"],
             "url": "https://researchdata.se",
             "description": "Researchdata.se is a national web portal where you can find, share, and reuse research data from a wide range of disciplines. The portal focuses on searchability and access to data, making it easy to navigate thousands of datasets to find what you are looking for.",
-            "provider":  ["SND"]
+            "provider":  ["SND"],
+            "licence": "CC BY 4.0 (texts), CC0 (harvested metadata)"
         }    
     ]
 }

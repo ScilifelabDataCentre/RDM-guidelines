@@ -727,6 +727,19 @@
             "description": "Researchdata.se is a national web portal where you can find, share, and reuse research data from a wide range of disciplines. The portal focuses on searchability and access to data, making it easy to navigate thousands of datasets to find what you are looking for.",
             "provider":  ["SND"],
             "licence": "CC BY 4.0 (texts), CC0 (harvested metadata)"
-        }    
+        },
+        {
+            "title": "DORIS",
+            "short_title": "DORIS",
+            "target": ["tool"],
+            "type": ["Web page"],
+            "search_tags": ["DORIS","SND","Swedish National Data Service"],
+            "phase": ["Share", "Reuse"],
+            "topic": ["Sharing human data"],
+            "level": ["Basic"],
+            "url": "https://researchdata.se",
+            "description": "The Swedish National Data Service's Data Organisation and Information System (DORIS) is a tool for describing and making research data and metadata searchable in the national research data portal Researchdata.se. DORIS can be used throughout the process, from describing and publishing research data, to reusing or reviewing them.",
+            "provider":  ["SND"]
+        }     
     ]
 }

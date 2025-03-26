@@ -732,7 +732,7 @@
             "title": "DORIS",
             "short_title": "DORIS",
             "target": ["tool"],
-            "type": ["Web page"],
+            "type": ["Tool"],
             "search_tags": ["DORIS","SND","Swedish National Data Service"],
             "phase": ["Share", "Reuse"],
             "topic": ["Sharing human data"],

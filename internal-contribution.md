@@ -19,7 +19,7 @@ The steps below outlines the mutually agreed steps in order to update the RDM-gu
 2. When **merging** a Pull request, delete the branch being merged. Note that the linked issue will be automatically closed if using closing words. 
 
 ### About resources
-A resource is any **external** link with information that is of added value for a page (topic or data life cycle page). Note that links to internal pages should only appear in the text. 
+A resource is any **external** link with information that is of added value for a page (topic or data life cycle page). Note that links to internal pages should not appear in the resource sections. 
 
 A resource *can* be explicitly linked to in the text, but most importantly is that it is listed under the Resources heading at the end of a page (see below on how to make that happen).
 

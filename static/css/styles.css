@@ -166,7 +166,6 @@ h6 {
 button {
   border: none;
   background: none;
-  margin-bottom: 1em;
 }
 
 .btn-teal {
@@ -216,20 +215,21 @@ button {
 }
 
 /* rgba(73, 31, 83, 1); */
-.btn-expandable a {
+.btn-expandable {
   background-color: #d2c7d4;
   color: black;
   padding: 12px 12px;
   border-radius: 8px;
   text-decoration: none;
 }
-.btn-expandable:hover a {
+.btn-expandable:hover {
   color: black;
   outline-color: transparent;
   outline-style:solid;
-  box-shadow: 0 0 0 4px rgba(rgba(73, 31, 83, 0.5));
+  box-shadow: 0 0 0 4px rgba(73, 31, 83, 0.5);
   text-decoration: none;
 }
+
 @supports ((position: -webkit-sticky) or (position: sticky)) {
   .sticky-top {
     position: -webkit-sticky;

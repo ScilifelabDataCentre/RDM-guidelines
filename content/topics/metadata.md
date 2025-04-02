@@ -33,10 +33,10 @@ Curated up-to-date guidance regarding file types and metadata standards is found
 A list of relevant data and metadata standards can be found in [FAIRsharing](https://fairsharing.org/search?q=sequence&fairsharingRegistry=Standard&status=ready&page=1), some specific examples are below.
 
 <p>
-  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+  <button class="btn-expandable" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
     Gene expression - Transcriptomics
     <i class="bi bi-chevron-double-down p-2"></i>
-  </a>
+  </button>
 </p>
 <div class="collapse" id="collapseExample1">
   <div class="card card-body">
@@ -59,10 +59,10 @@ A list of relevant data and metadata standards can be found in [FAIRsharing](htt
 </div>
 
 <p>
-  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+  <button class="btn-expandable" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
     Gene expression - Microarray-based
     <i class="bi bi-chevron-double-down p-2"></i>
-  </a>
+  </button>
 </p>
 <div class="collapse" id="collapseExample2">
   <div class="card card-body">
@@ -80,10 +80,10 @@ A list of relevant data and metadata standards can be found in [FAIRsharing](htt
 </div>
 
 <p>
-  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
+  <button class="btn-expandable" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
     Genome-wide association studies (GWAS)
     <i class="bi bi-chevron-double-down p-2"></i>
-  </a>
+  </button>
 </p>
 <div class="collapse" id="collapseExample3">
   <div class="card card-body">
@@ -102,10 +102,10 @@ A list of relevant data and metadata standards can be found in [FAIRsharing](htt
 </div>
 
 <p>
-  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
+  <button class="btn-expandable" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
     Metagenomics
     <i class="bi bi-chevron-double-down p-2"></i>
-  </a>
+  </button>
 </p>
 <div class="collapse" id="collapseExample4">
   <div class="card card-body">
@@ -128,10 +128,10 @@ A list of relevant data and metadata standards can be found in [FAIRsharing](htt
 ### Imaging / Structural data
 Images and structural data cover a wide range of data types and thus metadata standards. Please find below guidance for a selection of them.
 <p>
-  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5">
+  <button class="btn-expandable" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5">
     X-ray diffraction
     <i class="bi bi-chevron-double-down p-2"></i>
-  </a>
+  </button>
 </p>
 <div class="collapse" id="collapseExample5">
   <div class="card card-body">
@@ -144,10 +144,10 @@ Images and structural data cover a wide range of data types and thus metadata st
 </div>
 
 <p>
-  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6">
+  <button class="btn-expandable" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6">
     Electron microscopy
     <i class="bi bi-chevron-double-down p-2"></i>
-  </a>
+  </button>
 </p>
 <div class="collapse" id="collapseExample6">
   <div class="card card-body">
@@ -164,10 +164,10 @@ Images and structural data cover a wide range of data types and thus metadata st
 </div>
 
 <p>
-  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false" aria-controls="collapseExample7">
+  <button class="btn-expandable" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample7" role="button" aria-expanded="false" aria-controls="collapseExample7">
     NMR
     <i class="bi bi-chevron-double-down p-2"></i>
-  </a>
+  </button>
 </p>
 <div class="collapse" id="collapseExample7">
   <div class="card card-body">
@@ -184,10 +184,10 @@ Images and structural data cover a wide range of data types and thus metadata st
 </div>
 
 <p>
-  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample8">
+  <button class="btn-expandable" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample8">
     Neutron scattering
     <i class="bi bi-chevron-double-down p-2"></i>
-  </a>
+  </button>
 </p>
 <div class="collapse" id="collapseExample8">
   <div class="card card-body">

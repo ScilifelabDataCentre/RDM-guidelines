@@ -43,10 +43,10 @@ There are several repositories for life science data types (see e.g. [ELIXIR Dep
 Click on the buttons below for specific information regarding suitable repositories for sharing genomics data.
 
 <p>
-  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+  <button class="btn-expandable"> <a data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
     European Nucleotide Archive
     <i class="bi bi-chevron-double-down p-2"></i>
-  </a>
+  </a></button>
 </p>
 <div class="collapse" id="collapseExample1">
   <div class="card card-body">
@@ -73,10 +73,10 @@ Click on the buttons below for specific information regarding suitable repositor
 </div>
 
 <p>
-  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+  <button class="btn-expandable"> <a data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
     ArrayExpress
     <i class="bi bi-chevron-double-down p-2"></i>
-  </a>
+  </a></button>
 </p>
 <div class="collapse" id="collapseExample2">
   <div class="card card-body">
@@ -88,10 +88,10 @@ Click on the buttons below for specific information regarding suitable repositor
 </div>
 
 <p>
-  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
+  <button class="btn-expandable"> <a data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
     European Genome-phenome Archive
     <i class="bi bi-chevron-double-down p-2"></i>
-  </a>
+  </a></button>
 </p>
 <div class="collapse" id="collapseExample3">
   <div class="card card-body">
@@ -103,10 +103,10 @@ Click on the buttons below for specific information regarding suitable repositor
 </div>
 
 <p>
-  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
+  <button class="btn-expandable"> <a data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
     FEGA Sweden
     <i class="bi bi-chevron-double-down p-2"></i>
-  </a>
+  </a></button>
 </p>
 <div class="collapse" id="collapseExample4">
   <div class="card card-body">
@@ -131,10 +131,10 @@ Depending on the type of image data you have, different public repositories are 
 ### Proteomics data
 The [ProteomeXchange](http://www.proteomexchange.org/) Consortium provides globally coordinated standard data submission and dissemination pipelines involving the main proteomics repositories.
 <p>
-  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6">
+  <button class="btn-expandable"> <a data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6">
     PRIDE
     <i class="bi bi-chevron-double-down p-2"></i>
-  </a>
+  </a></button>
 </p>
 <div class="collapse" id="collapseExample6">
   <div class="card card-body">
@@ -145,10 +145,10 @@ The [ProteomeXchange](http://www.proteomexchange.org/) Consortium provides globa
   <br>
 </div>
 <p>
-  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false" aria-controls="collapseExample7">
+  <button class="btn-expandable"> <a data-bs-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false" aria-controls="collapseExample7">
     PeptideAtlas
     <i class="bi bi-chevron-double-down p-2"></i>
-  </a>
+  </a></button>
 </p>
 <div class="collapse" id="collapseExample7">
   <div class="card card-body">
@@ -172,10 +172,10 @@ For other discipline-specific repositories, see e.g. <a href="https://elixir-eur
 For datasets that do not fit into discipline-specific repositories, it is recommended to use an institutional repository if available. These repositories are often general-purpose repositories with the intention of only being used by researchers at that specific institution. See below a selection of available repositories offered by Swedish academic institutions operating in the life sciences. 
 
 <p>
-  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample8">
+  <button class="btn-expandable"> <a data-bs-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample8">
     KI Data Repository 
     <i class="bi bi-chevron-double-down p-2"></i>
-  </a>
+  </a></button>
 </p>
 <div class="collapse" id="collapseExample8">
   <div class="card card-body">
@@ -186,10 +186,10 @@ For datasets that do not fit into discipline-specific repositories, it is recomm
   <br>
 </div>
 <p>
-  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample15" role="button" aria-expanded="false" aria-controls="collapseExample15">
+  <button class="btn-expandable"> <a data-bs-toggle="collapse" href="#collapseExample15" role="button" aria-expanded="false" aria-controls="collapseExample15">
     KTH Data Repository
     <i class="bi bi-chevron-double-down p-2"></i>
-  </a>
+  </a></button>
 </p>
 <div class="collapse" id="collapseExample15">
   <div class="card card-body">
@@ -200,10 +200,10 @@ For datasets that do not fit into discipline-specific repositories, it is recomm
   <br>
 </div>
 <p>
-  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample9" role="button" aria-expanded="false" aria-controls="collapseExample9">
+  <button class="btn-expandable"> <a data-bs-toggle="collapse" href="#collapseExample9" role="button" aria-expanded="false" aria-controls="collapseExample9">
     KTH Royal Institute of Technology Zenodo community
     <i class="bi bi-chevron-double-down p-2"></i>
-  </a>
+  </a></button>
 </p>
 <div class="collapse" id="collapseExample9">
   <div class="card card-body">
@@ -214,10 +214,10 @@ For datasets that do not fit into discipline-specific repositories, it is recomm
   <br>
 </div>
 <p>
-  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample10" role="button" aria-expanded="false" aria-controls="collapseExample10">
+  <button class="btn-expandable"> <a data-bs-toggle="collapse" href="#collapseExample10" role="button" aria-expanded="false" aria-controls="collapseExample10">
     SciLifeLab Data Repository
     <i class="bi bi-chevron-double-down p-2"></i>
-  </a>
+  </a></button>
 </p>
 <div class="collapse" id="collapseExample10">
   <div class="card card-body">
@@ -228,10 +228,10 @@ For datasets that do not fit into discipline-specific repositories, it is recomm
   <br>
 </div>
 <p>
-  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample11" role="button" aria-expanded="false" aria-controls="collapseExample11">
+  <button class="btn-expandable"> <a data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample11" href="#collapseExample11">
     Stockholm University Figshare
     <i class="bi bi-chevron-double-down p-2"></i>
-  </a>
+  </a></button>
 </p>
 <div class="collapse" id="collapseExample11">
   <div class="card card-body">
@@ -248,10 +248,10 @@ For datasets that do not fit into discipline-specific repositories, it is recomm
 ## General-purpose data repositories 
 A general-purpose data repository is an appropriate choice only if the data does not need to be published in a controlled-access repository, a discipline-specific repository does not exist for the discipline and if there are no institutional repositories available. See below a selection of general-purpose data repositories.
 
-  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample12" role="button" aria-expanded="false" aria-controls="collapseExample12">
+  <button class="btn-expandable"> <a data-bs-toggle="collapse" href="#collapseExample12" role="button" aria-expanded="false" aria-controls="collapseExample12">
     SND DORIS
     <i class="bi bi-chevron-double-down p-2"></i>
-  </a>
+  </a></button>
 </p>
 <div class="collapse" id="collapseExample12">
   <div class="card card-body">
@@ -262,10 +262,10 @@ A general-purpose data repository is an appropriate choice only if the data does
   <br>
 </div>
 
-  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample13" role="button" aria-expanded="false" aria-controls="collapseExample13">
+  <button class="btn-expandable"> <a data-bs-toggle="collapse" href="#collapseExample13" role="button" aria-expanded="false" aria-controls="collapseExample13">
     Figshare
     <i class="bi bi-chevron-double-down p-2"></i>
-  </a>
+  </a></button>
 </p>
 <div class="collapse" id="collapseExample13">
   <div class="card card-body">
@@ -276,10 +276,10 @@ A general-purpose data repository is an appropriate choice only if the data does
   <br>
 </div>
 
-  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample14" role="button" aria-expanded="false" aria-controls="collapseExample14">
+  <button class="btn-expandable"> <a data-bs-toggle="collapse" href="#collapseExample14" role="button" aria-expanded="false" aria-controls="collapseExample14">
     Zenodo
     <i class="bi bi-chevron-double-down p-2"></i>
-  </a>
+  </a></button>
 </p>
 <div class="collapse" id="collapseExample14">
   <div class="card card-body">

@@ -37,18 +37,18 @@ p.big {
   font-size: 18px;
 }
 
+/* Links */
+
+/* Links in text */
 a {
-    color: #045c64;
-    text-decoration: underline;
-    text-underline-offset: 3.2px;
+  text-decoration: none;
 }
 
-a:hover,
-a:focus,
-a:active {
-  color: #045c64;
+a:hover{
   text-decoration: underline;
+  text-underline-offset: 3.2px;
 }
+
 
 .toc-style a {
   color: #045c64;

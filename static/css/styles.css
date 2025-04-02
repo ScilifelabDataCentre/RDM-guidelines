@@ -162,6 +162,13 @@ h6 {
   }
 }
 
+/* Buttons */
+button {
+  border: none;
+  background: none;
+  margin-bottom: 1em;
+}
+
 .btn-aqua {
   color: #fff;
   background-color: #4c979f;
@@ -185,6 +192,23 @@ h6 {
   bottom: 40px;
   right: 40px;
   display: none;
+}
+
+.btn-details {
+  background-color: #e5e5e5;
+  color: black;
+  border-color: #e5e5e5;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.btn-expandable a {
+  background-color: #d2c7d4;
+  color: black;
+  border-color: #d2c7d4;
+  padding: 12px 12px;
+  border-radius: 8px;
+  text-decoration: none;
 }
 
 @supports ((position: -webkit-sticky) or (position: sticky)) {
@@ -295,29 +319,6 @@ html {
   clear: both;
 }
 
-.btn-details.collapsed {
-  background-color: #e5e5e5 !important;
-  color: black !important;
-  border-color: #491f53;
-}
-
-.btn-details:not(.collapsed) {
-  background-color: #e5e5e5 !important;
-  color: black !important;
-  border-color: #e5e5e5;
-}
-
-.btn-primary.collapsed {
-  background-color: #d2c7d4 !important;
-  color: black !important;
-  border-color: #491f53;
-}
-
-.btn-primary:not(.collapsed) {
-  background-color: #d2c7d4 !important;
-  color: black !important;
-  border-color: #d2c7d4 !important;
-}
 
 // RDM wheel frontpage
 

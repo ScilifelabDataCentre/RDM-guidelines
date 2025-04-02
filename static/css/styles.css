@@ -169,15 +169,6 @@ button {
   margin-bottom: 1em;
 }
 
-.btn-aqua {
-  color: #fff;
-  background-color: #4c979f;
-}
-
-.btn-aqua:hover {
-  color: #3f3f3f;
-}
-
 .btn-teal {
   color: #fff;
   background-color: #045c64;

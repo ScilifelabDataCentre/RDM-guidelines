@@ -170,12 +170,27 @@ button {
 }
 
 .btn-teal {
-  color: #fff;
   background-color: #045c64;
-}
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
 
+}
 .btn-teal:hover {
   color: #fff;
+  outline-color: transparent;
+  outline-style:solid;
+  box-shadow: 0 0 0 4px rgba(4, 92, 100, 0.25);
+  text-decoration: none;
+}
+.btn-teal:focus {/* for accessibility when using keys instead of mouse */
+  color: #fff;
+  outline-color: transparent;
+  outline-style:solid;
+  box-shadow: 0 0 0 4px rgba(4, 92, 100, 0.50);
+  text-decoration: none;
 }
 
 #btn-back-to-top {
@@ -192,16 +207,21 @@ button {
   padding: 8px 12px;
   border-radius: 8px;
 }
-
+/* rgba(73, 31, 83, 1); */
 .btn-expandable a {
   background-color: #d2c7d4;
   color: black;
-  border-color: #d2c7d4;
   padding: 12px 12px;
   border-radius: 8px;
   text-decoration: none;
 }
-
+.btn-expandable:hover a {
+  color: black;
+  outline-color: transparent;
+  outline-style:solid;
+  box-shadow: 0 0 0 4px rgba(rgba(73, 31, 83, 0.5));
+  text-decoration: none;
+}
 @supports ((position: -webkit-sticky) or (position: sticky)) {
   .sticky-top {
     position: -webkit-sticky;

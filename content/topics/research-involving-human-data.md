@@ -56,7 +56,7 @@ Many people wrongly believe that the principal investigator in a research projec
 
 The data controller must be identified before any personal data is processed in the project, which means before the data is being collected.
 
-A controller can decide to use another entity to help process the data. That entity is called a [processor](/topics/gdpr-ethical-review-glossary/#processor). The controller must instruct the processor how the data is to be processed in a legaly binding contract called a [data processing agreement](/topics/gdpr-ethical-review-glossary/#data-processing-agreement), and the processor must be able to show that they adhere to the GDPR when processing data on behalf of the controller (see also [Data processing](#data-processing) below).
+A controller can decide to use another entity to help process the data. That entity is called a [processor](/topics/gdpr-ethical-review-glossary/#processor). The controller must instruct the processor how the data is to be processed in a legaly binding contract called a [data processing agreement](/topics/gdpr-ethical-review-glossary/#data-processing-agreement), and the processor must be able to show that they adhere to the GDPR when processing data on behalf of the controller (see also Data processing below).
 
 ## Sharing human data
 
@@ -96,7 +96,10 @@ Before embarking on a new project, consider the following:
 
 ### Data Protection Officer (dataskyddsombud)
 
-The role of the data protection officer is to check that the General Data Protection Regulation (GDPR) is complied with within the organisation. If personal data is processed in your research, you should report this to your institute’s [Data Protection Officer (DPO)](/topics/university-rdm-resources#data-protection-officers).
+The role of the data protection officer is to check that the General Data Protection Regulation (GDPR) is complied with within the organisation. If personal data is processed in your research, you should report this to your institute’s Data Protection Officer (DPO).
+
+<a href="/topics/university-rdm-resources#data-protection-officers"><b>Find university Data Protection Officer (DPO) <i class="bi bi-arrow-right-square-fill"></i></b></a>
+<br/>
 
 
 ### Legal basis for processing personal data

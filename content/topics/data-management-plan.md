@@ -25,7 +25,10 @@ There are several reasons why writing a data management plan is a very good idea
 * By planning how the data will be managed, there’s greater chance that the research data will be **well-managed** (no guarantee, since you still need to have good strategies and actually implement them for this to happen). Of course there are many benefits with well-managed data but the main ones are:
   * **reproducibility**, so that the results can be verified
   * **reusability**, so that this data can be used for answering other scientific questions, thus reducing redundancy
-* A DMP is the first step towards being [**FAIR**](/topic/fair-principles) in your project.
+* A DMP is the first step towards being **FAIR** in your project.
+
+<a href="/topics/fair-principles"><b>Learn more about the FAIR principles <i class="bi bi-arrow-right-square-fill"></i></b></a>
+<br/><br/>
 
 If the reasons above don’t persuade you, the last argument is that it is more and more a **requirement** by funders and other stakeholders:
 * For **transparency** and **openness**: publicly funded research data must be discoverable, accessible, and reusable to the public
@@ -71,14 +74,14 @@ However, the questions in these templates are quite high-level, with little or n
 
 Luckily, there are tools to assist you: 
 
-* [DMPOnline](https://dmponline.dcc.ac.uk/) 
+* DMPOnline 
   - The tool most universities have chosen to offer (check with your institute)
   - Good guidance but typically generic and not Life Science specific
-  - Most often free text answers
-* [Data Stewardship wizard](http://dsw.scilifelab.se/) 
-  - Provided by [SciLifeLab](https://www.scilifelab.se)
+  - Most often free text answers <br/><br/><a href="https://dmponline.dcc.ac.uk/"><b>Go to DMPOnline <i class="bi bi-arrow-right-square-fill"></i></b></a><br/><br/> 
+* Data Stewardship Wizard
+  - Provided by SciLifeLab
   - Gives Life Science specific guidance
-  - Less free text answers, instead many questions with answer options
+  - Less free text answers, instead many questions with answer options<br/><br/><a href="http://dsw.scilifelab.se/"><b>Go to the Data Stewardship Wizard <i class="bi bi-arrow-right-square-fill"></i></b></a><br/><br/> 
 
 ## Resources
 Please find below resources concerning DMPs in form of training, guidance and/or tools.

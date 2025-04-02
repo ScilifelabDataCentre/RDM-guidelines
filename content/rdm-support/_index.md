@@ -39,7 +39,7 @@ We support various RDM aspects, such as publishing data in repositories, sharing
   <h3><b>Want to publish data in a repository?</b></h3><br>
   <p class="card-text">We can guide you in finding suitable discipline-specific repositories for publishing
   your data. SciLifeLab Data Centre also maintains the SciLifeLab Data Repository, where data that can not be deposited in a discipline-specific repository can be published. It is also possible to publish metadata for data you cannot share openly.<br></p>
-  <a href="https://dsw.scilifelab.se"><b>Go to the SciLifeLab Data Repository <i class="bi bi-arrow-right-square-fill"></i></b></a>
+  <a href="https://figshare.scilifelab.se"><b>Go to the SciLifeLab Data Repository <i class="bi bi-arrow-right-square-fill"></i></b></a>
 </div>
 <br><br>
 <div class="row mt-2">

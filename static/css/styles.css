@@ -39,7 +39,9 @@ p.big {
 
 /* Links */
 
-/* Links in text */
+/* Links in text 
+Do not differentiate between internal and external links on styling
+*/
 a {
   text-decoration: none;
 }

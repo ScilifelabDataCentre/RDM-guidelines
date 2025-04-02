@@ -11,7 +11,7 @@
   Complimentary colors
   color: #E5E5E5, rgba(229, 229, 229, 1); light grey
   color: #A6A6A6, rgba(166,166,166, 1); medium grey
-  color: 3F3F3F, rgba(63,63,63,1); dark grey
+  color: #3F3F3F, rgba(63,63,63,1); dark grey
 */
 
 .sr-only {
@@ -162,13 +162,11 @@ h6 {
   }
 }
 
-.btn-aqua {
-  color: #fff;
-  background-color: #4c979f;
-}
-
-.btn-aqua:hover {
-  color: #3f3f3f;
+/* Buttons */
+button {
+  border: none;
+  background: none;
+  margin-bottom: 1em;
 }
 
 .btn-teal {
@@ -185,6 +183,23 @@ h6 {
   bottom: 40px;
   right: 40px;
   display: none;
+}
+
+.btn-details {
+  background-color: #e5e5e5;
+  color: black;
+  border-color: #e5e5e5;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.btn-expandable a {
+  background-color: #d2c7d4;
+  color: black;
+  border-color: #d2c7d4;
+  padding: 12px 12px;
+  border-radius: 8px;
+  text-decoration: none;
 }
 
 @supports ((position: -webkit-sticky) or (position: sticky)) {
@@ -295,29 +310,6 @@ html {
   clear: both;
 }
 
-.btn-details.collapsed {
-  background-color: #e5e5e5 !important;
-  color: black !important;
-  border-color: #491f53;
-}
-
-.btn-details:not(.collapsed) {
-  background-color: #e5e5e5 !important;
-  color: black !important;
-  border-color: #e5e5e5;
-}
-
-.btn-primary.collapsed {
-  background-color: #d2c7d4 !important;
-  color: black !important;
-  border-color: #491f53;
-}
-
-.btn-primary:not(.collapsed) {
-  background-color: #d2c7d4 !important;
-  color: black !important;
-  border-color: #d2c7d4 !important;
-}
 
 // RDM wheel frontpage
 
@@ -526,5 +518,33 @@ html {
 }
 .resource-card-guidance {
   border-color: #045C64 !important;
+}
+
+/* Styles for markdown formatting of inline code and code blocks and copy to clipboard button */
+pre {
+  color: black;
+  background-color: rgba(229,229,229,0.5);
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  line-height: 1.5;
+  padding: 5px;
+  white-space : pre-wrap !important;
+}
+
+.clipboard {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.clipboard-button {
+  position: absolute;   /* put the button inside code block */
+  background-color: rgba(229,229,229,0);
+  border-width: 0px
+}
+
+.clipboard-button:hover {
+  cursor: pointer;
+  background-color: rgba(229, 229, 229, 1);
 }
 

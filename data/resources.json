@@ -70,16 +70,16 @@
             "provider":  ["SciLifeLab"]
         },
         {
-            "title": "SND on Research material with personal data",
-            "short_title": "SND: Research with personal data",
+            "title": "Handbook for data containing personal information",
+            "short_title": "Handbook for personal data",
             "target": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["SND","human data","personal data","SND on Research material with personal data"],
+            "search_tags": ["SND","Swedish National Data Service","human data","personal data","Handbook for data containing personal information", "personal information"],
             "phase": ["Plan", "Collect", "Preserve", "Share"],
             "topic": ["Research involving human data"],
             "level": ["Basic"],
-            "url": "https://snd.gu.se/en/manage-data/plan/research-material-with-personal-data",
-            "description": "Swedish National Data Service (SND) guidance on working with research material containing personal data.",
+            "url": "https://snd.se/en/resources/handbook-data-containing-personal-information",
+            "description": "Swedish National Data Service (SND) guidance on working with research data containing personal information.",
             "provider":  ["SND"]
         },
         {
@@ -505,12 +505,12 @@
             "short_title": "BAS Online",
             "target": ["training"],
             "type": ["Material"],
-            "search_tags": ["SND","BAS","material","legal","DMP","metadata","BAS Online"],
+            "search_tags": ["SND","Swedish National Data Service","BAS","material","legal","DMP","metadata","BAS Online"],
             "phase": ["Plan", "Collect", "Analyse"],
             "level": ["Basic"],
             "url": "https://snd.gu.se/sv/hantera-data/utbildning/bas-online",
             "description": "BAS Online is divided into six sessions consisting of short video presentations, exercises and other material such as texts and linked resources. The course is primarily aimed at those who work at a research data support unit at a Swedish university, and covers topics such as Data management and data management plans, Metadata, Metadata standards, Documentation of research data, Law and research data.",
-            "provider":  ["SND"]
+            "provider": ["SND"]
         },
         {
             "title": "General information about research data on UU intranet",
@@ -613,16 +613,16 @@
             "provider": ["NBIS"]
         }, 
         {
-            "title": "Sharing data with personal information through SND",
-            "short_title": "Sharing personal data through SND",
+            "title": "Data with personal information in DORIS",
+            "short_title": "Personal data in DORIS",
             "target": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["Sharing data with personal information through SND"],
+            "search_tags": ["Data with personal information in DORIS", "Swedish National Data Service", "SND"],
             "phase": ["Share"],
             "topic": ["Sharing human data"],
             "level": ["Basic"],
             "url": "https://snd.se/en/describe-share-data/share-data-step-step/1-preparations/sharing-data-personal-information",
-            "description": "Swedish National Data Service (SND) guidance on sharing data with personal information.",
+            "description": "Swedish National Data Service (SND) guidance on sharing data with personal information in DORIS.",
             "provider": ["SND"]
         }, 
         {
@@ -714,6 +714,32 @@
             "description": "Guidance on how to comprehensively assess the ethical, legal, and social implication (ELSI) aspects of your work throughout all stages of data management.",
             "provider":  ["IDTk"],
             "licence": "CC BY 4.0"
-        }
+        },
+        {
+            "title": "Researchdata.se",
+            "short_title": "Researchdata.se",
+            "target": ["tool"],
+            "type": ["Web page"],
+            "search_tags": ["Researchdata.se","SND","Swedish National Data Service"],
+            "phase": ["Share", "Reuse"],
+            "level": ["Basic"],
+            "url": "https://researchdata.se",
+            "description": "Researchdata.se is a national web portal where you can find, share, and reuse research data from a wide range of disciplines. The portal focuses on searchability and access to data, making it easy to navigate thousands of datasets to find what you are looking for.",
+            "provider":  ["SND"],
+            "licence": "CC BY 4.0 (texts), CC0 (harvested metadata)"
+        },
+        {
+            "title": "DORIS",
+            "short_title": "DORIS",
+            "target": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["DORIS","SND","Swedish National Data Service"],
+            "phase": ["Share", "Reuse"],
+            "topic": ["Sharing human data"],
+            "level": ["Basic"],
+            "url": "https://doris.snd.se",
+            "description": "The Swedish National Data Service's Data Organisation and Information System (DORIS) is a tool for describing and making research data and metadata searchable in the national research data portal Researchdata.se. DORIS can be used throughout the process, from describing and publishing research data, to reusing or reviewing them.",
+            "provider":  ["SND"]
+        }     
     ]
 }

@@ -203,10 +203,18 @@ button {
 .btn-details {
   background-color: #e5e5e5;
   color: black;
-  border-color: #e5e5e5;
   padding: 8px 12px;
   border-radius: 8px;
 }
+.btn-details:hover {
+  background-color: #e5e5e5;
+  color: black;
+  outline-color: transparent;
+  outline-style:solid;
+  box-shadow: 0 0 0 4px rgba(166,166,166, 1);
+  text-decoration: none;
+}
+
 /* rgba(73, 31, 83, 1); */
 .btn-expandable a {
   background-color: #d2c7d4;

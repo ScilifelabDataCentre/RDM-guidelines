@@ -20,9 +20,9 @@ The SciLifeLab RDM guidelines was built and is maintained by the [SciLifeLab Dat
 
 The content of the website is moderated by an [editorial group](/about/contributors/) supported by the SciLifeLab RDM guidelines advisory group. However, contributions are welcome in each of the sections. For example, you can suggest [a new topic](/topics/) or an update to current [research data life cycle](/data-life-cycle) or [topic](/topics/) pages.
 
-<a href="/about/contributors/"><b>See all contributors <i class="bi bi-arrow-right-square-fill"></i></b></a>
+<a class="link-teal" href="/about/contributors/"><b>See all contributors <i class="bi bi-arrow-right-square"></i></b></a>
 
-<a href="/contact/"><b>Contact form for enquiries and contributions <i class="bi bi-arrow-right-square-fill"></i></b></a>
+<a class="link-teal" href="/contact/"><b>Contact form for enquiries and contributions <i class="bi bi-arrow-right-square"></i></b></a>
 <br/><br/>
 ## Organisations behind the guidelines
 <br/>

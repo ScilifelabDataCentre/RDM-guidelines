@@ -86,6 +86,10 @@ h5 a:hover {
   font-weight: bold;
   text-decoration: none;
 }
+.footer-link:hover {
+  color: #045c64;
+  text-decoration: underline;
+}
 
 .small-side-header {
   font-size: 1rem;

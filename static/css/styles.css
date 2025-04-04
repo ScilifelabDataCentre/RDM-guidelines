@@ -173,10 +173,39 @@ button {
 .btn-teal {
   color: #fff;
   background-color: #045c64;
+  border-color: #045c64;
 }
 
 .btn-teal:hover {
   color: #fff;
+  border-color: #ffff;
+  text-decoration: underline;
+}
+
+.btn-light-grey {
+  background-color: #e5e5e5;
+  color: black;
+  border-color: #e5e5e5;
+}
+
+.btn-light-grey:hover {
+  background-color: #e5e5e5;
+  color: black;
+  border-color: #ffff;
+  text-decoration: underline;
+}
+
+.btn-expandable {
+  background-color: #d2c7d4;
+  color: black;
+  border-color: #d2c7d4;
+}
+
+.btn-expandable:hover {
+  background-color: #d2c7d4;
+  color: black;
+  border-color: #ffff;
+  text-decoration: underline;
 }
 
 #btn-back-to-top {
@@ -186,22 +215,6 @@ button {
   display: none;
 }
 
-.btn-details {
-  background-color: #e5e5e5;
-  color: black;
-  border-color: #e5e5e5;
-  padding: 8px 12px;
-  border-radius: 8px;
-}
-
-.btn-expandable a {
-  background-color: #d2c7d4;
-  color: black;
-  border-color: #d2c7d4;
-  padding: 12px 12px;
-  border-radius: 8px;
-  text-decoration: none;
-}
 
 @supports ((position: -webkit-sticky) or (position: sticky)) {
   .sticky-top {

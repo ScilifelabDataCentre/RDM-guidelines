@@ -27,10 +27,10 @@ Data documentation should clearly describe how the data was collected, so that s
 ### Genomics data
 Please find below a selection of [SciLifeLab Genomics services](https://www.scilifelab.se/services/infrastructure?service=genomics)
 <p>
-  <button class="btn-expandable"> <a data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
     NGI
     <i class="bi bi-chevron-double-down p-2"></i>
-  </a></button>
+  </button>
 </p>
 <div class="collapse" id="collapseExample1">
   <div class="card card-body">
@@ -50,10 +50,10 @@ Please find below a selection of [SciLifeLab Genomics services](https://www.scil
   <br>
 </div>
 <p>
-  <button class="btn-expandable"> <a data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
     Clinical Genomics
     <i class="bi bi-chevron-double-down p-2"></i>
-  </a></button>
+  </button>
 </p>
 <div class="collapse" id="collapseExample2">
   <div class="card card-body">
@@ -79,10 +79,10 @@ Please find below a selection of [SciLifeLab Genomics services](https://www.scil
 ### Imaging data
 Please find below a selection of <a href="https://www.scilifelab.se/services/infrastructure?service=bioimaging-and-molecular-structure">SciLifeLab Bioimaging and Molecular Structure services</a>
 <p>
-  <button class="btn-expandable"> <a data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
+  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
     ALM
     <i class="bi bi-chevron-double-down p-2"></i>
-  </a></button>
+  </button>
 </p>
 <div class="collapse" id="collapseExample4">
   <div class="card card-body">
@@ -95,10 +95,10 @@ Please find below a selection of <a href="https://www.scilifelab.se/services/inf
   <br>
 </div>
 <p>
-  <button class="btn-expandable"> <a data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5">
+  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5">
     Cryo-EM
     <i class="bi bi-chevron-double-down p-2"></i>
-  </a></button>
+  </button>
 </p>
 <div class="collapse" id="collapseExample5">
   <div class="card card-body">
@@ -121,10 +121,10 @@ Please find below a selection of <a href="https://www.scilifelab.se/services/inf
 Please find below a selection of <a href="https://www.scilifelab.se/services/infrastructure?metabolomics=&service=metabolomics">SciLifeLab Metabolomics services</a>
 
 <p>
-  <button class="btn-expandable"> <a data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6">
+  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6">
     SMC
     <i class="bi bi-chevron-double-down p-2"></i>
-  </a></button>
+  </button>
 </p>
 <div class="collapse" id="collapseExample6">
   <div class="card card-body">
@@ -143,10 +143,10 @@ Please find below a selection of <a href="https://www.scilifelab.se/services/inf
   <br>
 </div>
 <p>
-  <button class="btn-expandable"> <a data-bs-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false" aria-controls="collapseExample7">
+  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false" aria-controls="collapseExample7">
     Swedish NMR Centre
     <i class="bi bi-chevron-double-down p-2"></i>
-  </a></button>
+  </button>
 </p>
 <div class="collapse" id="collapseExample7">
   <div class="card card-body">
@@ -170,10 +170,10 @@ Please find below a selection of <a href="https://www.scilifelab.se/services/inf
 Please find below a selection of [SciLifeLab Proteomics services](https://www.scilifelab.se/services/infrastructure?service=proteomics)
 
 <p>
-  <button class="btn-expandable"> <a data-bs-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample8">
+  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample8">
     Global Proteomics and Proteogenomics
     <i class="bi bi-chevron-double-down p-2"></i>
-  </a></button>
+  </button>
 </p>
 <div class="collapse" id="collapseExample8">
   <div class="card card-body">
@@ -198,10 +198,10 @@ Please find below a selection of [SciLifeLab Proteomics services](https://www.sc
   <br>
 </div>
 <p>
-  <button class="btn-expandable"> <a data-bs-toggle="collapse" href="#collapseExample11" role="button" aria-expanded="false" aria-controls="collapseExample11">
+  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample11" role="button" aria-expanded="false" aria-controls="collapseExample11">
     Glycoproteomics and MS Proteomics
     <i class="bi bi-chevron-double-down p-2"></i>
-  </a></button>
+  </button>
 </p>
 <div class="collapse" id="collapseExample11">
   <div class="card card-body">
@@ -226,10 +226,10 @@ Please find below a selection of [SciLifeLab Proteomics services](https://www.sc
   <br>
 </div>
 <p>
-  <button class="btn-expandable"> <a data-bs-toggle="collapse" href="#collapseExample9" role="button" aria-expanded="false" aria-controls="collapseExample9">
+  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample9" role="button" aria-expanded="false" aria-controls="collapseExample9">
     Chemical proteomics
     <i class="bi bi-chevron-double-down p-2"></i>
-  </a></button>
+  </button>
 </p>
 <div class="collapse" id="collapseExample9">
   <div class="card card-body">
@@ -242,10 +242,10 @@ Please find below a selection of [SciLifeLab Proteomics services](https://www.sc
   <br>
 </div>
 <p>
-  <button class="btn-expandable"> <a data-bs-toggle="collapse" href="#collapseExample10" role="button" aria-expanded="false" aria-controls="collapseExample10">
+  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample10" role="button" aria-expanded="false" aria-controls="collapseExample10">
     BioMS
     <i class="bi bi-chevron-double-down p-2"></i>
-  </a></button>
+  </button>
 </p>
 <div class="collapse" id="collapseExample10">
   <div class="card card-body">

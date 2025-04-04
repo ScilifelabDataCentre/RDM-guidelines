@@ -200,6 +200,19 @@ button {
   text-decoration: underline;
 }
 
+.btn-expandable {
+  background-color: #d2c7d4;
+  color: black;
+  border-color: #d2c7d4;
+}
+
+.btn-expandable:hover {
+  background-color: #d2c7d4;
+  color: black;
+  border-color: #ffff;
+  text-decoration: underline;
+}
+
 #btn-back-to-top {
   position: fixed;
   bottom: 40px;
@@ -207,16 +220,6 @@ button {
   display: none;
 }
 
-
-
-.btn-expandable a {
-  background-color: #d2c7d4;
-  color: black;
-  border-color: #d2c7d4;
-  padding: 12px 12px;
-  border-radius: 8px;
-  text-decoration: none;
-}
 
 @supports ((position: -webkit-sticky) or (position: sticky)) {
   .sticky-top {

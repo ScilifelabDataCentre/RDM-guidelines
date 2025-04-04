@@ -5,7 +5,13 @@ toc: True
 ---
 
 # Analysing
-During this phase the collected data, both the re-used data and the data created for this project, is explored. Things to consider is where to do the analysis, how to [transfer the data](/topics/data-transfer), who is going to do the analysis, and how the steps of the analysis is going to be documented. Implement a good strategy on data organisation, see e.g. *'[A Quick Guide to Organizing Computational Biology Projects](https://doi.org/10.1371/journal.pcbi.1000424)'* for advice. If working with sensitive data, there might be a need for extra security measures as well as ensuring that all necessary agreements are in place.
+During this phase the collected data, both the re-used data and the data created for this project, is explored. Things to consider are where to do the analysis, how to transfer the data, who is going to do the analysis, and how the steps of the analysis are going to be documented. Implement a good strategy on data organisation, see e.g. *'[A Quick Guide to Organizing Computational Biology Projects](https://doi.org/10.1371/journal.pcbi.1000424)'* for advice. If working with sensitive data, there might be a need for extra security measures as well as ensuring that all necessary agreements are in place.
+
+<a href="/topics/data-transfer"><b>Learn more about data transfer <i class="bi bi-arrow-right-square-fill"></i></b></a>
+<br/>
+
+<a href="/topics/research-involving-human-data"><b>See more guidelines on research involving human data <i class="bi bi-arrow-right-square-fill"></i></b></a>
+<br/><br/>
 
 Facilities which offer data analysis services:
 * [NBIS support](https://nbis.se/get-support) (National Bioinformatics Infrastructure Sweden) offers bioinformatic support in various forms for a wide range of areas including NGS, proteomics, metabolomics and biostatistics.

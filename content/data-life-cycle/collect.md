@@ -7,21 +7,21 @@ toc: True
 # Collecting
 During this phase all necessary data to be analysed in the project is collected, either by generating new datasets or by reusing earlier collected datasets. This phase lays the foundation of the quality of both the data and the accompanying documentation. Hence, it is important that quality measures are implemented and that all steps of collection is appropriately recorded. During this phase possibly large amounts of data might need to be transferred between data producers, compute facilities and storage facilities.
 
-<a href="/data-life-cycle/reuse"><b>Learn more about data reuse <i class="bi bi-arrow-right-square-fill"></i></b></a>
+<a class="link-teal" href="/data-life-cycle/reuse"><b>Learn more about data reuse <i class="bi bi-arrow-right-square"></i></b></a>
 <br/><br/>
-<a href="/topics/data-transfer"><b>Learn more about data transfer <i class="bi bi-arrow-right-square-fill"></i></b></a>
+<a class="link-teal" href="/topics/data-transfer"><b>Learn more about data transfer <i class="bi bi-arrow-right-square"></i></b></a>
 <br/><br/>
 
 ## Documentation
 Data documentation should clearly describe how the data was collected, so that someone else can understand and correctly interpret the data. Make use of electronic lab notebooks (often offered by the university / institute) and metadata standards, and name and organise the files produced appropriately, see e.g. *'[A Quick Guide to Organizing Computational Biology Projects](https://doi.org/10.1371/journal.pcbi.1000424)'* for advice.
 
-<a href="/topics/metadata"><b>Learn more about metadata standards <i class="bi bi-arrow-right-square-fill"></i></b></a>
+<a class="link-teal" href="/topics/metadata"><b>Learn more about metadata standards <i class="bi bi-arrow-right-square"></i></b></a>
 <br/><br/>
 
 ## Data producers
  SciLifeLab provides access to a range of pioneering technologies in molecular biosciences. Please find below a selection of data generating SciLifeLab services for genomics, imaging, metabolomics, and proteomics data.
 
- <a href="https://www.scilifelab.se/services/"><b>Learn more about SciLifeLab services <i class="bi bi-arrow-right-square-fill"></i></b></a>
+ <a class="link-teal" href="https://www.scilifelab.se/services/"><b>Learn more about SciLifeLab services <i class="bi bi-box-arrow-up-right"></i></b></a>
 <br/><br/>
 
 ### Genomics data
@@ -275,10 +275,10 @@ At least essential data, such as raw data and other data that may be difficult o
 
 Consider uploading the raw data to a repository already when receiving them, under an embargo (if it is important that the data remains private during the project). This way there is always an off-site backup with the added benefit of making the data sharing phase more efficient.
 
-<a href="https://data.scilifelab.se/services/fairstorage/"><b>Learn more about SciLifeLab FAIR Storage <i class="bi bi-arrow-right-square-fill"></i></b></a>
+<a class="link-teal" href="https://data.scilifelab.se/services/fairstorage/"><b>Learn more about SciLifeLab FAIR Storage <i class="bi bi-box-arrow-up-right"></i></b></a>
 <br/>
 
-<a href="/data-life-cycle/share"><b>Learn more about data sharing <i class="bi bi-arrow-right-square-fill"></i></b></a>
+<a class="link-teal" href="/data-life-cycle/share"><b>Learn more about data sharing <i class="bi bi-arrow-right-square"></i></b></a>
 <br/><br/>
 
 ## Resources

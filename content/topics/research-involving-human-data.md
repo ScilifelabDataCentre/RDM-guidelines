@@ -66,7 +66,7 @@ Personal data may be possible to share under some circumstances. Make sure to fo
 
 The GDPR states that the processing (including storing) of personal data should stop when the intended purpose of the processing has been fullfilled. There are, however, exemptions to this e.g. when the processing is done for research purposes. Also, from a research ethics point of view, research data should be kept to make it possible for others to validate published findings and reuse data for new discoveries. This is also governed by what the data subjects have been informed about regarding the data procesing.
 
-<a href="/topics/sharing-human-data"><b>See more guidelines on sharing human data <i class="bi bi-arrow-right-square-fill"></i></b></a>
+<a class="link-teal" href="/topics/sharing-human-data"><b>See more guidelines on sharing human data <i class="bi bi-arrow-right-square"></i></b></a>
 <br/><br/>
 
 ## GDPR considerations
@@ -98,7 +98,7 @@ Before embarking on a new project, consider the following:
 
 The role of the data protection officer is to check that the General Data Protection Regulation (GDPR) is complied with within the organisation. If personal data is processed in your research, you should report this to your institute’s Data Protection Officer (DPO).
 
-<a href="/topics/university-rdm-resources#data-protection-officers"><b>Find university Data Protection Officer (DPO) <i class="bi bi-arrow-right-square-fill"></i></b></a>
+<a class="link-teal" href="/topics/university-rdm-resources#data-protection-officers"><b>Find university Data Protection Officer (DPO) <i class="bi bi-arrow-right-square"></i></b></a>
 <br/>
 
 

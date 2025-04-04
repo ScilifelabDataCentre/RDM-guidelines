@@ -5,7 +5,7 @@ toc: True
 ---
 
 # Analysing
-During this phase the collected data, both the re-used data and the data created for this project, is explored. Things to consider is where to do the analysis, how to transfer the data, who is going to do the analysis, and how the steps of the analysis is going to be documented. Implement a good strategy on data organisation, see e.g. *'[A Quick Guide to Organizing Computational Biology Projects](https://doi.org/10.1371/journal.pcbi.1000424)'* for advice. If working with sensitive data, there might be a need for extra security measures as well as ensuring that all necessary agreements are in place.
+During this phase the collected data, both the re-used data and the data created for this project, is explored. Things to consider are where to do the analysis, how to transfer the data, who is going to do the analysis, and how the steps of the analysis are going to be documented. Implement a good strategy on data organisation, see e.g. *'[A Quick Guide to Organizing Computational Biology Projects](https://doi.org/10.1371/journal.pcbi.1000424)'* for advice. If working with sensitive data, there might be a need for extra security measures as well as ensuring that all necessary agreements are in place.
 
 <a href="/topics/data-transfer"><b>Learn more about data transfer <i class="bi bi-arrow-right-square-fill"></i></b></a>
 <br/>

@@ -178,10 +178,14 @@ button {
 .btn-teal {
   color: #fff;
   background-color: #045c64;
+  border-color: #045c64;
 }
 
 .btn-teal:hover {
   color: #fff;
+  border-color: #ffff;
+  text-decoration: underline;
+
 }
 
 #btn-back-to-top {

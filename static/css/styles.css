@@ -168,11 +168,21 @@ button {
   background: none;
 }
 
+#btn-back-to-top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  display: none;
+}
+
 .btn-teal {
   background-color: #045c64;
   color: #fff;
   padding: 8px 12px;
   border-radius: 8px;
+  outline-color: transparent;
+  outline-style:solid;
+  box-shadow: 0 0 0 2px #045c64;
   text-decoration: none;
   text-align: center;
 
@@ -181,22 +191,8 @@ button {
   color: #fff;
   outline-color: transparent;
   outline-style:solid;
-  box-shadow: 0 0 0 4px rgba(4, 92, 100, 0.25);
+  box-shadow: 0 0 0 2px white;
   text-decoration: none;
-}
-.btn-teal:focus {/* for accessibility when using keys instead of mouse */
-  color: #fff;
-  outline-color: transparent;
-  outline-style:solid;
-  box-shadow: 0 0 0 4px rgba(4, 92, 100, 0.50);
-  text-decoration: none;
-}
-
-#btn-back-to-top {
-  position: fixed;
-  bottom: 40px;
-  right: 40px;
-  display: none;
 }
 
 .btn-details {
@@ -204,29 +200,34 @@ button {
   color: black;
   padding: 8px 12px;
   border-radius: 8px;
+  outline-color: transparent;
+  outline-style:solid;
+  box-shadow: 0 0 0 2px #e5e5e5;
 }
 .btn-details:hover {
   background-color: #e5e5e5;
   color: black;
   outline-color: transparent;
   outline-style:solid;
-  box-shadow: 0 0 0 4px rgba(166,166,166, 1);
+  box-shadow: 0 0 0 2px white;
   text-decoration: none;
 }
 
-/* rgba(73, 31, 83, 1); */
 .btn-expandable {
   background-color: #d2c7d4;
   color: black;
-  padding: 12px 12px;
+  padding: 8px 12px;
   border-radius: 8px;
+  outline-color: transparent;
+  outline-style:solid;
+  box-shadow: 0 0 0 2px #d2c7d4;
   text-decoration: none;
 }
 .btn-expandable:hover {
   color: black;
   outline-color: transparent;
   outline-style:solid;
-  box-shadow: 0 0 0 4px rgba(73, 31, 83, 0.5);
+  box-shadow: 0 0 0 2px white;
   text-decoration: none;
 }
 

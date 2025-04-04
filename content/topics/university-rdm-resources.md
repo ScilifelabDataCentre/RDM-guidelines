@@ -88,7 +88,10 @@ Most often there are information resources at your university regarding research
   </table>
 </div>
 
-See the Swedish National Data Service ([SND](https://snd.gu.se/en)) network for [other sites](https://snd.gu.se/en/about-us/snd-network).
+<a href="https://snd.gu.se/en/about-us/snd-network"><b>See the Swedish National Data Service (SND) network for other sites <i class="bi bi-arrow-right-square-fill"></i></b></a>
+<br/><br/>
+
+
 
 ## Data Protection Officers
 

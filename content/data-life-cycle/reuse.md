@@ -12,10 +12,13 @@ Before you decide to embark on a new study, it is nowadays good practice to chec
 ## Data catalogues
 Apart from searching directly in repositories where life science data typically is shared (see [the sharing phase](/data-life-cycle/share/#recommended-discipline-specific-repositories)), there are data catalogues where you can search and discover published data. Note that datasets might have been collected for completely different purposes and still serve your goals.
 
-* Visit the [Swedish Pathogens Portal list of available data](https://pathogens.se/datasets/all/) in order to find publications about COVID-19/SARS-CoV-2 that involve at least one author affiliated with a Swedish research institution.
-* [The Swedish Reference Genome Portal](https://genomes.scilifelab.se) can be used to discover non-human eukaryotic genome assemblies and genome annotations (co-)produced by researchers affiliated with a Swedish institution. 
-* Search in the Registry of Research Data Repositories [re3data](https://www.re3data.org) to find discipline-specific repositories for your field. 
-* The Swedish National Data Service (SND) research data catalogue on [Researchdata.se](https://researchdata.se/en/catalogue) can also be used to search for data from a variety of research disciplines. 
+* Visit the Swedish Pathogens Portal in order to find publications about COVID-19/SARS-CoV-2 that involve at least one author affiliated with a Swedish research institution.<br/><br/><a href="https://pathogens.se/datasets/all/"><b>Go to the Swedish Pathogens Portal list of available data <i class="bi bi-arrow-right-square-fill"></i></b></a><br/><br/>
+
+* The Swedish Reference Genome Portal can be used to discover non-human eukaryotic genome assemblies and genome annotations (co-)produced by researchers affiliated with a Swedish institution.<br/><br/><a href="https://genomes.scilifelab.se"><b>Go to the Swedish Reference Genome Portal <i class="bi bi-arrow-right-square-fill"></i></b></a><br/><br/> 
+
+* Search in the Registry of Research Data Repositories (re3data) to find discipline-specific repositories for your field.<br/><br/><a href="https://www.re3data.org"><b>Go to re3data <i class="bi bi-arrow-right-square-fill"></i></b></a><br/><br/> 
+
+* The Swedish National Data Service (SND) research data catalogue on Researchdata.se can also be used to search for data from a variety of research disciplines.<br/><br/><a href="https://researchdata.se/en/catalogue"><b>Go to Researchdata.se <i class="bi bi-arrow-right-square-fill"></i></b></a><br/><br/> 
 
 ## Resources
 Please find below resources concerning the research data life cycle phase reuse in form of training, guidance and/or tools.

@@ -185,7 +185,19 @@ button {
   color: #fff;
   border-color: #ffff;
   text-decoration: underline;
+}
 
+.btn-light-grey {
+  background-color: #e5e5e5;
+  color: black;
+  border-color: #e5e5e5;
+}
+
+.btn-light-grey:hover {
+  background-color: #e5e5e5;
+  color: black;
+  border-color: #ffff;
+  text-decoration: underline;
 }
 
 #btn-back-to-top {
@@ -195,13 +207,7 @@ button {
   display: none;
 }
 
-.btn-details {
-  background-color: #e5e5e5;
-  color: black;
-  border-color: #e5e5e5;
-  padding: 8px 12px;
-  border-radius: 8px;
-}
+
 
 .btn-expandable a {
   background-color: #d2c7d4;

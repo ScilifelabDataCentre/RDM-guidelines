@@ -180,18 +180,15 @@ button {
   color: #fff;
   padding: 8px 12px;
   border-radius: 8px;
-  outline-color: transparent;
-  outline-style:solid;
-  box-shadow: 0 0 0 2px #045c64;
+  border-color:#045c64; 
   text-decoration: none;
   text-align: center;
-
 }
 .btn-teal:hover {
   color: #fff;
+  border-color: #fff;
   outline-color: transparent;
   outline-style:solid;
-  box-shadow: 0 0 0 2px white;
   text-decoration: none;
 }
 

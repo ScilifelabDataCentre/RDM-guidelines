@@ -32,7 +32,7 @@ menu:
           </div>
         </div>
       </div>
-      <div><a class="btn btn-teal" href="/#resources-tool/">Inform us of other resources</a></div><br><br>
+      <div><a type="button" class="btn-teal" href="/contact/">Inform us of other resources</a></div><br><br>
     </div>
   </div>
 </section>

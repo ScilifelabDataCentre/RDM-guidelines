@@ -156,16 +156,6 @@ h6 {
 button {
   border: none;
   background: none;
-  margin-bottom: 1em;
-}
-
-.btn-teal {
-  color: #fff;
-  background-color: #045c64;
-}
-
-.btn-teal:hover {
-  color: #fff;
 }
 
 #btn-back-to-top {
@@ -175,20 +165,56 @@ button {
   display: none;
 }
 
+.btn-teal {
+  background-color: #045c64;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border-color:#045c64; 
+  text-decoration: none;
+  text-align: center;
+}
+.btn-teal:hover {
+  color: #fff;
+  border-color: #fff;
+  outline-color: transparent;
+  outline-style:solid;
+  text-decoration: none;
+}
+
 .btn-details {
   background-color: #e5e5e5;
   color: black;
-  border-color: #e5e5e5;
   padding: 8px 12px;
   border-radius: 8px;
+  outline-color: transparent;
+  outline-style:solid;
+  box-shadow: 0 0 0 2px #e5e5e5;
+}
+.btn-details:hover {
+  background-color: #e5e5e5;
+  color: black;
+  outline-color: transparent;
+  outline-style:solid;
+  box-shadow: 0 0 0 2px white;
+  text-decoration: none;
 }
 
-.btn-expandable a {
+.btn-expandable {
   background-color: #d2c7d4;
   color: black;
-  border-color: #d2c7d4;
-  padding: 12px 12px;
+  padding: 8px 12px;
   border-radius: 8px;
+  outline-color: transparent;
+  outline-style:solid;
+  box-shadow: 0 0 0 2px #d2c7d4;
+  text-decoration: none;
+}
+.btn-expandable:hover {
+  color: black;
+  outline-color: transparent;
+  outline-style:solid;
+  box-shadow: 0 0 0 2px white;
   text-decoration: none;
 }
 

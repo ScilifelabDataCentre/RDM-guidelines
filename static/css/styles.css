@@ -37,18 +37,20 @@ p.big {
   font-size: 18px;
 }
 
+/* Links */
+
+/* Links in text 
+Do not differentiate between internal and external links on styling
+*/
 a {
-    color: #045c64;
-    text-decoration: underline;
-    text-underline-offset: 3.2px;
+  text-decoration: none;
 }
 
-a:hover,
-a:focus,
-a:active {
-  color: #045c64;
+a:hover{
   text-decoration: underline;
+  text-underline-offset: 3.2px;
 }
+
 
 .toc-style a {
   color: #045c64;
@@ -83,6 +85,10 @@ h5 a:hover {
   color: #045c64;
   font-weight: bold;
   text-decoration: none;
+}
+.footer-link:hover {
+  color: #045c64;
+  text-decoration: underline;
 }
 
 .small-side-header {

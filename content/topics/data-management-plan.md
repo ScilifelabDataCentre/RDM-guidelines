@@ -27,7 +27,7 @@ There are several reasons why writing a data management plan is a very good idea
   * **reusability**, so that this data can be used for answering other scientific questions, thus reducing redundancy
 * A DMP is the first step towards being **FAIR** in your project.
 
-<a href="/topics/fair-principles"><b>Learn more about the FAIR principles <i class="bi bi-arrow-right-square-fill"></i></b></a>
+<a class="link-teal" href="/topics/fair-principles"><b>Learn more about the FAIR principles <i class="bi bi-arrow-right-square"></i></b></a>
 <br/><br/>
 
 If the reasons above don’t persuade you, the last argument is that it is more and more a **requirement** by funders and other stakeholders:
@@ -77,11 +77,11 @@ Luckily, there are tools to assist you:
 * DMPOnline 
   - The tool most universities have chosen to offer (check with your institute)
   - Good guidance but typically generic and not Life Science specific
-  - Most often free text answers <br/><br/><a href="https://dmponline.dcc.ac.uk/"><b>Go to DMPOnline <i class="bi bi-arrow-right-square-fill"></i></b></a><br/><br/> 
+  - Most often free text answers <br/><br/><a class="link-teal" href="https://dmponline.dcc.ac.uk/" target="_blank"><b>Go to DMPOnline <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/> 
 * Data Stewardship Wizard
   - Provided by SciLifeLab
   - Gives Life Science specific guidance
-  - Less free text answers, instead many questions with answer options<br/><br/><a href="http://dsw.scilifelab.se/"><b>Go to the Data Stewardship Wizard <i class="bi bi-arrow-right-square-fill"></i></b></a><br/><br/> 
+  - Less free text answers, instead many questions with answer options<br/><br/><a class="link-teal" href="http://dsw.scilifelab.se/" target="_blank"><b>Go to the Data Stewardship Wizard <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/> 
 
 ## Resources
 Please find below resources concerning DMPs in form of training, guidance and/or tools.

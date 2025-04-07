@@ -18,28 +18,28 @@ We support various RDM aspects, such as publishing data in repositories, sharing
 
 <h2>Want expert advice or hands-on support?</h2>
 <p class="card-text">We offer <b>free</b> consultations and support on all aspects of data management to researchers and research infrastructures in Swedish life science research. Discuss your data management issues with us by visiting the online <b>NBIS Drop-in</b> at <a href = "https://meet.nbis.se/dropin">https://meet.nbis.se/dropin</a> on Tuesdays at 14:00. Contact our team via email, <a href = "mailto:data-management@scilifelab.se">data-management@scilifelab.se</a>, or the contact form for expert advise on setting up DMPs, sharing data, choosing repositories etc.</p>
-<a href="/contact/"><b>Contact form to get support <i class="bi bi-arrow-right-square-fill"></i></b></a>
+<a class= "link-teal" href="/contact/"><b>Contact form to get support <i class="bi bi-arrow-right-square"></i></b></a>
 <br><br><br>
 
 
-<div class="row cards pt-5 pb-5 p-4 rounded cont-links text-black d-flex">
+<div class="row cards pt-5 pb-5 p-4 rounded text-black d-flex">
   <h3><b>Need a Data Management Plan?</b></h3><br>
   <p class="card-text">It is good research practice to take care of your research data and document the
   strategies for doing so in a Data Management Plan (DMP). SciLifeLab offers a DMP tool for life science data called Data Stewardship Wizard.
   <br></p>
-  <a href="https://dsw.scilifelab.se"><b>Go to the Data Stewardship Wizard <i class="bi bi-arrow-right-square-fill"></i></b></a>
+  <a class="link-black" href="https://dsw.scilifelab.se" target="_blank"><b>Go to the Data Stewardship Wizard <i class="bi bi-box-arrow-up-right"></i></b></a>
   <br/><br/>
 
   <h3><b>Looking for training to cultivate skills?</b></h3><br>
   <p class="card-text">NBIS offers training and workshops on research data management and reproducibility as well as bioinformatics.
   <br></p>
-  <a href="https://nbis.se/training"><b>Learn more about NBIS training <i class="bi bi-arrow-right-square-fill"></i></b></a>
+  <a class="link-black" href="https://nbis.se/training" target="_blank"><b>Learn more about NBIS training <i class="bi bi-box-arrow-up-right"></i></b></a>
   <br/><br/>
 
   <h3><b>Want to publish data in a repository?</b></h3><br>
   <p class="card-text">We can guide you in finding suitable discipline-specific repositories for publishing
   your data. SciLifeLab Data Centre also maintains the SciLifeLab Data Repository, where data that can not be deposited in a discipline-specific repository can be published. It is also possible to publish metadata for data you cannot share openly.<br></p>
-  <a href="https://figshare.scilifelab.se"><b>Go to the SciLifeLab Data Repository <i class="bi bi-arrow-right-square-fill"></i></b></a>
+  <a class="link-black" href="https://figshare.scilifelab.se" target="_blank"><b>Go to the SciLifeLab Data Repository <i class="bi bi-box-arrow-up-right"></i></b></a>
 </div>
 <br><br>
 <div class="row mt-2">

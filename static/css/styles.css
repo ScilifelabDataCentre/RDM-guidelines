@@ -64,6 +64,37 @@ a:hover {
   background-color: rgba(229, 229, 229, 1);
 }
 
+/* Links not in text 
+Differentiate between internal and external links by using diffrent bootstrap icons. 
+Internal - bi-arrow-right-square
+External - bi-box-arrow-up-right; add 'target="_blank"' so that they open up in new tabs
+*/
+
+/* 
+Use link-teal for standalone links on white background.
+*/
+.link-teal {
+  color: #045c64;
+}
+
+.link-teal:hover {
+  color: #045c64;
+  text-decoration: underline; 
+}
+
+/* 
+Use link-black for standalone links on colored background.
+*/
+
+.link-black {
+  color: black;
+}
+
+.link-black:hover {
+  color: black;
+  text-decoration: underline; 
+}
+
 .toc-style a {
   color: #045c64;
 }

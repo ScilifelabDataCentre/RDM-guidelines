@@ -10,7 +10,7 @@ toc: True
   <B><I>Disclaimer!</I></B> The PI, as well as everyone with access to sensitive personal data, is responsible for following current laws and regulations, and SciLifeLab will not assume legal responsibility for advice provided in these guidelines.
 </div>
 
-<a href="/topics/research-involving-human-data"><b>See more guidelines on research involving human data <i class="bi bi-arrow-right-square-fill"></i></b></a>
+<a class="link-teal" href="/topics/research-involving-human-data"><b>See more guidelines on research involving human data <i class="bi bi-arrow-right-square"></i></b></a>
 <br/><br/>
 
 
@@ -18,7 +18,7 @@ toc: True
 
 If your data cannot be linked to a living person, there is nothing in GDPR that prohibits you from sharing the data publicly. Data may however be sensitive under other regulations, so make sure that you take all relevant legal aspects into account. If you are dealing with human data, you should of course also think about the ethical and societal implications of sharing the data.
 
-<a href="/data-life-cycle/share/"><b>Learn more about data sharing and repositories <i class="bi bi-arrow-right-square-fill"></i></b></a>
+<a class="link-teal" href="/data-life-cycle/share/"><b>Learn more about data sharing and repositories <i class="bi bi-arrow-right-square"></i></b></a>
 <br/><br/>
 
 
@@ -31,17 +31,17 @@ Here are some repositories for sharing and archiving data under controlled acces
 ### European Genome-phenome Archive (EGA)
 European Genome-phenome Archive is a service for sharing personally identifiable genetic and phenotypic data resulting from biomedical research projects. The repository is hosted by the European Bioinformatics Institute (EMBL-EBI) and the Centre for Genomic Regulation (CRG). Any data submitted to the repository is subject to controlled access, which means that access to the data only will be granted after a formal application procedure.
 
-<a href="https://ega-archive.org"><b>Go to the European Genome-phenome Archive <i class="bi bi-arrow-right-square-fill"></i></b></a><br/><br/> 
+<a class="link-teal" href="https://ega-archive.org" target="_blank"><b>Go to the European Genome-phenome Archive <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/> 
 
 ### FEGA Sweden
 FEGA Sweden is a repository for storing and sharing personally identifiable genetic and phenotypic data in Sweden in a way that meets the requirements of the General Data Protection Regulation (GDPR). It is part of the [Federated European Genome-phenome Archive](https://ega-archive.org/about/projects-and-funders/federated-ega/) (FEGA), which is a network consisting of several national nodes and the European Genome-phenome Archive (EGA). Researchers can create a submission request by filling in a form on the website. If you would like more information or have any questions regarding FEGA Sweden, please feel free to contact the FEGA Sweden Helpdesk at [ega-se@nbis.se](mailto:ega-se@nbis.se)
 
-<a href="https://fega.nbis.se/"><b>Go to FEGA Sweden <i class="bi bi-arrow-right-square-fill"></i></b></a><br/><br/> 
+<a class="link-teal" href="https://fega.nbis.se/" target="_blank"><b>Go to FEGA Sweden <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/> 
 
 ### Analytic Imaging Diagnostics Arena (AIDA) Data Hub
 AIDA Data Hub platform is part of the [Analytic Imaging Diagnostics Arena (AIDA)](https://medtech4health.se/aida/) and NBIS/SciLifeLab. It provides Data Sharing, Policy Support, and Services for researchers in Swedish medical imaging AI, and facilitates sharing of FAIR medical imaging research data for Open Science. The [AIDA Data Sharing Policy](https://datahub.aida.scilifelab.se/sharing/) is a comprehensive resource developed by ~50 AIDA partners in healthcare, industry, and academia, which includes legal analyses, best practices, and practical instructions for how to carry out ethically and legally correct sharing of sensitive personal data such as medical images in Sweden and similar countries. The [AIDA Dataset Register](https://datahub.aida.scilifelab.se/datasets/) provides Digital Object Identifiers (DOI) and landing pages for the datasets that have been shared on the AIDA Data Hub.
 
-<a href="https://datahub.aida.scilifelab.se/"><b>Go to the AIDA Data Hub <i class="bi bi-arrow-right-square-fill"></i></b></a><br/><br/> 
+<a class="link-teal" href="https://datahub.aida.scilifelab.se/" target="_blank"><b>Go to the AIDA Data Hub <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/> 
 
 ### Swedish National Data Service (SND)
 
@@ -56,12 +56,12 @@ Here are a few repositories where you can register metadata records:
 ### SciLifeLab Data Repository
 SciLifeLab is hosting an institutional repository, SciLifeLab Data Repository, for publishing any kind of research-related data, e.g. documents, figures, or presentations. This repository is an instance of Figshare, which means that every item will get a unique DOI. You can read more in the [repository's guidelines](https://www.scilifelab.se/data/repository). If you need any help connected to the SciLifeLab Data Repository, please [contact us](../../contact/)!
 
-<a href="https://figshare.scilifelab.se"><b>Go to the SciLifeLab Data Repository <i class="bi bi-arrow-right-square-fill"></i></b></a><br/><br/>
+<a class="link-teal" href="https://figshare.scilifelab.se" target="_blank"><b>Go to the SciLifeLab Data Repository <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/>
 
 ### BioStudies
 BioStudies database contains descriptions of biological studies and is especially suited for linking a study to datasets in different repositories. However, it can also be used to describe sensitive data that has not been uploaded to a repository. BioStudies is hosted by the European Bioinformatics Institute (EMBL-EBI). For an example submission to BioStudies (though not related to human data), see [NBIS Submission documentation](https://github.com/NBISweden/data-submission-documentation/tree/main/BioStudies). 
 
-<a href="https://www.ebi.ac.uk/biostudies/"><b>Go to BioStudies <i class="bi bi-arrow-right-square-fill"></i></b></a><br/><br/> 
+<a class="link-teal" href="https://www.ebi.ac.uk/biostudies/" target="_blank"><b>Go to BioStudies <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/> 
 
 
 ## How can SciLifeLab help you sharing human data?

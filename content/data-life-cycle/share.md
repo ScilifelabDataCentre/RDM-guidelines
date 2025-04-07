@@ -7,7 +7,7 @@ toc: True
 # Sharing
 In the era of FAIR (Findable, Accessible, Interoperable and Reusable) and [Open science](https://www.vr.se/english/mandates/open-science/open-access-to-research-data.html), datasets should be made available to the public. Whenever possible, discipline-specific repositories (with or without controlled access) should be used in order to increase the FAIRness of your research outputs. If no such repository is available, there are general-purpose repositories.
 
-<a href="/topics/fair-principles"><b>Learn more about the FAIR principles <i class="bi bi-arrow-right-square-fill"></i></b></a>
+<a class="link-teal" href="/topics/fair-principles"><b>Learn more about the FAIR principles <i class="bi bi-arrow-right-square"></i></b></a>
 <br/><br/>
 
 ## Finding a suitable repository type
@@ -22,7 +22,7 @@ In the era of FAIR (Findable, Accessible, Interoperable and Reusable) and [Open 
 
 There may be cases where openly sharing data is not feasible due to ethical or confidentiality considerations. Depending on what the ethical board approving your study said about data sharing, and the level of permission granted from participants, it may still be possible to make your data accessible to authenticated users via a controlled-access repository.
 
-<a href="/topics/sharing-human-data"><b>See more guidelines on sharing human data <i class="bi bi-arrow-right-square-fill"></i></b></a>
+<a class="link-teal" href="/topics/sharing-human-data"><b>See more guidelines on sharing human data <i class="bi bi-arrow-right-square"></i></b></a>
 
 **Is there a discipline specific repository for your dataset?**
 

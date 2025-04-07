@@ -88,7 +88,7 @@ Most often there are information resources at your university regarding research
   </table>
 </div>
 
-<a class="link-teal" href="https://snd.gu.se/en/about-us/snd-network"><b>See the Swedish National Data Service (SND) network for other sites <i class="bi bi-box-arrow-up-right"></i></b></a>
+<a class="link-teal" href="https://snd.gu.se/en/about-us/snd-network" target="_blank"><b>See the Swedish National Data Service (SND) network for other sites <i class="bi bi-box-arrow-up-right"></i></b></a>
 <br/><br/>
 
 

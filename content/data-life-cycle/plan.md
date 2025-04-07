@@ -11,7 +11,7 @@ It is wise to write a data management plan (DMP), using either a tool provided b
 
 <a class="link-teal" href="/topics/data-management-plan"><b>See more guidelines on data management plans <i class="bi bi-arrow-right-square"></i></b></a>
 <br/><br/>
-<a class="link-teal" href="https://dsw.scilifelab.se/"><b>Learn more about the Data Stewardship Wizard (DSW) <i class="bi bi-box-arrow-up-right"></i></b></a>
+<a class="link-teal" href="https://dsw.scilifelab.se/" target="_blank"><b>Learn more about the Data Stewardship Wizard (DSW) <i class="bi bi-box-arrow-up-right"></i></b></a>
 <br/><br/>
 
 High quality science is often only possible if the infrastructure resources you intend to use get involved already in the planning phase of a project. Consultation and advice regarding data management planning, data generation and data analysis are offered by [NBIS](https://nbis.se/get-support/talk-to-us) and [SciLifeLab units](https://www.scilifelab.se/services). Many institutes / universities have established research data offices which provide guidance, policies, and support regarding data management questions. There might also be some policies regarding research data from funders or other stakeholders, that you need to be aware of and adhere to.
@@ -27,7 +27,7 @@ Also, some resources have specific application periods and thus needs to be cont
 ## ORCID
 In the planning phase it can be good to adress the question of Open Researcher and Contributor IDs (ORCID). An ORCID is a unique persistent identifier for researchers, and allows you to be uniquely identified and accurately attributed for your work. Visit the [ORCID website](https://orcid.org/register) in order to register an ORCID. 
 
-<a class="link-teal" href="https://orcid.org/"><b>Learn more about ORCID <i class="bi bi-box-arrow-up-right"></i></b></a>
+<a class="link-teal" href="https://orcid.org/" target="_blank"><b>Learn more about ORCID <i class="bi bi-box-arrow-up-right"></i></b></a>
 <br/><br/>
 
 

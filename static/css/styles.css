@@ -65,9 +65,9 @@ a:hover {
 }
 
 /* Links not in text 
-Differentiate between internal and external links by using diffrent bootsrap icons. 
+Differentiate between internal and external links by using diffrent bootstrap icons. 
 Internal - bi-arrow-right-square
-External - bi-box-arrow-up-right
+External - bi-box-arrow-up-right; add 'target="_blank"' so that they open up in new tabs
 */
 
 /* 

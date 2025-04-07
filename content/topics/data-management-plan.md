@@ -77,11 +77,11 @@ Luckily, there are tools to assist you:
 * DMPOnline 
   - The tool most universities have chosen to offer (check with your institute)
   - Good guidance but typically generic and not Life Science specific
-  - Most often free text answers <br/><br/><a class="link-teal" href="https://dmponline.dcc.ac.uk/"><b>Go to DMPOnline <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/> 
+  - Most often free text answers <br/><br/><a class="link-teal" href="https://dmponline.dcc.ac.uk/"><b>Go to DMPOnline <i class="bi bi-box-arrow-up-right" target="_blank"></i></b></a><br/><br/> 
 * Data Stewardship Wizard
   - Provided by SciLifeLab
   - Gives Life Science specific guidance
-  - Less free text answers, instead many questions with answer options<br/><br/><a class="link-teal" href="http://dsw.scilifelab.se/"><b>Go to the Data Stewardship Wizard <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/> 
+  - Less free text answers, instead many questions with answer options<br/><br/><a class="link-teal" href="http://dsw.scilifelab.se/" target="_blank"><b>Go to the Data Stewardship Wizard <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/> 
 
 ## Resources
 Please find below resources concerning DMPs in form of training, guidance and/or tools.

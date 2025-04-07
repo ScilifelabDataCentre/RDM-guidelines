@@ -170,6 +170,9 @@ button {
   margin-bottom: 1em;
 }
 
+.btn:focus {
+  box-shadow: none;
+}
 .btn-teal {
   color: #fff;
   background-color: #045c64;

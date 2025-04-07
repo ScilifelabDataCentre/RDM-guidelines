@@ -39,6 +39,7 @@ p.big {
 
 /* Links */
 
+/* All links - add underline on hover */
 /* Links in text 
 Do not differentiate between internal and external links on styling
 */
@@ -46,54 +47,48 @@ a {
   text-decoration: none;
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
   text-underline-offset: 3.2px;
 }
 
+.dropdown-item.hover, .dropdown-item:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: rgba(229, 229, 229, 0.5);
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: rgba(229, 229, 229, 1);
+}
 
 .toc-style a {
   color: #045c64;
-  text-decoration: none;  
 }
 
 .list-link a {
   color: #045c64;
-  text-decoration: none;
 }
 .breadcrumb-item a {
   text-decoration: none; 
 }
 
-h1 a,
-h2 a,
-h3 a,
-h4 a,
-h5 a {
+h1 a {
   color: #4c979f;
-  text-decoration: none;
 }
 
-h2 a:hover,
-h3 a:hover,
-h4 a:hover,
-h5 a:hover {
-  text-decoration: none;
+h1 a:hover {
   color: #045c64;
 }
+
 .footer-link {
   color: #045c64;
   font-weight: bold;
-  text-decoration: none;
 }
 .footer-link:hover {
   color: #045c64;
-  text-decoration: underline;
-}
-
-.small-side-header {
-  font-size: 1rem;
-  margin-top: 1.33em;
 }
 
 .card-body-style {

@@ -170,13 +170,57 @@ button {
   margin-bottom: 1em;
 }
 
+.btn:focus {
+  box-shadow: none;
+}
 .btn-teal {
   color: #fff;
   background-color: #045c64;
+  border-color: #045c64;
+  border-style: solid;
+  border-width: medium;
 }
 
 .btn-teal:hover {
   color: #fff;
+  border-color: #ffff;
+  text-decoration: underline;
+  border-style: solid;
+  border-width: medium;
+}
+
+.btn-light-grey {
+  background-color: #e5e5e5;
+  color: black;
+  border-color: #e5e5e5;
+  border-style: solid;
+  border-width: medium;
+}
+
+.btn-light-grey:hover {
+  background-color: #e5e5e5;
+  color: black;
+  border-color: #ffff;
+  text-decoration: underline;
+  border-style: solid;
+  border-width: medium;
+}
+
+.btn-expandable {
+  background-color: #d2c7d4;
+  color: black;
+  border-color: #d2c7d4;
+  border-style: solid;
+  border-width: medium;
+}
+
+.btn-expandable:hover {
+  background-color: #d2c7d4;
+  color: black;
+  border-color: #ffff;
+  text-decoration: underline;
+  border-style: solid;
+  border-width: medium;
 }
 
 #btn-back-to-top {
@@ -186,22 +230,6 @@ button {
   display: none;
 }
 
-.btn-details {
-  background-color: #e5e5e5;
-  color: black;
-  border-color: #e5e5e5;
-  padding: 8px 12px;
-  border-radius: 8px;
-}
-
-.btn-expandable a {
-  background-color: #d2c7d4;
-  color: black;
-  border-color: #d2c7d4;
-  padding: 12px 12px;
-  border-radius: 8px;
-  text-decoration: none;
-}
 
 @supports ((position: -webkit-sticky) or (position: sticky)) {
   .sticky-top {

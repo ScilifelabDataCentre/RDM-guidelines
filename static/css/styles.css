@@ -14,25 +14,25 @@
   color: #3F3F3F, rgba(63,63,63,1); dark grey
 */
 :root {
-  --grape1: rgba(73, 31, 83, 1); /* used */
-  --grape0_75: rgba(73, 31, 83, 0.75); /* unused */
-  --grape0_50: rgba(73, 31, 83, 0.50); /* unused */
-  --grape0_25: rgba(73, 31, 83, 0.25); /* used */
-  --lime1: rgba(167, 201, 71, 1); /* likely unused */
-  --lime0_75: rgba(167, 201, 71, 0.75); /* unused */
-  --lime0_50: rgba(167, 201, 71, 0.50); /*unused */
-  --lime0_25: rgba(167, 201, 71, 0.25); /* used */
-  --teal1: rgba(4, 92, 100, 1); /* used */
-  --teal0_75: rgba(4, 92, 100, 0.75); /* unused */
-  --teal0_50: rgba(4, 92, 100, 0.50); /* unused */
-  --teal0_25: rgba(4, 92, 100, 0.25); /* used */
-  --aqua1: rgba(76, 151, 159, 1); /* used */
-  --aqua0_75: rgba(76, 151, 159, 0.75); /* used */
-  --aqua0_50: rgba(76, 151, 159, 0.50); /* unused */
-  --aqua0_25: rgba(76, 151, 159, 0.25); /* used */
-  --light_grey: rgba(229, 229, 229, 1); /* used */
-  --medium_grey: rgba(166,166,166, 1); /* likely unused */
-  --dark_grey: rgba(63,63,63,1); 
+  --grape1: #491F53; /* used */
+  --grape0_75: #77577E; /* unused */
+  --grape0_50: #A48FA9; /* unused */
+  --grape0_25: #D2C7D4; /* used */
+  --lime1: #A7C947; /* likely unused */
+  --lime0_75: #BDD775; /* unused */
+  --lime0_50: #D3E4A3; /*unused */
+  --lime0_25: #E9F2D1; /* used */
+  --teal1: #045C64; /* used */
+  --teal0_75: #43858B; /* unused */
+  --teal0_50: #82AEB2; /* unused */
+  --teal0_25: #C0D6D8; /* used */
+  --aqua1: #4C979F; /* used */
+  --aqua0_75: #79B1B7; /* used */
+  --aqua0_50: #A6CBCF; /* unused */
+  --aqua0_25: #D2E5E7; /* used */
+  --light_grey: #E5E5E5; /* used */
+  --medium_grey: #A6A6A6; /* likely unused */
+  --dark_grey: #3F3F3F; 
 }
 .sr-only {
   position:absolute;

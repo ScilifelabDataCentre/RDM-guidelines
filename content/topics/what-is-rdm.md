@@ -18,7 +18,7 @@ Research data is a core component of any research project or publication. Good d
 
 Research data needs to be secured beyond the project’s time frame.
 
-Please find below a video presentation on the topic 'The why of research data management' produced by [ELIXIR](https://elixir-europe.org/), a European life sciences infrastructure.
+Please find below a video presentation on the topic 'The why of research data management' produced by <a href="https://elixir-europe.org/" target="_blank">ELIXIR</a>, a European life sciences infrastructure.
 
 <div>
     <a href="https://www.youtube.com/watch?v=S7HfUe1hWcg"><img src="/img/elixir-why-dm-comics-play-button-frame.jpg" alt="ELIXIR why DM comics"  class="img-fluid"></a>

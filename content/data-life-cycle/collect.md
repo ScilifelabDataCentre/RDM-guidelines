@@ -13,7 +13,7 @@ During this phase all necessary data to be analysed in the project is collected,
 <br/><br/>
 
 ## Documentation
-Data documentation should clearly describe how the data was collected, so that someone else can understand and correctly interpret the data. Make use of electronic lab notebooks (often offered by the university / institute) and metadata standards, and name and organise the files produced appropriately, see e.g. *'[A Quick Guide to Organizing Computational Biology Projects](https://doi.org/10.1371/journal.pcbi.1000424)'* for advice.
+Data documentation should clearly describe how the data was collected, so that someone else can understand and correctly interpret the data. Make use of electronic lab notebooks (often offered by the university / institute) and metadata standards, and name and organise the files produced appropriately, see e.g. *'<a href="https://doi.org/10.1371/journal.pcbi.1000424" target="_blank">A Quick Guide to Organizing Computational Biology Projects</a>'* for advice.
 
 <a class="link-teal" href="/topics/metadata"><b>Learn more about metadata standards <i class="bi bi-arrow-right-square"></i></b></a>
 <br/><br/>
@@ -25,7 +25,7 @@ Data documentation should clearly describe how the data was collected, so that s
 <br/><br/>
 
 ### Genomics data
-Please find below a selection of [SciLifeLab Genomics services](https://www.scilifelab.se/services/infrastructure?service=genomics)
+Please find below a selection of <a href="https://www.scilifelab.se/services/infrastructure?service=genomics" target="_blank">SciLifeLab Genomics services</a>
 <p>
   <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
     NGI
@@ -36,7 +36,7 @@ Please find below a selection of [SciLifeLab Genomics services](https://www.scil
   <div class="card card-body">
   <span>
   <p>
-  <a href="https://ngisweden.scilifelab.se/">National Genomics Infrastructure</a> (NGI) offers an infrastructure equipped with a comprehensive range of technology platforms for next generation sequencing (NGS) and genotyping.</p>
+  <a href="https://ngisweden.scilifelab.se/" target="_blank">National Genomics Infrastructure</a> (NGI) offers an infrastructure equipped with a comprehensive range of technology platforms for next generation sequencing (NGS) and genotyping.</p>
   <ul>
     <li> Whole-genome sequencing (human)</li>
     <li> RNA sequencing</li>
@@ -59,7 +59,7 @@ Please find below a selection of [SciLifeLab Genomics services](https://www.scil
   <div class="card card-body">
   <span>
     <p>
-      <a href="https://clinical-genomics.scilifelab.se/">Clinical Genomics</a> facilitates the translation of new high-throughput (HTP) techniques, such as next-generation sequencing (NGS), into clinical use, in order to meet the needs from translational researchers and clinicians in healthcare and public health systems.
+      <a href="https://clinical-genomics.scilifelab.se/" target="_blank">Clinical Genomics</a> facilitates the translation of new high-throughput (HTP) techniques, such as next-generation sequencing (NGS), into clinical use, in order to meet the needs from translational researchers and clinicians in healthcare and public health systems.
     </p>
     <ul>
       <li> Advanced data analytics</li>
@@ -77,7 +77,7 @@ Please find below a selection of [SciLifeLab Genomics services](https://www.scil
 &nbsp;
 
 ### Imaging data
-Please find below a selection of <a href="https://www.scilifelab.se/services/infrastructure?service=bioimaging-and-molecular-structure">SciLifeLab Bioimaging and Molecular Structure services</a>
+Please find below a selection of <a href="https://www.scilifelab.se/services/infrastructure?service=bioimaging-and-molecular-structure" target="_blank">SciLifeLab Bioimaging and Molecular Structure services</a>
 <p>
   <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
     ALM
@@ -88,7 +88,7 @@ Please find below a selection of <a href="https://www.scilifelab.se/services/inf
   <div class="card card-body">
   <span>
     <p>
-      <a href="https://www.scilifelab.se/units/alm/">Advanced Light Microscopy</a> (ALM) unit give support with advanced fluorescence microscopy for nanoscale biological visualization, single molecule spectroscopy measurement and analysis with fluorescence correlation spectroscopy (FCS), as well as combined with superresolution dynamical studies (STED-FCS). Moreover, light-sheet fluorescence microscopy support allow users to image live and/or optically cleared larger samples.
+      <a href="https://www.scilifelab.se/units/alm/" target="_blank">Advanced Light Microscopy</a> (ALM) unit give support with advanced fluorescence microscopy for nanoscale biological visualization, single molecule spectroscopy measurement and analysis with fluorescence correlation spectroscopy (FCS), as well as combined with superresolution dynamical studies (STED-FCS). Moreover, light-sheet fluorescence microscopy support allow users to image live and/or optically cleared larger samples.
     </p>
   </span>
   </div>
@@ -104,7 +104,7 @@ Please find below a selection of <a href="https://www.scilifelab.se/services/inf
   <div class="card card-body">
   <span>
     <p>
-      <a href="https://cryoem.scilifelab.se/">Cryo-EM</a> offers access to state-of-the-art equipment and expertise in single particle cryo-EM and cryo-tomography (cryo-ET).
+      <a href="https://cryoem.scilifelab.se/" target="_blank">Cryo-EM</a> offers access to state-of-the-art equipment and expertise in single particle cryo-EM and cryo-tomography (cryo-ET).
     </p>
     <ul>
       <li>An internationally competitive infrastructure that is accessible to all academic scientists in Sweden on equal terms.</li>
@@ -118,7 +118,7 @@ Please find below a selection of <a href="https://www.scilifelab.se/services/inf
 &nbsp;
 
 ### Metabolomics data
-Please find below a selection of <a href="https://www.scilifelab.se/services/infrastructure?metabolomics=&service=metabolomics">SciLifeLab Metabolomics services</a>
+Please find below a selection of <a href="https://www.scilifelab.se/services/infrastructure?metabolomics=&service=metabolomics" target="_blank">SciLifeLab Metabolomics services</a>
 
 <p>
   <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6">
@@ -130,7 +130,7 @@ Please find below a selection of <a href="https://www.scilifelab.se/services/inf
   <div class="card card-body">
   <span>
     <p>
-      <a href="http://www.swedishmetabolomicscentre.se/">Swedish Metabolomics Centre</a> (SMC) specializes in analyzing metabolites and lipids with mass spectrometry based methods.
+      <a href="http://www.swedishmetabolomicscentre.se/" target="_blank">Swedish Metabolomics Centre</a> (SMC) specializes in analyzing metabolites and lipids with mass spectrometry based methods.
     </p>
     <ul>
       <li>Untargeted methods</li>
@@ -152,7 +152,7 @@ Please find below a selection of <a href="https://www.scilifelab.se/services/inf
   <div class="card card-body">
   <span>
     <p>
-      <a href="https://www.scilifelab.se/units/swedish-nmr-centre/">Swedish NMR Centre</a> provides access to state-of-the-art NMR instrumentation and methodology.
+      <a href="https://www.scilifelab.se/units/swedish-nmr-centre/" target="_blank">Swedish NMR Centre</a> provides access to state-of-the-art NMR instrumentation and methodology.
     </p>
     <ul>
       <li>Structural biology</li>
@@ -167,7 +167,7 @@ Please find below a selection of <a href="https://www.scilifelab.se/services/inf
 &nbsp;
 
 ### Proteomics data
-Please find below a selection of [SciLifeLab Proteomics services](https://www.scilifelab.se/services/infrastructure?service=proteomics)
+Please find below a selection of <a href="https://www.scilifelab.se/services/infrastructure?service=proteomics" target="_blank">SciLifeLab Proteomics services</a>
 
 <p>
   <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample8">
@@ -179,7 +179,7 @@ Please find below a selection of [SciLifeLab Proteomics services](https://www.sc
   <div class="card card-body">
   <span>
     <p>
-      <a href="https://www.scilifelab.se/units/ms-based-protein-analysis-global-proteomics-and-protegenomics-glycoproteomics-and-ms-proteomics/">Global Proteomics and Proteogenomics</a> offers proteomics information combined with sample specific genomic and transcriptomics information.
+      <a href="https://www.scilifelab.se/units/ms-based-protein-analysis-global-proteomics-and-protegenomics-glycoproteomics-and-ms-proteomics/" target="_blank">Global Proteomics and Proteogenomics</a> offers proteomics information combined with sample specific genomic and transcriptomics information.
     </p>
     <ul>
       <li>Protein identification, expression and quantification</li>
@@ -207,7 +207,7 @@ Please find below a selection of [SciLifeLab Proteomics services](https://www.sc
   <div class="card card-body">
   <span>
     <p>
-      <a href="https://www.scilifelab.se/units/ms-based-protein-analysis-global-proteomics-and-protegenomics-glycoproteomics-and-ms-proteomics/">Glycoproteomics and MS Proteomics</a> specialize in MS-based protein and peptide analysis using cutting-edge technologies.
+      <a href="https://www.scilifelab.se/units/ms-based-protein-analysis-global-proteomics-and-protegenomics-glycoproteomics-and-ms-proteomics/" target="_blank">Glycoproteomics and MS Proteomics</a> specialize in MS-based protein and peptide analysis using cutting-edge technologies.
     </p>
     <ul>
       <li>Protein identification, expression and quantification</li>
@@ -235,7 +235,7 @@ Please find below a selection of [SciLifeLab Proteomics services](https://www.sc
   <div class="card card-body">
   <span>
     <p>
-      <a href="https://www.scilifelab.se/units/chemical-proteomics/">Chemical proteomics</a> is a national unit expert on supporting drug discovery and development by proteome-wide deconvolution of targets and action mechanisms of small molecules.
+      <a href="https://www.scilifelab.se/units/chemical-proteomics/" target="_blank">Chemical proteomics</a> is a national unit expert on supporting drug discovery and development by proteome-wide deconvolution of targets and action mechanisms of small molecules.
     </p>
   </span>
   </div>
@@ -251,7 +251,7 @@ Please find below a selection of [SciLifeLab Proteomics services](https://www.sc
   <div class="card card-body">
   <span>
     <p>
-      <a href="https://bioms.se/">Biological Mass Spectrometry</a> (BioMS) national infrastructure enables cutting-edge mass spectrometry and related advanced technology platforms.
+      <a href="https://bioms.se/" target="_blank">Biological Mass Spectrometry</a> (BioMS) national infrastructure enables cutting-edge mass spectrometry and related advanced technology platforms.
     </p>
     <ul>
       <li>Clinical proteomics</li>

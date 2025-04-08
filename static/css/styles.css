@@ -13,7 +13,27 @@
   color: #A6A6A6, rgba(166,166,166, 1); medium grey
   color: #3F3F3F, rgba(63,63,63,1); dark grey
 */
-
+:root {
+  --grape1: rgba(73, 31, 83, 1); /* used */
+  --grape0_75: rgba(73, 31, 83, 0.75); /* unused */
+  --grape0_50: rgba(73, 31, 83, 0.50); /* unused */
+  --grape0_25: rgba(73, 31, 83, 0.25); /* used */
+  --lime1: rgba(167, 201, 71, 1); /* likely unused */
+  --lime0_75: rgba(167, 201, 71, 0.75); /* unused */
+  --lime0_50: rgba(167, 201, 71, 0.50); /*unused */
+  --lime0_25: rgba(167, 201, 71, 0.25); /* used */
+  --teal1: rgba(4, 92, 100, 1); /* used */
+  --teal0_75: rgba(4, 92, 100, 0.75); /* unused */
+  --teal0_50: rgba(4, 92, 100, 0.50); /* unused */
+  --teal0_25: rgba(4, 92, 100, 0.25); /* used */
+  --aqua1: rgba(76, 151, 159, 1); /* used */
+  --aqua0_75: rgba(76, 151, 159, 0.75); /* used */
+  --aqua0_50: rgba(76, 151, 159, 0.50); /* unused */
+  --aqua0_25: rgba(76, 151, 159, 0.25); /* used */
+  --light_grey: rgba(229, 229, 229, 1); /* used */
+  --medium_grey: rgba(166,166,166, 1); /* likely unused */
+  --dark_grey: rgba(63,63,63,1); 
+}
 .sr-only {
   position:absolute;
   left:-10000px;
@@ -27,12 +47,13 @@ body {
   font-family: "Lato", Times, Arial;
 }
 
+/* I don't see this used anywhere, so can likely be removed
 blockquote {
   border-left: 5px solid rgba(46, 104, 165, 0.3);
   padding-left: 1rem;
   margin-left: 1rem;
   color: #666;
-}
+}*/
 p.big {
   font-size: 18px;
 }
@@ -52,16 +73,10 @@ a:hover {
   text-underline-offset: 3.2px;
 }
 
-.dropdown-item.hover, .dropdown-item:hover {
-  color: #fff;
+.dropdown-item.hover, .dropdown-item:active {
+  color: white;
   text-decoration: none;
-  background-color: rgba(229, 229, 229, 0.5);
-}
-
-.dropdown-item.active, .dropdown-item:active {
-  color: #fff;
-  text-decoration: none;
-  background-color: rgba(229, 229, 229, 1);
+  background-color: var(--light_grey);
 }
 
 /* Links not in text 
@@ -74,11 +89,11 @@ External - bi-box-arrow-up-right; add 'target="_blank"' so that they open up in 
 Use link-teal for standalone links on white background.
 */
 .link-teal {
-  color: #045c64;
+  color: var(--teal1);
 }
 
 .link-teal:hover {
-  color: #045c64;
+  color: var(--teal1);
   text-decoration: underline; 
 }
 
@@ -96,30 +111,30 @@ Use link-black for standalone links on colored background.
 }
 
 .toc-style a {
-  color: #045c64;
+  color: var(--teal1);
 }
 
 .list-link a {
-  color: #045c64;
+  color: var(--teal1);
 }
 .breadcrumb-item a {
   text-decoration: none; 
 }
 
 h1 a {
-  color: #4c979f;
+  color: var(--aqua1);
 }
 
 h1 a:hover {
-  color: #045c64;
+  color: var(--teal1);
 }
 
 .footer-link {
-  color: #045c64;
+  color: var(--teal1);
   font-weight: bold;
 }
 .footer-link:hover {
-  color: #045c64;
+  color: var(--teal1);
 }
 
 .card-body-style {
@@ -164,7 +179,7 @@ h6 {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 1.5rem 0;
-  color: #e5e5e5;
+  color: var(--light_grey);
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
     rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
@@ -205,50 +220,50 @@ button {
   box-shadow: none;
 }
 .btn-teal {
-  color: #fff;
-  background-color: #045c64;
-  border-color: #045c64;
+  color: white;
+  background-color: var(--teal1);
+  border-color: var(--teal1);
   border-style: solid;
   border-width: medium;
 }
 
 .btn-teal:hover {
-  color: #fff;
-  border-color: #ffff;
+  color: white;
+  border-color: white;
   text-decoration: underline;
   border-style: solid;
   border-width: medium;
 }
 
 .btn-light-grey {
-  background-color: #e5e5e5;
+  background-color: var(--light_grey);
   color: black;
-  border-color: #e5e5e5;
+  border-color: var(--light_grey);
   border-style: solid;
   border-width: medium;
 }
 
 .btn-light-grey:hover {
-  background-color: #e5e5e5;
+  background-color: var(--light_grey);
   color: black;
-  border-color: #ffff;
+  border-color: white;
   text-decoration: underline;
   border-style: solid;
   border-width: medium;
 }
 
 .btn-expandable {
-  background-color: #d2c7d4;
+  background-color: var(--grape0_25);
   color: black;
-  border-color: #d2c7d4;
+  border-color: var(--grape0_25);
   border-style: solid;
   border-width: medium;
 }
 
 .btn-expandable:hover {
-  background-color: #d2c7d4;
+  background-color: var(--grape0_25);
   color: black;
-  border-color: #ffff;
+  border-color: white;
   text-decoration: underline;
   border-style: solid;
   border-width: medium;
@@ -289,11 +304,11 @@ html {
 /* logo */
 
 .navbar-light .navbar-brand {
-  color: #79b1b7;
+  color: var(--aqua0_75);
 }
 
 .navbar-light .navbar-brand:hover {
-  color: #4c979f;
+  color: var(--aqua1);
   text-decoration: none;
 }
 
@@ -303,7 +318,7 @@ html {
 /* Nav links */
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #3f3f3f;
+  color: var(--dark_grey);
   text-decoration: none;
 }
 
@@ -315,33 +330,33 @@ html {
 
 /* Main menu */
 .navbar-light .navbar-nav .nav-main-menu {
-  color: #045c64;
+  color: var(--teal1);
 }
 
 .navbar-light .navbar-nav .nav-main-menu:hover,
 .navbar-light .navbar-nav .nav-main-menu:focus,
 .navbar-light .navbar-nav .nav-main-menu:active,
 .navbar-light .navbar-nav .nav-main-menu.active {
-  color: #045c64;
+  color: var(--teal1);
   font-weight: bold;
   text-decoration: none;
 }
 
 /* Background colors */
 . .bg-light-gray {
-  background-color: #e5e5e5;
+  background-color: var(--light_grey);
 }
 
-.bg-medium-gray {
-  background-color: #a6a6a6;
+.bg-medium-gray {  /* seems to be unused */
+  background-color: var(--medium_grey);
 }
 
 .bg-dark-gray {
-  background-color: #3f3f3f;
+  background-color: var(--dark_grey);
 }
 
 .bg-light-teal {
-  background-color: rgba(4, 92, 100, 0.25);
+  background-color: var(--teal0_25);
 }
 
 /* Homepage */
@@ -352,14 +367,14 @@ html {
 }
 
 .cont-links a {
-  color: #045c64;
+  color: var(--teal1);
   font-weight: bold;
 }
 
 .cont-links a:hover,
 .cont-links a:focus,
 .cont-links a:active {
-  color: #045c64;
+  color: var(--teal1);
   text-decoration: underline;
 }
 
@@ -391,27 +406,27 @@ html {
 
 /* Support block for the homepage */
 .support {
-  background-color: rgba(167, 201, 71, 0.25) !important;
+  background-color: var(--lime0_25);
 }
 
 /* Update block for the homepage */
 .update {
-  background-color: rgba(4, 92, 100, 0.25) !important;
+  background-color: var(--teal0_25);
 }
 
 /* Jobs block for the homepage */
 .job {
-  background-color: rgba(76, 151, 159, 0.25) !important;
+  background-color: var(--aqua0_25);
 }
 
 /* Calls block for the homepage */
 .call {
-  background-color: rgba(4, 92, 100, 0.25) !important;
+  background-color: var(--teal0_25);
 }
 
 /* Events & Training block for the homepage */
 .training {
-  background-color: rgba(73, 31, 83, 0.25) !important;
+  background-color: var(--grape0_25);
 }
 
 .resource {
@@ -420,7 +435,7 @@ html {
 
 /*-----Cards-----*/
 .cards {
-  background-color: rgba(4, 92, 100, 0.25);
+  background-color: var(--teal0_25);
 }
 
 /*-----Contributors cards-----*/
@@ -436,52 +451,52 @@ html {
 /* Badges */
 
 .event-date {
-  background-color: #77577e;
+  background-color: var(--grape1);
   color: white;
 }
 
 .event-type {
-  background-color: #491f53;
+  background-color: var(--grape1);
   color: white;
 }
 
 .event-type-grape {
-  background-color: #491f53;
+  background-color: var(--grape1);
   color: white;
 }
 
 .event-type-teal {
-  background-color: #045c64;
+  background-color: var(--teal1);
   color: white;
 }
 
 .event-type-grey {
-  background-color: #3f3f3f;
+  background-color: var(--dark_grey);
   color: white;
 }
 
 .event-type-lime {
-  background-color: #a7c947;
+  background-color: var(--lime1);
   color: black;
 }
 
 .event-type-lh-grape {
-  background-color: #d2c7d4;
+  background-color: var(--grape0_25);
   color: black;
 }
 
 .event-type-lh-teal {
-  background-color: #c0d6d8;
+  background-color: var(--teal0_25);
   color: black;
 }
 
 .event-type-lh-grey {
-  background-color: #e5e5e5;
+  background-color: var(--light_grey);
   color: black;
 }
 
 .event-type-lh-lime {
-  background-color: #e9f2d1;
+  background-color: var(--lime0_25);
   color: black;
 }
 
@@ -493,19 +508,19 @@ html {
 }
 
 .nav-tabs .nav-item:nth-child(1) .nav-link {
-  background-color: #491F53;
+  background-color: var(--grape1);
   color: white;
   font-size: larger;
   border-bottom-color: black;
 }
 .nav-tabs .nav-item:nth-child(2) .nav-link {
-  background-color: #045C64;
+  background-color: var(--teal1);
   color: white;
   font-size: larger;
   border-bottom-color: black;
 }
 .nav-tabs .nav-item:nth-child(3) .nav-link {
-  background-color: #4C979F;
+  background-color: var(--aqua1);
   color: white;
   font-size: larger;
   border-bottom-color: black;
@@ -515,21 +530,21 @@ html {
   border-color: black;
   border-bottom-color: transparent;
   background-color: white;
-  color: #491F53;
+  color: var(--grape1);
   font-size: larger;
 }
 .nav-tabs .nav-item:nth-child(2) .nav-link.active {
   border-color: black;
   border-bottom-color: transparent;
   background-color: white;
-  color: #045C64;
+  color: var(--teal1);
   font-size: larger;
 }
 .nav-tabs .nav-item:nth-child(3) .nav-link.active {
   border-color: black;
   border-bottom-color: transparent;
   background-color: white;
-  color: #4C979F;
+  color: var(--aqua1);
   font-size: larger;
 }
 .tab-content {
@@ -538,7 +553,7 @@ html {
   padding: 15px;
 }
 .resources-header-training {
-  color: #491F53;
+  color: var(--grape1);
   font-size: 1.17rem;
   font-weight: bold;
   margin-top: 1.33rem;
@@ -546,7 +561,7 @@ html {
   text-decoration: none;
 }
 .resources-header-guidance {
-  color: #045C64;
+  color: var(--teal1);
   font-size: 1.17rem;
   font-weight: bold;
   margin-top: 1.33rem;
@@ -554,7 +569,7 @@ html {
   text-decoration: none;
 }
 .resources-header-tool {
-  color: #4C979F;
+  color: var(--aqua1);
   font-size: 1.17rem;
   font-weight: bold;
   margin-top: 1.33rem;
@@ -562,22 +577,22 @@ html {
   text-decoration: none;
 }
 .resources-header-training:hover {
-  color: #491F53;
+  color: var(--grape1);
 }
 .resources-header-guidance:hover {
-  color: #045C64;
+  color: var(--teal1);
 }
 .resources-header-tool:hover {
-  color: #4C979F;
+  color: var(--aqua1);
 }
 .resource-card-training {
-  border-color: #491F53 !important;
+  border-color: var(--grape1);
 }
 .resource-card-tool {
-  border-color: #4C979F !important;
+  border-color: var(--aqua1);
 }
 .resource-card-guidance {
-  border-color: #045C64 !important;
+  border-color: var(--teal1);
 }
 
 /* Styles for markdown formatting of inline code and code blocks and copy to clipboard button */
@@ -605,6 +620,6 @@ pre {
 
 .clipboard-button:hover {
   cursor: pointer;
-  background-color: rgba(229, 229, 229, 1);
+  background-color: var(--light_grey);
 }
 

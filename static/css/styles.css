@@ -95,10 +95,6 @@ Use link-black for standalone links on colored background.
   text-decoration: underline; 
 }
 
-.toc-style a {
-  color: #045c64;
-}
-
 .list-link a {
   color: #045c64;
 }

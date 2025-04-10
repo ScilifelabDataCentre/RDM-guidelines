@@ -11,7 +11,7 @@ Quite often large amounts of data is generated, and it can be worth spending som
 The Data Delivery System (DDS) is a cloud-based system for the delivery of data from SciLifeLab platforms to their users. It consists of a command line interface (CLI) and a web interface. This system is e.g. used by the National Genomics Infrastucture (NGI) for delivers of sequencing data.
 
 <div>
-  <ul class=list-link>
+  <ul>
     <li><a href="https://delivery.scilifelab.se/">DDS homepage</a></li>
     <li><a href="https://scilifelabdatacentre.github.io/dds_cli/">DDS documentation</a></li>
     <li><a href="https://ngisweden.scilifelab.se/resources/data-delivery-dds/">NGI guide on DDS</a></li>
@@ -23,7 +23,7 @@ The Data Delivery System (DDS) is a cloud-based system for the delivery of data 
 Please find below some useful links from the compute resource Uppmax regarding data transfer:
 
 <div>
-  <ul class=list-link>
+  <ul>
     <li><a href="https://docs.uppmax.uu.se/cluster_guides/transfer_rackham/">File transfer to/from Rackham</a></li>
      <li><a href="https://docs.uppmax.uu.se/cluster_guides/transfer_bianca/">File transfer to/from Bianca</a></li>
     <li><a href="https://scilifelabdatacentre.github.io/dds_cli/installation/#bianca">NAISS-SENS Bianca Deliver user guide for NGI data</a></li>

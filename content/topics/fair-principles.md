@@ -6,7 +6,7 @@ toc: True
 
 # FAIR principles
 
-[FAIR](https://www.force11.org/group/fairgroup/fairprinciples) stands for Findable, Accessible, Interoperable and Reusable. In [Wilkinson, et al 2016](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4792175/pdf/sdata201618.pdf) (PDF) a set of principles were defined for each of these properties. Below, each of the principles are explained further (click on the buttons for detailed information), as adapted from [FAIR principles translation](http://www.snf.ch/SiteCollectionDocuments/FAIR_principles_translation_SNSF_logo.pdf) (PDF).
+<a href="https://www.force11.org/group/fairgroup/fairprinciples" target="_blank">FAIR</a> stands for Findable, Accessible, Interoperable and Reusable. In <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4792175/pdf/sdata201618.pdf" target="_blank">Wilkinson, et al 2016</a> (PDF) a set of principles were defined for each of these properties. Below, each of the principles are explained further (click on the buttons for detailed information), as adapted from <a href="http://www.snf.ch/SiteCollectionDocuments/FAIR_principles_translation_SNSF_logo.pdf" target="_blank">FAIR principles translation</a> (PDF).
 
 ## Findable
 Data and metadata should be easy to find by both humans and computer systems. Basic machine readable descriptive metadata allows the discovery of interesting datasets and services.
@@ -21,7 +21,7 @@ Data and metadata should be easy to find by both humans and computer systems. Ba
     <div class="card-header"><h3>F1: (meta)data are assigned a globally unique and persistent identifier</h3></div>
     <div class="card-body">
     <span>
-      <b>Explanation:</b> Each dataset is assigned a globally unique and persistent identifier (PID), for example a <a href="https://www.doi.org/">DOI</a>. These identifiers allow to find, cite and track (meta)data.	<br><br>
+      <b>Explanation:</b> Each dataset is assigned a globally unique and persistent identifier (PID), for example a <a href="https://www.doi.org/" target="_blank">DOI</a>. These identifiers allow to find, cite and track (meta)data.	<br><br>
       <b>Action:</b> Ensure that each dataset is assigned a globally unique and persistent identifier. Certain repositories automatically assign identifiers to datasets as a service. If not, researchers must obtain a PID via a PID registration service.
     </span>
     </div>
@@ -168,7 +168,7 @@ Data should be ready to be exchanged, interpreted and combined in a (semi)automa
     <div class="card-body">
     <span>
       <b>Explanation:</b> Interoperability typically means that each computer system has at least knowledge of the other system’s formats in which data is exchanged. If (meta)data are to be searchable and if compatible data sources should be combinable in a (semi)automatic way, computer systems need to be able to decide if the content of datasets are comparable. Obvious issues arise when different languages are used to describe the data or when spelling errors make the comparison of descriptions and variable names more difficult. It is critical to use controlled vocabularies and a well-defined framework to describe and structure (meta)data in order to ensure findability and interoperability of datasets.	<br><br>
-      <b>Action:</b> Provide machine readable data and metadata in an accessible language, using a well-established formalism. In particular, data and metadata are annotated with resolvable vocabularies/ontologies/thesauri that are commonly used in the field. The <a href="https://www.w3.org/RDF/">RDF</a> extensible knowledge representation model is a way to describe and structure datasets. You can refer to the <a href="https://dublincore.org/schemas/">Dublin Core Schema</a> as an example.
+      <b>Action:</b> Provide machine readable data and metadata in an accessible language, using a well-established formalism. In particular, data and metadata are annotated with resolvable vocabularies/ontologies/thesauri that are commonly used in the field. The <a href="https://www.w3.org/RDF/" target="_blank">RDF</a> extensible knowledge representation model is a way to describe and structure datasets. You can refer to the <a href="https://dublincore.org/schemas/" target="_blank">Dublin Core Schema</a> as an example.
     </span>
     </div>
   </div>  

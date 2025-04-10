@@ -68,7 +68,7 @@ A DMP typically is divided into six sections:
 &nbsp;
 
 ## How to write a DMP?
-Standard DMP templates can most often be found at funder agencies, e.g. [Swedish Research Council](https://www.vr.se/english/applying-for-funding/requirements-terms-and-conditions/producing-a-data-management-plan/data-management-plan-template.html) and [Science Europe](https://www.scienceeurope.org/media/jezkhnoo/se_rdm_practical_guide_final.pdf), and it is of course possible to write in your favorite text editor.
+Standard DMP templates can most often be found at funder agencies, e.g. <a href="https://www.vr.se/english/applying-for-funding/requirements-terms-and-conditions/producing-a-data-management-plan/data-management-plan-template.html" target="_blank">Swedish Research Council</a> and <a href="https://www.scienceeurope.org/media/jezkhnoo/se_rdm_practical_guide_final.pdf" target="_blank">Science Europe</a>, and it is of course possible to write in your favorite text editor.
 
 However, the questions in these templates are quite high-level, with little or no guidance on how to answer them.
 

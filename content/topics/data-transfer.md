@@ -32,13 +32,13 @@ Please find below some useful links from the compute resource Uppmax regarding d
 
 ### Using Aspera on Uppmax
 
-Aspera  (ascp) is a command-line transfer program that can be used for stable transfers of files e.g. from Uppmax to ENA (European Nucleotide Archive) upload area when doing submission (see further [ENA guide on using ascp](https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html?highlight=ascp#using-aspera-ascp-command-line-program)). Aspc gives the user many options (use command `ascp --help` or see e.g. [ascp command reference](https://download.asperasoft.com/download/docs/ascp/3.5.2/html/dita/ascp_usage.html)), below is an example where a set of fastq files will be uploaded to a subfolder at ENA:
+Aspera  (ascp) is a command-line transfer program that can be used for stable transfers of files e.g. from Uppmax to ENA (European Nucleotide Archive) upload area when doing submission (see further <a href="https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html?highlight=ascp#using-aspera-ascp-command-line-program" target="_blank">ENA guide on using ascp</a>). Aspc gives the user many options (use command `ascp --help` or see e.g. <a href="https://download.asperasoft.com/download/docs/ascp/3.5.2/html/dita/ascp_usage.html" target="_blank">ascp command reference</a>), below is an example where a set of fastq files will be uploaded to a subfolder at ENA:
 
 1. Open a terminal window and log in to Uppmax using your credentials:  
     ```
     ssh -X username@rackham.uppmax.uu.se
     ```
-1. Use [interactive](https://docs.uppmax.uu.se/cluster_guides/interactive_more/) mode in order to execute the transfer at a compute node using a compute project:  
+1. Use <a href="https://docs.uppmax.uu.se/cluster_guides/interactive_more/" target="_blank">interactive</a> mode in order to execute the transfer at a compute node using a compute project:  
     ```
     interactive -A project-name
     ```
@@ -55,15 +55,15 @@ Aspera  (ascp) is a command-line transfer program that can be used for stable tr
     ascp --file-checksum=md5 -d -k 3 --mode=send --overwrite=always -QT -l300M --host=webin.ebi.ac.uk --user=Webin-XXXXX path-to-uppmax-folder/**/*.fastq.gz subfolder-at-ENA
     ```
 
-Note: In order to check the progress and outcome of the transfer, a program such as FileZilla can be used to connect to your upload area at ENA from your local computer, see instructions at ENA on [Using FileZilla on Windows](https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html?highlight=filezilla#using-filezilla-on-windows).
+Note: In order to check the progress and outcome of the transfer, a program such as FileZilla can be used to connect to your upload area at ENA from your local computer, see instructions at ENA on <a href="https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html?highlight=filezilla#using-filezilla-on-windows" target="_blank">Using FileZilla on Windows</a>.
 
 ## Transferring files over a wide range of protocols using RClone
-[RClone](https://rclone.org/) is a command-line program that can be used to transfer files across a wide range of protocols (see [documentation](https://rclone.org/docs/)). This can be useful when you can‘t use specialised submission tools or Aspera, such as when transfering files in bulk to [SciLifeLab Data Repository](https://www.scilifelab.se/data/repository/) over the FTPS protocol.
+<a href="https://rclone.org/" target="_blank">RClone</a> is a command-line program that can be used to transfer files across a wide range of protocols (see <a href="https://rclone.org/docs/" target="_blank">documentation</a>). This can be useful when you can‘t use specialised submission tools or Aspera, such as when transfering files in bulk to <a href="https://www.scilifelab.se/data/repository/" target="_blank">SciLifeLab Data Repository</a> over the FTPS protocol.
 
 The following example describes how to upload files to SciLifeLab Data Repository (or any other FigShare repository):
 
-1. Find/create your username and password for [ftp uploads to Figshare](https://help.figshare.com/article/upload-large-datasets-and-bulk-upload-using-the-ftp-uploader-desktop-uploader-or-api)
-1. To configure your [ftp connection parameters for rclone](https://rclone.org/ftp/) your command will look something like this (`rclone lfs :ftp:data` will list the content of your data uploads folder on FigShare):
+1. Find/create your username and password for <a href="https://help.figshare.com/article/upload-large-datasets-and-bulk-upload-using-the-ftp-uploader-desktop-uploader-or-api" target="_blank">ftp uploads to Figshare</a>
+1. To configure your <a href="https://rclone.org/ftp/" target="_blank">ftp connection parameters for rclone</a> your command will look something like this (`rclone lfs :ftp:data` will list the content of your data uploads folder on FigShare):
    ```
    rclone lsf :ftp:data --ftp-host=ftps.figshare.com --ftp-user=$user --ftp-pass=$(rclone obscure $pass) --ftp-port=21 --ftp-explicit-tls
    ```

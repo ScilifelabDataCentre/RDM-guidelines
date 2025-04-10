@@ -12,7 +12,7 @@ In general, a README file contains information regarding the structure and conte
 The content could either be on a higher project-level or on a more detailed data-level. Templates for README files on the two levels can be found below.
 
 <div>
-  <ul class=list-link>
+  <ul>
     <li><a href="/files/template-project-level-README.txt">Project-level README file template</a></li>
     <li><a href="/files/template-data-level-README.txt">Data-level README file template</a></li>
   </ul>

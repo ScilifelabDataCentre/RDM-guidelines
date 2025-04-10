@@ -42,7 +42,7 @@ The [Swedish Authority for Privacy Protection (IMY)](https://www.imy.se/en/) uph
 
 * **Other regulations**
   <div>
-    <ul class=list-link>
+    <ul>
       <li><a href="https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/patientdatalag-2008355_sfs-2008-355">The Patient Data Act</a></li>
       <li><a href="https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/biobankslag-202338_sfs-2023-38">The Biobank Act</a></li>
     </ul>

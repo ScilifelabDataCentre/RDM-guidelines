@@ -95,10 +95,7 @@ Use link-black for standalone links on colored background.
   text-decoration: underline; 
 }
 
-.toc-style a {
-  color: #045c64;
-}
-
+/* Use only for table of content and listing resources in end of phase and topic pages */
 .list-link a {
   color: #045c64;
 }

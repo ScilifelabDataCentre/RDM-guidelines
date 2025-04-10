@@ -61,7 +61,7 @@ Click on the buttons below for specific information regarding suitable repositor
   </ul>
 
   For convenience, we have created templates for the most frequent data types and their corresponding <a href="https://www.ebi.ac.uk/ena/browser/checklists">ENA checklists</a>. The templates come with instructions on how to do an interactive submission, via the ENA Webin Portal, but even when doing a programmatic submission, the template can be useful for collecting all necessary descriptions / metadata.  Download an appropriate template, and fill in the sheets according to the instructions in the template:
-  <ul class=list-link>
+  <ul>
     <li><a href="/files/meta-data-templates/metadata_template_default_ERC000011.xlsx">ERC000011 ENA default sample checklist </a>(Excel spreadsheet)</li>
     <li><a href="/files/meta-data-templates/metadata_template_human-gut_ERC000015.xlsx">ERC000015 GSC MIxS human gut </a>(Excel spreadsheet)</li>
     <li><a href="/files/meta-data-templates/metadata_template_GSC-MIxS-water_ERC000024.xlsx">ERC000024 GSC MIxS water </a>(Excel spreadsheet)</li>

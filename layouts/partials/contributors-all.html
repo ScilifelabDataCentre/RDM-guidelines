@@ -13,14 +13,14 @@
       <div class="card-text">
       {{ .name }}
       {{ if .git}}
-      <a href="https://github.com/{{.git}}"><span class="sr-only">GitHub link</span><i class="bi bi-github" style="color:black"></i></a>
+      <a href="https://github.com/{{.git}}" target="_blank"><span class="sr-only">GitHub link</span><i class="bi bi-github" style="color:black"></i></a>
       {{ end }}
       {{ if .affiliation }}
       <br>{{ .affiliation }}
       {{ end }}
       {{ if .orcid }}
       <br>
-      <a style="color:black" href="https://orcid.org/{{.orcid}}"  >{{ .orcid }} </a>
+      <a style="color:black" href="https://orcid.org/{{.orcid}}" target="_blank">{{ .orcid }} </a>
       {{ else }}
       <br><br>
       {{ end }}

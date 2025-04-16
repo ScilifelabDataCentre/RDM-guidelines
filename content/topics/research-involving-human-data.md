@@ -35,10 +35,10 @@ It is important to remember that pseudonymised data is still regarded as persona
 
 Below we list some important regulations to follow when conducting research that involves human data.
 
-* **General Data Protection Regulation (GDPR)** – All research involving personal data must comply with the [General Data Protection Regulation (GDPR)](https://gdpr-info.eu/) ([Dataskyddsförordningen](https://www.imy.se/verksamhet/dataskydd/det-har-galler-enligt-gdpr/introduktion-till-gdpr/dataskyddsforordningen-i-fulltext/)).
-The [Swedish Authority for Privacy Protection (IMY)](https://www.imy.se/en/) upholds the protection of personal data, monitors that they are handled correctly and do not fall into the wrong hands. See their [GDPR information pages](https://www.imy.se/en/organisations/data-protection/this-applies-accordning-to-gdpr/), and also [GDPR considerations](#gdpr-considerations) further below.
+* **General Data Protection Regulation (GDPR)** – All research involving personal data must comply with the <a href="https://gdpr-info.eu/" target="_blank">General Data Protection Regulation (GDPR)</a> (<a href="https://www.imy.se/verksamhet/dataskydd/det-har-galler-enligt-gdpr/introduktion-till-gdpr/dataskyddsforordningen-i-fulltext/" target="_blank">Dataskyddsförordningen</a>).
+The <a href="https://www.imy.se/en/" target="_blank">Swedish Authority for Privacy Protection (IMY)</a> upholds the protection of personal data, monitors that they are handled correctly and do not fall into the wrong hands. See their <a href="https://www.imy.se/en/organisations/data-protection/this-applies-accordning-to-gdpr/" target="_blank">GDPR information pages</a>, and also [GDPR considerations](#gdpr-considerations) further below.
 
-* **The Ethical Review Act** – Ethical review by the [Ethical Review Authority](https://etikprovningsmyndigheten.se/) is needed when research involves human data, according to the Swedish ethical review act ([Lag (2003:460) om etikprövning av forskning som avser människor](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2003460-om-etikprovning-av-forskning-som_sfs-2003-460) - *Swedish*). See also [Ethical considerations](#ethical-considerations) below.
+* **The Ethical Review Act** – Ethical review by the <a href="https://etikprovningsmyndigheten.se/" target="_blank">Ethical Review Authority</a> is needed when research involves human data, according to the Swedish ethical review act (<a href="https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2003460-om-etikprovning-av-forskning-som_sfs-2003-460" target="_blank">Lag (2003:460) om etikprövning av forskning som avser människor</a> - *Swedish*). See also [Ethical considerations](#ethical-considerations) below.
 
 * **Other regulations**
   <div>
@@ -104,16 +104,16 @@ The role of the data protection officer is to check that the General Data Protec
 
 ### Legal basis for processing personal data
 
-[Article 6 (1)](https://gdpr-info.eu/art-6-gdpr/) lists under what conditions the processing is considered lawful. Of these, **Consent** or **Public interest** are relevant when it comes to research. You should determine what legal basis (or bases) you have for processing the personal data in your project.
+<a href="https://gdpr-info.eu/art-6-gdpr/" target="_blank">Article 6 (1)</a> lists under what conditions the processing is considered lawful. Of these, **Consent** or **Public interest** are relevant when it comes to research. You should determine what legal basis (or bases) you have for processing the personal data in your project.
 
-Traditionally, consent has been the basis for processing personal data for research, but under the GDPR there cannot be an imbalance between the processor and the data subject for it to be considered to be freely given. In Sweden the use of consent as the legal basis for processing by universities for research purposes is therefore not recommended. Instead, public interest should probably be your legal basis. Note that if your legal basis for processing is consent, a [number of requirements](https://gdpr-info.eu/issues/consent/) exists for the consent to be considered valid under the GDPR. Consents given before the GDPR might not live up to this.
+Traditionally, consent has been the basis for processing personal data for research, but under the GDPR there cannot be an imbalance between the processor and the data subject for it to be considered to be freely given. In Sweden the use of consent as the legal basis for processing by universities for research purposes is therefore not recommended. Instead, public interest should probably be your legal basis. Note that if your legal basis for processing is consent, a <a href="https://gdpr-info.eu/issues/consent/" target="_blank">number of requirements</a> exists for the consent to be considered valid under the GDPR. Consents given before the GDPR might not live up to this.
 
 Also note that even if public interest is the legal basis, other laws and research ethics standards might still require you to have consent from the subjects for performing the research.
 
 
 ### Data Processing
 
-All processing of personal data must comply with the [Principles relating to processing of personal data - Article 5](https://gdpr-info.eu/art-5-gdpr/) in the GDPR. According to these principles, to process personal data, the controller must:
+All processing of personal data must comply with the <a href="https://gdpr-info.eu/art-5-gdpr/" target="_blank">Principles relating to processing of personal data - Article 5</a> in the GDPR. According to these principles, to process personal data, the controller must:
 
 * Identify the **[legal basis](#legal-basis-for-processing-personal-data)** for data processing *before it starts*
 * Inform in a transparent and honest way
@@ -138,7 +138,7 @@ And be able to **demonstrate** that the GDPR is followed.
 As a controller you should:
 * Ensure that data processing agreements are established when needed.
 * Ensure that all Processors are informed on what can and cannot be done to the data.
-* Ensure that all processing is done in a compute environment with a suitable level of security, e.g. [Bianca at Uppmax](https://docs.uppmax.uu.se/cluster_guides/bianca/).
+* Ensure that all processing is done in a compute environment with a suitable level of security, e.g. <a href="https://docs.uppmax.uu.se/cluster_guides/bianca/" target="_blank">Bianca at Uppmax</a>.
 
 As a Processor you should:
 * Only handle the data according to the instructions from the controller.
@@ -147,7 +147,7 @@ As a Processor you should:
 
 ### Data Protection Impact Assessment (DPIA)
 
-A Data Protection Impact Assessment (DPIA) is needed if the personal data processing is likely to result in a high risk to individual people's rights ([IMY on Impact assessments and prior consultation](https://www.imy.se/en/organisations/data-protection/this-applies-accordning-to-gdpr/impact-assessments-and-prior-consultation/)). The purpose of a DPIA is to prevent risks before they occur, by identifying what risks exist and draw up procedures to meet those risks. In order be able to decide if a DPIA is needed, you should perform a risk analysis. Analyse what risks your personal data processing may involve and suggest appropriate security measures. Document your findings so that you can demonstrate that you comply with the GDPR. If the risk analysis shows that a DPIA is needed, there are tools to help you e.g. [PIA software from CNIL](https://www.cnil.fr/en/open-source-pia-software-helps-carry-out-data-protection-impact-assessment).
+A Data Protection Impact Assessment (DPIA) is needed if the personal data processing is likely to result in a high risk to individual people's rights (<a href="https://www.imy.se/en/organisations/data-protection/this-applies-accordning-to-gdpr/impact-assessments-and-prior-consultation/" target="_blank">IMY on Impact assessments and prior consultation</a>). The purpose of a DPIA is to prevent risks before they occur, by identifying what risks exist and draw up procedures to meet those risks. In order be able to decide if a DPIA is needed, you should perform a risk analysis. Analyse what risks your personal data processing may involve and suggest appropriate security measures. Document your findings so that you can demonstrate that you comply with the GDPR. If the risk analysis shows that a DPIA is needed, there are tools to help you e.g. <a href="https://www.cnil.fr/en/open-source-pia-software-helps-carry-out-data-protection-impact-assessment" target="_blank">PIA software from CNIL</a>.
 
 ### Security of processing
 
@@ -155,7 +155,7 @@ To ensure that the personal data that you process in the project is protected at
 
 The security measures taken should be based on an evaluation of the risks for, and consequences of, the personal data not being correct and protected. Appropriate technical and organisational measures shall be implemented to ensure a level of security appropriate to the risk. It is advisable that the researcher seek guidance from the legal and information security functions of the university adminstration about this.
 
-The UPPMAX [Bianca](https://docs.uppmax.uu.se/cluster_guides/bianca/) system has been designed to have technical and information security procedures that are appropriate for processing sensitive human data for analysis. Using this system then relieves the researcher from having to define these technical and security procedures themselves (at least for the analysis phase of a project). The researcher can decide to analyse (sensitive) personal data elsewhere, but then they will have to define the appropriate procedures. In case the controller work at a different institute than Uppsala University, a data processing agreement between that institute and UPPMAX/Uppsala University, needs to be established - see [instructions here](https://www.uu.se/en/centre/uppmax/get-started/create-account-and-apply-for-project/apply-for-projects/applying-for-naiss-sens-project/puba).
+The UPPMAX <a href="https://docs.uppmax.uu.se/cluster_guides/bianca/" target="_blank">Bianca</a> system has been designed to have technical and information security procedures that are appropriate for processing sensitive human data for analysis. Using this system then relieves the researcher from having to define these technical and security procedures themselves (at least for the analysis phase of a project). The researcher can decide to analyse (sensitive) personal data elsewhere, but then they will have to define the appropriate procedures. In case the controller work at a different institute than Uppsala University, a data processing agreement between that institute and UPPMAX/Uppsala University, needs to be established - see <a href="https://www.uu.se/en/centre/uppmax/get-started/create-account-and-apply-for-project/apply-for-projects/applying-for-naiss-sens-project/puba" target="_blank">instructions here</a>.
 
 
 

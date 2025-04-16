@@ -115,7 +115,7 @@ Use link-black for standalone links on colored background.
   color: var(--teal1);
 }
 .breadcrumb-item a {
-  text-decoration: none; 
+  color: var(--teal1);
 }
 
 h1 a {

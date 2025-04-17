@@ -25,7 +25,7 @@ Data documentation should clearly describe how the data was collected, so that s
 <br/><br/>
 
 ### Genomics data
-Please find below a selection of <a href="https://www.scilifelab.se/services/infrastructure?service=genomics" target="_blank">SciLifeLab Genomics services</a>
+Please find below a selection of <a href="https://www.scilifelab.se/services/infrastructure?service=genomics" target="_blank">SciLifeLab Genomics services</a>.
 <p>
   <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
     NGI
@@ -77,7 +77,7 @@ Please find below a selection of <a href="https://www.scilifelab.se/services/inf
 &nbsp;
 
 ### Imaging data
-Please find below a selection of <a href="https://www.scilifelab.se/services/infrastructure?service=bioimaging-and-molecular-structure" target="_blank">SciLifeLab Bioimaging and Molecular Structure services</a>
+Please find below a selection of <a href="https://www.scilifelab.se/services/infrastructure?service=bioimaging-and-molecular-structure" target="_blank">SciLifeLab Bioimaging and Molecular Structure services</a>.
 <p>
   <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
     ALM
@@ -118,7 +118,7 @@ Please find below a selection of <a href="https://www.scilifelab.se/services/inf
 &nbsp;
 
 ### Metabolomics data
-Please find below a selection of <a href="https://www.scilifelab.se/services/infrastructure?metabolomics=&service=metabolomics" target="_blank">SciLifeLab Metabolomics services</a>
+Please find below a selection of <a href="https://www.scilifelab.se/services/infrastructure?metabolomics=&service=metabolomics" target="_blank">SciLifeLab Metabolomics services</a>.
 
 <p>
   <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6">
@@ -167,7 +167,7 @@ Please find below a selection of <a href="https://www.scilifelab.se/services/inf
 &nbsp;
 
 ### Proteomics data
-Please find below a selection of <a href="https://www.scilifelab.se/services/infrastructure?service=proteomics" target="_blank">SciLifeLab Proteomics services</a>
+Please find below a selection of <a href="https://www.scilifelab.se/services/infrastructure?service=proteomics" target="_blank">SciLifeLab Proteomics services</a>.
 
 <p>
   <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample8">

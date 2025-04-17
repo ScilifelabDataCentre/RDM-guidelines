@@ -306,7 +306,9 @@ If you are a researcher at a Swedish academic institution operating in the life 
 * Advice on what needs to be done when working with sensitive human data
 * Advice on describing data with proper metadata
 
-If you need any help connected to data submission, please [contact us](../../contact/)!
+If you need any help connected to data submission, please contact us!
+
+<a class= "link-teal" href="/contact/"><b>Contact form to get support <i class="bi bi-arrow-right-square"></i></b></a>
 
 ## Resources
 Please find below resources concerning the research data life cycle phase share in form of training, guidance and/or tools.

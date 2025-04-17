@@ -89,7 +89,9 @@ To let us handle access requests to your data, you need to take the following st
 6. When a user has been approved for access, SciLifeLab Data Centre will document the processing and arrange for the physical file access. The physical file access will be that you, as a PI, copies the dataset from your Bianca project space, to the specified project space of the approved applicant. Because of NAISS user policy, only PIs at a Swedish academic institution can have a project at Bianca. So to share data with a collaborator outside Sweden, the PI in Sweden needs to have applied for a project at Bianca. Please see the <a href="https://docs.uppmax.uu.se/cluster_guides/bianca/" target="_blank">Bianca user guide</a> for information on how to do this.
 7. SciLifeLab Data Centre will keep track of current and expired approvals.
 
-If you need any help connected to data submission, please [contact us](../../contact/)!
+If you need any help connected to data submission, please contact us!
+
+<a class= "link-teal" href="/contact/"><b>Contact form to get support <i class="bi bi-arrow-right-square"></i></b></a>
 
 ## Resources
 Please find below resources concerning research involving human data in form of training, guidance and/or tools.

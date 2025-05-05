@@ -14,7 +14,7 @@ Researchers are strongly encouraged to use community metadata standards where th
 
 Ontologies, controlled vocabularies and data dictionaries are used to standardize the language used to describe the metadata. Think of the many ways to write that the organism is human (human, Human, homo sapiens, H. sapiens, Homo Sapiens, man, etc), using an ontology such as <a href="https://www.ebi.ac.uk/ols/ontologies/ncbitaxon" target="_blank">NCBI taxonomy</a> unifies the language and makes it easier for both humans and machines to interpret and work with the data. While an ontology has a hierarchical structure (e.g. *homo sapiens* is a *mammalia* which is a *eukaryota*), a controlled vocabulary is an unstructured set of terms, but fills the same purpose, to standardize the language used. A <a href="https://help.osf.io/hc/en-us/articles/360019739054-How-to-Make-a-Data-Dictionary" target="_blank">Data Dictionary</a> is a user-defined way of describing what all the variable names and values in the data really mean.
 
-For a suggested list of ontologies appropriate for Life Science community please see <a href="https://fairsharing.org/search?recordType=terminology_artefact&status=ready&subjects=life%2520science" target="_blank">FAIRsharing.org</a>, filter on e.g. Domain.
+For a suggested list of ontologies appropriate for Life Science community please see FAIRsharing.org, filter on e.g. Domain.
 
 Below are ontology resources, adapted from Table 2 in *Griffin PC, Khadake J, LeMay KS et al. Best practice data life cycle approaches for the life sciences. F1000Research 2018, 6:1618.* doi: <a href="https://doi.org/10.12688/f1000research.12344.2" target="_blank">10.12688/f1000research.12344.2</a>:
 
@@ -24,13 +24,14 @@ Below are ontology resources, adapted from Table 2 in *Griffin PC, Khadake J, Le
 * <a href="https://www.ontobee.org" target="_blank">Ontobee</a> - A linked data server that facilitates ontology data sharing, visualization, and use.
 
 ## Data types, file formats and metadata standards
-Curated up-to-date guidance regarding file types and metadata standards is found at <a href="https://fairsharing.org/search?fairsharingRegistry=Standard/" target="_blank">FAIRsharing.org</a>. The most common ones, including links with data type specific FAIRsharing queries, is listed below. The information is adapted from _RDA COVID-19 Working Group. Recommendations and Guidelines on data sharing. Research Data Alliance. 2020._ doi: <a href="https://doi.org/10.15497/rda00052" target="_blank">10.15497/rda00052</a>
+Curated up-to-date guidance regarding file types and metadata standards is found at FAIRsharing.org. The most common ones, including links with data type specific FAIRsharing queries, is listed below. The information is adapted from _RDA COVID-19 Working Group. Recommendations and Guidelines on data sharing. Research Data Alliance. 2020._ doi: <a href="https://doi.org/10.15497/rda00052" target="_blank">10.15497/rda00052</a>
 
-&nbsp;
+<a class="link-teal" href="https://fairsharing.org/search?fairsharingRegistry=Standard/" target="_blank"><b>Visit FAIRsharing.org <i class="bi bi-box-arrow-up-right"></i></b></a>
+<br/><br/>
 
 ### Genomics data
 
-A list of relevant data and metadata standards can be found in <a href="https://fairsharing.org/search?q=sequence&fairsharingRegistry=Standard&status=ready&page=1" target="_blank">FAIRsharing</a>, some specific examples are below.
+A list of relevant data and metadata standards can be found in FAIRsharing, some specific examples are below.
 
 <p>
   <a class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
@@ -204,7 +205,7 @@ Images and structural data cover a wide range of data types and thus metadata st
 
 ### Metabolomics data
 
-For a curated list of relevant standards see <a href="https://fairsharing.org" target="_blank">FAIRsharing</a> using the query ‘<a href="https://fairsharing.org/search?q=metabolomics&fairsharingRegistry=Standard&page=1&status=ready" target="_blank">metabolomics</a>’, some examples are given below:
+For a curated list of relevant standards see <a href="https://fairsharing.org/search?q=metabolomics&fairsharingRegistry=Standard&page=1&status=ready" target="_blank">FAIRsharing</a> using the query ‘metabolomics’, some examples are given below:
 
 * Core Information for Metabolomics Reporting <a href="https://doi.org/10.25504/FAIRsharing.exz30t" target="_blank">CIMR</a> standard
 * For identifying chemical compounds use <a href="https://doi.org/10.25504/FAIRsharing.qv4b3c" target="_blank">SMILES</a> or <a href="https://doi.org/10.25504/FAIRsharing.ddk9t9" target="_blank">InChl</a>
@@ -222,7 +223,7 @@ For a curated list of relevant standards see <a href="https://fairsharing.org" t
 &nbsp;
 
 ### Proteomics data
-For a curated list of relevant standards see <a href="https://fairsharing.org" target="_blank">FAIRsharing</a> using the query ’<a href="https://fairsharing.org/search/?q=proteomics&fairsharingRegistry=Standard&page=1&status=ready" target="_blank">proteomics</a>’, some examples are given below:
+For a curated list of relevant standards see <a href="https://fairsharing.org/search/?q=proteomics&fairsharingRegistry=Standard&page=1&status=ready" target="_blank">FAIRsharing</a> using the query ’proteomics’, some examples are given below:
 
 * Use the minimal information model specified in <a href="https://doi.org/10.25504/FAIRsharing.8vv5fc" target="_blank">MIAPE</a> by the HUPO Proteomics Standards Initiative (<a href="https://hupo.org/Proteomics-Standards-Initiative-(PSI)" target="_blank">HUPO PSI</a>), and fill the model using the controlled vocabularies specified by the Proteomics Standards Initiative: <a href="https://doi.org/10.25504/FAIRsharing.sxh2dp" target="_blank">PSI-MS CV</a>
 * Recommended formats:

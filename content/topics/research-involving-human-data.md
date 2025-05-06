@@ -36,9 +36,9 @@ It is important to remember that pseudonymised data is still regarded as persona
 Below we list some important regulations to follow when conducting research that involves human data.
 
 * **General Data Protection Regulation (GDPR)** – All research involving personal data must comply with the <a href="https://gdpr-info.eu/" target="_blank">General Data Protection Regulation (GDPR)</a> (<a href="https://www.imy.se/verksamhet/dataskydd/det-har-galler-enligt-gdpr/introduktion-till-gdpr/dataskyddsforordningen-i-fulltext/" target="_blank">Dataskyddsförordningen</a>).
-The <a href="https://www.imy.se/en/" target="_blank">Swedish Authority for Privacy Protection (IMY)</a> upholds the protection of personal data, monitors that they are handled correctly and do not fall into the wrong hands. See their <a href="https://www.imy.se/en/organisations/data-protection/this-applies-accordning-to-gdpr/" target="_blank">GDPR information pages</a>, and also [GDPR considerations](#gdpr-considerations) further below.
+The <a href="https://www.imy.se/en/" target="_blank">Swedish Authority for Privacy Protection (IMY)</a> upholds the protection of personal data, monitors that they are handled correctly and do not fall into the wrong hands. See their <a href="https://www.imy.se/en/organisations/data-protection/this-applies-accordning-to-gdpr/" target="_blank">GDPR information pages</a>, and also GDPR considerations" further below.
 
-* **The Ethical Review Act** – Ethical review by the <a href="https://etikprovningsmyndigheten.se/" target="_blank">Ethical Review Authority</a> is needed when research involves human data, according to the Swedish ethical review act (<a href="https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2003460-om-etikprovning-av-forskning-som_sfs-2003-460" target="_blank">Lag (2003:460) om etikprövning av forskning som avser människor</a> - *Swedish*). See also [Ethical considerations](#ethical-considerations) below.
+* **The Ethical Review Act** – Ethical review by the <a href="https://etikprovningsmyndigheten.se/" target="_blank">Ethical Review Authority</a> is needed when research involves human data, according to the Swedish ethical review act (<a href="https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2003460-om-etikprovning-av-forskning-som_sfs-2003-460" target="_blank">Lag (2003:460) om etikprövning av forskning som avser människor</a> - *Swedish*). See also "Ethical considerations" below.
 
 * **Other regulations**
   <div>
@@ -77,20 +77,20 @@ Before embarking on a new project, consider the following:
 * What is the purpose of collecting and processing the personal data?
   * Determine the purpose and stick to it
   * Do not use data for another, incompatible purpose
-* What is the [legal basis](#legal-basis-for-processing-personal-data) for processing the personal data?
+* What is the legal basis for processing the personal data?
   * In other words, are there any laws or rules that permit you to collect and process these personal data?
   * Identify the legal basis for processing before processing begins
 * How and when are the collected data processed and used?
-* Have the data processing been reported to the [data protection officer](#data-protection-officer-dataskyddsombud)?
+* Have the data processing been reported to the data protection officer?
 * Who is the data controller of the personal data processed in the project?
-* Have [data processing agreements](#data-processing) been established between the data controller(s) and any data processors?
-* What technical and procedural [safeguards](#security-of-processing) have been established for processing the data?
+* Have data processing agreements been established between the data controller(s) and any data processors?
+* What technical and procedural safeguards have been established for processing the data?
   * Ensure that the data are accurate and up to date
   * Protect collected data
-* Have Data Protection Impact Assessments ([DPIA](#data-protection-impact-assessment-dpia)) been performed for the personal data?
+* Have Data Protection Impact Assessments (DPIA) been performed for the personal data?
 * What is there to show that the individuals concerned have given their consent?
   * Inform in a transparent and honest way
-* What happens with the data [after project completion](#sharing-human-data)?
+* What happens with the data after project completion?
   * How long will the collected data be kept? Erase the data when they are no longer needed.
 
 
@@ -115,7 +115,7 @@ Also note that even if public interest is the legal basis, other laws and resear
 
 All processing of personal data must comply with the <a href="https://gdpr-info.eu/art-5-gdpr/" target="_blank">Principles relating to processing of personal data - Article 5</a> in the GDPR. According to these principles, to process personal data, the controller must:
 
-* Identify the **[legal basis](#legal-basis-for-processing-personal-data)** for data processing *before it starts*
+* Identify the **legal basis** for data processing *before it starts*
 * Inform in a transparent and honest way
 * Decide the **purpose** and stick to it
 * Only collect data that is needed
@@ -138,7 +138,7 @@ And be able to **demonstrate** that the GDPR is followed.
 As a controller you should:
 * Ensure that data processing agreements are established when needed.
 * Ensure that all Processors are informed on what can and cannot be done to the data.
-* Ensure that all processing is done in a compute environment with a suitable level of security, e.g. <a href="https://docs.uppmax.uu.se/cluster_guides/bianca/" target="_blank">Bianca at Uppmax</a>.
+* Ensure that all processing is done in a compute environment with a suitable level of security, e.g. Bianca at Uppmax.
 
 As a Processor you should:
 * Only handle the data according to the instructions from the controller.
@@ -155,9 +155,10 @@ To ensure that the personal data that you process in the project is protected at
 
 The security measures taken should be based on an evaluation of the risks for, and consequences of, the personal data not being correct and protected. Appropriate technical and organisational measures shall be implemented to ensure a level of security appropriate to the risk. It is advisable that the researcher seek guidance from the legal and information security functions of the university adminstration about this.
 
-The UPPMAX <a href="https://docs.uppmax.uu.se/cluster_guides/bianca/" target="_blank">Bianca</a> system has been designed to have technical and information security procedures that are appropriate for processing sensitive human data for analysis. Using this system then relieves the researcher from having to define these technical and security procedures themselves (at least for the analysis phase of a project). The researcher can decide to analyse (sensitive) personal data elsewhere, but then they will have to define the appropriate procedures. In case the controller work at a different institute than Uppsala University, a data processing agreement between that institute and UPPMAX/Uppsala University, needs to be established - see <a href="https://www.uu.se/en/centre/uppmax/get-started/create-account-and-apply-for-project/apply-for-projects/applying-for-naiss-sens-project/puba" target="_blank">instructions here</a>.
+The UPPMAX Bianca system has been designed to have technical and information security procedures that are appropriate for processing sensitive human data for analysis. Using this system then relieves the researcher from having to define these technical and security procedures themselves (at least for the analysis phase of a project). The researcher can decide to analyse (sensitive) personal data elsewhere, but then they will have to define the appropriate procedures. In case the controller work at a different institute than Uppsala University, a data processing agreement between that institute and UPPMAX/Uppsala University, needs to be established - see <a href="https://www.uu.se/en/centre/uppmax/get-started/create-account-and-apply-for-project/apply-for-projects/applying-for-naiss-sens-project/puba" target="_blank">instructions here</a>.
 
-
+<a class="link-teal" href="https://docs.uppmax.uu.se/cluster_guides/bianca/" target="_blank"><b>Learn more about UPPMAX Bianca <i class="bi bi-box-arrow-up-right"></i></b></a>
+<br/><br/>
 
 ## Ethical considerations
 

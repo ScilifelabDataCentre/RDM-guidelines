@@ -276,6 +276,13 @@ button {
   display: none;
 }
 
+/* Icons */
+
+.bi-camera-video-fill {
+  font-size: 24px;
+}
+
+
 
 @supports ((position: -webkit-sticky) or (position: sticky)) {
   .sticky-top {

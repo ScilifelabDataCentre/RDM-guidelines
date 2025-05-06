@@ -8,11 +8,16 @@ toc: True
 Good documentation in research projects is essential in order to allow good quality data and transparent research. Describing how the datasets were created, how they are structured, and what they mean, is key for making your data understandable for others as well as your future self. Metadata provides such 'data about data'.
 Metadata is needed at several levels to describe the study, the samples, the experiments, the analysis and so on. It may include information on the methodology and instrumentation used to collect the data, analytical and procedural information, definitions of variables, units of measurement, any assumptions made, the format and file type of the data and software used to collect and/or process the data.
 
-Researchers are strongly encouraged to use community metadata standards where these are in place (see further down) and are recommended doing so already from the beginning of the project. Data repositories may also provide guidance about appropriate metadata standards and requirements e.g. the European Nucleotide Archive (ENA) have <a href="https://www.ebi.ac.uk/ena/submit/checklists" target="_blank">ENA sample checklists</a>. We provide templates for some of these checklists, see further on [Sharing phase - ENA](/data-life-cycle/share/#genomics-data). Structuring the metadata in a way that conforms to the suitable repository from the beginning enables data submission without having to reformat the metadata.
+Researchers are strongly encouraged to use community metadata standards where these are in place (see further down) and are recommended doing so already from the beginning of the project. Data repositories may also provide guidance about appropriate metadata standards and requirements e.g. the European Nucleotide Archive (ENA) have sample checklists. We provide templates for some of these checklists, see further on [Sharing phase - ENA](/data-life-cycle/share/#genomics-data). Structuring the metadata in a way that conforms to the suitable repository from the beginning enables data submission without having to reformat the metadata.
+
+
+<a class="link-teal" href="https://www.ebi.ac.uk/ena/submit/checklists" target="_blank"><b>Browse ENA checklists <i class="bi bi-box-arrow-up-right"></i></b></a>
 
 ## Ontologies
 
-Ontologies, controlled vocabularies and data dictionaries are used to standardize the language used to describe the metadata. Think of the many ways to write that the organism is human (human, Human, homo sapiens, H. sapiens, Homo Sapiens, man, etc), using an ontology such as <a href="https://www.ebi.ac.uk/ols/ontologies/ncbitaxon" target="_blank">NCBI taxonomy</a> unifies the language and makes it easier for both humans and machines to interpret and work with the data. While an ontology has a hierarchical structure (e.g. *homo sapiens* is a *mammalia* which is a *eukaryota*), a controlled vocabulary is an unstructured set of terms, but fills the same purpose, to standardize the language used. A <a href="https://help.osf.io/hc/en-us/articles/360019739054-How-to-Make-a-Data-Dictionary" target="_blank">Data Dictionary</a> is a user-defined way of describing what all the variable names and values in the data really mean.
+Ontologies, controlled vocabularies and data dictionaries are used to standardize the language used to describe the metadata. Think of the many ways to write that the organism is human (human, Human, homo sapiens, H. sapiens, Homo Sapiens, man, etc), using an ontology such as <a href="https://www.ebi.ac.uk/ols/ontologies/ncbitaxon" target="_blank">NCBI taxonomy</a> unifies the language and makes it easier for both humans and machines to interpret and work with the data. While an ontology has a hierarchical structure (e.g. *homo sapiens* is a *mammalia* which is a *eukaryota*), a controlled vocabulary is an unstructured set of terms, but fills the same purpose, to standardize the language used. A data dictionary is a user-defined way of describing what all the variable names and values in the data really mean.
+
+<a class="link-teal" href="https://help.osf.io/hc/en-us/articles/360019739054-How-to-Make-a-Data-Dictionary" target="_blank"><b>Learn more about Data Dictionaries <i class="bi bi-box-arrow-up-right"></i></b></a>
 
 For a suggested list of ontologies appropriate for Life Science community please see FAIRsharing.org, filter on e.g. Domain.
 
@@ -205,13 +210,15 @@ Images and structural data cover a wide range of data types and thus metadata st
 
 ### Metabolomics data
 
-For a curated list of relevant standards see <a href="https://fairsharing.org/search?q=metabolomics&fairsharingRegistry=Standard&page=1&status=ready" target="_blank">FAIRsharing</a> using the query ‘metabolomics’, some examples are given below:
+A selection of standards appropriate for metabolomics data are given below, for a more complete list please see FAIRsharing.org:
 
 * Core Information for Metabolomics Reporting <a href="https://doi.org/10.25504/FAIRsharing.exz30t" target="_blank">CIMR</a> standard
 * For identifying chemical compounds use <a href="https://doi.org/10.25504/FAIRsharing.qv4b3c" target="_blank">SMILES</a> or <a href="https://doi.org/10.25504/FAIRsharing.ddk9t9" target="_blank">InChl</a>
 * To document Investigation/Study/Assay data, use the <a href="https://isa-specs.readthedocs.io/en/latest/" target="_blank">ISA Abstract Model</a>, also implemented as a tabular format, <a href="https://doi.org/10.25504/FAIRsharing.53gp75" target="_blank">ISA-Tab</a> in <a href="https://www.ebi.ac.uk/metabolights" target="_blank">MetaboLights</a>. For an introduction to ISA, see (<a href="https://doi.org/10.1038/ng.1054" target="_blank">Sansone S-A et al., 2012</a>)
 * Recommended formats for LC-MS data: <a href="https://doi.org/10.25504/FAIRsharing.d7795c" target="_blank">ANDI-MS</a> specification, an analytical data interchange protocol for chromatographic data representation and/or <a href="https://doi.org/10.25504/FAIRsharing.26dmba" target="_blank">mzML</a>
 * Recommended formats for NMR data: <a href="https://doi.org/10.25504/FAIRsharing.xm7tkj" target="_blank">nmrCV</a>, <a href="https://doi.org/10.25504/FAIRsharing.es03fk" target="_blank">nmrML</a>
+
+<a class="link-teal" href="https://fairsharing.org/search?q=metabolomics&fairsharingRegistry=Standard&page=1&status=ready" target="_blank"><b>Browse metabolomics standards on FAIRsharing.org <i class="bi bi-box-arrow-up-right"></i></b></a>
 
 &nbsp;
 
@@ -223,7 +230,7 @@ For a curated list of relevant standards see <a href="https://fairsharing.org/se
 &nbsp;
 
 ### Proteomics data
-For a curated list of relevant standards see <a href="https://fairsharing.org/search/?q=proteomics&fairsharingRegistry=Standard&page=1&status=ready" target="_blank">FAIRsharing</a> using the query ’proteomics’, some examples are given below:
+A selection of standards appropriate for proteomics data are given below, for a more complete list please see FAIRsharing.org:
 
 * Use the minimal information model specified in <a href="https://doi.org/10.25504/FAIRsharing.8vv5fc" target="_blank">MIAPE</a> by the HUPO Proteomics Standards Initiative (<a href="https://hupo.org/Proteomics-Standards-Initiative-(PSI)" target="_blank">HUPO PSI</a>), and fill the model using the controlled vocabularies specified by the Proteomics Standards Initiative: <a href="https://doi.org/10.25504/FAIRsharing.sxh2dp" target="_blank">PSI-MS CV</a>
 * Recommended formats:
@@ -234,6 +241,9 @@ For a curated list of relevant standards see <a href="https://fairsharing.org/se
   * For protein quantisation data: <a href="https://doi.org/10.25504/FAIRsharing.fk6zhb" target="_blank">mzQuantML</a>
   * For protein identification data: <a href="https://doi.org/10.25504/FAIRsharing.11889" target="_blank">mzIdentML</a>
   * For metadata: <a href="https://isa-tools.org/" target="_blank">ISA-TAB</a> with conversion to PRIDE format
+
+<a class="link-teal" href="https://fairsharing.org/search/?q=proteomics&fairsharingRegistry=Standard&page=1&status=ready" target="_blank"><b>Browse proteomics standards on FAIRsharing.org <i class="bi bi-box-arrow-up-right"></i></b></a>
+
 
 &nbsp;
 

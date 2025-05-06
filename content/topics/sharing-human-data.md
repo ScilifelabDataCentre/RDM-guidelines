@@ -34,7 +34,7 @@ European Genome-phenome Archive is a service for sharing personally identifiable
 <a class="link-teal" href="https://ega-archive.org" target="_blank"><b>Go to the European Genome-phenome Archive <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/> 
 
 ### FEGA Sweden
-FEGA Sweden is a repository for storing and sharing personally identifiable genetic and phenotypic data in Sweden in a way that meets the requirements of the General Data Protection Regulation (GDPR). It is part of the <a href="https://ega-archive.org/about/projects-and-funders/federated-ega/" target="_blank">Federated European Genome-phenome Archive</a> (FEGA), which is a network consisting of several national nodes and the European Genome-phenome Archive (EGA). Researchers can create a submission request by filling in a form on the website. If you would like more information or have any questions regarding FEGA Sweden, please feel free to contact the FEGA Sweden Helpdesk at [ega-se@nbis.se](mailto:ega-se@nbis.se).
+FEGA Sweden is a repository for storing and sharing personally identifiable genetic and phenotypic data in Sweden in a way that meets the requirements of the General Data Protection Regulation (GDPR). It is part of the <a href="https://ega-archive.org/about/projects-and-funders/federated-ega/" target="_blank">Federated European Genome-phenome Archive</a> (FEGA), which is a network consisting of several national nodes and the European Genome-phenome Archive (EGA). Researchers can create a submission request by filling in a form on the website. If you would like more information or have any questions regarding FEGA Sweden, please feel free to contact the FEGA Sweden Helpdesk at <ega-se@nbis.se>.
 
 <a class="link-teal" href="https://fega.nbis.se/" target="_blank"><b>Go to FEGA Sweden <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/> 
 
@@ -81,7 +81,7 @@ If your data is located on the Bianca server at UPPMAX, we can help with handlin
 To let us handle access requests to your data, you need to take the following steps:
 
 1. Store the data in your own project on Bianca at UPPMAX.
-2. Adjust the Data Access Agreement and Data Access request forms (available from [datacentre@scilifelab.se](mailto:datacentre@scilifelab.se) to suit your particular case.
+2. Adjust the Data Access Agreement and Data Access request forms (available from <datacentre@scilifelab.se>) to suit your particular case.
 3. Prepare a metadata record for the dataset in the SciLifeLab Data Repository. It is important to not upload the human data, but do provide as much descriptive metadata as possible to improve the findability. Set `datacentre@scilifelab.se` as "access request email" and your own email address as "contact email".
 4. In your manuscript add a section on Data Availability and make sure it includes information on where to go for requesting access to the data. You could for example write the following in your manuscript:
 > The data is deposited on a secure Swedish server and has been assigned a DOI (XXX). Data access requests may be submitted to the Science for Life Laboratory Data Centre through the DOI link.

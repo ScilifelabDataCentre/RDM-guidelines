@@ -117,6 +117,9 @@ Use link-black for standalone links on colored background.
 .breadcrumb-item a {
   color: var(--teal1);
 }
+.breadcrumb-item.active {
+  color: black;
+}
 
 h1 a {
   color: var(--aqua1);
@@ -272,6 +275,13 @@ button {
   right: 40px;
   display: none;
 }
+
+/* Icons */
+
+.bi-camera-video-fill {
+  font-size: 24px;
+}
+
 
 
 @supports ((position: -webkit-sticky) or (position: sticky)) {

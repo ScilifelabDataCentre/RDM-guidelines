@@ -295,20 +295,6 @@ html {
   scroll-padding-top: 11rem; /* height of sticky header */
 }
 
-/* logo */
-
-.navbar-light .navbar-brand { /* not used?*/
-  color: var(--aqua0_75);
-}
-
-.navbar-light .navbar-brand:hover { /* not used?*/
-  color: var(--aqua1);
-  text-decoration: none;
-}
-
-.navbar-light .navbar-tagline {  /* not used? */
-}
-
 /* Nav links */
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -336,29 +322,7 @@ html {
   text-decoration: none;
 }
 
-/* Background colors */
-.bg-light-gray {   /* not used? */
-  background-color: var(--light_grey);
-}
-
-.bg-medium-gray {  /* seems to be unused */
-  background-color: var(--medium_grey);
-}
-
-.bg-dark-gray {  /* not used? */
-  background-color: var(--dark_grey);
-}
-
-.bg-light-teal { /* not used? */
-  background-color: var(--teal0_25);
-}
-
 /* Homepage */
-
-.column {   /* not used? */
-  float: left;
-  width: 50%;
-}
 
 .cont-links a {
   color: var(--teal1);
@@ -409,10 +373,6 @@ html {
   background-color: var(--grape0_25);
 }
 
-.resource {   /* not used? */
-  background-color: rgb(255, 255, 255) !important;
-}
-
 /*-----Cards-----*/
 .cards {
   background-color: var(--teal0_25);
@@ -422,10 +382,6 @@ html {
 .card-img-top {
   height: 9rem;
   width: 9rem;
-}
-
-.contributor-img-sm {    /* not used? */
-  height: 1rem;
 }
 
 /* Resources page */

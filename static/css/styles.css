@@ -34,6 +34,9 @@
   --medium_grey: #A6A6A6; /* likely unused */
   --dark_grey: #3F3F3F; /* used */
 }
+/*-------------------------------------------------------------------------------*/
+
+/***  sr-only class hides an element to all devices except screen readers ***/
 .sr-only {
   position:absolute;
   left:-10000px;
@@ -42,7 +45,11 @@
   height:1px;
   overflow:hidden;
 }
+/*-------------------------------------------------------------------------------*/
 
+/******************************************************/
+/*** Styling of default tags applied to 'all' pages ***/
+/******************************************************/
 body {
   font-family: "Lato", Times, Arial;
 }
@@ -51,96 +58,6 @@ p.big {
   font-size: 18px;
 }
 
-/* Links */
-
-/* All links - add underline on hover */
-/* Links in text 
-Do not differentiate between internal and external links on styling
-*/
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-  text-underline-offset: 3.2px;
-}
-
-.dropdown-item.hover, .dropdown-item:active {
-  color: white;
-  text-decoration: none;
-  background-color: var(--light_grey);
-}
-
-/* Links not in text 
-Differentiate between internal and external links by using diffrent bootstrap icons. 
-Internal - bi-arrow-right-square
-External - bi-box-arrow-up-right; add 'target="_blank"' so that they open up in new tabs
-*/
-
-/* 
-Use link-teal for standalone links on white background.
-*/
-.link-teal {
-  color: var(--teal1);
-}
-
-.link-teal:hover {
-  color: var(--teal1);
-  text-decoration: underline; 
-}
-
-/* 
-Use link-black for standalone links on colored background.
-*/
-
-.link-black {
-  color: black;
-}
-
-.link-black:hover {
-  color: black;
-  text-decoration: underline; 
-}
-
-/* Use only for table of content and listing resources in end of phase and topic pages */
-.list-link a {
-  color: var(--teal1);
-}
-.breadcrumb-item a {
-  color: var(--teal1);
-}
-.breadcrumb-item.active {
-  color: black;
-}
-
-h1 a {
-  color: var(--aqua1);
-}
-
-h1 a:hover {
-  color: var(--teal1);
-}
-
-.footer-link {
-  color: var(--teal1);
-  font-weight: bold;
-}
-.footer-link:hover {
-  color: var(--teal1);
-}
-
-.card-body-style {
-  color: black;
-  text-decoration: none;
-}
-
-.card-body-style:hover {
-  color: black;
-  text-decoration: none;
-}
-
-/* Header styling */
 h1 {
   font-size: 2rem;
   margin-top: 0.67em;
@@ -158,7 +75,194 @@ h4 {
   font-size: 1rem;
   margin-top: 1.33em;
 }
+/*-------------------------------------------------------------------------------*/
 
+/***************/
+/*** Buttons ***/
+/***************/
+/* Use teal button on actions such as 'Close', 'Send' etc 
+   Use light-grey button for 'See details' on resource's cards 
+   Use expandable button (light grape) for all expandable elements giving more data type information */
+
+   button {
+    border: none;
+    background: none;
+    margin-bottom: 1em;
+  }
+  
+  .btn:focus {
+    box-shadow: none;
+  }
+  
+  .btn-teal {
+    color: white;
+    background-color: var(--teal1);
+    border-color: var(--teal1);
+    border-style: solid;
+    border-width: medium;
+  }
+  .btn-teal:hover {
+    color: white;
+    border-color: white;
+    text-decoration: underline;
+    border-style: solid;
+    border-width: medium;
+  }
+  
+  .btn-light-grey {
+    background-color: var(--light_grey);
+    color: black;
+    border-color: var(--light_grey);
+    border-style: solid;
+    border-width: medium;
+  }
+  .btn-light-grey:hover {
+    background-color: var(--light_grey);
+    color: black;
+    border-color: white;
+    text-decoration: underline;
+    border-style: solid;
+    border-width: medium;
+  }
+  
+  .btn-expandable {
+    background-color: var(--grape0_25);
+    color: black;
+    border-color: var(--grape0_25);
+    border-style: solid;
+    border-width: medium;
+  }
+  .btn-expandable:hover {
+    background-color: var(--grape0_25);
+    color: black;
+    border-color: white;
+    text-decoration: underline;
+    border-style: solid;
+    border-width: medium;
+  }
+  
+  #btn-back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    display: none;
+  }
+/*-----------------------------------------------------------------------------------*/
+  
+/*************/
+/*** Links ***/
+/*************/
+
+/* All links - add underline on hover */ 
+   Links in text: 
+     Do not differentiate between internal and external links on styling */
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3.2px;
+}
+
+.dropdown-item.hover, .dropdown-item:active {
+  color: white;
+  text-decoration: none;
+  background-color: var(--light_grey);
+}
+
+/* Links not in text 
+      Differentiate between internal and external links by using diffrent bootstrap icons: 
+        Internal - bi-arrow-right-square
+        External - bi-box-arrow-up-right; add 'target="_blank"' so that they open up in new tabs
+
+      Use link-teal for standalone links on white background. 
+      Use link-black for standalone links on colored background. */
+
+.link-teal {
+  color: var(--teal1);
+}
+.link-teal:hover {
+  color: var(--teal1);
+  text-decoration: underline; 
+}
+.link-black {
+  color: black;
+}
+.link-black:hover {
+  color: black;
+  text-decoration: underline; 
+}
+
+/* Nav links */
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var(--dark_grey);
+  text-decoration: none;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:active {
+  text-decoration: none;
+}
+
+/* Use only for table of content and listing resources in end of phase and topic pages */
+.list-link a {
+  color: var(--teal1);
+}
+
+/* Styling of the 'site map', telling the visitor on which page they are in relation to homepage */
+.breadcrumb-item a {
+  color: var(--teal1);
+}
+.breadcrumb-item.active {
+  color: black;
+}
+
+/* Header links on homepage */
+h1 a {
+  color: var(--aqua1);
+}
+h1 a:hover {
+  color: var(--teal1);
+}
+
+/* Homepage right side card links */
+.card-body-style {
+  color: black;
+  text-decoration: none;
+}
+
+.card-body-style:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* Topic links */
+.cont-links a {
+  color: var(--teal1);
+  font-weight: bold;
+}
+.cont-links a:hover,
+.cont-links a:focus,
+.cont-links a:active {
+  color: var(--teal1);
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer-link {
+  color: var(--teal1);
+  font-weight: bold;
+}
+.footer-link:hover {
+  color: var(--teal1);
+}
+/*-----------------------------------------------------------------------------------*/
+
+/*************************************/
+/*** Top of pages / header styling ***/
+/*************************************/
 .header {
   background-position: center;
   background-repeat: no-repeat;
@@ -169,107 +273,11 @@ h4 {
     rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
 
-.navbar-nav.navbar-top li:not(:first-child) a {
-  padding-left: 0.6rem;
-}
-.navbar-nav.navbar-top li:not(:last-child) a span {
-  border-right: 1px solid #ccc;
-  padding-right: 0.6rem;
-}
-
-/* can nav-languages be removed, I don't see it used anywhere but maybe implicitly? */
-.nav-languages a img {
-  width: 1rem;
-  opacity: 0.5;
-  margin-left: 0.1rem;
-  margin-bottom: 0.1rem;
-}
-.nav-languages a:hover img,
-.nav-languages a:focus img,
-.nav-languages a:active img {
-  opacity: 1;
-}
-
 @media all and (min-width: 992px) {
   .mobile-navbar {
     display: none;
   }
 }
-
-/* Buttons */
-button {
-  border: none;
-  background: none;
-  margin-bottom: 1em;
-}
-
-.btn:focus {
-  box-shadow: none;
-}
-.btn-teal {
-  color: white;
-  background-color: var(--teal1);
-  border-color: var(--teal1);
-  border-style: solid;
-  border-width: medium;
-}
-
-.btn-teal:hover {
-  color: white;
-  border-color: white;
-  text-decoration: underline;
-  border-style: solid;
-  border-width: medium;
-}
-
-.btn-light-grey {
-  background-color: var(--light_grey);
-  color: black;
-  border-color: var(--light_grey);
-  border-style: solid;
-  border-width: medium;
-}
-
-.btn-light-grey:hover {
-  background-color: var(--light_grey);
-  color: black;
-  border-color: white;
-  text-decoration: underline;
-  border-style: solid;
-  border-width: medium;
-}
-
-.btn-expandable {
-  background-color: var(--grape0_25);
-  color: black;
-  border-color: var(--grape0_25);
-  border-style: solid;
-  border-width: medium;
-}
-
-.btn-expandable:hover {
-  background-color: var(--grape0_25);
-  color: black;
-  border-color: white;
-  text-decoration: underline;
-  border-style: solid;
-  border-width: medium;
-}
-
-#btn-back-to-top {
-  position: fixed;
-  bottom: 40px;
-  right: 40px;
-  display: none;
-}
-
-/* Icons */
-
-.bi-camera-video-fill {
-  font-size: 24px;
-}
-
-
 
 @supports ((position: -webkit-sticky) or (position: sticky)) {
   .sticky-top {
@@ -295,17 +303,13 @@ html {
   scroll-padding-top: 11rem; /* height of sticky header */
 }
 
-/* Nav links */
-
-.navbar-light .navbar-nav .nav-link:hover {
-  color: var(--dark_grey);
-  text-decoration: none;
+/* Get support, About, Contact */
+.navbar-nav.navbar-top li:not(:first-child) a {
+  padding-left: 0.6rem;
 }
-
-.navbar-light .navbar-nav .nav-link:hover,
-.navbar-light .navbar-nav .nav-link:focus,
-.navbar-light .navbar-nav .nav-link:active {
-  text-decoration: none;
+.navbar-nav.navbar-top li:not(:last-child) a span {
+  border-right: 1px solid #ccc;
+  padding-right: 0.6rem;
 }
 
 /* Main menu */
@@ -315,26 +319,13 @@ html {
 
 .navbar-light .navbar-nav .nav-main-menu:hover,
 .navbar-light .navbar-nav .nav-main-menu:focus,
-.navbar-light .navbar-nav .nav-main-menu:active,
-.navbar-light .navbar-nav .nav-main-menu.active {
+.navbar-light .navbar-nav .nav-main-menu:active {
   color: var(--teal1);
   font-weight: bold;
   text-decoration: none;
 }
 
-/* Homepage */
-
-.cont-links a {
-  color: var(--teal1);
-  font-weight: bold;
-}
-
-.cont-links a:hover,
-.cont-links a:focus,
-.cont-links a:active {
-  color: var(--teal1);
-  text-decoration: underline;
-}
+/*-----------------------------------------------------------------------------------*/
 
 /* Clear floats after the columns */ /* not used? */
 .row:after {
@@ -342,10 +333,11 @@ html {
   display: table;
   clear: both;
 }
+/*-----------------------------------------------------------------------------------*/
 
-
-// RDM wheel frontpage
-
+/***************************/
+/*** RDM wheel frontpage ***/
+/***************************/
 .ratio.main_rdm {
   padding-bottom: 10%;
 }
@@ -361,6 +353,16 @@ html {
     padding-bottom: 50%;
   }
 }
+/*-----------------------------------------------------------------------------------*/
+
+/*************/
+/*** Cards ***/
+/************/
+
+/* Used as background for e.g. displaying topics */
+.cards {
+  background-color: var(--teal0_25);
+}
 
 /* Homepage right side cards */
 .support {
@@ -373,18 +375,21 @@ html {
   background-color: var(--grape0_25);
 }
 
-/*-----Cards-----*/
-.cards {
-  background-color: var(--teal0_25);
-}
-
-/*-----Contributors cards-----*/
+/* Contributors cards */
 .card-img-top {
   height: 9rem;
   width: 9rem;
 }
+/*-----------------------------------------------------------------------------------*/
 
-/* Resources page */
+/**********************/
+/*** Resources page ***/
+/**********************/
+/* Icons */
+.bi-camera-video-fill {
+  font-size: 24px;
+}
+
 .resources-search-filter  {
   color: black;
   font-size: 1.17rem;
@@ -397,25 +402,18 @@ html {
   font-size: larger;
   border-bottom-color: black;
 }
-.nav-tabs .nav-item:nth-child(2) .nav-link {
-  background-color: var(--teal1);
-  color: white;
-  font-size: larger;
-  border-bottom-color: black;
-}
-.nav-tabs .nav-item:nth-child(3) .nav-link {
-  background-color: var(--aqua1);
-  color: white;
-  font-size: larger;
-  border-bottom-color: black;
-}
-
 .nav-tabs .nav-item:nth-child(1) .nav-link.active {
   border-color: black;
   border-bottom-color: transparent;
   background-color: white;
   color: var(--grape1);
   font-size: larger;
+}
+.nav-tabs .nav-item:nth-child(2) .nav-link {
+  background-color: var(--teal1);
+  color: white;
+  font-size: larger;
+  border-bottom-color: black;
 }
 .nav-tabs .nav-item:nth-child(2) .nav-link.active {
   border-color: black;
@@ -424,6 +422,12 @@ html {
   color: var(--teal1);
   font-size: larger;
 }
+.nav-tabs .nav-item:nth-child(3) .nav-link {
+  background-color: var(--aqua1);
+  color: white;
+  font-size: larger;
+  border-bottom-color: black;
+}
 .nav-tabs .nav-item:nth-child(3) .nav-link.active {
   border-color: black;
   border-bottom-color: transparent;
@@ -431,6 +435,7 @@ html {
   color: var(--aqua1);
   font-size: larger;
 }
+
 .tab-content {
   border: 1px solid black;
   border-top: transparent;
@@ -478,7 +483,11 @@ html {
 .resource-card-guidance {
   border-color: var(--teal1) !important;
 }
+/*-----------------------------------------------------------------------------------*/
 
+/************************/
+/*** Code copy button ***/
+/************************/
 /* Styles for markdown formatting of inline code and code blocks and copy to clipboard button */
 pre {
   color: black;
@@ -501,9 +510,8 @@ pre {
   background-color: rgba(229,229,229,0);
   border-width: 0px
 }
-
 .clipboard-button:hover {
   cursor: pointer;
   background-color: var(--light_grey);
 }
-
+/*-----------------------------------------------------------------------------------*/

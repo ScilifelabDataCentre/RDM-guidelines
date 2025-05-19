@@ -409,6 +409,17 @@ html {
   width: 9rem;
 }
 
+/* Resources cards */
+.resource-card-training {
+  border-color: var(--grape1) !important;
+}
+.resource-card-tool {
+  border-color: var(--aqua1) !important;
+}
+.resource-card-guidance {
+  border-color: var(--teal1) !important;
+}
+
 /*-----------------------------------------------------------------------------------*/
 
 /*************/
@@ -509,13 +520,5 @@ html {
 .resources-header-tool:hover {
   color: var(--aqua1);
 }
-.resource-card-training {
-  border-color: var(--grape1) !important;
-}
-.resource-card-tool {
-  border-color: var(--aqua1) !important;
-}
-.resource-card-guidance {
-  border-color: var(--teal1) !important;
-}
+
 /*-----------------------------------------------------------------------------------*/

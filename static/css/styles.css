@@ -147,6 +147,34 @@ h4 {
     right: 40px;
     display: none;
   }
+
+/* Code copy button
+    Styles for markdown formatting of inline code and code blocks and copy to clipboard button */
+  pre {
+    color: black;
+    background-color: rgba(229,229,229,0.5);
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    line-height: 1.5;
+    padding: 5px;
+    white-space : pre-wrap !important;
+  }
+
+  .clipboard {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .clipboard-button {
+    position: absolute;   /* put the button inside code block */
+    background-color: rgba(229,229,229,0);
+    border-width: 0px
+  }
+  .clipboard-button:hover {
+    cursor: pointer;
+    background-color: var(--light_grey);
+  }
 /*-----------------------------------------------------------------------------------*/
   
 /*************/
@@ -482,36 +510,5 @@ html {
 }
 .resource-card-guidance {
   border-color: var(--teal1) !important;
-}
-/*-----------------------------------------------------------------------------------*/
-
-/************************/
-/*** Code copy button ***/
-/************************/
-/* Styles for markdown formatting of inline code and code blocks and copy to clipboard button */
-pre {
-  color: black;
-  background-color: rgba(229,229,229,0.5);
-  -moz-tab-size: 4;
-  -o-tab-size: 4;
-  tab-size: 4;
-  line-height: 1.5;
-  padding: 5px;
-  white-space : pre-wrap !important;
-}
-
-.clipboard {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.clipboard-button {
-  position: absolute;   /* put the button inside code block */
-  background-color: rgba(229,229,229,0);
-  border-width: 0px
-}
-.clipboard-button:hover {
-  cursor: pointer;
-  background-color: var(--light_grey);
 }
 /*-----------------------------------------------------------------------------------*/

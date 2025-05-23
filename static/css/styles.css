@@ -32,8 +32,11 @@
   --aqua0_25: #D2E5E7; /* used */
   --light_grey: #E5E5E5; /* used */
   --medium_grey: #A6A6A6; /* likely unused */
-  --dark_grey: #3F3F3F; 
+  --dark_grey: #3F3F3F; /* used */
 }
+/*-------------------------------------------------------------------------------*/
+
+/***  sr-only class hides an element to all devices except screen readers ***/
 .sr-only {
   position:absolute;
   left:-10000px;
@@ -42,109 +45,17 @@
   height:1px;
   overflow:hidden;
 }
+/*-------------------------------------------------------------------------------*/
 
+/******************************************************/
+/*** Styling of default tags applied to 'all' pages ***/
+/******************************************************/
 body {
   font-family: "Lato", Times, Arial;
 }
 
-/* I don't see this used anywhere, so can likely be removed
-blockquote {
-  border-left: 5px solid rgba(46, 104, 165, 0.3);
-  padding-left: 1rem;
-  margin-left: 1rem;
-  color: #666;
-}*/
 p.big {
   font-size: 18px;
-}
-
-/* Links */
-
-/* All links - add underline on hover */
-/* Links in text 
-Do not differentiate between internal and external links on styling
-*/
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-  text-underline-offset: 3.2px;
-}
-
-.dropdown-item.hover, .dropdown-item:active {
-  color: white;
-  text-decoration: none;
-  background-color: var(--light_grey);
-}
-
-/* Links not in text 
-Differentiate between internal and external links by using diffrent bootstrap icons. 
-Internal - bi-arrow-right-square
-External - bi-box-arrow-up-right; add 'target="_blank"' so that they open up in new tabs
-*/
-
-/* 
-Use link-teal for standalone links on white background.
-*/
-.link-teal {
-  color: var(--teal1);
-}
-
-.link-teal:hover {
-  color: var(--teal1);
-  text-decoration: underline; 
-}
-
-/* 
-Use link-black for standalone links on colored background.
-*/
-
-.link-black {
-  color: black;
-}
-
-.link-black:hover {
-  color: black;
-  text-decoration: underline; 
-}
-
-/* Use only for table of content and listing resources in end of phase and topic pages */
-.list-link a {
-  color: var(--teal1);
-}
-.breadcrumb-item a {
-  color: var(--teal1);
-}
-.breadcrumb-item.active {
-  color: black;
-}
-
-h1 a {
-  color: var(--aqua1);
-}
-
-h1 a:hover {
-  color: var(--teal1);
-}
-
-.footer-link {
-  color: var(--teal1);
-  font-weight: bold;
-}
-.footer-link:hover {
-  color: var(--teal1);
-}
-
-.card-body-style {
-  color: black;
-  text-decoration: none;
-}
-
-.card-body-style:hover {
-  color: black;
-  text-decoration: none;
 }
 
 h1 {
@@ -164,16 +75,222 @@ h4 {
   font-size: 1rem;
   margin-top: 1.33em;
 }
-h5 {
-  font-size: 0.83rem;
-  margin-top: 1.67em;
-}
-h6 {
-  font-size: 0.67rem;
-  margin-top: 2.33em;
+/*-------------------------------------------------------------------------------*/
+
+/***************/
+/*** Buttons ***/
+/***************/
+/* Use teal button on actions such as 'Close', 'Send' etc 
+   Use light-grey button for 'See details' on resource's cards 
+   Use expandable button (light grape) for all expandable elements giving more data type information */
+
+   button {
+    border: none;
+    background: none;
+    margin-bottom: 1em;
+  }
+  
+  .btn:focus {
+    box-shadow: none;
+  }
+  
+  .btn-teal {
+    color: white;
+    background-color: var(--teal1);
+    border-color: var(--teal1);
+    border-style: solid;
+    border-width: medium;
+  }
+  .btn-teal:hover {
+    color: white;
+    border-color: white;
+    text-decoration: underline;
+    border-style: solid;
+    border-width: medium;
+  }
+  
+  .btn-light-grey {
+    background-color: var(--light_grey);
+    color: black;
+    border-color: var(--light_grey);
+    border-style: solid;
+    border-width: medium;
+  }
+  .btn-light-grey:hover {
+    background-color: var(--light_grey);
+    color: black;
+    border-color: white;
+    text-decoration: underline;
+    border-style: solid;
+    border-width: medium;
+  }
+  
+  .btn-expandable {
+    background-color: var(--grape0_25);
+    color: black;
+    border-color: var(--grape0_25);
+    border-style: solid;
+    border-width: medium;
+  }
+  .btn-expandable:hover {
+    background-color: var(--grape0_25);
+    color: black;
+    border-color: white;
+    text-decoration: underline;
+    border-style: solid;
+    border-width: medium;
+  }
+  
+  #btn-back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    display: none;
+  }
+
+/* Code copy button
+    Styles for markdown formatting of inline code and code blocks and copy to clipboard button */
+  pre {
+    color: black;
+    background-color: rgba(229,229,229,0.5);
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    line-height: 1.5;
+    padding: 5px;
+    white-space : pre-wrap !important;
+  }
+
+  .clipboard {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .clipboard-button {
+    position: absolute;   /* put the button inside code block */
+    background-color: rgba(229,229,229,0);
+    border-width: 0px
+  }
+  .clipboard-button:hover {
+    cursor: pointer;
+    background-color: var(--light_grey);
+  }
+/*-----------------------------------------------------------------------------------*/
+  
+/*************/
+/*** Links ***/
+/*************/
+
+/* All links - add underline on hover
+   Links in text: 
+     Do not differentiate between internal and external links on styling */
+
+a {
+  text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3.2px;
+}
 
+.dropdown-item.hover, .dropdown-item:active {
+  color: white;
+  text-decoration: none;
+  background-color: var(--light_grey);
+}
+
+/* Links not in text 
+      Differentiate between internal and external links by using diffrent bootstrap icons: 
+        Internal - bi-arrow-right-square
+        External - bi-box-arrow-up-right; add 'target="_blank"' so that they open up in new tabs
+
+      Use link-teal for standalone links on white background. 
+      Use link-black for standalone links on colored background. */
+
+.link-teal {
+  color: var(--teal1);
+}
+.link-teal:hover {
+  color: var(--teal1);
+  text-decoration: underline; 
+}
+.link-black {
+  color: black;
+}
+.link-black:hover {
+  color: black;
+  text-decoration: underline; 
+}
+
+/* Nav links */
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var(--dark_grey);
+  text-decoration: none;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:active {
+  text-decoration: none;
+}
+
+/* Use only for table of content and listing resources in end of phase and topic pages */
+.list-link a {
+  color: var(--teal1);
+}
+
+/* Styling of the 'site map', telling the visitor on which page they are in relation to homepage */
+.breadcrumb-item a {
+  color: var(--teal1);
+}
+.breadcrumb-item.active {
+  color: black;
+}
+
+/* Header links on homepage */
+h1 a {
+  color: var(--aqua1);
+}
+h1 a:hover {
+  color: var(--teal1);
+}
+
+/* Homepage right side card links */
+.card-body-style {
+  color: black;
+  text-decoration: none;
+}
+
+.card-body-style:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* Topic links */
+.cont-links a {
+  color: var(--teal1);
+  font-weight: bold;
+}
+.cont-links a:hover,
+.cont-links a:focus,
+.cont-links a:active {
+  color: var(--teal1);
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer-link {
+  color: var(--teal1);
+  font-weight: bold;
+}
+.footer-link:hover {
+  color: var(--teal1);
+}
+/*-----------------------------------------------------------------------------------*/
+
+/*************************************/
+/*** Top of pages / header styling ***/
+/*************************************/
 .header {
   background-position: center;
   background-repeat: no-repeat;
@@ -184,105 +301,11 @@ h6 {
     rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
 
-.navbar-nav.navbar-top li:not(:first-child) a {
-  padding-left: 0.6rem;
-}
-.navbar-nav.navbar-top li:not(:last-child) a span {
-  border-right: 1px solid #ccc;
-  padding-right: 0.6rem;
-}
-.nav-languages a img {
-  width: 1rem;
-  opacity: 0.5;
-  margin-left: 0.1rem;
-  margin-bottom: 0.1rem;
-}
-.nav-languages a:hover img,
-.nav-languages a:focus img,
-.nav-languages a:active img {
-  opacity: 1;
-}
-
 @media all and (min-width: 992px) {
   .mobile-navbar {
     display: none;
   }
 }
-
-/* Buttons */
-button {
-  border: none;
-  background: none;
-  margin-bottom: 1em;
-}
-
-.btn:focus {
-  box-shadow: none;
-}
-.btn-teal {
-  color: white;
-  background-color: var(--teal1);
-  border-color: var(--teal1);
-  border-style: solid;
-  border-width: medium;
-}
-
-.btn-teal:hover {
-  color: white;
-  border-color: white;
-  text-decoration: underline;
-  border-style: solid;
-  border-width: medium;
-}
-
-.btn-light-grey {
-  background-color: var(--light_grey);
-  color: black;
-  border-color: var(--light_grey);
-  border-style: solid;
-  border-width: medium;
-}
-
-.btn-light-grey:hover {
-  background-color: var(--light_grey);
-  color: black;
-  border-color: white;
-  text-decoration: underline;
-  border-style: solid;
-  border-width: medium;
-}
-
-.btn-expandable {
-  background-color: var(--grape0_25);
-  color: black;
-  border-color: var(--grape0_25);
-  border-style: solid;
-  border-width: medium;
-}
-
-.btn-expandable:hover {
-  background-color: var(--grape0_25);
-  color: black;
-  border-color: white;
-  text-decoration: underline;
-  border-style: solid;
-  border-width: medium;
-}
-
-#btn-back-to-top {
-  position: fixed;
-  bottom: 40px;
-  right: 40px;
-  display: none;
-}
-
-/* Icons */
-
-.bi-camera-video-fill {
-  font-size: 24px;
-}
-
-
 
 @supports ((position: -webkit-sticky) or (position: sticky)) {
   .sticky-top {
@@ -308,31 +331,51 @@ html {
   scroll-padding-top: 11rem; /* height of sticky header */
 }
 
-/* logo */
-
-.navbar-light .navbar-brand {
-  color: var(--aqua0_75);
+/* Headers on resources page */
+.resources-header-training {
+  color: var(--grape1);
+  font-size: 1.17rem;
+  font-weight: bold;
+  margin-top: 1.33rem;
+  margin-bottom: 1.33rem;
+  text-decoration: none;
 }
 
-.navbar-light .navbar-brand:hover {
+.resources-header-training:hover {
+  color: var(--grape1);
+}
+.resources-header-guidance {
+  color: var(--teal1);
+  font-size: 1.17rem;
+  font-weight: bold;
+  margin-top: 1.33rem;
+  margin-bottom: 1.33rem;
+  text-decoration: none;
+}
+
+.resources-header-guidance:hover {
+  color: var(--teal1);
+}
+.resources-header-tool {
   color: var(--aqua1);
+  font-size: 1.17rem;
+  font-weight: bold;
+  margin-top: 1.33rem;
+  margin-bottom: 1.33rem;
   text-decoration: none;
 }
 
-.navbar-light .navbar-tagline {
+.resources-header-tool:hover {
+  color: var(--aqua1);
 }
 
-/* Nav links */
-
-.navbar-light .navbar-nav .nav-link:hover {
-  color: var(--dark_grey);
-  text-decoration: none;
+/* Get support, About, Contact */
+.navbar-nav.navbar-top li:not(:first-child) a {
+  padding-left: 0.6rem;
 }
-
-.navbar-light .navbar-nav .nav-link:hover,
-.navbar-light .navbar-nav .nav-link:focus,
-.navbar-light .navbar-nav .nav-link:active {
-  text-decoration: none;
+.navbar-nav.navbar-top li:not(:last-child) a span {
+  border-right: 1px solid #ccc;
+  padding-right: 0.6rem;
 }
 
 /* Main menu */
@@ -342,59 +385,25 @@ html {
 
 .navbar-light .navbar-nav .nav-main-menu:hover,
 .navbar-light .navbar-nav .nav-main-menu:focus,
-.navbar-light .navbar-nav .nav-main-menu:active,
-.navbar-light .navbar-nav .nav-main-menu.active {
+.navbar-light .navbar-nav .nav-main-menu:active {
   color: var(--teal1);
   font-weight: bold;
   text-decoration: none;
 }
 
-/* Background colors */
-. .bg-light-gray {
-  background-color: var(--light_grey);
-}
+/*-----------------------------------------------------------------------------------*/
 
-.bg-medium-gray {  /* seems to be unused */
-  background-color: var(--medium_grey);
-}
-
-.bg-dark-gray {
-  background-color: var(--dark_grey);
-}
-
-.bg-light-teal {
-  background-color: var(--teal0_25);
-}
-
-/* Homepage */
-
-.column {
-  float: left;
-  width: 50%;
-}
-
-.cont-links a {
-  color: var(--teal1);
-  font-weight: bold;
-}
-
-.cont-links a:hover,
-.cont-links a:focus,
-.cont-links a:active {
-  color: var(--teal1);
-  text-decoration: underline;
-}
-
-/* Clear floats after the columns */
+/* Clear floats after the columns */ /* not used? */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
+/*-----------------------------------------------------------------------------------*/
 
-
-// RDM wheel frontpage
-
+/*****************/
+/*** RDM wheel ***/
+/*****************/
 .ratio.main_rdm {
   padding-bottom: 10%;
 }
@@ -410,109 +419,74 @@ html {
     padding-bottom: 50%;
   }
 }
+/*-----------------------------------------------------------------------------------*/
 
-/* Support block for the homepage */
-.support {
-  background-color: var(--lime0_25);
-}
+/*************/
+/*** Cards ***/
+/*************/
 
-/* Update block for the homepage */
-.update {
-  background-color: var(--teal0_25);
-}
-
-/* Jobs block for the homepage */
-.job {
-  background-color: var(--aqua0_25);
-}
-
-/* Calls block for the homepage */
-.call {
-  background-color: var(--teal0_25);
-}
-
-/* Events & Training block for the homepage */
-.training {
-  background-color: var(--grape0_25);
-}
-
-.resource {
-  background-color: rgb(255, 255, 255) !important;
-}
-
-/*-----Cards-----*/
+/* Used as background for e.g. displaying topics */
 .cards {
   background-color: var(--teal0_25);
 }
 
-/*-----Contributors cards-----*/
+/* Homepage right side cards */
+.support {
+  background-color: var(--lime0_25);
+}
+.dataPlatform {
+  background-color: var(--aqua0_25);
+}
+.training {
+  background-color: var(--grape0_25);
+}
+
+/* Contributors cards */
 .card-img-top {
   height: 9rem;
   width: 9rem;
 }
 
-.contributor-img-sm {
-  height: 1rem;
+/* Resources cards */
+.resource-card-training {
+  border-color: var(--grape1) !important;
+}
+.resource-card-tool {
+  border-color: var(--aqua1) !important;
+}
+.resource-card-guidance {
+  border-color: var(--teal1) !important;
 }
 
-/* Badges */
+/*-----------------------------------------------------------------------------------*/
 
-.event-date {
-  background-color: var(--grape1);
-  color: white;
+/*************/
+/*** Icons ***/
+/*************/
+
+.bi-camera-video-fill {
+  font-size: 24px;
 }
 
-.event-type {
-  background-color: var(--grape1);
-  color: white;
-}
+/*-----------------------------------------------------------------------------------*/
 
-.event-type-grape {
-  background-color: var(--grape1);
-  color: white;
-}
+/*********************/
+/*** Search filter ***/
+/*********************/
 
-.event-type-teal {
-  background-color: var(--teal1);
-  color: white;
-}
-
-.event-type-grey {
-  background-color: var(--dark_grey);
-  color: white;
-}
-
-.event-type-lime {
-  background-color: var(--lime1);
-  color: black;
-}
-
-.event-type-lh-grape {
-  background-color: var(--grape0_25);
-  color: black;
-}
-
-.event-type-lh-teal {
-  background-color: var(--teal0_25);
-  color: black;
-}
-
-.event-type-lh-grey {
-  background-color: var(--light_grey);
-  color: black;
-}
-
-.event-type-lh-lime {
-  background-color: var(--lime0_25);
-  color: black;
-}
-
-/* Resources page */
 .resources-search-filter  {
   color: black;
   font-size: 1.17rem;
   margin-top: 1em;
 }
+
+/*-----------------------------------------------------------------------------------*/
+
+/************/
+/*** Tabs ***/
+/************/
+
+/* Tabs used for Resources page */
 
 .nav-tabs .nav-item:nth-child(1) .nav-link {
   background-color: var(--grape1);
@@ -520,25 +494,18 @@ html {
   font-size: larger;
   border-bottom-color: black;
 }
-.nav-tabs .nav-item:nth-child(2) .nav-link {
-  background-color: var(--teal1);
-  color: white;
-  font-size: larger;
-  border-bottom-color: black;
-}
-.nav-tabs .nav-item:nth-child(3) .nav-link {
-  background-color: var(--aqua1);
-  color: white;
-  font-size: larger;
-  border-bottom-color: black;
-}
-
 .nav-tabs .nav-item:nth-child(1) .nav-link.active {
   border-color: black;
   border-bottom-color: transparent;
   background-color: white;
   color: var(--grape1);
   font-size: larger;
+}
+.nav-tabs .nav-item:nth-child(2) .nav-link {
+  background-color: var(--teal1);
+  color: white;
+  font-size: larger;
+  border-bottom-color: black;
 }
 .nav-tabs .nav-item:nth-child(2) .nav-link.active {
   border-color: black;
@@ -547,6 +514,12 @@ html {
   color: var(--teal1);
   font-size: larger;
 }
+.nav-tabs .nav-item:nth-child(3) .nav-link {
+  background-color: var(--aqua1);
+  color: white;
+  font-size: larger;
+  border-bottom-color: black;
+}
 .nav-tabs .nav-item:nth-child(3) .nav-link.active {
   border-color: black;
   border-bottom-color: transparent;
@@ -554,79 +527,11 @@ html {
   color: var(--aqua1);
   font-size: larger;
 }
+
 .tab-content {
   border: 1px solid black;
   border-top: transparent;
   padding: 15px;
 }
-.resources-header-training {
-  color: var(--grape1);
-  font-size: 1.17rem;
-  font-weight: bold;
-  margin-top: 1.33rem;
-  margin-bottom: 1.33rem;
-  text-decoration: none;
-}
-.resources-header-guidance {
-  color: var(--teal1);
-  font-size: 1.17rem;
-  font-weight: bold;
-  margin-top: 1.33rem;
-  margin-bottom: 1.33rem;
-  text-decoration: none;
-}
-.resources-header-tool {
-  color: var(--aqua1);
-  font-size: 1.17rem;
-  font-weight: bold;
-  margin-top: 1.33rem;
-  margin-bottom: 1.33rem;
-  text-decoration: none;
-}
-.resources-header-training:hover {
-  color: var(--grape1);
-}
-.resources-header-guidance:hover {
-  color: var(--teal1);
-}
-.resources-header-tool:hover {
-  color: var(--aqua1);
-}
-.resource-card-training {
-  border-color: var(--grape1);
-}
-.resource-card-tool {
-  border-color: var(--aqua1);
-}
-.resource-card-guidance {
-  border-color: var(--teal1);
-}
 
-/* Styles for markdown formatting of inline code and code blocks and copy to clipboard button */
-pre {
-  color: black;
-  background-color: rgba(229,229,229,0.5);
-  -moz-tab-size: 4;
-  -o-tab-size: 4;
-  tab-size: 4;
-  line-height: 1.5;
-  padding: 5px;
-  white-space : pre-wrap !important;
-}
-
-.clipboard {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.clipboard-button {
-  position: absolute;   /* put the button inside code block */
-  background-color: rgba(229,229,229,0);
-  border-width: 0px
-}
-
-.clipboard-button:hover {
-  cursor: pointer;
-  background-color: var(--light_grey);
-}
-
+/*-----------------------------------------------------------------------------------*/

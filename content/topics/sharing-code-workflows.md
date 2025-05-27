@@ -85,6 +85,6 @@ When choosing what level of sharing is useful for a specific output consider the
 * Cite your code in your research paper
 
 ## Resources
-Please find below resources concerning README files in form of training, guidance and/or tools.
+Please find below resources concerning the sharing of code and workflows in form of training, guidance and/or tools.
 
 {{< resources-per-page-topics >}}

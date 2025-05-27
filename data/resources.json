@@ -740,6 +740,18 @@
             "url": "https://doris.snd.se",
             "description": "The Swedish National Data Service's Data Organisation and Information System (DORIS) is a tool for describing and making research data and metadata searchable in the national research data portal Researchdata.se. DORIS can be used throughout the process, from describing and publishing research data, to reusing or reviewing them.",
             "provider":  ["SND"]
-        }     
+        },
+        {
+            "title": "SciLifeLab Open Science Software Checklist",
+            "short_title": "Open Science Software Checklist",
+            "target": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["SciLifeLab Open Science Software Checklist"],
+            "topic": ["Sharing code and workflows"],
+            "level": ["Basic"],
+            "url": "https://github.com/ScilifelabDataCentre/open-science-checklists/blob/develop/open_software_checklist.md",
+            "description": "This checklist provides essential steps for sharing and citing your research software. It covers everything from planning your software to ensuring others can find, understand, reuse, and contribute to your software, and how to ensure your work is credited.",
+            "provider":  ["SciLifeLab"]
+        }       
     ]
 }

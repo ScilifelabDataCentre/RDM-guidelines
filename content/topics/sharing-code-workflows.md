@@ -8,6 +8,7 @@ toc: True
 In the era of [FAIR](https://data-guidelines.scilifelab.se/topics/fair-principles) (Findable, Accessible, Interoperable and Reusable) and [Open science](https://www.vr.se/english/mandates/open-science/open-access-to-research-data.html), **all research outputs** should be shared and made available to the public. This includes the code and workflows produced during the course of the research project.
 
 ## What is code & workflows?
+
 **Code**
 
 Code in this context ranges from individual instructions and scripts, to software. Individual instructions and scripts are code that execute specific tasks or algorithms within research contexts, from simple data manipulation and visualisation to complex simulations. 
@@ -51,7 +52,7 @@ Scientific workflows or pipelines describe the structured sequences that organiz
 
 ## How to share code & workflows?
 
-How you share code and workflows depends on your goals—whether you seek transparency, collaboration, or community contributions. Keep in myn that your objectives may evolve over time, and every step towards FAIR practices adds value.  
+How you share code and workflows depends on your goals—whether you seek transparency, collaboration, or community contributions. Keep in mind that your objectives may evolve over time, and every step towards FAIR practices adds value.  
 
 <a class="link-teal" href="https://doi.org/10.17044/scilifelab.29086775.v1" target="_blank"> <b>Consult the SciLifeLab Open Science Software Checklist for comprehensive guidance<i class="bi bi-box-arrow-up-right"></i></b></a>
 
@@ -61,7 +62,7 @@ To ensure transparency, make a static copy of your code or workflow available fo
 
 To enhance FAIRness, consider obtaining a persistent identifier by publishing your code or workflow in a research output repository, such as Zenodo or the SciLifeLab Data Repository. This can be achieved by linking your GitHub repository or uploading files directly.
 
-If your code or workflow is intended for reuse, distribute it through a package manager (e.g., BioConda or CRAN). For workflows, consider joining communities like nf-core or Galaxy Europe, and register your workflow on platforms such as WorkflowHub. These steps help others build upon your work.
+If your code or workflow is intended for reuse, distribute it through a package manager (e.g., BioConda or CRAN). For workflows, consider joining communities like [nf-core](https://nf-co.re/) or [Galaxy Europe](https://galaxyproject.org/eu/), and register your workflow on platforms such as [WorkflowHub](https://workflowhub.eu/). These steps help others build upon your work.
 
 For software, consider publishing in a dedicated software journal (e.g., [Journal of Open Source Software](https://joss.theoj.org/)) or as a software article in a life sciences journal (e.g., [PLOS Computational Biology](https://collections.plos.org/collection/software/) or [BMC Bioinformatics](https://bmcbioinformatics.biomedcentral.com/submission-guidelines/preparing-your-manuscript/software-article)).
 

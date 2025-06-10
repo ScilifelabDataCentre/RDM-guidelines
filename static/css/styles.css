@@ -187,11 +187,13 @@ h4 {
 
 a {
   text-decoration: none;
+  color: blue;
 }
 
 a:hover {
   text-decoration: underline;
   text-underline-offset: 3.2px;
+  color: darkblue;
 }
 
 .dropdown-item.hover, .dropdown-item:active {

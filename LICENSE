@@ -21,9 +21,11 @@ Notices:
 
 ## Data Life Cycle wheel
 
-The [data life cycle wheel](layouts/partials/data_life_cycle.html) is is reused under a CC-BY license from the ELIXIR (2021) Research Data Management Kit. A deliverable from the EU-funded ELIXIR-CONVERGE project (grant agreement 871075). URL: [https://rdmkit.elixir-europe.org](https://rdmkit.elixir-europe.org/)
+The [data life cycle wheel](layouts/partials/data_life_cycle.html) is reused under a CC-BY license from the ELIXIR (2021) Research Data Management Kit. A deliverable from the EU-funded ELIXIR-CONVERGE project (grant agreement 871075). URL: [https://rdmkit.elixir-europe.org](https://rdmkit.elixir-europe.org/)
 
 ## Software
+
+MIT License
 
 Copyright (c) 2022 SciLifeLab
 

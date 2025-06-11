@@ -23,7 +23,7 @@ Scientific workflows or pipelines describe the structured sequences that organis
   <div class="col-7">
     In life science research, code and workflows are often as important as the data itself. From data processing scripts to full analysis pipelines — sharing your code is about <b>openness</b>, <b>improving</b> your science, gaining <b>recognition</b>, and allowing others to build on your work.
     <br><br>
-    Openly sharing code and workflows not only fulfills key scientific and ethical principles but also catalyzes new discoveries and collaborations across the life sciences. It ensures that research methodologies are transparent, reproducible, and accessible to all, laying the groundwork for a more inclusive and innovative scientific community.
+    Openly sharing code and workflows not only fulfills key scientific and ethical principles but also catalyses new discoveries and collaborations across the life sciences. It ensures that research methodologies are transparent, reproducible, and accessible to all, laying the groundwork for a more inclusive and innovative scientific community.
   </div>
   <div class="col-5" style="text-align: center;">
     <img src="/img/illustrations/works-on-my-computer.JPG" alt="Works on my computer" class="img-fluid">

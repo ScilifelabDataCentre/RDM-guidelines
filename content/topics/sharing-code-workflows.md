@@ -60,7 +60,7 @@ How you share code and workflows depends on your goals—whether you seek transp
 
 To ensure transparency, make a static copy of your code or workflow available for long-term access, independent of any research paper. This should be accompanied by a README file with a clear description, usage instructions, and a license. Collaborative version control platforms, such as GitHub, are ideal for both sharing and ongoing development. Use tags or releases to reference specific versions of your code.
 
-To enhance FAIRness, consider obtaining a persistent identifier by publishing your code or workflow in a research output repository, such as Zenodo or the SciLifeLab Data Repository. This can be achieved by linking your GitHub repository or uploading files directly.
+To enhance FAIRness, consider obtaining a persistent identifier by publishing your code or workflow in a research output repository, such as [Zenodo](https://zenodo.org/) or the [SciLifeLab Data Repository](https://figshare.scilifelab.se/). This can be achieved by linking your GitHub repository or uploading files directly.
 
 If your code or workflow is intended for reuse, distribute it through a package manager (e.g., BioConda or CRAN). For workflows, consider joining communities like [nf-core](https://nf-co.re/) or [Galaxy Europe](https://galaxyproject.org/eu/), and register your workflow on platforms such as [WorkflowHub](https://workflowhub.eu/). These steps help others build upon your work.
 

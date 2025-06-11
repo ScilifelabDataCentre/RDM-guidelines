@@ -68,7 +68,7 @@ For software, consider publishing in a dedicated software journal (e.g., [Journa
 
 ### Tips & Tricks
 
-- Start from a template or "cookie cutter" to streamline setup.
+- Start from a template or "cookie cutter" to streamline setup and follow best practices. 
 - Write readable code by using meaningful variable names, logical structure, and clear comments.
 - Expand your README beyond the basics—see our [README topic page](https://data-guidelines.scilifelab.se/topics/readme-files) for inspiration. 
 - Ask a colleague to test access and if they can understand how to use the code.

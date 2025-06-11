@@ -790,6 +790,32 @@
             "description": "Use code linting tools to verify a program’s adherence to a Python coding style convention. This is a part of the lesson 'Intermediate Research Software Development'. ",
             "provider": ["The Carpentries"],
             "licence": "CC BY 4.0"
-        }             
+        },
+        {
+            "title": "Cookiecutter Data Science",
+            "short_title": "Cookiecutter Data Science",
+            "target": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["Cookiecutter Data Science", "cookie cutter", "Python"],
+            "topic": ["Sharing code and workflows"],
+            "level": ["Basic"],
+            "url": "https://cookiecutter-data-science.drivendata.org",
+            "description": "Cookiecutter Data Science (CCDS) is a tool for setting up a data science project template that incorporates best practices. ",
+            "provider": ["DrivenData"],
+            "licence": "MIT License"
+        } ,
+        {
+            "title": "Cookiecutter for Computational Molecular Sciences Python Packages",
+            "short_title": "Cookiecutter for CMS Python Packages",
+            "target": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["Cookiecutter for Computational Molecular Sciences Python Packages", "CMS", "cookie cutter"],
+            "topic": ["Sharing code and workflows"],
+            "level": ["Basic"],
+            "url": "https://github.com/MolSSI/cookiecutter-cms",
+            "description": "A cookiecutter template for those interested in developing Computational Molecular Sciences (CMS) packages in Python.",
+            "provider": ["Molecular Software Sciences Institute"],
+            "licence": "MIT License"
+        }                
     ]
 }

@@ -16,7 +16,7 @@ Software encompasses code in a packaged, documented and operational form, design
 
 **Workflows** 
 
-Scientific workflows or pipelines describe the structured sequences that organize and automate research tasks. They detail the flow of data between tasks, often managed by Workflow Management Systems (WMS), and encapsulate a higher level of complexity by integrating multiple software components, scripts, and tools. 
+Scientific workflows or pipelines describe the structured sequences that organise and automate research tasks. They detail the flow of data between tasks, often managed by Workflow Management Systems (WMS), and encapsulate a higher level of complexity by integrating multiple software components, scripts, and tools. 
 
 ## Why share code & workflows?
 <div class="row">

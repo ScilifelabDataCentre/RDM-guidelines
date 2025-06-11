@@ -54,7 +54,7 @@ Scientific workflows or pipelines describe the structured sequences that organis
 
 How you share code and workflows depends on your goals—whether you seek transparency, collaboration, or community contributions. Keep in mind that your objectives may evolve over time, and every step towards FAIR practices adds value.  
 
-<a class="link-teal" href="https://doi.org/10.17044/scilifelab.29086775.v1" target="_blank"> <b>Consult the SciLifeLab Open Science Software Checklist for comprehensive guidance<i class="bi bi-box-arrow-up-right"></i></b></a>
+<a class="link-teal" href="https://github.com/ScilifelabDataCentre/open-science-checklists/blob/main/open_software_checklist.md" target="_blank"> <b>Consult the SciLifeLab Open Science Software Checklist for comprehensive guidance<i class="bi bi-box-arrow-up-right"></i></b></a>
 
 ### Where can code and workflows be shared?
 

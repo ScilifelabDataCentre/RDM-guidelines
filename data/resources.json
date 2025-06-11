@@ -739,7 +739,7 @@
             "level": ["Basic"],
             "url": "https://doris.snd.se",
             "description": "The Swedish National Data Service's Data Organisation and Information System (DORIS) is a tool for describing and making research data and metadata searchable in the national research data portal Researchdata.se. DORIS can be used throughout the process, from describing and publishing research data, to reusing or reviewing them.",
-            "provider":  ["SND"]
+            "provider": ["SND"]
         },
         {
             "title": "SciLifeLab Open Science Software Checklist",
@@ -751,7 +751,45 @@
             "level": ["Basic"],
             "url": "https://github.com/ScilifelabDataCentre/open-science-checklists/blob/main/open_software_checklist.md",
             "description": "This checklist provides essential steps for sharing and citing your research software. It covers everything from planning your software to ensuring others can find, understand, reuse, and contribute to your software, and how to ensure your work is credited.",
-            "provider":  ["SciLifeLab"]
-        }       
+            "provider": ["SciLifeLab"]
+        },
+        {
+            "title": "Programming Formalisms",
+            "short_title": "Programming Formalisms",
+            "target": ["training"],
+            "type": ["Course"],
+            "search_tags": ["Programming Formalisms", "script", "code"],
+            "topic": ["Sharing code and workflows"],
+            "level": ["Basic"],
+            "url": "https://nbisweden.github.io/module-open-science-dm-practices/index.html",
+            "description": "This course aims to give life scientists, bioinformaticians, and other scientists with some experience in programming and scripting an understanding of the underlying principles of software development, design, and programming.",
+            "provider": ["NBIS"]
+        },
+        {
+            "title": "Python Code Style Conventions",
+            "short_title": "Python Code Style Conventions",
+            "target": ["training"],
+            "type": ["Course"],
+            "search_tags": ["Python Code Style Conventions", "Carpentries"],
+            "topic": ["Sharing code and workflows"],
+            "level": ["Basic"],
+            "url": "https://carpentries-incubator.github.io/python-intermediate-development/15-coding-conventions.html",
+            "description": "Understand the benefits of following community coding conventions. This is a part of the lesson 'Intermediate Research Software Development'.",
+            "provider": ["The Carpentries"],
+            "licence": "CC BY 4.0"
+        },
+        {
+            "title": "Verifying Code Style Using Linters",
+            "short_title": "Verifying Code Style Using Linters",
+            "target": ["training"],
+            "type": ["Course"],
+            "search_tags": ["Verifying Code Style Using Linters", "Carpentries", "Python"],
+            "topic": ["Sharing code and workflows"],
+            "level": ["Basic"],
+            "url": "https://carpentries-incubator.github.io/python-intermediate-development/16-verifying-code-style-linters.html",
+            "description": "Use code linting tools to verify a program’s adherence to a Python coding style convention. This is a part of the lesson 'Intermediate Research Software Development'. ",
+            "provider": ["The Carpentries"],
+            "licence": "CC BY 4.0"
+        }             
     ]
 }

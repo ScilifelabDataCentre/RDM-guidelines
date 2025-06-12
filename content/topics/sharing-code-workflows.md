@@ -11,7 +11,7 @@ In the era of [FAIR](https://data-guidelines.scilifelab.se/topics/fair-principle
 
 **Code**
 
-Code in this context ranges from individual instructions and scripts, to software. Individual instructions and scripts are code that execute specific tasks or algorithms within research contexts, from simple data manipulation and visualisation to complex simulations. 
+Code in this context ranges from individual instructions and scripts, to software. Individual instructions and scripts are pieces of code that execute specific tasks or algorithms within research contexts. This could include anything from simple data manipulation or visualisation to complex simulations. 
 Software encompasses code in a packaged, documented and operational form, designed to conduct a range of scientific tasks, thereby becoming an essential tool in the research project.
 
 **Workflows** 

@@ -34,7 +34,7 @@ Scientific workflows or pipelines describe the structured sequences that organis
 ### Strengthen scientific integrity and utility
 
 * **Transparency and Reproducibility** – Clear documentation and the ability to replicate analyses build trust in scientific results, and are essential for verifying and understanding research findings.
-* **Reusability and Preservation** – Sharing enables workflows to be applied to new datasets or challenges, maximising the utility and lifespan of research tools and preventing the loss of valuable methodologies.
+* **Reusability and Preservation** – Sharing workflows allows them to be applied to new datasets or challenges, maximising the utility and lifespan of research tools, and preventing the loss of valuable methodologies.
 
 ### Enhance research efficiency and compliance
 

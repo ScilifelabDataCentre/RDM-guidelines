@@ -5,7 +5,7 @@ toc: True
 ---
 
 # Sharing code and workflows 
-In the era of [FAIR](https://data-guidelines.scilifelab.se/topics/fair-principles) (Findable, Accessible, Interoperable and Reusable) and [Open science](https://www.vr.se/english/mandates/open-science/open-access-to-research-data.html), **all research outputs** should be shared and made available to the public. This includes the code and workflows produced during the course of the research project.
+In the era of [FAIR](https://data-guidelines.scilifelab.se/topics/fair-principles) (Findable, Accessible, Interoperable and Reusable) and [Open Science](https://www.vr.se/english/mandates/open-science/open-access-to-research-data.html), **all research outputs** should be shared and made available to the public. This includes the code and workflows produced during the course of the research project.
 
 ## What are code & workflows?
 

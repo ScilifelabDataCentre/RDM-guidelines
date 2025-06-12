@@ -70,7 +70,7 @@ For software, consider publishing in a dedicated software journal (e.g., [Journa
 
 - Start from a template or "cookie cutter" to streamline setup, and follow best practices. 
 - Write readable code by using meaningful variable names, a logical structure, and clear comments. Some coding languages offer packages/tools that lint and format code for consistency. 
-- Expand your README beyond the basics—see our [README topic page](https://data-guidelines.scilifelab.se/topics/readme-files) for inspiration. 
+- Expand your README file beyond the basics. See our [README topic page](https://data-guidelines.scilifelab.se/topics/readme-files) for inspiration. 
 - Ask a colleague to test whether they can access and understand how to use the code.
 - Remember to cite your code in your research publications.
 

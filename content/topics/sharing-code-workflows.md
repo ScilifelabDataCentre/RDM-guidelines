@@ -79,6 +79,6 @@ For software, consider publishing in a dedicated software journal (e.g., [Journa
 
 
 ## Resources
-Please find below resources concerning the sharing of code and workflows in form of training, guidance and/or tools.
+Please find below resources concerning the sharing of code and workflows in form of training, guidance, and/or tools.
 
 {{< resources-per-page-topics >}}

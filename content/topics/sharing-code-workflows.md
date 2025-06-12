@@ -64,7 +64,7 @@ To enhance FAIRness, consider obtaining a persistent identifier by publishing yo
 
 If your code or workflow is intended for reuse, distribute it through a package manager (e.g., [BioConda](https://bioconda.github.io/) or [CRAN](https://cran.r-project.org/)). For workflows, consider joining communities like [nf-core](https://nf-co.re/) or [Galaxy Europe](https://galaxyproject.org/eu/), and register your workflow on platforms such as [WorkflowHub](https://workflowhub.eu/). These steps help others build upon your work.
 
-For software, consider publishing in a dedicated software journal (e.g., [Journal of Open Source Software](https://joss.theoj.org/)) or as a software article in a life sciences journal (e.g., [PLOS Computational Biology](https://collections.plos.org/collection/software/) or [BMC Bioinformatics](https://bmcbioinformatics.biomedcentral.com/submission-guidelines/preparing-your-manuscript/software-article)).
+For software, consider publishing in a dedicated software journal (e.g. [Journal of Open Source Software](https://joss.theoj.org/)) or as a software article in a life sciences journal (e.g. [PLOS Computational Biology](https://collections.plos.org/collection/software/) or [BMC Bioinformatics](https://bmcbioinformatics.biomedcentral.com/submission-guidelines/preparing-your-manuscript/software-article)).
 
 ### Tips & Tricks
 

@@ -39,7 +39,7 @@ Scientific workflows or pipelines describe the structured sequences that organis
 ### Enhance research efficiency and compliance
 
 * **Operational Efficiency** – Modular, well-documented software facilitates smoother research processes, from rerunning experiments to adapting methodologies for new data. 
-* **Legal and Ethical Compliance** – Publishing software and data independently of each other as well as associated research articles simplifies compliance with licensing requirements. Adherence with open code mandates set by journals and funders enhances research credibility and broadens dissemination.
+* **Legal and Ethical Compliance** – Publishing software and data independently of each other, and of associated research articles, simplifies compliance with licencing requirements. Adherence with open code mandates set by journals and funders both enhances research credibility, and broadens dissemination.
 * **Recognition** – Open code obtains scholarly recognition through citations, emphasising the importance of software as a research output.
 
 ### Foster collaboration and global innovation

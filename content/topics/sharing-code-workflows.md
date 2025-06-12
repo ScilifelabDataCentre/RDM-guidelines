@@ -11,8 +11,7 @@ In the era of [FAIR](https://data-guidelines.scilifelab.se/topics/fair-principle
 
 **Code**
 
-Code in this context ranges from individual instructions and scripts, to software. Individual instructions and scripts are pieces of code that execute specific tasks or algorithms within research contexts. This could include anything from simple data manipulation or visualisation to complex simulations. 
-Software encompasses code in a packaged, documented and operational form, designed to conduct a range of scientific tasks, thereby becoming an essential tool in the research project.
+Code in this context ranges from individual instructions and scripts, to software. Individual instructions and scripts are pieces of code that execute specific tasks or algorithms within research contexts. This could include anything from simple data manipulation or visualisation to complex simulations. Software encompasses code in a packaged, documented and operational form, designed to conduct a range of scientific tasks, thereby becoming an essential tool in the research project.
 
 **Workflows** 
 
@@ -40,7 +39,7 @@ Scientific workflows or pipelines describe the structured sequences that organis
 
 * **Operational Efficiency** – Modular, well-documented software facilitates smoother research processes, from rerunning experiments to adapting methodologies for new data. 
 * **Legal and Ethical Compliance** – Publishing software and data independently of each other, and of associated research articles, simplifies compliance with licencing requirements. Adherence with open code mandates set by journals and funders both enhances research credibility, and broadens dissemination.
-* **Recognition** – Open code obtains scholarly recognition through citations, emphasising the importance of software as a research output.
+* **Recognition** – Open code obtains scholarly recognition through citations, emphasising the importance of code as a research output.
 
 ### Foster collaboration and global innovation
 * **Global Access and Education** – Sharing tools broadens their reach, enabling equitable access and serving as vital resources for training the next generation of scientists, particularly in resource-limited settings.

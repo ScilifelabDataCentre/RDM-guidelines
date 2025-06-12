@@ -43,7 +43,7 @@ Scientific workflows or pipelines describe the structured sequences that organis
 
 ### Foster collaboration and global innovation
 * **Global Access and Education** – Sharing tools broadens their reach, enabling equitable access and serving as vital resources for training the next generation of scientists, particularly in resource-limited settings.
-* **Community Contributions and Cross-Field Innovation** – Open software encourages community input and interdisciplinary exchanges, leading to more robust, flexible solutions and sparking innovation across research domains.
+* **Community Contributions and Cross-Field Innovation** – Open code encourages community input and interdisciplinary exchanges, leading to more robust, flexible solutions, and sparking innovation across research domains.
 
 <a class="link-teal" href="https://www.software.ac.uk/blog/why-should-you-care-about-reproducible-code-and-how-get-started" target="_blank"> <b>Learn more about practical benefits and how to get started <i class="bi bi-box-arrow-up-right"></i></b></a>
 

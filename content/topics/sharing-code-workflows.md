@@ -47,7 +47,7 @@ Scientific workflows or pipelines describe the structured sequences that organis
 
 <a class="link-teal" href="https://www.software.ac.uk/blog/why-should-you-care-about-reproducible-code-and-how-get-started" target="_blank"> <b>Learn more about practical benefits and how to get started <i class="bi bi-box-arrow-up-right"></i></b></a>
 
-<a class="link-teal" href="https://urn.kb.se/resolve?urn=urn:nbn:se:kb:publ-738" target="_blank"><b>Download and read the National Library of Sweden’s national guidelines <i class="bi bi-box-arrow-up-right"></i></b></a>
+<a class="link-teal" href="https://urn.kb.se/resolve?urn=urn:nbn:se:kb:publ-738" target="_blank"><b>Download and read the National Library of Sweden’s national guidelines for open science<i class="bi bi-box-arrow-up-right"></i></b></a>
 
 ## How to share code & workflows?
 

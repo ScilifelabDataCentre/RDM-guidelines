@@ -7,6 +7,13 @@ toc: True
 # Sharing code and workflows 
 In the era of [FAIR](https://data-guidelines.scilifelab.se/topics/fair-principles) (Findable, Accessible, Interoperable and Reusable) and [Open Science](https://www.vr.se/english/mandates/open-science/open-access-to-research-data.html), **all research outputs** should be shared and made available to the public. This includes the code and workflows produced during the course of the research project. This page, while not exhaustive, aims to give an introduction to the topic of FAIR code. 
 
+<div class="row">
+  <div class="col-12" style="text-align: center;">
+    <img src="/img/illustrations/works-on-my-computer.JPG" alt="Works on my computer" class="img-fluid">
+    <br><small>Robot: MetaManMachine by Nikola Vasiljevic (2021), CC BY-SA 4.0, doi:<a href="https://doi.org/10.5281/zenodo.4471098" target="_blank">10.5281/zenodo.4471098</a></small>
+  </div>
+</div>
+
 ## What are code & workflows?
 
 **Code**
@@ -18,32 +25,16 @@ Code in this context ranges from individual instructions and scripts, to softwar
 Scientific workflows or pipelines are code that describe the structured sequences that organise and automate research tasks. They detail the flow of data between tasks, often managed by Workflow Management Systems (WMS), and encapsulate a higher level of complexity by integrating multiple software components, scripts, and tools. 
 
 ## Why share code & workflows?
-<div class="row">
-  <div class="col-7">
-    In life science research, code and workflows are often as important as the data itself. From data processing scripts to full analysis pipelines — sharing your code is about <b>openness</b>, <b>improving</b> your science, gaining <b>recognition</b>, and allowing others to build on your work.
-    <br><br>
-    Openly sharing code and workflows not only fulfils key scientific and ethical principles, but also catalyses new discoveries and collaborations across the life sciences. It ensures that research methodologies are transparent, reproducible, and accessible to all, laying the groundwork for a more inclusive and innovative scientific community.
-  </div>
-  <div class="col-5" style="text-align: center;">
-    <img src="/img/illustrations/works-on-my-computer.JPG" alt="Works on my computer" class="img-fluid">
-    <br><small>Robot: MetaManMachine by Nikola Vasiljevic (2021), CC BY-SA 4.0, doi:<a href="https://doi.org/10.5281/zenodo.4471098" target="_blank">10.5281/zenodo.4471098</a></small>
-  </div>
-</div>
 
-### Strengthen scientific integrity and utility
+In life science research, code and workflows are often as important as the data itself. From data processing scripts to full analysis pipelines — sharing your code is about <b>openness</b>, <b>improving</b> your science, gaining <b>recognition</b>, and allowing others to build on your work.
+<br><br>
+Openly sharing code and workflows not only fulfils key scientific and ethical principles, but also catalyses new discoveries and collaborations across the life sciences. It ensures that research methodologies are transparent, reproducible, and accessible to all, laying the groundwork for a more inclusive and innovative scientific community.
 
-* **Transparency and Reproducibility** – Clear documentation and the ability to replicate analyses build trust in scientific results, and are essential for verifying and understanding research findings.
-* **Reusability and Preservation** – Sharing workflows allows them to be applied to new datasets or challenges, maximising the utility and lifespan of research tools, and preventing the loss of valuable methodologies.
+* **Strengthen scientific integrity and utility** - Clear documentation and the ability to replicate analyses build trust in scientific results, and are essential for verifying and understanding research findings. Sharing workflows allows them to be applied to new datasets or challenges, maximising the utility and lifespan of research tools, and preventing the loss of valuable methodologies.
 
-### Enhance research efficiency and compliance
+* **Enhance research efficiency and compliance** - Modular, well-documented code facilitates smoother research processes, from rerunning experiments to adapting methodologies for new data.  Publishing code and data independently of each other, and of associated research articles, simplifies compliance with licencing requirements. Adherence with open code mandates set by journals and funders both enhances research credibility, and broadens dissemination. Open code obtains scholarly recognition through citations, emphasising the importance of code as a research output.
 
-* **Operational Efficiency** – Modular, well-documented code facilitates smoother research processes, from rerunning experiments to adapting methodologies for new data. 
-* **Legal and Ethical Compliance** – Publishing code and data independently of each other, and of associated research articles, simplifies compliance with licencing requirements. Adherence with open code mandates set by journals and funders both enhances research credibility, and broadens dissemination.
-* **Recognition** – Open code obtains scholarly recognition through citations, emphasising the importance of code as a research output.
-
-### Foster collaboration and global innovation
-* **Global Access and Education** – Sharing tools broadens their reach, enabling equitable access and serving as vital resources for training the next generation of scientists, particularly in resource-limited settings.
-* **Community Contributions and Cross-Field Innovation** – Open code encourages community input and interdisciplinary exchanges, leading to more robust, flexible solutions, and sparking innovation across research domains.
+* **Foster collaboration and global innovation** - Sharing tools broadens their reach, enabling equitable access and serving as vital resources for training the next generation of scientists, particularly in resource-limited settings. Open code encourages community input and interdisciplinary exchanges, leading to more robust, flexible solutions, and sparking innovation across research domains.
 
 <a class="link-teal" href="https://www.software.ac.uk/blog/why-should-you-care-about-reproducible-code-and-how-get-started" target="_blank"> <b>Learn more about practical benefits from Software Sustainability Institute <i class="bi bi-box-arrow-up-right"></i></b></a>
 

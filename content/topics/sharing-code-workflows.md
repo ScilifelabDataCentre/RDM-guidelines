@@ -65,6 +65,8 @@ If your code or workflow is intended for reuse, distribute it through a package 
 
 For software, consider publishing in a dedicated software journal (e.g. [Journal of Open Source Software](https://joss.theoj.org/)) or as a software article in a life sciences journal (e.g. [PLOS Computational Biology](https://collections.plos.org/collection/software/) or [BMC Bioinformatics](https://bmcbioinformatics.biomedcentral.com/submission-guidelines/preparing-your-manuscript/software-article)).
 
+<a class="link-teal" href="https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content" target="_blank"><b>Referencing and citing content on GitHub <i class="bi bi-box-arrow-up-right"></i></b></a>
+
 ### Tips & Tricks
 
 - Start from a template or "cookie cutter" to streamline setup, and follow best practices. 

@@ -37,8 +37,8 @@ Scientific workflows or pipelines are code that describe the structured sequence
 
 ### Enhance research efficiency and compliance
 
-* **Operational Efficiency** – Modular, well-documented software facilitates smoother research processes, from rerunning experiments to adapting methodologies for new data. 
-* **Legal and Ethical Compliance** – Publishing software and data independently of each other, and of associated research articles, simplifies compliance with licencing requirements. Adherence with open code mandates set by journals and funders both enhances research credibility, and broadens dissemination.
+* **Operational Efficiency** – Modular, well-documented code facilitates smoother research processes, from rerunning experiments to adapting methodologies for new data. 
+* **Legal and Ethical Compliance** – Publishing code and data independently of each other, and of associated research articles, simplifies compliance with licencing requirements. Adherence with open code mandates set by journals and funders both enhances research credibility, and broadens dissemination.
 * **Recognition** – Open code obtains scholarly recognition through citations, emphasising the importance of code as a research output.
 
 ### Foster collaboration and global innovation

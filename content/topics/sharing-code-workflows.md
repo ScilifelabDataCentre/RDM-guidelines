@@ -5,7 +5,7 @@ toc: True
 ---
 
 # Sharing code and workflows 
-In the era of [FAIR](https://data-guidelines.scilifelab.se/topics/fair-principles) (Findable, Accessible, Interoperable and Reusable) and [Open Science](https://www.vr.se/english/mandates/open-science/open-access-to-research-data.html), **all research outputs** should be shared and made available to the public. This includes the code and workflows produced during the course of the research project.
+In the era of [FAIR](https://data-guidelines.scilifelab.se/topics/fair-principles) (Findable, Accessible, Interoperable and Reusable) and [Open Science](https://www.vr.se/english/mandates/open-science/open-access-to-research-data.html), **all research outputs** should be shared and made available to the public. This includes the code and workflows produced during the course of the research project. This page, while not exhaustive, aims to give an introduction to the topic of FAIR code. 
 
 ## What are code & workflows?
 
@@ -15,7 +15,7 @@ Code in this context ranges from individual instructions and scripts, to softwar
 
 **Workflows** 
 
-Scientific workflows or pipelines describe the structured sequences that organise and automate research tasks. They detail the flow of data between tasks, often managed by Workflow Management Systems (WMS), and encapsulate a higher level of complexity by integrating multiple software components, scripts, and tools. 
+Scientific workflows or pipelines are code that describe the structured sequences that organise and automate research tasks. They detail the flow of data between tasks, often managed by Workflow Management Systems (WMS), and encapsulate a higher level of complexity by integrating multiple software components, scripts, and tools. 
 
 ## Why share code & workflows?
 <div class="row">
@@ -45,15 +45,15 @@ Scientific workflows or pipelines describe the structured sequences that organis
 * **Global Access and Education** – Sharing tools broadens their reach, enabling equitable access and serving as vital resources for training the next generation of scientists, particularly in resource-limited settings.
 * **Community Contributions and Cross-Field Innovation** – Open code encourages community input and interdisciplinary exchanges, leading to more robust, flexible solutions, and sparking innovation across research domains.
 
-<a class="link-teal" href="https://www.software.ac.uk/blog/why-should-you-care-about-reproducible-code-and-how-get-started" target="_blank"> <b>Learn more about practical benefits and how to get started <i class="bi bi-box-arrow-up-right"></i></b></a>
+<a class="link-teal" href="https://www.software.ac.uk/blog/why-should-you-care-about-reproducible-code-and-how-get-started" target="_blank"> <b>Learn more about practical benefits from Software Sustainability Institute <i class="bi bi-box-arrow-up-right"></i></b></a>
 
-<a class="link-teal" href="https://urn.kb.se/resolve?urn=urn:nbn:se:kb:publ-738" target="_blank"><b>Download and read the National Library of Sweden’s national guidelines for open science<i class="bi bi-box-arrow-up-right"></i></b></a>
+<a class="link-teal" href="https://everse.software/RSQKit/fair_rs" target="_blank"><b>Read about FAIR Research Software Principles at RSQKit <i class="bi bi-box-arrow-up-right"></i></b></a>
 
 ## How to share code & workflows?
 
 How you share code and workflows depends on your goals; whether you seek transparency, collaboration, or community contributions. Keep in mind that your objectives may evolve over time, and every step towards FAIR practices adds value.  
 
-<a class="link-teal" href="https://github.com/ScilifelabDataCentre/open-science-checklists/blob/main/open_software_checklist.md" target="_blank"> <b>Consult the SciLifeLab Open Science Software Checklist for comprehensive guidance<i class="bi bi-box-arrow-up-right"></i></b></a>
+<a class="link-teal" href="https://github.com/ScilifelabDataCentre/open-science-checklists/blob/main/open_software_checklist.md" target="_blank"> <b>Consult the SciLifeLab Open Science Software Checklist for comprehensive guidance <i class="bi bi-box-arrow-up-right"></i></b></a>
 
 ### Where can code and workflows be shared?
 

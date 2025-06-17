@@ -754,14 +754,14 @@
             "provider": ["SciLifeLab"]
         },
         {
-            "title": "Programming Formalisms",
+            "title": "Programming Formalisms: Turning scripters into computer scientists",
             "short_title": "Programming Formalisms",
             "target": ["training"],
             "type": ["Course"],
-            "search_tags": ["Programming Formalisms", "script", "code"],
+            "search_tags": ["Programming Formalisms: Turning scripters into computer scientists","Programming Formalisms", "script", "code"],
             "topic": ["Sharing code and workflows"],
             "level": ["Basic"],
-            "url": "https://nbisweden.github.io/module-open-science-dm-practices/index.html",
+            "url": "https://uppmax.github.io/programming_formalisms/",
             "description": "This course aims to give life scientists, bioinformaticians, and other scientists with some experience in programming and scripting an understanding of the underlying principles of software development, design, and programming.",
             "provider": ["NBIS"]
         },
@@ -803,7 +803,7 @@
             "description": "Cookiecutter Data Science (CCDS) is a tool for setting up a data science project template that incorporates best practices. ",
             "provider": ["DrivenData"],
             "licence": "MIT License"
-        } ,
+        },
         {
             "title": "Cookiecutter for Computational Molecular Sciences Python Packages",
             "short_title": "Cookiecutter for CMS Python Packages",
@@ -816,6 +816,31 @@
             "description": "A cookiecutter template for those interested in developing Computational Molecular Sciences (CMS) packages in Python.",
             "provider": ["Molecular Software Sciences Institute"],
             "licence": "MIT License"
+        },
+        {
+            "title": "National Library of Sweden’s national guidelines for open science",
+            "short_title": "KB: National guidelines Open Science",
+            "target": ["guidance"],
+            "type": ["Material"],
+            "search_tags": ["National Library of Sweden","Open Science", "National Library of Sweden’s national guidelines for open science"],
+            "phase": ["Share", "Reuse"],
+            "topic": ["Sharing code and workflows"],
+            "level": ["Basic"],
+            "url": "https://urn.kb.se/resolve?urn=urn:nbn:se:kb:publ-738",
+            "description": "These national guidelines are intended to provide support and guidance for the different stakeholders in Sweden who have overarching responsibility in the transition to open science. The purpose of these guidelines is to outline the direction for the continued development towards open science in Sweden, specifying which key actors are responsible for what, as well as how the guidelines are to be monitored and updated over time.",
+            "provider":  ["National Library of Sweden"]
+        },
+        {
+            "title": "Research Software Quality Kit",
+            "short_title": "RSQKit",
+            "target": ["guidance"],
+            "type": ["Web page"],
+            "search_tags": ["Research Software Quality Kit", "RSQKit", "EVERSE", "Software"],
+            "topic": ["Sharing code and workflows"],
+            "level": ["Basic"],
+            "url": "https://everse.software/RSQKit/",
+            "description": "Research Software Quality Toolkit (RSQKit) lists curated best practices in developing, collaborating on and improving the quality of research software. It is intended for use by researchers who code, research software engineers, those managing and procuring funding for projects with a large research software component, those running research infrastructures involving software and those developing research software related policy at organisations and in projects.",
+            "provider":  ["European Virtual Institute for Research Software Excellence (EVERSE)"]
         }                
     ]
 }

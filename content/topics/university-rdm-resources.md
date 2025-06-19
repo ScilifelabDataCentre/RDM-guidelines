@@ -24,7 +24,7 @@ Most often there are information resources at your university regarding research
     <tr>
       <td><a href="https://www.chalmers.se/en/infrastructure/ecommons/storage-and-data-management/reserch-data-management-support/" target="_blank">Chalmers University of Technology</a></td>
       <td><a href = "mailto:dataoffice@chalmers.se">dataoffice@chalmers.se</a></td>
-      <td><a href="https://www.lib.chalmers.se/en/publish-and-analyse/open-access/research-data/" target="_blank"> Open Access - Research data</a></td>
+      <td></td>
     </tr>
     <tr>
       <td><a href="https://staff.ki.se/research-support/research-data-management" target="_blank">Karolinska Institutet</a></td>

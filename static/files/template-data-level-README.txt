@@ -4,7 +4,7 @@ GENERAL INFORMATION
 - Dataset title:
 - Description: <provide description of the dataset origin, steps used in its generation, content and its purpose>
 
-ORGANIZATION
+ORGANISATION
 - Folder structure:
 - File naming conventions: <provide explanation of the elements used, allowed values and examples> 
 - File formats: <Provide a list of all file formats present in this dataset>

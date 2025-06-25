@@ -5,7 +5,10 @@ toc: True
 ---
 
 # Sharing code and workflows 
-In the era of [FAIR](https://data-guidelines.scilifelab.se/topics/fair-principles) (Findable, Accessible, Interoperable and Reusable) and <a href="https://www.vr.se/english/mandates/open-science/open-access-to-research-data.html" target="_blank">Open Science</a>, **all research outputs** should be shared and made available to the public. This includes the code and workflows produced during the course of the research project. This page, while not exhaustive, aims to give an introduction to the topic of FAIR code. 
+In the era of FAIR (Findable, Accessible, Interoperable and Reusable) and <a href="https://www.vr.se/english/mandates/open-science/open-access-to-research-data.html" target="_blank">Open Science</a>, **all research outputs** should be shared and made available to the public. This includes the code and workflows produced during the course of the research project. This page, while not exhaustive, aims to give an introduction to the topic of FAIR code. 
+
+<a class="link-teal" href="/topics/fair-principles"><b>Learn more about the FAIR principles <i class="bi bi-arrow-right-square"></i></b></a>
+<br/><br/>
 
 <div class="row">
   <div class="col-12" style="text-align: center;">

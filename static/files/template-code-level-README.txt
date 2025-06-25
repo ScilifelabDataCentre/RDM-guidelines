@@ -10,7 +10,7 @@ ORGANISATION
 - File formats: <Provide a list of all file formats present>
 
 INSTALLATION
-- Installation instructions: 
+- Installation instructions (including compute environment): 
 
 USAGE
 - Usage examples: 

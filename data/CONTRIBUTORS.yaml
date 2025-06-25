@@ -50,4 +50,28 @@
   git: wna-se
   orcid: 0000-0002-3890-6620
   affiliation: NBIS / ELIXIR-SE
+- name: Alma Nilsson
+  git: almanilsson
+  orcid: 0009-0004-8501-642X
+  affiliation: SciLifeLab Data Centre
+- name: Johan Alfredéen
+  git: alfredeen
+  orcid: 0009-0000-4492-6110
+  affiliation: SciLifeLab Data Centre
+- name: Rory Crean
+  git: RMCrean
+  orcid: 0000-0003-4709-5353
+  affiliation: SciLifeLab Data Centre
+- name: Sonja Mathias
+  git: somathias
+  orcid: 0000-0003-3682-7715
+  affiliation: SciLifeLab Data Centre
+- name: Mahesh Binzer-Panchal
+  git: mahesh-panchal
+  orcid: 0000-0003-1675-0677
+  affiliation: NBIS / ELIXIR-SE
+- name: Suné Joubert
+  git: SuneJoubert
+  orcid: 0009-0008-7845-4906
+  affiliation: SciLifeLab Data Centre
 ---

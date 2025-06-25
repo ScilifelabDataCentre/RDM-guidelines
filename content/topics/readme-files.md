@@ -13,9 +13,9 @@ The content could either be on a higher project-level or on a more detailed leve
 
 <div>
   <ul>
-    <li><a href="/files/template-project-level-README.txt">Project-level README file template</a></li>
-    <li><a href="/files/template-data-level-README.txt">Data-level README file template</a></li>
-    <li><a href="/files/template-code-level-README.txt">Code-level README file template</a></li>
+    <li><a href="/files/template-project-README.txt">Project README file template</a></li>
+    <li><a href="/files/template-data-README.txt">Data README file template</a></li>
+    <li><a href="/files/template-code-README.txt">Code README file template</a></li>
   </ul>
 </div>
 

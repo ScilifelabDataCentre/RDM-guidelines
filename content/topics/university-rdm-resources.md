@@ -58,7 +58,7 @@ Most often there are information resources at your university regarding research
       <td><a href="https://medarbetare.su.se/en/research/your-research/research-data" target="_blank">Research Data</a>, <br><a href="https://medarbetare.su.se/en/our-su/governance/rules--regulations/research/open-science-policy" target="_blank">Policy for open science</a></td>
     </tr>
     <tr>
-      <td><a href="https://www.slu.se/en/subweb/library/publish-and-analyse/archiving-and-publishing-research-data" target="_blank">SLU Swedish University of Agricultural Sciences</a></td>
+      <td><a href="https://internt.slu.se/en/support-services/data-management-support-for-research-and-environmental-assessment/#stod" target="_blank">SLU Swedish University of Agricultural Sciences</a></td>
       <td><a href = "mailto:dms@slu.se">dms@slu.se</a></td>
       <td><a href="https://www.slu.se/en/library/manage-data/slus-data-management-policy/" target="_blank">Data management policy</a></td>
     </tr>

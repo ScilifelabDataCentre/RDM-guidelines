@@ -10,7 +10,7 @@ ORGANISATION
 - File naming conventions: <provide explanation of the elements used, allowed values and examples> 
 
 INSTALLATION
-- Installation instructions (including compute environment): 
+- Installation instructions (including requirements and compute environment): 
 
 USAGE
 - Input file formats supported: <formats of inputs files that can be used, e.g. .txt, .csv >

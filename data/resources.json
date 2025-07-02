@@ -739,7 +739,108 @@
             "level": ["Basic"],
             "url": "https://doris.snd.se",
             "description": "The Swedish National Data Service's Data Organisation and Information System (DORIS) is a tool for describing and making research data and metadata searchable in the national research data portal Researchdata.se. DORIS can be used throughout the process, from describing and publishing research data, to reusing or reviewing them.",
-            "provider":  ["SND"]
-        }     
+            "provider": ["SND"]
+        },
+        {
+            "title": "SciLifeLab Open Science Software Checklist",
+            "short_title": "Open Science Software Checklist",
+            "target": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["SciLifeLab Open Science Software Checklist"],
+            "topic": ["Sharing code and workflows"],
+            "level": ["Basic"],
+            "url": "https://github.com/ScilifelabDataCentre/open-science-checklists/blob/main/open_software_checklist.md",
+            "description": "This checklist provides essential steps for sharing and citing your research software. It covers everything from planning your software to ensuring others can find, understand, reuse, and contribute to your software, and how to ensure your work is credited.",
+            "provider": ["SciLifeLab"]
+        },
+        {
+            "title": "Programming Formalisms: Turning scripters into computer scientists",
+            "short_title": "Programming Formalisms",
+            "target": ["training"],
+            "type": ["Course"],
+            "search_tags": ["Programming Formalisms: Turning scripters into computer scientists","Programming Formalisms", "script", "code"],
+            "topic": ["Sharing code and workflows"],
+            "level": ["Basic"],
+            "url": "https://uppmax.github.io/programming_formalisms/",
+            "description": "This course aims to give life scientists, bioinformaticians, and other scientists with some experience in programming and scripting an understanding of the underlying principles of software development, design, and programming.",
+            "provider": ["NBIS"]
+        },
+        {
+            "title": "Python Code Style Conventions",
+            "short_title": "Python Code Style Conventions",
+            "target": ["training"],
+            "type": ["Course"],
+            "search_tags": ["Python Code Style Conventions", "Carpentries"],
+            "topic": ["Sharing code and workflows"],
+            "level": ["Basic"],
+            "url": "https://carpentries-incubator.github.io/python-intermediate-development/15-coding-conventions.html",
+            "description": "Understand the benefits of following community coding conventions. This is a part of the lesson 'Intermediate Research Software Development'.",
+            "provider": ["The Carpentries"],
+            "licence": "CC BY 4.0"
+        },
+        {
+            "title": "Verifying Code Style Using Linters",
+            "short_title": "Verifying Code Style Using Linters",
+            "target": ["training"],
+            "type": ["Course"],
+            "search_tags": ["Verifying Code Style Using Linters", "Carpentries", "Python"],
+            "topic": ["Sharing code and workflows"],
+            "level": ["Basic"],
+            "url": "https://carpentries-incubator.github.io/python-intermediate-development/16-verifying-code-style-linters.html",
+            "description": "Use code linting tools to verify a program’s adherence to a Python coding style convention. This is a part of the lesson 'Intermediate Research Software Development'. ",
+            "provider": ["The Carpentries"],
+            "licence": "CC BY 4.0"
+        },
+        {
+            "title": "Cookiecutter Data Science",
+            "short_title": "Cookiecutter Data Science",
+            "target": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["Cookiecutter Data Science", "cookie cutter", "Python"],
+            "topic": ["Sharing code and workflows"],
+            "level": ["Basic"],
+            "url": "https://cookiecutter-data-science.drivendata.org",
+            "description": "Cookiecutter Data Science (CCDS) is a tool for setting up a data science project template that incorporates best practices. ",
+            "provider": ["DrivenData"],
+            "licence": "MIT License"
+        },
+        {
+            "title": "Cookiecutter for Computational Molecular Sciences Python Packages",
+            "short_title": "Cookiecutter for CMS Python Packages",
+            "target": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["Cookiecutter for Computational Molecular Sciences Python Packages", "CMS", "cookie cutter"],
+            "topic": ["Sharing code and workflows"],
+            "level": ["Basic"],
+            "url": "https://github.com/MolSSI/cookiecutter-cms",
+            "description": "A cookiecutter template for those interested in developing Computational Molecular Sciences (CMS) packages in Python.",
+            "provider": ["Molecular Software Sciences Institute"],
+            "licence": "MIT License"
+        },
+        {
+            "title": "National Library of Sweden’s national guidelines for open science",
+            "short_title": "KB: National guidelines Open Science",
+            "target": ["guidance"],
+            "type": ["Material"],
+            "search_tags": ["National Library of Sweden","Open Science", "National Library of Sweden’s national guidelines for open science"],
+            "phase": ["Share", "Reuse"],
+            "topic": ["Sharing code and workflows"],
+            "level": ["Basic"],
+            "url": "https://urn.kb.se/resolve?urn=urn:nbn:se:kb:publ-738",
+            "description": "These national guidelines are intended to provide support and guidance for the different stakeholders in Sweden who have overarching responsibility in the transition to open science. The purpose of these guidelines is to outline the direction for the continued development towards open science in Sweden, specifying which key actors are responsible for what, as well as how the guidelines are to be monitored and updated over time.",
+            "provider":  ["National Library of Sweden"]
+        },
+        {
+            "title": "Research Software Quality Kit",
+            "short_title": "RSQKit",
+            "target": ["guidance"],
+            "type": ["Web page"],
+            "search_tags": ["Research Software Quality Kit", "RSQKit", "EVERSE", "Software"],
+            "topic": ["Sharing code and workflows"],
+            "level": ["Basic"],
+            "url": "https://everse.software/RSQKit/",
+            "description": "Research Software Quality Toolkit (RSQKit) lists curated best practices in developing, collaborating on and improving the quality of research software. It is intended for use by researchers who code, research software engineers, those managing and procuring funding for projects with a large research software component, those running research infrastructures involving software and those developing research software related policy at organisations and in projects.",
+            "provider":  ["European Virtual Institute for Research Software Excellence (EVERSE)"]
+        }                
     ]
 }

@@ -9,9 +9,6 @@ In the era of FAIR (Findable, Accessible, Interoperable and Reusable) and <a hre
 
 <a class="link-teal" href="/topics/fair-principles"><b>Learn more about the FAIR principles <i class="bi bi-arrow-right-square"></i></b></a>
 
-<img src="/img/illustrations/code-workflows-visual.png" alt="Benefits of sharing code and workflows" class="img-fluid">
-<small>© Media Elements sourced from <a href="http://canva.com/" target="_blank">Canva.com</a></small>
-
 ## What are code & workflows?
 
 **Code**
@@ -25,7 +22,12 @@ Scientific workflows or pipelines are code that describe the structured sequence
 ## Why share code & workflows?
 
 In life science research, code and workflows are often as important as the data itself. From data processing scripts to full analysis pipelines — sharing your code is about <b>openness</b>, <b>improving</b> your science, gaining <b>recognition</b>, and allowing others to build on your work.
+
 <br><br>
+<img src="/img/illustrations/code-workflows-visual.png" alt="Benefits of sharing code and workflows" class="img-fluid">
+<small>© Media Elements sourced from <a href="http://canva.com/" target="_blank">Canva.com</a></small>
+<br><br>
+
 Openly sharing code and workflows not only fulfils key scientific and ethical principles, but also catalyses new discoveries and collaborations across the life sciences. It ensures that research methodologies are transparent, reproducible, and accessible to all, laying the groundwork for a more inclusive and innovative scientific community.
 
 * **Strengthen scientific integrity and utility** - Clear documentation and the ability to replicate analyses build trust in scientific results, and are essential for verifying and understanding research findings. Sharing workflows allows them to be applied to new datasets or challenges, maximising the utility and lifespan of research tools, and preventing the loss of valuable methodologies.

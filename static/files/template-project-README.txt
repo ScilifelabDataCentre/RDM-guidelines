@@ -6,7 +6,7 @@ GENERAL INFORMATION
 - Principle Investigator:
 - Link to Data management plan
 
-ORGANIZATION
+ORGANISATION
 - Folder structure:
 - File naming conventions (with examples) <unless your project is big and you have README files in every subfolder with this information provided there>
 - File formats: <Provide a list of all file formats present in this project>

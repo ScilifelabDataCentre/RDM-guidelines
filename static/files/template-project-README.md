@@ -6,7 +6,7 @@ This README file was generated on [YYYY-MM-DD] by [NAME]
 
 - **Project title:**  
 - **Description:**  
-  <Provide a short description of the project.>
+  _Provide a short description of the project._
 - **Principal Investigator:**  
 - **Link to Data Management Plan:**  
 
@@ -14,6 +14,6 @@ This README file was generated on [YYYY-MM-DD] by [NAME]
 
 - **Folder structure:**  
 - **File naming conventions (with examples):**  
-  <Unless your project is big and you have README files in every subfolder with this information provided there.>
+  _Unless your project is big and you have README files in every subfolder with this information provided there._
 - **File formats:**  
-  <Provide a list of all file formats present in
+  _Provide a list of all file formats present in this project._

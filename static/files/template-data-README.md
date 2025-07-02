@@ -12,17 +12,17 @@ This README file was generated on [YYYY-MM-DD] by [NAME]
 
 - **Folder structure:**  
 - **File naming conventions:**  
-  <Provide explanation of the elements used, allowed values, and examples.>
+  *Provide explanation of the elements used, allowed values, and examples.*
 - **File formats:**  
-  <Provide a list of all file formats present in this dataset.>
+  *Provide a list of all file formats present in this dataset.*
 
 ## DATA COLLECTION
 
 - **Institutional catalog ID (if applicable):**  
 - **Date of data collection:**  
-  <Provide single date, range, or approximate date; suggested format YYYY-MM-DD.>
+  _Provide single date, range, or approximate date; suggested format YYYY-MM-DD._
 - **Link to electronic lab book (codebook):**  
-  <Where the following is described (if it does not exist, include it here):>
+  _Where the following is described (if it does not exist, include it here):_
   - Methods used for data collection (including references, documentation (e.g. consent form template), links):
   - Geographic location of collection (if applicable):
   - Experimental & environmental conditions of collection (if applicable):

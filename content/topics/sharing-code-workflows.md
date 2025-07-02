@@ -8,14 +8,9 @@ toc: True
 In the era of FAIR (Findable, Accessible, Interoperable and Reusable) and <a href="https://www.vr.se/english/mandates/open-science/open-access-to-research-data.html" target="_blank">Open Science</a>, **all research outputs** should be shared and made available to the public. This includes the code and workflows produced during the course of the research project. This page, while not exhaustive, aims to give an introduction to the topic of FAIR code. 
 
 <a class="link-teal" href="/topics/fair-principles"><b>Learn more about the FAIR principles <i class="bi bi-arrow-right-square"></i></b></a>
-<br/><br/>
 
-<div class="row">
-  <div class="col-12" style="text-align: center;">
-    <img src="/img/illustrations/works-on-my-computer.JPG" alt="Works on my computer" class="img-fluid">
-    <br><small>Robot: MetaManMachine by Nikola Vasiljevic (2021), CC BY-SA 4.0, doi:<a href="https://doi.org/10.5281/zenodo.4471098" target="_blank">10.5281/zenodo.4471098</a></small>
-  </div>
-</div>
+<img src="/img/illustrations/code-workflows-visual.png" alt="Benefits of sharing code and workflows" class="img-fluid">
+<small>© Media Elements sourced from <a href="http://canva.com/" target="_blank">Canva.com</a></small>
 
 ## What are code & workflows?
 

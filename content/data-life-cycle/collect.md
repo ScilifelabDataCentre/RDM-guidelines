@@ -262,6 +262,9 @@ Consider uploading the raw data to a repository already when receiving them, und
 <a class="link-teal" href="https://data.scilifelab.se/services/fairstorage/" target="_blank"><b>Learn more about SciLifeLab FAIR Storage <i class="bi bi-box-arrow-up-right"></i></b></a>
 <br/>
 
+<a class="link-teal" href="/data-life-cycle/preserve"><b>Learn more about data preserving <i class="bi bi-arrow-right-square"></i></b></a>
+<br/>
+
 <a class="link-teal" href="/data-life-cycle/share"><b>Learn more about data sharing <i class="bi bi-arrow-right-square"></i></b></a>
 <br/><br/>
 

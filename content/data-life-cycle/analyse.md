@@ -18,8 +18,14 @@ Facilities which offer data analysis services:
 
 * BioImage Informatics Facility provides support and education in image analysis in order to help users get started with their own analysis.<br/><br/><a class="link-teal" href="https://www.scilifelab.se/facilities/bioimage-informatics/" target="_blank"><b>Learn more about the BioImage Informatics Facility <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/>
 
-Facilities offering computational resources:
-* NAISS (National Academic Infrastructure for Super­computing in Sweden) national research infrastructure makes available large scale high performance computing resources. <a href="https://supr.naiss.se/round/compute/" target="_blank">Apply</a> for Small, Medium, Large or Sensitive data allocation, depending on size and type of project.<br/><br/><a class="link-teal" href="https://www.naiss.se/" target="_blank"><b>Learn more about NAISS <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/>
+## Computational resources
+The <a href="https://www.naiss.se" target="_blank">National Academic Infrastructure for Super­computing in Sweden (NAISS) </a>is a national research infrastructure offering large scale high performance computing resources that can be used for analysis. In addition, many universities have their own compute resources avaliable for their researchers to use. Contact your university to learn what computational resources they offer.
+
+<a class="link-teal" href="https://data.scilifelab.se/resources/e-infrastructure/" target="_blank"><b>Learn more about compute resources available for researchers in Sweden <i class="bi bi-box-arrow-up-right"></i></b></a>
+<br/>
+
+<a class="link-teal" href="/topics/university-rdm-resources"><b>Find your university contact information  <i class="bi bi-arrow-right-square"></i></b></a>
+<br/><br/>
 
 ## Resources
 Please find below resources concerning the research data life cycle phase analyse in form of training, guidance and/or tools.

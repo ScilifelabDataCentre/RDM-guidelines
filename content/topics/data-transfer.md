@@ -55,6 +55,45 @@ Aspera  (ascp) is a command-line transfer program that can be used for stable tr
     ascp --file-checksum=md5 -d -k 3 --mode=send --overwrite=always -QT -l300M --host=webin.ebi.ac.uk --user=Webin-XXXXX path-to-uppmax-folder/**/*.fastq.gz subfolder-at-ENA
     ```
 
+## Dardel
+
+* Dardel, the compute cluster at Parallelldatorcentrum (PDC), KTH, has multiple ways of transferring files to and from your local machine, see documentation on the <a href="https://support.pdc.kth.se/doc/data_management/file_transfer/" target="_blank">PDC on File transfer</a>.
+
+* In the future, Dardel will have dedicated nodes for transferring large files, see further on <a href="https://support.pdc.kth.se/doc/data_management/data_management/#nodes-for-file-operations" target="_blank">Nodes for file operations</a>, but at the moment transfers can be done directly on login node (dardel.pdc.kth.se).
+
+### Using Aspera on Dardel
+
+* There is an Aspera client available via command `ml aspera-cli/3.9.6.1467.159c5b1`
+  * Note: Command `ml avail aspera-cli` lists the available versions
+
+* Newer versions of Aspera exist though, and can be installed locally on Dardel:
+
+  1. In order to install Aspera locally, write the following commands after logging in:
+      ```
+      curl -fsSL https://github.com/rbenv/rbenv-installer/raw/HEAD/bin/rbenv-installer | bash
+      source .bashrc
+      rbenv install 3.2.2
+      rbenv global 3.2.2
+      gem install aspera-cli
+      ascli --version
+      ```
+  1. Run `ascli conf ascp install`
+  1. Check current version using `ascli conf ascp info`
+
+Then, in order to upload to ENA interactively using local Aspera install:
+
+1. Request compute allocation on Dardel, e.g. - salloc --nodes=1 -t 12:00:00 -A naiss20XX-XX-XXX -p long
+1. ssh into compute node on Dardel - ssh -i ~/.ssh/id-edXXXXX-pdc -X [nodename]
+1. Call ascp from install directory (not using the load module command globally available in Dardel) by full path:
+    e.g. /cfs/klemming/home/s/stenyl/.aspera/sdk/ascp
+1. Fill with desired ascp commands. For uploading a list of files from a textfile, call the list by using the flag --file-list=[file].txt and adding the --mode=send flag.
+Full example:
+    ```
+    /cfs/klemming/home/s/stenyl/.aspera/sdk/ascp -D -v -QT -l300M -k3 --mode=send --file-list=linum.txt --host=webin.ebi.ac.uk --user=Webin-XXXXX ./
+    ```
+
+1. Enter password if/when prompted
+
 Note: In order to check the progress and outcome of the transfer, a program such as FileZilla can be used to connect to your upload area at ENA from your local computer.
 
 <a class="link-teal" href="https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html" target="_blank"><b>Learn more about uploading files to ENA <i class="bi bi-box-arrow-up-right"></i></b></a>

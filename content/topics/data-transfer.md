@@ -85,14 +85,13 @@ Then, in order to upload to ENA interactively using local Aspera install:
 1. Request compute allocation on Dardel, e.g. - salloc --nodes=1 -t 12:00:00 -A naiss20XX-XX-XXX -p long
 1. ssh into compute node on Dardel - ssh -i ~/.ssh/id-edXXXXX-pdc -X [nodename]
 1. Call ascp from install directory (not using the load module command globally available in Dardel) by full path:
-    e.g. /cfs/klemming/home/s/stenyl/.aspera/sdk/ascp
-1. Fill with desired ascp commands. For uploading a list of files from a textfile, call the list by using the flag --file-list=[file].txt and adding the --mode=send flag.
-Full example:
+    e.g. /cfs/klemming/home/s/user-name/.aspera/sdk/ascp
+1. Fill with desired ascp commands:
     ```
-    /cfs/klemming/home/s/stenyl/.aspera/sdk/ascp -D -v -QT -l300M -k3 --mode=send --file-list=linum.txt --host=webin.ebi.ac.uk --user=Webin-XXXXX ./
+    /cfs/klemming/home/s/user-name/.aspera/sdk/ascp -k 3 -d -q --mode=send -QT -l300M --host=webin.ebi.ac.uk --user=Webin-XXXXX /local/path/to/*.gz /
     ```
 
-1. Enter password if/when prompted
+1. Enter password if/when prompted. In order to not be prompted about password, export the password first: `export ASPERA_SCP_PASS='myENApassword'`
 
 Note: In order to check the progress and outcome of the transfer, a program such as FileZilla can be used to connect to your upload area at ENA from your local computer.
 

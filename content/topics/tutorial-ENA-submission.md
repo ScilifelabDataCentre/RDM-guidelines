@@ -12,6 +12,8 @@ The aim of this tutorial is to provide guidance through the process of submittin
 * Know how to do a submission.
 * Know where to get help for future submissions.
 
+It serves as complementary material, including examples, to the <a href="https://ena-docs.readthedocs.io/en/latest/index.html" target="_blank">ENA Documentation</a>.
+
 ## Preparations
 ### Obtaining an ENA Webin Account
 
@@ -57,9 +59,7 @@ The templates are divided into five sheets (each related to a type of metadata o
 
 In the sample sheet, the first row contains the name of the checklist, the second row contains the field names, the third provides a description of the field, the fourth field indicates whether the field is mandatory, recommended or optional. Some fields have controlled vocabulary, which are available in the template as drop-down lists (the lists become visible when you click on a cell).
 
-**Note**: It is *strongly* recommended that you provide as much information as possible in the metadata sheets. This will increase the [FAIRness](https://www.go-fair.org/fair-principles/) of your data, and thus the probability that it will be useful in future research efforts.
-
-The sample metadata sheet can be submitted to ENA, however it must be in .tsv file format. For ease, the downloads on this page are provided in .xlsx, commonly known as Microsoft Excel, format. It is therefore necessary for you to convert the file format. If you are using Microsoft Excel to edit the metadata templates, click *File (or the Office Button) > Save As* and change 'save as file type' to 'Text (Tab delimited) (\*. tsv)'. Enter a file name and save the file. If you are using a Mac, you can change the file type by right-clicking on the .xlsx file in Finder, selecting *rename* and typing '.tsv' at the end of your file name.
+**Note**: It is *strongly* recommended that you provide as much information as possible in the metadata sheets. This will increase the [FAIRness](https://www.go-fair.org/fair-principles/) of your data, and thus the probability that it will be useful in future research efforts. 
 
 #### **An example**
 
@@ -77,19 +77,67 @@ ENA describes [three methods](https://ena-docs.readthedocs.io/en/latest/submit/g
 
 Hence, in order to do a submission of both raw reads and assemblies, and group 2 studies together under an umbrella study, you need to use a combination of methods described below.
 
+ENA provides two sites for submission; one for [test submissions](https://wwwdev.ebi.ac.uk/ena/submit/webin) and one for ['real' submissions](https://www.ebi.ac.uk/ena/submit/webin) (i.e. an actual submission to ENA). We recommend doing a test submission first, using the example data provided, in order to get an understanding of the different steps. Please note though, that the test service is refreshed every night. This means that any test submissions will be removed before the following day, so it is not possible to begin a submission one day and continue the next.
 
 ### Interactive submission
 <!-- instructions on how to submit using as little command-line as possible -->
 <!-- Study, sample and raw reads -->
 
+1. **Submit study**
+    * Go to <a href="https://wwwdev.ebi.ac.uk/ena/submit/webin" target="_blank">ENA login (test)</a> and login
+    * After logging in, you will see the landing page (shown below) that includes multiple options for completing your submission. 
+
+    * In the top left of the landing page, there is a **Dashboard** menu that expands when you click on it. Click it and select **Register Study (Project)** or click on the **Register Study** option in the *Studies (Projects)* section on the landing page (the options for 'Study' are shown in yellow).
+
+    <br>
+    <div class="text-center">
+    <img src="/img/ena_tutorial/Step1_register_study.png" height="400" class="rounded">
+    </div>
+    <br>
+    <div class="text-center">
+    <img src="/img/ena_tutorial/Step1_register_study_picb.png" height="400" class="rounded">
+    </div>
+    <br>
+
+    * Enter the details of the project, by copy and paste from the metadata template. Asterisks (*) denote mandatory fields. The 'Release date' is the date that the record will become publicly available. This can be updated later, so if you are unsure on a precise date, you can provide an estimated date (maximum 2 years forward in time).
+    * In our example case this is repeated twice, once for the genomic sequencing data and once for the assembly data. The umbrella study needs to be submitted using a different method, as described in [Assembly submission (Webin-CLI)](/topics/tutorial-ena-submission/#assembly-submission-webin-cli) below. 
+    <br>
+    <div class="text-center">
+    <img src="/img/ena_tutorial/Step2_register_study.png" height="400" class="rounded">
+    </div>
+    <br>
+
+    * **Note:** If you have an annotated assembly, fill also the **locus tag** field, e.g. with an abbreviation of the scientific name of the species.
+    * Click **Submit**. A pop-up window will appear, check that the submission was successful by reading the content of the window, copy the accession number (starting with PRJEB...) and add it to your metadata template for future reference, then click **Close**.
+
+1. **Submit samples**
+    * Create [Alectoris-graeca-samples.tsv](/files/ena_tutorial/Alectoris-graeca-samples.tsv) by copying the filled rows of the `ENA_samples` sheet of a metadata template in .tsv format. This can be done in any text editor, e.g. Notepad or Visual Studio Code. 
+    * Remove rows 3 (with field descriptions) and 4 (with info if mandatory/recommended/optional) from the .tsv file.
+    * Go to the browser where you are logged in to ENA, and register the samples either by clicking on the Dashboard menu (top left of the page) and selecting **Register Samples** or by clicking on the **Register Samples** option in the **Samples** section of the landing page (all related options in green).
+
+        Both of the above options lead to the same place, which gives two options: (1) Download spreadsheet to register samples, and (2) Upload filled spreadsheet to register samples.
+
+        <br>
+
+        <div class="text-center">
+        <img src="/img/ena_tutorial/Register_sample_options.png" height="250" class="rounded">
+        </div>
+
+        <br>
+
+    * Select the latter and upload the samples .tsv file. Click on **Submit Completed Spreadsheet**, verify that the submission was successful in the pop-up Submission window, and then click **Close**.
+
+
+1. **Submit raw reads**
+
 ### Programmatic submission
 <!-- instructions on how to submit using as much command-line as possible -->
 <!-- Study, sample and raw reads -->
 
-### Assembly submission
+### Assembly submission (Webin-CLI)
 <!-- walk through how to install and use Webin-CLI -->
 
-### Umbrella submission
+### Umbrella submission (programmatic)
 <!-- walk through how to programmatically submit an umbrella -->
 
 ## Terminology

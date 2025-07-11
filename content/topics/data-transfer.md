@@ -55,7 +55,42 @@ Aspera  (ascp) is a command-line transfer program that can be used for stable tr
     ascp --file-checksum=md5 -d -k 3 --mode=send --overwrite=always -QT -l300M --host=webin.ebi.ac.uk --user=Webin-XXXXX path-to-uppmax-folder/**/*.fastq.gz subfolder-at-ENA
     ```
 
-Note: In order to check the progress and outcome of the transfer, a program such as FileZilla can be used to connect to your upload area at ENA from your local computer.
+## Dardel
+
+* Dardel, the compute cluster at Parallelldatorcentrum (PDC), KTH, has multiple ways of transferring files to and from your local machine, see documentation on the <a href="https://support.pdc.kth.se/doc/data_management/file_transfer/" target="_blank">PDC on File transfer</a>.
+
+* In the future, Dardel will have dedicated nodes for transferring large files, see further on <a href="https://support.pdc.kth.se/doc/data_management/data_management/#nodes-for-file-operations" target="_blank">Nodes for file operations</a>, but at the moment transfers can be done directly on login node (dardel.pdc.kth.se).
+
+### Using Aspera on Dardel
+
+* There is an Aspera client available via command `ml aspera-cli/3.9.6.1467.159c5b1`
+  * Note: Command `ml avail aspera-cli` lists the available versions
+
+* Newer versions of Aspera exist though, and can be installed locally on Dardel:
+
+  1. In order to install Aspera locally, write the following commands after logging in:
+      ```
+      curl -fsSL https://github.com/rbenv/rbenv-installer/raw/HEAD/bin/rbenv-installer | bash
+      source ~/.bashrc
+      rbenv install 3.2.2
+      rbenv global 3.2.2
+      gem install aspera-cli
+      ascli --version
+      ```
+      **Note:** The instructions only works if you are in a bash shell. If in doubt run `echo $0` and if it doesn't reply with `bash` then type `bash` to change. Also, in case you don't have a file named `.bashrc` in your home directory, you can instead type `source ~/.bash_profile`.
+  1. Run `ascli conf ascp install`
+  1. Check current version using `ascli conf ascp info`
+
+Then, in order to upload to ENA interactively using locally installed Aspera:
+
+  1. Fill with desired ascp commands:
+      ```
+      ~/.aspera/sdk/ascp -k 3 -d -q --mode=send -QT -l300M --host=webin.ebi.ac.uk --user=Webin-XXXXX /local/path/to/*.gz /
+      ```
+
+  1. Enter password if/when prompted. In order to not be prompted about password, export the password first: `export ASPERA_SCP_PASS='yourENApassword'`
+
+**Note:** In order to check the progress and outcome of the transfer, a program such as FileZilla can be used to connect to your upload area at ENA from your local computer.
 
 <a class="link-teal" href="https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html" target="_blank"><b>Learn more about uploading files to ENA <i class="bi bi-box-arrow-up-right"></i></b></a>
 

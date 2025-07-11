@@ -71,29 +71,26 @@ Aspera  (ascp) is a command-line transfer program that can be used for stable tr
   1. In order to install Aspera locally, write the following commands after logging in:
       ```
       curl -fsSL https://github.com/rbenv/rbenv-installer/raw/HEAD/bin/rbenv-installer | bash
-      source .bashrc
+      source ~/.bashrc
       rbenv install 3.2.2
       rbenv global 3.2.2
       gem install aspera-cli
       ascli --version
       ```
+      **Note:** The instructions only works if you are in a bash shell. If in doubt run `echo $0` and if it doesn't reply with `bash` then type `bash` to change. Also, in case you don't have a file named `.bashrc` in your home directory, you can instead type `source ~/.bash_profile`.
   1. Run `ascli conf ascp install`
   1. Check current version using `ascli conf ascp info`
 
-Then, in order to upload to ENA interactively using local Aspera install:
+Then, in order to upload to ENA interactively using locally installed Aspera:
 
-1. Request compute allocation on Dardel, e.g. - salloc --nodes=1 -t 12:00:00 -A naiss20XX-XX-XXX -p long
-1. ssh into compute node on Dardel - ssh -i ~/.ssh/id-edXXXXX-pdc -X [nodename]
-1. Call ascp from install directory (not using the load module command globally available in Dardel) by full path:
-    e.g. /cfs/klemming/home/s/user-name/.aspera/sdk/ascp
-1. Fill with desired ascp commands:
-    ```
-    /cfs/klemming/home/s/user-name/.aspera/sdk/ascp -k 3 -d -q --mode=send -QT -l300M --host=webin.ebi.ac.uk --user=Webin-XXXXX /local/path/to/*.gz /
-    ```
+  1. Fill with desired ascp commands:
+      ```
+      ~/.aspera/sdk/ascp -k 3 -d -q --mode=send -QT -l300M --host=webin.ebi.ac.uk --user=Webin-XXXXX /local/path/to/*.gz /
+      ```
 
-1. Enter password if/when prompted. In order to not be prompted about password, export the password first: `export ASPERA_SCP_PASS='myENApassword'`
+  1. Enter password if/when prompted. In order to not be prompted about password, export the password first: `export ASPERA_SCP_PASS='yourENApassword'`
 
-Note: In order to check the progress and outcome of the transfer, a program such as FileZilla can be used to connect to your upload area at ENA from your local computer.
+**Note:** In order to check the progress and outcome of the transfer, a program such as FileZilla can be used to connect to your upload area at ENA from your local computer.
 
 <a class="link-teal" href="https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html" target="_blank"><b>Learn more about uploading files to ENA <i class="bi bi-box-arrow-up-right"></i></b></a>
 

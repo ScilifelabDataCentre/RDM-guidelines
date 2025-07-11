@@ -52,7 +52,8 @@ To ensure that sample data is registered with at least a minimum amount of metad
     <li>ERC000053 <a href="/files/meta-data-templates/metadata_template_tree-of-life_ERC000053.xlsx">Tree of Life Checklist </a>(Excel spreadsheet)</li>
   </ul>
 <!-- question is if we should link to VIB templates instead of ours, but that we can do in the future -->
-The templates are divided into five sheets (each related to a type of metadata object), namely; **study**, **sample**, **experiment**, **run** and **assemblies**. It is good practice to fill in all relevant sheets in the template, as having all the metadata collected in one place eases the submission process.
+
+The templates are divided into five sheets (each related to a type of metadata object), namely **study**, **sample**, **experiment**, **run** and **assemblies**. It is good practice to fill in all relevant sheets in the template, as having all the metadata collected in one place eases the submission process.
 
 In the sample sheet, the first row contains the name of the checklist, the second row contains the field names, the third provides a description of the field, the fourth field indicates whether the field is mandatory, recommended or optional. Some fields have controlled vocabulary, which are available in the template as drop-down lists (the lists become visible when you click on a cell).
 
@@ -62,15 +63,34 @@ The sample metadata sheet can be submitted to ENA, however it must be in .tsv fi
 
 #### **An example**
 
-In this scenario we have used the Tree of life checklist. A completed template is found in [Alectoris-graeca-metadata.xlsx](/static/files/ena_tutorial/Alectoris-graeca-metadata.xlsx), adapted from a real submission made under the <a href="https://biodiversitygenomics.eu/" target="_blank">Biodiversity Genomics Europe</a> (BGE) project organised by the <a href="" target="_blank">European Reference Genome Atlas</a> (ERGA) initiative. The task is to submit 4 datasets (one PacBio HiFi, 2 Illumina HiC, and one Illumina RNAseq), including 4 samples, in one project, and a chromosome level assembly in another project, and finally group these two projects together under an umbrella project.
+In this scenario we have used the Tree of life checklist. A completed template is found in [Alectoris-graeca-metadata.xlsx](/static/files/ena_tutorial/Alectoris-graeca-metadata.xlsx), adapted from a real submission made under the <a href="https://biodiversitygenomics.eu/" target="_blank">Biodiversity Genomics Europe</a> (BGE) project organised by the <a href="" target="_blank">European Reference Genome Atlas</a> (ERGA) initiative. The task is to submit 4 datasets (one PacBio HiFi WGS, 2 Illumina HiC, and one Illumina RNAseq), including 4 samples, in one study, and a chromosome level assembly in another study, and finally group these two projects together under an umbrella study.
 
-## Ways to submit
+## Submission methods
 
-### 'Interactive' submission
+ENA describes [three methods](https://ena-docs.readthedocs.io/en/latest/submit/general-guide.html) of submission, none of which can be used in isolation to complete all parts of a submission:
+
+* **Interactive Submission Method** - involves filling out web forms directly in the browser and downloading template spreadsheets that can be completed off-line and uploaded later to ENA. This is the easiest method to use when getting started, but quickly becomes time-consuming with bulk submission (> 50 records). It is possible to submit **studies**, **samples**, and **raw reads** this way.
+
+* **Command-Line Submission Method** - uses ENA’s **Webin-CLI program**. Submissions require the preparation of text (manifest) files that are validated before submissions are completed. It is possible to submit **raw reads** and **assemblies**, this way. Actually, for assemblies, this is the **only** way to submit.
+
+* **Programmatic Submission Method** - requires the preparation of XML documents that are sent to ENA using cURL or the Webin Portal of ENA. It is possible to submit **studies**, **samples**, and **raw reads** this way. This is the **only** way to submit **umbrella** studies.
+
+Hence, in order to do a submission of both raw reads and assemblies, and group 2 studies together under an umbrella study, you need to use a combination of methods described below.
+
+
+### Interactive submission
 <!-- instructions on how to submit using as little command-line as possible -->
+<!-- Study, sample and raw reads -->
 
 ### Programmatic submission
 <!-- instructions on how to submit using as much command-line as possible -->
+<!-- Study, sample and raw reads -->
+
+### Assembly submission
+<!-- walk through how to install and use Webin-CLI -->
+
+### Umbrella submission
+<!-- walk through how to programmatically submit an umbrella -->
 
 ## Terminology
 

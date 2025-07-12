@@ -99,8 +99,8 @@ ENA provides two sites for submission; one for [test submissions](https://wwwdev
 </div>
 <br>
 
-* Enter the details of the project, by copy and paste from the metadata template. Asterisks (*) denote mandatory fields. The 'Release date' is the date that the record will become publicly available. This can be updated later, so if you are unsure on a precise date, you can provide an estimated date (maximum 2 years forward in time).
-* In our example case this is repeated twice, once for the genomic sequencing data and once for the assembly data. The umbrella study needs to be submitted using a different method, as described in [Assembly submission (Webin-CLI)](/topics/tutorial-ena-submission/#assembly-submission-webin-cli) below. 
+* Enter the details of the project, by copy and paste from the metadata template. Asterisks (*) denote mandatory fields. The 'Release date' is the date that the record will become publicly available. This can be updated later, so if you are unsure on a precise date, you can provide an estimated date (maximum 2 years forward in time). You will get a notification email from ENA, a few weeeks ahead, that your data is about to become public.
+* In our example case this is repeated twice, once for the genomic sequencing data and once for the assembly data. The umbrella study needs to be submitted using a different method, as described in [Umbrella submission (programmatic)](/topics/tutorial-ena-submission/#umbrella-submission-programmatic) below. 
 
 <br>
 <div class="text-center">
@@ -144,7 +144,34 @@ ENA provides two sites for submission; one for [test submissions](https://wwwdev
 ### Programmatic submission
 <!-- instructions on how to submit using as much command-line as possible -->
 <!-- Study, sample and raw reads -->
+Any programmatic submission requires 2 .xml files, one with the action (ADD, MODIFY, RELEASE, CANCEL) and one with the metadata. The submission is done via a cURL command in a terminal window, and all levels (study, sample, raw reads) can be submitted at the same time, but in this tutorial the levels will be submitted separately.
+
 #### Submit studies
+* Create the action .xml, [submission.xml](/files/ena_tutorial/submission.xml), and update the desired release date. It can be set to maximum 2 years forward in time, and be adjusted later on. You will get a notification email from ENA, a few weeeks ahead, that your data is about to become public.
+* Create the metadata .xml, [Alectoris-graeca-study.xml](/files/ena_tutorial/Alectoris-graeca-study.xml), with the names, titles, and descriptions of the raw reads study and the assembly study. Note that there is an `alias` added added to each of the studies, `bAleGra-study-raw-reads` and `bAleGra1-study-assembly`. These are used in the submission of experiment and assembly, respectively, to be able to refer to which study they should be submitted to. This is handy if you want to submit all levels of metadata in the same cURL command, since you wouldn't know the accession number of the project at that point.
+* Submit in a terminal window by typing:
+    ```
+    curl -u username:password -F "SUBMISSION=@submission.xml" -F "PROJECT=@Alectoris-graeca-study.xml" "https://wwwdev.ebi.ac.uk/ena/submit/drop-box/submit/"
+    ```
+* A receipt will be written in the window, with `success` 'true' or 'false'. If true you will get the accession numbers, note these down in the .xlsx file.
+    ```
+    <?xml version="1.0" encoding="UTF-8"?>
+    <?xml-stylesheet type="text/xsl" href="receipt.xsl"?>
+    <RECEIPT receiptDate="2024-09-05T08:24:23.589+01:00" submissionFile="submission.xml" success="true">
+        <PROJECT accession="PRJEB79726" alias="bAleGra-study-raw-reads" status="PRIVATE" holdUntilDate="2025-05-10Z">
+            <EXT_ID accession="ERP163841" type="study"/>
+        </PROJECT>
+        <PROJECT accession="PRJEB79727" alias="bAleGra1-study-assembly" status="PRIVATE" holdUntilDate="2025-05-10Z">
+            <EXT_ID accession="ERP163842" type="study"/>
+        </PROJECT>
+        <SUBMISSION accession="ERA30781837" alias="SUBMISSION-05-09-2024-08:24:23:241"/>
+        <MESSAGES>
+            <INFO>All objects in this submission are set to private status (HOLD).</INFO>
+        </MESSAGES>
+        <ACTIONS>ADD</ACTIONS>
+        <ACTIONS>HOLD</ACTIONS>
+    </RECEIPT>
+    ```
 
 #### Submit samples
 

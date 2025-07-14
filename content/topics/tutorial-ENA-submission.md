@@ -228,6 +228,14 @@ Any programmatic submission requires 2 .xml files, one with the action (ADD, MOD
 ### Umbrella submission (programmatic)
 <!-- walk through how to programmatically submit an umbrella -->
 * ENA's documentation on <a href="https://ena-docs.readthedocs.io/en/latest/faq/umbrella.html" target="_blank">Create an Umbrella Study</a>.
+* Create a [submission-umbrella.xml](/files/ena_tutorial/submission-umbrella.xml), with the ADD action and an [umbrella.xml](/files/ena_tutorial/umbrella.xml) where the 2 studies (one for the raw reads and one for the assembly) are added as children.
+    * **Note:** Umbrella studies automatically is created with a release date 2 years ahead in time. A separate submission, with the action RELEASE, is done when it is time to make the umbrella public, see how in ENA's documentation <a href="https://ena-docs.readthedocs.io/en/latest/faq/umbrella.html#releasing-umbrella-studies" target="_blank">Releasing Umbrella Studies</a>.
+* Submit in a terminal window by typing:
+    ```
+    curl -u Username:Password -F "SUBMISSION=@submission.xml" -F "PROJECT=@umbrella.xml" "https://wwwdev.ebi.ac.uk/ena/submit/drop-box/submit/"
+    ```
+* Umbrella studies cannot be seen when you login to your account. Hence, it is even more important that you make sure that the term `success=true` is in the typed receipt, and that you note down the received accession number in your metadata .xlsx file.
+
 
 ## Terminology
 

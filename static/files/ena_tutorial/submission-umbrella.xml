@@ -3,8 +3,5 @@
       <ACTION>
          <ADD/>
       </ACTION>
-      <ACTION>
-         <HOLD HoldUntilDate="2025-05-10"/>
-      </ACTION>
    </ACTIONS>
 </SUBMISSION>

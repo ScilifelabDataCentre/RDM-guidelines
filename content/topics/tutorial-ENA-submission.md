@@ -218,7 +218,13 @@ Any programmatic submission requires 2 .xml files, one with the action (ADD, MOD
     java -jar ~/webin-cli-8.2.0.jar -ascp -context genome -userName Webin-XXXXX -password 'YYYYY' -manifest ./Alectoris-graeca-manifest.txt -submit -test
     ```
     * **Note:** The `-test` indicates that the submission will be made to the test instance. Omit this when doing real submissions.
-    
+* Upon a successful submission, an accession starting with ERZ will be obtained. However, this is not the official accession to be used in a publication. ENA will need to process the assembly, and when this is done you will receive an email with the genome assembly accession to be used(GCA_xxxxxx), e.g.: <!-- or is this email only sent upon public release? -->
+
+    ```
+    ASSEMBLY_NAME | ASSEMBLY_ACC  | STUDY_ID   | SAMPLE_ID   | CONTIG_ACC                      | SCAFFOLD_ACC | CHROMOSOME_ACC
+    bAleGra1.1    | GCA_965278835 | PRJEB79727 | ERS17759205 | CBDIHD010000001-CBDIHD010000076 |              | OZ257071-OZ257110
+    ```
+
 ### Umbrella submission (programmatic)
 <!-- walk through how to programmatically submit an umbrella -->
 * ENA's documentation on <a href="https://ena-docs.readthedocs.io/en/latest/faq/umbrella.html" target="_blank">Create an Umbrella Study</a>.

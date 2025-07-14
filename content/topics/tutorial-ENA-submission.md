@@ -84,6 +84,7 @@ ENA provides two sites for submission; one for [test submissions](https://wwwdev
 <!-- Study, sample and raw reads -->
 
 #### **Submit study**
+* ENA's documentation on <a href="https://ena-docs.readthedocs.io/en/latest/submit/study/interactive.html" target="_blank"> Register a study interactively</a>.
 * Go to <a href="https://wwwdev.ebi.ac.uk/ena/submit/webin" target="_blank">ENA login (test)</a> and login
 * After logging in, you will see the landing page (shown below) that includes multiple options for completing your submission. 
 
@@ -114,6 +115,7 @@ ENA provides two sites for submission; one for [test submissions](https://wwwdev
 
 #### **Submit samples**
 
+* ENA's documentation on <a href="https://ena-docs.readthedocs.io/en/latest/submit/samples/interactive.html" target="_blank">Register samples interactively</a>.
 * Create [Alectoris-graeca-samples.tsv](/files/ena_tutorial/Alectoris-graeca-samples.tsv) by copying the filled rows of the `ENA_samples` sheet of a metadata template in .tsv format. This can be done in any text editor, e.g. Notepad or Visual Studio Code. 
 * Remove rows 3 (with field descriptions) and 4 (with info if mandatory/recommended/optional) from the .tsv file.
 * Go to the browser where you are logged in to ENA, and register the samples either by clicking on the Dashboard menu (top left of the page) and selecting **Register Samples** or by clicking on the **Register Samples** option in the **Samples** section of the landing page (all related options in green).
@@ -130,9 +132,10 @@ ENA provides two sites for submission; one for [test submissions](https://wwwdev
 
 #### **Submit raw reads**
 
+* ENA's documentation on <a href="https://ena-docs.readthedocs.io/en/latest/submit/reads/interactive.html" target="_blank">Submit raw reads interactively</a>.
 * Raw reads are submitted in a similar fashion as samples, with the exception of 2 additional steps:
     1. First the data files needs to be transferred to ENA upload area. There are multiple ways of doing this, see <a href="https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html" target="_blank">ENA documentation on file upload</a>. For more information regarding using Aspera, please see our topic page on [Data transfer](/topics/data-transfer).
-    1. For interactive sumbission of raw reads, one needs to combine the information concerning the experiment and the runs into one .tsv file. Hence, copy cells A1:F7 in the 'ENA_run' sheet and paste them to cells added to the cells M2:R8 in 'ENA_experiment' sheet (this is already done in the example .xlxs file).
+    1. For interactive submission of raw reads, one needs to combine the information concerning the experiment and the runs into one .tsv file. Hence, copy cells A1:F7 in the 'ENA_run' sheet and paste them to cells added to the cells M2:R8 in 'ENA_experiment' sheet (this is already done in the example .xlxs file).
 * Create [Alectoris-graeca-experiments.tsv](/files/ena_tutorial/Alectoris-graeca-experiments.tsv) by copying the filled rows of the `ENA_experiment` sheet of a metadata template in .tsv format. This can be done in any text editor, e.g. Notepad or Visual Studio Code. 
 * Remove rows 3 (with field descriptions) and 4 (with info if mandatory/recommended/optional) from the .tsv file.
 * Go to the browser where you are logged in to ENA, and register the experiments either by clicking on the Dashboard menu (top left of the page) and selecting **Submit Reads**, or by clicking on the **Submit Reads** option in the **Raw Reads (Experiments and Runs)** section of the landing page (all related options in orange).
@@ -147,13 +150,15 @@ ENA provides two sites for submission; one for [test submissions](https://wwwdev
 Any programmatic submission requires 2 .xml files, one with the action (ADD, MODIFY, RELEASE, CANCEL) and one with the metadata. The submission is done via a cURL command in a terminal window, and all levels (study, sample, raw reads) can be submitted at the same time, but in this tutorial the levels will be submitted separately.
 
 #### Submit studies
+
+* ENA's documentation on <a href="https://ena-docs.readthedocs.io/en/latest/submit/study/programmatic.html" target="_blank">Submit a study programmatically</a>.
 * Create the action .xml, [submission.xml](/files/ena_tutorial/submission.xml), and update the desired release date. It can be set to maximum 2 years forward in time, and be adjusted later on. You will get a notification email from ENA, a few weeeks ahead, that your data is about to become public.
 * Create the metadata .xml, [Alectoris-graeca-study.xml](/files/ena_tutorial/Alectoris-graeca-study.xml), with the names, titles, and descriptions of the raw reads study and the assembly study. Note that there is an `alias` added added to each of the studies, `bAleGra-study-raw-reads` and `bAleGra1-study-assembly`. These are used in the submission of experiment and assembly, respectively, to be able to refer to which study they should be submitted to. This is handy if you want to submit all levels of metadata in the same cURL command, since you wouldn't know the accession number of the project at that point.
 * Submit in a terminal window by typing:
     ```
     curl -u username:password -F "SUBMISSION=@submission.xml" -F "PROJECT=@Alectoris-graeca-study.xml" "https://wwwdev.ebi.ac.uk/ena/submit/drop-box/submit/"
     ```
-* A receipt will be written in the window, with `success` 'true' or 'false'. If true you will get the accession numbers, note these down in the .xlsx file.
+* A receipt will be written in the window, with `success` 'true' or 'false'. If true you will get the accession numbers, note these down in the .xlsx file. An example receipt:
     ```
     <?xml version="1.0" encoding="UTF-8"?>
     <?xml-stylesheet type="text/xsl" href="receipt.xsl"?>
@@ -175,13 +180,48 @@ Any programmatic submission requires 2 .xml files, one with the action (ADD, MOD
 
 #### Submit samples
 
+* ENA documentation on <a href="https://ena-docs.readthedocs.io/en/latest/submit/samples/programmatic.html" target="_blank">Register samples programmatically</a>.
+* Create the metadata .xml, [Alectoris-graeca-samples.xml](/files/ena_tutorial/Alectoris-graeca-samples.xml), for the 4 samples.
+* As with the study, a submission.xml needed. We can reuse the one already created, but the HOLD action will not have any effect since all samples are private 'forever' unless an experiment refers to it. Them the sample will become public the same time as the experiment becomes public.
+* Submit in a terminal window by typing:
+    ```
+    curl -u username:password -F "SUBMISSION=@submission.xml" -F "SAMPLE=@Alectoris-graeca-samples.xml" "https://wwwdev.ebi.ac.uk/ena/submit/drop-box/submit/"
+    ```
+* Upon success of the submission, each sample will obtain a BioSample accession (starting with SAMEA) and one internal ENA accession (starting with ERS).
+
 #### Submit raw reads
+
+* ENA's documentation on <a href="https://ena-docs.readthedocs.io/en/latest/submit/reads/programmatic.html" target="_blank">Submit raw reads programmatically</a>.
+* As when submitting raw reads interactively, data files needs to be transferred to ENA upload area. There are multiple ways of doing this, see <a href="https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html" target="_blank">ENA documentation on file upload</a>. For more information regarding using Aspera, please see our topic page on [Data transfer](/topics/data-transfer).
+* 2 metadata .xml files are needed in order to submit raw reads, one for the experiments and one for the runs.
+* Create [Alectoris-graeca-experiments.xml](/files/ena_tutorial/Alectoris-graeca-experiments.xml) and [Alectoris-graeca-runs.xml](/files/ena_tutorial/Alectoris-graeca-runs.xml)
+* A note on `alias`. We have created aliases for both studies and samples, which is not necessary if one submit each metadata object separately, because then `refname=""` can be replaced by `accession=""` and the accessions received in previous steps can be added. However, when it comes to submission of raw reads, we will submit both objects at the same time and thus we don't yet know what the experiment accessions will be. For the experiments aliases, we will use a combination of the sample alias and the library name, and the run aliases are named with the experiment alias and the respective file type as an addition at the end.
+* As in the previous step, the submission.xml created for the study will be reused also here.
+* Submit in a terminal window by typing:
+    ```
+    curl -u username:password -F "SUBMISSION=@submission.xml" -F "EXPERIMENT=@Alectoris-graeca-experiments.xml" -F "RUN=@Alectoris-graeca-runs.xml" "https://wwwdev.ebi.ac.uk/ena/submit/drop-box/submit/"
+    ```
+* Upon success of the submission, each both experiments and runs will obtain accession numbers(starting with ERX and ERR, respectively). The run accessions will be used in the next step, assembly submission.
+
 
 ### Assembly submission (Webin-CLI)
 <!-- walk through how to install and use Webin-CLI -->
-
+* ENA's documentation on <a href="https://ena-docs.readthedocs.io/en/latest/submit/assembly/genome.html" target="_blank">Submitting Genome Assemblies of Individuals or Cultured Isolates</a>.
+* The only way to submit assemblies is by using the toll called Webin-CLI, hence the first step is to download the latest version, see ENA's documentation on <a href="https://ena-docs.readthedocs.io/en/latest/submit/general-guide/webin-cli.html" target="_blank">Webin-CLI Submission</a>. This tutorial will use Java jar, but a Docker image is also available.
+* Webin-CLI requries that the metadata is formatted in a manifest file, hence create [Alectories-graeca-manifest.txt](/files/ena_tutorial/Alectoris-graeca-manifest.txt)
+    * Note that in order to submit a chromosome level assembly, a gzipped file listing the chromosomes is also needed. An example of what they look like is in [chromosome_list.txt](/files/ena_tutorial/chromosome_list.txt). We will also submit a [unlocalised_list.txt](/files/ena_tutorial/unlocalised_list.txt), which contains a list of unlocalised sequences.
+* Webin-CLI can be used in two steps, first to validate and, upon successful validation, to submit:
+    ```
+    java -jar ~/webin-cli-8.2.0.jar -ascp -context genome -userName Webin-XXXXX -password 'YYYYY' -manifest ./Alectoris-graeca-manifest.txt -validate -test
+    ```
+    ```
+    java -jar ~/webin-cli-8.2.0.jar -ascp -context genome -userName Webin-XXXXX -password 'YYYYY' -manifest ./Alectoris-graeca-manifest.txt -submit -test
+    ```
+    * **Note:** The `-test` indicates that the submission will be made to the test instance. Omit this when doing real submissions.
+    
 ### Umbrella submission (programmatic)
 <!-- walk through how to programmatically submit an umbrella -->
+* ENA's documentation on <a href="https://ena-docs.readthedocs.io/en/latest/faq/umbrella.html" target="_blank">Create an Umbrella Study</a>.
 
 ## Terminology
 

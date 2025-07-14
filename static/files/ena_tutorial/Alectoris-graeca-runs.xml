@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<RUN_SET>
+	<RUN alias="FS42595433_pr_106_bam_1">
+		<EXPERIMENT_REF refname="FS42595433_pr_106"/>
+		<DATA_BLOCK>
+			<FILES>
+				<FILE filename="/bge-alectoris-graeca/m84045_240717_194654_s3.hifi_reads.bc2086.bam" checksum_method="MD5" checksum="cd6fd84e69fb73d7560d1ea452b06ff9" filetype="bam"/>
+			</FILES>
+		</DATA_BLOCK>
+	</RUN>
+	<RUN alias="FS42594031_HC010-2A1A-kidney_fastq_1">
+		<EXPERIMENT_REF refname="FS42594031_HC010-2A1A-kidney"/>
+		<DATA_BLOCK>
+			<FILES>
+				<FILE filename="/bge-alectoris-graeca/CTTGTCGA+CGATGTTC_R1.fastq.gz" checksum_method="MD5" checksum="2d9834908496f3804ded8eeacb201483" filetype="fastq">
+					<READ_TYPE>paired</READ_TYPE>
+					<READ_TYPE>sample_barcode</READ_TYPE>
+				</FILE>
+				<FILE filename="/bge-alectoris-graeca/CTTGTCGA+CGATGTTC_R2.fastq.gz" checksum_method="MD5" checksum="4a441e35c69ae8fadb1655e9bfdc8ec0" filetype="fastq">
+					<READ_TYPE>paired</READ_TYPE>
+					<READ_TYPE>sample_barcode</READ_TYPE>
+				</FILE>
+			</FILES>
+		</DATA_BLOCK>
+	</RUN>
+	<RUN alias="FS42595444_HC010-1B1A-blood_fastq_1">
+		<EXPERIMENT_REF refname="exp_bAleGra_Hi-C_FS42595444_HC010-1B1A-blood"/>
+		<DATA_BLOCK>
+			<FILES>
+				<FILE filename="/bge-alectoris-graeca/GAGACGAT+ACCGGTTA_R1.fastq.gz" checksum_method="MD5" checksum="4c1bc1a9583fb8a1e70864e38307377b" filetype="fastq">
+					<READ_TYPE>paired</READ_TYPE>
+					<READ_TYPE>sample_barcode</READ_TYPE>
+				</FILE>
+				<FILE filename="/bge-alectoris-graeca/GAGACGAT+ACCGGTTA_R2.fastq.gz" checksum_method="MD5" checksum="cbe49764879411caeb88db8bd9080620" filetype="fastq">
+					<READ_TYPE>paired</READ_TYPE>
+					<READ_TYPE>sample_barcode</READ_TYPE>
+				</FILE>
+			</FILES>
+		</DATA_BLOCK>
+	</RUN>
+	<RUN alias="ERGA_BP_5516_03_RE022-1-4-pool_fastq_1">
+		<EXPERIMENT_REF refname="ERGA_BP_5516_03_RE022-1-4-pool"/>
+		<DATA_BLOCK>
+			<FILES>
+				<FILE filename="/bge-alectoris-graeca/Alectoris_graeca_RE022-1-4-pool_R1_001.fastq.gz" checksum_method="MD5" checksum="7025d82df7495d8f478c20863e9e8e2a" filetype="fastq">
+					<READ_TYPE>paired</READ_TYPE>
+					<READ_TYPE>sample_barcode</READ_TYPE>
+				</FILE>
+				<FILE filename="/bge-alectoris-graeca/Alectoris_graeca_RE022-1-4-pool_R2_001.fastq.gz" checksum_method="MD5" checksum="8d6fbcfa05b0e349a71fd0435267e9ef" filetype="fastq">
+					<READ_TYPE>paired</READ_TYPE>
+					<READ_TYPE>sample_barcode</READ_TYPE>
+				</FILE>
+			</FILES>
+		</DATA_BLOCK>
+	</RUN>    
+</RUN_SET>

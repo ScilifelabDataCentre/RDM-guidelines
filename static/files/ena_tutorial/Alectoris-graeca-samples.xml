@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAMPLE_SET>
+  <SAMPLE alias="FS42595433">
+      <TITLE>Liver sample FS42595433</TITLE>
+      <SAMPLE_NAME>
+         <TAXON_ID>40178</TAXON_ID>
+         <SCIENTIFIC_NAME>Alectoris graeca</SCIENTIFIC_NAME>
+         <COMMON_NAME>rock partridge</COMMON_NAME>
+      </SAMPLE_NAME>
+      <DESCRIPTION>Liver sample taken from a male rock partridge in Croatian forest</DESCRIPTION>
+      <SAMPLE_ATTRIBUTES>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>collected_by</TAG>
+            <VALUE>BOSTJAN POKORNY|ANDREA REZIC</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>collecting institution</TAG>
+            <VALUE>Faculty of Environmental protection|University of Zagreb Faculty of Agriculture</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>collection date</TAG>
+            <VALUE>2023-11-14</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>GAL</TAG>
+            <VALUE>SciLifeLab</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>GAL_sample_id</TAG>
+            <VALUE>NOT PROVIDED</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>geographic location (country and/or sea)</TAG>
+            <VALUE>Croatia</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>geographic location (latitude)</TAG>
+            <VALUE>43,5553</VALUE>
+            <UNITS>DD</UNITS>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>geographic location (longitude)</TAG>
+            <VALUE>16,5586</VALUE>
+            <UNITS>DD</UNITS>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>geographic location (region and locality)</TAG>
+            <VALUE>Dalmatia|Mosor|Klis</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>habitat</TAG>
+            <VALUE>forest</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>identified_by</TAG>
+            <VALUE>BOSTJAN POKORNY|AJA BONCINA|ELENA BUZAN</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>identifier_affiliation</TAG>
+            <VALUE>Faculty of Environmental protection|University of Primorska</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>lifestage</TAG>
+            <VALUE>adult</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>organism part</TAG>
+            <VALUE>LIVER</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>project name</TAG>
+            <VALUE>ERGA</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>proxy biomaterial</TAG>
+            <VALUE>NOT APPLICABLE</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>proxy voucher</TAG>
+            <VALUE>NOT APPLICABLE</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>sample collection device or method</TAG>
+            <VALUE>hunted</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>sample coordinator</TAG>
+            <VALUE>ELENA BUZAN</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>sample coordinator affiliation</TAG>
+            <VALUE>University of Primorska</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>sample derived from</TAG>
+            <VALUE>SAMEA115117720</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>sex</TAG>
+            <VALUE>MALE</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>specimen_id</TAG>
+            <VALUE>ERGA BP 5516 03</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>specimen_voucher</TAG>
+            <VALUE>PMSL-9839</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>tolid</TAG>
+            <VALUE>bAleGra1</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>ENA-CHECKLIST</TAG>
+            <VALUE>ERC000053</VALUE>
+         </SAMPLE_ATTRIBUTE>
+      </SAMPLE_ATTRIBUTES>
+  </SAMPLE>
+  <SAMPLE alias="ERGA_BP_5516_03">
+      <TITLE>Alectoris graeca sample ERGA_BP_5516_03</TITLE>
+      <SAMPLE_NAME>
+         <TAXON_ID>40178</TAXON_ID>
+         <SCIENTIFIC_NAME>Alectoris graeca</SCIENTIFIC_NAME>
+         <COMMON_NAME>rock partridge</COMMON_NAME>
+      </SAMPLE_NAME>
+      <DESCRIPTION>Sample of a male rock partridge in Croatian forest</DESCRIPTION>
+      <SAMPLE_ATTRIBUTES>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>collected_by</TAG>
+            <VALUE>BOSTJAN POKORNY|ANDREA REZIC</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>collecting institution</TAG>
+            <VALUE>Faculty of Environmental protection|University of Zagreb Faculty of Agriculture</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>collection date</TAG>
+            <VALUE>2023-11-14</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>GAL</TAG>
+            <VALUE>SciLifeLab</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>GAL_sample_id</TAG>
+            <VALUE>NOT PROVIDED</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>geographic location (country and/or sea)</TAG>
+            <VALUE>Croatia</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>geographic location (latitude)</TAG>
+            <VALUE>43,5553</VALUE>
+            <UNITS>DD</UNITS>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>geographic location (longitude)</TAG>
+            <VALUE>16,5586</VALUE>
+            <UNITS>DD</UNITS>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>geographic location (region and locality)</TAG>
+            <VALUE>Dalmatia|Mosor|Klis</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>habitat</TAG>
+            <VALUE>forest</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>identified_by</TAG>
+            <VALUE>BOSTJAN POKORNY|AJA BONCINA|ELENA BUZAN</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>identifier_affiliation</TAG>
+            <VALUE>Faculty of Environmental protection|University of Primorska</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>lifestage</TAG>
+            <VALUE>adult</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>organism part</TAG>
+            <VALUE>WHOLE ORGANISM</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>project name</TAG>
+            <VALUE>ERGA</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>proxy biomaterial</TAG>
+            <VALUE>NOT APPLICABLE</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>proxy voucher</TAG>
+            <VALUE>NOT APPLICABLE</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>sample collection device or method</TAG>
+            <VALUE>hunted</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>sample coordinator</TAG>
+            <VALUE>ELENA BUZAN</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>sample coordinator affiliation</TAG>
+            <VALUE>University of Primorska</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>sex</TAG>
+            <VALUE>MALE</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>specimen_id</TAG>
+            <VALUE>ERGA BP 5516 03</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>specimen_voucher</TAG>
+            <VALUE>PMSL-9839</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>tolid</TAG>
+            <VALUE>bAleGra1</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>ENA-CHECKLIST</TAG>
+            <VALUE>ERC000053</VALUE>
+         </SAMPLE_ATTRIBUTE>
+      </SAMPLE_ATTRIBUTES>
+  </SAMPLE>
+  <SAMPLE alias="FS42595444">
+      <TITLE>Kidney sample FS42595444</TITLE>
+      <SAMPLE_NAME>
+         <TAXON_ID>40178</TAXON_ID>
+         <SCIENTIFIC_NAME>Alectoris graeca</SCIENTIFIC_NAME>
+         <COMMON_NAME>rock partridge</COMMON_NAME>
+      </SAMPLE_NAME>
+      <DESCRIPTION>Kidney sample taken from a male rock partridge in Croatian forest</DESCRIPTION>
+      <SAMPLE_ATTRIBUTES>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>collected_by</TAG>
+            <VALUE>BOSTJAN POKORNY|ANDREA REZIC</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>collecting institution</TAG>
+            <VALUE>Faculty of Environmental protection|University of Zagreb Faculty of Agriculture</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>collection date</TAG>
+            <VALUE>2023-11-14</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>GAL</TAG>
+            <VALUE>SciLifeLab</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>GAL_sample_id</TAG>
+            <VALUE>NOT PROVIDED</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>geographic location (country and/or sea)</TAG>
+            <VALUE>Croatia</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>geographic location (latitude)</TAG>
+            <VALUE>43,5553</VALUE>
+            <UNITS>DD</UNITS>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>geographic location (longitude)</TAG>
+            <VALUE>16,5586</VALUE>
+            <UNITS>DD</UNITS>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>geographic location (region and locality)</TAG>
+            <VALUE>Dalmatia|Mosor|Klis</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>habitat</TAG>
+            <VALUE>forest</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>identified_by</TAG>
+            <VALUE>BOSTJAN POKORNY|AJA BONCINA|ELENA BUZAN</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>identifier_affiliation</TAG>
+            <VALUE>Faculty of Environmental protection|University of Primorska</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>lifestage</TAG>
+            <VALUE>adult</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>organism part</TAG>
+            <VALUE>KIDNEY</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>project name</TAG>
+            <VALUE>ERGA</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>proxy biomaterial</TAG>
+            <VALUE>NOT APPLICABLE</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>proxy voucher</TAG>
+            <VALUE>NOT APPLICABLE</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>sample collection device or method</TAG>
+            <VALUE>hunted</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>sample coordinator</TAG>
+            <VALUE>ELENA BUZAN</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>sample coordinator affiliation</TAG>
+            <VALUE>University of Primorska</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>sample derived from</TAG>
+            <VALUE>SAMEA115117720</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>sex</TAG>
+            <VALUE>MALE</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>specimen_id</TAG>
+            <VALUE>ERGA BP 5516 03</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>specimen_voucher</TAG>
+            <VALUE>PMSL-9839</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>tolid</TAG>
+            <VALUE>bAleGra1</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>ENA-CHECKLIST</TAG>
+            <VALUE>ERC000053</VALUE>
+         </SAMPLE_ATTRIBUTE>
+      </SAMPLE_ATTRIBUTES>
+  </SAMPLE>
+  <SAMPLE alias="FS42594031">
+      <TITLE>Blood sample FS42594031</TITLE>
+      <SAMPLE_NAME>
+         <TAXON_ID>40178</TAXON_ID>
+         <SCIENTIFIC_NAME>Alectoris graeca</SCIENTIFIC_NAME>
+         <COMMON_NAME>rock partridge</COMMON_NAME>
+      </SAMPLE_NAME>
+      <DESCRIPTION>Blood sample taken from a male rock partridge in Croatian forest</DESCRIPTION>
+      <SAMPLE_ATTRIBUTES>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>collected_by</TAG>
+            <VALUE>BOSTJAN POKORNY|ANDREA REZIC</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>collecting institution</TAG>
+            <VALUE>Faculty of Environmental protection|University of Zagreb Faculty of Agriculture</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>collection date</TAG>
+            <VALUE>2023-11-14</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>GAL</TAG>
+            <VALUE>SciLifeLab</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>GAL_sample_id</TAG>
+            <VALUE>NOT PROVIDED</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>geographic location (country and/or sea)</TAG>
+            <VALUE>Croatia</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>geographic location (latitude)</TAG>
+            <VALUE>43,5553</VALUE>
+            <UNITS>DD</UNITS>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>geographic location (longitude)</TAG>
+            <VALUE>16,5586</VALUE>
+            <UNITS>DD</UNITS>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>geographic location (region and locality)</TAG>
+            <VALUE>Dalmatia|Mosor|Klis</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>habitat</TAG>
+            <VALUE>forest</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>identified_by</TAG>
+            <VALUE>BOSTJAN POKORNY|AJA BONCINA|ELENA BUZAN</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>identifier_affiliation</TAG>
+            <VALUE>Faculty of Environmental protection|University of Primorska</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>lifestage</TAG>
+            <VALUE>adult</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>organism part</TAG>
+            <VALUE>BLOOD</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>project name</TAG>
+            <VALUE>ERGA</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>proxy biomaterial</TAG>
+            <VALUE>NOT APPLICABLE</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>proxy voucher</TAG>
+            <VALUE>NOT APPLICABLE</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>sample collection device or method</TAG>
+            <VALUE>hunted</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>sample coordinator</TAG>
+            <VALUE>ELENA BUZAN</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>sample coordinator affiliation</TAG>
+            <VALUE>University of Primorska</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>sample derived from</TAG>
+            <VALUE>SAMEA115117720</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>sex</TAG>
+            <VALUE>MALE</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>specimen_id</TAG>
+            <VALUE>ERGA BP 5516 03</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>specimen_voucher</TAG>
+            <VALUE>PMSL-9839</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>tolid</TAG>
+            <VALUE>bAleGra1</VALUE>
+         </SAMPLE_ATTRIBUTE>
+         <SAMPLE_ATTRIBUTE>
+            <TAG>ENA-CHECKLIST</TAG>
+            <VALUE>ERC000053</VALUE>
+         </SAMPLE_ATTRIBUTE>
+      </SAMPLE_ATTRIBUTES>
+  </SAMPLE>
+</SAMPLE_SET>

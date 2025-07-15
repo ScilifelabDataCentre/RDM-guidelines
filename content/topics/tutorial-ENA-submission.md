@@ -63,7 +63,21 @@ In the sample sheet, the first row contains the name of the checklist, the secon
 
 #### **An example**
 
-In this scenario we have used the Tree of life checklist. A completed template is found in [Alectoris-graeca-metadata.xlsx](/static/files/ena_tutorial/Alectoris-graeca-metadata.xlsx), adapted from a real submission made under the <a href="https://biodiversitygenomics.eu/" target="_blank">Biodiversity Genomics Europe</a> (BGE) project organised by the <a href="" target="_blank">European Reference Genome Atlas</a> (ERGA) initiative. The task is to submit 4 datasets (one PacBio HiFi WGS, 2 Illumina HiC, and one Illumina RNAseq), including 4 samples, in one study, and a chromosome level assembly in another study, and finally group these two projects together under an umbrella study.
+In this scenario we have used the Tree of life checklist. A completed template is found in [Alectoris-graeca-metadata.xlsx](/static/files/ena_tutorial/Alectoris-graeca-metadata.xlsx), adapted from a real submission made under the <a href="https://biodiversitygenomics.eu/" target="_blank">Biodiversity Genomics Europe</a> (BGE) project organised by the <a href="https://www.erga-biodiversity.eu/" target="_blank">European Reference Genome Atlas</a> (ERGA) initiative. The task is to submit 4 datasets (one PacBio HiFi WGS, 2 Illumina HiC, and one Illumina RNAseq), including 4 samples, in one study, and a chromosome level assembly in another study, and finally group these two projects together under an umbrella study.
+
+### Preparing the data files
+
+* In the run sheet, the file names of the raw reads and their md5 checksums are collected. For the two types of submissions of raw reads described in this tutorial, the data files need to be uploaded to the dropbox on ENA's servers. It is the name of the files as they reside at ENA, including any subfolders, that should be filled in the run sheet. The checksums are used to validate that the data transfers have been completed without loss.
+
+#### **Checksums**
+Typically you will receive the checksums from the data producer in the delivery, but in case you need to calculate them yourself:
+    1. Open a terminal (command prompt) window and change to the directory where the raw reads are located, e.g. `cd my_data/raw/`.
+
+    2. Mofidy and execute the command `md5sum * > checksums-md5.txt` to match your file names and required output name. The command will calculate the checksums for all files in current directory and list them in a file named checksums-md5.txt.
+
+#### **Data transfers**
+
+There are multiple ways of transferring the raw read files to ENA upload area, depending on from which type of machine the transfer is initiated from, see <a href="https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html" target="_blank">ENA documentation on file upload</a>. If all else fails, a simple `lftp` will work, but when transferring large files there is a risk that the transfer will be interrupted, and you will have to start all over again. In order to avoid this, it might be worth the effort of installing and using Aspera since it has the funtionality of resuming transfers. For more information regarding using Aspera, please see our topic page on [Data transfer](/topics/data-transfer).
 
 ## Submission methods
 
@@ -133,9 +147,8 @@ ENA provides two sites for submission; one for [test submissions](https://wwwdev
 #### **Submit raw reads**
 
 * ENA's documentation on <a href="https://ena-docs.readthedocs.io/en/latest/submit/reads/interactive.html" target="_blank">Submit raw reads interactively</a>.
-* Raw reads are submitted in a similar fashion as samples, with the exception of 2 additional steps:
-    1. First the data files needs to be transferred to ENA upload area. There are multiple ways of doing this, see <a href="https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html" target="_blank">ENA documentation on file upload</a>. For more information regarding using Aspera, please see our topic page on [Data transfer](/topics/data-transfer).
-    1. For interactive submission of raw reads, one needs to combine the information concerning the experiment and the runs into one .tsv file. Hence, copy cells A1:F7 in the 'ENA_run' sheet and paste them to cells added to the cells M2:R8 in 'ENA_experiment' sheet (this is already done in the example .xlxs file).
+* Raw reads are submitted in a similar fashion as samples, with the exception of an additional step:
+    * For interactive submission of raw reads, one needs to combine the information concerning the experiment and the runs into one .tsv file. Hence, copy cells A1:F7 in the 'ENA_run' sheet and paste them to cells added to the cells M2:R8 in 'ENA_experiment' sheet (this is already done in the example .xlxs file).
 * Create [Alectoris-graeca-experiments.tsv](/files/ena_tutorial/Alectoris-graeca-experiments.tsv) by copying the filled rows of the `ENA_experiment` sheet of a metadata template in .tsv format. This can be done in any text editor, e.g. Notepad or Visual Studio Code. 
 * Remove rows 3 (with field descriptions) and 4 (with info if mandatory/recommended/optional) from the .tsv file.
 * Go to the browser where you are logged in to ENA, and register the experiments either by clicking on the Dashboard menu (top left of the page) and selecting **Submit Reads**, or by clicking on the **Submit Reads** option in the **Raw Reads (Experiments and Runs)** section of the landing page (all related options in orange).
@@ -192,7 +205,6 @@ Any programmatic submission requires 2 .xml files, one with the action (ADD, MOD
 #### Submit raw reads
 
 * ENA's documentation on <a href="https://ena-docs.readthedocs.io/en/latest/submit/reads/programmatic.html" target="_blank">Submit raw reads programmatically</a>.
-* As when submitting raw reads interactively, data files needs to be transferred to ENA upload area. There are multiple ways of doing this, see <a href="https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html" target="_blank">ENA documentation on file upload</a>. For more information regarding using Aspera, please see our topic page on [Data transfer](/topics/data-transfer).
 * 2 metadata .xml files are needed in order to submit raw reads, one for the experiments and one for the runs.
 * Create [Alectoris-graeca-experiments.xml](/files/ena_tutorial/Alectoris-graeca-experiments.xml) and [Alectoris-graeca-runs.xml](/files/ena_tutorial/Alectoris-graeca-runs.xml)
 * A note on `alias`. We have created aliases for both studies and samples, which is not necessary if one submit each metadata object separately, because then `refname=""` can be replaced by `accession=""` and the accessions received in previous steps can be added. However, when it comes to submission of raw reads, we will submit both objects at the same time and thus we don't yet know what the experiment accessions will be. For the experiments aliases, we will use a combination of the sample alias and the library name, and the run aliases are named with the experiment alias and the respective file type as an addition at the end.
@@ -235,7 +247,6 @@ Any programmatic submission requires 2 .xml files, one with the action (ADD, MOD
     curl -u Username:Password -F "SUBMISSION=@submission.xml" -F "PROJECT=@umbrella.xml" "https://wwwdev.ebi.ac.uk/ena/submit/drop-box/submit/"
     ```
 * Umbrella studies cannot be seen when you login to your account. Hence, it is even more important that you make sure that the term `success=true` is in the typed receipt, and that you note down the received accession number in your metadata .xlsx file.
-
 
 ## Terminology
 

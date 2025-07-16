@@ -6,7 +6,7 @@ toc: True
 
 # Tutorial ENA submission
 
-The aim of this tutorial is to provide guidance through the process of submitting genomics data to the <a href="https://https://www.ebi.ac.uk/ena/" target="_blank">European Nucleotide Archive</a> (ENA). By the end of this turorial you will:
+The aim of this tutorial is to provide guidance through the process of submitting genomics data to the <a href="https://https://www.ebi.ac.uk/ena/" target="_blank">European Nucleotide Archive</a> (ENA). By the end of this tutorial you will:
 * Understand the terminology used by ENA.
 * Know how to properly describe and format your genomics data for submission.
 * Know how to do a submission.
@@ -73,11 +73,11 @@ In this scenario we have used the Tree of life checklist. A completed template i
 Typically you will receive the checksums from the data producer in the delivery, but in case you need to calculate them yourself:
     1. Open a terminal (command prompt) window and change to the directory where the raw reads are located, e.g. `cd my_data/raw/`.
 
-    2. Mofidy and execute the command `md5sum * > checksums-md5.txt` to match your file names and required output name. The command will calculate the checksums for all files in current directory and list them in a file named checksums-md5.txt.
+    2. Modify and execute the command `md5sum * > checksums-md5.txt` to match your file names and required output name. The command will calculate the checksums for all files in current directory and list them in a file named checksums-md5.txt.
 
 #### **Data transfers**
 
-There are multiple ways of transferring the raw read files to ENA upload area, depending on from which type of machine the transfer is initiated from, see <a href="https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html" target="_blank">ENA documentation on file upload</a>. If all else fails, a simple `lftp` will work, but when transferring large files there is a risk that the transfer will be interrupted, and you will have to start all over again. In order to avoid this, it might be worth the effort of installing and using Aspera since it has the funtionality of resuming transfers. For more information regarding using Aspera, please see our topic page on [Data transfer](/topics/data-transfer).
+There are multiple ways of transferring the raw read files to ENA upload area, depending on from which type of machine the transfer is initiated from, see <a href="https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html" target="_blank">ENA documentation on file upload</a>. If all else fails, a simple `lftp` will work, but when transferring large files there is a risk that the transfer will be interrupted, and you will have to start all over again. In order to avoid this, it might be worth the effort of installing and using Aspera since it has the functionality of resuming transfers. For more information regarding using Aspera, please see our topic page on [Data transfer](/topics/data-transfer).
 
 ## Submission methods
 
@@ -97,7 +97,7 @@ ENA provides two sites for submission; one for [test submissions](https://wwwdev
 <!-- instructions on how to submit using as little command-line as possible -->
 <!-- Study, sample and raw reads -->
 
-#### **Submit study**
+#### **Submit studies**
 * ENA's documentation on <a href="https://ena-docs.readthedocs.io/en/latest/submit/study/interactive.html" target="_blank"> Register a study interactively</a>.
 * Go to <a href="https://wwwdev.ebi.ac.uk/ena/submit/webin" target="_blank">ENA login (test)</a> and login
 * After logging in, you will see the landing page (shown below) that includes multiple options for completing your submission. 
@@ -114,7 +114,7 @@ ENA provides two sites for submission; one for [test submissions](https://wwwdev
 </div>
 <br>
 
-* Enter the details of the project, by copy and paste from the metadata template. Asterisks (*) denote mandatory fields. The 'Release date' is the date that the record will become publicly available. This can be updated later, so if you are unsure on a precise date, you can provide an estimated date (maximum 2 years forward in time). You will get a notification email from ENA, a few weeeks ahead, that your data is about to become public.
+* Enter the details of the project, by copy and paste from the metadata template. Asterisks (*) denote mandatory fields. The 'Release date' is the date that the record will become publicly available. This can be updated later, so if you are unsure on a precise date, you can provide an estimated date (maximum 2 years forward in time). You will get a notification email from ENA, a few weeks ahead, that your data is about to become public.
 * In our example case this is repeated twice, once for the genomic sequencing data and once for the assembly data. The umbrella study needs to be submitted using a different method, as described in [Umbrella submission (programmatic)](/topics/tutorial-ena-submission/#umbrella-submission-programmatic) below. 
 
 <br>
@@ -162,65 +162,65 @@ ENA provides two sites for submission; one for [test submissions](https://wwwdev
 <!-- Study, sample and raw reads -->
 Any programmatic submission requires 2 .xml files, one with the action (ADD, MODIFY, RELEASE, CANCEL) and one with the metadata. The submission is done via a cURL command in a terminal window, and all levels (study, sample, raw reads) can be submitted at the same time, but in this tutorial the levels will be submitted separately.
 
-#### Submit studies
+#### **Submit studies**
 
 * ENA's documentation on <a href="https://ena-docs.readthedocs.io/en/latest/submit/study/programmatic.html" target="_blank">Submit a study programmatically</a>.
-* Create the action .xml, [submission.xml](/files/ena_tutorial/submission.xml), and update the desired release date. It can be set to maximum 2 years forward in time, and be adjusted later on. You will get a notification email from ENA, a few weeeks ahead, that your data is about to become public.
-* Create the metadata .xml, [Alectoris-graeca-study.xml](/files/ena_tutorial/Alectoris-graeca-study.xml), with the names, titles, and descriptions of the raw reads study and the assembly study. Note that there is an `alias` added added to each of the studies, `bAleGra-study-raw-reads` and `bAleGra1-study-assembly`. These are used in the submission of experiment and assembly, respectively, to be able to refer to which study they should be submitted to. This is handy if you want to submit all levels of metadata in the same cURL command, since you wouldn't know the accession number of the project at that point.
+* Create the action .xml, [submission.xml](/files/ena_tutorial/submission.xml), and update the desired release date. It can be set to maximum 2 years forward in time, and be adjusted later on. You will get a notification email from ENA, a few weeks ahead, that your data is about to become public.
+* Create the metadata .xml, [Alectoris-graeca-study.xml](/files/ena_tutorial/Alectoris-graeca-study.xml), with the names, titles, and descriptions of the raw reads study and the assembly study. Note that there is an `alias` added to each of the studies, `bAleGra-study-raw-reads` and `bAleGra1-study-assembly`. These are used in the submission of experiment and assembly, respectively, to be able to refer to which study they should be submitted to. This is handy if you want to submit all levels of metadata in the same cURL command, since you wouldn't know the accession number of the project at that point.
 * Submit in a terminal window by typing:
     ```
     curl -u username:password -F "SUBMISSION=@submission.xml" -F "PROJECT=@Alectoris-graeca-study.xml" "https://wwwdev.ebi.ac.uk/ena/submit/drop-box/submit/"
     ```
 * A receipt will be written in the window, with `success` 'true' or 'false'. If true you will get the accession numbers, note these down in the .xlsx file. An example receipt:
-    ```
-    <?xml version="1.0" encoding="UTF-8"?>
-    <?xml-stylesheet type="text/xsl" href="receipt.xsl"?>
-    <RECEIPT receiptDate="2024-09-05T08:24:23.589+01:00" submissionFile="submission.xml" success="true">
-        <PROJECT accession="PRJEB79726" alias="bAleGra-study-raw-reads" status="PRIVATE" holdUntilDate="2025-05-10Z">
-            <EXT_ID accession="ERP163841" type="study"/>
-        </PROJECT>
-        <PROJECT accession="PRJEB79727" alias="bAleGra1-study-assembly" status="PRIVATE" holdUntilDate="2025-05-10Z">
-            <EXT_ID accession="ERP163842" type="study"/>
-        </PROJECT>
-        <SUBMISSION accession="ERA30781837" alias="SUBMISSION-05-09-2024-08:24:23:241"/>
-        <MESSAGES>
-            <INFO>All objects in this submission are set to private status (HOLD).</INFO>
-        </MESSAGES>
-        <ACTIONS>ADD</ACTIONS>
-        <ACTIONS>HOLD</ACTIONS>
-    </RECEIPT>
-    ```
 
-#### Submit samples
+        <?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="receipt.xsl"?>
+        <RECEIPT receiptDate="2024-09-05T08:24:23.589+01:00" submissionFile="submission.xml" success="true">
+            <PROJECT accession="PRJEB79726" alias="bAleGra-study-raw-reads" status="PRIVATE" holdUntilDate="2025-05-10Z">
+                <EXT_ID accession="ERP163841" type="study"/>
+            </PROJECT>
+            <PROJECT accession="PRJEB79727" alias="bAleGra1-study-assembly" status="PRIVATE" holdUntilDate="2025-05-10Z">
+                <EXT_ID accession="ERP163842" type="study"/>
+            </PROJECT>
+            <SUBMISSION accession="ERA30781837" alias="SUBMISSION-05-09-2024-08:24:23:241"/>
+            <MESSAGES>
+                <INFO>All objects in this submission are set to private status (HOLD).</INFO>
+            </MESSAGES>
+            <ACTIONS>ADD</ACTIONS>
+            <ACTIONS>HOLD</ACTIONS>
+        </RECEIPT>
+
+
+#### **Submit samples**
 
 * ENA documentation on <a href="https://ena-docs.readthedocs.io/en/latest/submit/samples/programmatic.html" target="_blank">Register samples programmatically</a>.
 * Create the metadata .xml, [Alectoris-graeca-samples.xml](/files/ena_tutorial/Alectoris-graeca-samples.xml), for the 4 samples.
-* As with the study, a submission.xml needed. We can reuse the one already created, but the HOLD action will not have any effect since all samples are private 'forever' unless an experiment refers to it. Them the sample will become public the same time as the experiment becomes public.
+* As with the study, a submission.xml is needed. We can reuse the one already created, but the HOLD action will not have any effect since all samples are private 'forever' unless an experiment refers to it. The sample will become public the same time as the experiment becomes public.
 * Submit in a terminal window by typing:
     ```
     curl -u username:password -F "SUBMISSION=@submission.xml" -F "SAMPLE=@Alectoris-graeca-samples.xml" "https://wwwdev.ebi.ac.uk/ena/submit/drop-box/submit/"
     ```
 * Upon success of the submission, each sample will obtain a BioSample accession (starting with SAMEA) and one internal ENA accession (starting with ERS).
 
-#### Submit raw reads
+#### **Submit raw reads**
 
 * ENA's documentation on <a href="https://ena-docs.readthedocs.io/en/latest/submit/reads/programmatic.html" target="_blank">Submit raw reads programmatically</a>.
 * 2 metadata .xml files are needed in order to submit raw reads, one for the experiments and one for the runs.
 * Create [Alectoris-graeca-experiments.xml](/files/ena_tutorial/Alectoris-graeca-experiments.xml) and [Alectoris-graeca-runs.xml](/files/ena_tutorial/Alectoris-graeca-runs.xml)
-* A note on `alias`. We have created aliases for both studies and samples, which is not necessary if one submit each metadata object separately, because then `refname=""` can be replaced by `accession=""` and the accessions received in previous steps can be added. However, when it comes to submission of raw reads, we will submit both objects at the same time and thus we don't yet know what the experiment accessions will be. For the experiments aliases, we will use a combination of the sample alias and the library name, and the run aliases are named with the experiment alias and the respective file type as an addition at the end.
+* A note on `alias`. We have created aliases for both studies and samples, which is not necessary if one submits each metadata object separately, because then `refname=""` can be replaced by `accession=""` and the accessions received in previous steps can be added. However, when it comes to submission of raw reads, we will submit both objects at the same time and thus we don't yet know what the experiment accessions will be. For the experiment aliases, we will use a combination of the sample alias and the library name, and the run aliases are named with the experiment alias and the respective file type as an addition at the end.
 * As in the previous step, the submission.xml created for the study will be reused also here.
 * Submit in a terminal window by typing:
     ```
     curl -u username:password -F "SUBMISSION=@submission.xml" -F "EXPERIMENT=@Alectoris-graeca-experiments.xml" -F "RUN=@Alectoris-graeca-runs.xml" "https://wwwdev.ebi.ac.uk/ena/submit/drop-box/submit/"
     ```
-* Upon success of the submission, each both experiments and runs will obtain accession numbers(starting with ERX and ERR, respectively). The run accessions will be used in the next step, assembly submission.
+* Upon success of the submission, both experiments and runs will obtain accession numbers(starting with ERX and ERR, respectively). The run accessions will be used in the next step, assembly submission.
 
 
 ### Assembly submission (Webin-CLI)
 <!-- walk through how to install and use Webin-CLI -->
 * ENA's documentation on <a href="https://ena-docs.readthedocs.io/en/latest/submit/assembly/genome.html" target="_blank">Submitting Genome Assemblies of Individuals or Cultured Isolates</a>.
 * The only way to submit assemblies is by using the toll called Webin-CLI, hence the first step is to download the latest version, see ENA's documentation on <a href="https://ena-docs.readthedocs.io/en/latest/submit/general-guide/webin-cli.html" target="_blank">Webin-CLI Submission</a>. This tutorial will use Java jar, but a Docker image is also available.
-* Webin-CLI requries that the metadata is formatted in a manifest file, hence create [Alectories-graeca-manifest.txt](/files/ena_tutorial/Alectoris-graeca-manifest.txt)
+* Webin-CLI requires that the metadata is formatted in a manifest file, hence create [Alectories-graeca-manifest.txt](/files/ena_tutorial/Alectoris-graeca-manifest.txt)
     * Note that in order to submit a chromosome level assembly, a gzipped file listing the chromosomes is also needed. An example of what they look like is in [chromosome_list.txt](/files/ena_tutorial/chromosome_list.txt). We will also submit a [unlocalised_list.txt](/files/ena_tutorial/unlocalised_list.txt), which contains a list of unlocalised sequences.
 * Webin-CLI can be used in two steps, first to validate and, upon successful validation, to submit:
     ```
@@ -241,7 +241,7 @@ Any programmatic submission requires 2 .xml files, one with the action (ADD, MOD
 <!-- walk through how to programmatically submit an umbrella -->
 * ENA's documentation on <a href="https://ena-docs.readthedocs.io/en/latest/faq/umbrella.html" target="_blank">Create an Umbrella Study</a>.
 * Create a [submission-umbrella.xml](/files/ena_tutorial/submission-umbrella.xml), with the ADD action and an [umbrella.xml](/files/ena_tutorial/umbrella.xml) where the 2 studies (one for the raw reads and one for the assembly) are added as children.
-    * **Note:** Umbrella studies automatically is created with a release date 2 years ahead in time. A separate submission, with the action RELEASE, is done when it is time to make the umbrella public, see how in ENA's documentation <a href="https://ena-docs.readthedocs.io/en/latest/faq/umbrella.html#releasing-umbrella-studies" target="_blank">Releasing Umbrella Studies</a>.
+    * **Note:** Umbrella studies are automatically created with a release date 2 years ahead in time. A separate submission, with the action RELEASE, is done when it is time to make the umbrella public, see how in ENA's documentation <a href="https://ena-docs.readthedocs.io/en/latest/faq/umbrella.html#releasing-umbrella-studies" target="_blank">Releasing Umbrella Studies</a>.
 * Submit in a terminal window by typing:
     ```
     curl -u Username:Password -F "SUBMISSION=@submission.xml" -F "PROJECT=@umbrella.xml" "https://wwwdev.ebi.ac.uk/ena/submit/drop-box/submit/"
@@ -264,15 +264,14 @@ ENA recognises multiple 'levels'/'types' of metadata related to sequencing proje
 
 * **Study** - A study (project) object is used to group together all data submitted to ENA about a given study and to control its release date. A study accession number is typically used to cite data submitted to ENA. Note that all data and metadata associated with a study are made public together with the study when it is released.
 
-* **Sample** - A sample object contains information about the sequenced source material. Checklists are in place to define which fields should be filled when annotating samples. Note that a taxonomic classification system is used to refer to biological organisms; the accepted organism name and classification hierarchy are used, see [here](https://www.gbif.org/dataset/6b6b2923-0a10-4708-b170-5b7c611aceef) for further details.
+* **Sample** - A sample object contains information about the sequenced source material. Checklists are in place to define which fields should be filled when annotating samples. Note that a taxonomic classification system is used to refer to biological organisms; the accepted organism name and classification hierarchy are used, see <a href="https://doi.org/10.15468/avkgwm" target="_blank">The European Nucleotide Archive (ENA) taxonomy</a> for further details.
 
 * **Experiment** - An experiment object contains all the details about the metholodology used for sequencing, including library and instrument details.
 
-* **Run** - A run object is part of an experiment object. It refers to data files that contain 'raw' sequence reads.
+* **Run** - A run object is part of an experiment object. It refers to data files that contain raw reads.
 
-* **Analysis** - An analysis object contains secondary analysis results. These results are derived from 'raw' sequence reads (e.g. a genome assembly).
+* **Analysis** - An analysis object contains secondary analysis results. These results are derived from the raw reads (e.g. a genome assembly).
 
-The different metadata objects relate to different stages of the sequencing process. 
 <!-- likely should include the classic metadata model, or an updated version of it -->
 
 <!-- ## Resources

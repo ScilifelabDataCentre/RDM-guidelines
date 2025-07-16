@@ -94,8 +94,6 @@ Hence, in order to do a submission of both raw reads and assemblies, and group 2
 ENA provides two sites for submission; one for [test submissions](https://wwwdev.ebi.ac.uk/ena/submit/webin) and one for ['real' submissions](https://www.ebi.ac.uk/ena/submit/webin) (i.e. an actual submission to ENA). We recommend doing a test submission first, using the example data provided, in order to get an understanding of the different steps. Please note though, that the test service is refreshed every night. This means that any test submissions will be removed before the following day, so it is not possible to begin a submission one day and continue the next.
 
 ### Interactive submission
-<!-- instructions on how to submit using as little command-line as possible -->
-<!-- Study, sample and raw reads -->
 
 #### **Submit studies**
 * ENA's documentation on <a href="https://ena-docs.readthedocs.io/en/latest/submit/study/interactive.html" target="_blank"> Register a study interactively</a>.
@@ -158,8 +156,7 @@ ENA provides two sites for submission; one for [test submissions](https://wwwdev
 * Select the latter and upload the experiments .tsv file. Click on **Submit Completed Spreadsheet**, verify that the submission was successful in the pop-up Submission window, and then click **Close**.
 
 ### Programmatic submission
-<!-- instructions on how to submit using as much command-line as possible -->
-<!-- Study, sample and raw reads -->
+
 Any programmatic submission requires 2 .xml files, one with the action (ADD, MODIFY, RELEASE, CANCEL) and one with the metadata. The submission is done via a cURL command in a terminal window, and all levels (study, sample, raw reads) can be submitted at the same time, but in this tutorial the levels will be submitted separately.
 
 #### **Submit studies**
@@ -217,7 +214,7 @@ Any programmatic submission requires 2 .xml files, one with the action (ADD, MOD
 
 
 ### Assembly submission (Webin-CLI)
-<!-- walk through how to install and use Webin-CLI -->
+
 * ENA's documentation on <a href="https://ena-docs.readthedocs.io/en/latest/submit/assembly/genome.html" target="_blank">Submitting Genome Assemblies of Individuals or Cultured Isolates</a>.
 * The only way to submit assemblies is by using the toll called Webin-CLI, hence the first step is to download the latest version, see ENA's documentation on <a href="https://ena-docs.readthedocs.io/en/latest/submit/general-guide/webin-cli.html" target="_blank">Webin-CLI Submission</a>. This tutorial will use Java jar, but a Docker image is also available.
 * Webin-CLI requires that the metadata is formatted in a manifest file, hence create [Alectories-graeca-manifest.txt](/files/ena_tutorial/Alectoris-graeca-manifest.txt)
@@ -238,7 +235,7 @@ Any programmatic submission requires 2 .xml files, one with the action (ADD, MOD
     ```
 
 ### Umbrella submission (programmatic)
-<!-- walk through how to programmatically submit an umbrella -->
+
 * ENA's documentation on <a href="https://ena-docs.readthedocs.io/en/latest/faq/umbrella.html" target="_blank">Create an Umbrella Study</a>.
 * Create a [submission-umbrella.xml](/files/ena_tutorial/submission-umbrella.xml), with the ADD action and an [umbrella.xml](/files/ena_tutorial/umbrella.xml) where the 2 studies (one for the raw reads and one for the assembly) are added as children.
     * **Note:** Umbrella studies are automatically created with a release date 2 years ahead in time. A separate submission, with the action RELEASE, is done when it is time to make the umbrella public, see how in ENA's documentation <a href="https://ena-docs.readthedocs.io/en/latest/faq/umbrella.html#releasing-umbrella-studies" target="_blank">Releasing Umbrella Studies</a>.
@@ -274,8 +271,8 @@ ENA recognises multiple 'levels'/'types' of metadata related to sequencing proje
 
 <!-- likely should include the classic metadata model, or an updated version of it -->
 
-<!-- ## Resources
+## Resources
 Please find below resources concerning --add title/topic--- in form of training, guidance and/or tools.
 
 {{< resources-per-page-topics >}}
- -->
+

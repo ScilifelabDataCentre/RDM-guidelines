@@ -1,10 +1,10 @@
 ---
-title: Tutorial ENA submission
+title: ENA submission tutorial
 category: Other
 toc: True
 ---
 
-# Tutorial ENA submission
+# ENA submission tutorial
 
 The aim of this tutorial is to provide guidance through the process of submitting genomics data to the <a href="https://https://www.ebi.ac.uk/ena/" target="_blank">European Nucleotide Archive</a> (ENA). By the end of this tutorial you will:
 * Understand the terminology used by ENA.

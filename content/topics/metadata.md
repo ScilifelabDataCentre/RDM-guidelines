@@ -61,7 +61,7 @@ A list of relevant data and metadata standards can be found in FAIRsharing, some
     </li>
   </ul>
   </span>
-  </div>
+  </div><br>
 </div>
 
 <p>
@@ -82,7 +82,7 @@ A list of relevant data and metadata standards can be found in FAIRsharing, some
       </ul>
   </ul>
   </span>
-  </div>
+  </div><br>
 </div>
 
 <p>
@@ -104,7 +104,7 @@ A list of relevant data and metadata standards can be found in FAIRsharing, some
     </li>
   </ul>
   </span>
-  </div>
+  </div><br>
 </div>
 
 <p>
@@ -127,7 +127,7 @@ A list of relevant data and metadata standards can be found in FAIRsharing, some
     </li>
   </ul>
   </span>
-  </div>
+  </div><br>
 </div>
 &nbsp;
 
@@ -166,7 +166,7 @@ Images and structural data cover a wide range of data types and thus metadata st
         <li>Experimental metadata include information about the sample, specimen preparation, imaging, image processing, symmetry, reconstruction method, resolution and resolution method, as well as a description of the modeling/fitting procedures used and are described in <a href="https://emdataresource.org/" target="_blank">EMDR</a>, see also <a href="https://aca.scitation.org/doi/10.1063/1.5138589" target="_blank">Lawson et al 2020</a>.</li>
       </ul>
   </span>
-  </div>
+  </div><br>
 </div>
 
 <p>
@@ -186,7 +186,7 @@ Images and structural data cover a wide range of data types and thus metadata st
         <li>Processed structural information is submitted in the <a href="https://doi.org/10.25504/FAIRsharing.fd28en" target="_blank">PDBx/mmCIF</a> format.</li>
       </ul>
   </span>
-  </div>
+  </div><br>
 </div>
 
 <p>
@@ -204,7 +204,7 @@ Images and structural data cover a wide range of data types and thus metadata st
         <li>Processed structural information is submitted in the <a href="https://doi.org/10.25504/FAIRsharing.fd28en" target="_blank">PDBx/mmCIF</a> format.</li>
       </ul>
   </span>
-  </div>
+  </div><br>
 </div>
 &nbsp;
 

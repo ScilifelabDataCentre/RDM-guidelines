@@ -81,14 +81,14 @@ Aspera  (ascp) is a command-line transfer program that can be used for stable tr
   1. Run `ascli conf ascp install`
   1. Check current version using `ascli conf ascp info`
 
-Then, in order to upload to ENA interactively using locally installed Aspera:
+Then, in order to upload to European Nucleotide Archive (ENA) interactively using locally installed Aspera:
 
   1. Fill with desired ascp commands:
       ```
       ~/.aspera/sdk/ascp -k 3 -d -q --mode=send -QT -l300M --host=webin.ebi.ac.uk --user=Webin-XXXXX /local/path/to/*.gz /
       ```
 
-  1. Enter password if/when prompted. In order to not be prompted about password, export the password first: `export ASPERA_SCP_PASS='yourENApassword'`
+  1. Enter password if/when prompted. In order to not be prompted about password, export the password first: `read -s ASPERA_SCP_PASS && export ASPERA_SCP_PASS`
 
 **Note:** In order to check the progress and outcome of the transfer, a program such as FileZilla can be used to connect to your upload area at ENA from your local computer.
 

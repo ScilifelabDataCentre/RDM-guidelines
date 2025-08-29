@@ -83,6 +83,9 @@ Luckily, there are tools to assist you:
   - Gives Life Science specific guidance
   - Less free text answers, instead many questions with answer options<br/><br/><a class="link-teal" href="http://dsw.scilifelab.se/" target="_blank"><b>Go to the Data Stewardship Wizard <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/> 
 
+### Examples
+If you are intrested in seeing examples of high quality DMPs, take a look at one of the <a href="https://elixiruknode.org/data-management-planning-in-life-sciences-research/#17-example-dmps-hosted-in-dsw" target="_blank">17 Example DMPs hosted in DSW</a> that Data Stewards at the ELIXIR-UK node has written and reviewed. The template used varies slightly from the templates that Swedish funders provide, but it covers the same information and the examples include various data types, typical for life science research.
+
 ## Resources
 Please find below resources concerning DMPs in form of training, guidance and/or tools.
 

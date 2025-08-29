@@ -14,7 +14,7 @@ In the era of FAIR (Findable, Accessible, Interoperable and Reusable) and <a hre
 
 <br/>
 
-  <img class="img-fluid" src="/img/illustrations/repository_overview_v3.png" alt="Repository overview">
+  <img class="img-fluid" src="/img/illustrations/repository_overview_v4.png" alt="Repository overview">
 
 &nbsp;&nbsp;
 

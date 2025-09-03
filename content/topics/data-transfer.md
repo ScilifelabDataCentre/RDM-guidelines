@@ -101,8 +101,8 @@ RClone is a command-line program that can be used to transfer files across a wid
 
 The following example describes how to upload files to SciLifeLab Data Repository (or any other FigShare repository):
 
-1. Find/create your username and password for ftp uploads to Figshare
-1. To configure your <a href="https://rclone.org/ftp/" target="_blank">ftp connection parameters for rclone</a> your command will look something like this (`rclone lfs :ftp:data` will list the content of your data uploads folder on FigShare):
+1. Find/create your username and password for FTP uploads to Figshare
+1. To configure your <a href="https://rclone.org/ftp/" target="_blank">FTP connection parameters for rclone</a> your command will look something like this (`rclone lfs :ftp:data` will list the content of your data uploads folder on FigShare):
    ```
    rclone lsf :ftp:data --ftp-host=ftps.figshare.com --ftp-user=$user --ftp-pass=$(rclone obscure $pass) --ftp-port=21 --ftp-explicit-tls
    ```
@@ -110,7 +110,7 @@ The following example describes how to upload files to SciLifeLab Data Repositor
 
 <a class="link-teal" href="https://rclone.org/docs/" target="_blank"><b>Learn more about RClone <i class="bi bi-box-arrow-up-right"></i></b></a>
 
-<a class="link-teal" href="https://help.figshare.com/article/upload-large-datasets-and-bulk-upload-using-the-ftp-uploader-desktop-uploader-or-api" target="_blank"><b>Learn more about ftp uploads to FigShare <i class="bi bi-box-arrow-up-right"></i></b></a>
+<a class="link-teal" href="https://help.figshare.com/article/upload-large-datasets-and-bulk-upload-using-the-ftp-uploader-desktop-uploader-or-api" target="_blank"><b>Learn more about FTP uploads to FigShare <i class="bi bi-box-arrow-up-right"></i></b></a>
 
 ## Resources
 Please find below resources concerning data transfer in form of training, guidance and/or tools.

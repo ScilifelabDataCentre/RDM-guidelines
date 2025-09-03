@@ -21,7 +21,7 @@ Data documentation should clearly describe how the data was collected, so that s
 ## Data producers
  SciLifeLab provides access to a range of pioneering technologies in molecular biosciences. Please find below a selection of data generating SciLifeLab services for genomics, imaging, metabolomics, and proteomics data.
 
- <a class="link-teal" href="https://www.scilifelab.se/services/" target="_blank"><b>Learn more about SciLifeLab services <i class="bi bi-box-arrow-up-right"></i></b></a>
+ <a class="link-teal" href="https://www.scilifelab.se/infrastructure/" target="_blank"><b>Learn more about SciLifeLab services <i class="bi bi-box-arrow-up-right"></i></b></a>
 <br/><br/>
 
 ### Genomics data

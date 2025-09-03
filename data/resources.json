@@ -841,6 +841,19 @@
             "url": "https://everse.software/RSQKit/",
             "description": "Research Software Quality Toolkit (RSQKit) lists curated best practices in developing, collaborating on and improving the quality of research software. It is intended for use by researchers who code, research software engineers, those managing and procuring funding for projects with a large research software component, those running research infrastructures involving software and those developing research software related policy at organisations and in projects.",
             "provider":  ["European Virtual Institute for Research Software Excellence (EVERSE)"]
+        },
+        {
+            "title": "Long-term preservation",
+            "short_title": "Long-term preservation",
+            "target": ["guidance"],
+            "type": ["Web page"],
+            "search_tags": ["Long-term preservation", "Researchdata.se","SND","Swedish National Data Service"],
+            "phase": ["Preserve"],
+            "level": ["Basic"],
+            "url": "https://researchdata.se/en/manage-data/describe-share-and-preserve-data/what-should-i-share/long-term-preservation",
+            "description": "Swedish National Data Service (SND) guidance on Long-term preservation of data.",
+            "provider":  ["SND"],
+            "licence": "CC BY 4.0 (texts)"
         }                
     ]
 }

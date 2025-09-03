@@ -13,8 +13,10 @@ During this phase all necessary data to be analysed in the project is collected,
 <br/><br/>
 
 ## Documentation
-Data documentation should clearly describe how the data was collected, so that someone else can understand and correctly interpret the data. Make use of electronic lab notebooks (often offered by the university / institute) and metadata standards, and name and organise the files produced appropriately, see e.g. *'<a href="https://doi.org/10.1371/journal.pcbi.1000424" target="_blank">A Quick Guide to Organizing Computational Biology Projects</a>'* for advice.
+Data documentation should clearly describe how the data was collected, so that someone else can understand and correctly interpret the data. Documentations can be keept as a README file, both on a higher project-level or on a more detailed level. Make use of electronic lab notebooks (often offered by the university / institute) and metadata standards, and name and organise the files produced appropriately, see e.g. *'<a href="https://doi.org/10.1371/journal.pcbi.1000424" target="_blank">A Quick Guide to Organizing Computational Biology Projects</a>'* for advice. 
 
+<a class="link-teal" href="/topics/readme-files"><b>Learn more about README files <i class="bi bi-arrow-right-square"></i></b></a>
+<br/><br/>
 <a class="link-teal" href="/topics/metadata"><b>Learn more about metadata standards <i class="bi bi-arrow-right-square"></i></b></a>
 <br/><br/>
 

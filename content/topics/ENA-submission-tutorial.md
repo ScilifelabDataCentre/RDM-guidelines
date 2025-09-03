@@ -39,11 +39,13 @@ In order to do a submission, you need an account in ENA. To create an account, p
 
 <br>
 
-Once you have filled in all of the required fields, you can log in to the submission service. You may wish to add contacts if you are working with other people to complete your submission. You can do this by logging into your account then selecting *Home > Manage account*. Any contacts that you add will be notified if there are any major changes to data submissions, and they will be listed as contacts on public data.
+### Adding contacts <!-- addera användare tycker jag förtjänar en egen rubrik -->
+
+Once you have filled in all of the required fields, you can log in to the submission service. You may wish to add contacts if you are collaborating with other people to complete your submission. You can do this by logging into your account then selecting *Home > Manage account*. Added contacts will be notified if there are changes made to data submissions, and they will be listed as contacts on public data. 
 
 ### Preparing the metadata
 
-To ensure that sample data is registered with at least a minimum amount of metadata, ENA provides <a href="https://www.ebi.ac.uk/ena/browser/checklists" target="_blank">“Sample Checklists”</a> which are used during registration to tailor the sample descriptions to fit minimum standards. For convenience, we have created templates for the checklists we have used. The templates come with instructions on how to do an interactive submission, via the ENA Webin Portal, but even when doing a programmatic submission, the template can be useful for collecting all necessary descriptions / metadata.  Download an appropriate template, and fill in the sheets according to the instructions in the template:
+To ensure that sample data is registered with at least a minimum amount of metadata, ENA provides <a href="https://www.ebi.ac.uk/ena/browser/checklists" target="_blank">“Sample Checklists”</a> which are used to tailor the sample descriptions to fit minimum standards. For convenience, we have created templates for the checklists we have used. The templates come with instructions on how to do an interactive submission, via the ENA Webin Portal, but even when doing a programmatic submission, the template can be useful for collecting all necessary descriptions / metadata.  Download an appropriate template, and fill in the sheets according to the instructions in the template:
   <ul>
     <li>ERC000011 <a href="/files/meta-data-templates/metadata_template_default_ERC000011.xlsx">ENA default sample checklist </a>(Excel spreadsheet)</li>
     <li>ERC000015 <a href="/files/meta-data-templates/metadata_template_human-gut_ERC000015.xlsx">GSC MIxS human gut </a>(Excel spreadsheet)</li>
@@ -53,11 +55,19 @@ To ensure that sample data is registered with at least a minimum amount of metad
     <li>ERC000050 <a href="/files/meta-data-templates/metadata_template_ENA_binned_metagenome_ERC000050.xlsx">ENA binned metagenome checklist </a>(Excel spreadsheet)</li>
     <li>ERC000053 <a href="/files/meta-data-templates/metadata_template_tree-of-life_ERC000053.xlsx">Tree of Life Checklist </a>(Excel spreadsheet)</li>
   </ul>
-<!-- question is if we should link to VIB templates instead of ours, but that we can do in the future -->
+<!-- question is if we should link to VIB templates instead of ours, but that we can do in the future 
+SN: Nej. Eftersom templaten skiljer sig något åt kan det lätt bli förvirrande för användarna vilket dom ska använda och varför -->
 
-The templates are divided into five sheets (each related to a type of metadata object), namely **study**, **sample**, **experiment**, **run** and **assemblies**. It is good practice to fill in all relevant sheets in the template, as having all the metadata collected in one place eases the submission process.
+The templates are divided into five sheets (each related to a type of metadata object), namely **study**, **sample**, **experiment**, **run** and **assemblies**. It is good practice to fill in all relevant sheets in the template, as having all the metadata collected in one place facilitates the submission process.
 
-In the sample sheet, the first row contains the name of the checklist, the second row contains the field names, the third provides a description of the field, the fourth field indicates whether the field is mandatory, recommended or optional. Some fields have controlled vocabulary, which are available in the template as drop-down lists (the lists become visible when you click on a cell).
+In the sample sheet, the rows contain the following:
+
+1. The name of the checklist
+2. Field names
+3. Description of the field
+4. If the field is mandatory, recommended or optional. 
+
+Note that some fields have controlled vocabulary, which are available in the template as drop-down lists (the lists become visible when you click on a cell).
 
 **Note**: It is *strongly* recommended that you provide as much information as possible in the metadata sheets. This will increase the [FAIRness](https://www.go-fair.org/fair-principles/) of your data, and thus the probability that it will be useful in future research efforts. 
 

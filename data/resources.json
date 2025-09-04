@@ -129,7 +129,7 @@
             "target": ["training"],
             "type": ["Material"],
             "search_tags": ["material","open science","FAIR","Open Science and FAIR"],
-            "phase": ["Share", "Reuse"],
+            "phase": ["Share"],
             "topic": ["FAIR principles"],
             "level": ["Basic"],
             "url": "https://nbisweden.github.io/module-open-science-dm-practices/index.html",

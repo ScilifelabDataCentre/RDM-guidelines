@@ -5,7 +5,7 @@ toc: True
 ---
 
 # Planning
-During this phase you plan for which data is needed to answer your research question, and how that data is going to be managed during as well as after the project.
+During this phase you plan for which data is needed to answer your research question, and how that data is going to be managed during, as well as after, the project.
 
 It is wise to write a data management plan (DMP), using either a tool provided by your university or Data Stewardship Wizard (DSW) provided by SciLifeLab. The main benefits of writing a DMP are to document how the data is managed and identify possible gaps in the current data management practices. Think of the DMP as a checklist to go through when planning for a new project.
 
@@ -25,7 +25,7 @@ Also, some resources have specific application periods and thus needs to be cont
 <br/><br/>
 
 ## ORCID
-In the planning phase it can be good to adress the question of Open Researcher and Contributor IDs (ORCID). An ORCID is a unique persistent identifier for researchers, and allows you to be uniquely identified and accurately attributed for your work. Visit the ORCID website in order to register an ORCID. 
+In the planning phase it can be good to address the question of Open Researcher and Contributor IDs (ORCID). An ORCID is a unique persistent identifier for researchers, and allows you to be uniquely identified and accurately attributed for your work. Visit the ORCID website in order to register an identifier. 
 
 <a class="link-teal" href="https://orcid.org/" target="_blank"><b>Learn more about ORCID <i class="bi bi-box-arrow-up-right"></i></b></a>
 <br/><br/>

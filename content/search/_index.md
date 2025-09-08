@@ -4,9 +4,9 @@ type: "search"
 layout: "search"
 menu:
     navbar_top:
-        name: "<i class='bi bi-search'></i> Search"
+        name: "<i class='bi bi-search'></i> Search" 
         identifier: search
-        weight: 40
+        weight: 50
 outputs:
     - html
     - json

@@ -12,7 +12,7 @@
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav navbar-top">
           {{ range .Site.Menus.navbar_top }}
-          <li class="nav-item"><a class="nav-link" href="{{ .Page.RelPermalink }}">{{ .Name }}</a></li>
+          <li class="nav-item"><a class="nav-link" href="{{ .Page.RelPermalink }}">{{ .Name | safeHTML }}</a></li>
           {{ end }}
 
         </ul>

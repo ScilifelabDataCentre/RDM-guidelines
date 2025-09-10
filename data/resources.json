@@ -346,7 +346,7 @@
             "target": ["training"],
             "type": ["Material"],
             "search_tags": ["material","Data organisation","organisation","organization"],
-            "phase": ["Collect"],
+            "phase": ["Collect", "Preserve"],
             "level": ["Basic"],
             "url": "https://nbisweden.github.io/module-organising-data-dm-practices/",
             "description": "Training material regarding good data organisation practices.",
@@ -566,7 +566,7 @@
             "target": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","organisation", "organization", "data organisation","Metadata", "README files","RDMkit on Data organisation"],
-            "phase": ["Plan", "Collect", "Share"],
+            "phase": ["Plan", "Collect","Preserve" ,"Share"],
             "topic": ["Metadata", "README files"],
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/data_organisation",
@@ -815,6 +815,19 @@
             "url": "https://everse.software/RSQKit/",
             "description": "Research Software Quality Toolkit (RSQKit) lists curated best practices in developing, collaborating on and improving the quality of research software. It is intended for use by researchers who code, research software engineers, those managing and procuring funding for projects with a large research software component, those running research infrastructures involving software and those developing research software related policy at organisations and in projects.",
             "provider":  ["European Virtual Institute for Research Software Excellence (EVERSE)"]
+        },
+        {
+            "title": "Long-term preservation",
+            "short_title": "Long-term preservation",
+            "target": ["guidance"],
+            "type": ["Web page"],
+            "search_tags": ["Long-term preservation", "Researchdata.se","SND","Swedish National Data Service"],
+            "phase": ["Preserve"],
+            "level": ["Basic"],
+            "url": "https://researchdata.se/en/manage-data/describe-share-and-preserve-data/what-should-i-share/long-term-preservation",
+            "description": "Swedish National Data Service (SND) guidance on Long-term preservation of data.",
+            "provider":  ["SND"],
+            "licence": "CC BY 4.0 (texts)"
         },
         {
             "title": "Rayner, D. (2025). Open Science in the Swedish context - Data reuse.",

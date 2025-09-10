@@ -6,7 +6,7 @@ toc: True
 
 # Metadata
 Good documentation in research projects is essential in order to allow good quality data and transparent research. Describing how the datasets were created, how they are structured, and what they mean, is key for making your data understandable for others as well as your future self. Metadata provides such 'data about data'.
-Metadata is needed at several levels to describe the study, the samples, the experiments, the analysis and so on. It may include information on the methodology and instrumentation used to collect the data, analytical and procedural information, definitions of variables, units of measurement, any assumptions made, the format and file type of the data and software used to collect and/or process the data.
+Metadata is needed at several levels to describe the study, the samples, the experiments, the analysis and so on (see also topic on [README](/topics/readme-files/) for documentation on different levels). It may include information on the methodology and instrumentation used to collect the data, analytical and procedural information, definitions of variables, units of measurement, any assumptions made, the format and file type of the data and software used to collect and/or process the data.
 
 Researchers are strongly encouraged to use community metadata standards where these are in place (see further down) and are recommended doing so already from the beginning of the project. Data repositories may also provide guidance about appropriate metadata standards and requirements e.g. the European Nucleotide Archive (ENA) have sample checklists. We provide templates for some of these checklists, see further on [Sharing phase - ENA](/data-life-cycle/share/#genomics-data). Structuring the metadata in a way that conforms to the suitable repository from the beginning enables data submission without having to reformat the metadata.
 
@@ -61,7 +61,7 @@ A list of relevant data and metadata standards can be found in FAIRsharing, some
     </li>
   </ul>
   </span>
-  </div>
+  </div><br>
 </div>
 
 <p>
@@ -82,7 +82,7 @@ A list of relevant data and metadata standards can be found in FAIRsharing, some
       </ul>
   </ul>
   </span>
-  </div>
+  </div><br>
 </div>
 
 <p>
@@ -104,7 +104,7 @@ A list of relevant data and metadata standards can be found in FAIRsharing, some
     </li>
   </ul>
   </span>
-  </div>
+  </div><br>
 </div>
 
 <p>
@@ -127,7 +127,7 @@ A list of relevant data and metadata standards can be found in FAIRsharing, some
     </li>
   </ul>
   </span>
-  </div>
+  </div><br>
 </div>
 &nbsp;
 
@@ -166,7 +166,7 @@ Images and structural data cover a wide range of data types and thus metadata st
         <li>Experimental metadata include information about the sample, specimen preparation, imaging, image processing, symmetry, reconstruction method, resolution and resolution method, as well as a description of the modeling/fitting procedures used and are described in <a href="https://emdataresource.org/" target="_blank">EMDR</a>, see also <a href="https://aca.scitation.org/doi/10.1063/1.5138589" target="_blank">Lawson et al 2020</a>.</li>
       </ul>
   </span>
-  </div>
+  </div><br>
 </div>
 
 <p>
@@ -186,7 +186,7 @@ Images and structural data cover a wide range of data types and thus metadata st
         <li>Processed structural information is submitted in the <a href="https://doi.org/10.25504/FAIRsharing.fd28en" target="_blank">PDBx/mmCIF</a> format.</li>
       </ul>
   </span>
-  </div>
+  </div><br>
 </div>
 
 <p>
@@ -204,7 +204,7 @@ Images and structural data cover a wide range of data types and thus metadata st
         <li>Processed structural information is submitted in the <a href="https://doi.org/10.25504/FAIRsharing.fd28en" target="_blank">PDBx/mmCIF</a> format.</li>
       </ul>
   </span>
-  </div>
+  </div><br>
 </div>
 &nbsp;
 

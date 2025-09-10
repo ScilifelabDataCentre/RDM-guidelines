@@ -14,7 +14,7 @@ In the era of FAIR (Findable, Accessible, Interoperable and Reusable) and <a hre
 
 <br/>
 
-  <img class="img-fluid" src="/img/illustrations/repository_overview_v3.png" alt="Repository overview">
+  <img class="img-fluid" src="/img/illustrations/repository_overview_v5.png" alt="Repository overview">
 
 &nbsp;&nbsp;
 
@@ -324,6 +324,22 @@ A general-purpose data repository is an appropriate choice only if the data does
   </span>
   <br>
   <a class="link-teal" href="https://zenodo.org/" target="_blank"><b>Visit Zenodo <i class="bi bi-box-arrow-up-right"></i></b></a>
+  </div>
+  <br>
+</div>
+<p>
+  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample15" role="button" aria-expanded="false" aria-controls="collapseExample15">
+    EUDAT B2SHARE
+    <i class="bi bi-chevron-double-down p-2"></i>
+  </button>
+</p>
+<div class="collapse" id="collapseExample15">
+  <div class="card card-body">
+  <span>
+  B2SHARE is a user-friendly, reliable and trustworthy way for researchers, scientific communities and citizen scientists to store, publish and share research data in a FAIR way. B2SHARE is a solution that facilitates research data storage, guarantees long-term persistence of data and allows data, results or ideas to be shared worldwide.
+  </span>
+  <br>
+  <a class="link-teal" href="https://eudat.eu/service-catalogue/b2share-0" target="_blank"><b>Visit EUDAT B2SHARE <i class="bi bi-box-arrow-up-right"></i></b></a>
   </div>
   <br>
 </div>

@@ -129,7 +129,7 @@
             "target": ["training"],
             "type": ["Material"],
             "search_tags": ["material","open science","FAIR","Open Science and FAIR"],
-            "phase": ["Share", "Reuse"],
+            "phase": ["Share"],
             "topic": ["FAIR principles"],
             "level": ["Basic"],
             "url": "https://nbisweden.github.io/module-open-science-dm-practices/index.html",
@@ -420,32 +420,6 @@
             "provider":  ["NBIS"],
             "licence": "CC BY 4.0"
         },
-        {
-            "title": "SciLifeLab Data Stewardship Wizard - A short introduction",
-            "short_title": "Introduction SciLifeLab DSW",
-            "target": ["guidance"],
-            "type": ["Video"],
-            "search_tags": ["DSW","DMP","video","SciLifeLab Data Stewardship Wizard - A short introduction"],
-            "phase": ["Plan"],
-            "topic": ["Data Management Plan"],            
-            "level": ["Basic"],
-            "url": "https://www.youtube.com/watch?v=HY2DVnNGkAs",
-            "description": "Short introduction video of Data Stewardship Wizard (DSW) tool.",
-            "provider":  ["SciLifeLab"]
-        },
-        {
-            "title": "How to write a Data Management Plan",
-            "short_title": "How to write a DMP",
-            "target": ["guidance"],
-            "type": ["Video"],
-            "search_tags": ["DMP","data management plan","video","How to write a Data Management Plan"],
-            "topic": ["Data Management Plan"],
-            "phase": ["Plan"],
-            "level": ["Basic"],
-            "url": "https://www.youtube.com/watch?v=HDfwz60FXjw",
-            "description": "Video presentation of what sections a data management plan consists of.",
-            "provider":  ["SciLifeLab"]
-        },
         {   
             "title": "RDMkit on Collecting data",
             "short_title": "RDMkit: Collecting data",
@@ -495,7 +469,7 @@
             "phase": ["Plan", "Collect", "Process", "Analyse", "Share"],
             "topic": ["README files", "Data Management Plan"], 
             "level": ["Basic"],
-            "url": "https://uppsala.instructure.com/courses/79097/pages/introduction-to-data-management-practices",
+            "url": "https://nbis.se/training/introduction-to-data-management-practices",
             "description": "This course will introduce important aspects of Research Data Management (concept of FAIR, Metadata standards, Data Organisation, Data Publication, Data Management Planning, Data Refinement (Open Refine), Data Versioning, Programming/Analysis in R) through a series of lectures and hands-on computer exercises. The course is intended for researchers that want to take the first steps towards a more systematic and reproducible approach to analysing and managing research data. All lessons are available online as self-study materials",
             "provider": ["NBIS"],
             "licence": "CC BY 4.0"
@@ -854,6 +828,19 @@
             "description": "Swedish National Data Service (SND) guidance on Long-term preservation of data.",
             "provider":  ["SND"],
             "licence": "CC BY 4.0 (texts)"
+        },
+        {
+            "title": "Rayner, D. (2025). Open Science in the Swedish context - Data reuse.",
+            "short_title": "Data reuse",
+            "target": ["training"],
+            "type": ["Material"],
+            "search_tags": ["material","reuse","Rayner, D. (2025). Open Science in the Swedish context - Data reuse."],
+            "phase": ["Reuse"],
+            "level": ["Basic"],
+            "url": "https://scilifelab-training.github.io/open-science/2505/Session3.html",
+            "description": "Training material regarding data reuse, given by David Rayner (training coordinator at SND) during 'Open Science in the Swedish context' workshop held during May 2025. The material includes slides with speaker notes as well as exercises, covering the topic of finding, accessing and evaluating research data for reuse. DOI: 10.17044/scilifelab.29348669.v2",
+            "provider":  ["SND"],
+            "licence": "CC BY 4.0"
         }                
     ]
 }

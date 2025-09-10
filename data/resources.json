@@ -847,7 +847,7 @@
             "short_title": "SCoRe: computational resources",
             "target": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["SCoRe user documentation", "SCoRe", "Support for Computational Resources","compute"],
+            "search_tags": ["SCoRe user documentation on computational resources", "SCoRe", "Support for Computational Resources","compute"],
             "phase": ["Process", "Analyse"],
             "level": ["Basic"],
             "url": "https://nbisweden.github.io/SCoRe_user_doc/resources/",

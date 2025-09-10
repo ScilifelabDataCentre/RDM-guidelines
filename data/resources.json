@@ -129,7 +129,7 @@
             "target": ["training"],
             "type": ["Material"],
             "search_tags": ["material","open science","FAIR","Open Science and FAIR"],
-            "phase": ["Share", "Reuse"],
+            "phase": ["Share"],
             "topic": ["FAIR principles"],
             "level": ["Basic"],
             "url": "https://nbisweden.github.io/module-open-science-dm-practices/index.html",
@@ -815,6 +815,19 @@
             "url": "https://everse.software/RSQKit/",
             "description": "Research Software Quality Toolkit (RSQKit) lists curated best practices in developing, collaborating on and improving the quality of research software. It is intended for use by researchers who code, research software engineers, those managing and procuring funding for projects with a large research software component, those running research infrastructures involving software and those developing research software related policy at organisations and in projects.",
             "provider":  ["European Virtual Institute for Research Software Excellence (EVERSE)"]
+        },
+        {
+            "title": "Rayner, D. (2025). Open Science in the Swedish context - Data reuse.",
+            "short_title": "Data reuse",
+            "target": ["training"],
+            "type": ["Material"],
+            "search_tags": ["material","reuse","Rayner, D. (2025). Open Science in the Swedish context - Data reuse."],
+            "phase": ["Reuse"],
+            "level": ["Basic"],
+            "url": "https://scilifelab-training.github.io/open-science/2505/Session3.html",
+            "description": "Training material regarding data reuse, given by David Rayner (training coordinator at SND) during 'Open Science in the Swedish context' workshop held during May 2025. The material includes slides with speaker notes as well as exercises, covering the topic of finding, accessing and evaluating research data for reuse. DOI: 10.17044/scilifelab.29348669.v2",
+            "provider":  ["SND"],
+            "licence": "CC BY 4.0"
         }                
     ]
 }

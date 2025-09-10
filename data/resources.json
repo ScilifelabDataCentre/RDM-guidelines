@@ -828,6 +828,18 @@
             "description": "Training material regarding data reuse, given by David Rayner (training coordinator at SND) during 'Open Science in the Swedish context' workshop held during May 2025. The material includes slides with speaker notes as well as exercises, covering the topic of finding, accessing and evaluating research data for reuse. DOI: 10.17044/scilifelab.29348669.v2",
             "provider":  ["SND"],
             "licence": "CC BY 4.0"
-        }                
+        },
+        {
+            "title": "SCoRe user documentation on computational resources",
+            "short_title": "SCoRe: computational resources",
+            "target": ["guidance"],
+            "type": ["Web page"],
+            "search_tags": ["SCoRe user documentation", "SCoRe", "Support for Computational Resources","compute"],
+            "phase": ["Process", "Analyse"],
+            "level": ["Basic"],
+            "url": "https://nbisweden.github.io/SCoRe_user_doc/resources/",
+            "description": "Support for Computational Resources (SCoRe) provides user documentation on computer-related things such as High Performance Computational (HPC) clusters and storage, courses given on the topic, efficiency when using, etc. ",
+            "provider":  ["NBIS SCoRe"]
+        }         
     ]
 }

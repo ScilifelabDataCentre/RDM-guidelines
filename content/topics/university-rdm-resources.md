@@ -154,7 +154,7 @@ The role of the data protection officer (dataskyddsombud) is to check that the G
     </tr>
     <tr>
       <td>University of Gothenburg</td>
-      <td><a href="mailto:dataskyddsombud@gu.se">dataskydd@gu.se</a></td>
+      <td><a href="mailto:dataskyddsombud@gu.se">dataskyddsombud@gu.se</a></td>
       <td><a href="https://gunet.sharepoint.com/sites/mp-stod-och-service/SitePages/en/Checklista-f%C3%B6r-informations%C3%A4gare-inom-forskning.aspx" target="_blank">Routines for processing personal data</a></td>
     </tr>
     <tr>

@@ -77,7 +77,7 @@ Most often there are information resources at your university regarding research
     <tr>
       <td><a href="https://www.uu.se/en/staff/gateway/research/research-handbook/research-data" target="_blank">Uppsala University</a></td>
       <td><a href="mailto:dataoffice@uu.se">dataoffice@uu.se</a></td>
-      <td></td>
+      <td><a href="https://www.uu.se/en/staff/gateway/research/research-handbook/research-data" target="_blank">Research handbook on research data</a></td>
     </tr>
     <tr>
       <td><a href="https://www.oru.se/english/research/research-support/starting-up-your-research-project/data-management-plan-components/do-you-need-help-with-your-research-data/" target="_blank">Örebro University</a></td>

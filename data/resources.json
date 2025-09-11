@@ -1072,5 +1072,65 @@
             "url": "https://fairsharing.org/",
             "description": "FAIRsharing is a registry that collects metadata standards, databases and policies. It serves as a curated, informative and educational resource on data and metadata standards, inter-related to databases and data policies.",
             "provider":  ["FAIRsharing"]
+        },
+        {
+            "title": "KI Data Repository",
+            "short_title": "KI Data Repository",
+            "target": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["KI Data Repository","repository","storage","share","institutional repository"],
+            "phase": ["Share"],
+            "level": ["Basic"],
+            "url": "https://kib.ki.se/en/publish-analyse/publish-and-share-research-data/doris-publish-and-share-your-research-data",
+            "description": "KI Data Repository is a data repository where Karolinska Institutet's (KI's) researchers can store, publish and share data.",
+            "provider":  ["KI"]
+        },
+        {
+            "title": "KTH Data Repository",
+            "short_title": "KTH Data Repository",
+            "target": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["KTH Data Repository","repository","storage","share","institutional repository"],
+            "phase": ["Share"],
+            "level": ["Basic"],
+            "url": "https://datarepository.kth.se",
+            "description": "The KTH Data Repository is a general data repository offered as a service from KTH Royal Institute of Technology. The service offers a solution for depositing and preparing documentation and static versions of data and source code for your research project. Deposited data can be kept for internal archive or published as open data.",
+            "provider":  ["KTH"]
+        },
+        {
+            "title": "SciLifeLab Data Repository",
+            "short_title": "SciLifeLab Data Repository",
+            "target": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["SciLifeLab Data Repository","repository","share","institutional repository"],
+            "phase": ["Share"],
+            "level": ["Basic"],
+            "url": "https://www.scilifelab.se/data/repository/",
+            "description": "The SciLifeLab Data Repository, powered by Figshare and supported by SciLifeLab and the Knut and Alice Wallenberg foundation through the Data-Driven Life Science (DDLS) program, is a repository for publishing any kind of research-related data, e.g. documents, figures, or presentations. Figshare is an open data repository used by researchers in numerous disciplines. Through an agreement with Figshare, SciLifeLab offers researchers and units the opportunity to upload and publish their research data through a dedicated portal.",
+            "provider":  ["SciLifeLab"]
+        },
+        {
+            "title": "Stockholm University Figshare",
+            "short_title": "SU Figshare",
+            "target": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["Stockholm University Figshare","repository","share","institutional repository"],
+            "phase": ["Share"],
+            "level": ["Basic"],
+            "url": "https://su.figshare.com/",
+            "description": "Stockholm University Figshare  is a repository for publishing any kind of research-related data, e.g. documents, figures, or presentations. Figshare is an open data repository used by researchers in numerous disciplines. Through an agreement with Figshare, Stockholm University offers researchers the opportunity to upload and publish their research data through a dedicated portal.",
+            "provider":  ["SU"]
+        },
+        {
+            "title": "",
+            "short_title": "",
+            "target": ["tool"],
+            "type": ["Tool"],
+            "search_tags": [""],
+            "phase": ["Share"],
+            "level": ["Basic"],
+            "url": "",
+            "description": "",
+            "provider":  [""]
         }
 }

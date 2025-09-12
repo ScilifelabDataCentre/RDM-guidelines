@@ -461,6 +461,32 @@
             "provider": ["SciLifeLab"]
         },
         {
+            "title": "DMPOnline",
+            "short_title": "DMPOnline",
+            "target": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["DMPOnline","DMP"],
+            "phase": ["Plan"],
+            "topic": ["Data Management Plan"],            
+            "level": ["Basic"],
+            "url": "https://dmponline.dcc.ac.uk/",
+            "description": "DMPonline is the Digital Curation Centre's data management planning tool. It provides tailored guidance and example answers to help researchers develop data management plans.",
+            "provider": ["DCC"]
+        },
+        {
+            "title": "17 Example DMPs hosted in DSW",
+            "short_title": "Example DMPs",
+            "target": ["guidance"],
+            "type": ["Web page"],
+            "search_tags": ["17 Example DMPs hosted in DSW"],
+            "phase": ["Plan"],
+            "topic": ["Data Management Plan"],            
+            "level": ["Basic"],
+            "url": "https://elixiruknode.org/data-management-planning-in-life-sciences-research/#17-example-dmps-hosted-in-dsw",
+            "description": "17 DMP examples using the templates created in DSW were written and reviewed by data stewards. They cover diverse data types and organisms, using a template aligned with the BBSRC Data Sharing Policy. All are hosted on the UK national DSW instance and available on Zenodo.",
+            "provider": ["ELIXIR-UK"]
+        },
+        {
             "title": "Introduction to data management practices",
             "short_title": "Intro DM practices",
             "target": ["training"],

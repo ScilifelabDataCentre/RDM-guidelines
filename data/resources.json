@@ -448,6 +448,32 @@
             "licence": "CC BY 4.0"
         },
         {
+            "title": "Aspera CLI install instructions",
+            "short_title": "Aspera",
+            "target": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["Aspera","data transfer"],
+            "phase": ["Collect", "Share"],
+            "topic": ["Data transfer"],
+            "level": ["Basic"],
+            "url": "https://github.com/IBM/aspera-cli/#installation",
+            "description": "Aspera client is a command-line transfer program that can be used for stable transfers of files e.g. from NAISS storage to ENA (European Nucleotide Archive) upload area when doing submission.",
+            "provider":  ["IBM"]
+        },
+        {
+            "title": "Rclone documentation",
+            "short_title": "Rclone documentation",
+            "target": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["Rclone documentation","data transfer"],
+            "phase": ["Share"],
+            "topic": ["Data transfer"],
+            "level": ["Basic"],
+            "url": "https://rclone.org/docs/",
+            "description": "Rclone is a command-line program that can be used to transfer files across a wide range of protocols. This can be useful when you you are unable to use specialised submission tools or Aspera, for example when transfering files in bulk to SciLifeLab Data Repository over the FTPS protocol.",
+            "provider":  ["RCLONE"]
+        },
+        {
             "title": "SciLifeLab Data Stewardship Wizard (DSW)",
             "short_title": "SciLifeLab Data Stewardship Wizard",
             "target": ["tool"],

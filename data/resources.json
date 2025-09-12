@@ -452,7 +452,7 @@
             "short_title": "Aspera",
             "target": ["tool"],
             "type": ["Tool"],
-            "search_tags": ["Aspera","data transfer"],
+            "search_tags": ["Aspera CLI install instructions","data transfer"],
             "phase": ["Collect", "Share"],
             "topic": ["Data transfer"],
             "level": ["Basic"],

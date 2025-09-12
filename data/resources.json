@@ -589,6 +589,19 @@
             "provider": ["AIDA"]
         },
         {
+            "title": "AIDA Data Hub",
+            "short_title": "AIDA Data Hub",
+            "target": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["AIDA Data Hub", "share","AIDA Data Sharing Policy", "human data"],
+            "phase": ["Share","Reuse"],
+            "topic": ["Sharing human data"],
+            "level": ["Basic"],
+            "url": "https://datahub.aida.scilifelab.se/",
+            "description": "The AIDA (Analytical Imaging Diagnostics Arena) Data Hub provides Data Sharing, Policy Support, and Services for researchers in Swedish medical imaging AI, and facilitates sharing of FAIR medical imaging research data for Open Science.",
+            "provider": ["AIDA"]
+        },
+        {
             "title": "Storage resources available for researchers in Sweden",
             "short_title": "Storage resources in Sweden",
             "target": ["tool"],
@@ -1015,15 +1028,28 @@
             "provider":  ["ELIXIR"]
         },
         {
-            "title": "European Genome Phenome Archive (ENA)",
+            "title": "European Nucleotide Archive (ENA)",
             "short_title": "ENA",
             "target": ["tool"],
             "type": ["Tool"],
-            "search_tags": ["European Genome Phenome Archive (ENA)","repository","reuse","share"],
+            "search_tags": ["European Nucleotide Archive (ENA)","repository","reuse","share"],
             "phase": ["Share", "Reuse"],
             "level": ["Basic"],
             "url": "https://www.ebi.ac.uk/ena/",
             "description": "The European Nucleotide Archive (ENA) hosts an instance of the Sequence Read Archive (SRA), the same archive that exists on NCBI. SRA accepts raw sequence data from any sequencing platform, generated in any research project.",
+            "provider":  ["EBI"]
+        },
+        {
+            "title": "BioStudies",
+            "short_title": "BioStudies",
+            "target": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["BioStudies","repository","reuse","share","human data"],
+            "phase": ["Share", "Reuse"],
+            "topic": ["Sharing human data"],
+            "level": ["Basic"],
+            "url": "https://www.ebi.ac.uk/biostudies/",
+            "description": "BioStudies database contains descriptions of biological studies and is especially suited for linking a study to datasets in different repositories. However, it can also be used to describe sensitive data that has not been uploaded to a repository.",
             "provider":  ["EBI"]
         },
         {
@@ -1365,6 +1391,31 @@
             "url": "https://ontobee.org/",
             "description": "A linked data server designed for ontologies. Ontobee is aimed to facilitate ontology data sharing, visualization, query, integration, and analysis. Ontobee dynamically dereferences and presents individual ontology term URIs to (i) HTML web pages for user-friendly web browsing and navigation, and to (ii) RDF source code for Semantic Web applications.",
             "provider":  ["Ontobee"]
+        },
+        {
+            "title": "Data Protection Impact Assessment tool from CNIL",
+            "short_title": "PIA software",
+            "target": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["Data Protection Impact Assessment tool from CNIL", "DPIA"],
+            "topic": ["Research involving human data"],
+            "level": ["Basic"],
+            "url": "https://www.cnil.fr/en/open-source-pia-software-helps-carry-out-data-protection-impact-assessment",
+            "description": "The PIA software aims to help data controllers build and demonstrate compliance to the GDPR. The tools is available in French and in English. It facilitates carrying out a data protection impact assessment.",
+            "provider":  ["CNIL"]
+        },
+        {
+            "title": "Bianca user guide",
+            "short_title": "Bianca user guide",
+            "target": ["guidance"],
+            "type": ["Web page"],
+            "search_tags": ["Bianca user guide", "human data"],
+            "phase": ["Analyse"],
+            "topic": ["Sharing human data","Research involving human data"],
+            "level": ["Basic"],
+            "url": "https://docs.uppmax.uu.se/cluster_guides/bianca/",
+            "description": "Bianca is one of the UPPMAX clusters, suitable for working with sensitive data.",
+            "provider":  ["UPPMAX"]
         }
     ]
 }

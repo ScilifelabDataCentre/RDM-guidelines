@@ -951,7 +951,7 @@
             "phase": ["Collect"],
             "level": ["Basic"],
             "url": "https://data.scilifelab.se/services/fairstorage/",
-            "description": "SciLifeLab offers storage resources to support data-driven life science, they are collectively referred to as ‘SciLifeLab FAIR Storage’. SciLifeLab FAIR Storage resources are intended to support data sharing in accordance with the FAIR principles. They are available for any project that advances knowledge and discovery within the field of Swedish data-driven life science.",
+            "description": "SciLifeLab offers storage resources to support data-driven life science, they are collectively referred to as 'SciLifeLab FAIR Storage'. SciLifeLab FAIR Storage resources are intended to support data sharing in accordance with the FAIR principles. They are available for any project that advances knowledge and discovery within the field of Swedish data-driven life science.",
             "provider":  ["SciLifeLab"]
         },
         {
@@ -1280,6 +1280,18 @@
             "url": "https://eudat.eu/service-catalogue/b2share-0",
             "description": "B2SHARE is a user-friendly, reliable and trustworthy way for researchers, scientific communities and citizen scientists to store, publish and share research data in a FAIR way.",
             "provider":  ["EUDAT"]
+        },
+        {
+            "title": "The FAIR Data Principles",
+            "short_title": "FAIR principles",
+            "target": ["guidance"],
+            "type": ["Web page"],
+            "search_tags": ["The FAIR Data Principles", "FORCE11"],
+            "topic": ["FAIR principles"],
+            "level": ["Basic"],
+            "url": "https://force11.org/info/the-fair-data-principles/",
+            "description": "FORCE11 describe FAIR - a set of guiding principles to make data Findable, Accessible, Interoperable, and Reusable. The term FAIR was launched at a Lorentz workshop in 2014, the resulting FAIR principles were published in 2016.",
+            "provider":  ["FORCE11"]
         }
     ]
 }

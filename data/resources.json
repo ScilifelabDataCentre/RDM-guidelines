@@ -1292,6 +1292,79 @@
             "url": "https://force11.org/info/the-fair-data-principles/",
             "description": "FORCE11 describe FAIR - a set of guiding principles to make data Findable, Accessible, Interoperable, and Reusable. The term FAIR was launched at a Lorentz workshop in 2014, the resulting FAIR principles were published in 2016.",
             "provider":  ["FORCE11"]
+        },
+        {
+            "title": "ENA checklists",
+            "short_title": "ENA checklists",
+            "target": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["ENA checklists","metadata","submit","sample"],
+            "phase": ["Share"],
+            "topic": ["Metadata"],
+            "level": ["Basic"],
+            "url": "https://www.ebi.ac.uk/ena/submit/checklists",
+            "description": "European Nucleotide Archive sample metadata checklists. There is a minimum amount of information required during ENA sample registration and all samples must conform to a defined checklist of expected metadata values. The most suitable checklist for sample registration depends on the type of the sample.",
+            "provider":  ["EBI"]
+        },
+        {
+            "title": "How to make a data dictionary",
+            "short_title": "Data dictionary",
+            "target": ["guidance"],
+            "type": ["Web page"],
+            "search_tags": ["How to make a data dictionary","metadata", "OSF"],
+            "topic": ["Metadata"],
+            "level": ["Basic"],
+            "url": "https://help.osf.io/article/217-how-to-make-a-data-dictionary",
+            "description": "Open Science Framework (OSF) support on how to make a data dictionary. A data dictionary is critical to making your research more reproducible because it allows others to understand your data. The purpose of a data dictionary is to explain what all the variable names and values in your spreadsheet really mean.",
+            "provider":  ["OSF"]
+        },
+        {
+            "title": "Ontology Lookup Service (OLS)",
+            "short_title": "Ontology Lookup Service (OLS)",
+            "target": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["Ontology Lookup Service (OLS)","metadata"],
+            "topic": ["Metadata"],
+            "level": ["Basic"],
+            "url": "https://www.ebi.ac.uk/ols/",
+            "description": "The Ontology Lookup Service (OLS) is a repository for biomedical ontologies that aims to provide a single point of access to the latest ontology versions. You can browse the ontologies through the website as well as programmatically via the OLS API. OLS is developed and maintained by the Samples, Phenotypes and Ontologies Team (SPOT) at EMBL-EBI.",
+            "provider":  ["EBI"]
+        },
+        {
+            "title": "Open Biological and Biomedical Ontology Foundry",
+            "short_title": "OBO Foundry",
+            "target": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["Open Biological and Biomedical Ontology Foundry","OBO Foundry","metadata"],
+            "topic": ["Metadata"],
+            "level": ["Basic"],
+            "url": "https://obofoundry.org/",
+            "description": "The mission of the OBO Foundry is to develop a family of interoperable ontologies that are both logically well-formed and scientifically accurate.",
+            "provider":  ["OBO Foundry"]
+        },
+        {
+            "title": "ZOOMA ontology annotation",
+            "short_title": "ZOOMA",
+            "target": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["ZOOMA ontology annotation","metadata"],
+            "topic": ["Metadata"],
+            "level": ["Basic"],
+            "url": "https://www.ebi.ac.uk/spot/zooma/",
+            "description": " ZOOMA is a service to assist in mapping data to ontologies in OLS.",
+            "provider":  ["EBI"]
+        },
+        {
+            "title": "Ontobee",
+            "short_title": "Ontobee",
+            "target": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["Ontobee","metadata","ontology"],
+            "topic": ["Metadata"],
+            "level": ["Basic"],
+            "url": "https://ontobee.org/",
+            "description": "A linked data server designed for ontologies. Ontobee is aimed to facilitate ontology data sharing, visualization, query, integration, and analysis. Ontobee dynamically dereferences and presents individual ontology term URIs to (i) HTML web pages for user-friendly web browsing and navigation, and to (ii) RDF source code for Semantic Web applications.",
+            "provider":  ["Ontobee"]
         }
     ]
 }

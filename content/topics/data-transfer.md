@@ -97,7 +97,7 @@ Then, in order to upload to European Nucleotide Archive (ENA) interactively usin
 <a class="link-teal" href="https://download.asperasoft.com/download/docs/ascp/3.5.2/html/dita/ascp_usage.html" target="_blank"><b>Learn more about the ascp command <i class="bi bi-box-arrow-up-right"></i></b></a>
 
 ## Transferring files using RClone
-RClone is a command-line program that can be used to transfer files across a wide range of protocols. This can be useful when you you are unable to use specialised submission tools or Aspera, for example when transfering files in bulk to <a href="https://www.scilifelab.se/data/repository/" target="_blank">SciLifeLab Data Repository</a> over the FTPS protocol.
+Rclone is a command-line program that can be used to transfer files across a wide range of protocols. This can be useful when you you are unable to use specialised submission tools or Aspera, for example when transfering files in bulk to <a href="https://www.scilifelab.se/data/repository/" target="_blank">SciLifeLab Data Repository</a> over the FTPS protocol.
 
 The following example describes how to upload files to SciLifeLab Data Repository (or any other FigShare repository):
 

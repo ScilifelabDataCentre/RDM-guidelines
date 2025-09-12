@@ -90,7 +90,7 @@ Click on the buttons below for specific information regarding suitable repositor
 <div class="collapse" id="collapseExample2">
   <div class="card card-body">
   <span>
-  ArrayExpress is tightly integrated with ENA and similar to NCBI’s Gene Expression Omnibus database it can be used to archive experimental designs and analysis files based on the raw sequence reads. ArrayExpress has its own <a href="https://www.ebi.ac.uk/arrayexpress/submit/overview.html" target="_blank">submission portal</a> where information is available on what can be submitted and how.<br>
+  ArrayExpress is tightly integrated with ENA and similar to NCBI’s Gene Expression Omnibus database it can be used to archive experimental designs and analysis files based on the raw sequence reads. ArrayExpress has its own <a href="https://www.ebi.ac.uk/fg/annotare/login/" target="_blank">submission portal</a> where information is available on what can be submitted and how.<br>
   </span>
   <br>
   <a class="link-teal" href="https://www.ebi.ac.uk/arrayexpress/" target="_blank"><b>Visit ArrayExpress <i class="bi bi-box-arrow-up-right"></i></b></a>
@@ -159,7 +159,7 @@ The <a href="http://www.proteomexchange.org/" target="_blank">ProteomeXchange</a
 <div class="collapse" id="collapseExample6">
   <div class="card card-body">
   <span>
-  PRIDE admits protein and peptide identification/quantification data with the accompanying mass spectra evidence and any other related data types. Submission is done using the <a href="https://www.ebi.ac.uk/pride/markdownpage/pridesubmissiontool" target="_blank">PX Submission Tool</a>, see <a href="https://www.ebi.ac.uk/pride/static/markdown/submitdatapage/files/Submission_Tutorial.pdf" target="_blank">tutorial (PDF)</a>.
+  PRIDE admits protein and peptide identification/quantification data with the accompanying mass spectra evidence and any other related data types. Submission is done using the <a href="https://www.ebi.ac.uk/pride/markdownpage/pridesubmissiontool" target="_blank">PRIDE Submission Tool</a>, see <a href="https://www.ebi.ac.uk/pride/markdownpage/documentationpage" target="_blank">How to submit data to PRIDE</a>.
   </span>
   <br>
   <a class="link-teal" href="https://www.ebi.ac.uk/pride/" target="_blank"><b>Visit PRIDE <i class="bi bi-box-arrow-up-right"></i></b></a>

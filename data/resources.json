@@ -879,11 +879,11 @@
             "provider":  ["SciLifeLab"]
         },
         {
-            "title": "National Academic Infrastructure for Super­computing in Sweden (NAISS)",
+            "title": "National Academic Infrastructure for Supercomputing in Sweden (NAISS)",
             "short_title": "NAISS",
             "target": ["tool"],
             "type": ["Tool"],
-            "search_tags": ["National Academic Infrastructure for Super­computing in Sweden (NAISS)", "compute", "HPC","high performance compute", "cluster", "infrastructure"],
+            "search_tags": ["National Academic Infrastructure for Supercomputing in Sweden (NAISS)", "compute", "HPC","high performance compute", "cluster", "infrastructure"],
             "phase": ["Analyse"],
             "level": ["Basic"],
             "url": "https://www.naiss.se",
@@ -1122,15 +1122,76 @@
             "provider":  ["SU"]
         },
         {
-            "title": "",
-            "short_title": "",
-            "target": ["tool"],
-            "type": ["Tool"],
-            "search_tags": [""],
+            "title": "Guide for submission of metabarcoding data to ENA",
+            "short_title": "Submit metabarcoding data",
+            "target": ["guidance"],
+            "type": ["Web page"],
+            "search_tags": ["Guide for submission of metabarcoding data to ENA", "SBDI", "submit", "biodiversity"],
             "phase": ["Share"],
             "level": ["Basic"],
-            "url": "",
-            "description": "",
-            "provider":  [""]
+            "url": "https://biodiversitydata-se.github.io/mol-data/index.html",
+            "description": "This is a guide on how to submit sequence reads from environmental samples to ENA, provided by the Swedish Biodiversity Data Infrastructure (SBDI). The guide describes interactive submission via the Webin portal, with pointers on issues specific to submission of metabarcoding data, as well as on more general matters that may confuse first-time contributors.",
+            "provider":  ["SBDI"]
+        },
+        {
+            "title": "European Nucleotide Archive (ENA) user documentation",
+            "short_title": "ENA documentation",
+            "target": ["guidance"],
+            "type": ["Web page"],
+            "search_tags": ["European Nucleotide Archive (ENA) user documentation", "submit"],
+            "phase": ["Share"],
+            "level": ["Basic"],
+            "url": "https://ena-docs.readthedocs.io/en/latest/",
+            "description": "Guidelines for submission and retrieval for the European Nucleotide Archive.",
+            "provider":  ["EBI"]
+        },
+        {
+            "title": "Annotare - ArrayExpress submission tool",
+            "short_title": "Annotare - ArrayExpress",
+            "target": ["guidance", "tool"],
+            "type": ["Web page", "Tool"],
+            "search_tags": ["Annotare - ArrayExpress submission tool", "submit"],
+            "phase": ["Share"],
+            "level": ["Basic"],
+            "url": "https://www.ebi.ac.uk/fg/annotare/login/",
+            "description": "Annotare is a tool for submitting functional genomics data to the ArrayExpress collection in BioStudies. It generates MAGE-TAB format and supports high metadata standards in compliance with MIAME/MINSEQE/MINSCE guidelines.",
+            "provider":  ["EBI"]
+        },
+        {
+            "title": "PRIDE Submission Tool",
+            "short_title": "PRIDE submission",
+            "target": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["PRIDE Submission Tool","submit"],
+            "phase": ["Share"],
+            "level": ["Basic"],
+            "url": "https://www.ebi.ac.uk/pride/markdownpage/pridesubmissiontool",
+            "description": "The PRIDE Submission Tool (also know as PX Submission Tool) is the main tool used to submit proteomics datasets to PRIDE Archive. This tool has been implemented as a wizard, guiding submitters through a set of simple steps to complete each dataset submission.",
+            "provider":  ["EBI"]
+        },
+        {
+            "title": "How to submit data to PRIDE",
+            "short_title": "PRIDE documentation",
+            "target": ["guidance"],
+            "type": ["Web page"],
+            "search_tags": ["How to submit data to PRIDE","submit"],
+            "phase": ["Share"],
+            "level": ["Basic"],
+            "url": "https://www.ebi.ac.uk/pride/markdownpage/documentationpage",
+            "description": "PRIDE resources documentation on how to submit.",
+            "provider":  ["EBI"]
+        },
+        {
+            "title": "PASSEL - PeptideAtlas submission tool",
+            "short_title": "PASSEL - PeptideAtlas",
+            "target": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["PASSEL - PeptideAtlas submission tool", "submit"],
+            "phase": ["Share"],
+            "level": ["Basic"],
+            "url": "https://peptideatlas.org/passel/",
+            "description": "The PeptideAtlas SRM Experiment Library (PASSEL) is a component of the PeptideAtlas project that is designed to enable submission, dissemination, and reuse of SRM experimental results from analysis of biological samples.",
+            "provider":  ["PeptideAtlas"]
         }
+    ]
 }

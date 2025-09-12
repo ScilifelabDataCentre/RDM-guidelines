@@ -304,7 +304,7 @@ A general-purpose data repository is an appropriate choice only if the data does
 <div class="collapse" id="collapseExample13">
   <div class="card card-body">
   <span>
-  Figshare is a general-purpose repository used by researchers in numerous disciplines. It can be used for sharing basically any kind of data, but also for just describing data stored elsewhere. Figshare is an open data repository used by researchers in numerous disciplines. 
+  Figshare is an open data, general-purpose, repository used by researchers in numerous disciplines. It can be used for sharing basically any kind of data, but also for just describing data stored elsewhere. 
   </span>
   <br>
   <a class="link-teal" href="https://figshare.com" target="_blank"><b>Visit Figshare <i class="bi bi-box-arrow-up-right"></i></b></a>
@@ -320,7 +320,7 @@ A general-purpose data repository is an appropriate choice only if the data does
 <div class="collapse" id="collapseExample14">
   <div class="card card-body">
   <span>
-  Zenodo is a general-purpose repository operated by CERN. It can be used for sharing basically any kind of data, but also for just describing data stored elsewhere. Zenodo doesn't enforce standardised descriptions of data, so datasets described there might be more difficult to find than those described in the two repositories mentioned above.
+  Zenodo is an open data, general-purpose, repository operated by CERN. It can be used for sharing basically any kind of data, but also for just describing data stored elsewhere. Zenodo doesn't enforce standardised descriptions of data, so datasets described there might be more difficult to find than those described in the two repositories mentioned above.
   </span>
   <br>
   <a class="link-teal" href="https://zenodo.org/" target="_blank"><b>Visit Zenodo <i class="bi bi-box-arrow-up-right"></i></b></a>

@@ -1192,6 +1192,42 @@
             "url": "https://peptideatlas.org/passel/",
             "description": "The PeptideAtlas SRM Experiment Library (PASSEL) is a component of the PeptideAtlas project that is designed to enable submission, dissemination, and reuse of SRM experimental results from analysis of biological samples.",
             "provider":  ["PeptideAtlas"]
+        },
+        {
+            "title": "Figshare",
+            "short_title": "Figshare",
+            "target": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["Figshare","general-purpose","repository"],
+            "phase": ["Share","Reuse"],
+            "level": ["Basic"],
+            "url": "https://figshare.com/",
+            "description": "Figshare is an open data, general-purpose, repository used by researchers in numerous disciplines. It can be used for sharing basically any kind of data, but also for just describing data stored elsewhere.",
+            "provider":  ["Figshare"]
+        },
+        {
+            "title": "Zenodo",
+            "short_title": "Zenodo",
+            "target": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["Zenodo","general-purpose","repository"],
+            "phase": ["Share", "Reuse"],
+            "level": ["Basic"],
+            "url": "https://zenodo.org/",
+            "description": "Zenodo is an open data, general-purpose, repository operated by CERN. It can be used for sharing basically any kind of data, but also for just describing data stored elsewhere.",
+            "provider":  ["Zenodo"]
+        },
+        {
+            "title": "EUDAT - B2SHARE",
+            "short_title": "B2SHARE",
+            "target": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["EUDAT - B2SHARE","general-purpose","repository","storage"],
+            "phase": ["Collect","Share"],
+            "level": ["Basic"],
+            "url": "https://eudat.eu/service-catalogue/b2share-0",
+            "description": "B2SHARE is a user-friendly, reliable and trustworthy way for researchers, scientific communities and citizen scientists to store, publish and share research data in a FAIR way.",
+            "provider":  ["EUDAT"]
         }
     ]
 }

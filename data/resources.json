@@ -96,11 +96,11 @@
             "provider":  ["SciLifeLab"]
         },
         {
-            "title": "RDMkit on Metadata",
-            "short_title": "RDMkit: Metadata",
+            "title": "RDMkit on Documentation and metadata",
+            "short_title": "RDMkit: Documentation and metadata",
             "target": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["RDMkit","metadata","RDMkit on Metadata"],
+            "search_tags": ["RDMkit","metadata","documentation","RDMkit on Documentation and metadata"],
             "phase": ["Plan", "Collect", "Share"],
             "topic": ["Metadata", "README files"],
             "level": ["Basic"],

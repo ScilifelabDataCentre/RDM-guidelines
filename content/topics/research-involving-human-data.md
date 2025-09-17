@@ -104,7 +104,7 @@ The role of the [data protection officer](/topics/gdpr-ethical-review-glossary/#
 
 ### Legal basis for processing personal data
 
-<a href="https://gdpr-info.eu/art-6-gdpr/" target="_blank">Article 6 (1)</a> lists under what conditions the processing is considered lawful. Of these, **Consent** or **Public interest** are relevant when it comes to research. You should determine what legal basis (or bases) you have for processing the personal data in your project.
+<a href="https://gdpr-info.eu/art-6-gdpr/" target="_blank">Article 6 (1)</a> lists under what conditions the processing is considered lawful. Of these, **Consent** or **Public interest** are relevant when it comes to research. You should determine what [legal basis](/topics/gdpr-ethical-review-glossary/#lawful-grounds-legal-basis) (or bases) you have for processing the personal data in your project.
 
 Traditionally, consent has been the basis for processing personal data for research, but under the GDPR there cannot be an imbalance between the processor and the data subject for it to be considered to be freely given. In Sweden the use of consent as the legal basis for processing by universities for research purposes is therefore not recommended. Instead, public interest should probably be your legal basis. Note that if your legal basis for processing is consent, a <a href="https://gdpr-info.eu/issues/consent/" target="_blank">number of requirements</a> exists for the consent to be considered valid under the GDPR. Consents given before the GDPR might not live up to this.
 

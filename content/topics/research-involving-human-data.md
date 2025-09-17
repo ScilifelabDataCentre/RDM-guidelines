@@ -168,7 +168,7 @@ Before embarking on a new project, consider the following:
 * Are there limitations of use defined in these?
 * Is the intended research purpose within the scope of the limitations of use that is defined in the ethics approval(s) and/or the informed consent(s)?
 
-The purpose of these questions is to spell out what uses the subjects have consented to, and/or for what uses ethical approvals have been given. Then, given the stated research purpose of this project, are the consents and ethical approvals for the datasets compatible with this.
+The purpose of these questions is to spell out what uses the subjects have consented to, and/or for what uses [ethical approvals](/topics/gdpr-ethical-review-glossary/#ethical-approval) have been given. Then, given the stated research purpose of this project, are the consents and ethical approvals for the datasets compatible with this.
 <!--  enable others to reuse your data by specifying in the application how the data is going to be shared -->
 <!-- From https://fega.nbis.se/submission/ethical-approval.html, do we include part and link out? #### Informed consent
 Depending on what kind of research you are doing, you may be required to collect consent agreements from the research participants. This means that the participants—before they consent to participate—must be informed about the purpose of the research, as well as about any risks and benefits involved in their participation. The information that you plan to give to the participants should be attached to your ethical review application. The [Ethical Review Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2003460-om-etikprovning-av-forskning-som_sfs-2003-460) specifies when consent agreements are required.

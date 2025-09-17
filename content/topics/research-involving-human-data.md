@@ -113,7 +113,7 @@ Also note that even if public interest is the legal basis, other laws and resear
 
 ### Data Processing
 
-All processing of personal data must comply with the <a href="https://gdpr-info.eu/art-5-gdpr/" target="_blank">Principles relating to processing of personal data - Article 5</a> in the GDPR. According to these principles, to process personal data, the controller must:
+All [processing of personal data](/topics/gdpr-ethical-review-glossary/#processing-of-personal-data) must comply with the <a href="https://gdpr-info.eu/art-5-gdpr/" target="_blank">Principles relating to processing of personal data - Article 5</a> in the GDPR. According to these principles, to process personal data, the controller must:
 
 * Identify the **legal basis** for data processing *before it starts*
 * Inform in a transparent and honest way

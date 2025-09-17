@@ -24,7 +24,7 @@ If your data cannot be linked to a living person, there is nothing in the Genera
 
 ## Sharing personal data
 
-Data that needs to be protected from unauthorised access may be deposited in a *controlled access repository*. In these repositories access will typically only be granted after a formal application procedure. When submitting any personal data for archiving and sharing in a controlled access repository, you must be sure that you have the legal right to do so.
+Data that needs to be protected from unauthorised access may be deposited in a *controlled access repository*. In these repositories access will typically only be granted after a formal application procedure. When submitting any [personal data](https://data-guidelines.scilifelab.se/topics/gdpr-ethical-review-glossary/#personal-data) for archiving and sharing in a controlled access repository, you must be sure that you have the legal right to do so.
 
 Here are some repositories for sharing and archiving data under controlled access:
 

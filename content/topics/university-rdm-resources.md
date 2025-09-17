@@ -95,7 +95,7 @@ Most often there are information resources at your university regarding research
 
 ## Data Protection Officers
 
-The role of the [data protection officer](/topics/gdpr-ethical-review-glossary/#data-protection-officer)  (dataskyddsombud) is to check that the [General Data Protection Regulation (GDPR)](/topics/gdpr-ethical-review-glossary/#gdpr-general-data-protection-regulation) is complied with within the organisation. If personal data is processed in your research, you should report this to your institute’s Data Protection Officer (DPO).
+The role of the [data protection officer](/topics/gdpr-ethical-review-glossary/#data-protection-officer)  (dataskyddsombud) is to check that the [General Data Protection Regulation (GDPR)](/topics/gdpr-ethical-review-glossary/#gdpr-general-data-protection-regulation) is complied with within the organisation. If [personal data](https://data-guidelines.scilifelab.se/topics/gdpr-ethical-review-glossary/#personal-data) is processed in your research, you should report this to your institute’s Data Protection Officer (DPO).
 
 <div class="table-responsive">
   <table class="table table-hover table-bordered">

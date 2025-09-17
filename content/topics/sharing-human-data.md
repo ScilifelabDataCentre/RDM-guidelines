@@ -29,7 +29,7 @@ Data that needs to be protected from unauthorised access may be deposited in a *
 Here are some repositories for sharing and archiving data under controlled access:
 
 ### European Genome-phenome Archive (EGA)
-European Genome-phenome Archive is a service for sharing personally identifiable genetic and phenotypic data resulting from biomedical research projects. The repository is hosted by the European Bioinformatics Institute (EMBL-EBI) and the Centre for Genomic Regulation (CRG). Any data submitted to the repository is subject to controlled access, which means that access to the data only will be granted after a formal application procedure.
+European Genome-phenome Archive is a service for sharing personally identifiable [genetic](/topics/gdpr-ethical-review-glossary/#genetic-data) and phenotypic data resulting from biomedical research projects. The repository is hosted by the European Bioinformatics Institute (EMBL-EBI) and the Centre for Genomic Regulation (CRG). Any data submitted to the repository is subject to controlled access, which means that access to the data only will be granted after a formal application procedure.
 
 <a class="link-teal" href="https://ega-archive.org" target="_blank"><b>Go to the European Genome-phenome Archive <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/> 
 

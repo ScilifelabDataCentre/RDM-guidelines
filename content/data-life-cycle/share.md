@@ -107,7 +107,7 @@ Click on the buttons below for specific information regarding suitable repositor
 <div class="collapse" id="collapseExample3">
   <div class="card card-body">
   <span>
-  European Genome-phenome Archive (EGA) is a service for sharing personally identifiable genetic and phenotypic data resulting from biomedical research projects. The repository is hosted by the European Bioinformatics Institute (EMBL-EBI) and the Centre for Genomic Regulation (CRG). Any data submitted to the repository is subject to controlled access, which means that access to the data only will be granted after a formal application procedure.
+  European Genome-phenome Archive (EGA) is a service for sharing personally identifiable <a href="/topics/gdpr-ethical-review-glossary/#genetic-data">genetic</a> and phenotypic data resulting from biomedical research projects. The repository is hosted by the European Bioinformatics Institute (EMBL-EBI) and the Centre for Genomic Regulation (CRG). Any data submitted to the repository is subject to controlled access, which means that access to the data only will be granted after a formal application procedure.
   </span>
   <br>
   <a class="link-teal" href="https://ega-archive.org/" target="_blank"><b>Visit EGA <i class="bi bi-box-arrow-up-right"></i></b></a>
@@ -124,7 +124,7 @@ Click on the buttons below for specific information regarding suitable repositor
 <div class="collapse" id="collapseExample4">
   <div class="card card-body">
   <span>
-  FEGA Sweden is a repository for storing and sharing personally identifiable genetic and phenotypic data in Sweden in a way that meets the requirements of the <a href="/topics/gdpr-ethical-review-glossary/#gdpr-general-data-protection-regulation">General Data Protection Regulation GDPR</a>. It is part of the <a href="https://ega-archive.org/about/projects-and-funders/federated-ega/" target="_blank">Federated European Genome-phenome Archive</a>, which is a network consisting of several national nodes and the European Genome-phenome Archive (EGA). Researchers can create a submission request by filling in a form on the website.
+  FEGA Sweden is a repository for storing and sharing personally identifiable <a href="/topics/gdpr-ethical-review-glossary/#genetic-data">genetic</a> and phenotypic data in Sweden in a way that meets the requirements of the <a href="/topics/gdpr-ethical-review-glossary/#gdpr-general-data-protection-regulation">General Data Protection Regulation GDPR</a>. It is part of the <a href="https://ega-archive.org/about/projects-and-funders/federated-ega/" target="_blank">Federated European Genome-phenome Archive</a>, which is a network consisting of several national nodes and the European Genome-phenome Archive (EGA). Researchers can create a submission request by filling in a form on the website.
   </span>
   <br>
   <a class="link-teal" href="https://fega.nbis.se/" target="_blank"><b>Visit FEGA Sweden <i class="bi bi-box-arrow-up-right"></i></b></a>

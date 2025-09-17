@@ -1,6 +1,6 @@
 {{- $.Scratch.Set "content" slice -}}
 {{- range .Site.Pages -}}
-  {{- if not (hasPrefix .RelPermalink "/search/") -}}
+  {{- if and (not (hasPrefix .RelPermalink "/search/")) (not (hasPrefix .RelPermalink "/highlights/")) -}}
     {{- $tags := .Params.tags | default slice -}}
     {{- $summary := .Params.summary | default "" -}}
     {{- $.Scratch.Add "content"

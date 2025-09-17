@@ -96,7 +96,7 @@ Before embarking on a new project, consider the following:
 
 ### Data Protection Officer (dataskyddsombud)
 
-The role of the data protection officer is to check that the General Data Protection Regulation (GDPR) is complied with within the organisation. If personal data is processed in your research, you should report this to your institute’s Data Protection Officer (DPO).
+The role of the [data protection officer](/topics/gdpr-ethical-review-glossary/#data-protection-officer) is to check that the General Data Protection Regulation (GDPR) is complied with within the organisation. If personal data is processed in your research, you should report this to your institute’s Data Protection Officer (DPO).
 
 <a class="link-teal" href="/topics/university-rdm-resources#data-protection-officers"><b>Find university Data Protection Officer (DPO) <i class="bi bi-arrow-right-square"></i></b></a>
 <br/>

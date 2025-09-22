@@ -8,7 +8,7 @@ toc: True
 Quite often large amounts of data is generated, and it can be worth spending some time considering how to transfer data from the data producer to storage and analysis environment. Consider the capacity of the internet connection, transfer via a low bandwith network can be so time-consuming that it might be faster and easier to send the data on a hard drive through carrier services.
 
 ## SciLifeLab Data Delivery System
-The Data Delivery System (DDS) is a cloud-based system for the delivery of data from SciLifeLab platforms to their users. It consists of a command line interface (CLI) and a web interface. This system is e.g. used by the National Genomics Infrastucture (NGI) for delivers of sequencing data.
+The Data Delivery System (DDS) is a cloud-based system for the delivery of data from SciLifeLab platforms to their users. It consists of a command line interface (CLI) and a web interface. This system is e.g. used by the National Genomics Infrastucture (NGI) for deliveries of sequencing data.
 
 <div>
   <ul>
@@ -55,19 +55,54 @@ Aspera  (ascp) is a command-line transfer program that can be used for stable tr
     ascp --file-checksum=md5 -d -k 3 --mode=send --overwrite=always -QT -l300M --host=webin.ebi.ac.uk --user=Webin-XXXXX path-to-uppmax-folder/**/*.fastq.gz subfolder-at-ENA
     ```
 
-Note: In order to check the progress and outcome of the transfer, a program such as FileZilla can be used to connect to your upload area at ENA from your local computer.
+## Dardel
+
+* Dardel, the compute cluster at Parallelldatorcentrum (PDC), KTH, has multiple ways of transferring files to and from your local machine, see documentation on the <a href="https://support.pdc.kth.se/doc/data_management/file_transfer/" target="_blank">PDC on File transfer</a>.
+
+* In the future, Dardel will have dedicated nodes for transferring large files, see further on <a href="https://support.pdc.kth.se/doc/data_management/data_management/#nodes-for-file-operations" target="_blank">Nodes for file operations</a>, but at the moment transfers can be done directly on login node (dardel.pdc.kth.se).
+
+### Using Aspera on Dardel
+
+* There is an Aspera client available via command `ml aspera-cli/3.9.6.1467.159c5b1`
+  * Note: Command `ml avail aspera-cli` lists the available versions
+
+* Newer versions of Aspera exist though, and can be installed locally on Dardel:
+
+  1. In order to install Aspera locally, write the following commands after logging in:
+      ```
+      curl -fsSL https://github.com/rbenv/rbenv-installer/raw/HEAD/bin/rbenv-installer | bash
+      source ~/.bashrc
+      rbenv install 3.2.2
+      rbenv global 3.2.2
+      gem install aspera-cli
+      ascli --version
+      ```
+      **Note:** The instructions only works if you are in a bash shell. If in doubt run `echo $0` and if it doesn't reply with `bash` then type `bash` to change. Also, in case you don't have a file named `.bashrc` in your home directory, you can instead type `source ~/.bash_profile`.
+  1. Run `ascli conf ascp install`
+  1. Check current version using `ascli conf ascp info`
+
+Then, in order to upload to European Nucleotide Archive (ENA) interactively using locally installed Aspera:
+
+  1. Fill with desired ascp commands:
+      ```
+      ~/.aspera/sdk/ascp -k 3 -d -q --mode=send -QT -l300M --host=webin.ebi.ac.uk --user=Webin-XXXXX /local/path/to/*.gz /
+      ```
+
+  1. Enter password if/when prompted. In order to not be prompted about password, export the password first: `read -s ASPERA_SCP_PASS && export ASPERA_SCP_PASS`
+
+**Note:** In order to check the progress and outcome of the transfer, a program such as FileZilla can be used to connect to your upload area at ENA from your local computer.
 
 <a class="link-teal" href="https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html" target="_blank"><b>Learn more about uploading files to ENA <i class="bi bi-box-arrow-up-right"></i></b></a>
 
 <a class="link-teal" href="https://download.asperasoft.com/download/docs/ascp/3.5.2/html/dita/ascp_usage.html" target="_blank"><b>Learn more about the ascp command <i class="bi bi-box-arrow-up-right"></i></b></a>
 
 ## Transferring files using RClone
-RClone is a command-line program that can be used to transfer files across a wide range of protocols. This can be useful when you you are unable to use specialised submission tools or Aspera, for example when transfering files in bulk to <a href="https://www.scilifelab.se/data/repository/" target="_blank">SciLifeLab Data Repository</a> over the FTPS protocol.
+Rclone is a command-line program that can be used to transfer files across a wide range of protocols. This can be useful when you you are unable to use specialised submission tools or Aspera, for example when transfering files in bulk to <a href="https://www.scilifelab.se/data/repository/" target="_blank">SciLifeLab Data Repository</a> over the FTPS protocol.
 
 The following example describes how to upload files to SciLifeLab Data Repository (or any other FigShare repository):
 
-1. Find/create your username and password for ftp uploads to Figshare
-1. To configure your <a href="https://rclone.org/ftp/" target="_blank">ftp connection parameters for rclone</a> your command will look something like this (`rclone lfs :ftp:data` will list the content of your data uploads folder on FigShare):
+1. Find/create your username and password for FTP uploads to Figshare
+1. To configure your <a href="https://rclone.org/ftp/" target="_blank">FTP connection parameters for rclone</a> your command will look something like this (`rclone lfs :ftp:data` will list the content of your data uploads folder on FigShare):
    ```
    rclone lsf :ftp:data --ftp-host=ftps.figshare.com --ftp-user=$user --ftp-pass=$(rclone obscure $pass) --ftp-port=21 --ftp-explicit-tls
    ```
@@ -75,7 +110,7 @@ The following example describes how to upload files to SciLifeLab Data Repositor
 
 <a class="link-teal" href="https://rclone.org/docs/" target="_blank"><b>Learn more about RClone <i class="bi bi-box-arrow-up-right"></i></b></a>
 
-<a class="link-teal" href="https://help.figshare.com/article/upload-large-datasets-and-bulk-upload-using-the-ftp-uploader-desktop-uploader-or-api" target="_blank"><b>Learn more about ftp uploads to FigShare <i class="bi bi-box-arrow-up-right"></i></b></a>
+<a class="link-teal" href="https://help.figshare.com/article/upload-large-datasets-and-bulk-upload-using-the-ftp-uploader-desktop-uploader-or-api" target="_blank"><b>Learn more about FTP uploads to FigShare <i class="bi bi-box-arrow-up-right"></i></b></a>
 
 ## Resources
 Please find below resources concerning data transfer in form of training, guidance and/or tools.

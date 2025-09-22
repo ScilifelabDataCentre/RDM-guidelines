@@ -64,7 +64,7 @@ Most often there are information resources at your university regarding research
     </tr>
     <tr>
       <td><a href="https://www.umu.se/en/library/research-data/" target="_blank">Umeå University</a></td>
-      <td><a href="https://www.umu.se/en/researcher/plan-and-implement/manage-research-data/support-regarding-research-data/contact-the-research-data-management-team//" target="_blank">Contact page</a></td>
+      <td><a href="https://www.umu.se/en/researcher/plan-and-implement/manage-research-data/support-regarding-research-data/contact-the-research-data-support-team/" target="_blank">Contact page</a></td>
       <td><a href="https://www.umu.se/globalassets/fristaende-webbar/regelverk/forskning/forskningsdatapolicy_umu_rektor_210309_eng_checked_210309.pdf" target="_blank">Research data policy</a> (PDF),
        <br><a href="https://www.umu.se/globalassets/fristaende-webbar/regelverk/engelska/research/e28---open-access-policy-for-scientific-publishing-at-umea-university-fs-1.1-911-17.pdf" target="_blank">Open access policy</a> (PDF)
       </td>
@@ -173,7 +173,7 @@ The role of the data protection officer (dataskyddsombud) is to check that the G
 
 
 ## Related policies and guidelines
-* National Library of Sweden - <a href="https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2024-01-15-national-guidelines-for-promoting-open-science-in-sweden.html" target="_blank">Natio­nal guide­li­nes for promoting open science in Sweden</a> 
+* National Library of Sweden - <a href="https://urn.kb.se/resolve?urn=urn:nbn:se:kb:publ-738" target="_blank">Natio­nal guide­li­nes for promoting open science in Sweden</a> (PDF)
 * Swedish National Data Service (SND) - <a href="https://researchdata.se/en/manage-data" target="_blank">Manage data</a>
-* Swedish Research Council - <a href="https://www.vr.se/english/analysis/reports/our-reports/2017-08-31-good-research-practice.html" target="_blank">Good research practice (2017)</a>, <a href="https://www.vr.se/english/mandates/open-science/open-access-to-research-data/the-swedish-research-councils-recommendation.html" target="_blank">Recommendations of open access to research data</a>
+* Swedish Research Council - <a href="https://www.vr.se/english/mandates/ethics/good-research-practice---new-edition.html" target="_blank">Good research practice (2024)</a>, <a href="https://www.vr.se/english/mandates/open-science/open-access-to-research-data/the-swedish-research-councils-recommendation.html" target="_blank">Recommendations of open access to research data</a>
 * Formas - <a href="https://formas.se/en/start-page/applying-for-funding/how-it-works/good-to-know-before-you-apply.html#h-Openaccesstoresearchresultsanddata" target="_blank">Requirements for open access to research results and data</a>

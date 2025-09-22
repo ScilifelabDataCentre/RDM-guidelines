@@ -1,6 +1,7 @@
 ---
 title: Analysing phase
 phase: Analyse
+tags: ["computational resources"]
 toc: True
 ---
 

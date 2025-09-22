@@ -1,6 +1,7 @@
 ---
 title: Sharing phase
 phase: Share
+tags: ["repository", "domain-specific", "discipline-specific","general-purpose", "restricted access", "institutional", "genomics","imaging", "metabolomics", "proteomics"]
 toc: True
 ---
 

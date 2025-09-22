@@ -1,6 +1,7 @@
 ---
 title: ENA submission tutorial
 category: Other
+tags: ["submission methods","interactive","command line","programmatic","study","sample","raw reads","sequencing data","assembly","umbrella"]
 toc: True
 ---
 

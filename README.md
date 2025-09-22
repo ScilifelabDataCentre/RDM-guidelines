@@ -28,7 +28,9 @@ If in doubt, you can ask for help by emailing [data-management@scilifelab.se](ma
 
 ## License
 
-The content documents are dedicated to the public domain under a CC-0 license. Software are made available under an MIT license. More information about our license can be found on our [license](LICENSE) page.
+The content of the site is dedicated to the public domain under a CC-0 license unless otherwise noted. The software is licensed under the terms of the MIT license. Copyright (c) 2025 SciLifeLab.
+
+ More information about the licenses can be found on [LICENSE-CODE](LICENSE-CODE) and [LICENSE-CONTENT](LICENSE-CONTENT).
 
 ## Credits
 

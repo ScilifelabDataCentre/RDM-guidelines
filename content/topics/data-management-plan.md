@@ -1,6 +1,7 @@
 ---
 title: Data Management Plan
 category: Other
+tags: ["DSW", "DMP"]
 toc: True
 ---
 

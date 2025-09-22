@@ -14,7 +14,7 @@ In the era of FAIR (Findable, Accessible, Interoperable and Reusable) and <a hre
 
 <br/>
 
-  <img class="img-fluid" src="/img/illustrations/repository_overview_v5.PNG" alt="Repository overview">
+  <img class="img-fluid" src="/img/illustrations/repository_overview_v5.png" alt="Repository overview">
 
 &nbsp;&nbsp;
 
@@ -90,7 +90,7 @@ Click on the buttons below for specific information regarding suitable repositor
 <div class="collapse" id="collapseExample2">
   <div class="card card-body">
   <span>
-  ArrayExpress is tightly integrated with ENA and similar to NCBI’s Gene Expression Omnibus database it can be used to archive experimental designs and analysis files based on the raw sequence reads. ArrayExpress has its own <a href="https://www.ebi.ac.uk/arrayexpress/submit/overview.html" target="_blank">submission portal</a> where information is available on what can be submitted and how.<br>
+  ArrayExpress is tightly integrated with ENA and similar to NCBI’s Gene Expression Omnibus database it can be used to archive experimental designs and analysis files based on the raw sequence reads. ArrayExpress has its own <a href="https://www.ebi.ac.uk/fg/annotare/login/" target="_blank">submission portal</a> where information is available on what can be submitted and how.<br>
   </span>
   <br>
   <a class="link-teal" href="https://www.ebi.ac.uk/arrayexpress/" target="_blank"><b>Visit ArrayExpress <i class="bi bi-box-arrow-up-right"></i></b></a>
@@ -124,7 +124,7 @@ Click on the buttons below for specific information regarding suitable repositor
 <div class="collapse" id="collapseExample4">
   <div class="card card-body">
   <span>
-  FEGA Sweden is a repository for storing and sharing personally identifiable genetic and phenotypic data in Sweden in a way that meets the requirements of the General Data Protection Regulation (GDPR). It is part of the <a href="https://ega-archive.org/about/projects-and-funders/federated-ega/" target="_blank">Federated European Genome-phenome Archive</a>, which is a network consisting of several national nodes and the European Genome-phenome Archive (EGA). Researchers can create a submission request by filling in a form on the website</a>.
+  FEGA Sweden is a repository for storing and sharing personally identifiable genetic and phenotypic data in Sweden in a way that meets the requirements of the General Data Protection Regulation (GDPR). It is part of the <a href="https://ega-archive.org/about/projects-and-funders/federated-ega/" target="_blank">Federated European Genome-phenome Archive</a>, which is a network consisting of several national nodes and the European Genome-phenome Archive (EGA). Researchers can create a submission request by filling in a form on the website.
   </span>
   <br>
   <a class="link-teal" href="https://fega.nbis.se/" target="_blank"><b>Visit FEGA Sweden <i class="bi bi-box-arrow-up-right"></i></b></a>
@@ -159,7 +159,7 @@ The <a href="http://www.proteomexchange.org/" target="_blank">ProteomeXchange</a
 <div class="collapse" id="collapseExample6">
   <div class="card card-body">
   <span>
-  PRIDE admits protein and peptide identification/quantification data with the accompanying mass spectra evidence and any other related data types. Submission is done using the <a href="https://www.ebi.ac.uk/pride/markdownpage/pridesubmissiontool" target="_blank">PX Submission Tool</a>, see <a href="https://www.ebi.ac.uk/pride/static/markdown/submitdatapage/files/Submission_Tutorial.pdf" target="_blank">tutorial (PDF)</a>.
+  PRIDE admits protein and peptide identification/quantification data with the accompanying mass spectra evidence and any other related data types. Submission is done using the <a href="https://www.ebi.ac.uk/pride/markdownpage/pridesubmissiontool" target="_blank">PRIDE Submission Tool</a>, see <a href="https://www.ebi.ac.uk/pride/markdownpage/documentationpage" target="_blank">How to submit data to PRIDE</a>.
   </span>
   <br>
   <a class="link-teal" href="https://www.ebi.ac.uk/pride/" target="_blank"><b>Visit PRIDE <i class="bi bi-box-arrow-up-right"></i></b></a>
@@ -188,7 +188,7 @@ The <a href="http://www.proteomexchange.org/" target="_blank">ProteomeXchange</a
 
 Guidance on where to publish COVID-19 and Pandemic Preparedness research data, can be found on the <a href="https://pathogens.se/share-data/" target="_blank">Swedish Pathogens Portal</a>.
 
-For other discipline-specific repositories, see e.g. <a href="https://elixir-europe.org/services/tag/elixir-deposition-databases" target="_blank">ELIXIR Deposition databases</a>, <a href="https://www.nature.com/sdata/policies/repositories" target="_blank">Scientific Data recommended repositories</a>, <a href="https://www.ebi.ac.uk/submission/" target="_blank">EBI archive wizard</a> (help to find the right repository depending on data type), or <a href="https://fairsharing.org/databases/" target="_blank">FAIRsharing</a> (the latter can also assist in finding metadata standards suitable for describing your datasets).
+For other discipline-specific repositories, see e.g. <a href="https://elixir-europe.org/services/tag/elixir-deposition-databases" target="_blank">ELIXIR Deposition databases</a>, <a href="https://www.ebi.ac.uk/submission/" target="_blank">EBI archive wizard</a> (help to find the right repository depending on data type), or <a href="https://fairsharing.org/databases/" target="_blank">FAIRsharing</a> (the latter can also assist in finding metadata standards suitable for describing your datasets).
 
 &nbsp;
 
@@ -304,7 +304,7 @@ A general-purpose data repository is an appropriate choice only if the data does
 <div class="collapse" id="collapseExample13">
   <div class="card card-body">
   <span>
-  Figshare is a general-purpose repository used by researchers in numerous disciplines. It can be used for sharing basically any kind of data, but also for just describing data stored elsewhere. Figshare is an open data repository used by researchers in numerous disciplines. 
+  Figshare is an open data, general-purpose, repository used by researchers in numerous disciplines. It can be used for sharing basically any kind of data, but also for just describing data stored elsewhere. 
   </span>
   <br>
   <a class="link-teal" href="https://figshare.com" target="_blank"><b>Visit Figshare <i class="bi bi-box-arrow-up-right"></i></b></a>
@@ -320,7 +320,7 @@ A general-purpose data repository is an appropriate choice only if the data does
 <div class="collapse" id="collapseExample14">
   <div class="card card-body">
   <span>
-  Zenodo is a general-purpose repository operated by CERN. It can be used for sharing basically any kind of data, but also for just describing data stored elsewhere. Zenodo doesn't enforce standardised descriptions of data, so datasets described there might be more difficult to find than those described in the two repositories mentioned above.
+  Zenodo is an open data, general-purpose, repository operated by CERN. It can be used for sharing basically any kind of data, but also for just describing data stored elsewhere. Zenodo doesn't enforce standardised descriptions of data, so datasets described there might be more difficult to find than those described in the two repositories mentioned above.
   </span>
   <br>
   <a class="link-teal" href="https://zenodo.org/" target="_blank"><b>Visit Zenodo <i class="bi bi-box-arrow-up-right"></i></b></a>

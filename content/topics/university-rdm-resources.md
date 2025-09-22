@@ -35,7 +35,7 @@ Most often there are information resources at your university regarding research
     <tr>
       <td><a href="https://www.kth.se/en/biblioteket/publicera-analysera/hantera-forskningsdata/" target="_blank">KTH Royal Institute of Technology</a></td>
       <td><a href="mailto:researchdata@kth.se">researchdata@kth.se</a></td>
-      <td><a href="https://intra.kth.se/polopoly_fs/1.1037531.1608134528!/Guidelines-on-managing-research-data.pdf" target="_blank">Guidelines on managing research data</a> (PDF)</td>
+      <td><a href="https://intra.kth.se/en/forskning/overgripande-stod/forskningsdata-1.1002828" target="_blank">Guidelines on managing research data</a></td>
     </tr>
     <tr>
       <td><a href="https://ep.liu.se/en/datamanagement.aspx" target="_blank">Linköping University</td>

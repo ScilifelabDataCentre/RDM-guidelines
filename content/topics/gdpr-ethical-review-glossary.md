@@ -1,6 +1,7 @@
 ---
 title: GDPR and ethical review glossary
 category: Human data
+tags: ["personal", "sensitive","human"]
 toc: True
 ---
 

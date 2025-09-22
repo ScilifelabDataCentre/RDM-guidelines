@@ -1,6 +1,7 @@
 ---
 title: Research involving human data
 category: Human data
+tags: ["personal", "sensitive","human","regulations","data protection officer","legal basis","processing","DPIA", "impact assessment","ethic"]
 toc: True
 ---
 

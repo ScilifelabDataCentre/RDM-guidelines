@@ -1,7 +1,7 @@
 ---
 title: Data Management Plan
 category: Other
-tags: ["DSW", "DMP"]
+tags: ["DSW", "data stewardship wizard","dmponline","DMP", "examples"]
 toc: True
 ---
 

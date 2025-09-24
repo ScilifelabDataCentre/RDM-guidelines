@@ -11,8 +11,8 @@ Research Data Management (RDM) concerns the organisation, storage, preservation,
 
 Research data is a core component of any research project or publication. Good data management practices are important in all aspects of research:
 
-* Ethics and legislation – obligations to data owners / subjects
-* Information security – mitigate risk data loss / unauthorized access
+* Ethics and legislation – obligations to data owners / [subjects](/topics/gdpr-ethical-review-glossary/#data-subject)
+* [Information security](/topics/gdpr-ethical-review-glossary/#information-security) – mitigate risk data loss / unauthorized access
 * Research documentation – consistency and reproducibility
 * Project organisation – find/use the correct versions of data / workflows
 

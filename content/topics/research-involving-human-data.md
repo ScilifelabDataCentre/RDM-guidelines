@@ -17,7 +17,7 @@ When planning a research project, it is often useful to think of ELSI with respe
 
 ## What is personal data?
 
-Any data that directly or indirectly can be linked to a living person is considered [personal data](/topics/gdpr-ethical-review-glossary/#personal-data) under the General Data Protection Regulation (GDPR). This can for example be a person's name or personal identity number. Different pieces of information, which collected together can lead to the identification of a particular person, is also regarded as personal data. For instance can a street address in combination with a person's gender in some cases be sufficient to identify a particular person. One should keep in mind that genetic data about a deceased person also may be regarded as personal data under GDPR if the data can be used to identify a living relative of that person.
+Any data that directly or indirectly can be linked to a living person is considered [personal data](/topics/gdpr-ethical-review-glossary/#personal-data) under the [General Data Protection Regulation (GDPR)](/topics/gdpr-ethical-review-glossary/#gdpr-general-data-protection-regulation). This can for example be a person's name or personal identity number. Different pieces of information, which collected together can lead to the identification of a particular person, is also regarded as personal data. For instance can a street address in combination with a person's gender in some cases be sufficient to identify a particular person. One should keep in mind that genetic data about a deceased person also may be regarded as personal data under GDPR if the data can be used to identify a living relative of that person.
 
 
 ## What is sensitive personal data?
@@ -64,7 +64,7 @@ Data that cannot be used to identify a living person can normally be shared publ
 
 Personal data may be possible to share under some circumstances. Make sure to follow GDPR, the ethical review act and other relevant regulations. See further information below regarding considerations.
 
-The GDPR states that the processing (including storing) of personal data should stop when the intended purpose of the processing has been fullfilled. There are, however, exemptions to this e.g. when the processing is done for research purposes. Also, from a research ethics point of view, research data should be kept to make it possible for others to validate published findings and reuse data for new discoveries. This is also governed by what the data subjects have been informed about regarding the data procesing.
+The GDPR states that the processing (including storing) of personal data should stop when the intended purpose of the processing has been fullfilled. There are, however, exemptions to this e.g. when the processing is done for research purposes. Also, from a research ethics point of view, research data should be kept to make it possible for others to validate published findings and reuse data for new discoveries. This is also governed by what the [data subjects](/topics/gdpr-ethical-review-glossary/#data-subject) have been informed about regarding the data procesing.
 
 <a class="link-teal" href="/topics/sharing-human-data"><b>See more guidelines on sharing human data <i class="bi bi-arrow-right-square"></i></b></a>
 <br/><br/>
@@ -96,7 +96,7 @@ Before embarking on a new project, consider the following:
 
 ### Data Protection Officer (dataskyddsombud)
 
-The role of the data protection officer is to check that the General Data Protection Regulation (GDPR) is complied with within the organisation. If personal data is processed in your research, you should report this to your institute’s Data Protection Officer (DPO).
+The role of the [data protection officer](/topics/gdpr-ethical-review-glossary/#data-protection-officer) is to check that the General Data Protection Regulation (GDPR) is complied with within the organisation. If personal data is processed in your research, you should report this to your institute’s Data Protection Officer (DPO).
 
 <a class="link-teal" href="/topics/university-rdm-resources#data-protection-officers"><b>Find university Data Protection Officer (DPO) <i class="bi bi-arrow-right-square"></i></b></a>
 <br/>
@@ -104,7 +104,7 @@ The role of the data protection officer is to check that the General Data Protec
 
 ### Legal basis for processing personal data
 
-<a href="https://gdpr-info.eu/art-6-gdpr/" target="_blank">Article 6 (1)</a> lists under what conditions the processing is considered lawful. Of these, **Consent** or **Public interest** are relevant when it comes to research. You should determine what legal basis (or bases) you have for processing the personal data in your project.
+<a href="https://gdpr-info.eu/art-6-gdpr/" target="_blank">Article 6 (1)</a> lists under what conditions the processing is considered lawful. Of these, **Consent** or **Public interest** are relevant when it comes to research. You should determine what [legal basis](/topics/gdpr-ethical-review-glossary/#lawful-grounds-legal-basis) (or bases) you have for processing the personal data in your project.
 
 Traditionally, consent has been the basis for processing personal data for research, but under the GDPR there cannot be an imbalance between the processor and the data subject for it to be considered to be freely given. In Sweden the use of consent as the legal basis for processing by universities for research purposes is therefore not recommended. Instead, public interest should probably be your legal basis. Note that if your legal basis for processing is consent, a <a href="https://gdpr-info.eu/issues/consent/" target="_blank">number of requirements</a> exists for the consent to be considered valid under the GDPR. Consents given before the GDPR might not live up to this.
 
@@ -113,7 +113,7 @@ Also note that even if public interest is the legal basis, other laws and resear
 
 ### Data Processing
 
-All processing of personal data must comply with the <a href="https://gdpr-info.eu/art-5-gdpr/" target="_blank">Principles relating to processing of personal data - Article 5</a> in the GDPR. According to these principles, to process personal data, the controller must:
+All [processing of personal data](/topics/gdpr-ethical-review-glossary/#processing-of-personal-data) must comply with the <a href="https://gdpr-info.eu/art-5-gdpr/" target="_blank">Principles relating to processing of personal data - Article 5</a> in the GDPR. According to these principles, to process personal data, the controller must:
 
 * Identify the **legal basis** for data processing *before it starts*
 * Inform in a transparent and honest way
@@ -168,7 +168,7 @@ Before embarking on a new project, consider the following:
 * Are there limitations of use defined in these?
 * Is the intended research purpose within the scope of the limitations of use that is defined in the ethics approval(s) and/or the informed consent(s)?
 
-The purpose of these questions is to spell out what uses the subjects have consented to, and/or for what uses ethical approvals have been given. Then, given the stated research purpose of this project, are the consents and ethical approvals for the datasets compatible with this.
+The purpose of these questions is to spell out what uses the subjects have consented to, and/or for what uses [ethical approvals](/topics/gdpr-ethical-review-glossary/#ethical-approval) have been given. Then, given the stated research purpose of this project, are the consents and ethical approvals for the datasets compatible with this.
 <!--  enable others to reuse your data by specifying in the application how the data is going to be shared -->
 <!-- From https://fega.nbis.se/submission/ethical-approval.html, do we include part and link out? #### Informed consent
 Depending on what kind of research you are doing, you may be required to collect consent agreements from the research participants. This means that the participants—before they consent to participate—must be informed about the purpose of the research, as well as about any risks and benefits involved in their participation. The information that you plan to give to the participants should be attached to your ethical review application. The [Ethical Review Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2003460-om-etikprovning-av-forskning-som_sfs-2003-460) specifies when consent agreements are required.

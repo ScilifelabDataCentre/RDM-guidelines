@@ -16,7 +16,7 @@ toc: True
 
 ## Sharing non-personal data
 
-If your data cannot be linked to a living person, there is nothing in GDPR that prohibits you from sharing the data publicly. Data may however be sensitive under other regulations, so make sure that you take all relevant legal aspects into account. If you are dealing with human data, you should of course also think about the ethical and societal implications of sharing the data.
+If your data cannot be linked to a living person, there is nothing in the General Data Protection Regulation (GDPR) that prohibits you from sharing the data publicly. Data may however be sensitive under other regulations, so make sure that you take all relevant legal aspects into account. If you are dealing with human data, you should of course also think about the ethical and societal implications of sharing the data.
 
 <a class="link-teal" href="/data-life-cycle/share/"><b>Learn more about data sharing and repositories <i class="bi bi-arrow-right-square"></i></b></a>
 <br/><br/>
@@ -24,22 +24,22 @@ If your data cannot be linked to a living person, there is nothing in GDPR that 
 
 ## Sharing personal data
 
-Data that needs to be protected from unauthorised access may be deposited in a *controlled access repository*. In these repositories access will typically only be granted after a formal application procedure. When submitting any personal data for archiving and sharing in a controlled access repository, you must be sure that you have the legal right to do so.
+Data that needs to be protected from unauthorised access may be deposited in a *controlled access repository*. In these repositories access will typically only be granted after a formal application procedure. When submitting any [personal data](https://data-guidelines.scilifelab.se/topics/gdpr-ethical-review-glossary/#personal-data) for archiving and sharing in a controlled access repository, you must be sure that you have the legal right to do so.
 
 Here are some repositories for sharing and archiving data under controlled access:
 
 ### European Genome-phenome Archive (EGA)
-European Genome-phenome Archive is a service for sharing personally identifiable genetic and phenotypic data resulting from biomedical research projects. The repository is hosted by the European Bioinformatics Institute (EMBL-EBI) and the Centre for Genomic Regulation (CRG). Any data submitted to the repository is subject to controlled access, which means that access to the data only will be granted after a formal application procedure.
+European Genome-phenome Archive is a service for sharing personally identifiable [genetic](/topics/gdpr-ethical-review-glossary/#genetic-data) and phenotypic data resulting from biomedical research projects. The repository is hosted by the European Bioinformatics Institute (EMBL-EBI) and the Centre for Genomic Regulation (CRG). Any data submitted to the repository is subject to controlled access, which means that access to the data only will be granted after a formal application procedure.
 
 <a class="link-teal" href="https://ega-archive.org" target="_blank"><b>Go to the European Genome-phenome Archive <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/> 
 
 ### FEGA Sweden
-FEGA Sweden is a repository for storing and sharing personally identifiable genetic and phenotypic data in Sweden in a way that meets the requirements of the General Data Protection Regulation (GDPR). It is part of the <a href="https://ega-archive.org/about/projects-and-funders/federated-ega/" target="_blank">Federated European Genome-phenome Archive</a> (FEGA), which is a network consisting of several national nodes and the European Genome-phenome Archive (EGA). Researchers can create a submission request by filling in a form on the website. If you would like more information or have any questions regarding FEGA Sweden, please feel free to contact the FEGA Sweden Helpdesk at <ega-se@nbis.se>.
+FEGA Sweden is a repository for storing and sharing personally identifiable genetic and phenotypic data in Sweden in a way that meets the requirements of [GDPR](/topics/gdpr-ethical-review-glossary/#gdpr-general-data-protection-regulation). It is part of the <a href="https://ega-archive.org/about/projects-and-funders/federated-ega/" target="_blank">Federated European Genome-phenome Archive</a> (FEGA), which is a network consisting of several national nodes and the European Genome-phenome Archive (EGA). Researchers can create a submission request by filling in a form on the website. If you would like more information or have any questions regarding FEGA Sweden, please feel free to contact the FEGA Sweden Helpdesk at <ega-se@nbis.se>.
 
 <a class="link-teal" href="https://fega.nbis.se/" target="_blank"><b>Go to FEGA Sweden <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/> 
 
 ### Analytic Imaging Diagnostics Arena (AIDA) Data Hub
-AIDA Data Hub platform is part of the <a href="https://medtech4health.se/aida/" target="_blank">Analytic Imaging Diagnostics Arena (AIDA)</a> and NBIS/SciLifeLab. It provides Data Sharing, Policy Support, and Services for researchers in Swedish medical imaging AI, and facilitates sharing of FAIR medical imaging research data for Open Science. The <a href="https://datahub.aida.scilifelab.se/sharing/" target="_blank">AIDA Data Sharing Policy</a> is a comprehensive resource developed by ~50 AIDA partners in healthcare, industry, and academia, which includes legal analyses, best practices, and practical instructions for how to carry out ethically and legally correct sharing of sensitive personal data such as medical images in Sweden and similar countries. The <a href="https://datahub.aida.scilifelab.se/datasets/" target="_blank">AIDA Dataset Register</a> provides Digital Object Identifiers (DOI) and landing pages for the datasets that have been shared on the AIDA Data Hub.
+AIDA Data Hub platform is part of the <a href="https://medtech4health.se/aida/" target="_blank">Analytic Imaging Diagnostics Arena (AIDA)</a> and NBIS/SciLifeLab. It provides Data Sharing, Policy Support, and Services for researchers in Swedish medical imaging AI, and facilitates sharing of FAIR medical imaging research data for Open Science. The <a href="https://datahub.aida.scilifelab.se/sharing/" target="_blank">AIDA Data Sharing Policy</a> is a comprehensive resource developed by ~50 AIDA partners in healthcare, industry, and academia, which includes legal analyses, best practices, and practical instructions for how to carry out ethically and legally correct sharing of [sensitive personal data](/topics/gdpr-ethical-review-glossary/#sensitive-personal-data) such as medical images in Sweden and similar countries. The <a href="https://datahub.aida.scilifelab.se/datasets/" target="_blank">AIDA Dataset Register</a> provides Digital Object Identifiers (DOI) and landing pages for the datasets that have been shared on the AIDA Data Hub.
 
 <a class="link-teal" href="https://datahub.aida.scilifelab.se/" target="_blank"><b>Go to the AIDA Data Hub <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/> 
 

@@ -1,7 +1,7 @@
 ---
 title: University RDM resources
 category: Other
-tags: ["research data support","research data office","guidelines","policies","data protection officers",]
+tags: ["research data support","research data office","rdo", "data access unit","dau", "guidelines","policies","data protection officers","dpo"]
 toc: True
 ---
 

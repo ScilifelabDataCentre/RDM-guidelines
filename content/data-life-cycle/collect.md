@@ -1,7 +1,7 @@
 ---
 title: Collecting phase
 phase: Collect
-tags: ["data producers", "storage", "genomics", "imaging", "metabolomics", "proteomics", "documentation"]
+tags: ["data producers", "storage", "genomics data", "imaging data", "metabolomics data", "proteomics data", "documentation"]
 toc: True
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Research Data Management Support
+header_image: /img/illustrations/circos_banner.png
 menu:
     navbar_top:
         name: Get support

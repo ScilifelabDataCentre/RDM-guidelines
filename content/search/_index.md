@@ -1,5 +1,6 @@
 ---
 title: "Search The Site"
+header_image: /img/illustrations/circos_banner.png
 type: "search"
 layout: "search"
 menu:

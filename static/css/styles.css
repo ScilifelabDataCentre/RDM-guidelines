@@ -320,13 +320,12 @@ h1 a:hover {
     position: -webkit-sticky;
     position: sticky;
     top: 7rem;
-    z-index: 1020;
   }
   .sticky-top3 {
     position: -webkit-sticky;
     position: sticky;
     top: 9rem;
-    z-index: 1020;
+    z-index:-1;
   }
 }
 html {

@@ -1,6 +1,7 @@
 ---
 title: README files
 category: Other
+tags: ["README templates","manifest file"]
 toc: True
 ---
 

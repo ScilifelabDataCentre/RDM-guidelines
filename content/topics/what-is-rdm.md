@@ -1,7 +1,7 @@
 ---
 title: What is Research Data Management
-contributors: []
 category: Other
+tags: ["data steward"]
 toc: True
 ---
 

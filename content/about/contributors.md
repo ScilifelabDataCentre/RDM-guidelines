@@ -1,5 +1,6 @@
 ---
 title: Contributors
+header_image: /img/illustrations/circos_banner.png
 menu:
     bottom_about:
         name: Contributors

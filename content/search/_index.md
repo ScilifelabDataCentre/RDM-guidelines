@@ -1,5 +1,5 @@
 ---
-title: "Search The Site"
+title: "Site Search"
 header_image: /img/illustrations/circos_banner.png
 type: "search"
 layout: "search"

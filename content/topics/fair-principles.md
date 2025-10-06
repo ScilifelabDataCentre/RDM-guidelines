@@ -1,6 +1,7 @@
 ---
 title: FAIR principles
 category: Other
+tags: ["findable", "accessible","interoperable","reusable"]
 toc: True
 ---
 

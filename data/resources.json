@@ -626,6 +626,18 @@
             "provider":  ["SciLifeLab"]         
         },
         {
+            "title": "Overview of available national and local computational resources",
+            "short_title": "Computational resources",
+            "target": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["compute","resources","infrastructure","Overview of available national and local computational resources"],
+            "phase": ["Analyse"],
+            "level": ["Basic"],
+            "url": "https://nbis.se/services/computational-resources",
+            "description": "Information page regarding computational resources, giving an overview over available NAISS systems, other national systems, as well as local (university level) systems.",
+            "provider":  ["NBIS SCoRe"]         
+        },
+        {
             "title": "RDMkit on Data organisation",
             "short_title": "RDMkit: Data organisation",
             "target": ["guidance"],

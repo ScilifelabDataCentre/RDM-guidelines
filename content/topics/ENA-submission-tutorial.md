@@ -7,7 +7,7 @@ toc: True
 
 # ENA submission tutorial
 
-The aim of this tutorial is to provide guidance through the process of submitting genomics data to the <a href="https://https://www.ebi.ac.uk/ena/" target="_blank">European Nucleotide Archive</a> (ENA). The task is to submit  the genomic sequence data used to create an assembly, to one study, submit the assembly to another study, and then finally group these two studies together under an umbrella study. By the end of this tutorial you will:
+The aim of this tutorial is to provide guidance through the process of submitting genomics data to the <a href="https://www.ebi.ac.uk/ena/" target="_blank">European Nucleotide Archive</a> (ENA). The task is to submit  the genomic sequence data used to create an assembly, to one study, submit the assembly to another study, and then finally group these two studies together under an umbrella study. By the end of this tutorial you will:
 * Understand the terminology used by ENA.
 * Know how to properly describe and format your genomics data for submission.
 * Know how to do a submission.
@@ -80,7 +80,7 @@ It serves as complementary material, including examples, to the <a href="https:/
         <br><br>
         <b>Note</b>: It is <i>strongly</i> recommended that you provide as much information as possible in the metadata sheets as it will increase the <a href="https://www.go-fair.org/fair-principles/" target="_blank">FAIRness</a> of your data, and thus the probability of it being useful in future research efforts. 
         <h3>An example</h3>
-        In this scenario we have used the Tree of life checklist. A completed template is found in <a href="/static/files/ena_tutorial/Alectoris-graeca-metadata.xlsx">Alectoris-graeca-metadata.xlsx</a>, adapted from a real submission made under the <a href="https://biodiversitygenomics.eu/" target="_blank">Biodiversity Genomics Europe</a> (BGE) project organised by the <a href="https://www.erga-biodiversity.eu/" target="_blank">European Reference Genome Atlas</a> (ERGA) initiative. The task is to submit four datasets (one PacBio HiFi WGS, two Illumina HiC, and one Illumina RNAseq), including four samples, all in one study, plus a chromosome level assembly in another study, and then group these them studies together under an umbrella study. Please note that it is not necessary to submit the assembly in a study separate from the raw reads. In our example it is done to demonstrate how umbrella studies can be used.
+        In this scenario we have used the Tree of life checklist. A completed template is found in <a href="/files/ena_tutorial/Alectoris-graeca-metadata.xlsx">Alectoris-graeca-metadata.xlsx</a>, adapted from a real submission made under the <a href="https://biodiversitygenomics.eu/" target="_blank">Biodiversity Genomics Europe</a> (BGE) project organised by the <a href="https://www.erga-biodiversity.eu/" target="_blank">European Reference Genome Atlas</a> (ERGA) initiative. The task is to submit four datasets (one PacBio HiFi WGS, two Illumina HiC, and one Illumina RNAseq), including four samples, all in one study, plus a chromosome level assembly in another study, and then group these them studies together under an umbrella study. Please note that it is not necessary to submit the assembly in a study separate from the raw reads. In our example it is done to demonstrate how umbrella studies can be used.
     </span>
   </div>  
   <br>

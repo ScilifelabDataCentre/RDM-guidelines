@@ -1,5 +1,6 @@
 ---
 title: About the SciLifeLab Research Data Management Guidelines
+header_image: /img/illustrations/circos_banner.png
 menu:
     navbar_top:
         name: About

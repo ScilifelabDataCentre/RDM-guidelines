@@ -1,6 +1,7 @@
 ---
 title: Analysing phase
 phase: Analyse
+tags: ["computational resources"]
 toc: True
 ---
 
@@ -21,7 +22,7 @@ Facilities which offer data analysis services:
 ## Computational resources
 The <a href="https://www.naiss.se" target="_blank">National Academic Infrastructure for Super­computing in Sweden (NAISS) </a>is a national research infrastructure offering large scale high performance computing resources that can be used for analysis. In addition, many universities have their own compute resources avaliable for their researchers to use. Contact your university to learn what computational resources they offer.
 
-<a class="link-teal" href="https://data.scilifelab.se/resources/e-infrastructure/" target="_blank"><b>Learn more about compute resources available for researchers in Sweden <i class="bi bi-box-arrow-up-right"></i></b></a>
+<a class="link-teal" href="https://nbis.se/services/computational-resources" target="_blank"><b>Learn more about available national and local computational resources <i class="bi bi-box-arrow-up-right"></i></b></a>
 <br/>
 
 <a class="link-teal" href="/topics/university-rdm-resources"><b>Find your university contact information  <i class="bi bi-arrow-right-square"></i></b></a>

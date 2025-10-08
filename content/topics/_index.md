@@ -1,6 +1,5 @@
 ---
 title: Topics
-header_image: /img/illustrations/circos_banner.png
 menu:
     navbar:
         name: Topics

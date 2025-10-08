@@ -213,6 +213,7 @@ ENA provides two sites for submission; one for <a href="https://wwwdev.ebi.ac.uk
 ### Command-Line Submission Method
 This method uses ENA’s **Webin-CLI program**. Submissions require the preparation of text (manifest) files that are validated before submissions are completed. It is possible to submit **raw reads** and **assemblies**, this way. Actually, for assemblies, this is the **only** way to submit.
 
+<script src="/js/clipboard.ca7de6a4cc97ebf71b94f7423a3c78b2f447c4ebc5cbb104b3a8be8f7e4ce76c.js"></script>
 <p>
   <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseFind6" role="button" aria-expanded="false" aria-controls="collapseFind6">
     Assembly submission
@@ -470,4 +471,3 @@ curl -u Username:Password -F "SUBMISSION=@submission.xml" -F "PROJECT=@umbrella.
 Please find below resources concerning ENA submission tutorial - in form of training, guidance and/or tools.
 
 {{< resources-per-page-topics >}}
-

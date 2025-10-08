@@ -13,6 +13,6 @@ The SciLifeLab RDM guidelines are maintained by the SciLifeLab Data Centre and N
 
 You are also more than welcome to contact us if you have a question or want support regarding data management in your project, e.g. regarding writing data management plans, publishing data, working with sensitive human data, or organising and documenting data.
 
-You can fill in the below form to get in touch with us. If you prefer though, you can instead email us at <data-management@scilifelab.se>.
-
-## Contact form
+<div>
+<b><a class="link-teal" href="mailto:data-management@scilifelab.se">Email us at data-management@scilifelab.se</a> <i class="bi bi-arrow-right-square"></i></b>
+</div>

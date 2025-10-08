@@ -152,12 +152,12 @@ MetaboLights is a database for Metabolomics experiments and derived information.
 ### Proteomics data
 The <a href="http://www.proteomexchange.org/" target="_blank">ProteomeXchange</a> Consortium provides globally coordinated standard data submission and dissemination pipelines involving the main proteomics repositories.
 <p>
-  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6">
+  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5">
     PRIDE
     <i class="bi bi-chevron-double-down p-2"></i>
   </button>
 </p>
-<div class="collapse" id="collapseExample6">
+<div class="collapse" id="collapseExample5">
   <div class="card card-body">
   <span>
   PRIDE admits protein and peptide identification/quantification data with the accompanying mass spectra evidence and any other related data types. Submission is done using the <a href="https://www.ebi.ac.uk/pride/markdownpage/pridesubmissiontool" target="_blank">PRIDE Submission Tool</a>, see <a href="https://www.ebi.ac.uk/pride/markdownpage/documentationpage" target="_blank">How to submit data to PRIDE</a>.
@@ -168,12 +168,12 @@ The <a href="http://www.proteomexchange.org/" target="_blank">ProteomeXchange</a
   <br>
 </div>
 <p>
-  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false" aria-controls="collapseExample7">
+  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6">
     PeptideAtlas
     <i class="bi bi-chevron-double-down p-2"></i>
   </button>
 </p>
-<div class="collapse" id="collapseExample7">
+<div class="collapse" id="collapseExample6">
   <div class="card card-body">
   <span>
   PeptideAtlas admits SRM/MRM data that does not fit into PRIDE (targeted datasets). Submission is done via <a href="http://www.peptideatlas.org/passel/" target="_blank">PASSEL</a>.
@@ -197,12 +197,12 @@ For other discipline-specific repositories, see e.g. <a href="https://elixir-eur
 For datasets that do not fit into discipline-specific repositories, it is recommended to use an institutional repository if available. These repositories are often general-purpose repositories with the intention of only being used by researchers at that specific institution. See below a selection of available repositories offered by Swedish academic institutions operating in the life sciences. 
 
 <p>
-  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample8">
+  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false" aria-controls="collapseExample7">
     KI Data Repository 
     <i class="bi bi-chevron-double-down p-2"></i>
   </button>
 </p>
-<div class="collapse" id="collapseExample8">
+<div class="collapse" id="collapseExample7">
   <div class="card card-body">
   <span>
   KI Data Repository is a data repository where Karolinska Institutet's (KI's) researchers can store, publish and share data.
@@ -213,12 +213,12 @@ For datasets that do not fit into discipline-specific repositories, it is recomm
   <br>
 </div>
 <p>
-  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample15" role="button" aria-expanded="false" aria-controls="collapseExample15">
+  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample8">
     KTH Data Repository
     <i class="bi bi-chevron-double-down p-2"></i>
   </button>
 </p>
-<div class="collapse" id="collapseExample15">
+<div class="collapse" id="collapseExample8">
   <div class="card card-body">
   <span>
   The KTH Data Repository is a general data repository offered as a service from KTH Royal Institute of Technology. The service offers a solution for depositing and preparing documentation and static versions of data and source code for your research project. Deposited data can be kept for internal archive or published as open data.

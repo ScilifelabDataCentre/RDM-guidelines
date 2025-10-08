@@ -1,13 +1,15 @@
 ---
 title: ENA submission tutorial
 category: Other
-tags: ["submission methods","interactive","command line","programmatic","study","sample","raw reads","sequencing data","assembly","umbrella"]
+tags: ["submission methods","interactive","command line","programmatic","study","sample","raw reads","sequencing data","assembly","umbrella","Webin-CLI","ENA","European Nucleotide Archive"]
 toc: True
 ---
 
 # ENA submission tutorial
 
-The aim of this tutorial is to provide guidance through the process of submitting genomics data to the <a href="https://www.ebi.ac.uk/ena/" target="_blank">European Nucleotide Archive</a> (ENA). The task is to submit  the genomic sequence data used to create an assembly, to one study, submit the assembly to another study, and then finally group these two studies together under an umbrella study. By the end of this tutorial you will:
+The aim of this tutorial is to provide guidance through the process of submitting genomics data to the <a href="https://www.ebi.ac.uk/ena/" target="_blank">European Nucleotide Archive (ENA)</a>. The task is to submit  the genomic sequence data used to create an assembly, to one study, submit the assembly to another study, and then finally group these two studies together under an umbrella study. Throughout the tutorial, the submission steps are exemplified using metadata from submissions done in the <a href="https://biodiversitygenomics.eu/" target="_blank">Biodiversity Genomics Europe project (BGE)</a>. 
+
+By the end of this tutorial you will:
 * Understand the terminology used by ENA.
 * Know how to properly describe and format your genomics data for submission.
 * Know how to do a submission.
@@ -54,7 +56,7 @@ It serves as complementary material, including examples, to the <a href="https:/
 <div class="collapse" id="collapseFind2">
   <div class="card card-body">
     <span>
-        To ensure that sample data is registered with at least a minimum amount of metadata, ENA provides <a href="https://www.ebi.ac.uk/ena/browser/checklists" target="_blank">“Sample Checklists”</a> which are used to tailor the sample descriptions to fit minimum standards. For convenience, we have created templates for the checklists we have used. The templates come with instructions on how to do an interactive submission, via the ENA Webin Portal, but even when doing a programmatic submission, the template can be useful for collecting all necessary descriptions / metadata.
+        To ensure that sample data is accompanied by a minimum level of metadata, ENA provides <a href="https://www.ebi.ac.uk/ena/browser/checklists" target="_blank">“Sample Checklists”</a> which are used to tailor the sample descriptions to fit minimum standards. For convenience, we have created templates for the checklists we have used. The templates come with instructions on how to do an interactive submission, via the ENA Webin Portal, but even when doing a programmatic submission, the template can be useful for collecting all necessary descriptions / metadata.
         <br><br>
         Download an appropriate template, and fill in the sheets according to the instructions in the template:
         <ul>
@@ -76,11 +78,11 @@ It serves as complementary material, including examples, to the <a href="https:/
           <li>Description of the field</li>
           <li>If the field is mandatory, recommended or optional</li>
         </ol>
-        Note that some fields have controlled vocabulary, which are available in the template as drop-down lists (the lists become visible when you click on a cell).
+        Note that some fields use controlled vocabularies, which are available in the template as drop-down lists (the lists become visible when you click on a cell).
         <br><br>
         <b>Note</b>: It is <i>strongly</i> recommended that you provide as much information as possible in the metadata sheets as it will increase the <a href="/topics/fair-principles" target="_blank">FAIRness</a> of your data, and thus the probability of it being useful in future research efforts. 
         <h3>An example</h3>
-        In this scenario we have used the Tree of life checklist. A completed template is found in <a href="/files/ena_tutorial/Alectoris-graeca-metadata.xlsx">Alectoris-graeca-metadata.xlsx</a>, adapted from a real submission made under the <a href="https://biodiversitygenomics.eu/" target="_blank">Biodiversity Genomics Europe</a> (BGE) project organised by the <a href="https://www.erga-biodiversity.eu/" target="_blank">European Reference Genome Atlas</a> (ERGA) initiative. The task is to submit four datasets (one PacBio HiFi WGS, two Illumina HiC, and one Illumina RNAseq), including four samples, all in one study, plus a chromosome level assembly in another study, and then group these them studies together under an umbrella study. Please note that it is not necessary to submit the assembly in a study separate from the raw reads. In our example it is done to demonstrate how umbrella studies can be used.
+        In this scenario we have used the <a href="https://www.ebi.ac.uk/ena/browser/view/ERC000053" target="_blank">Tree of life checklist</a>. A completed template is found in <a href="/files/ena_tutorial/Alectoris-graeca-metadata.xlsx">Alectoris-graeca-metadata.xlsx</a>, adapted from a real submission made under the <a href="https://biodiversitygenomics.eu/" target="_blank">Biodiversity Genomics Europe</a> (BGE) project organised by the <a href="https://www.erga-biodiversity.eu/" target="_blank">European Reference Genome Atlas</a> (ERGA) initiative. The task is to submit four datasets (one PacBio HiFi WGS, two Illumina HiC, and one Illumina RNAseq), including four samples, all in one study, plus a chromosome level assembly in another study, and then group these them studies together under an umbrella study. Please note that it is not necessary to submit the assembly in a study separate from the raw reads. In our example it is done to demonstrate how umbrella studies can be used.
     </span>
   </div>  
   <br>
@@ -95,7 +97,7 @@ It serves as complementary material, including examples, to the <a href="https:/
 <div class="collapse" id="collapseFind3">
   <div class="card card-body">
     <span>
-    In the run sheet of a metadata template, the file names of the raw reads and their md5 checksums are collected. For the three types of submissions of raw reads described in this tutorial, the data files need to be uploaded to the dropbox on ENA's servers. The exact name of the files as they reside at ENA, including any subfolders, should be filled in the run sheet. The checksums are used to validate that the data transfers have been completed without loss.
+    In the run sheet of a metadata template, the file names of the raw reads and their <a href="https://en.wikipedia.org/wiki/MD5" target="_blank">md5</a> checksums are collected. For the three types of submissions of raw reads described in this tutorial, the data files need to be uploaded to the dropbox on ENA's servers. The exact name of the files as they reside at ENA, including any subfolders, should be filled in the run sheet. The checksums are used to validate that the data transfers have been completed without loss.
     <h3>Checksums</h3>
     Typically you will receive the checksums from the data producer in the delivery, but in case you need to calculate them yourself:
     <br><br>
@@ -118,7 +120,7 @@ ENA describes <a href="https://ena-docs.readthedocs.io/en/latest/submit/general-
 This method involves filling out web forms directly in the browser and downloading template spreadsheets that can be completed off-line and later uploaded to ENA. This is the easiest method to use if you are unfamiliar with submissions, but quickly becomes time-consuming with bulk submission (> 50 records). It is possible to register and submit **studies**, **samples**, and **raw reads** this way.
 
 #### Test submission
-ENA provides two sites for submission; one for <a href="https://wwwdev.ebi.ac.uk/ena/submit/webin" target="_blank">test submissions</a> and one for <a href="https://www.ebi.ac.uk/ena/submit/webin" target="_blank">'real' submissions</a> (i.e. an actual submission to ENA). We recommend doing a test submission first, using the example data provided, in order to get an understanding of the different steps. <b>Note:</b> The test service is purged every 24 h, meaning that any submitted test file will be removed before the following day, making it impossible to begin a submission one day and continue the next.
+ENA provides two sites for submission; one for <a href="https://wwwdev.ebi.ac.uk/ena/submit/webin" target="_blank">test submissions</a> and one for <a href="https://www.ebi.ac.uk/ena/submit/webin" target="_blank">production submissions</a> (i.e. an actual submission to ENA). We recommend doing a test submission first, using the example data provided, in order to get an understanding of the different steps. <b>Note:</b> The test service is purged every 24 h, meaning that any submitted test file will be removed before the following day, making it impossible to begin a submission one day and continue the next.
 
 <p>
   <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseFind4a" role="button" aria-expanded="false" aria-controls="collapseFind4a">
@@ -210,7 +212,7 @@ ENA provides two sites for submission; one for <a href="https://wwwdev.ebi.ac.uk
   <br>
 </div>
 
-### Command-Line Submission Method
+### Webin-CLI Submission Method
 This method uses ENA’s **Webin-CLI program**. Submissions require the preparation of text (manifest) files that are validated before submissions are completed. It is possible to submit **raw reads** and **assemblies**, this way. Actually, for assemblies, this is the **only** way to submit.
 
 <script src="/js/clipboard.ca7de6a4cc97ebf71b94f7423a3c78b2f447c4ebc5cbb104b3a8be8f7e4ce76c.js"></script>

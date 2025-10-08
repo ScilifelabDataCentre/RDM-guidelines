@@ -213,12 +213,12 @@ For datasets that do not fit into discipline-specific repositories, it is recomm
   <br>
 </div>
 <p>
-  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample15" role="button" aria-expanded="false" aria-controls="collapseExample15">
+  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5">
     KTH Data Repository
     <i class="bi bi-chevron-double-down p-2"></i>
   </button>
 </p>
-<div class="collapse" id="collapseExample15">
+<div class="collapse" id="collapseExample5">
   <div class="card card-body">
   <span>
   The KTH Data Repository is a general data repository offered as a service from KTH Royal Institute of Technology. The service offers a solution for depositing and preparing documentation and static versions of data and source code for your research project. Deposited data can be kept for internal archive or published as open data.

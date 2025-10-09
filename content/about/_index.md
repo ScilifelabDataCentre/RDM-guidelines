@@ -13,13 +13,21 @@ menu:
 ---
 &nbsp;
 
-The purpose of the SciLifeLab RDM guidelines is to serve as an information resource to life science researchers in Sweden regarding research data management and to act as the entry point for SciLifeLab Data Management support. The guidelines describe good data management practices throughout the research data life cycle and provide resources to enable data becoming easily accessed, understood, exchanged and reused.
-
+<div class="row mt-2">
+  <div class="col-md-2">
+    <img src="/img/logos/rdm-logo.PNG" alt="RDM logo" class="img-fluid"><br>
+  </div>
+  <div class="col-md-10">
+    The purpose of the SciLifeLab RDM guidelines is to serve as an information resource to life science researchers in Sweden regarding research data management and to act as the entry point for SciLifeLab Data Management support. <br><br>The guidelines describe good data management practices throughout the research data life cycle and provide resources to enable data becoming easily accessed, understood, exchanged and reused.
+  </div>
+</div>
+<br><br>
 SciLifeLab is committed to the values of <a href="https://research-and-innovation.ec.europa.eu/strategy/strategy-research-and-innovation/our-digital-future/open-science_en" target="_blank">Open Science</a>, <a href="https://www.ucl.ac.uk/research/strategy-and-policy/research-transparency" target="_blank">Transparent research</a> and [FAIR principles](/topics/fair-principles) (Findable, Accessible, Interoperable and Reusable). We work actively to ensure that the investments done by the society in research infrastructure resources can achieve the highest possible impact.
 
 The SciLifeLab RDM guidelines was built and is maintained by the SciLifeLab Data Centre and NBIS. We welcome all questions related to research data management or the website itself. Please get in touch with us by emailing [data-management@scilifelab.se](mailto:data-management@scilifelab.se) or by sending us a message using our contact form.
 
 The content of the website is moderated by an editorial group supported by the SciLifeLab RDM guidelines advisory group. However, contributions are welcome in each of the sections. For example, you can suggest a new topic or an update to current [research data life cycle](/data-life-cycle) or [topic](/topics/) pages.
+
 
 <a class="link-teal" href="/about/contributors/"><b>See all contributors <i class="bi bi-arrow-right-square"></i></b></a>
 

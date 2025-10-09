@@ -13,9 +13,15 @@ menu:
 ---
 &nbsp;
 
-
-SciLifeLab Data Management Support offers tools, guidance, training and hands-on support to anyone involved in life science research that is affiliated with a Swedish university or research institute.
-We support various RDM aspects, such as publishing data in repositories, sharing data and code, writing data management plans (DMPs), guidance on working with sensitive human data, guidance on implementing the FAIR principles and adhering to Open Science and much more.
+<div class="row mt-2">
+  <div class="col-md-2">
+    <img src="/img/logos/rdm-logo.PNG" alt="RDM logo" class="img-fluid"><br>
+  </div>
+  <div class="col-md-10">
+    SciLifeLab Data Management Support offers tools, guidance, training and hands-on support to anyone involved in life science research that is affiliated with a Swedish university or research institute.<br><br>
+    We support various RDM aspects, such as publishing data in repositories, sharing data and code, writing data management plans (DMPs), guidance on working with sensitive human data, guidance on implementing the FAIR principles and adhering to Open Science and much more.
+  </div>
+</div>
 
 <h2>Want expert advice or hands-on support?</h2>
 <p class="card-text">We offer <b>free</b> consultations and support on all aspects of data management to researchers and research infrastructures in Swedish life science research. Discuss your data management issues with us by visiting the online <b>NBIS Drop-in</b> at <a href = "https://meet.nbis.se/dropin" target="_blank">https://meet.nbis.se/dropin</a> on Tuesdays at 14:00. Contact our team via email, <a href = "mailto:data-management@scilifelab.se">data-management@scilifelab.se</a> for expert advise on setting up DMPs, sharing data, choosing repositories etc.</p>

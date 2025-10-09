@@ -130,9 +130,9 @@ And be able to **demonstrate** that the GDPR is followed.
 
 #### Agreements
 
-* A Data Processing Agreement is needed when a Processor (someone from a different university than the controller) is processing the data (e.g. storing or analysing) on behalf of the controller.
-<!-- * A Data Transfer Agreement is needed when... -->
-<!-- * A Data Access Agreement is needed when... -->
+* A [Data Processing Agreement](/topics/gdpr-ethical-review-glossary/#data-processing-agreement) is needed when a Processor (someone from a different university than the controller) is processing the data (e.g. storing or analysing) on behalf of the controller.
+* A Data Transfer Agreement (DTA) is needed when data is shared with collaborating research principals within a research project, or when a recipient has independent personal data responsibility. The agreement specifies, among other things, which types of data can be transferred, under which conditions, how long the data may be retained and which security measures must be followed.
+* A Data Access Agreement (DAA) is a contract made between one or more data users and the Data Access Committee (DAC). The agreement text should be drafted by the DAC and includes, but is not limited to, details of data use, publication embargoes and storage. Completion of a DAA by the applicant/s should form part of the application process to the DAC. Your institution may offer a standard text to use. 
 
 #### Responsibilities 
 
@@ -170,9 +170,9 @@ Before embarking on a new project, consider the following:
 * Is the intended research purpose within the scope of the limitations of use that is defined in the ethics approval(s) and/or the informed consent(s)?
 
 The purpose of these questions is to spell out what uses the subjects have consented to, and/or for what uses [ethical approvals](/topics/gdpr-ethical-review-glossary/#ethical-approval) have been given. Then, given the stated research purpose of this project, are the consents and ethical approvals for the datasets compatible with this.
-<!--  enable others to reuse your data by specifying in the application how the data is going to be shared -->
-<!-- From https://fega.nbis.se/submission/ethical-approval.html, do we include part and link out? #### Informed consent
-Depending on what kind of research you are doing, you may be required to collect consent agreements from the research participants. This means that the participants—before they consent to participate—must be informed about the purpose of the research, as well as about any risks and benefits involved in their participation. The information that you plan to give to the participants should be attached to your ethical review application. The [Ethical Review Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2003460-om-etikprovning-av-forskning-som_sfs-2003-460) specifies when consent agreements are required.
+
+#### Informed consent
+Depending on what kind of research you are doing, you may be required to collect consent agreements from the research participants. This means that the participants — before they consent to participate — must be informed about the purpose of the research, as well as about any risks and benefits involved in their participation. The information that you plan to give to the participants should be attached to your ethical review application. The <a href="https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2003460-om-etikprovning-av-forskning-som_sfs-2003-460" target="_blank">Ethical Review Act</a> specifies when consent agreements are required.
 
 When you prepare the information for the participants, it might be a good to think of the following:
 

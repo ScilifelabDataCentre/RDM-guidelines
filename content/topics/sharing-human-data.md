@@ -61,7 +61,7 @@ A metadata record will serve multiple purposes: First, it will enable unambiguou
 <a class="link-teal" href="https://www.ebi.ac.uk/biostudies/" target="_blank"><b>Go to BioStudies <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/> 
 
 ### OMOP Common Data Model
-The Observational Medical Outcomes Partnership Common Data Model (OMOP-CDM) is an open, community-driven standard designed to harmonize the structure and content of observational data, making it easier to compare and analyse across different sources. Moving data into this format requires a process known as mapping, where local codes and structures are translated into the standardized OMOP vocabulary. To support this transition, the community provides a range of open-source tools for mapping, data transformation, and downstream analysis.
+The Observational Medical Outcomes Partnership Common Data Model (OMOP-CDM) is an open, community-driven standard designed to harmonize the structure and content of observational data, making it easier to compare and analyse across different sources. Moving data into this format requires a process known as mapping, where local codes and structures are translated into the standardized OMOP vocabulary. To support this transition, the community provides a range of open-source tools for mapping, data transformation, and downstream analysis. The SciLifeLab Precision Medicine Portal provides guidance on the OMOP-CDM, follow the link below. 
 
 <a class="link-teal" href="https://precision-medicine-portal.scilifelab.se/omop-cdm" target="_blank"><b>Learn more about OMOP Common Data Model <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/>
 

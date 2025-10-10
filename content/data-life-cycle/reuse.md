@@ -13,9 +13,11 @@ Before you decide to embark on a new study, it is nowadays good practice to chec
 ## Data catalogues
 Apart from searching directly in repositories where life science data typically is shared (see [the sharing phase](/data-life-cycle/share/#recommended-discipline-specific-repositories)), there are data catalogues where you can search and discover published data. Note that datasets might have been collected for completely different purposes and still serve your goals.
 
-* Visit the Swedish Pathogens Portal in order to find publications about COVID-19/SARS-CoV-2 that involve at least one author affiliated with a Swedish research institution.<br/><br/><a class="link-teal" href="https://pathogens.se/datasets/all/" target="_blank"><b>Go to the Swedish Pathogens Portal list of available data <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/>
+* Visit the SciLifeLab Precision Medicine Portal in order to find Swedish quality registry data for precision medicine research. <br/><br/><a class="link-teal" href="https://precision-medicine-portal.scilifelab.se/data-sources/quality-registries" target="_blank"><b>Go to the Swedish Pathogens Portal list of quality registries<i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/>
 
 * The Swedish Reference Genome Portal can be used to discover non-human eukaryotic genome assemblies and genome annotations (co-)produced by researchers affiliated with a Swedish institution.<br/><br/><a class="link-teal" href="https://genomes.scilifelab.se" target="_blank"><b>Go to the Swedish Reference Genome Portal <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/> 
+
+* Visit the Swedish Pathogens Portal in order to find publications about COVID-19/SARS-CoV-2 that involve at least one author affiliated with a Swedish research institution.<br/><br/><a class="link-teal" href="https://pathogens.se/datasets/all/" target="_blank"><b>Go to the Swedish Pathogens Portal list of available data <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/>
 
 * Search in the Registry of Research Data Repositories (re3data) to find discipline-specific repositories for your field.<br/><br/><a class="link-teal" href="https://www.re3data.org" target="_blank"><b>Go to re3data <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/> 
 

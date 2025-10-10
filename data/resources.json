@@ -1440,6 +1440,18 @@
             "url": "https://www.vr.se/english/mandates/ethics/good-research-practice---new-edition.html",
             "description": "Good Research Practice provides orientation in the ethical principles and regulations that are important for research, and clarifies the responsibility that different actors have. It also provides guidance for reflection on ethics throughout the research process - from planning to implementation and publication.",
             "provider":  ["Swedish Research Council"]  
+        },
+                {
+            "title": "SciLifeLab PM Portal Introduction to OMOP-CDM",
+            "short_title": "Introduction to OMOP-CDM",
+            "target": ["guidance"],
+            "type": ["Web page"],
+            "search_tags": ["SciLifeLab PM Portal Introduction to OMOP-CDM","PM portal","precision medicine portal","OMOP-CD", "Observational Medical Outcomes Partnership Common Data Model"],
+            "topic": ["Sharing human data"],
+            "level": ["Basic"],
+            "url": "https://precision-medicine-portal.scilifelab.se/omop-cdm",
+            "description": "The Observational Medical Outcomes Partnership Common Data Model (OMOP-CDM) is an open, community-driven standard designed to harmonize the structure and content of observational data, making it easier to compare and analyse across different sources.",
+            "provider":  ["SciLifeLab"]
         }
     ]
 }

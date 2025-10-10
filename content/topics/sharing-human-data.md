@@ -50,19 +50,20 @@ Some organisations have signed agreements with SND, allowing for researchers to 
 
 ## If data cannot be deposited in a repository
 
-It is not always possible to deposit personally identifiable data in a controlled access repository. In that case, you could register a *metadata record* for the data. This record will serve multiple purposes: First, it will enable unambiguous identification of the data. Second, it will provide a description of the data so that others can understand what the data is about. Third, the metadata record may contain instructions on how to get access to the data.
+It is not always possible to deposit personally identifiable data in a controlled access repository. In that case, you could register a *metadata record* for the data. 
 
-Here are a few repositories where you can register metadata records:
+Another useful tool for this scenario is the Observational Medical Outcomes Partnership (OMOP) Common Data Model as it allows for data to be analysed without extracting it from it's local environment.
 
-### SciLifeLab Data Repository
-SciLifeLab is hosting an institutional repository, SciLifeLab Data Repository, for publishing any kind of research-related data, e.g. documents, figures, or presentations. This repository is an instance of Figshare, which means that every item will get a unique DOI. You can read more in the <a href="https://www.scilifelab.se/data/repository" target="_blank">repository's guidelines</a>. If you need any help connected to the SciLifeLab Data Repository, please [contact us](../../contact/)!
+### Metadata record
+A metadata record will serve multiple purposes: First, it will enable unambiguous identification of the data. Second, it will provide a description of the data so that others can understand what the data is about. Third, the metadata record may contain instructions on how to get access to the data. There are several repositories where you can register metadata records, for example the SciLifeLab Data Repository and BioStudies. 
 
-<a class="link-teal" href="https://figshare.scilifelab.se" target="_blank"><b>Go to the SciLifeLab Data Repository <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/>
-
-### BioStudies
-BioStudies database contains descriptions of biological studies and is especially suited for linking a study to datasets in different repositories. However, it can also be used to describe sensitive data that has not been uploaded to a repository. BioStudies is hosted by the European Bioinformatics Institute (EMBL-EBI). For an example submission to BioStudies (though not related to human data), see <a href="https://github.com/NBISweden/data-submission-documentation/tree/main/BioStudies" target="_blank">NBIS Submission documentation</a>. 
-
+<a class="link-teal" href="https://figshare.scilifelab.se" target="_blank"><b>Go to the SciLifeLab Data Repository <i class="bi bi-box-arrow-up-right"></i></b></a><br/>
 <a class="link-teal" href="https://www.ebi.ac.uk/biostudies/" target="_blank"><b>Go to BioStudies <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/> 
+
+### OMOP Common Data Model
+The Observational Medical Outcomes Partnership Common Data Model (OMOP-CDM) is an open, community-driven standard designed to harmonize the structure and content of observational data, making it easier to compare and analyse across different sources. Moving data into this format requires a process known as mapping, where local codes and structures are translated into the standardized OMOP vocabulary. To support this transition, the community provides a range of open-source tools for mapping, data transformation, and downstream analysis.
+
+<a class="link-teal" href="https://precision-medicine-portal.scilifelab.se/omop-cdm" target="_blank"><b>Learn more about OMOP Common Data Model <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/>
 
 
 ## How can SciLifeLab help you sharing human data?

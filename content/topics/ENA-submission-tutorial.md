@@ -97,7 +97,7 @@ It serves as complementary material, including examples, to the <a href="https:/
 <div class="collapse" id="collapseFind3">
   <div class="card card-body">
     <span>
-    In the run sheet of a metadata template, the file names of the raw reads and their <a href="https://en.wikipedia.org/wiki/MD5" target="_blank">md5</a> checksums are collected. For the three types of submissions of raw reads described in this tutorial, the data files need to be uploaded to the dropbox on ENA's servers. The exact name of the files as they reside at ENA, including any subfolders, should be filled in the run sheet. The checksums are used to validate that the data transfers have been completed without loss.
+    In the run sheet of a metadata template, the file names of the raw reads and their <a href="https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html#file-md5-checksums-value" target="_blank">md5</a> checksums are collected. For the three types of submissions of raw reads described in this tutorial, the data files need to be uploaded to the dropbox on ENA's servers. The exact name of the files as they reside at ENA, including any subfolders, should be filled in the run sheet. The checksums are used to validate that the data transfers have been completed without loss.
     <h3>Checksums</h3>
     Typically you will receive the checksums from the data producer in the delivery, but in case you need to calculate them yourself:
     <br><br>

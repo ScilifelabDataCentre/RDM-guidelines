@@ -252,7 +252,7 @@ java -jar ~/webin-cli-8.2.0.jar -ascp -context genome -userName Webin-XXXXX -pas
 </div>
 <pre><code>
 java -jar ~/webin-cli-8.2.0.jar -ascp -context genome -userName Webin-XXXXX -password 'YYYYY' -manifest ./Alectoris-graeca-manifest.txt -submit -test
-</code></pre>
+<br></code></pre>
             </li>
             <li><b>Note:</b> The <code>-test</code> indicates that the submission will be made to the test instance. Omit this when doing real submissions.</li>
             <li> Upon a successful submission, an accession starting with ERZ will be obtained. However, this is not the official accession to be used in a publication. ENA will need to process the assembly, and when this is done you will receive an email with the genome assembly accession to be used (GCA_xxxxxx), e.g.: 
@@ -286,8 +286,8 @@ ENA provides two sites for submission; one for test submissions (`https://wwwdev
     <span>
         <ul>
             <li>ENA's documentation on <a href="https://ena-docs.readthedocs.io/en/latest/submit/study/programmatic.html" target="_blank">Register a study programmatically</a>.</li>
-            <li>Create the action .xml, <a href="/files/ena_tutorial/submission.xml">submission.xml</a>, and update the desired release date. It can be set to maximum two years forward in time, and be adjusted later on. You will get a notification email from ENA, a few weeks prior to the release date, when your data is about to become public.</li>
-            <li>Create the metadata .xml, <a href="/files/ena_tutorial/Alectoris-graeca-study.xml">Alectoris-graeca-study.xml</a>, with the names, titles, and descriptions of the raw reads study and the assembly study. Note that there is an <code>alias</code> added to each of the studies, <code>bAleGra-study-raw-reads</code> and <code>bAleGra1-study-assembly</code>. These are used in the submission of experiment and assembly, respectively, to be able to refer to which study they should be submitted to. This is handy if you want to submit all levels of metadata in the same cURL command, since you wouldn't know the accession number of the project at that point.</li>
+            <li>Create <a href="/files/ena_tutorial/submission.xml">submission.xml</a>, with the action, and update the desired release date. It can be set to maximum two years forward in time, and be adjusted later on. You will get a notification email from ENA, a few weeks prior to the release date, when your data is about to become public.</li>
+            <li>Create <a href="/files/ena_tutorial/Alectoris-graeca-study.xml">Alectoris-graeca-study.xml</a>, containing the metadata, with the names, titles, and descriptions of the raw reads study and the assembly study. Note that there is an <code>alias</code> added to each of the studies, <code>bAleGra-study-raw-reads</code> and <code>bAleGra1-study-assembly</code>. These are used in the submission of experiment and assembly, respectively, to be able to refer to which study they should be submitted to. This is handy if you want to submit all levels of metadata in the same cURL command, since you wouldn't know the accession number of the project at that point.</li>
             <li>Submit in a terminal window by typing:
 <div class="clipboard">
     <button class="clipboard-button copy-button" type="button">
@@ -337,7 +337,7 @@ curl -u username:password -F "SUBMISSION=@submission.xml" -F "PROJECT=@Alectoris
     <span>
         <ul>
             <li>ENA documentation on <a href="https://ena-docs.readthedocs.io/en/latest/submit/samples/programmatic.html" target="_blank">Register samples programmatically</a>.</li>
-            <li>Create the metadata .xml, <a href="/files/ena_tutorial/Alectoris-graeca-samples.xml">Alectoris-graeca-samples.xml</a>, for the four samples.</li>
+            <li>Create <a href="/files/ena_tutorial/Alectoris-graeca-samples.xml">Alectoris-graeca-samples.xml</a>, with the metadata for the four samples.</li>
             <li>As with the study, a submission.xml is needed. We can reuse the one already created, but the HOLD action will not have any effect since all samples are private 'forever' unless an experiment refers to it. The sample will become public the same time as the experiment becomes public.</li>
             <li>Register in a terminal window by typing:
 <div class="clipboard">
@@ -370,7 +370,7 @@ curl -u username:password -F "SUBMISSION=@submission.xml" -F "SAMPLE=@Alectoris-
     <span>
         <ul>
             <li>ENA's documentation on <a href="https://ena-docs.readthedocs.io/en/latest/submit/reads/programmatic.html" target="_blank">Submit raw reads programmatically</a>.</li>
-            <li>Two metadata .xml files are needed in order to submit raw reads, one each for the experiments the runs.</li>
+            <li>Two metadata .xml files are needed in order to submit raw reads, one each for the experiments and the runs.</li>
             <li>Create <a href="/files/ena_tutorial/Alectoris-graeca-experiments.xml">Alectoris-graeca-experiments.xml</a> and <a href="/files/ena_tutorial/Alectoris-graeca-runs.xml">Alectoris-graeca-runs.xml</a></li>
             <li>A note on <code>alias</code>. We have created aliases for both studies and samples, which is not necessary if one submits each metadata object separately, because then <code>refname=""</code> can be replaced by <code>accession=""</code> and the accessions received in previous steps can be added. However, when it comes to submission of raw reads, we will submit both objects at the same time and thus we don't yet know what the experiment accessions will be. For the experiment aliases, we will use a combination of the sample alias and the library name, and the run aliases are named with the experiment alias and the respective file type as an addition at the end.</li>
             <li>As in the previous step, the submission.xml created for the study will be reused also here.</li>

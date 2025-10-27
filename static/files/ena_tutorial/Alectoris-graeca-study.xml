@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<PROJECT_SET>
+	<PROJECT alias="bAleGra-study-raw-reads">
+		<NAME>bAleGra</NAME>
+		<TITLE>Alectoris graeca, genomic and transcriptomic data. </TITLE>
+		<DESCRIPTION>This project collects the genomic and transcriptomic data generated for Alectoris graeca to facilitate genome assembly and annotation as part of the Biodiversity Genomics Europe project (BGE, https://biodiversitygenomics.eu/) and organised by the European Reference Genome Atlas (ERGA, https://www.erga-biodiversity.eu/) initiative.</DESCRIPTION>
+		<SUBMISSION_PROJECT>
+			<SEQUENCING_PROJECT/>
+		</SUBMISSION_PROJECT>
+	</PROJECT>
+	<PROJECT alias="bAleGra1-study-assembly">
+		<NAME>bAleGra1</NAME>
+		<TITLE>Alectoris graeca, genome assembly, bAleGra1. </TITLE>
+		<DESCRIPTION>This project provides the genome assembly of Alectoris graeca. The assembly is provided by the European Reference Genome Atlas (ERGA, https://www.erga-biodiversity.eu/) via the Biodiversity Genomics Europe project (BGE, https://biodiversitygenomics.eu/).</DESCRIPTION>
+		<SUBMISSION_PROJECT>
+			<SEQUENCING_PROJECT/>
+		</SUBMISSION_PROJECT>
+	</PROJECT>
+</PROJECT_SET>

@@ -55,8 +55,8 @@ Click on the buttons below for specific information regarding suitable repositor
 <div class="collapse" id="collapseExample1">
   <div class="card card-body">
   <span>
-  The European Nucleotide Archive (ENA) hosts an instance of the Sequence Read Archive (SRA), the same archive that exists on NCBI. SRA accepts raw sequence data from any sequencing platform, generated in any research project. There are several ways to <a href="https://www.ebi.ac.uk/ena/submit" target="_blank">submit</a> data to ENA, for more information see the documentation. NBIS provides <a href="https://github.com/NBISweden/data-submission-documentation/tree/main/ENA" target="_blank">examples</a> of submissions to ENA, including standard operating procedures (SOPs). 
-  
+  The European Nucleotide Archive (ENA) hosts its own instance of the Sequence Read Archive (SRA), which uses the same data model at the SRA at NCBI. The SRA accepts raw sequencing data from any platform and from any type of research project. There are several ways to <a href="https://www.ebi.ac.uk/ena/submit" target="_blank">submit</a> data to ENA, for more information see the documentation. NBIS provides <a href="https://github.com/NBISweden/data-submission-documentation/tree/main/ENA" target="_blank">examples</a> of submissions to ENA, including standard operating procedures (SOPs). These are exemplified in our <a href="/topics/ena-submission-tutorial">ENA submission tutorial</a>.
+  <br><br>
   We also recommend the following two specialised guidelines:
   <ul>
   <li><a href="https://biodiversitydata-se.github.io/mol-data/index.html" target="_blank">Guide for submission of metabarcoding data to ENA</a> provided by the Swedish Biodiversity Data Infrastructure (<a href="https://biodiversitydata.se/" target="_blank">SBDI</a>)</li>

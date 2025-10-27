@@ -194,6 +194,7 @@
             "type": ["Tool"],
             "search_tags": ["EBI","publication","submission","repository","EBI repository wizard"],
             "phase": ["Share"],
+            "topic": ["ENA submission tutorial"],
             "level": ["Basic"],
             "url": "https://www.ebi.ac.uk/submission/",
             "description": "The wizard guides through the decision process of finding a suitable repository.",
@@ -206,6 +207,7 @@
             "type": ["Video"],
             "search_tags": ["EBI","submission","publication","video","repository","EBI submission YouTube playlist"],
             "phase": ["Share"],
+            "topic": ["ENA submission tutorial"],
             "level": ["Basic"],
             "url": "https://www.youtube.com/playlist?list=PL67E0627174F36FCF",
             "description": "Collection of instruction videos on how to submit to the various repositories at EBI.",
@@ -659,6 +661,7 @@
             "search_tags": ["NBIS","share","submission","documentation","publication","SOP","ENA","EBI","BioStudies","NBIS Submission documentation"],
             "phase": ["Share"],
             "level": ["Basic"],
+            "topic": ["ENA submission tutorial"],
             "url": "https://github.com/NBISweden/data-submission-documentation",
             "description": "Documentation on data submissions done by data stewards into public repositories, including standard operating procedures for submissions to ENA.",
             "provider": ["NBIS"]

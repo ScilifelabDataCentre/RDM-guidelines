@@ -215,7 +215,6 @@ ENA provides two sites for submission; one for <a href="https://wwwdev.ebi.ac.uk
 ### Webin-CLI Submission Method
 This method uses ENA’s **Webin-CLI program**. Submissions require the preparation of text (manifest) files that are validated before submissions are completed. It is possible to submit **raw reads** and **assemblies**, this way. Actually, for assemblies, this is the **only** way to submit.
 
-<script src="/js/clipboard.ca7de6a4cc97ebf71b94f7423a3c78b2f447c4ebc5cbb104b3a8be8f7e4ce76c.js"></script>
 <p>
   <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseFind6" role="button" aria-expanded="false" aria-controls="collapseFind6">
     Assembly submission
@@ -257,8 +256,8 @@ java -jar ~/webin-cli-8.2.0.jar -ascp -context genome -userName Webin-XXXXX -pas
             <li><b>Note:</b> The <code>-test</code> indicates that the submission will be made to the test instance. Omit this when doing real submissions.</li>
             <li> Upon a successful submission, an accession starting with ERZ will be obtained. However, this is not the official accession to be used in a publication. ENA will need to process the assembly, and when this is done you will receive an email with the genome assembly accession to be used (GCA_xxxxxx), e.g.: 
 <pre><code>
-    ASSEMBLY_NAME | ASSEMBLY_ACC  | STUDY_ID   | SAMPLE_ID   | CONTIG_ACC                      | SCAFFOLD_ACC | CHROMOSOME_ACC
-    bAleGra1.1    | GCA_965278835 | PRJEB79727 | ERS17759205 | CBDIHD010000001-CBDIHD010000076 |              | OZ257071-OZ257110
+ASSEMBLY_NAME | ASSEMBLY_ACC  | STUDY_ID   | SAMPLE_ID   | CONTIG_ACC                      | SCAFFOLD_ACC | CHROMOSOME_ACC   
+bAleGra1.1    | GCA_965278835 | PRJEB79727 | ERS17759205 | CBDIHD010000001-CBDIHD010000076 |              | OZ257071-OZ257110
 <br></code></pre>
             </li>
         </ul>
@@ -473,3 +472,5 @@ curl -u Username:Password -F "SUBMISSION=@submission.xml" -F "PROJECT=@umbrella.
 Please find below resources concerning ENA submission tutorial - in form of training, guidance and/or tools.
 
 {{< resources-per-page-topics >}}
+
+{{< load-clipboard >}}

@@ -14,10 +14,10 @@ menu:
 &nbsp;
 
 <div class="row mt-2">
-  <div class="col-md-2">
+  <div class="col-md-3">
     <img src="/img/logos/rdm-logo.PNG" alt="RDM logo" class="img-fluid"><br>
   </div>
-  <div class="col-md-10">
+  <div class="col-md-9">
     SciLifeLab Data Management Support offers tools, guidance, training and hands-on support to anyone involved in life science research that is affiliated with a Swedish university or research institute.<br><br>
     We support various RDM aspects, such as publishing data in repositories, sharing data and code, writing data management plans (DMPs), guidance on working with sensitive human data, guidance on implementing the FAIR principles and adhering to Open Science and much more.
   </div>

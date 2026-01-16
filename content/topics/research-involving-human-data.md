@@ -171,14 +171,14 @@ Before embarking on a new project, consider the following:
 
 The purpose of these questions is to spell out what uses the subjects have consented to, and/or for what uses [ethical approvals](/topics/gdpr-ethical-review-glossary/#ethical-approval) have been given. Then, given the stated research purpose of this project, are the consents and ethical approvals for the datasets compatible with this.
 
-#### Informed consent
+### Informed consent
 Depending on what kind of research you are doing, you may be required to collect consent agreements from the research participants. This means that the participants — before they consent to participate — must be informed about the purpose of the research, as well as about any risks and benefits involved in their participation. The information that you plan to give to the participants should be attached to your ethical review application. The <a href="https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2003460-om-etikprovning-av-forskning-som_sfs-2003-460" target="_blank">Ethical Review Act</a> specifies when consent agreements are required.
 
 When you prepare the information for the participants, it might be a good to think of the following:
 
 * Express clearly that the participant’s personal data may be used in other research projects. Try to define the data reuse conditions by specifying a research purpose rather than by stating with whom the data can be shared. In particular, do not limit the data access to only researchers, since researchers sometimes need help from non-researchers (e.g. technical staff) with the data.
 * Consider which countries the data can be shared with. Can it be shared only within EU/EES? Or perhaps only within Sweden?
-* Personal data must normally be pseudonymised before it is shared. Don’t forget to inform the participants about that. Data that is pseudonymised can only be used to identify individuals in combination with other data. -->
+* Personal data must normally be pseudonymised before it is shared. Don’t forget to inform the participants about that. Data that is pseudonymised can only be used to identify individuals in combination with other data.
 
 ## Further questions
 If you have further questions regarding sensitive personal data, you are welcome to contact the SciLifeLab data management team (<data-management@scilifelab.se>).

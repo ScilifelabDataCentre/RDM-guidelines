@@ -31,13 +31,13 @@ It serves as complementary material, including examples, to the <a href="https:/
         <i>Login page on the ENA submission homepage:</i>
         <br><br>
         <div class="text-center">
-        <img src="/img/ena_tutorial/ENA_login_startpage.png" height="350" class="rounded">
+        <img src="/img/ena_tutorial/ENA_login_startpage.png" alt="ENA login start page" height="350" class="rounded">
         </div>
         <br><br>
         <i>Enter account details to obtain an account in ENA:</i>
         <br><br>
         <div class="text-center">
-        <img src="/img/ena_tutorial/ENA_login_detailspage.png" height="500" class="rounded">
+        <img src="/img/ena_tutorial/ENA_login_detailspage.png" alt="ENA login details page" height="500" class="rounded">
         </div>
         <br><br>
         <h3>Add contacts</h3>
@@ -138,18 +138,18 @@ ENA provides two sites for submission; one for <a href="https://wwwdev.ebi.ac.uk
             <li>In the top left of the landing page, there is a <b>Dashboard</b> menu that expands when you click on it. Click it and select <b>Register Study (Project)</b> or click on the <b>Register Study</b> option in the <i>Studies (Projects)</i> section on the landing page (the options for 'Study' are shown in yellow).</li>
             <br>
             <div class="text-center">
-            <img src="/img/ena_tutorial/Step1_register_study.png" height="400" class="rounded">
+            <img src="/img/ena_tutorial/Step1_register_study.png" alt="Step 1, register study via Dashboard menu" height="400" class="rounded">
             </div>
             <br>
             <div class="text-center">
-            <img src="/img/ena_tutorial/Step1_register_study_picb.png" height="400" class="rounded">
+            <img src="/img/ena_tutorial/Step1_register_study_picb.png" alt="Step 1, register study from landing page" height="400" class="rounded">
             </div>
             <br>
             <li>Enter the details of the project, by copy and paste from the metadata template. Asterisks (*) denote mandatory fields. The 'Release date' is the date that the record will become publicly available. This can be updated later, so if you are unsure on a precise date, you can provide an estimated date (maximum two years forward in time). You will get a notification email from ENA, a few weeks prior to the release date, when your data is about to become public. If necessary, the release date can then be consecutively extended any number of times by up to two years.</li>
             <li>In our example the study registration is repeated twice, once for the genomic sequencing data and once for the assembly data. The umbrella study needs to be registered using a different method, see further <b>Umbrella submission</b> in <a href="#programmatic-submission-method"> Programmatic Submission Method</a> below.</li> 
             <br>
             <div class="text-center">
-            <img src="/img/ena_tutorial/Step2_register_study.png" height="400" class="rounded">
+            <img src="/img/ena_tutorial/Step2_register_study.png" alt="Step 2, register study form" height="400" class="rounded">
             </div>
             <br>
             <li> <b>Note:</b> In case you have an annotated assembly you must also provide a <b>locus tag</b> field, e.g. with an abbreviation of the scientific name of the species.</li>
@@ -177,7 +177,7 @@ ENA provides two sites for submission; one for <a href="https://wwwdev.ebi.ac.uk
             Both of the above options lead to the same place, which gives two options: (1) Download spreadsheet to register samples, and (2) Upload filled spreadsheet to register samples.</li>
             <br>
             <div class="text-center">
-            <img src="/img/ena_tutorial/Register_sample_options.png" height="250" class="rounded">
+            <img src="/img/ena_tutorial/Register_sample_options.png" alt="Register sample options" height="250" class="rounded">
             </div>
             <br>
             <li>Select the latter and upload the samples .tsv file. Click on <b>Submit Completed Spreadsheet</b>, verify that the submission was successful in the pop-up Submission window, and then click <b>Close</b>.</li>

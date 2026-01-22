@@ -494,6 +494,22 @@ html {
   margin-top: 1em;
 }
 
+/* Custom styling of search input and checkboxes on Resources & Search page */
+
+input[type="text"]:focus {
+  border-color: var(--teal1);
+  box-shadow: 0 0 0 0.2rem var(--aqua0_50);
+}
+input[type="checkbox"]:checked { 
+  background-color: var(--teal1);
+  border-color: var(--teal1);
+  box-shadow: 0 0 0 0.2rem var(--aqua0_50);
+}
+input[type="checkbox"]:focus { 
+  box-shadow: 0 0 0 0.2rem var(--aqua0_50);
+}
+
+
 /*-----------------------------------------------------------------------------------*/
 
 /************/

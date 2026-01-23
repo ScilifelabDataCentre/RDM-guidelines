@@ -78,7 +78,7 @@
             "phase": ["Plan", "Collect", "Preserve", "Share"],
             "topic": ["Research involving human data"],
             "level": ["Basic"],
-            "url": "https://snd.se/en/resources/handbook-data-containing-personal-information",
+            "url": "https://researchdata.se/en/manage-data/data-containing-personal-information/handbook-data-containing-personal-information",
             "description": "Swedish National Data Service (SND) guidance on working with research data containing personal information.",
             "provider":  ["SND"]
         },

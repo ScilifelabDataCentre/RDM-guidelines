@@ -872,16 +872,16 @@
             "licence": "MIT License"
         },
         {
-            "title": "National Library of Sweden's national guidelines for open science",
-            "short_title": "KB: National guidelines Open Science",
+            "title": "National guidelines for open science",
+            "short_title": "National guidelines for open science",
             "target": ["guidance"],
             "type": ["Material"],
-            "search_tags": ["National Library of Sweden","Open Science", "National Library of Sweden's national guidelines for open science"],
+            "search_tags": ["National Library of Sweden","Open Science", "National national guidelines for open science", "policy"],
             "phase": ["Share", "Reuse"],
             "topic": ["Sharing code and workflows", "University RDM resources"],
             "level": ["Basic"],
-            "url": "https://urn.kb.se/resolve?urn=urn:nbn:se:kb:publ-738",
-            "description": "These national guidelines are intended to provide support and guidance for the different stakeholders in Sweden who have overarching responsibility in the transition to open science. The purpose of these guidelines is to outline the direction for the continued development towards open science in Sweden, specifying which key actors are responsible for what, as well as how the guidelines are to be monitored and updated over time.",
+            "url": "https://openscience.se/en/national-guidelines-for-open-science",
+            "description": "The national guidelines for open science provide a common direction for how openness can be applied and further developed within the Swedish research system. ",
             "provider":  ["National Library of Sweden"]
         },
         {

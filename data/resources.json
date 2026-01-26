@@ -876,7 +876,7 @@
             "short_title": "National guidelines for open science",
             "target": ["guidance"],
             "type": ["Material"],
-            "search_tags": ["National Library of Sweden","Open Science", "National national guidelines for open science", "policy"],
+            "search_tags": ["National Library of Sweden","Open Science", "National guidelines for open science", "policy"],
             "phase": ["Share", "Reuse"],
             "topic": ["Sharing code and workflows", "University RDM resources"],
             "level": ["Basic"],

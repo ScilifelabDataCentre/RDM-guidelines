@@ -6,9 +6,11 @@ toc: True
 ---
 
 # Sharing code and workflows 
-In the era of FAIR (Findable, Accessible, Interoperable and Reusable) and <a href="https://www.vr.se/english/mandates/open-science/open-access-to-research-data.html" target="_blank">Open Science</a>, **all research outputs** should be shared and made available to the public. This includes the code and workflows produced during the course of the research project. This page, while not exhaustive, aims to give an introduction to the topic of FAIR code. 
+In the era of FAIR (Findable, Accessible, Interoperable and Reusable) and Open Science, **all research outputs** should be shared and made available to the public. This includes the code and workflows produced during the course of the research project. This page, while not exhaustive, aims to give an introduction to the topic of FAIR code. 
 
-<a class="link-teal" href="/topics/fair-principles"><b>Learn more about the FAIR principles <i class="bi bi-arrow-right-square"></i></b></a>
+<a class="link-teal" href="/topics/fair-principles"><b>Learn more about the FAIR principles <i class="bi bi-arrow-right-square"></i></b></a><br/><br/>
+<a class="link-teal" href="https://openscience.se/en" target="_blank"><b>Learn more about Open science <i class="bi bi-box-arrow-up-right"></i></b></a>
+<br/><br/>
 
 ## What are code & workflows?
 

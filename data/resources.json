@@ -130,7 +130,7 @@
             "type": ["Material"],
             "search_tags": ["material","open science","FAIR","Open Science and FAIR"],
             "phase": ["Share"],
-            "topic": ["FAIR principles"],
+            "topic": ["FAIR principles", "What is Research Data Management"],
             "level": ["Basic"],
             "url": "https://nbisweden.github.io/module-open-science-dm-practices/index.html",
             "description": "Training material regarding what Open Science and FAIR principles mean.",
@@ -878,7 +878,7 @@
             "type": ["Material"],
             "search_tags": ["National Library of Sweden","Open Science", "National guidelines for open science", "policy"],
             "phase": ["Share", "Reuse"],
-            "topic": ["Sharing code and workflows", "University RDM resources"],
+            "topic": ["Sharing code and workflows", "University RDM resources","What is Research Data Management"],
             "level": ["Basic"],
             "url": "https://openscience.se/en/national-guidelines-for-open-science",
             "description": "The national guidelines for open science provide a common direction for how openness can be applied and further developed within the Swedish research system. ",
@@ -1479,6 +1479,19 @@
             "url": "https://ohdsi.github.io/CommonDataModel/",
             "description": "The Observational Medical Outcomes Partnership (OMOP) Common Data Model (CDM) is an open community data standard, designed to standardize the structure and content of observational data and to enable efficient analyses that can produce reliable evidence. This website is meant to serve as a resource describing the specification of the available versions of the Common Data Model.",
             "provider":  ["OHDSI"]
+        },
+        {
+            "title": "Openscience.se",
+            "short_title": "Openscience.se",
+            "target": ["guidance"],
+            "type": ["Material"],
+            "search_tags": ["National Library of Sweden","SND", "Swedish National Data Service", "SUHF","Association of Swedish Higher Education Institutions","Openscience.se","Open Science"],
+            "phase": ["Share"],
+            "topic": ["Sharing code and workflows", "What is Research Data Management"],
+            "level": ["Basic"],
+            "url": "https://openscience.se/en/national-guidelines-for-open-science",
+            "description": "This portal collects essential information about the key actors, resources, and documents that are central to Sweden’s transition to an open science system. ",
+            "provider":  ["SUHF"]
         }
     ]
 }

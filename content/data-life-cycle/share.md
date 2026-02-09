@@ -67,7 +67,9 @@ Click on the buttons below for specific information regarding suitable repositor
   <ul>
     <li>ERC000011 <a href="/files/meta-data-templates/metadata_template_default_ERC000011.xlsx">ENA default sample checklist </a>(Excel spreadsheet)</li>
     <li>ERC000015 <a href="/files/meta-data-templates/metadata_template_human-gut_ERC000015.xlsx">GSC MIxS human gut </a>(Excel spreadsheet)</li>
+    <li>ERC000022 <a href="/files/meta-data-templates/metadata_template_GSC-MIxS-soil_ERC000022.xlsx">GSC MIxS soil </a>(Excel spreadsheet)</li>
     <li>ERC000024 <a href="/files/meta-data-templates/metadata_template_GSC-MIxS-water_ERC000024.xlsx">GSC MIxS water </a>(Excel spreadsheet)</li>
+    <li>ERC000025 <a href="/files/meta-data-templates/metadata_template_GSC-MIxS-misc_ERC000025.xlsx">GSC MIxS miscellaneous natural or artificial environment </a>(Excel spreadsheet)</li>
     <li>ERC000033 <a href="/files/meta-data-templates/metadata_template_virus_ERC000033.xlsx">ENA virus pathogen reporting standard checklist </a>(Excel spreadsheet)</li>
     <li>ERC000036 <a href="/files/meta-data-templates/metadata_template_sewage_ERC000036.xlsx">ENA sewage checklist </a>(Excel spreadsheet)</li>
     <li>ERC000050 <a href="/files/meta-data-templates/metadata_template_ENA_binned_metagenome_ERC000050.xlsx">ENA binned metagenome checklist </a>(Excel spreadsheet)</li>

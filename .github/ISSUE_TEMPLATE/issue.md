@@ -11,5 +11,5 @@ about: Use this template for any issue
 
 ## Checklist
 - [ ] Issue title is a short and clear description
+- [ ] Relevant files (with line numbers) are mentioned/linked
 - [ ] Label and type have been assigned
-- [ ] Relevant files (with line numbers) are mentioned and linked

@@ -15,7 +15,6 @@ This PR ...
  
 ### Checklist
 - [ ] PR title is a clear and short description
-- [ ] Relevant files (with line numbers) are mentioned/linked
 - [ ] Related Github issue is linked
 - [ ] Assignee is selected
 - [ ] Automated checks pass

@@ -20,7 +20,7 @@ menu:
       Click the button to the right to inform us of any relevant resources that are missing from this list.
     </div>
     <div class="col-lg-2">
-      <div><a class="btn btn-teal" href="/contact/">Inform us of other resources</a></div><br><br>
+      <div><a class="btn btn-teal" href="mailto:data-management@scilifelab.se?subject=Request%20to%20add%20RDM%20guidelines%20resource">Inform us of other resources</a></div><br><br>
     </div>
   </div>
 </section>

@@ -1,3 +1,7 @@
+<!--
+This template is to help structure the PR description.
+Feel free to remove any (or all) sections that are not relevant to you.
+-->
 ### Summary
 <!-- Briefly describe WHAT and WHY of this PR -->
 This PR ...

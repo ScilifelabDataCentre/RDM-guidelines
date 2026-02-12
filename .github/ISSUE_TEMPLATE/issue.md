@@ -1,6 +1,6 @@
 ---
 name: General issue template
-about: Use this template for any issue
+about: Use this template to help structure your issue. Feel free to remove sections that are not relevant to you.
 ---
 
 ## Summary

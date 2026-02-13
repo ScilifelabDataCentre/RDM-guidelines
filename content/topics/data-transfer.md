@@ -19,7 +19,49 @@ The Data Delivery System (DDS) is a cloud-based system for the delivery of data 
   </ul>
 </div>
 
-## Uppmax
+## Data transfer using Aspera
+
+[Aspera CLI](https://github.com/IBM/aspera-cli/) (ascli) is a command-line interface for IBM Aspera products. As part of this client, there is a transfer tool `ascp` that can be used for stable transfers of files e.g. from Uppmax (or your own computer) to ENA (European Nucleotide Archive) upload area when doing submission. The main advantages over e.g. using `lftp` is that it is faster and can resume transfer if a connection breaks instead of having to start from the beginning.
+
+[Installation](https://github.com/IBM/aspera-cli/?tab=readme-ov-file#install) of `ascp` is done in two steps, using [Ruby](https://github.com/IBM/aspera-cli/blob/main/docs/README.md#ruby) (version 3.1 or higher):
+
+  ```
+  gem install aspera-cli
+  ascli config transferd install
+  ```
+
+There are many [ascp options](https://www.ibm.com/docs/en/ahts/4.4.x?topic=line-ascp-command-reference#ascp_usage__title__6), and it can be a bit confusing to know which ones to use. The command below will copy all .fastq.gz files found in all subfolders under 'path-to-uppmax-folder' to the user 'Webin-XXXXX' (exchange to your login-name at ENA) upload area at ENA under subfolder 'subfolder-at-ENA' (which will be created if it doesn't already exist):  
+
+  ```
+  ascp --file-checksum=md5 -d -k 3 --mode=send --overwrite=always -QT -l300M --host=webin.ebi.ac.uk --user=Webin-XXXXX path-to-uppmax-folder/**/*.fastq.gz subfolder-at-ENA
+  ```
+
+Aspera has an environment variable that you can use in order to add your password at the remote/receiving site (in this case ENA) to memory, so you don't have to type it when executing the transfer command:  
+    ```
+    export ASPERA_SCP_PASS='my-ENA-password'
+    ```
+
+### Using Aspera on Uppmax
+
+Aspc gives the user many options (use command `ascp --help`), below is an example where a set of fastq files will be uploaded to a subfolder at ENA:
+
+1. Open a terminal window and log in to Uppmax using your credentials:  
+    ```
+    ssh -X username@pelle.uppmax.uu.se
+    ```
+1. Use <a href="https://docs.uppmax.uu.se/cluster_guides/interactive_more/" target="_blank">interactive</a> mode in order to execute the transfer at a compute node using a compute project:  
+    ```
+    interactive -A project-name
+    ```
+1. In order to be able to use the ascp command, it needs to be activated by typing:  
+    ```
+    module load ascp
+    ```
+
+1. The command below will copy all fastq.gz files found in all subfolders under 'path-to-uppmax-folder' to the user 'Webin-XXXXX' (exchange to your login-name at ENA) upload area at ENA under subfolder 'subfolder-at-ENA' (which will be created if it doesn't already exist):  
+    ```
+    ascp --file-checksum=md5 -d -k 3 --mode=send --overwrite=always -QT -l300M --host=webin.ebi.ac.uk --user=Webin-XXXXX path-to-uppmax-folder/**/*.fastq.gz subfolder-at-ENA
+    ```
 
 Please find below some useful links from the compute resource Uppmax regarding data transfer:
 
@@ -31,38 +73,11 @@ Please find below some useful links from the compute resource Uppmax regarding d
   </ul>
 </div>
 
-### Using Aspera on Uppmax
-
-Aspera  (ascp) is a command-line transfer program that can be used for stable transfers of files e.g. from Uppmax to ENA (European Nucleotide Archive) upload area when doing submission. Aspc gives the user many options (use command `ascp --help`), below is an example where a set of fastq files will be uploaded to a subfolder at ENA:
-
-1. Open a terminal window and log in to Uppmax using your credentials:  
-    ```
-    ssh -X username@rackham.uppmax.uu.se
-    ```
-1. Use <a href="https://docs.uppmax.uu.se/cluster_guides/interactive_more/" target="_blank">interactive</a> mode in order to execute the transfer at a compute node using a compute project:  
-    ```
-    interactive -A project-name
-    ```
-1. In order to be able to use the ascp command, it needs to be activated by typing:  
-    ```
-    module load ascp
-    ```
-1. Aspera has an environment variable that you can use in order to add your password at the remote/receiving site (in this case ENA) to memory, so you don't have to type it when executing the transfer command:  
-    ```
-    export ASPERA_SCP_PASS='my-ENA-password'
-    ```
-1. The command below will copy all fastq.gz files found in all subfolders under 'path-to-uppmax-folder' to the user 'Webin-XXXXX' (exchange to your login-name at ENA) upload area at ENA under subfolder 'subfolder-at-ENA' (which will be created if it doesn't already exist):  
-    ```
-    ascp --file-checksum=md5 -d -k 3 --mode=send --overwrite=always -QT -l300M --host=webin.ebi.ac.uk --user=Webin-XXXXX path-to-uppmax-folder/**/*.fastq.gz subfolder-at-ENA
-    ```
-
-## Dardel
+### Using Aspera on Dardel
 
 * Dardel, the compute cluster at Parallelldatorcentrum (PDC), KTH, has multiple ways of transferring files to and from your local machine, see documentation on the <a href="https://support.pdc.kth.se/doc/data_management/file_transfer/" target="_blank">PDC on File transfer</a>.
 
 * In the future, Dardel will have dedicated nodes for transferring large files, see further on <a href="https://support.pdc.kth.se/doc/data_management/data_management/#nodes-for-file-operations" target="_blank">Nodes for file operations</a>, but at the moment transfers can be done directly on login node (dardel.pdc.kth.se).
-
-### Using Aspera on Dardel
 
 * There is an Aspera client available via command `ml aspera-cli/3.9.6.1467.159c5b1`
   * Note: Command `ml avail aspera-cli` lists the available versions
@@ -97,7 +112,7 @@ Then, in order to upload to European Nucleotide Archive (ENA) interactively usin
 
 <a class="link-teal" href="https://download.asperasoft.com/download/docs/ascp/3.5.2/html/dita/ascp_usage.html" target="_blank"><b>Learn more about the ascp command <i class="bi bi-box-arrow-up-right"></i></b></a>
 
-## Transferring files using RClone
+## Data transfer using RClone
 Rclone is a command-line program that can be used to transfer files across a wide range of protocols. This can be useful when you you are unable to use specialised submission tools or Aspera, for example when transfering files in bulk to <a href="https://www.scilifelab.se/data/repository/" target="_blank">SciLifeLab Data Repository</a> over the FTPS protocol.
 
 The following example describes how to upload files to SciLifeLab Data Repository (or any other FigShare repository):

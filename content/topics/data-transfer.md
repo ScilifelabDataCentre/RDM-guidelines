@@ -116,6 +116,15 @@ The following example describes how to upload files to SciLifeLab Data Repositor
 
 <a class="link-teal" href="https://help.figshare.com/article/upload-large-datasets-and-bulk-upload-using-the-ftp-uploader-desktop-uploader-or-api" target="_blank"><b>Learn more about FTP uploads to FigShare <i class="bi bi-box-arrow-up-right"></i></b></a>
 
+## About checksums
+File checksums are used to validate that a file remains intact, with no loss, for example after a data transfer. Often when you submit data to a repository, you are required to add the checksums for your data files, so that the repository can verify that the files are intact. Typically the data producer will calculate checksums for the files, and make these part of the delivery. Most, if not all, operating systems include built-in, command line, tools to calculate checksums. If you want, or need, to calculate them yourself, follow these steps:
+
+1. Open a terminal (command prompt) window and change to the directory where the files are located, e.g. `cd my_data/raw/`.
+1. Modify and execute the command `md5sum * > checksums-md5.txt` to match your file names and required output name. 
+
+The command will calculate the checksums for all files in current directory and list them in a file named `checksums-md5.txt`. Note that in macOS the calculator is called `md5` instead of `md5sum`.
+
+
 ## Resources
 Please find below resources concerning data transfer in form of training, guidance and/or tools.
 

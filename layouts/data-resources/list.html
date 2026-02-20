@@ -1,0 +1,171 @@
+{{ define "main" }}
+
+{{/* 1. This renders the text/HTML from your content/data-resources/_index.md */}}
+<div class="container-fluid mt-4">
+  {{ .Content }}
+</div>
+
+{{/* 2. Load the data from data/data-resources.json */}}
+{{ $data := index .Site.Data "data-resources" }}
+
+{{ with $data }}
+<div class="container-fluid mt-4">
+  <div class="row">
+    
+    <div class="col-lg-2 mb-2 mb-lg-0 pe-lg-0">
+      <div class="resources-search-filter">Study type</div>
+      <div class="mb-4">
+        <select class="form-select" id="studyTypeSelect">
+          <option value="all">All Study Types</option>
+          {{ range .study_types }}
+          <option value="{{ . | urlize }}">{{ . }}</option>
+          {{ end }}
+        </select>
+      </div>
+
+      <div class="resources-search-filter">Information type</div>
+      <div class="mb-4">
+        {{ range .info_types }}
+        <div class="form-check">
+          <input class="form-check-input filter-checkbox info-filter" type="checkbox" value="{{ . | urlize }}" id="info-{{ . | urlize }}">
+          <label class="form-check-label" for="info-{{ . | urlize }}">{{ . }}</label>
+        </div>
+        {{ end }}
+      </div>
+
+      <div class="resources-search-filter">Data type</div>
+      <div class="mb-4">
+        {{ range .data_types }}
+        <div class="form-check">
+          <input class="form-check-input filter-checkbox data-filter" type="checkbox" value="{{ . | urlize }}" id="data-{{ . | urlize }}">
+          <label class="form-check-label" for="data-{{ . | urlize }}">{{ . }}</label>
+        </div>
+        {{ end }}
+      </div>
+
+      <div class="resources-search-filter">SciLifeLab service area</div>
+      <div class="mb-4">
+        {{ range .SLL_service_areas }}
+        <div class="form-check">
+          <input class="form-check-input filter-checkbox sll-filter" type="checkbox" value="{{ . | urlize }}" id="sll-{{ . | urlize }}">
+          <label class="form-check-label" for="sll-{{ . | urlize }}">{{ . }}</label>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+
+    <div class="col-lg">
+      <div class="row g-2" id="resource-container">
+        {{ range (slice "Repository" "Metadata standard" "File format") }}
+          {{ $currentType := . }}
+        {{/* Determine the color class based on type */}}
+        {{ $colorClass := "" }}
+        {{ if eq $currentType "Repository" }}{{ $colorClass = "repository" }}
+        {{ else if eq $currentType "Metadata standard" }}{{ $colorClass = "metadata" }}
+        {{ else }}{{ $colorClass = "fileformat" }}{{ end }}
+
+        {{ range where $data.items "info_type" "intersect" (slice $currentType) }}
+        {{ $id := .title | urlize }}
+          
+          <div class="col-md-4 resource-item" 
+               data-study="{{ range .study_type }}{{ . | urlize }} {{ end }}" 
+               data-info="{{ range .info_type }}{{ . | urlize }} {{ end }}" 
+               data-data="{{ range .data_type }}{{ . | urlize }} {{ end }}" 
+               data-sll="{{ range .SLL_service_area }}{{ . | urlize }} {{ end }}">
+            
+            <div class="p-3 rounded border h-100 resource-card-tool">
+                <div class="resource-type-header bg-{{ $colorClass }}">
+                    {{ $currentType }}
+                </div>
+                
+                <a class="resources-header-tool d-block mb-3 text-{{ $colorClass }}" role="button" data-bs-toggle="modal" data-bs-target="#modal-{{ $id }}">
+                    {{ .title }}
+                </a>
+
+                <div class="mt-auto">
+                    <button type="button" class="btn btn-light-grey w-100" data-bs-toggle="modal" data-bs-target="#modal-{{ $id }}">
+                    See details
+                    </button>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modal-{{ $id }}" tabindex="-1" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <div class="resources-search-filter modal-title">{{ .title }}</div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p><b>Description:</b><br>{{ .description | markdownify }}</p>
+                    <p><b>URL:</b> <a href="{{ .url }}" target="_blank"><i class="bi bi-globe"></i> Visit Resource</a></p>
+                    {{ if .submission_guidelines }}
+                      <p><b>Submission Guidelines:</b> <a href="{{ .submission_guidelines }}" target="_blank">View Guidelines</a></p>
+                    {{ end }}
+                    <hr>
+                    <p><b>Information Type:</b> {{ with .info_type }}{{ delimit . ", " }}{{ end }}</p>
+                    <p><b>Study Type:</b> {{ with .study_type }}{{ delimit . ", " }}{{ end }}</p>
+                    <p><b>Data Type:</b> {{ with .data_type }}{{ delimit . ", " }}{{ end }}</p>
+                    <p><b>Service Area:</b> {{ with .SLL_service_area }}{{ delimit . ", " }}{{ end }}</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-teal" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+        {{ end }}
+        <div id="no-filtered-resource" style="display:none;" class="col-12">
+            <p class="text-center mt-5">No resources found for selected criteria.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const studySelect = document.getElementById('studyTypeSelect');
+    const checkboxes = document.querySelectorAll('.filter-checkbox');
+    const items = document.querySelectorAll('.resource-item');
+    const noResults = document.getElementById('no-filtered-resource');
+
+    function updateFilters() {
+        const selectedStudy = studySelect.value;
+        const activeFilters = {
+            info: Array.from(document.querySelectorAll('.info-filter:checked')).map(cb => cb.value),
+            data: Array.from(document.querySelectorAll('.data-filter:checked')).map(cb => cb.value),
+            sll: Array.from(document.querySelectorAll('.sll-filter:checked')).map(cb => cb.value)
+        };
+
+        let visibleCount = 0;
+        items.forEach(item => {
+            const itemStudy = item.getAttribute('data-study').trim().split(/\s+/);
+            const itemInfo = item.getAttribute('data-info').trim().split(/\s+/);
+            const itemData = item.getAttribute('data-data').trim().split(/\s+/);
+            const itemSll = item.getAttribute('data-sll').trim().split(/\s+/);
+
+            const matchesStudy = (selectedStudy === 'all' || itemStudy.includes(selectedStudy));
+            const matchesInfo = activeFilters.info.length === 0 || activeFilters.info.some(val => itemInfo.includes(val));
+            const matchesData = activeFilters.data.length === 0 || activeFilters.data.some(val => itemData.includes(val));
+            const matchesSll = activeFilters.sll.length === 0 || activeFilters.sll.some(val => itemSll.includes(val));
+
+            if (matchesStudy && matchesInfo && matchesData && matchesSll) {
+                item.style.display = 'block';
+                visibleCount++;
+            } else {
+                item.style.display = 'none';
+            }
+        });
+        noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+    }
+
+    studySelect.addEventListener('change', updateFilters);
+    checkboxes.forEach(cb => cb.addEventListener('change', updateFilters));
+});
+</script>
+
+{{ end }}

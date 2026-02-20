@@ -565,3 +565,45 @@ input[type="checkbox"]:focus {
 }
 
 /*-----------------------------------------------------------------------------------*/
+
+/**********************/
+/*** Data Resources ***/
+/**********************/
+
+
+/* Data Resource Card Styling */
+.resource-card-tool {
+    border: 1px solid #000000 !important; /* Black frame */
+    overflow: hidden; /* Ensures the header matches the card's rounded corners */
+    display: flex;
+    flex-direction: column;
+}
+
+/* The colored header strip */
+.resource-type-header {
+    margin: -1rem -1rem 1rem -1rem; /* Offsets the p-3 padding of the parent */
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+}
+
+/* Background Colors for Headers */
+.bg-repository { background-color: #491F53; }
+.bg-metadata { background-color: #045C64; }
+.bg-fileformat { background-color: #4C979F; }
+
+/* Title Colors matching the types */
+.text-repository { color: #491F53 !important; font-weight: 700; }
+.text-metadata { color: #045C64 !important; font-weight: 700; }
+.text-fileformat { color: #4C979F !important; font-weight: 700; }
+
+/* Ensure the title link doesn't lose color on hover */
+.resources-header-tool.text-repository:hover,
+.resources-header-tool.text-metadata:hover,
+.resources-header-tool.text-fileformat:hover {
+    filter: brightness(1.2);
+}
+/*-----------------------------------------------------------------------------------*/

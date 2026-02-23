@@ -306,7 +306,8 @@
     // Show relavant resources based on selected criteria
     if (!Object.keys(selected_filters).length) {
       $("div.tab-pane.active div.resource").show();
-    } else {
+    } 
+    else {
       var all_selected_resources = [];
       // Iterate over all selected criteria and collect the resources
       for (var [filter_name, filter_list] of Object.entries(selected_filters)) {
@@ -319,13 +320,14 @@
               r_resources.add(this);
             }
           });
-          } else {
-        filter_list.forEach(function (val) {
-          $(`div.tab-pane.active div.resource[${filter_name}*=${val}]`).each(function () { 
-            r_resources.add(this); 
+        } 
+        else {
+          filter_list.forEach(function (val) {
+            $(`div.tab-pane.active div.resource[${filter_name}*=${val}]`).each(function () { 
+              r_resources.add(this); 
+            });
           });
-        });
-      }
+        }
         all_selected_resources.push(r_resources);
       }
       // When multiple criteria selected it should act as AND not OR

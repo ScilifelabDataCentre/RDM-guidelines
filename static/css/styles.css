@@ -570,6 +570,13 @@ input[type="checkbox"]:focus {
 /*** Data Resources ***/
 /**********************/
 
+/* Styling the dropdown focus state to match inputs and checkboxes */
+#studyTypeSelect:focus, 
+.form-select:focus {
+  border-color: var(--teal1);
+  outline: 0; /* Removes the browser's default black outline */
+  box-shadow: 0 0 0 0.2rem var(--aqua0_50); /* Your custom aqua halo */
+}
 
 /* Data Resource Card Styling */
 .resource-card-tool {

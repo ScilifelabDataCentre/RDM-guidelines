@@ -27,7 +27,7 @@
         "Cryo-EM/Cryo-ET",
         "Spatial omics"
     ],
-    "data_types": ["DNA/RNA sequences", "Expression data", "Protein data", "Structures", "Chemical biology", "Images"],
+    "data_types": ["DNA/RNA sequences", "Expression data", "Protein data", "Structures", "Images"],
     "SLL_service_areas": ["Genomics", "Proteomics", "Metabolomics and Exposomics", "Structural Biology", "Cellular and Molecular Imaging", "Spatial Omics"],
     "info_types": ["Repository", "Metadata standard", "File format"],
     "items": [

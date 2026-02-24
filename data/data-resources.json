@@ -324,7 +324,7 @@
             "info_type": ["File format"],
             "study_type": ["Mass spectrometry-based proteomics", "Mass spectrometry-based metabolomics"],
             "data_type": ["Proteomics data", "Metabolomics data"],
-            "SLL_service_area": ["Proteomics", "Metabolomics"]
+            "SLL_service_area": ["Proteomics", "Metabolomics and Exposomics"]
         },
         {
             "title": "mz peptide and protein Identification Markup Language (mzIdentML)",
@@ -342,7 +342,7 @@
             "info_type": ["File format"],
             "study_type": ["Mass spectrometry-based proteomics", "Mass spectrometry-based metabolomics"],
             "data_type": ["Proteomics data", "Metabolomics data"],
-            "SLL_service_area": ["Proteomics", "Metabolomics"]
+            "SLL_service_area": ["Proteomics", "Metabolomics and Exposomics"]
         },
         {
             "title": "Nuclear Magnetic Resonance Markup Language (NMR-ML)",
@@ -350,8 +350,8 @@
             "url": "https://doi.org/10.25504/FAIRsharing.es03fk",
             "info_type": ["File format"],
             "study_type": ["NMR - macromolecules", "NMR - small molecules"],
-            "data_type": ["NMR data"],
-            "SLL_service_area": ["Metabolomics"]
+            "data_type": ["Structures", "Metabolomics data"],
+            "SLL_service_area": ["Structural Biology","Metabolomics and Exposomics"]
         },
         {
             "title": "Open Microscopy Environment - Tagged Image File Format (OME-TIFF)",
@@ -378,7 +378,25 @@
             "info_type": ["File format"],
             "study_type": ["Multiomics"],
             "data_type": ["DNA/RNA sequences", "Expression data", "Protein data", "Metabolomics data"],
-            "SLL_service_area": ["Multiomics"]
+            "SLL_service_area": ["Multiomics", "Genomics", "Proteomics", "Metabolomics and Exposomics"]
+        },
+        {
+            "title": "Protein Data Bank Format (PDB)",
+            "description": "The PDB format is a standardized file format for representing three-dimensional structures of biological macromolecules, including atomic coordinates, connectivity information, and associated metadata.",
+            "url": "https://doi.org/10.25504/FAIRsharing.9y4cqw",
+            "info_type": ["File format"],
+            "study_type": ["Structural biology"],
+            "data_type": ["Structures"],
+            "SLL_service_area": ["Structural Biology"]
+        },
+        {
+            "title": "macromolecular Crystallographic Information File (PDBx/mmCIF)",
+            "description": "PDBx/mmCIF is a file format used for representing macromolecular crystallographic information, providing a standardized way to describe the structure and properties of macromolecules.",
+            "url": "https://doi.org/10.25504/FAIRsharing.fd28en",
+            "info_type": ["File format"],
+            "study_type": ["Structural biology"],
+            "data_type": ["Structures"],
+            "SLL_service_area": ["Structural Biology"]
         }
     ]
 }

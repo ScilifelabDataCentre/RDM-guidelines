@@ -107,7 +107,7 @@
             "url": "https://deposit-pdbe.wwpdb.org/",
             "submission_guidelines": "https://www.wwpdb.org/deposition/tutorial",
             "info_type": ["Repository"],
-            "study_type": ["X-ray crystallography", "NMR - macromolecules", "Electron microscopy", "3D scanning electron microscopy"],
+            "study_type": ["X-ray crystallography", "NMR - macromolecules", "Electron microscopy", "3D scanning electron microscopy", "Cryo-EM/Cryo-ET"],
             "data_type": ["Structures"],
             "SLL_service_area": ["Structural Biology"]
         },
@@ -117,7 +117,7 @@
             "url": "https://www.ebi.ac.uk/pdbe/",
             "submission_guidelines": "https://www.wwpdb.org/deposition/tutorial",
             "info_type": ["Repository"],
-            "study_type": ["X-ray crystallography", "NMR - macromolecules", "Electron microscopy", "3D scanning electron microscopy"],
+            "study_type": ["X-ray crystallography", "NMR - macromolecules", "Electron microscopy", "3D scanning electron microscopy", "Cryo-EM/Cryo-ET"],
             "data_type": ["Structures"],
             "SLL_service_area": ["Structural Biology"]
         },
@@ -127,7 +127,7 @@
             "url": "https://www.ebi.ac.uk/emdb",
             "submission_guidelines": "https://www.wwpdb.org/deposition/tutorial",
             "info_type": ["Repository"],
-            "study_type": ["Electron microscopy - 3D"],
+            "study_type": ["Electron microscopy - 3D", "Cryo-EM/Cryo-ET"],
             "data_type": ["Structures"],
             "SLL_service_area": ["Structural Biology"]
         },
@@ -149,7 +149,7 @@
             "info_type": ["Repository"],
             "study_type": ["Light microscopy", "Electron microscopy - 2D"],
             "data_type": ["Images"],
-            "SLL_service_area": ["Cellular and Molecular Imaging"]
+            "SLL_service_area": ["Cellular and Molecular Imaging", "Spatial Omics"]
         },
         {
             "title": "EMPIAR",
@@ -391,8 +391,17 @@
         },
         {
             "title": "macromolecular Crystallographic Information File (PDBx/mmCIF)",
-            "description": "PDBx/mmCIF is a file format used for representing macromolecular crystallographic information, providing a standardized way to describe the structure and properties of macromolecules.",
+            "description": "PDBx/mmCIF is a metadata standard used for representing macromolecular crystallographic information, providing a standardized way to describe the structure and properties of macromolecules.",
             "url": "https://doi.org/10.25504/FAIRsharing.fd28en",
+            "info_type": ["Metadata standard"],
+            "study_type": ["Structural biology"],
+            "data_type": ["Structures"],
+            "SLL_service_area": ["Structural Biology"]
+        },
+        {
+            "title": "Crystallographic Information Framework (CIF)",
+            "description": "CIF is a standardized file format for representing crystallographic information, providing a structured way to describe the structure and properties of crystalline materials, including atomic coordinates, symmetry information, and associated metadata.",
+            "url": "https://doi.org/10.25504/FAIRsharing.zr52g5",
             "info_type": ["File format"],
             "study_type": ["Structural biology"],
             "data_type": ["Structures"],

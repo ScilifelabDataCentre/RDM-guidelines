@@ -15,7 +15,7 @@ menu:
 ---
 <section> <br>
   <div class="row">
-    <div class="col">Please find below resources concerning. Use filter fields to the left, to limit the resources displayed. 
+    <div class="col">Please find below resources concerning repositories, metadata standards and file formats. Use filter fields to the left, to limit the resources displayed. 
       Click the button to the right to inform us of any relevant data resources that are missing from this list.
     </div>
     <div class="col-lg-2">

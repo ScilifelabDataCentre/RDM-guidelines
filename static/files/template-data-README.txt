@@ -3,6 +3,7 @@ This README file was generated on [YYYY-MM-DD] by [NAME]
 GENERAL INFORMATION
 - Dataset title:
 - Description: <provide description of the dataset origin, steps used in its generation, content and its purpose>
+- Research principal:
 
 ORGANISATION
 - Folder structure:

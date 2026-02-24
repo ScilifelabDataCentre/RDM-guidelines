@@ -8,6 +8,7 @@ This README file was generated on [YYYY-MM-DD] by [NAME]
 - Description:  
   _Provide a short description of the project._
 - Principal Investigator:  
+- Research principal:
 - Link to Data Management Plan:  
 
 ## ORGANISATION

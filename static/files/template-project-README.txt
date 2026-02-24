@@ -4,6 +4,7 @@ GENERAL INFORMATION
 - Project title:
 - Description: <provide a short description of the project>
 - Principle Investigator:
+- Research principal:
 - Link to Data management plan
 
 ORGANISATION

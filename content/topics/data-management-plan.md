@@ -47,7 +47,7 @@ A DMP is a **living document**, the initial version is written the same time as 
 
 ## The main parts of a DMP
 
-A DMP typically is divided into six sections:
+The DMP typically starts with an administrative overview concerning the project(s), including information such as start and end date, funder(s) and research principal. After that a DMP typically is divided into six sections:
 
 1. **Description of data**
     * What types of data will be created and/or collected, in terms of data format and amount/volume of data?

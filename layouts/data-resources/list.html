@@ -97,7 +97,18 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
-                    <p><b>Description:</b><br>{{ .description | markdownify }}</p>
+                    <p><b>Description:</b><br>
+                      {{/* Define the path based on the title (e.g., ena-sample-checklists.html) */}}
+                      {{ $partialPath := printf "data-resource-descriptions/%s.html" ($id) }}
+                      
+                      {{/* Check if the specific HTML file exists in partials */}}
+                      {{ if (templates.Exists (printf "partials/%s" $partialPath)) }}
+                        {{ partial $partialPath . }}
+                      {{ else }}
+                        {{/* Fallback to the standard JSON description if no file exists */}}
+                        {{ .description | markdownify }}
+                      {{ end }}
+                    </p>
                     <p><b>URL:</b> <a href="{{ .url }}" target="_blank"><i class="bi bi-globe"></i> Visit Resource</a></p>
                     {{ if .submission_guidelines }}
                       <p><b>Submission Guidelines:</b> <a href="{{ .submission_guidelines }}" target="_blank">View Guidelines</a></p>

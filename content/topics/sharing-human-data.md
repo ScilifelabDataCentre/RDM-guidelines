@@ -46,7 +46,7 @@ AIDA Data Hub platform is part of the <a href="https://medtech4health.se/aida/" 
 
 ### Swedish National Data Service (SND)
 
-Some organisations have signed agreements with SND, allowing for researchers to share datasets containing personal information using SND's tool DORIS. For more information, please visit <a href="https://snd.se/en/doris-researchers/describe-and-share-data-doris/data-personal-information-doris" target="_blank">Data with personal information in DORIS</a>. 
+Some organisations have signed agreements with SND, allowing for researchers to share datasets containing personal information using SND's tool DORIS. For more information, please visit <a href="https://snd.se/en/doris-researchers/data-personal-information-doris" target="_blank">Data with personal information in DORIS</a>. 
 
 ## If data cannot be deposited in a repository
 

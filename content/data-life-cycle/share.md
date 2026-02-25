@@ -296,7 +296,7 @@ A general-purpose data repository is an appropriate choice only if the data does
   In DORIS (the Swedish National Data Service's (SND) Data Organisation and Information System) you can describe and share research data from all disciplines. By using DORIS, well-documented data are shared in a way that fulfils the FAIR principles.
   </span>
   <br>
-  <a class="link-teal" href="https://snd.se/en/doris-researchers/describe-and-share-data-doris" target="_blank"><b>Visit DORIS <i class="bi bi-box-arrow-up-right"></i></b></a>
+  <a class="link-teal" href="https://snd.se/en/doris-researchers/describe-data-doris" target="_blank"><b>Visit DORIS <i class="bi bi-box-arrow-up-right"></i></b></a>
   </div>
   <br>
 </div>

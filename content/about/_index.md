@@ -28,15 +28,13 @@ SciLifeLab is committed to the values of Open Science, <a href="https://www.ucl.
 <a class="link-teal" href="https://openscience.se/en" target="_blank"><b>Learn more about Open science <i class="bi bi-box-arrow-up-right"></i></b></a>
 <br/><br/>
 
-The SciLifeLab RDM guidelines was built and is maintained by the SciLifeLab Data Centre and NBIS. We welcome all questions related to research data management or the website itself. Please get in touch with us by emailing [data-management@scilifelab.se](mailto:data-management@scilifelab.se) or by sending us a message using our contact form.
+The SciLifeLab RDM guidelines was built and is maintained by the SciLifeLab Data Centre and NBIS. We welcome all questions related to research data management or the website itself. Please get in touch with us by emailing [data-management@scilifelab.se](mailto:data-management@scilifelab.se).
 
 The content of the website is moderated by an editorial group supported by the SciLifeLab RDM guidelines advisory group. However, contributions are welcome in each of the sections. For example, you can suggest a new topic or an update to current [research data life cycle](/data-life-cycle) or [topic](/topics/) pages.
 
 
 <a class="link-teal" href="/about/contributors/"><b>See all contributors <i class="bi bi-arrow-right-square"></i></b></a>
 
-<a class="link-teal" href="/contact/"><b>Contact form for enquiries and contributions <i class="bi bi-arrow-right-square"></i></b></a>
-<br/><br/>
 ## Organisations behind the guidelines
 <br/>
 <div class="container">

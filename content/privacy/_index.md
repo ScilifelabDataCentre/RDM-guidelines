@@ -18,11 +18,6 @@ You can opt out of your Log Data being collected below:
 
 <iframe style="border: 0; height: 150px; width: 600px;" src="https://matomo.dc.scilifelab.se/index.php?module=CoreAdminHome&action=optOut&language=en&fontFamily=Arial" title="Opt out log data"></iframe>
 
-## Contact form
-
-Our **Service** contains a contact form through which the website visitors may choose to get in touch with us or send us suggestions. The website visitors may choose to provide their personal information such as, for example, their name and e-mail address, through this form.
-
-The following parties will have access to processing the personal data provided through the form: SciLifeLab Data Centre, Uppsala University. Your personal data will be deleted when no longer needed, or when stipulated by the archival rules for the university as a government authority. If you want to update or remove your personal data please contact the controller SciLifeLab Data Centre at Uppsala University using <datacentre@scilifelab.se>.
 
 ## Links to Other Sites
 

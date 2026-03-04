@@ -1,16 +1,16 @@
 ---
-title: Data resources
+title: Data map
 description: Catalogue of repositories, metadata standards and file formats for different types of data
 cascade:
   header_image: /img/illustrations/bubble_matrix.png
 menu:
   navbar:
-    identifier: data-resources
-    name: Data resources
+    identifier: data-map
+    name: Data map
     weight: 40
   bottom_guidelines:
-    name: Data resources
-    identifier: data-resources
+    name: Data map
+    identifier: data-map
     weight: 30
 ---
 <section> <br>

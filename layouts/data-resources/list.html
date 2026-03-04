@@ -1,13 +1,13 @@
 {{ define "main" }}
 
-{{/* 1. This renders the text/HTML from your content/data-resources/_index.md */}}
+{{/* 1. This renders the text/HTML from content/data-resources/_index.md */}}
 <div class="container-fluid mt-4">
   {{ .Content }}
 </div>
 
-{{/* 2. Load the data from data/data-resources.json */}}
-{{ $data := index .Site.Data "data-resources" }}
-
+{{/* 2. Load the data from data/data-resources-gemini-v2.json */}}
+{{ $data := index .Site.Data "data-resources-gemini-v2" }}
+{{/* would be nice if the data types and study types were filtered if the other is selected, so that only possible data types for that study type was shown, and vice versa, i.e. if a data type is selected, only those study types that are relevant are shown to choose between */}}
 {{ with $data }}
 <div class="container-fluid mt-4">
   <div class="row">
@@ -17,7 +17,17 @@
       <div class="mb-4">
         <select class="form-select" id="studyTypeSelect">
           <option value="all">All Study Types</option>
-          {{ range .study_types }}
+          {{ range .study_types | sort }}
+          <option value="{{ . | urlize }}">{{ . }}</option>
+          {{ end }}
+        </select>
+      </div>
+
+      <div class="resources-search-filter">Data type</div>
+      <div class="mb-4">
+        <select class="form-select" id="dataTypeSelect">
+          <option value="all">All Data Types</option>
+          {{ range .data_types | sort}}
           <option value="{{ . | urlize }}">{{ . }}</option>
           {{ end }}
         </select>
@@ -29,16 +39,6 @@
         <div class="form-check">
           <input class="form-check-input filter-checkbox info-filter" type="checkbox" value="{{ . | urlize }}" id="info-{{ . | urlize }}">
           <label class="form-check-label" for="info-{{ . | urlize }}">{{ . }}</label>
-        </div>
-        {{ end }}
-      </div>
-
-      <div class="resources-search-filter">Data type</div>
-      <div class="mb-4">
-        {{ range .data_types }}
-        <div class="form-check">
-          <input class="form-check-input filter-checkbox data-filter" type="checkbox" value="{{ . | urlize }}" id="data-{{ . | urlize }}">
-          <label class="form-check-label" for="data-{{ . | urlize }}">{{ . }}</label>
         </div>
         {{ end }}
       </div>
@@ -56,12 +56,13 @@
 
     <div class="col-lg">
       <div class="row g-2" id="resource-container">
-        {{ range (slice "Repository" "Metadata standard" "File format") }}
+        {{ range (slice "Repository" "Reporting guideline" "Metadata format" "File format") }}
           {{ $currentType := . }}
         {{/* Determine the color class based on type */}}
         {{ $colorClass := "" }}
         {{ if eq $currentType "Repository" }}{{ $colorClass = "repository" }}
-        {{ else if eq $currentType "Metadata standard" }}{{ $colorClass = "metadata" }}
+        {{ else if eq $currentType "Reporting guideline" }}{{ $colorClass = "metadata" }}
+        {{ else if eq $currentType "Metadata format" }}{{ $colorClass = "metadata" }}
         {{ else }}{{ $colorClass = "fileformat" }}{{ end }}
 
         {{ range where $data.items "info_type" "intersect" (slice $currentType) }}
@@ -140,12 +141,14 @@
 <script>
 document.addEventListener('DOMContentLoaded', function () {
     const studySelect = document.getElementById('studyTypeSelect');
+    const dataSelect = document.getElementById('dataTypeSelect');
     const checkboxes = document.querySelectorAll('.filter-checkbox');
     const items = document.querySelectorAll('.resource-item');
     const noResults = document.getElementById('no-filtered-resource');
 
     function updateFilters() {
         const selectedStudy = studySelect.value;
+        const selectedData = dataSelect.value;
         const activeFilters = {
             info: Array.from(document.querySelectorAll('.info-filter:checked')).map(cb => cb.value),
             data: Array.from(document.querySelectorAll('.data-filter:checked')).map(cb => cb.value),
@@ -161,7 +164,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             const matchesStudy = (selectedStudy === 'all' || itemStudy.includes(selectedStudy));
             const matchesInfo = activeFilters.info.length === 0 || activeFilters.info.some(val => itemInfo.includes(val));
-            const matchesData = activeFilters.data.length === 0 || activeFilters.data.some(val => itemData.includes(val));
+            const matchesData = (selectedData === 'all' || itemData.includes(selectedData));
             const matchesSll = activeFilters.sll.length === 0 || activeFilters.sll.some(val => itemSll.includes(val));
 
             if (matchesStudy && matchesInfo && matchesData && matchesSll) {
@@ -175,6 +178,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     studySelect.addEventListener('change', updateFilters);
+    dataSelect.addEventListener('change', updateFilters);
     checkboxes.forEach(cb => cb.addEventListener('change', updateFilters));
 });
 </script>

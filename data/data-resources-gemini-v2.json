@@ -1,0 +1,402 @@
+{
+  "metadata_version": "2.0",
+  "last_updated": "2026-03-02",
+  "study_types": [
+    "Genomics", "Metagenomics", "Transcriptomics",
+    "Human Research", "Clinical Genomics","Population Genetics", 
+    "Single-cell RNA-Seq", "Evolutionary Biology", "Association Studies (GWAS)",
+    "Single-cell Sequencing", "Cryo-EM", "Soft X-ray Tomography", "Volume SEM", 
+    "Electron Tomography", "Single Particle Analysis", "X-ray Crystallography",
+    "Structural Biology", "Metabolomics", "Lipidomics",
+    "Proteomics", "Single-cell Proteomics",
+    "BioImaging", "Spatial Omics", "Cell Biology", "Tissue Imaging",
+    "Multi Omics","Multimodal"
+  ],
+  "data_types": ["Raw reads", "Assemblies", "Functional Annotation", "Sensitive Raw Reads", 
+    "Controlled Access Data", "Expression Matrices", "Count Tables", 
+    "Genetic Variants", "Genotypes", "Summary Statistics", 
+    "Micrograph Movies", "Raw Particle Frames", "Tilt Series",
+    "3D Volume Maps", "Masks", "Atomic Coordinates", "Protein Identifications",
+    "Structure Factors", "Mass Spectra", "NMR Spectra", "Metabolite Profiles", "Images",
+    "Experimental Metadata"
+  ],
+  "info_types": ["Repository", "Reporting guideline", "Metadata format", "File format"],
+  "SLL_service_areas":  ["Genomics", "Proteomics", "Metabolomics and Exposomics", "Structural Biology", "Cellular and Molecular Imaging", "Spatial Omics"],
+  "categories": ["Genomics", "Transcriptomics", "Structural Biology", "Proteomics", "Metabolomics", "Imaging", "General", "Multi-omics"],
+  "items": [
+    {
+      "title": "ENA (European Nucleotide Archive)",
+      "description": "Comprehensive archive for all types of nucleotide sequence data, from raw reads to assemblies.",
+      "url": "https://www.ebi.ac.uk/ena",
+      "submission_guidelines": "https://ena-docs.readthedocs.io/en/latest/",
+      "info_type": ["Repository"],
+      "category": "Genomics",
+      "SLL_service_area": ["Genomics"],
+      "study_type": ["Genomics", "Metagenomics", "Spatial Omics"],
+      "data_type": ["Raw Reads", "Assemblies", "Functional Annotation"]
+    },
+    {
+      "title": "EGA (European Genome-phenome Archive)",
+      "description": "Secure archive for all types of sequence and phenotype data resulting from human biomedical research.",
+      "url": "https://ega-archive.org",
+      "submission_guidelines": "https://ega-archive.org/submission/metadata/submission/sequencing-phenotype/submitter-portal/",
+      "info_type": ["Repository"],
+      "category": "Genomics",
+      "SLL_service_area": ["Genomics"],
+      "study_type": ["Human Research", "Clinical Genomics", "Precision Medicine"],
+      "data_type": ["Raw Reads", "Genotypes","Controlled Access Data"]
+    },
+    {
+      "title": "FEGA (Federated European Genome-phenome Archive) Sweden",
+      "description": "Secure archive for all types of sequence and phenotype data resulting from human biomedical research.",
+      "url": "https://fega.nbis.se",
+      "submission_guidelines": "https://fega.nbis.se/submission/",
+      "info_type": ["Repository"],
+      "category": "Genomics",
+      "SLL_service_area": ["Genomics"],
+      "study_type": ["Human Research", "Clinical Genomics", "Precision Medicine"],
+      "data_type": ["Raw Reads", "Genotypes","Controlled Access Data"]
+    },
+    {
+      "title": "ArrayExpress",
+      "description": "Functional genomics archive for transcriptomics and epigenomics, now integrated with BioStudies.",
+      "url": "https://www.ebi.ac.uk/biostudies/arrayexpress",
+      "submission_guidelines": "https://www.ebi.ac.uk/fg/annotare/help/index.html",
+      "info_type": ["Repository"],
+      "category": "Transcriptomics",
+      "SLL_service_area": ["Genomics"],
+      "study_type": ["Transcriptomics", "Epigenomics", "Single-cell RNA-Seq", "Spatial Omics"],
+      "data_type": ["Expression Matrices", "Count Tables", "Raw Reads", "Microarray Data"]
+    },
+    {
+      "title": "EVA (European Variation Archive)",
+      "description": "The home for all genetic variation data, including SNPs, indels, and structural variants across any species.",
+      "url": "https://www.ebi.ac.uk/eva",
+      "submission_guidelines": "https://www.ebi.ac.uk/eva/?Submit-Data",
+      "info_type": ["Repository"],
+      "category": "Genomics",
+      "SLL_service_area": ["Genomics"],
+      "study_type": ["Genomics", "Evolutionary Biology", "Population Genetics"],
+      "data_type": ["Genetic Variants", "Genotypes", "VCF Files"]
+    },
+    {
+      "title": "GWAS Catalog",
+      "description": "The standard source for curated and summary-level data from Genome-Wide Association Studies.",
+      "url": "https://www.ebi.ac.uk/gwas",
+      "submission_guidelines": "https://www.ebi.ac.uk/gwas/docs/submission",
+      "info_type": ["Repository"],
+      "category": "Genomics",
+      "SLL_service_area": ["Genomics"],
+      "study_type": ["Association Studies (GWAS)", "Statistical Genetics"],
+      "data_type": ["Summary Statistics", "Association Results"]
+    },
+    {
+      "title": "EMPIAR",
+      "description": "Public archive for raw electron microscopy images, supporting Cryo-EM and volume imaging.",
+      "url": "https://www.ebi.ac.uk/empiar",
+      "submission_guidelines": "https://www.ebi.ac.uk/empiar/deposition/manual/",
+      "info_type": ["Repository"],
+      "category": "Structural Biology",
+      "SLL_service_area": ["Structural Biology"],
+      "study_type": ["Cryo-EM", "Soft X-ray Tomography", "Volume SEM"],
+      "data_type": ["Micrograph Movies", "Raw Particle Frames", "Tilt Series", "Raw Images"]
+    },
+    {
+      "title": "EMDB (Electron Microscopy Data Bank)",
+      "description": "Archive for 3D electron microscopy maps and tomograms.",
+      "url": "https://www.ebi.ac.uk/emdb",
+      "submission_guidelines": "https://www.wwpdb.org/deposition/tutorial",
+      "info_type": ["Repository"],
+      "category": "Structural Biology",
+      "SLL_service_area": ["Structural Biology"],
+      "study_type": ["Cryo-EM", "Electron Tomography", "Single Particle Analysis"],
+      "data_type": ["3D Volume Maps", "Density Maps", "Masks"]
+    },
+    {
+      "title": "PDBe (Protein Data Bank in Europe)",
+      "description": "Archive for macromolecular structures, including protein and nucleic acid complexes.",
+      "url": "https://www.ebi.ac.uk/pdbe",
+      "submission_guidelines": "https://www.wwpdb.org/deposition/tutorial",
+      "info_type": ["Repository"],
+      "category": "Structural Biology",
+      "SLL_service_area": ["Structural Biology"],
+      "study_type": ["Structural Biology", "Cryo-EM", "X-ray Crystallography", "NMR Spectroscopy"],
+      "data_type": ["Atomic Coordinates", "Structure Factors"]
+    },
+    {
+      "title": "PRIDE",
+      "description": "World-leading repository for proteomics data from mass spectrometry.",
+      "url": "https://www.ebi.ac.uk/pride",
+      "submission_guidelines": "https://www.ebi.ac.uk/pride/markdownpage/documentationpage",
+      "info_type": ["Repository"],
+      "category": "Proteomics",
+      "SLL_service_area": ["Proteomics"],
+      "study_type": ["Proteomics", "Single-cell Proteomics", "Spatial Omics", "Peptidomics"],
+      "data_type": ["Mass Spectra", "Protein Identifications", "Peptide Identifications"]
+    },
+    {
+      "title": "MetaboLights",
+      "description": "Repository for metabolomics studies, covering both small molecules and metabolite profiling.",
+      "url": "https://www.ebi.ac.uk/metabolights",
+      "submission_guidelines": "https://ebi-metabolights.github.io/guides/",
+      "info_type": ["Repository"],
+      "category": "Metabolomics",
+      "SLL_service_area": ["Metabolomics and Exposomics"],
+      "study_type": ["Metabolomics", "Lipidomics", "Environmental Metabolomics"],
+      "data_type": ["Mass Spectra", "NMR Spectra", "Metabolite Profiles"]
+    },
+    {
+      "title": "BioImage Archive",
+      "description": "Reference repository for biological imaging data, from cells to whole organisms.",
+      "url": "https://www.ebi.ac.uk/bioimage-archive",
+      "submission_guidelines": "https://www.ebi.ac.uk/bioimage-archive/submit/",
+      "info_type": ["Repository"],
+      "category": "Imaging",
+      "SLL_service_area": ["Cellular and Molecular Imaging"],
+      "study_type": ["BioImaging", "Spatial Omics", "Cell Biology", "Tissue Imaging"],
+      "data_type": ["Multiplexed Images", "Microscopy Images", "Volumes", "Video"]
+    },
+    {
+      "title": "BioStudies",
+      "description": "An integrative archive that holds data from multiple sources and provides supplemental data hosting.",
+      "url": "https://www.ebi.ac.uk/biostudies",
+      "submission_guidelines": "https://www.ebi.ac.uk/biostudies/submissions/help",
+      "info_type": ["Repository"],
+      "category": "General",
+      "SLL_service_area": ["Genomics", "Spatial Omics", "Cellular and Molecular Imaging"],
+      "study_type": ["Multimodal", "Multi Omics"],
+      "data_type": ["Experimental Metadata"]
+    },
+    {
+      "title": "BioSamples",
+      "description": "Central reference service for sample descriptions and metadata across all EBI repositories.",
+      "url": "https://www.ebi.ac.uk/biosamples",
+      "submission_guidelines": "https://read-docs-biosamples.readthedocs.io/en/latest/",
+      "info_type": ["Repository"],
+      "category": "General",
+      "SLL_service_area": ["Genomics", "Spatial Omics", "Cellular and Molecular Imaging"],
+      "study_type": ["Multimodal", "Multi Omics"],
+      "data_type": ["Experimental Metadata"]
+    },
+    {
+      "title": "MIxS",
+      "description": "Minimum Information about any (x) Sequence; ensures metadata standards for environmental sequencing.",
+      "url": "https://gensc.org/mixs/",
+      "info_type": ["Reporting guideline"],
+      "category": "Genomics",
+      "SLL_service_area": ["Genomics"],
+      "study_type": ["Genomics", "Metagenomics", "Multi Omics", "Single-cell RNA-Seq"],
+      "data_type": ["Raw Reads"]
+    },
+    {
+      "title": "MIAPE",
+      "description": "Minimum Information About a Proteomics Experiment; reporting rules for proteomics workflows.",
+      "url": "https://psidev.info/miape",
+      "info_type": ["Reporting guideline"],
+      "category": "Proteomics",
+      "SLL_service_area": ["Proteomics"],
+      "study_type": ["Proteomics", "Single-cell Proteomics", "Spatial Proteomics"],
+      "data_type": ["Mass Spectra", "Protein Identifications"]
+    },
+    {
+      "title": "MSI / CIMR",
+      "description": "Metabolomics Standards Initiative; Core Information for Metabolomics Reporting.",
+      "url": "http://www.metabolomics-msi.org/",
+      "info_type": ["Reporting guideline"],
+      "category": "Metabolomics",
+      "SLL_service_area": ["Metabolomics and Exposomics"],
+      "study_type": ["Metabolomics", "Lipidomics"],
+      "data_type": ["Metabolite Profiles", "Mass Spectra", "NMR Spectra"]
+    },
+    {
+      "title": "REMBI",
+      "description": "Recommended Metadata for Biological Images; a framework for FAIR imaging data.",
+      "url": "https://www.ebi.ac.uk/bioimage-archive/help-rembi",
+      "info_type": ["Reporting guideline"],
+      "category": "Imaging",
+      "SLL_service_area": ["Cellular and Molecular Imaging"],
+      "study_type": ["BioImaging", "Spatial Omics", "Cryo-EM", "Cell Biology"],
+      "data_type": ["Multiplexed Images", "Microscopy Images", "Volumes", "Raw Images"]
+    },
+    {
+      "title": "MIAME ",
+      "description": "Guidelines for microarray experiments.",
+      "url": "https://fged.org/standards/",
+      "info_type": ["Reporting guideline"],
+      "category": "Transcriptomics",
+      "SLL_service_area": ["Genomics"],
+      "study_type": ["Transcriptomics", "Epigenomics","Single-cell RNA-Seq"],
+      "data_type": ["Expression Matrices", "Count Tables", "Microarray Data"]
+    },
+    {
+      "title": "MINSEQE",
+      "description": "Guidelines for high-throughput sequencing experiments.",
+      "url": "https://fged.org/standards/",
+      "info_type": ["Reporting guideline"],
+      "category": "Transcriptomics",
+      "SLL_service_area": ["Genomics"],
+      "study_type": ["Transcriptomics", "Epigenomics","Single-cell RNA-Seq"],
+      "data_type": ["Expression Matrices", "Count Tables", "Raw Reads"]
+    },
+    {
+        "title": "ENA sample checklists",
+        "description": "Checklists for submitting samples to the European Nucleotide Archive.",
+        "url": "https://www.ebi.ac.uk/ena/browser/checklists",
+        "info_type": ["Metadata format"],
+        "category": "Genomics",
+        "SLL_service_area": ["Genomics"],
+        "study_type": ["Genomics", "Metagenomics", "Multi Omics", "Single-cell RNA-Seq"],
+        "data_type": ["Experimental Metadata"]
+    },
+    {
+      "title": "ISA-Tab",
+      "description": "Investigation/Study/Assay framework for multi-omics metadata.",
+      "url": "https://isa-tools.org/",
+      "info_type": ["Metadata format"],
+      "category": "Multi-omics",
+      "SLL_service_area": ["Metabolomics and Exposomics", "Spatial Omics"],
+      "study_type": ["Metabolomics", "Lipidomics","Transcriptomics", "Spatial Omics"],
+      "data_type": ["Experimental Metadata", "Expression Matrices", "Metabolite Profiles"]
+    },
+    {
+      "title": "SDRF-Proteomics",
+      "description": "The standardized format for describing proteomics sample-to-data relationships.",
+      "url": "https://github.com/bigbio/sdrf-proteomics",
+      "info_type": ["Metadata format"],
+      "category": "Proteomics",
+      "SLL_service_area": ["Proteomics"],
+      "study_type": ["Proteomics", "Single-cell Proteomics", "Spatial Proteomics"],
+      "data_type": ["Experimental Metadata", "Protein Identifications"]
+    },
+    {
+      "title": "PageTab",
+      "description": "A spreadsheet-based format for metadata and study structure in BioStudies.",
+      "url": "https://www.ebi.ac.uk/biostudies/help#pagetab",
+      "info_type": ["Metadata format"],
+      "category": "General",
+      "SLL_service_area": ["Spatial Omics", "Cellular and Molecular Imaging"],
+      "study_type": ["Multi Omics", "Multimodal"],
+      "data_type": ["Experimental Metadata"]
+    },
+    {
+      "title": "OME-TIFF (Open Microscopy Environment - Tagged Image File Format)",
+      "description": "Standards for high-dimensional, metadata-rich microscopy images.",
+      "url": "https://ome-model.readthedocs.io/en/stable/ome-tiff/specification.html",
+      "info_type": ["File format"],
+      "category": "Imaging",
+      "SLL_service_area": ["Spatial Omics", "Cellular and Molecular Imaging"],
+      "study_type": ["BioImaging", "Spatial Omics"],
+      "data_type": ["Images"]
+    },
+    {
+      "title": "OME-Zarr (Open Microscopy Environment - Zarr)",
+      "description": "Standards for high-dimensional, metadata-rich microscopy images.",
+      "url": "https://link.springer.com/article/10.1007/s00418-023-02209-1",
+      "info_type": ["File format"],
+      "category": "Imaging",
+      "SLL_service_area": ["Spatial Omics", "Cellular and Molecular Imaging"],
+      "study_type": ["BioImaging", "Spatial Omics"],
+      "data_type": ["Images"]
+    },
+    {
+      "title": "mmCIF",
+      "description": "Modern standard for macromolecular structure files, replacing PDB format.",
+      "url": "https://mmcif.wwpdb.org/",
+      "info_type": ["File format"],
+      "category": "Structural Biology",
+      "SLL_service_area": ["Structural Biology"],
+      "study_type": ["Structural Biology", "Cryo-EM"],
+      "data_type": ["Atomic Coordinates"]
+    },
+    {
+      "title": "FASTQ (FASTQ Sequence and Sequence Quality Format)",
+      "description": "The standard format for raw and compressed nucleotide sequences.",
+      "url": "https://samtools.github.io/hts-specs/",
+      "info_type": ["File format"],
+      "category": "Genomics",
+      "SLL_service_area": ["Genomics"],
+      "study_type": ["Genomics", "Single-cell Sequencing"],
+      "data_type": ["Raw Reads"]
+    },
+    {
+      "title": "BAM (Binary Alignment Map Format)",
+      "description": "The standard format for raw and compressed nucleotide sequences.",
+      "url": "https://samtools.github.io/hts-specs/",
+      "info_type": ["File format"],
+      "category": "Genomics",
+      "SLL_service_area": ["Genomics"],
+      "study_type": ["Genomics", "Single-cell Sequencing"],
+      "data_type": ["Raw Reads"]
+    },
+    {
+      "title": "FASTA (FASTA Sequence Format)",
+      "description": "Text-based file format for representing nucleotide sequences or peptide sequences, where each sequence is represented by a header line starting with '>' followed by the sequence data.",
+      "url": "https://samtools.github.io/hts-specs/",
+      "info_type": ["File format"],
+      "category": "Genomics",
+      "SLL_service_area": ["Genomics"],
+      "study_type": ["Genomics", "Single-cell Sequencing"],
+      "data_type": ["Raw Reads"]
+    },
+    {
+      "title": "EMBL format (ENA Annotated Assembly Flat File Format)",
+      "description": "This file format is used for storing nucleotide sequences and their associated annotations, providing a standardized way to represent genomic data in the European Nucleotide Archive (ENA) database.",
+      "url": "https://doi.org/10.25504/FAIRsharing.q9nh66",
+      "info_type": ["File format"],
+      "category": "Genomics",
+      "SLL_service_area": ["Genomics"],
+      "study_type": ["Genomics"],
+      "data_type": ["Assemblies", "Functional annotation"]
+    },
+    {
+      "title": "mzML",
+      "description": "Open standard for mass spectrometry data.",
+      "url": "https://www.psidev.info/mzML",
+      "info_type": ["File format"],
+      "category": "Mass Spectrometry",
+      "SLL_service_area": ["Proteomics", "Metabolomics and Exposomics"],
+      "study_type": ["Proteomics", "Metabolomics"],
+      "data_type": ["Mass Spectra"]
+    },
+    {
+      "title": "VCF",
+      "description": "Variant Call Format; the standard for storing genetic variation data.",
+      "url": "https://samtools.github.io/hts-specs/VCFv4.2.pdf",
+      "info_type": ["File format"],
+      "category": "Genomics",
+      "SLL_service_area": ["Genomics"],
+      "study_type": ["Genomics", "Population Genetics"],
+      "data_type": ["Genetic Variants"]
+    },
+    {
+        "title": "MRC / CCP4",
+        "description": "Standard file formats for electron microscopy and crystallography density maps.",
+        "url": "https://www.ccp4.ac.uk/html/maplib.html",
+        "info_type": ["File format"],
+        "category": "Structural Biology",
+        "SLL_service_area": ["Structural Biology"],
+        "study_type": ["Cryo-EM", "Electron Tomography"],
+        "data_type": ["Density Maps", "3D Volume Maps", "Tomograms"]
+    },
+    {
+      "title": "mzTab",
+      "description": "Standard format for reporting proteomics and metabolomics identification and quantification results.",
+      "url": "https://www.psidev.info/mzTab",
+      "info_type": ["File format"],
+      "category": "Proteomics",
+      "SLL_service_area": ["Proteomics", "Metabolomics and Exposomics"],
+      "study_type": ["Proteomics", "Metabolomics"],
+      "data_type": ["Protein Identifications", "Metabolite Profiles"]
+    },
+    {
+      "title": "mzIdentML",
+      "description": "Standard format for reporting peptide and protein identifications from mass spectrometry data.",
+      "url": "https://www.psidev.info/mzIdentML",
+      "info_type": ["File format"],
+      "category": "Proteomics",
+      "SLL_service_area": ["Proteomics"],
+      "study_type": ["Proteomics", "Single-cell Proteomics", "Spatial Proteomics"],
+      "data_type": ["Protein Identifications"]
+    }
+  ]
+}

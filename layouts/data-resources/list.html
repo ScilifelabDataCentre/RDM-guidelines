@@ -143,19 +143,21 @@ document.addEventListener('DOMContentLoaded', function () {
     const studySelect = document.getElementById('studyTypeSelect');
     const dataSelect = document.getElementById('dataTypeSelect');
     const checkboxes = document.querySelectorAll('.filter-checkbox');
-    const items = document.querySelectorAll('.resource-item');
+    const items = Array.from(document.querySelectorAll('.resource-item'));
     const noResults = document.getElementById('no-filtered-resource');
 
     function updateFilters() {
         const selectedStudy = studySelect.value;
         const selectedData = dataSelect.value;
+        
         const activeFilters = {
             info: Array.from(document.querySelectorAll('.info-filter:checked')).map(cb => cb.value),
-            data: Array.from(document.querySelectorAll('.data-filter:checked')).map(cb => cb.value),
             sll: Array.from(document.querySelectorAll('.sll-filter:checked')).map(cb => cb.value)
         };
 
         let visibleCount = 0;
+        
+        // 1. Filter the actual resource cards
         items.forEach(item => {
             const itemStudy = item.getAttribute('data-study').trim().split(/\s+/);
             const itemInfo = item.getAttribute('data-info').trim().split(/\s+/);
@@ -163,23 +165,63 @@ document.addEventListener('DOMContentLoaded', function () {
             const itemSll = item.getAttribute('data-sll').trim().split(/\s+/);
 
             const matchesStudy = (selectedStudy === 'all' || itemStudy.includes(selectedStudy));
-            const matchesInfo = activeFilters.info.length === 0 || activeFilters.info.some(val => itemInfo.includes(val));
             const matchesData = (selectedData === 'all' || itemData.includes(selectedData));
+            const matchesInfo = activeFilters.info.length === 0 || activeFilters.info.some(val => itemInfo.includes(val));
             const matchesSll = activeFilters.sll.length === 0 || activeFilters.sll.some(val => itemSll.includes(val));
 
-            if (matchesStudy && matchesInfo && matchesData && matchesSll) {
+            if (matchesStudy && matchesData && matchesInfo && matchesSll) {
                 item.style.display = 'block';
                 visibleCount++;
             } else {
                 item.style.display = 'none';
             }
         });
+
+        // 2. Cross-filter the dropdown options
+        updateDropdownOptions(selectedStudy, selectedData);
+
         noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+    }
+
+    function updateDropdownOptions(currentStudy, currentData) {
+        // Collect available types based on the OTHER dropdown's selection
+        let availableDataTypes = new Set();
+        let availableStudyTypes = new Set();
+
+        items.forEach(item => {
+            const itemStudies = item.getAttribute('data-study').trim().split(/\s+/);
+            const itemDatas = item.getAttribute('data-data').trim().split(/\s+/);
+
+            // If this item matches the selected Study, its Data Types are valid
+            if (currentStudy === 'all' || itemStudies.includes(currentStudy)) {
+                itemDatas.forEach(d => availableDataTypes.add(d));
+            }
+
+            // If this item matches the selected Data Type, its Study Types are valid
+            if (currentData === 'all' || itemDatas.includes(currentData)) {
+                itemStudies.forEach(s => availableStudyTypes.add(s));
+            }
+        });
+
+        // Update Data Type dropdown options
+        Array.from(dataSelect.options).forEach(opt => {
+            if (opt.value === 'all') return;
+            opt.style.display = availableDataTypes.has(opt.value) ? 'block' : 'none';
+        });
+
+        // Update Study Type dropdown options
+        Array.from(studySelect.options).forEach(opt => {
+            if (opt.value === 'all') return;
+            opt.style.display = availableStudyTypes.has(opt.value) ? 'block' : 'none';
+        });
     }
 
     studySelect.addEventListener('change', updateFilters);
     dataSelect.addEventListener('change', updateFilters);
     checkboxes.forEach(cb => cb.addEventListener('change', updateFilters));
+    
+    // Initial run to ensure everything is synced
+    updateFilters();
 });
 </script>
 

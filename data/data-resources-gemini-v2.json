@@ -5,7 +5,7 @@
     "Genomics", "Metagenomics", "Transcriptomics",
     "Human Research", "Clinical Genomics","Population Genetics", 
     "Single-cell RNA-Seq", "Evolutionary Biology", "Association Studies (GWAS)",
-    "Single-cell Sequencing", "Cryo-EM", "Soft X-ray Tomography", "Volume SEM", 
+    "Cryo-EM", "Soft X-ray Tomography", "Volume SEM", 
     "Electron Tomography", "Single Particle Analysis", "X-ray Crystallography",
     "Structural Biology", "Metabolomics", "Lipidomics",
     "Proteomics", "Single-cell Proteomics",
@@ -65,7 +65,7 @@
       "info_type": ["Repository"],
       "category": "Transcriptomics",
       "SLL_service_area": ["Genomics"],
-      "study_type": ["Transcriptomics", "Epigenomics", "Single-cell RNA-Seq", "Spatial Omics"],
+      "study_type": ["Genomics","Transcriptomics", "Epigenomics", "Single-cell RNA-Seq", "Spatial Omics"],
       "data_type": ["Expression Matrices", "Count Tables", "Raw Reads", "Microarray Data"]
     },
     {
@@ -315,7 +315,7 @@
       "info_type": ["File format"],
       "category": "Genomics",
       "SLL_service_area": ["Genomics"],
-      "study_type": ["Genomics", "Single-cell Sequencing"],
+      "study_type": ["Genomics", "Single-cell RNA-Seq"],
       "data_type": ["Raw Reads"]
     },
     {
@@ -325,7 +325,7 @@
       "info_type": ["File format"],
       "category": "Genomics",
       "SLL_service_area": ["Genomics"],
-      "study_type": ["Genomics", "Single-cell Sequencing"],
+      "study_type": ["Genomics", "Single-cell RNA-Seq"],
       "data_type": ["Raw Reads"]
     },
     {
@@ -335,7 +335,7 @@
       "info_type": ["File format"],
       "category": "Genomics",
       "SLL_service_area": ["Genomics"],
-      "study_type": ["Genomics", "Single-cell Sequencing"],
+      "study_type": ["Genomics", "Single-cell RNA-Seq"],
       "data_type": ["Raw Reads"]
     },
     {

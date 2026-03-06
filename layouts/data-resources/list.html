@@ -68,7 +68,7 @@
         {{ range where $data.items "info_type" "intersect" (slice $currentType) }}
         {{ $id := .title | urlize }}
           
-          <div class="col-md-4 resource-item" 
+          <div class="col-md-4 resource-item" style="display: none;"
                data-study="{{ range .study_type }}{{ . | urlize }} {{ end }}" 
                data-info="{{ range .info_type }}{{ . | urlize }} {{ end }}" 
                data-data="{{ range .data_type }}{{ . | urlize }} {{ end }}" 
@@ -149,16 +149,27 @@ document.addEventListener('DOMContentLoaded', function () {
     function updateFilters() {
         const selectedStudy = studySelect.value;
         const selectedData = dataSelect.value;
-        
-        const activeFilters = {
-            info: Array.from(document.querySelectorAll('.info-filter:checked')).map(cb => cb.value),
-            sll: Array.from(document.querySelectorAll('.sll-filter:checked')).map(cb => cb.value)
-        };
+        const activeInfoFilters = Array.from(document.querySelectorAll('.info-filter:checked')).map(cb => cb.value);
+        const activeSllFilters = Array.from(document.querySelectorAll('.sll-filter:checked')).map(cb => cb.value);
+
+        // Check if the user has actually interacted with any filter
+        const isAnythingSelected = (
+            selectedStudy !== 'all' || 
+            selectedData !== 'all' || 
+            activeInfoFilters.length > 0 || 
+            activeSllFilters.length > 0
+        ); 
 
         let visibleCount = 0;
         
         // 1. Filter the actual resource cards
         items.forEach(item => {
+          // If nothing is selected, force all items to stay hidden
+            if (!isAnythingSelected) {
+                item.style.display = 'none';
+                return;
+            }
+
             const itemStudy = item.getAttribute('data-study').trim().split(/\s+/);
             const itemInfo = item.getAttribute('data-info').trim().split(/\s+/);
             const itemData = item.getAttribute('data-data').trim().split(/\s+/);
@@ -166,9 +177,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
             const matchesStudy = (selectedStudy === 'all' || itemStudy.includes(selectedStudy));
             const matchesData = (selectedData === 'all' || itemData.includes(selectedData));
-            const matchesInfo = activeFilters.info.length === 0 || activeFilters.info.some(val => itemInfo.includes(val));
-            const matchesSll = activeFilters.sll.length === 0 || activeFilters.sll.some(val => itemSll.includes(val));
-
+            const matchesInfo = activeInfoFilters.length === 0 || activeInfoFilters.some(val => itemInfo.includes(val));
+            const matchesSll = activeSllFilters.length === 0 || activeSllFilters.some(val => itemSll.includes(val));
             if (matchesStudy && matchesData && matchesInfo && matchesSll) {
                 item.style.display = 'block';
                 visibleCount++;
@@ -180,7 +190,12 @@ document.addEventListener('DOMContentLoaded', function () {
         // 2. Cross-filter the dropdown options
         updateDropdownOptions(selectedStudy, selectedData);
 
-        noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+        // Show "No results" only if a selection was made but nothing matched
+        if (isAnythingSelected && visibleCount === 0) {
+            noResults.style.display = 'block';
+        } else {
+            noResults.style.display = 'none';
+        }
     }
 
     function updateDropdownOptions(currentStudy, currentData) {
@@ -219,9 +234,6 @@ document.addEventListener('DOMContentLoaded', function () {
     studySelect.addEventListener('change', updateFilters);
     dataSelect.addEventListener('change', updateFilters);
     checkboxes.forEach(cb => cb.addEventListener('change', updateFilters));
-    
-    // Initial run to ensure everything is synced
-    updateFilters();
 });
 </script>
 

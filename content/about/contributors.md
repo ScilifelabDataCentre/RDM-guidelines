@@ -21,7 +21,7 @@ The editorial group is responsible for moderating the content of the RDM Guideli
 
 ### Tasks of the editorial group:
 * Manage the GitHub repository and review, prioritise and assign issues
-* Provide timely feedback to suggestions or questions submitted through the contact form
+* Provide timely feedback to suggestions or questions sent in via email
 * Review content and validate links to external resources on a regular basis
 * Provide templates and guidelines for contributions
 * Ensure that contributors are acknowledged

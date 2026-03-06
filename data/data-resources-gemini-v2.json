@@ -10,9 +10,9 @@
     "Structural Biology", "Metabolomics", "Lipidomics",
     "Proteomics", "Single-cell Proteomics",
     "BioImaging", "Spatial Omics", "Cell Biology", "Tissue Imaging",
-    "Multi Omics","Multimodal"
+    "Multiomics","Multimodal"
   ],
-  "data_types": ["Raw reads", "Assemblies", "Functional Annotation", "Sensitive Raw Reads", 
+  "data_types": ["Raw Reads", "Assemblies", "Functional Annotation", "Sensitive Raw Reads", 
     "Controlled Access Data", "Expression Matrices", "Count Tables", 
     "Genetic Variants", "Genotypes", "Summary Statistics", 
     "Micrograph Movies", "Raw Particle Frames", "Tilt Series",
@@ -21,8 +21,8 @@
     "Experimental Metadata"
   ],
   "info_types": ["Repository", "Reporting guideline", "Metadata format", "File format"],
-  "SLL_service_areas":  ["Genomics", "Proteomics", "Metabolomics and Exposomics", "Structural Biology", "Cellular and Molecular Imaging", "Spatial Omics"],
-  "categories": ["Genomics", "Transcriptomics", "Structural Biology", "Proteomics", "Metabolomics", "Imaging", "General", "Multi-omics"],
+  "SLL_service_areas": ["Genomics", "Proteomics", "Metabolomics and Exposomics", "Structural Biology", "Cellular and Molecular Imaging", "Spatial Omics"],
+  "categories": ["Genomics", "Transcriptomics", "Structural Biology", "Proteomics", "Metabolomics", "Imaging", "General", "Multiomics"],
   "items": [
     {
       "title": "ENA (European Nucleotide Archive)",
@@ -164,7 +164,7 @@
       "info_type": ["Repository"],
       "category": "General",
       "SLL_service_area": ["Genomics", "Spatial Omics", "Cellular and Molecular Imaging"],
-      "study_type": ["Multimodal", "Multi Omics"],
+      "study_type": ["Multimodal", "Multiomics"],
       "data_type": ["Experimental Metadata"]
     },
     {
@@ -175,7 +175,7 @@
       "info_type": ["Repository"],
       "category": "General",
       "SLL_service_area": ["Genomics", "Spatial Omics", "Cellular and Molecular Imaging"],
-      "study_type": ["Multimodal", "Multi Omics"],
+      "study_type": ["Multimodal", "Multiomics"],
       "data_type": ["Experimental Metadata"]
     },
     {
@@ -185,7 +185,7 @@
       "info_type": ["Reporting guideline"],
       "category": "Genomics",
       "SLL_service_area": ["Genomics"],
-      "study_type": ["Genomics", "Metagenomics", "Multi Omics", "Single-cell RNA-Seq"],
+      "study_type": ["Genomics", "Metagenomics", "Multiomics", "Single-cell RNA-Seq"],
       "data_type": ["Raw Reads"]
     },
     {
@@ -245,17 +245,17 @@
         "info_type": ["Metadata format"],
         "category": "Genomics",
         "SLL_service_area": ["Genomics"],
-        "study_type": ["Genomics", "Metagenomics", "Multi Omics", "Single-cell RNA-Seq"],
+        "study_type": ["Genomics", "Metagenomics", "Multiomics", "Multimodal", "Single-cell RNA-Seq"],
         "data_type": ["Experimental Metadata"]
     },
     {
       "title": "ISA-Tab",
-      "description": "Investigation/Study/Assay framework for multi-omics metadata.",
+      "description": "Investigation/Study/Assay framework for multiomics metadata.",
       "url": "https://isa-tools.org/",
       "info_type": ["Metadata format"],
-      "category": "Multi-omics",
+      "category": "Multiomics",
       "SLL_service_area": ["Metabolomics and Exposomics", "Spatial Omics"],
-      "study_type": ["Metabolomics", "Lipidomics","Transcriptomics", "Spatial Omics"],
+      "study_type": ["Metabolomics", "Lipidomics","Transcriptomics", "Spatial Omics", "Multiomics", "Multimodal"],
       "data_type": ["Experimental Metadata", "Expression Matrices", "Metabolite Profiles"]
     },
     {
@@ -275,7 +275,7 @@
       "info_type": ["Metadata format"],
       "category": "General",
       "SLL_service_area": ["Spatial Omics", "Cellular and Molecular Imaging"],
-      "study_type": ["Multi Omics", "Multimodal"],
+      "study_type": ["Multiomics", "Multimodal"],
       "data_type": ["Experimental Metadata"]
     },
     {
@@ -335,8 +335,8 @@
       "info_type": ["File format"],
       "category": "Genomics",
       "SLL_service_area": ["Genomics"],
-      "study_type": ["Genomics", "Single-cell RNA-Seq"],
-      "data_type": ["Raw Reads"]
+      "study_type": ["Genomics"],
+      "data_type": ["Assemblies"]
     },
     {
       "title": "EMBL format (ENA Annotated Assembly Flat File Format)",
@@ -346,7 +346,7 @@
       "category": "Genomics",
       "SLL_service_area": ["Genomics"],
       "study_type": ["Genomics"],
-      "data_type": ["Assemblies", "Functional annotation"]
+      "data_type": ["Functional annotation"]
     },
     {
       "title": "mzML",

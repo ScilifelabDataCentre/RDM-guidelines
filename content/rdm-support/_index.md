@@ -33,17 +33,17 @@ menu:
   strategies for doing so in a Data Management Plan (DMP). SciLifeLab offers a DMP tool for life science data called Data Stewardship Wizard.
   <br></p>
   <a class="link-black" href="https://dsw.scilifelab.se" target="_blank"><b>Go to the Data Stewardship Wizard <i class="bi bi-box-arrow-up-right"></i></b></a>
-  <br/><br/>
+  <br/><br/><br/>
 
   <h3><b>Looking for training to cultivate skills?</b></h3><br>
   <p class="card-text">NBIS offers training and workshops on research data management and reproducibility as well as bioinformatics.
   <br></p>
   <a class="link-black" href="https://nbis.se/training" target="_blank"><b>Learn more about NBIS training <i class="bi bi-box-arrow-up-right"></i></b></a>
-  <br/><br/>
+  <br/><br/><br/>
 
   <h3><b>Want to publish data in a repository?</b></h3><br>
-  <p class="card-text">We can guide you in finding suitable discipline-specific repositories for publishing
-  your data. SciLifeLab Data Centre also maintains the SciLifeLab Data Repository, where data that can not be deposited in a discipline-specific repository can be published. It is also possible to publish metadata for data you cannot share openly.<br></p>
+  <p class="card-text">We can guide and help you with submitting your data to the relevant international data repositories. In cases where no suitable discipline-specific repository exist, the SciLifeLab Data Repository may be used.<br></p>
+  <a class="link-black" href="https://nbis.se/services/data-submission-support/apply" target="_blank"><b>Apply for data submission support  <i class="bi bi-box-arrow-up-right"></i></b></a><br>
   <a class="link-black" href="https://figshare.scilifelab.se" target="_blank"><b>Go to the SciLifeLab Data Repository <i class="bi bi-box-arrow-up-right"></i></b></a>
 </div>
 <br><br>

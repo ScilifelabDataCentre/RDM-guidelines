@@ -42,10 +42,9 @@ menu:
   <br/><br/><br/>
 
   <h3><b>Want to publish data in a repository?</b></h3><br>
-  <p class="card-text">We can guide you in finding suitable discipline-specific repositories for publishing your data. <br><br>
-  <a class="link-black" href="https://nbis.se/services/data-submission-support/apply" target="_blank"><b>Apply for data submission support  <i class="bi bi-box-arrow-up-right"></i></b></a><br><br>
-  SciLifeLab Data Centre also maintains the SciLifeLab Data Repository, where data that can not be deposited in a discipline-specific repository can be published. It is also possible to publish metadata for data you cannot share openly.<br></p>
-  <a class="link-black" href="https://figshare.scilifelab.se" target="_blank"><b>Go to the SciLifeLab Data Repository <i class="bi bi-box-arrow-up-right"></i></b></a></p>
+  <p class="card-text">We can guide you in finding suitable discipline-specific repositories for publishing your data. SciLifeLab Data Centre also maintains the SciLifeLab Data Repository, where data that can not be deposited in a discipline-specific repository can be published. It is also possible to publish metadata for data you cannot share openly.<br></p>
+  <a class="link-black" href="https://nbis.se/services/data-submission-support/apply" target="_blank"><b>Apply for data submission support  <i class="bi bi-box-arrow-up-right"></i></b></a><br>
+  <a class="link-black" href="https://figshare.scilifelab.se" target="_blank"><b>Go to the SciLifeLab Data Repository <i class="bi bi-box-arrow-up-right"></i></b></a>
 </div>
 <br><br>
 <div class="row mt-2">

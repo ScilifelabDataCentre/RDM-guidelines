@@ -18,5 +18,3 @@ This PR ...
 - [ ] Related Github issue is linked
 - [ ] Assignee is selected
 - [ ] Automated checks pass
-- [ ] Reviewer is selected when the PR is marked as ready for review
-

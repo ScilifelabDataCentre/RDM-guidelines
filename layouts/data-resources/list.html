@@ -7,7 +7,6 @@
 
 {{/* 2. Load the data from data/data-resources-gemini-v2.json */}}
 {{ $data := index .Site.Data "data-resources-gemini-v2" }}
-{{/* would be nice if the data types and study types were filtered if the other is selected, so that only possible data types for that study type was shown, and vice versa, i.e. if a data type is selected, only those study types that are relevant are shown to choose between */}}
 {{ with $data }}
 <div class="container-fluid mt-4">
   <div class="row">
@@ -56,12 +55,12 @@
 
     <div class="col-lg">
       <div class="row g-2" id="resource-container">
-        {{ range (slice "Repository" "Reporting guideline" "Metadata format" "File format") }}
+        {{ range (slice "Repository" "Metadata standard" "Metadata format" "File format") }}
           {{ $currentType := . }}
         {{/* Determine the color class based on type */}}
         {{ $colorClass := "" }}
         {{ if eq $currentType "Repository" }}{{ $colorClass = "repository" }}
-        {{ else if eq $currentType "Reporting guideline" }}{{ $colorClass = "metadata" }}
+        {{ else if eq $currentType "Metadata standard" }}{{ $colorClass = "metadata" }}
         {{ else if eq $currentType "Metadata format" }}{{ $colorClass = "metadata" }}
         {{ else }}{{ $colorClass = "fileformat" }}{{ end }}
 
@@ -69,10 +68,10 @@
         {{ $id := .title | urlize }}
           
           <div class="col-md-4 resource-item" style="display: none;"
-               data-study="{{ range .study_type }}{{ . | urlize }} {{ end }}" 
-               data-info="{{ range .info_type }}{{ . | urlize }} {{ end }}" 
-               data-data="{{ range .data_type }}{{ . | urlize }} {{ end }}" 
-               data-sll="{{ range .SLL_service_area }}{{ . | urlize }} {{ end }}">
+               d-study="{{ range .study_type }}{{ . | urlize }} {{ end }}" 
+               d-info="{{ range .info_type }}{{ . | urlize }} {{ end }}" 
+               d-data="{{ range .data_type }}{{ . | urlize }} {{ end }}" 
+               d-sll="{{ range .SLL_service_area }}{{ . | urlize }} {{ end }}">
             
             <div class="p-3 rounded border h-100 resource-card-tool">
                 <div class="resource-type-header bg-{{ $colorClass }}">
@@ -170,10 +169,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 return;
             }
 
-            const itemStudy = item.getAttribute('data-study').trim().split(/\s+/);
-            const itemInfo = item.getAttribute('data-info').trim().split(/\s+/);
-            const itemData = item.getAttribute('data-data').trim().split(/\s+/);
-            const itemSll = item.getAttribute('data-sll').trim().split(/\s+/);
+            const itemStudy = item.getAttribute('d-study').trim().split(/\s+/);
+            const itemInfo = item.getAttribute('d-info').trim().split(/\s+/);
+            const itemData = item.getAttribute('d-data').trim().split(/\s+/);
+            const itemSll = item.getAttribute('d-sll').trim().split(/\s+/);
 
             const matchesStudy = (selectedStudy === 'all' || itemStudy.includes(selectedStudy));
             const matchesData = (selectedData === 'all' || itemData.includes(selectedData));
@@ -204,8 +203,8 @@ document.addEventListener('DOMContentLoaded', function () {
         let availableStudyTypes = new Set();
 
         items.forEach(item => {
-            const itemStudies = item.getAttribute('data-study').trim().split(/\s+/);
-            const itemDatas = item.getAttribute('data-data').trim().split(/\s+/);
+            const itemStudies = item.getAttribute('d-study').trim().split(/\s+/);
+            const itemDatas = item.getAttribute('d-data').trim().split(/\s+/);
 
             // If this item matches the selected Study, its Data Types are valid
             if (currentStudy === 'all' || itemStudies.includes(currentStudy)) {

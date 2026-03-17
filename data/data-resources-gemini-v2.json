@@ -12,7 +12,7 @@
     "BioImaging", "Spatial Omics", "Cell Biology", "Tissue Imaging",
     "Multiomics","Multimodal"
   ],
-  "data_types": ["Raw Reads", "Assemblies", "Functional Annotation", "Sensitive Raw Reads", 
+  "data_types": ["Raw Reads", "Assemblies", "Sensitive Raw Reads", 
     "Controlled Access Data", "Expression Matrices", "Count Tables", 
     "Genetic Variants", "Genotypes", "Summary Statistics", 
     "Micrograph Movies", "Raw Particle Frames", "Tilt Series",
@@ -20,7 +20,7 @@
     "Structure Factors", "Mass Spectra", "NMR Spectra", "Metabolite Profiles", "Images",
     "Experimental Metadata"
   ],
-  "info_types": ["Repository", "Reporting guideline", "Metadata format", "File format"],
+  "info_types": ["Repository", "Metadata standard", "Metadata format", "File format"],
   "SLL_service_areas": ["Genomics", "Proteomics", "Metabolomics and Exposomics", "Structural Biology", "Cellular and Molecular Imaging", "Spatial Omics"],
   "categories": ["Genomics", "Transcriptomics", "Structural Biology", "Proteomics", "Metabolomics", "Imaging", "General", "Multiomics"],
   "items": [
@@ -33,7 +33,7 @@
       "category": "Genomics",
       "SLL_service_area": ["Genomics"],
       "study_type": ["Genomics", "Metagenomics", "Spatial Omics"],
-      "data_type": ["Raw Reads", "Assemblies", "Functional Annotation"]
+      "data_type": ["Raw Reads", "Assemblies"]
     },
     {
       "title": "EGA (European Genome-phenome Archive)",
@@ -87,7 +87,7 @@
       "info_type": ["Repository"],
       "category": "Genomics",
       "SLL_service_area": ["Genomics"],
-      "study_type": ["Association Studies (GWAS)", "Statistical Genetics"],
+      "study_type": ["Genomics","Association Studies (GWAS)", "Statistical Genetics"],
       "data_type": ["Summary Statistics", "Association Results"]
     },
     {
@@ -142,7 +142,7 @@
       "info_type": ["Repository"],
       "category": "Metabolomics",
       "SLL_service_area": ["Metabolomics and Exposomics"],
-      "study_type": ["Metabolomics", "Lipidomics", "Environmental Metabolomics"],
+      "study_type": ["Metabolomics", "Lipidomics"],
       "data_type": ["Mass Spectra", "NMR Spectra", "Metabolite Profiles"]
     },
     {
@@ -182,27 +182,27 @@
       "title": "MIxS",
       "description": "Minimum Information about any (x) Sequence; ensures metadata standards for environmental sequencing.",
       "url": "https://gensc.org/mixs/",
-      "info_type": ["Reporting guideline"],
+      "info_type": ["Metadata standard"],
       "category": "Genomics",
       "SLL_service_area": ["Genomics"],
       "study_type": ["Genomics", "Metagenomics", "Multiomics", "Single-cell RNA-Seq"],
-      "data_type": ["Raw Reads"]
+      "data_type": ["Raw Reads", "Experimental Metadata"]
     },
     {
       "title": "MIAPE",
       "description": "Minimum Information About a Proteomics Experiment; reporting rules for proteomics workflows.",
       "url": "https://psidev.info/miape",
-      "info_type": ["Reporting guideline"],
+      "info_type": ["Metadata standard"],
       "category": "Proteomics",
       "SLL_service_area": ["Proteomics"],
-      "study_type": ["Proteomics", "Single-cell Proteomics", "Spatial Proteomics"],
+      "study_type": ["Proteomics", "Single-cell Proteomics"],
       "data_type": ["Mass Spectra", "Protein Identifications"]
     },
     {
       "title": "MSI / CIMR",
       "description": "Metabolomics Standards Initiative; Core Information for Metabolomics Reporting.",
       "url": "http://www.metabolomics-msi.org/",
-      "info_type": ["Reporting guideline"],
+      "info_type": ["Metadata standard"],
       "category": "Metabolomics",
       "SLL_service_area": ["Metabolomics and Exposomics"],
       "study_type": ["Metabolomics", "Lipidomics"],
@@ -212,7 +212,7 @@
       "title": "REMBI",
       "description": "Recommended Metadata for Biological Images; a framework for FAIR imaging data.",
       "url": "https://www.ebi.ac.uk/bioimage-archive/help-rembi",
-      "info_type": ["Reporting guideline"],
+      "info_type": ["Metadata standard"],
       "category": "Imaging",
       "SLL_service_area": ["Cellular and Molecular Imaging"],
       "study_type": ["BioImaging", "Spatial Omics", "Cryo-EM", "Cell Biology"],
@@ -222,7 +222,7 @@
       "title": "MIAME ",
       "description": "Guidelines for microarray experiments.",
       "url": "https://fged.org/standards/",
-      "info_type": ["Reporting guideline"],
+      "info_type": ["Metadata standard"],
       "category": "Transcriptomics",
       "SLL_service_area": ["Genomics"],
       "study_type": ["Transcriptomics", "Epigenomics","Single-cell RNA-Seq"],
@@ -232,7 +232,7 @@
       "title": "MINSEQE",
       "description": "Guidelines for high-throughput sequencing experiments.",
       "url": "https://fged.org/standards/",
-      "info_type": ["Reporting guideline"],
+      "info_type": ["Metadata standard"],
       "category": "Transcriptomics",
       "SLL_service_area": ["Genomics"],
       "study_type": ["Transcriptomics", "Epigenomics","Single-cell RNA-Seq"],
@@ -249,6 +249,16 @@
         "data_type": ["Experimental Metadata"]
     },
     {
+      "title": "Webin-CLI manifest format",
+      "description": "Manifest format for submitting sequencing and assembly data to ENA using Webin-CLI.",
+      "url": "https://www.ebi.ac.uk/ena/browser/webin-cli",
+      "info_type": ["Metadata format"],
+      "category": "Genomics",
+      "SLL_service_area": ["Genomics"],
+      "study_type": ["Genomics", "Metagenomics", "Multiomics", "Multimodal", "Single-cell RNA-Seq"],
+      "data_type": ["Experimental Metadata"]
+    },
+    {
       "title": "ISA-Tab",
       "description": "Investigation/Study/Assay framework for multiomics metadata.",
       "url": "https://isa-tools.org/",
@@ -259,13 +269,13 @@
       "data_type": ["Experimental Metadata", "Expression Matrices", "Metabolite Profiles"]
     },
     {
-      "title": "SDRF-Proteomics",
+      "title": "SDRF (Sample and Data Relationship Format) for Proteomics",
       "description": "The standardized format for describing proteomics sample-to-data relationships.",
       "url": "https://github.com/bigbio/sdrf-proteomics",
       "info_type": ["Metadata format"],
       "category": "Proteomics",
       "SLL_service_area": ["Proteomics"],
-      "study_type": ["Proteomics", "Single-cell Proteomics", "Spatial Proteomics"],
+      "study_type": ["Proteomics", "Single-cell Proteomics"],
       "data_type": ["Experimental Metadata", "Protein Identifications"]
     },
     {
@@ -346,7 +356,7 @@
       "category": "Genomics",
       "SLL_service_area": ["Genomics"],
       "study_type": ["Genomics"],
-      "data_type": ["Functional annotation"]
+      "data_type": ["Assemblies"]
     },
     {
       "title": "mzML",
@@ -369,6 +379,16 @@
       "data_type": ["Genetic Variants"]
     },
     {
+      "title": "GWAS summary statistics format",
+      "description": "Standard format for reporting summary-level data from Genome-Wide Association Studies.",
+      "url": "https://www.ebi.ac.uk/gwas/",
+      "info_type": ["File format"],
+      "category": "Genomics",
+      "SLL_service_area": ["Genomics"],
+      "study_type": ["Genomics","Association Studies (GWAS)", "Statistical Genetics"],
+      "data_type": ["Summary Statistics", "Association Results"]
+    },
+    {
         "title": "MRC / CCP4",
         "description": "Standard file formats for electron microscopy and crystallography density maps.",
         "url": "https://www.ccp4.ac.uk/html/maplib.html",
@@ -380,7 +400,7 @@
     },
     {
       "title": "mzTab",
-      "description": "Standard format for reporting proteomics and metabolomics identification and quantification results.",
+      "description": "Standard result file format for reporting proteomics and metabolomics identification and quantification results.",
       "url": "https://www.psidev.info/mzTab",
       "info_type": ["File format"],
       "category": "Proteomics",
@@ -389,14 +409,44 @@
       "data_type": ["Protein Identifications", "Metabolite Profiles"]
     },
     {
-      "title": "mzIdentML",
-      "description": "Standard format for reporting peptide and protein identifications from mass spectrometry data.",
+      "title": "mzIdentML (.mzid)",
+      "description": "Standard result file format for reporting peptide and protein identifications from mass spectrometry data.",
       "url": "https://www.psidev.info/mzIdentML",
       "info_type": ["File format"],
       "category": "Proteomics",
       "SLL_service_area": ["Proteomics"],
-      "study_type": ["Proteomics", "Single-cell Proteomics", "Spatial Proteomics"],
+      "study_type": ["Proteomics", "Single-cell Proteomics", "Metabolomics"],
       "data_type": ["Protein Identifications"]
+    },
+    {
+      "title": ".RAW",
+      "description": "Proprietary file format for raw mass spectrometry data generated by Thermo Fisher Scientific instruments.",
+      "url": "https://www.thermofisher.com/",
+      "info_type": ["File format"],
+      "category": "Proteomics",
+      "SLL_service_area": ["Proteomics", "Metabolomics and Exposomics"],
+      "study_type": ["Proteomics", "Metabolomics", "Single-cell Proteomics"],
+      "data_type": ["Mass Spectra"]
+    },
+    {
+        "title": ".BAF (Bruker Analysis File)",
+        "description": "Proprietary file format for raw mass spectrometry data generated by Bruker instruments.",
+        "url": "https://www.bruker.com/",
+        "info_type": ["File format"],
+        "category": "Proteomics",
+        "SLL_service_area": ["Proteomics"],
+        "study_type": ["Proteomics", "Single-cell Proteomics"],
+        "data_type": ["Mass Spectra"]
+    },
+    {
+        "title": ".D (Agilent MassHunter Data Format)",
+        "description": "Proprietary file format for raw mass spectrometry data generated by Agilent instruments.",
+        "url": "https://www.agilent.com/",
+        "info_type": ["File format"],
+        "category": "Proteomics",
+        "SLL_service_area": ["Proteomics", "Metabolomics and Exposomics"],
+        "study_type": ["Proteomics", "Metabolomics", "Single-cell Proteomics"],
+        "data_type": ["Mass Spectra"]
     }
   ]
 }

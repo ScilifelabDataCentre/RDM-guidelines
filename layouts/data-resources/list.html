@@ -65,7 +65,7 @@
         {{ else }}{{ $colorClass = "fileformat" }}{{ end }}
 
         {{ range where $data.items "info_type" "intersect" (slice $currentType) }}
-        {{ $id := .title | urlize }}
+        {{ $id := .title |  anchorize }}
           
           <div class="col-md-4 resource-item" style="display: none;"
                d-study="{{ range .study_type }}{{ . | urlize }} {{ end }}" 

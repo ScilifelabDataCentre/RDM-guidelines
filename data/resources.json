@@ -675,7 +675,7 @@
             "phase": ["Share"],
             "topic": ["Sharing human data"],
             "level": ["Basic"],
-            "url": "https://snd.se/en/describe-share-data/share-data-step-step/1-preparations/sharing-data-personal-information",
+            "url": "https://snd.se/en/doris-researchers/data-personal-information-doris",
             "description": "Swedish National Data Service (SND) guidance on sharing data with personal information in DORIS.",
             "provider": ["SND"]
         }, 
@@ -715,6 +715,18 @@
             "url": "https://www.protocols.io/",
             "description": "A secure platform for developing and sharing reproducible methods.",
             "provider": ["protocols.io"]
+        },
+        {
+            "title": "SciLifeLab Protocols",
+            "short_title": "SciLifeLab Protocols",
+            "target": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["SciLifeLab Protocols","protocols.io", "collaborate", "protocol", "reproducible"],
+            "phase": ["Analyse", "Process", "Share"],
+            "level": ["Basic"],
+            "url": "https://www.scilifelab.se/data-ai/protocols/",
+            "description": "The SciLifeLab Protocols, powered by protocols.io premium licence provides life science researchers in Sweden with enhanced tools for creating, sharing, and publishing research methods and protocols.",
+            "provider": ["SciLifeLab"]
         },
         {
             "title": "Infectious Diseases Toolkit on Data analysis",
@@ -1174,7 +1186,7 @@
             "search_tags": ["KI Data Repository","repository","storage","share","institutional repository"],
             "phase": ["Share"],
             "level": ["Basic"],
-            "url": "https://kib.ki.se/en/publish-analyse/publish-and-share-research-data/doris-publish-and-share-your-research-data",
+            "url": "https://kib.ki.se/en/publish-analyse/publish-and-share-research-data/ki-data-repository",
             "description": "KI Data Repository is a data repository where Karolinska Institutet's (KI's) researchers can store, publish and share data.",
             "provider":  ["KI"]
         },

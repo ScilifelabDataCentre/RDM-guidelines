@@ -46,7 +46,7 @@ AIDA Data Hub platform is part of the <a href="https://medtech4health.se/aida/" 
 
 ### Swedish National Data Service (SND)
 
-Some organisations have signed agreements with SND, allowing for researchers to share datasets containing personal information using SND's tool DORIS. For more information, please visit <a href="https://snd.se/en/doris-researchers/describe-and-share-data-doris/data-personal-information-doris" target="_blank">Data with personal information in DORIS</a>. 
+Some organisations have signed agreements with SND, allowing for researchers to share datasets containing personal information using SND's tool DORIS. For more information, please visit <a href="https://snd.se/en/doris-researchers/data-personal-information-doris" target="_blank">Data with personal information in DORIS</a>. 
 
 ## If data cannot be deposited in a repository
 
@@ -91,9 +91,7 @@ To let us handle access requests to your data, you need to take the following st
 6. When a user has been approved for access, SciLifeLab Data Centre will document the processing and arrange for the physical file access. The physical file access will be that you, as a PI, copies the dataset from your Bianca project space, to the specified project space of the approved applicant. Because of NAISS user policy, only PIs at a Swedish academic institution can have a project at Bianca. So to share data with a collaborator outside Sweden, the PI in Sweden needs to have applied for a project at Bianca. Please see the <a href="https://docs.uppmax.uu.se/cluster_guides/bianca/" target="_blank">Bianca user guide</a> for information on how to do this.
 7. SciLifeLab Data Centre will keep track of current and expired approvals.
 
-If you need any help connected to data submission, please contact us!
-
-<a class= "link-teal" href="/contact/"><b>Contact form to get support <i class="bi bi-arrow-right-square"></i></b></a>
+If you need any help connected to data submission, please contact us by emailing [data-management@scilifelab.se](mailto:data-management@scilifelab.se).
 
 ## Resources
 Please find below resources concerning research involving human data in form of training, guidance and/or tools.

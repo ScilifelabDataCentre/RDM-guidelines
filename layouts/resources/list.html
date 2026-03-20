@@ -297,7 +297,7 @@
     if (selected_level.length) { selected_filters['data-level'] = selected_level };
   
     var search_text = $("div.tab-pane.active input[type=text]").val().toLowerCase();
-    if (search_text.length){ selected_filters['data-search-tags'] = [search_text] };
+    if (search_text.length){ selected_filters['search-text'] = [search_text] };
 
     // Hide all resources before filtering
     $(`div.tab-pane.active div.resource`).hide();
@@ -306,16 +306,30 @@
     // Show relavant resources based on selected criteria
     if (!Object.keys(selected_filters).length) {
       $("div.tab-pane.active div.resource").show();
-    } else {
+    } 
+    else {
       var all_selected_resources = [];
       // Iterate over all selected criteria and collect the resources
       for (var [filter_name, filter_list] of Object.entries(selected_filters)) {
         var r_resources = new Set;
-        filter_list.forEach(function (filter_value) {
-          $(`div.tab-pane.active div.resource[${filter_name}*=${filter_value}]`).each(function () { r_resources.add(this); });
-        });
+        if (filter_name === 'search-text') {
+           $("div.tab-pane.active div.resource").each(function () {
+            var tags = ($(this).attr("data-search-tags") || "").toLowerCase();
+            var name = ($(this).attr("data-name") || "").toLowerCase();
+            if (tags.includes(filter_list) || name.includes(filter_list)) {
+              r_resources.add(this);
+            }
+          });
+        } 
+        else {
+          filter_list.forEach(function (val) {
+            $(`div.tab-pane.active div.resource[${filter_name}*=${val}]`).each(function () { 
+              r_resources.add(this); 
+            });
+          });
+        }
         all_selected_resources.push(r_resources);
-      };
+      }
       // When multiple criteria selected it should act as AND not OR
       selected_resources = all_selected_resources.reduce(function (x, y) {
         var z = new Set;

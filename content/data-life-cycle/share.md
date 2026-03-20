@@ -296,7 +296,7 @@ A general-purpose data repository is an appropriate choice only if the data does
   In DORIS (the Swedish National Data Service's (SND) Data Organisation and Information System) you can describe and share research data from all disciplines. By using DORIS, well-documented data are shared in a way that fulfils the FAIR principles.
   </span>
   <br>
-  <a class="link-teal" href="https://snd.se/en/doris-researchers/describe-and-share-data-doris" target="_blank"><b>Visit DORIS <i class="bi bi-box-arrow-up-right"></i></b></a>
+  <a class="link-teal" href="https://snd.se/en/doris-researchers/describe-data-doris" target="_blank"><b>Visit DORIS <i class="bi bi-box-arrow-up-right"></i></b></a>
   </div>
   <br>
 </div>
@@ -361,9 +361,8 @@ If you are a researcher at a Swedish academic institution operating in the life 
 * Advice on what needs to be done when working with sensitive human data
 * Advice on describing data with proper metadata
 
-If you need any help connected to data submission, please contact us!
+If you need any help connected to data submission, please contact us by emailing [data-management@scilifelab.se](mailto:data-management@scilifelab.se).  
 
-<a class= "link-teal" href="/contact/"><b>Contact form to get support <i class="bi bi-arrow-right-square"></i></b></a>
 
 ## Resources
 Please find below resources concerning the research data life cycle phase share in form of training, guidance and/or tools.

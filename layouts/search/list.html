@@ -24,7 +24,7 @@
   </div>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/7.0.0/fuse.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/7.1.0/fuse.min.js"></script>
 {{ $search_js := resources.Get "js/search.js" | minify | fingerprint "md5" }}
 <script src="{{ $search_js.RelPermalink }}" defer></script>
 

@@ -8,7 +8,7 @@
     "Cryo-EM", "Soft X-ray Tomography", "Volume SEM", 
     "Electron Tomography", "Single Particle Analysis", "X-ray Crystallography",
     "Structural Biology", "Metabolomics", "Lipidomics",
-    "Proteomics", "Single-cell Proteomics",
+    "Proteomics", "Targeted Proteomics", "Single-cell Proteomics", "Peptidomics",
     "BioImaging", "Spatial Omics", "Cell Biology", "Tissue Imaging",
     "Multiomics","Multimodal"
   ],
@@ -18,7 +18,7 @@
     "Micrograph Movies", "Raw Particle Frames", "Tilt Series",
     "3D Volume Maps", "Masks", "Atomic Coordinates", "Protein Identifications",
     "Structure Factors", "Mass Spectra", "NMR Spectra", "Metabolite Profiles", "Images",
-    "Experimental Metadata"
+    "Experimental Metadata", "SRM/MRM Mass Spectra", "Peptide Identifications"
   ],
   "info_types": ["Repository", "Metadata standard", "Metadata format", "File format"],
   "SLL_service_areas": ["Genomics", "Proteomics", "Metabolomics and Exposomics", "Structural Biology", "Cellular and Molecular Imaging", "Spatial Omics"],
@@ -26,7 +26,7 @@
   "items": [
     {
       "title": "ENA (European Nucleotide Archive)",
-      "description": "Comprehensive archive for all types of nucleotide sequence data, from raw reads to assemblies.",
+      "description": "",
       "url": "https://www.ebi.ac.uk/ena",
       "submission_guidelines": "https://ena-docs.readthedocs.io/en/latest/",
       "info_type": ["Repository"],
@@ -37,7 +37,7 @@
     },
     {
       "title": "EGA (European Genome-phenome Archive)",
-      "description": "Secure archive for all types of sequence and phenotype data resulting from human biomedical research.",
+      "description": "European Genome-phenome Archive (EGA) is a service for sharing personally identifiable [genetic](/topics/gdpr-ethical-review-glossary/#genetic-data) and phenotypic data resulting from biomedical research projects. The repository is hosted by the European Bioinformatics Institute (EMBL-EBI) and the Centre for Genomic Regulation (CRG). Any data submitted to the repository is subject to controlled access, which means that access to the data only will be granted after a formal application procedure.",
       "url": "https://ega-archive.org",
       "submission_guidelines": "https://ega-archive.org/submission/metadata/submission/sequencing-phenotype/submitter-portal/",
       "info_type": ["Repository"],
@@ -48,7 +48,7 @@
     },
     {
       "title": "FEGA (Federated European Genome-phenome Archive) Sweden",
-      "description": "Secure archive for all types of sequence and phenotype data resulting from human biomedical research.",
+      "description": "FEGA Sweden is a repository for storing and sharing personally identifiable [genetic](/topics/gdpr-ethical-review-glossary/#genetic-data) and phenotypic data in Sweden in a way that meets the requirements of the [General Data Protection Regulation (GDPR)](/topics/gdpr-ethical-review-glossary/#gdpr-general-data-protection-regulation). It is part of the [Federated European Genome-phenome Archive](https://ega-archive.org/about/projects-and-funders/federated-ega/), which is a network consisting of several national nodes and the European Genome-phenome Archive (EGA). Researchers can create a submission request by filling in a form on the website.",
       "url": "https://fega.nbis.se",
       "submission_guidelines": "https://fega.nbis.se/submission/",
       "info_type": ["Repository"],
@@ -59,7 +59,7 @@
     },
     {
       "title": "ArrayExpress",
-      "description": "Functional genomics archive for transcriptomics and epigenomics, now integrated with BioStudies.",
+      "description": "ArrayExpress is tightly integrated with ENA and similar to NCBI’s Gene Expression Omnibus database it can be used to archive experimental designs and analysis files based on the raw sequence reads. ArrayExpress has its own submission portal, [Annotare](https://www.ebi.ac.uk/fg/annotare/login/), where information is available on what can be submitted and how.",
       "url": "https://www.ebi.ac.uk/biostudies/arrayexpress",
       "submission_guidelines": "https://www.ebi.ac.uk/fg/annotare/help/index.html",
       "info_type": ["Repository"],
@@ -125,7 +125,7 @@
     },
     {
       "title": "PRIDE",
-      "description": "World-leading repository for proteomics data from mass spectrometry.",
+      "description": "PRIDE admits protein and peptide identification/quantification data with the accompanying mass spectra evidence and any other related data types. Various types of proteomics experiments are accepted, including single-cell proteomics, spatial omics, and peptidomics. The repository is part of the [ProteomeXchange consortium](http://www.proteomexchange.org/). Submission is done using the [PRIDE Submission Tool](https://www.ebi.ac.uk/pride/markdownpage/pride-submission-tool).",
       "url": "https://www.ebi.ac.uk/pride",
       "submission_guidelines": "https://www.ebi.ac.uk/pride/markdownpage/documentationpage",
       "info_type": ["Repository"],
@@ -135,8 +135,19 @@
       "data_type": ["Mass Spectra", "Protein Identifications", "Peptide Identifications"]
     },
     {
+      "title": "PeptideAtlas",
+      "description": "PeptideAtlas admits SRM/MRM (Selected reaction monitoring/Multiple reaction monitoring) data that does not fit into PRIDE (targeted datasets). Submission is done via [PASSEL](http://www.peptideatlas.org/passel/).",
+      "url": "http://www.peptideatlas.org/",
+      "submission_guidelines": "http://www.peptideatlas.org/passel/",
+      "info_type": ["Repository"],
+      "category": "Proteomics",
+      "SLL_service_area": ["Proteomics"],
+      "study_type": ["Proteomics", "Targeted Proteomics"],
+      "data_type": ["SRM/MRM Mass Spectra", "Protein Identifications"]
+    },
+    {
       "title": "MetaboLights",
-      "description": "Repository for metabolomics studies, covering both small molecules and metabolite profiling.",
+      "description": "MetaboLights is a database for Metabolomics experiments and derived information. The database is cross-species, cross-technique and covers metabolite structures and their reference spectra as well as their biological roles, locations and concentrations, and experimental data from metabolic experiments.",
       "url": "https://www.ebi.ac.uk/metabolights",
       "submission_guidelines": "https://ebi-metabolights.github.io/guides/",
       "info_type": ["Repository"],
@@ -240,7 +251,7 @@
     },
     {
         "title": "ENA sample checklists",
-        "description": "Checklists for submitting samples to the European Nucleotide Archive.",
+        "description": "",
         "url": "https://www.ebi.ac.uk/ena/browser/checklists",
         "info_type": ["Metadata format"],
         "category": "Genomics",
@@ -367,6 +378,16 @@
       "SLL_service_area": ["Proteomics", "Metabolomics and Exposomics"],
       "study_type": ["Proteomics", "Metabolomics"],
       "data_type": ["Mass Spectra"]
+    },
+    {
+      "title": "TraML",
+      "description": "Standard format for targeted mass spectrometry data, including SRM/MRM results.",
+      "url": "https://www.psidev.info/TraML",
+      "info_type": ["File format"],
+      "category": "Mass Spectrometry",
+      "SLL_service_area": ["Proteomics"],
+      "study_type": ["Proteomics", "Targeted Proteomics"],
+      "data_type": ["SRM/MRM Mass Spectra"]
     },
     {
       "title": "VCF",

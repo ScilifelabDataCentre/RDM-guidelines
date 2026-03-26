@@ -10,7 +10,6 @@
 {{ with $data }}
 <div class="container-fluid mt-4">
   <div class="row">
-    
     <div class="col-lg-2 mb-2 mb-lg-0 pe-lg-0">
       <div class="resources-search-filter">Study type</div>
       <div class="mb-4">
@@ -50,6 +49,11 @@
           <label class="form-check-label" for="sll-{{ . | urlize }}">{{ . }}</label>
         </div>
         {{ end }}
+      </div>
+      <div class="mb-3">
+        <button id="clearFiltersBtn" class="btn btn-teal" style="display:none;">
+          <i class="bi bi-x-circle"></i> Clear All Filters
+        </button>
       </div>
     </div>
 
@@ -144,6 +148,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const checkboxes = document.querySelectorAll('.filter-checkbox');
     const items = Array.from(document.querySelectorAll('.resource-item'));
     const noResults = document.getElementById('no-filtered-resource');
+    const clearBtn = document.getElementById('clearFiltersBtn');
 
     function applyURLFilters() {
         const urlParams = new URLSearchParams(window.location.search);
@@ -173,7 +178,7 @@ document.addEventListener('DOMContentLoaded', function () {
             });
         }
     }
-    
+
     function updateFilters() {
         const selectedStudy = studySelect.value;
         const selectedData = dataSelect.value;
@@ -187,6 +192,8 @@ document.addEventListener('DOMContentLoaded', function () {
             activeInfoFilters.length > 0 || 
             activeSllFilters.length > 0
         ); 
+        // Show or hide the Clear button based on selection
+        clearBtn.style.display = isAnythingSelected ? 'block' : 'none';
 
         let visibleCount = 0;
         
@@ -207,6 +214,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const matchesData = (selectedData === 'all' || itemData.includes(selectedData));
             const matchesInfo = activeInfoFilters.length === 0 || activeInfoFilters.some(val => itemInfo.includes(val));
             const matchesSll = activeSllFilters.length === 0 || activeSllFilters.some(val => itemSll.includes(val));
+
             if (matchesStudy && matchesData && matchesInfo && matchesSll) {
                 item.style.display = 'block';
                 visibleCount++;
@@ -258,6 +266,24 @@ document.addEventListener('DOMContentLoaded', function () {
             opt.style.display = availableStudyTypes.has(opt.value) ? 'block' : 'none';
         });
     }
+
+    function resetFilters() {
+        // Reset Dropdowns
+        studySelect.value = 'all';
+        dataSelect.value = 'all';
+        
+        // Uncheck all checkboxes
+        checkboxes.forEach(cb => cb.checked = false);
+        
+        // Clean the URL (remove query parameters) without reloading the page
+        const newUrl = window.location.pathname;
+        window.history.pushState({}, '', newUrl);
+        
+        // Refresh the list
+        updateFilters();
+    }
+
+    clearBtn.addEventListener('click', resetFilters);
 
     applyURLFilters(); // 1. Read URL and set the UI elements
     updateFilters();   // 2. Run the filter logic based on those elements

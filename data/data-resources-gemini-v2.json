@@ -43,7 +43,7 @@
       "info_type": ["Repository"],
       "category": "Genomics",
       "SLL_service_area": ["Genomics"],
-      "study_type": ["Human Research", "Clinical Genomics", "Precision Medicine"],
+      "study_type": ["Genomics","Human Research", "Clinical Genomics", "Precision Medicine"],
       "data_type": ["Raw Reads", "Genotypes","Controlled Access Data"]
     },
     {
@@ -54,7 +54,7 @@
       "info_type": ["Repository"],
       "category": "Genomics",
       "SLL_service_area": ["Genomics"],
-      "study_type": ["Human Research", "Clinical Genomics", "Precision Medicine"],
+      "study_type": ["Genomics","Human Research", "Clinical Genomics", "Precision Medicine"],
       "data_type": ["Raw Reads", "Genotypes","Controlled Access Data"]
     },
     {
@@ -185,7 +185,7 @@
       "info_type": ["Metadata standard"],
       "category": "Genomics",
       "SLL_service_area": ["Genomics"],
-      "study_type": ["Genomics", "Metagenomics", "Multiomics", "Single-cell RNA-Seq"],
+      "study_type": ["Genomics", "Metagenomics", "Single-cell RNA-Seq"],
       "data_type": ["Raw Reads", "Experimental Metadata"]
     },
     {
@@ -255,8 +255,8 @@
       "info_type": ["Metadata format"],
       "category": "Genomics",
       "SLL_service_area": ["Genomics"],
-      "study_type": ["Genomics", "Metagenomics", "Multiomics", "Multimodal", "Single-cell RNA-Seq"],
-      "data_type": ["Experimental Metadata"]
+      "study_type": ["Genomics", "Metagenomics"],
+      "data_type": ["Experimental Metadata", "Assemblies"]
     },
     {
       "title": "ISA-Tab",
@@ -325,8 +325,8 @@
       "info_type": ["File format"],
       "category": "Genomics",
       "SLL_service_area": ["Genomics"],
-      "study_type": ["Genomics", "Single-cell RNA-Seq"],
-      "data_type": ["Raw Reads"]
+      "study_type": ["Genomics", "Single-cell RNA-Seq","Human Research", "Clinical Genomics", "Precision Medicine"],
+      "data_type": ["Raw Reads","Controlled Access Data"]
     },
     {
       "title": "BAM (Binary Alignment Map Format)",
@@ -335,8 +335,8 @@
       "info_type": ["File format"],
       "category": "Genomics",
       "SLL_service_area": ["Genomics"],
-      "study_type": ["Genomics", "Single-cell RNA-Seq"],
-      "data_type": ["Raw Reads"]
+      "study_type": ["Genomics", "Single-cell RNA-Seq","Human Research", "Clinical Genomics", "Precision Medicine"],
+      "data_type": ["Raw Reads","Controlled Access Data"]
     },
     {
       "title": "FASTA (FASTA Sequence Format)",
@@ -381,8 +381,8 @@
     {
       "title": "GWAS summary statistics format",
       "description": "Standard format for reporting summary-level data from Genome-Wide Association Studies.",
-      "url": "https://www.ebi.ac.uk/gwas/",
-      "info_type": ["File format"],
+      "url": "https://www.ebi.ac.uk/gwas/docs/summary-statistics-format",
+      "info_type": ["Metadata format"],
       "category": "Genomics",
       "SLL_service_area": ["Genomics"],
       "study_type": ["Genomics","Association Studies (GWAS)", "Statistical Genetics"],

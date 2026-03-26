@@ -145,6 +145,35 @@ document.addEventListener('DOMContentLoaded', function () {
     const items = Array.from(document.querySelectorAll('.resource-item'));
     const noResults = document.getElementById('no-filtered-resource');
 
+    function applyURLFilters() {
+        const urlParams = new URLSearchParams(window.location.search);
+        
+        // Handle Dropdowns (Study and Data)
+        if (urlParams.has('study')) {
+            studySelect.value = urlParams.get('study');
+        }
+        if (urlParams.has('data')) {
+            dataSelect.value = urlParams.get('data');
+        }
+
+        // Handle Checkboxes (Info and SLL)
+        // Expected format in URL: ?info=repository,metadata-standard
+        if (urlParams.has('info')) {
+            const infoValues = urlParams.get('info').split(',');
+            infoValues.forEach(val => {
+                const cb = document.querySelector(`.info-filter[value="${val}"]`);
+                if (cb) cb.checked = true;
+            });
+        }
+        if (urlParams.has('sll')) {
+            const sllValues = urlParams.get('sll').split(',');
+            sllValues.forEach(val => {
+                const cb = document.querySelector(`.sll-filter[value="${val}"]`);
+                if (cb) cb.checked = true;
+            });
+        }
+    }
+    
     function updateFilters() {
         const selectedStudy = studySelect.value;
         const selectedData = dataSelect.value;
@@ -229,6 +258,9 @@ document.addEventListener('DOMContentLoaded', function () {
             opt.style.display = availableStudyTypes.has(opt.value) ? 'block' : 'none';
         });
     }
+
+    applyURLFilters(); // 1. Read URL and set the UI elements
+    updateFilters();   // 2. Run the filter logic based on those elements
 
     studySelect.addEventListener('change', updateFilters);
     dataSelect.addEventListener('change', updateFilters);

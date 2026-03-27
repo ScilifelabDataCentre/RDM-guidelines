@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Data Resources Schema",
+  "type": "object",
+  "required": ["metadata_version", "last_updated", "study_types", "data_types", "info_types", "SLL_service_areas", "items"],
+  "properties": {
+    "metadata_version": { "type": "string" },
+    "last_updated": { "type": "string", "format": "date" },
+    "study_types": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "data_types": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "info_types": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "SLL_service_areas": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "categories": { "type": "array", "items": { "type": "string" } },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title", "description", "url", "info_type", "SLL_service_area", "study_type", "data_type"],
+        "properties": {
+          "title": { "type": "string" },
+          "description": { "type": "string" },
+          "url": { "type": "string", "format": "uri" },
+          "submission_guidelines": { "type": "string", "format": "uri" },
+          "category": { "type": "string" },
+          "info_type": {
+            "type": "array",
+            "items": { "enum": ["Repository", "Metadata standard", "Metadata format", "File format"] }
+          },
+          "SLL_service_area": { "type": "array", "items": { "type": "string" } },
+          "study_type": { "type": "array", "items": { "type": "string" } },
+          "data_type": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    }
+  }
+}

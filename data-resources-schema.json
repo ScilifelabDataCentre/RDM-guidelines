@@ -22,6 +22,11 @@
           "url": { "type": "string", "format": "uri" },
           "submission_guidelines": { "type": "string", "format": "uri" },
           "category": { "type": "string" },
+          "keywords": { 
+            "type": "array", 
+            "items": { "type": "string" }, 
+            "uniqueItems": true 
+          },
           "info_type": {
             "type": "array",
             "items": { "enum": ["Repository", "Metadata standard", "Metadata format", "File format"] }

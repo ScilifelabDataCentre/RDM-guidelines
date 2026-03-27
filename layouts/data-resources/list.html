@@ -5,12 +5,18 @@
   {{ .Content }}
 </div>
 
-{{/* 2. Load the data from data/data-resources-gemini-v2.json */}}
-{{ $data := index .Site.Data "data-resources-gemini-v2" }}
+{{/* 2. Load the data from data/data-resources-gemini-v3.json */}}
+{{ $data := index .Site.Data "data-resources-gemini-v3" }}
 {{ with $data }}
 <div class="container-fluid mt-4">
   <div class="row">
     <div class="col-lg-2 mb-2 mb-lg-0 pe-lg-0">
+
+      <div class="resources-search-filter">Search</div>
+      <div class="mb-4">
+        <input type="text" id="searchInput" class="form-control" placeholder="Search resources...">
+      </div>
+
       <div class="resources-search-filter">Study type</div>
       <div class="mb-4">
         <select class="form-select" id="studyTypeSelect">
@@ -72,6 +78,9 @@
         {{ $id := .title |  anchorize }}
           
           <div class="col-md-4 resource-item" style="display: none;"
+               d-title="{{ .title | lower }}"
+               d-description="{{ .description | lower }}"
+               d-keywords="{{ with .keywords }}{{ range . }}{{ . | lower }} {{ end }}{{ end }}"
                d-study="{{ range .study_type }}{{ . | urlize }} {{ end }}" 
                d-info="{{ range .info_type }}{{ . | urlize }} {{ end }}" 
                d-data="{{ range .data_type }}{{ . | urlize }} {{ end }}" 
@@ -143,6 +152,7 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
+    const searchInput = document.getElementById('searchInput');
     const studySelect = document.getElementById('studyTypeSelect');
     const dataSelect = document.getElementById('dataTypeSelect');
     const checkboxes = document.querySelectorAll('.filter-checkbox');
@@ -181,6 +191,7 @@ document.addEventListener('DOMContentLoaded', function () {
       }
 
     function updateFilters() {
+        const searchQuery = searchInput.value.toLowerCase().trim();
         const selectedStudy = studySelect.value;
         const selectedData = dataSelect.value;
         const activeInfoFilters = Array.from(document.querySelectorAll('.info-filter:checked')).map(cb => cb.value);
@@ -188,6 +199,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Check if the user has actually interacted with any filter
         const isAnythingSelected = (
+            searchQuery !== '' ||
             selectedStudy !== 'all' || 
             selectedData !== 'all' || 
             activeInfoFilters.length > 0 || 
@@ -205,6 +217,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 item.style.display = 'none';
                 return;
             }
+            // Text search logic
+            const title = item.getAttribute('d-title');
+            const desc = item.getAttribute('d-description');
+            const keys = item.getAttribute('d-keywords');
+            const matchesSearch = !searchQuery || title.includes(searchQuery) || desc.includes(searchQuery) || keys.includes(searchQuery);
 
             const itemStudy = item.getAttribute('d-study').trim().split(/\s+/);
             const itemInfo = item.getAttribute('d-info').trim().split(/\s+/);
@@ -216,7 +233,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const matchesInfo = activeInfoFilters.length === 0 || activeInfoFilters.some(val => itemInfo.includes(val));
             const matchesSll = activeSllFilters.length === 0 || activeSllFilters.some(val => itemSll.includes(val));
 
-            if (matchesStudy && matchesData && matchesInfo && matchesSll) {
+            if (matchesSearch && matchesStudy && matchesData && matchesInfo && matchesSll) {
                 item.style.display = 'block';
                 visibleCount++;
             } else {
@@ -289,6 +306,7 @@ document.addEventListener('DOMContentLoaded', function () {
     applyURLFilters(); // 1. Read URL and set the UI elements
     updateFilters();   // 2. Run the filter logic based on those elements
 
+    searchInput.addEventListener('input', updateFilters); // Trigger on every keystroke
     studySelect.addEventListener('change', updateFilters);
     dataSelect.addEventListener('change', updateFilters);
     checkboxes.forEach(cb => cb.addEventListener('change', updateFilters));

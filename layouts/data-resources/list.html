@@ -152,32 +152,33 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function applyURLFilters() {
         const urlParams = new URLSearchParams(window.location.search);
-        
+        const MAX_LENGTH = 100; // No valid filter value should be longer than this - helps prevent abuse
+
         // Handle Dropdowns (Study and Data)
         if (urlParams.has('study')) {
-            studySelect.value = urlParams.get('study');
+            const val = urlParams.get('study');
+            if (val.length <= MAX_LENGTH) studySelect.value = val;
         }
         if (urlParams.has('data')) {
-            dataSelect.value = urlParams.get('data');
+            const val = urlParams.get('data');
+            if (val.length <= MAX_LENGTH) dataSelect.value = val;
         }
 
         // Handle Checkboxes (Info and SLL)
         // Expected format in URL: ?info=repository,metadata-standard
-        if (urlParams.has('info')) {
-            const infoValues = urlParams.get('info').split(',');
-            infoValues.forEach(val => {
-                const cb = document.querySelector(`.info-filter[value="${val}"]`);
-                if (cb) cb.checked = true;
-            });
-        }
-        if (urlParams.has('sll')) {
-            const sllValues = urlParams.get('sll').split(',');
-            sllValues.forEach(val => {
-                const cb = document.querySelector(`.sll-filter[value="${val}"]`);
-                if (cb) cb.checked = true;
-            });
-        }
-    }
+        ['info', 'sll'].forEach(param => {
+            if (urlParams.has(param)) {
+                const values = urlParams.get(param).split(',');
+                values.forEach(val => {
+                    // Only process if the individual value is reasonably short
+                    if (val.length <= MAX_LENGTH) {
+                        const cb = document.querySelector(`.${param}-filter[value="${val}"]`);
+                        if (cb) cb.checked = true;
+                    }
+                });
+            }
+        });
+      }
 
     function updateFilters() {
         const selectedStudy = studySelect.value;
@@ -232,7 +233,7 @@ document.addEventListener('DOMContentLoaded', function () {
         } else {
             noResults.style.display = 'none';
         }
-    }
+      }
 
     function updateDropdownOptions(currentStudy, currentData) {
         // Collect available types based on the OTHER dropdown's selection
@@ -265,7 +266,7 @@ document.addEventListener('DOMContentLoaded', function () {
             if (opt.value === 'all') return;
             opt.style.display = availableStudyTypes.has(opt.value) ? 'block' : 'none';
         });
-    }
+      }
 
     function resetFilters() {
         // Reset Dropdowns
@@ -281,7 +282,7 @@ document.addEventListener('DOMContentLoaded', function () {
         
         // Refresh the list
         updateFilters();
-    }
+      }
 
     clearBtn.addEventListener('click', resetFilters);
 
@@ -291,7 +292,7 @@ document.addEventListener('DOMContentLoaded', function () {
     studySelect.addEventListener('change', updateFilters);
     dataSelect.addEventListener('change', updateFilters);
     checkboxes.forEach(cb => cb.addEventListener('change', updateFilters));
-});
+  });
 </script>
 
 {{ end }}

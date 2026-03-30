@@ -39,9 +39,15 @@
 
       <div class="resources-search-filter">Information type</div>
       <div class="mb-4">
-        {{ range .info_types }}
+        {{/* Create a list of unique labels: Repository, Metadata, File format */}}
+        {{ $filterLabels := slice "Repository" "Metadata" "File format" }}
+        
+        {{ range $filterLabels }}
         <div class="form-check">
-          <input class="form-check-input filter-checkbox info-filter" type="checkbox" value="{{ . | urlize }}" id="info-{{ . | urlize }}">
+          <input class="form-check-input filter-checkbox info-filter" 
+                type="checkbox" 
+                value="{{ . | urlize }}" 
+                id="info-{{ . | urlize }}">
           <label class="form-check-label" for="info-{{ . | urlize }}">{{ . }}</label>
         </div>
         {{ end }}
@@ -82,7 +88,7 @@
                d-description="{{ .description | lower }}"
                d-keywords="{{ with .keywords }}{{ range . }}{{ . | lower }} {{ end }}{{ end }}"
                d-study="{{ range .study_type }}{{ . | urlize }} {{ end }}" 
-               d-info="{{ range .info_type }}{{ . | urlize }} {{ end }}" 
+               d-info="{{ range .info_type }}{{ if or (eq . "Metadata standard") (eq . "Metadata format") }}metadata {{ else }}{{ . | urlize }} {{ end }}{{ end }}" 
                d-data="{{ range .data_type }}{{ . | urlize }} {{ end }}" 
                d-sll="{{ range .SLL_service_area }}{{ . | urlize }} {{ end }}">
             
@@ -94,6 +100,13 @@
                 <a class="resources-header-tool d-block mb-3 text-{{ $colorClass }}" role="button" data-bs-toggle="modal" data-bs-target="#modal-{{ $id }}">
                     {{ .title }}
                 </a>
+
+                {{/* if we want to display keywords on the card, we can use this code - currently hidden to reduce clutter */}}
+                {{/* <div class="mb-3">
+                  {{ range .keywords }}
+                    <span class="badge rounded-pill bg-light text-dark border me-1" style="font-size: 0.7rem; font-weight: 400;">{{ . }}</span>
+                  {{ end }}
+                </div> */}}
 
                 <div class="mt-auto">
                     <button type="button" class="btn btn-light-grey" data-bs-toggle="modal" data-bs-target="#modal-{{ $id }}">
@@ -127,6 +140,7 @@
                       <p><b>Submission Guidelines:</b> <a href="{{ .submission_guidelines }}" target="_blank">View Guidelines</a></p>
                     {{ end }}
                     <hr>
+                    <p><b>Keywords:</b> {{ with .keywords }}{{ delimit . ", " }}{{ end }}</p>
                     <p><b>Information Type:</b> {{ with .info_type }}{{ delimit . ", " }}{{ end }}</p>
                     <p><b>Study Type:</b> {{ with .study_type }}{{ delimit . ", " }}{{ end }}</p>
                     <p><b>Data Type:</b> {{ with .data_type }}{{ delimit . ", " }}{{ end }}</p>

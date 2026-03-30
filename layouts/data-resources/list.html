@@ -84,13 +84,23 @@
         {{ $id := .title |  anchorize }}
           
           <div class="col-md-4 resource-item" style="display: none;"
-               d-title="{{ .title | lower }}"
-               d-description="{{ .description | lower }}"
-               d-keywords="{{ with .keywords }}{{ range . }}{{ . | lower }} {{ end }}{{ end }}"
-               d-study="{{ range .study_type }}{{ . | urlize }} {{ end }}" 
-               d-info="{{ range .info_type }}{{ if or (eq . "Metadata standard") (eq . "Metadata format") }}metadata {{ else }}{{ . | urlize }} {{ end }}{{ end }}" 
-               d-data="{{ range .data_type }}{{ . | urlize }} {{ end }}" 
-               d-sll="{{ range .SLL_service_area }}{{ . | urlize }} {{ end }}">
+              d-title="{{ .title | lower }}"
+              {{/* Include description also from partials if available */}}
+              {{ $id := .title | anchorize }}
+              {{ $partialPath := printf "data-resource-descriptions/%s.html" $id }}
+              {{ $fullDescription := .description }}
+
+              {{ if (templates.Exists (printf "partials/%s" $partialPath)) }}
+                {{/* Capture the partial content, strip HTML tags, and combine with the short description */}}
+                {{ $extContent := partial $partialPath . | plainify }}
+                {{ $fullDescription = printf "%s %s" .description $extContent }}
+              {{ end }}
+              d-description="{{ $fullDescription | lower }}"
+              d-keywords="{{ with .keywords }}{{ range . }}{{ . | lower }} {{ end }}{{ end }}"
+              d-study="{{ range .study_type }}{{ . | urlize }} {{ end }}" 
+              d-info="{{ range .info_type }}{{ if or (eq . "Metadata standard") (eq . "Metadata format") }}metadata {{ else }}{{ . | urlize }} {{ end }}{{ end }}" 
+              d-data="{{ range .data_type }}{{ . | urlize }} {{ end }}" 
+              d-sll="{{ range .SLL_service_area }}{{ . | urlize }} {{ end }}">
             
             <div class="p-3 rounded border h-100 resource-card-tool">
                 <div class="resource-type-header bg-{{ $colorClass }}">
@@ -300,6 +310,9 @@ document.addEventListener('DOMContentLoaded', function () {
       }
 
     function resetFilters() {
+        // Clear keyword search
+        searchInput.value = '';
+
         // Reset Dropdowns
         studySelect.value = 'all';
         dataSelect.value = 'all';

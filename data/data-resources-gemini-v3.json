@@ -3,21 +3,20 @@
   "metadata_version": "3.0",
   "last_updated": "2026-03-31",
   "study_types": [
-    "Genomics", "Metagenomics", "Transcriptomics",
-    "Human Research", "Clinical Genomics","Population Genetics", 
-    "Single-cell RNA-Seq", "Evolutionary Biology", "Association Studies (GWAS)",
+    "Genomics", "Metagenomics", "Transcriptomics", "Epigenomics",
+    "Clinical Genomics","Population Genetics", 
+    "Single-cell Transcriptomics", "Association Studies (GWAS)",
     "Structural Biology", "Proteomics", "Cryo-EM", "Mass Spectrometry",
     "Metabolomics", "Lipidomics", "NMR Spectroscopy",
     "Targeted Proteomics", "Single-cell Proteomics", "Peptidomics",
-    "BioImaging", "Spatial Omics", "Cell Biology", "Tissue Imaging",
-    "Multiomics","Multimodal", "Precision Medicine", "Statistical Genetics",
-    "Epigenomics"
+    "BioImaging", "Spatial Omics", "Tissue Imaging",
+    "Multiomics", "Precision Medicine", "Statistical Genetics" 
   ],
-  "data_types": ["Raw Reads", "Assemblies", 
+  "data_types": ["Raw Reads", "Assemblies", "Single-cell RNA-seq",
     "Controlled Access Data", "Expression Matrices", "Count Tables", 
-    "Genetic Variants", "Genotypes", "Summary Statistics", "Microarray Data", 
-    "Density Maps", "Raw Images", "Multiplexed Images", "Microscopy Images", "Volumes", "Video",
-    "3D Volume Maps", "Masks", "Atomic Coordinates", "Protein Identifications",
+    "Genetic Variants", "Genotypes", "GWAS Summary Statistics", "Microarray Data", 
+    "Density Maps", "Raw Images", "Multiplexed Images", "Microscopy Images",
+    "3D Volume Maps", "Atomic Coordinates", "Protein Identifications",
     "Structure Factors", "Mass Spectra", "NMR Spectra", "Metabolite Profiles", "Images",
     "Experimental Metadata", "SRM/MRM Mass Spectra", "Peptide Identifications"
   ],
@@ -46,7 +45,7 @@
       "category": "Genomics",
       "keywords": [],
       "SLL_service_area": ["Genomics"],
-      "study_type": ["Genomics","Human Research", "Clinical Genomics", "Precision Medicine"],
+      "study_type": ["Genomics", "Clinical Genomics", "Precision Medicine"],
       "data_type": ["Raw Reads", "Genotypes","Controlled Access Data"]
     },
     {
@@ -58,7 +57,7 @@
       "category": "Genomics",
       "keywords": [],
       "SLL_service_area": ["Genomics"],
-      "study_type": ["Genomics","Human Research", "Clinical Genomics", "Precision Medicine"],
+      "study_type": ["Genomics", "Clinical Genomics", "Precision Medicine"],
       "data_type": ["Raw Reads", "Genotypes","Controlled Access Data"]
     },
     {
@@ -70,8 +69,8 @@
       "category": "Transcriptomics",
       "keywords": [],
       "SLL_service_area": ["Genomics"],
-      "study_type": ["Genomics","Transcriptomics", "Epigenomics", "Single-cell RNA-Seq", "Spatial Omics"],
-      "data_type": ["Expression Matrices", "Count Tables", "Raw Reads", "Microarray Data"]
+      "study_type": ["Genomics","Transcriptomics", "Epigenomics", "Single-cell Transcriptomics", "Spatial Omics"],
+      "data_type": ["Expression Matrices", "Count Tables", "Raw Reads", "Single-cell RNA-seq", "Microarray Data"]
     },
     {
       "title": "EVA (European Variation Archive)",
@@ -82,7 +81,7 @@
       "category": "Genomics",
       "keywords": [],
       "SLL_service_area": ["Genomics"],
-      "study_type": ["Genomics", "Evolutionary Biology", "Population Genetics"],
+      "study_type": ["Genomics","Population Genetics"],
       "data_type": ["Genetic Variants", "Genotypes"]
     },
     {
@@ -95,7 +94,7 @@
       "keywords": [],
       "SLL_service_area": ["Genomics"],
       "study_type": ["Genomics","Association Studies (GWAS)", "Statistical Genetics"],
-      "data_type": ["Summary Statistics"]
+      "data_type": ["GWAS Summary Statistics"]
     },
     {
       "title": "MIxS",
@@ -105,8 +104,8 @@
       "category": "Genomics",
       "keywords": [],
       "SLL_service_area": ["Genomics"],
-      "study_type": ["Genomics", "Metagenomics", "Single-cell RNA-Seq"],
-      "data_type": ["Raw Reads", "Experimental Metadata"]
+      "study_type": ["Genomics", "Metagenomics", "Single-cell Transcriptomics"],
+      "data_type": ["Raw Reads", "Single-cell RNA-seq", "Experimental Metadata"]
     },
     {
       "title": "MIAME ",
@@ -116,7 +115,7 @@
       "category": "Transcriptomics",
       "keywords": [],
       "SLL_service_area": ["Genomics"],
-      "study_type": ["Transcriptomics", "Epigenomics","Single-cell RNA-Seq"],
+      "study_type": ["Transcriptomics", "Epigenomics"],
       "data_type": ["Expression Matrices", "Count Tables", "Microarray Data"]
     },
     {
@@ -127,8 +126,8 @@
       "category": "Transcriptomics",
       "keywords": [],
       "SLL_service_area": ["Genomics"],
-      "study_type": ["Transcriptomics", "Epigenomics","Single-cell RNA-Seq"],
-      "data_type": ["Expression Matrices", "Count Tables", "Raw Reads"]
+      "study_type": ["Transcriptomics", "Epigenomics","Single-cell Transcriptomics"],
+      "data_type": ["Expression Matrices", "Count Tables", "Raw Reads","Single-cell RNA-seq"]
     },
     {
         "title": "ENA sample checklists",
@@ -138,7 +137,7 @@
         "category": "Genomics",
         "keywords": [],
         "SLL_service_area": ["Genomics"],
-        "study_type": ["Genomics", "Metagenomics", "Multiomics", "Multimodal", "Single-cell RNA-Seq"],
+        "study_type": ["Genomics", "Metagenomics", "Multiomics", "Single-cell Transcriptomics"],
         "data_type": ["Experimental Metadata"]
     },
     {
@@ -160,8 +159,8 @@
       "category": "Genomics",
       "keywords": ["DNA", "RNA", "Raw reads"],
       "SLL_service_area": ["Genomics"],
-      "study_type": ["Genomics", "Single-cell RNA-Seq","Human Research", "Clinical Genomics", "Precision Medicine"],
-      "data_type": ["Raw Reads","Controlled Access Data"]
+      "study_type": ["Genomics", "Single-cell Transcriptomics", "Clinical Genomics", "Precision Medicine"],
+      "data_type": ["Raw Reads","Single-cell RNA-seq","Controlled Access Data"]
     },
     {
       "title": "BAM (Binary Alignment Map Format)",
@@ -171,8 +170,8 @@
       "category": "Genomics",
       "keywords": ["DNA", "RNA", "Raw reads", "Alignments"],
       "SLL_service_area": ["Genomics"],
-      "study_type": ["Genomics", "Single-cell RNA-Seq","Human Research", "Clinical Genomics", "Precision Medicine"],
-      "data_type": ["Raw Reads","Controlled Access Data"]
+      "study_type": ["Genomics", "Single-cell Transcriptomics", "Clinical Genomics", "Precision Medicine"],
+      "data_type": ["Raw Reads","Single-cell RNA-seq","Controlled Access Data"]
     },
     {
       "title": "FASTA (FASTA Sequence Format)",
@@ -216,7 +215,7 @@
       "keywords": [],
       "SLL_service_area": ["Genomics"],
       "study_type": ["Genomics","Association Studies (GWAS)", "Statistical Genetics"],
-      "data_type": ["Summary Statistics"]
+      "data_type": ["GWAS Summary Statistics"]
     },
     {
       "title": "PRIDE",
@@ -380,13 +379,13 @@
       "title": "EMDB (Electron Microscopy Data Bank)",
       "description": "Archive for 3D electron microscopy maps and tomograms.",
       "url": "https://www.ebi.ac.uk/emdb",
-      "submission_guidelines": "https://www.wwpdb.org/deposition/tutorial",
+      "submission_guidelines": "https://www.ebi.ac.uk/emdb/documentation/deposition/composite_map",
       "info_type": ["Repository"],
       "category": "Structural Biology",
       "keywords": [],
       "SLL_service_area": ["Structural Biology"],
       "study_type": ["Cryo-EM"],
-      "data_type": ["3D Volume Maps", "Density Maps", "Masks"]
+      "data_type": ["3D Volume Maps", "Density Maps"]
     },
     {
       "title": "PDBe (Protein Data Bank in Europe)",
@@ -431,8 +430,8 @@
       "category": "Imaging",
       "keywords": [],
       "SLL_service_area": ["Cellular and Molecular Imaging"],
-      "study_type": ["BioImaging", "Spatial Omics", "Cell Biology", "Tissue Imaging"],
-      "data_type": ["Multiplexed Images", "Microscopy Images", "Volumes", "Video"]
+      "study_type": ["BioImaging", "Spatial Omics", "Tissue Imaging"],
+      "data_type": ["Multiplexed Images", "Microscopy Images"]
     },
     {
       "title": "REMBI",
@@ -442,8 +441,8 @@
       "category": "Imaging",
       "keywords": [],
       "SLL_service_area": ["Cellular and Molecular Imaging"],
-      "study_type": ["BioImaging", "Spatial Omics", "Cryo-EM", "Cell Biology"],
-      "data_type": ["Multiplexed Images", "Microscopy Images", "Volumes", "Raw Images"]
+      "study_type": ["BioImaging", "Spatial Omics", "Cryo-EM", "Tissue Imaging"],
+      "data_type": ["Multiplexed Images", "Microscopy Images", "Raw Images"]
     },
     {
       "title": "MITI (Minimum Information about Tissue Imaging)",
@@ -453,7 +452,7 @@
       "category": "Imaging",
       "keywords": [],
       "SLL_service_area": ["Cellular and Molecular Imaging"],
-      "study_type": ["BioImaging", "Spatial Omics", "Tissue Imaging"],
+      "study_type": ["BioImaging", "Spatial Omics", "Tissue Imaging", "Cryo-EM"],
       "data_type": ["Experimental Metadata"]
 
     },
@@ -488,7 +487,7 @@
       "category": "General",
       "keywords": [],
       "SLL_service_area": ["Genomics", "Spatial Omics", "Cellular and Molecular Imaging"],
-      "study_type": ["Multimodal", "Multiomics"],
+      "study_type": ["Multiomics"],
       "data_type": ["Experimental Metadata"]
     },
     {
@@ -500,7 +499,7 @@
       "category": "General",
       "keywords": [],
       "SLL_service_area": ["Genomics", "Spatial Omics", "Cellular and Molecular Imaging"],
-      "study_type": ["Multimodal", "Multiomics"],
+      "study_type": ["Multiomics"],
       "data_type": ["Experimental Metadata"]
     },
     {
@@ -511,7 +510,7 @@
       "category": "Multiomics",
       "keywords": [],
       "SLL_service_area": ["Metabolomics and Exposomics", "Spatial Omics"],
-      "study_type": ["Metabolomics", "Lipidomics","Transcriptomics", "Spatial Omics", "Multiomics", "Multimodal"],
+      "study_type": ["Metabolomics", "Lipidomics","Transcriptomics", "Spatial Omics", "Multiomics"],
       "data_type": ["Experimental Metadata", "Expression Matrices", "Metabolite Profiles"]
     },
     {
@@ -522,7 +521,7 @@
       "category": "General",
       "keywords": [],
       "SLL_service_area": ["Spatial Omics", "Cellular and Molecular Imaging"],
-      "study_type": ["Multiomics", "Multimodal"],
+      "study_type": ["Multiomics"],
       "data_type": ["Experimental Metadata"]
     }
   ]

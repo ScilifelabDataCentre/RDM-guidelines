@@ -7,7 +7,7 @@ menu:
     navbar_top:
         name: "<i class='bi bi-search'></i> Search" 
         identifier: search
-        weight: 50
+        weight: 40
 outputs:
     - html
     - json

@@ -5,7 +5,7 @@ menu:
     navbar_top:
         name: Contact
         identifier: contact
-        weight: 40
+        weight: 30
 ---
 &nbsp;
 

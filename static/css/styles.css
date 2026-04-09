@@ -1,7 +1,21 @@
+/***************/
+/*** Fonts ***/
+/***************/
+
+/* Import SciLifeLab’s font Lato. */
+
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 /* @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap'); */
 
-/* Brand colors
+/*-----------------------------------------------------------------------------------*/
+
+/***************/
+/*** Colors ***/
+/***************/
+
+/* If you want to use a color not already listed here, add it here and call the variable in the code. 
+
+SciLifeLab Brand colors
   use 1, 0.75, 0.50, or 0.25
   color: #A7C947, rgba(167, 201, 71, 1);  lime
   color: #491F53, rgba(73, 31, 83, 1);  grape, use as "color pop" or on smaller details
@@ -13,6 +27,7 @@
   color: #A6A6A6, rgba(166,166,166, 1); medium grey
   color: #3F3F3F, rgba(63,63,63,1); dark grey
 */
+
 :root {
   --grape1: #491F53; /* used */
   --grape0_75: #77577E; /* unused */
@@ -50,6 +65,7 @@
 /******************************************************/
 /*** Styling of default tags applied to 'all' pages ***/
 /******************************************************/
+
 body {
   font-family: "Lato", Times, Arial;
 }
@@ -80,6 +96,7 @@ h4 {
 /***************/
 /*** Buttons ***/
 /***************/
+
 /* Use teal button on actions such as 'Close', 'Send' etc 
    Use light-grey button for 'See details' on resource's cards 
    Use expandable button (light grape) for all expandable elements giving more data type information */
@@ -293,6 +310,7 @@ h1 a:hover {
 /*************************************/
 /*** Top of pages / header styling ***/
 /*************************************/
+
 .header {
   background-position: center;
   background-repeat: no-repeat;

@@ -1,6 +1,9 @@
+<!-- Collect all topic pages for display -->
+
 {{ $topic := where .Site.RegularPages "Section" "topics" }}
 
 <div class="row cards p-4 pb-5 rounded cont-links d-flex">
+  <!-- Collect topic pages with category equal to Other -->
   {{ range $topic }}
   {{ if in .Page.Params.category "Other" }}
   <div class="col-sm-12 col-md-6 col-lg-4 p-3">
@@ -8,6 +11,7 @@
   </div>
   {{ end }}
   {{ end }}
+  <!-- Create drop-down menu solution for topic pages with category equal to Human data -->
   <div class="col-sm-12 col-md-6 col-lg-4 p-3">
     <div class="dropdown">
       <a class="btn btn-light p-3 h-100 d-flex justify-content-between text-start" type="button" id="dropdownMenuButton1"

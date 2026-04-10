@@ -1,3 +1,5 @@
+<!-- Collect only the contributors with editor stated as their role  in file data/CONTRIBUTORS.yaml-->
+
 {{ $contributors := where .Site.Data.CONTRIBUTORS "role" "editor"}}
 <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-xl-6 g-4">
   {{ range sort $contributors "name" "asc"}}

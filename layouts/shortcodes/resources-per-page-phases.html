@@ -1,3 +1,5 @@
+<!-- Collect resources from file data/resources.json with a "phase" tag equal to the specific data life cycle phase page it is called on-->
+
 {{ $page_phase := .Page.Params.phase }}
 {{ $resources := .Site.Data.resources.items }}
 {{ $page_resources := slice }}
@@ -13,6 +15,7 @@
 {{ end }}
 {{ end }}
 
+<!-- Collect resources where tag "target" is training -->
 {{ range sort $page_resources ".title" "asc" }}
 {{ if in .target "training" }}
 {{ $training_resources = $training_resources | append . }}
@@ -27,6 +30,7 @@
 {{ end }}
 </ul>
 
+<!-- Collect resources where tag "target" is guidance -->
 {{ range sort $page_resources ".title" "asc" }}
 {{ if in .target "guidance" }}
 {{ $guidances_resources = $guidances_resources | append . }}
@@ -41,6 +45,7 @@
 {{ end }}
 </ul>
 
+<!-- Collect resources where tag "target" is tool -->
 {{ range sort $page_resources ".title" "asc" }}
 {{ if in .target "tool" }}
 {{ $tools_resources = $tools_resources | append . }}

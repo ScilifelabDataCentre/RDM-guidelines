@@ -92,27 +92,27 @@
               d-info="{{ range .info_type }}{{ if or (eq . "Metadata standard") (eq . "Metadata format") }}metadata {{ else }}{{ . | urlize }} {{ end }}{{ end }}" 
               d-data="{{ range .data_type }}{{ . | urlize }} {{ end }}">
             
-            <div class="p-3 rounded border h-100 resource-card-tool">
-                <div class="resource-type-header bg-{{ $colorClass }}">
-                    {{ $currentType }}
-                </div>
-                
-                <a class="resources-header-tool d-block mb-3 text-{{ $colorClass }}" role="button" data-bs-toggle="modal" data-bs-target="#modal-{{ $id }}">
-                    {{ .title }}
-                </a>
+            <div class="p-3 rounded border h-100 resource-card-tool clickable-card"
+                role="button" 
+                tabindex="0" 
+                data-bs-toggle="modal" 
+                data-bs-target="#modal-{{ $id }}"
+                aria-label="View details for {{ .title }}">
 
-                {{/* if we want to display keywords on the card, we can use this code - currently hidden to reduce clutter */}}
-                {{/* <div class="mb-3">
-                  {{ range .keywords }}
-                    <span class="badge rounded-pill bg-light text-dark border me-1" style="font-size: 0.7rem; font-weight: 400;">{{ . }}</span>
-                  {{ end }}
-                </div> */}}
+              <div class="resource-type-header bg-{{ $colorClass }}">
+                  {{ $currentType }}
+              </div>
+              
+              <a class="resources-header-tool d-block mb-3 text-{{ $colorClass }}">
+                  {{ .title }}
+              </a>
 
-                <div class="mt-auto">
-                    <button type="button" class="btn btn-light-grey" data-bs-toggle="modal" data-bs-target="#modal-{{ $id }}">
-                    See details
-                    </button>
-                </div>
+              {{/* if we want to display keywords on the card, we can use this code - currently hidden to reduce clutter */}}
+              {{/* <div class="mb-3">
+                {{ range .keywords }}
+                  <span class="badge rounded-pill bg-light text-dark border me-1" style="font-size: 0.7rem; font-weight: 400;">{{ . }}</span>
+                {{ end }}
+              </div> */}}
             </div>
 
             <div class="modal fade" id="modal-{{ $id }}" tabindex="-1" aria-hidden="true">

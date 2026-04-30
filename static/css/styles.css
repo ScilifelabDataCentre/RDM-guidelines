@@ -566,9 +566,9 @@ input[type="checkbox"]:focus {
 
 /*-----------------------------------------------------------------------------------*/
 
-/**********************/
-/*** Data Resources ***/
-/**********************/
+/***********************/
+/*** Data Type Guide ***/
+/***********************/
 
 /* Styling the dropdown focus state to match inputs and checkboxes */
 #studyTypeSelect:focus, 
@@ -585,6 +585,22 @@ input[type="checkbox"]:focus {
     display: flex;
     flex-direction: column;
 }
+
+.clickable-card {
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.clickable-card:hover {
+    background-color: var(--light_grey); /* Light grey highlight */
+    border-color: var(--medium_grey);
+}
+
+/* Uncomment if we want the title to be underlined when whole card is hovered 
+.clickable-card:hover .resources-header-tool {
+    text-decoration: underline;
+}
+*/
 
 /* The colored header strip */
 .resource-type-header {

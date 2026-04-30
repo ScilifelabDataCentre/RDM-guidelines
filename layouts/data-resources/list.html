@@ -44,7 +44,7 @@
         
         {{ range $filterLabels }}
         <div class="form-check">
-          <input class="form-check-input filter-checkbox info-filter" 
+          <input class="form-check-input info-filter" 
                 type="checkbox" 
                 value="{{ . | urlize }}" 
                 id="info-{{ . | urlize }}">
@@ -53,15 +53,6 @@
         {{ end }}
       </div>
 
-      <div class="resources-search-filter">SciLifeLab service area</div>
-      <div class="mb-4">
-        {{ range .SLL_service_areas }}
-        <div class="form-check">
-          <input class="form-check-input filter-checkbox sll-filter" type="checkbox" value="{{ . | urlize }}" id="sll-{{ . | urlize }}">
-          <label class="form-check-label" for="sll-{{ . | urlize }}">{{ . }}</label>
-        </div>
-        {{ end }}
-      </div>
       <div class="mb-3">
         <button id="clearFiltersBtn" class="btn btn-teal" style="display:none;">
           <i class="bi bi-x-circle"></i> Clear All Filters
@@ -99,8 +90,7 @@
               d-keywords="{{ with .keywords }}{{ range . }}{{ . | lower }} {{ end }}{{ end }}"
               d-study="{{ range .study_type }}{{ . | urlize }} {{ end }}" 
               d-info="{{ range .info_type }}{{ if or (eq . "Metadata standard") (eq . "Metadata format") }}metadata {{ else }}{{ . | urlize }} {{ end }}{{ end }}" 
-              d-data="{{ range .data_type }}{{ . | urlize }} {{ end }}" 
-              d-sll="{{ range .SLL_service_area }}{{ . | urlize }} {{ end }}">
+              d-data="{{ range .data_type }}{{ . | urlize }} {{ end }}">
             
             <div class="p-3 rounded border h-100 resource-card-tool">
                 <div class="resource-type-header bg-{{ $colorClass }}">
@@ -154,7 +144,6 @@
                     <p><b>Information Type:</b> {{ with .info_type }}{{ delimit . ", " }}{{ end }}</p>
                     <p><b>Study Type:</b> {{ with .study_type }}{{ delimit . ", " }}{{ end }}</p>
                     <p><b>Data Type:</b> {{ with .data_type }}{{ delimit . ", " }}{{ end }}</p>
-                    <p><b>Service Area:</b> {{ with .SLL_service_area }}{{ delimit . ", " }}{{ end }}</p>
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-teal" data-bs-dismiss="modal">Close</button>
@@ -179,16 +168,15 @@ document.addEventListener('DOMContentLoaded', function () {
     const searchInput = document.getElementById('searchInput');
     const studySelect = document.getElementById('studyTypeSelect');
     const dataSelect = document.getElementById('dataTypeSelect');
-    const checkboxes = document.querySelectorAll('.filter-checkbox');
+    const infoCheckboxes = document.querySelectorAll('.info-filter');
     const items = Array.from(document.querySelectorAll('.resource-item'));
     const noResults = document.getElementById('no-filtered-resource');
     const clearBtn = document.getElementById('clearFiltersBtn');
 
     function applyURLFilters() {
         const urlParams = new URLSearchParams(window.location.search);
-        const MAX_LENGTH = 100; // No valid filter value should be longer than this - helps prevent abuse
+        const MAX_LENGTH = 100;
 
-        // Handle Dropdowns (Study and Data)
         if (urlParams.has('study')) {
             const val = urlParams.get('study');
             if (val.length <= MAX_LENGTH) studySelect.value = val;
@@ -198,50 +186,38 @@ document.addEventListener('DOMContentLoaded', function () {
             if (val.length <= MAX_LENGTH) dataSelect.value = val;
         }
 
-        // Handle Checkboxes (Info and SLL)
-        // Expected format in URL: ?info=repository,metadata-standard
-        ['info', 'sll'].forEach(param => {
-            if (urlParams.has(param)) {
-                const values = urlParams.get(param).split(',');
-                values.forEach(val => {
-                    // Only process if the individual value is reasonably short
-                    if (val.length <= MAX_LENGTH) {
-                        const cb = document.querySelector(`.${param}-filter[value="${val}"]`);
-                        if (cb) cb.checked = true;
-                    }
-                });
-            }
-        });
-      }
+        if (urlParams.has('info')) {
+            const values = urlParams.get('info').split(',');
+            values.forEach(val => {
+                if (val.length <= MAX_LENGTH) {
+                    const cb = document.querySelector(`.info-filter[value="${val}"]`);
+                    if (cb) cb.checked = true;
+                }
+            });
+        }
+    }
 
     function updateFilters() {
         const searchQuery = searchInput.value.toLowerCase().trim();
         const selectedStudy = studySelect.value;
         const selectedData = dataSelect.value;
         const activeInfoFilters = Array.from(document.querySelectorAll('.info-filter:checked')).map(cb => cb.value);
-        const activeSllFilters = Array.from(document.querySelectorAll('.sll-filter:checked')).map(cb => cb.value);
 
-        // Check if the user has actually interacted with any filter
         const isAnythingSelected = (
             searchQuery !== '' ||
             selectedStudy !== 'all' || 
             selectedData !== 'all' || 
-            activeInfoFilters.length > 0 || 
-            activeSllFilters.length > 0
+            activeInfoFilters.length > 0 
         ); 
-        // Show or hide the Clear button based on selection
+
         clearBtn.style.display = isAnythingSelected ? 'block' : 'none';
 
         let visibleCount = 0;
         
-        // 1. Filter the actual resource cards
         items.forEach(item => {
-          // If nothing is selected, force all items to stay hidden
-            if (!isAnythingSelected) {
-                item.style.display = 'none';
-                return;
-            }
-            // Text search logic
+            // FIX: If you want items VISIBLE by default, remove the "if (!isAnythingSelected)" hide logic.
+            // If you want them HIDDEN by default, keep it, but it's likely why you see nothing.
+            
             const title = item.getAttribute('d-title');
             const desc = item.getAttribute('d-description');
             const keys = item.getAttribute('d-keywords');
@@ -250,14 +226,12 @@ document.addEventListener('DOMContentLoaded', function () {
             const itemStudy = item.getAttribute('d-study').trim().split(/\s+/);
             const itemInfo = item.getAttribute('d-info').trim().split(/\s+/);
             const itemData = item.getAttribute('d-data').trim().split(/\s+/);
-            const itemSll = item.getAttribute('d-sll').trim().split(/\s+/);
 
             const matchesStudy = (selectedStudy === 'all' || itemStudy.includes(selectedStudy));
-            const matchesData = (selectedData === 'all' || itemData.includes(selectedData));
+            const matchesData = (selectedData === 'all' || itemDatas.includes(selectedData));
             const matchesInfo = activeInfoFilters.length === 0 || activeInfoFilters.some(val => itemInfo.includes(val));
-            const matchesSll = activeSllFilters.length === 0 || activeSllFilters.some(val => itemSll.includes(val));
 
-            if (matchesSearch && matchesStudy && matchesData && matchesInfo && matchesSll) {
+            if (matchesSearch && matchesStudy && matchesData && matchesInfo) {
                 item.style.display = 'block';
                 visibleCount++;
             } else {
@@ -265,19 +239,16 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
 
-        // 2. Cross-filter the dropdown options
         updateDropdownOptions(selectedStudy, selectedData);
 
-        // Show "No results" only if a selection was made but nothing matched
         if (isAnythingSelected && visibleCount === 0) {
             noResults.style.display = 'block';
         } else {
             noResults.style.display = 'none';
         }
-      }
+    }
 
     function updateDropdownOptions(currentStudy, currentData) {
-        // Collect available types based on the OTHER dropdown's selection
         let availableDataTypes = new Set();
         let availableStudyTypes = new Set();
 
@@ -285,59 +256,49 @@ document.addEventListener('DOMContentLoaded', function () {
             const itemStudies = item.getAttribute('d-study').trim().split(/\s+/);
             const itemDatas = item.getAttribute('d-data').trim().split(/\s+/);
 
-            // If this item matches the selected Study, its Data Types are valid
             if (currentStudy === 'all' || itemStudies.includes(currentStudy)) {
                 itemDatas.forEach(d => availableDataTypes.add(d));
             }
-
-            // If this item matches the selected Data Type, its Study Types are valid
             if (currentData === 'all' || itemDatas.includes(currentData)) {
                 itemStudies.forEach(s => availableStudyTypes.add(s));
             }
         });
 
-        // Update Data Type dropdown options
         Array.from(dataSelect.options).forEach(opt => {
             if (opt.value === 'all') return;
             opt.style.display = availableDataTypes.has(opt.value) ? 'block' : 'none';
         });
 
-        // Update Study Type dropdown options
         Array.from(studySelect.options).forEach(opt => {
             if (opt.value === 'all') return;
             opt.style.display = availableStudyTypes.has(opt.value) ? 'block' : 'none';
         });
-      }
+    }
 
     function resetFilters() {
-        // Clear keyword search
         searchInput.value = '';
-
-        // Reset Dropdowns
         studySelect.value = 'all';
         dataSelect.value = 'all';
+        infoCheckboxes.forEach(cb => cb.checked = false); 
         
-        // Uncheck all checkboxes
-        checkboxes.forEach(cb => cb.checked = false);
-        
-        // Clean the URL (remove query parameters) without reloading the page
         const newUrl = window.location.pathname;
         window.history.pushState({}, '', newUrl);
-        
-        // Refresh the list
         updateFilters();
-      }
+    }
 
     clearBtn.addEventListener('click', resetFilters);
 
-    applyURLFilters(); // 1. Read URL and set the UI elements
-    updateFilters();   // 2. Run the filter logic based on those elements
+    applyURLFilters(); 
+    updateFilters();   
 
-    searchInput.addEventListener('input', updateFilters); // Trigger on every keystroke
+    searchInput.addEventListener('input', updateFilters);
     studySelect.addEventListener('change', updateFilters);
     dataSelect.addEventListener('change', updateFilters);
-    checkboxes.forEach(cb => cb.addEventListener('change', updateFilters));
-  });
+
+    infoCheckboxes.forEach(cb => {
+        cb.addEventListener('change', updateFilters);
+    });
+});
 </script>
 
 {{ end }}

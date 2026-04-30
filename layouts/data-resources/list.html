@@ -228,7 +228,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const itemData = item.getAttribute('d-data').trim().split(/\s+/);
 
             const matchesStudy = (selectedStudy === 'all' || itemStudy.includes(selectedStudy));
-            const matchesData = (selectedData === 'all' || itemDatas.includes(selectedData));
+            const matchesData = (selectedData === 'all' || itemData.includes(selectedData));
             const matchesInfo = activeInfoFilters.length === 0 || activeInfoFilters.some(val => itemInfo.includes(val));
 
             if (matchesSearch && matchesStudy && matchesData && matchesInfo) {
@@ -254,12 +254,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
         items.forEach(item => {
             const itemStudies = item.getAttribute('d-study').trim().split(/\s+/);
-            const itemDatas = item.getAttribute('d-data').trim().split(/\s+/);
+            const itemData = item.getAttribute('d-data').trim().split(/\s+/);
 
             if (currentStudy === 'all' || itemStudies.includes(currentStudy)) {
-                itemDatas.forEach(d => availableDataTypes.add(d));
+                itemData.forEach(d => availableDataTypes.add(d));
             }
-            if (currentData === 'all' || itemDatas.includes(currentData)) {
+            if (currentData === 'all' || itemData.includes(currentData)) {
                 itemStudies.forEach(s => availableStudyTypes.add(s));
             }
         });

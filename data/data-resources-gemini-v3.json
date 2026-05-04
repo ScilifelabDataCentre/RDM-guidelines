@@ -148,7 +148,7 @@
         "category": "Genomics",
         "keywords": [],
         "SLL_service_area": ["Genomics"],
-        "study_type": ["Genomics", "Metagenomics", "Multiomics", "Single-cell Transcriptomics"],
+        "study_type": ["Genomics", "Metagenomics", "Multiomics", "Single-cell Transcriptomics", "Spatial Omics"],
         "data_type": ["Experimental Metadata"]
     },
     {
@@ -170,7 +170,7 @@
       "category": "Genomics",
       "keywords": ["DNA", "RNA", "Raw reads"],
       "SLL_service_area": ["Genomics"],
-      "study_type": ["Genomics", "Single-cell Transcriptomics", "Clinical Genomics", "Precision Medicine"],
+      "study_type": ["Genomics", "Single-cell Transcriptomics", "Clinical Genomics", "Precision Medicine", "Spatial Omics"],
       "data_type": ["Raw Reads","Single-cell RNA-seq","Controlled Access Data"]
     },
     {
@@ -509,7 +509,7 @@
       "category": "General",
       "keywords": [],
       "SLL_service_area": ["Genomics", "Spatial Omics", "Cellular and Molecular Imaging"],
-      "study_type": ["Multiomics"],
+      "study_type": ["Multiomics", "Spatial Omics"],
       "data_type": ["Experimental Metadata"]
     },
     {
@@ -521,7 +521,7 @@
       "category": "General",
       "keywords": [],
       "SLL_service_area": ["Genomics", "Spatial Omics", "Cellular and Molecular Imaging"],
-      "study_type": ["Multiomics"],
+      "study_type": ["Multiomics", "Spatial Omics"],
       "data_type": ["Experimental Metadata"]
     },
     {

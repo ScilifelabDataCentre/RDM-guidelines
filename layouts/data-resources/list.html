@@ -183,6 +183,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const urlParams = new URLSearchParams(window.location.search);
         const MAX_LENGTH = 100;
 
+        // Handle dropdown filters (study and data)
         if (urlParams.has('study')) {
             const val = urlParams.get('study');
             if (val.length <= MAX_LENGTH) studySelect.value = val;
@@ -197,6 +198,8 @@ document.addEventListener('DOMContentLoaded', function () {
             const val = urlParams.get('SLL_service_area');
             if (val.length <= MAX_LENGTH) activeSLLFilter = val;
         }
+
+        // Handle info checkboxes (multiple values possible, comma-separated)
         if (urlParams.has('info')) {
             const values = urlParams.get('info').split(',');
             values.forEach(val => {
@@ -205,6 +208,32 @@ document.addEventListener('DOMContentLoaded', function () {
                     if (cb) cb.checked = true;
                 }
             });
+        }
+
+        // Handle search query
+        if (urlParams.has('search')) {
+            const val = urlParams.get('search');
+            if (val.length <= MAX_LENGTH) {
+                searchInput.value = val; // This fills the search box so updateFilters() can use it
+            }
+        }
+
+        // Handle direct link to a specific resource modal
+        if (urlParams.has('resource')) {
+            const resourceId = urlParams.get('resource');
+            // We use a timeout to ensure the modal exists and the DOM is ready
+            setTimeout(() => {
+                const modalElement = document.getElementById(`modal-${resourceId}`);
+                if (modalElement) {
+                    const modal = new bootstrap.Modal(modalElement);
+                    modal.show();
+                    
+                    // Also update search to show this card in the background
+                    const title = modalElement.closest('.resource-item').getAttribute('d-title');
+                    searchInput.value = title;
+                    updateFilters();
+                }
+            }, 100);
         }
     }
 

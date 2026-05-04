@@ -41,159 +41,24 @@ General-purpose data repositories accept datasets regardless of discipline or in
 
 ## Recommended discipline-specific repositories
 
-There are several repositories for life science data types (see e.g. <a href="https://elixir-europe.org/platforms/data/elixir-deposition-databases" target="_blank">ELIXIR Deposition Database list</a>), please find a selection of them below.
-
-&nbsp;
-
-### Genomics data
-Click on the buttons below for specific information regarding suitable repositories for sharing genomics data.
-
-<p>
-  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
-    European Nucleotide Archive
-    <i class="bi bi-chevron-double-down p-2"></i>
-  </button>
-</p>
-<div class="collapse" id="collapseExample1">
-  <div class="card card-body">
-  <span>
-  The European Nucleotide Archive (ENA) hosts its own instance of the Sequence Read Archive (SRA), which uses the same data model at the SRA at NCBI. The SRA accepts raw sequencing data from any platform and from any type of research project. There are several ways to <a href="https://www.ebi.ac.uk/ena/submit" target="_blank">submit</a> data to ENA, for more information see the documentation. NBIS provides <a href="https://github.com/NBISweden/data-submission-documentation/tree/main/ENA" target="_blank">examples</a> of submissions to ENA, including standard operating procedures (SOPs). These are exemplified in our <a href="/topics/ena-submission-tutorial">ENA submission tutorial</a>.
-  <br><br>
-  We also recommend the following two specialised guidelines:
-  <ul>
-  <li><a href="https://biodiversitydata-se.github.io/mol-data/index.html" target="_blank">Guide for submission of metabarcoding data to ENA</a> provided by the Swedish Biodiversity Data Infrastructure (<a href="https://biodiversitydata.se/" target="_blank">SBDI</a>)</li>
-    <li><a href="https://www.pathogens.se/support_services/tutorial_ena/tutorial_ena_intro/" target="_blank">Tutorial for SARS-CoV-2 genome data submission to ENA</a> provided by the Swedish Pathogens Portal</li>
-  </ul>
-
-  For convenience, we have created templates for the most frequent data types and their corresponding <a href="https://www.ebi.ac.uk/ena/browser/checklists">ENA checklists</a>. The templates come with instructions on how to do an interactive submission, via the ENA Webin Portal, but even when doing a programmatic submission, the template can be useful for collecting all necessary descriptions / metadata.  Download an appropriate template, and fill in the sheets according to the instructions in the template:
-  <ul>
-    <li>ERC000011 <a href="/files/meta-data-templates/metadata_template_default_ERC000011.xlsx">ENA default sample checklist </a>(Excel spreadsheet)</li>
-    <li>ERC000015 <a href="/files/meta-data-templates/metadata_template_human-gut_ERC000015.xlsx">GSC MIxS human gut </a>(Excel spreadsheet)</li>
-    <li>ERC000022 <a href="/files/meta-data-templates/metadata_template_GSC-MIxS-soil_ERC000022.xlsx">GSC MIxS soil </a>(Excel spreadsheet)</li>
-    <li>ERC000024 <a href="/files/meta-data-templates/metadata_template_GSC-MIxS-water_ERC000024.xlsx">GSC MIxS water </a>(Excel spreadsheet)</li>
-    <li>ERC000025 <a href="/files/meta-data-templates/metadata_template_GSC-MIxS-misc_ERC000025.xlsx">GSC MIxS miscellaneous natural or artificial environment </a>(Excel spreadsheet)</li>
-    <li>ERC000033 <a href="/files/meta-data-templates/metadata_template_virus_ERC000033.xlsx">ENA virus pathogen reporting standard checklist </a>(Excel spreadsheet)</li>
-    <li>ERC000036 <a href="/files/meta-data-templates/metadata_template_sewage_ERC000036.xlsx">ENA sewage checklist </a>(Excel spreadsheet)</li>
-    <li>ERC000050 <a href="/files/meta-data-templates/metadata_template_ENA_binned_metagenome_ERC000050.xlsx">ENA binned metagenome checklist </a>(Excel spreadsheet)</li>
-    <li>ERC000053 <a href="/files/meta-data-templates/metadata_template_tree-of-life_ERC000053.xlsx">Tree of Life Checklist </a>(Excel spreadsheet)</li>
-  </ul>
-  </span>
-  <br>
-  <a class="link-teal" href="https://www.ebi.ac.uk/ena" target="_blank"><b>Visit ENA <i class="bi bi-box-arrow-up-right"></i></b></a>
-
-  <a class="link-teal" href="https://ena-docs.readthedocs.io/en/latest/" target="_blank"><b>Learn more about how to submit to ENA <i class="bi bi-box-arrow-up-right"></i></b></a>
-  </div>
-  <br>
-</div>
-
-<p>
-  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
-    ArrayExpress
-    <i class="bi bi-chevron-double-down p-2"></i>
-  </button>
-</p>
-<div class="collapse" id="collapseExample2">
-  <div class="card card-body">
-  <span>
-  ArrayExpress is tightly integrated with ENA and similar to NCBI’s Gene Expression Omnibus database it can be used to archive experimental designs and analysis files based on the raw sequence reads. ArrayExpress has its own <a href="https://www.ebi.ac.uk/fg/annotare/login/" target="_blank">submission portal</a> where information is available on what can be submitted and how.<br>
-  </span>
-  <br>
-  <a class="link-teal" href="https://www.ebi.ac.uk/arrayexpress/" target="_blank"><b>Visit ArrayExpress <i class="bi bi-box-arrow-up-right"></i></b></a>
-  </div>
-  <br>
-</div>
-
-<p>
-  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
-    European Genome-phenome Archive
-    <i class="bi bi-chevron-double-down p-2"></i>
-  </button>
-</p>
-<div class="collapse" id="collapseExample3">
-  <div class="card card-body">
-  <span>
-  European Genome-phenome Archive (EGA) is a service for sharing personally identifiable <a href="/topics/gdpr-ethical-review-glossary/#genetic-data">genetic</a> and phenotypic data resulting from biomedical research projects. The repository is hosted by the European Bioinformatics Institute (EMBL-EBI) and the Centre for Genomic Regulation (CRG). Any data submitted to the repository is subject to controlled access, which means that access to the data only will be granted after a formal application procedure.
-  </span>
-  <br>
-  <a class="link-teal" href="https://ega-archive.org/" target="_blank"><b>Visit EGA <i class="bi bi-box-arrow-up-right"></i></b></a>
-  </div>
-  <br>
-</div>
-
-<p>
-  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
-    FEGA Sweden
-    <i class="bi bi-chevron-double-down p-2"></i>
-  </button>
-</p>
-<div class="collapse" id="collapseExample4">
-  <div class="card card-body">
-  <span>
-  FEGA Sweden is a repository for storing and sharing personally identifiable <a href="/topics/gdpr-ethical-review-glossary/#genetic-data">genetic</a> and phenotypic data in Sweden in a way that meets the requirements of the <a href="/topics/gdpr-ethical-review-glossary/#gdpr-general-data-protection-regulation">General Data Protection Regulation GDPR</a>. It is part of the <a href="https://ega-archive.org/about/projects-and-funders/federated-ega/" target="_blank">Federated European Genome-phenome Archive</a>, which is a network consisting of several national nodes and the European Genome-phenome Archive (EGA). Researchers can create a submission request by filling in a form on the website.
-  </span>
-  <br>
-  <a class="link-teal" href="https://fega.nbis.se/" target="_blank"><b>Visit FEGA Sweden <i class="bi bi-box-arrow-up-right"></i></b></a>
-  </div>
-  <br>
-</div>
-&nbsp;
-
-### Imaging data
-Depending on the type of image data you have, different public repositories are available, please see the table at BioImage Archive.
-<br><br>
-  <a class="link-teal" href="https://www.ebi.ac.uk/bioimage-archive/" target="_blank"><b>Visit BioImage Archive <i class="bi bi-box-arrow-up-right"></i></b></a>
-
-<br>
-
-### Metabolomics data
-MetaboLights is a database for Metabolomics experiments and derived information. The database is cross-species, cross-technique and covers metabolite structures and their reference spectra as well as their biological roles, locations and concentrations, and experimental data from metabolic experiments.
-<br><br>
-  <a class="link-teal" href="https://www.ebi.ac.uk/metabolights/" target="_blank"><b>Visit MetaboLights <i class="bi bi-box-arrow-up-right"></i></b></a>
-
-<br>
-
-
-### Proteomics data
-The <a href="http://www.proteomexchange.org/" target="_blank">ProteomeXchange</a> Consortium provides globally coordinated standard data submission and dissemination pipelines involving the main proteomics repositories.
-<p>
-  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6">
-    PRIDE
-    <i class="bi bi-chevron-double-down p-2"></i>
-  </button>
-</p>
-<div class="collapse" id="collapseExample6">
-  <div class="card card-body">
-  <span>
-  PRIDE admits protein and peptide identification/quantification data with the accompanying mass spectra evidence and any other related data types. Submission is done using the <a href="https://www.ebi.ac.uk/pride/markdownpage/pridesubmissiontool" target="_blank">PRIDE Submission Tool</a>, see <a href="https://www.ebi.ac.uk/pride/markdownpage/documentationpage" target="_blank">How to submit data to PRIDE</a>.
-  </span>
-  <br>
-  <a class="link-teal" href="https://www.ebi.ac.uk/pride/" target="_blank"><b>Visit PRIDE <i class="bi bi-box-arrow-up-right"></i></b></a>
-  </div>
-  <br>
-</div>
-<p>
-  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false" aria-controls="collapseExample7">
-    PeptideAtlas
-    <i class="bi bi-chevron-double-down p-2"></i>
-  </button>
-</p>
-<div class="collapse" id="collapseExample7">
-  <div class="card card-body">
-  <span>
-  PeptideAtlas admits SRM/MRM data that does not fit into PRIDE (targeted datasets). Submission is done via <a href="http://www.peptideatlas.org/passel/" target="_blank">PASSEL</a>.
-  </span>
-  <br>
-  <a class="link-teal" href="http://www.peptideatlas.org/" target="_blank"><b>Visit PeptideAtlas <i class="bi bi-box-arrow-up-right"></i></b></a>
-  </div>
-  <br>
-</div>
-&nbsp;
-
-### Other data
+There are several repositories for life science data types, please find a selection of them below.
 
 Guidance on where to publish COVID-19 and Pandemic Preparedness research data, can be found on the <a href="https://pathogens.se/share-data/" target="_blank">Swedish Pathogens Portal</a>.
 
 For other discipline-specific repositories, see e.g. <a href="https://elixir-europe.org/services/tag/elixir-deposition-databases" target="_blank">ELIXIR Deposition databases</a>, <a href="https://www.ebi.ac.uk/submission/" target="_blank">EBI archive wizard</a> (help to find the right repository depending on data type), or <a href="https://fairsharing.org/databases/" target="_blank">FAIRsharing</a> (the latter can also assist in finding metadata standards suitable for describing your datasets).
+
+
+<a class="link-teal" href="/data-resources/?SLL_service_area=genomics&info=repository"><b>Repositories for Genomics data <i class="bi bi-arrow-right-square"></i></b></a><br/>
+
+<a class="link-teal" href="/data-resources/?SLL_service_area=proteomics&info=repository"><b>Repositories for Proteomics data <i class="bi bi-arrow-right-square"></i></b></a><br/>
+
+<a class="link-teal" href="/data-resources/?SLL_service_area=metabolomics-and-exposomics&info=repository"><b>Repositories for Metabolomics and Exposomics data <i class="bi bi-arrow-right-square"></i></b></a><br/>
+
+<a class="link-teal" href="/data-resources/?SLL_service_area=spatial-omics&info=repository"><b>Repositories for Spatial Omics data <i class="bi bi-arrow-right-square"></i></b></a><br/>
+
+<a class="link-teal" href="/data-resources/?SLL_service_area=cellular-and-molecular-imaging&info=repository"><b>Repositories for Cellular and Molecular Imaging data <i class="bi bi-arrow-right-square"></i></b></a><br/>
+
+<a class="link-teal" href="/data-resources/?SLL_service_area=structural-biology&info=repository"><b>Repositories for Structural Biology data <i class="bi bi-arrow-right-square"></i></b></a><br/>
 
 &nbsp;
 

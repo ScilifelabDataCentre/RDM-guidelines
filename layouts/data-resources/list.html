@@ -93,8 +93,8 @@
               d-keywords="{{ with .keywords }}{{ range . }}{{ . | lower }} {{ end }}{{ end }}"
               d-study="{{ range .study_type }}{{ . | urlize }} {{ end }}" 
               d-info="{{ range .info_type }}{{ if or (eq . "Metadata standard") (eq . "Metadata format") }}metadata {{ else }}{{ . | urlize }} {{ end }}{{ end }}" 
-              d-data="{{ range .data_type }}{{ . | urlize }} {{ end }}">
-            
+              d-data="{{ range .data_type }}{{ . | urlize }} {{ end }}" 
+              d-sll="{{ range .SLL_service_area }}{{ . | urlize }} {{ end }}">          
             <div class="p-3 rounded border h-100 resource-card-tool clickable-card"
                 role="button" 
                 tabindex="0" 
@@ -176,6 +176,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const noResults = document.getElementById('no-filtered-resource');
     const clearBtn = document.getElementById('clearFiltersBtn');
 
+    // Variable to hold the SLL filter from the URL since there is no UI element for it
+    let activeSLLFilter = null;
+
     function applyURLFilters() {
         const urlParams = new URLSearchParams(window.location.search);
         const MAX_LENGTH = 100;
@@ -189,6 +192,11 @@ document.addEventListener('DOMContentLoaded', function () {
             if (val.length <= MAX_LENGTH) dataSelect.value = val;
         }
 
+        // Handle the SLL service area parameter
+        if (urlParams.has('SLL_service_area')) {
+            const val = urlParams.get('SLL_service_area');
+            if (val.length <= MAX_LENGTH) activeSLLFilter = val;
+        }
         if (urlParams.has('info')) {
             const values = urlParams.get('info').split(',');
             values.forEach(val => {
@@ -210,7 +218,8 @@ document.addEventListener('DOMContentLoaded', function () {
             searchQuery !== '' ||
             selectedStudy !== 'all' || 
             selectedData !== 'all' || 
-            activeInfoFilters.length > 0 
+            activeInfoFilters.length > 0 || 
+            activeSLLFilter !== null // Include SLL in selection check
         ); 
 
         clearBtn.style.display = isAnythingSelected ? 'block' : 'none';
@@ -226,12 +235,16 @@ document.addEventListener('DOMContentLoaded', function () {
             const itemStudy = item.getAttribute('d-study').trim().split(/\s+/);
             const itemInfo = item.getAttribute('d-info').trim().split(/\s+/);
             const itemData = item.getAttribute('d-data').trim().split(/\s+/);
+            const itemSLL = item.getAttribute('d-sll').trim().split(/\s+/); // Get SLL data
 
             const matchesStudy = (selectedStudy === 'all' || itemStudy.includes(selectedStudy));
             const matchesData = (selectedData === 'all' || itemData.includes(selectedData));
             const matchesInfo = activeInfoFilters.length === 0 || activeInfoFilters.some(val => itemInfo.includes(val));
 
-            if (matchesSearch && matchesStudy && matchesData && matchesInfo) {
+            // Logic for the hidden SLL filter
+            const matchesSLL = !activeSLLFilter || itemSLL.includes(activeSLLFilter);
+            
+            if (matchesSearch && matchesStudy && matchesData && matchesInfo && matchesSLL) {
                 item.style.display = 'block';
                 visibleCount++;
             } else {
@@ -280,6 +293,7 @@ document.addEventListener('DOMContentLoaded', function () {
         studySelect.value = 'all';
         dataSelect.value = 'all';
         infoCheckboxes.forEach(cb => cb.checked = false); 
+        activeSLLFilter = null; // Clear the hidden filter
         
         const newUrl = window.location.pathname;
         window.history.pushState({}, '', newUrl);

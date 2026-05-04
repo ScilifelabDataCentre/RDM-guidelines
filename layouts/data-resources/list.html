@@ -62,22 +62,25 @@
 
     <div class="col-lg">
       <div class="row g-2" id="resource-container">
-        {{ range (slice "Repository" "Metadata standard" "Metadata format" "File format") }}
-          {{ $currentType := . }}
-        {{/* Determine the color class based on type */}}
-        {{ $colorClass := "" }}
-        {{ if eq $currentType "Repository" }}{{ $colorClass = "repository" }}
-        {{ else if eq $currentType "Metadata standard" }}{{ $colorClass = "metadata" }}
-        {{ else if eq $currentType "Metadata format" }}{{ $colorClass = "metadata" }}
-        {{ else }}{{ $colorClass = "fileformat" }}{{ end }}
+        {{/* range (slice "Repository" "Metadata standard" "Metadata format" "File format") */}}
+        {{/* 1. Sort all items alphabetically by title */}}
+        {{ range sort $data.items "title" "asc" }}
+          {{/* $currentType := . */}}
+          {{/* 2. Determine header and color based on the FIRST info_type assigned to this item */}}
+          {{ $currentType := index .info_type 0 }}          
+          {{ $colorClass := "" }}
+          {{ if eq $currentType "Repository" }}{{ $colorClass = "repository" }}
+          {{ else if eq $currentType "Metadata standard" }}{{ $colorClass = "metadata" }}
+          {{ else if eq $currentType "Metadata format" }}{{ $colorClass = "metadata" }}
+          {{ else }}{{ $colorClass = "fileformat" }}{{ end }}
 
-        {{ range where $data.items "info_type" "intersect" (slice $currentType) }}
-        {{ $id := .title |  anchorize }}
+          {{/* range where $data.items "info_type" "intersect" (slice $currentType) */}}
+          {{ $id := .title |  anchorize }}
           
           <div class="col-md-4 resource-item" style="display: none;"
               d-title="{{ .title | lower }}"
               {{/* Include description also from partials if available */}}
-              {{ $id := .title | anchorize }}
+              {{/* $id := .title | anchorize */}}
               {{ $partialPath := printf "data-resource-descriptions/%s.html" $id }}
               {{ $fullDescription := .description }}
 
@@ -152,7 +155,7 @@
               </div>
             </div>
           </div>
-          {{ end }}
+          {{/* end */}}
         {{ end }}
         <div id="no-filtered-resource" style="display:none;" class="col-12">
             <p class="text-center mt-5">No resources found for selected criteria.</p>
@@ -215,9 +218,6 @@ document.addEventListener('DOMContentLoaded', function () {
         let visibleCount = 0;
         
         items.forEach(item => {
-            // FIX: If you want items VISIBLE by default, remove the "if (!isAnythingSelected)" hide logic.
-            // If you want them HIDDEN by default, keep it, but it's likely why you see nothing.
-            
             const title = item.getAttribute('d-title');
             const desc = item.getAttribute('d-description');
             const keys = item.getAttribute('d-keywords');

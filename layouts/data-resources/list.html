@@ -1,17 +1,34 @@
+{{/* Helper template for the card front rows */}}
+{{ define "rel-row" }}
+    {{ if gt (len .items) 0 }}
+    <div class="mt-1" style="font-size: 0.75rem; line-height: 1.2;">
+        <span class="text-muted fw-bold">{{ .label }}:</span>
+        {{ if gt (len .items) 3 }}
+            <span class="text-secondary italic">(multiple)</span>
+        {{ else }}
+            {{ range $index, $item := .items }}{{ if $index }}, {{ end }}<span><a href="#modal-{{ .id }}" data-bs-toggle="modal">{{ .short_title }}</a></span>{{ end }}
+        {{ end }}
+    </div>
+    {{ end }}
+{{ end }}
+
 {{ define "main" }}
 
-{{/* 1. This renders the text/HTML from content/data-resources/_index.md */}}
+{{/* This renders the text/HTML from content/data-resources/_index.md */}}
 <div class="container-fluid mt-4">
   {{ .Content }}
 </div>
 
-{{/* 2. Load the data from data/data-resources-gemini-v4.json */}}
+{{/* Load the data from data/data-resources-gemini-v4.json */}}
 {{ $data := index .Site.Data "data-resources-gemini-v4" }}
 {{ with $data }}
+{{/* Capture all items globally for easy lookup inside loops */}}
+{{ $allItems := .items }}
+
 <div class="container-fluid mt-4">
   <div class="row">
+    <!-- Sidebar / Filters -->
     <div class="col-lg-2 mb-2 mb-lg-0 pe-lg-0">
-
       <div class="resources-search-filter">Search</div>
       <div class="mb-4">
         <input type="text" id="searchInput" class="form-control" placeholder="Search resources...">
@@ -23,13 +40,11 @@
           <option value="all">All Study Types</option>
           {{ range $area := .SLL_service_areas }}
             {{/* 1. Find all items associated with this specific service area */}}
-            {{ $area_items := where $data.items "SLL_service_area" "intersect" (slice $area) }}
-            
+            {{ $area_items := where $allItems "SLL_service_area" "intersect" (slice $area) }}
             {{/* 2. Collect all study_types from these items */}}
             {{ $area_studies := slice }}
             {{ range $area_items }}{{ $area_studies = $area_studies | append .study_type }}{{ end }}
             {{ $unique_studies := $area_studies | uniq | sort }}
-
             {{/* 3. Only create a group if there are matching types */}}
             {{ if gt (len $unique_studies) 0 }}
               <optgroup label="{{ $area }}" data-area="{{ $area | urlize }}">
@@ -47,12 +62,11 @@
         <select class="form-select" id="dataTypeSelect">
           <option value="all">All Data Types</option>
           {{ range $area := .SLL_service_areas }}
-            {{ $area_items := where $data.items "SLL_service_area" "intersect" (slice $area) }}
+            {{ $area_items := where $allItems "SLL_service_area" "intersect" (slice $area) }}
             
             {{ $area_data := slice }}
             {{ range $area_items }}{{ $area_data = $area_data | append .data_type }}{{ end }}
             {{ $unique_data := $area_data | uniq | sort }}
-
             {{ if gt (len $unique_data) 0 }}
               <optgroup label="{{ $area }}" data-area="{{ $area | urlize }}">
                 {{ range $unique_data }}
@@ -86,13 +100,12 @@
         </button>
       </div>
     </div>
-
+    <!-- Main Content -->
     <div class="col-lg">
       <div class="row g-2" id="resource-container">
         {{/* range (slice "Repository" "Metadata standard" "Metadata format" "File format") */}}
         {{/* 1. Sort all items alphabetically by title */}}
-        {{ range sort $data.items "title" "asc" }}
-          {{/* $currentType := . */}}
+        {{ range sort $allItems "title" "asc" }}
           {{/* 2. Determine header and color based on the FIRST info_type assigned to this item */}}
           {{ $currentType := index .info_type 0 }}          
           {{ $colorClass := "" }}
@@ -102,12 +115,23 @@
           {{ else }}{{ $colorClass = "fileformat" }}{{ end }}
 
           {{/* range where $data.items "info_type" "intersect" (slice $currentType) */}}
-          {{ $id := .title |  anchorize }}
+          {{ $id := .id }}
+          {{/* Lookup related items data */}}
+          {{ $relRepos := slice }}{{ $relMeta := slice }}{{ $relFormats := slice }}
+          {{ range .related }}
+              {{ $slug := . }}
+              {{ range $allItems }}
+                  {{ if eq .id $slug }}
+                      {{ if in .info_type "Repository" }}{{ $relRepos = $relRepos | append . }}
+                      {{ else if or (in .info_type "Metadata standard") (in .info_type "Metadata format") }}{{ $relMeta = $relMeta | append . }}
+                      {{ else if in .info_type "File format" }}{{ $relFormats = $relFormats | append . }}{{ end }}
+                  {{ end }}
+              {{ end }}
+          {{ end }}
           
           <div class="col-md-4 resource-item" style="display: none;"
               d-title="{{ .title | lower }}"
               {{/* Include description also from partials if available */}}
-              {{/* $id := .title | anchorize */}}
               {{ $partialPath := printf "data-resource-descriptions/%s.html" $id }}
               {{ $fullDescription := .description }}
 
@@ -121,7 +145,8 @@
               d-study="{{ range .study_type }}{{ . | urlize }} {{ end }}" 
               d-info="{{ range .info_type }}{{ if or (eq . "Metadata standard") (eq . "Metadata format") }}metadata {{ else }}{{ . | urlize }} {{ end }}{{ end }}" 
               d-data="{{ range .data_type }}{{ . | urlize }} {{ end }}" 
-              d-sll="{{ range .SLL_service_area }}{{ . | urlize }} {{ end }}">          
+              d-sll="{{ range .SLL_service_area }}{{ . | urlize }} {{ end }}">
+
             <div class="p-3 rounded border h-100 resource-card-tool clickable-card"
                 role="button" 
                 tabindex="0" 
@@ -134,17 +159,22 @@
               </div>
               
               <a class="resources-header-tool d-block mb-3 text-{{ $colorClass }}">
-                  {{ .title }}
+                  {{ .short_title }}
               </a>
 
-              {{/* if we want to display keywords on the card, we can use this code - currently hidden to reduce clutter */}}
-              {{/* <div class="mb-3">
-                {{ range .keywords }}
-                  <span class="badge rounded-pill bg-light text-dark border me-1" style="font-size: 0.7rem; font-weight: 400;">{{ . }}</span>
+              {{/* Display relationship rows on front of resource cards */}}
+              <div class="related-preview mt-1">
+                {{ if in .info_type "Repository" }}
+                    <!-- Repository shows Metadata and Formats -->
+                    {{ template "rel-row" (dict "label" "Metadata" "items" $relMeta) }}
+                    {{ template "rel-row" (dict "label" "File Formats" "items" $relFormats) }}
+                {{ else }}
+                    <!-- Metadata/Formats show Repositories -->
+                    {{ template "rel-row" (dict "label" "Accepted by" "items" $relRepos) }}
                 {{ end }}
-              </div> */}}
+              </div>
             </div>
-
+            <!-- Modal (details on resource card)-->
             <div class="modal fade" id="modal-{{ $id }}" tabindex="-1" aria-hidden="true">
               <div class="modal-dialog modal-lg">
                 <div class="modal-content">
@@ -170,10 +200,37 @@
                       <p><b>Submission Guidelines:</b> <a href="{{ .submission_guidelines }}" target="_blank">View Guidelines</a></p>
                     {{ end }}
                     <hr>
-                    <p><b>Keywords:</b> {{ with .keywords }}{{ delimit . ", " }}{{ end }}</p>
+                    {{/* <p><b>Keywords:</b> {{ with .keywords }}{{ delimit . ", " }}{{ end }}</p>
                     <p><b>Information Type:</b> {{ with .info_type }}{{ delimit . ", " }}{{ end }}</p>
                     <p><b>Study Type:</b> {{ with .study_type }}{{ delimit . ", " }}{{ end }}</p>
-                    <p><b>Data Type:</b> {{ with .data_type }}{{ delimit . ", " }}{{ end }}</p>
+                    <p><b>Data Type:</b> {{ with .data_type }}{{ delimit . ", " }}{{ end }}</p> */}}
+                    <!-- Detailed Relations in Modal -->
+                    <div class="row">
+                        {{ if gt (len $relRepos) 0 }}
+                        <div class="col-md-8">
+                            <h6>Repositories</h6>
+                            <ul class="ps-3 small">
+                                {{ range $relRepos }}<li>{{ .title }}</li>{{ end }}
+                            </ul>
+                        </div>
+                        {{ end }}
+                        {{ if gt (len $relMeta) 0 }}
+                        <div class="col-md-8">
+                            <h6>Metadata Standards</h6>
+                            <ul class="ps-3 small">
+                                {{ range $relMeta }}<li>{{ .title }}</li>{{ end }}
+                            </ul>
+                        </div>
+                        {{ end }}
+                        {{ if gt (len $relFormats) 0 }}
+                        <div class="col-md-">
+                            <h6>File Formats</h6>
+                            <ul class="ps-3 small">
+                                {{ range $relFormats }}<li>{{ .title }}</li>{{ end }}
+                            </ul>
+                        </div>
+                        {{ end }}
+                    </div>
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-teal" data-bs-dismiss="modal">Close</button>
@@ -182,7 +239,6 @@
               </div>
             </div>
           </div>
-          {{/* end */}}
         {{ end }}
         <div id="no-filtered-resource" style="display:none;" class="col-12">
             <p class="text-center mt-5">No resources found for selected criteria.</p>
@@ -191,6 +247,7 @@
     </div>
   </div>
 </div>
+
 {{ end }}
 
 <script>

@@ -1141,18 +1141,6 @@
             "provider":  ["EBI"]
         },
         {
-            "title": "Annotare - ArrayExpress submission tool",
-            "short_title": "Annotare - ArrayExpress",
-            "target": ["guidance", "tool"],
-            "type": ["Web page", "Tool"],
-            "search_tags": ["Annotare - ArrayExpress submission tool", "submit"],
-            "phase": ["Share"],
-            "level": ["Basic"],
-            "url": "https://www.ebi.ac.uk/fg/annotare/login/",
-            "description": "Annotare is a tool for submitting functional genomics data to the ArrayExpress collection in BioStudies. It generates MAGE-TAB format and supports high metadata standards in compliance with MIAME/MINSEQE/MINSCE guidelines.",
-            "provider":  ["EBI"]
-        },
-        {
             "title": "Figshare",
             "short_title": "Figshare",
             "target": ["tool"],

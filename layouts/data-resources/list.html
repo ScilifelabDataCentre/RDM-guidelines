@@ -21,8 +21,23 @@
       <div class="mb-4">
         <select class="form-select" id="studyTypeSelect">
           <option value="all">All Study Types</option>
-          {{ range .study_types | sort }}
-          <option value="{{ . | urlize }}">{{ . }}</option>
+          {{ range $area := .SLL_service_areas }}
+            {{/* 1. Find all items associated with this specific service area */}}
+            {{ $area_items := where $data.items "SLL_service_area" "intersect" (slice $area) }}
+            
+            {{/* 2. Collect all study_types from these items */}}
+            {{ $area_studies := slice }}
+            {{ range $area_items }}{{ $area_studies = $area_studies | append .study_type }}{{ end }}
+            {{ $unique_studies := $area_studies | uniq | sort }}
+
+            {{/* 3. Only create a group if there are matching types */}}
+            {{ if gt (len $unique_studies) 0 }}
+              <optgroup label="{{ $area }}" data-area="{{ $area | urlize }}">
+                {{ range $unique_studies }}
+                  <option value="{{ . | urlize }}">{{ . }}</option>
+                {{ end }}
+              </optgroup>
+            {{ end }}
           {{ end }}
         </select>
       </div>
@@ -31,8 +46,20 @@
       <div class="mb-4">
         <select class="form-select" id="dataTypeSelect">
           <option value="all">All Data Types</option>
-          {{ range .data_types | sort}}
-          <option value="{{ . | urlize }}">{{ . }}</option>
+          {{ range $area := .SLL_service_areas }}
+            {{ $area_items := where $data.items "SLL_service_area" "intersect" (slice $area) }}
+            
+            {{ $area_data := slice }}
+            {{ range $area_items }}{{ $area_data = $area_data | append .data_type }}{{ end }}
+            {{ $unique_data := $area_data | uniq | sort }}
+
+            {{ if gt (len $unique_data) 0 }}
+              <optgroup label="{{ $area }}" data-area="{{ $area | urlize }}">
+                {{ range $unique_data }}
+                  <option value="{{ . | urlize }}">{{ . }}</option>
+                {{ end }}
+              </optgroup>
+            {{ end }}
           {{ end }}
         </select>
       </div>
@@ -183,39 +210,23 @@ document.addEventListener('DOMContentLoaded', function () {
         const urlParams = new URLSearchParams(window.location.search);
         const MAX_LENGTH = 100;
 
+        // Handle search query
+        if (urlParams.has('search')) searchInput.value = urlParams.get('search').substring(0, MAX_LENGTH);
+
         // Handle dropdown filters (study and data)
-        if (urlParams.has('study')) {
-            const val = urlParams.get('study');
-            if (val.length <= MAX_LENGTH) studySelect.value = val;
-        }
-        if (urlParams.has('data')) {
-            const val = urlParams.get('data');
-            if (val.length <= MAX_LENGTH) dataSelect.value = val;
-        }
+        if (urlParams.has('study')) studySelect.value = urlParams.get('study').substring(0, MAX_LENGTH);
+        if (urlParams.has('data')) dataSelect.value = urlParams.get('data').substring(0, MAX_LENGTH);
 
         // Handle the SLL service area parameter
-        if (urlParams.has('SLL_service_area')) {
-            const val = urlParams.get('SLL_service_area');
-            if (val.length <= MAX_LENGTH) activeSLLFilter = val;
-        }
+        if (urlParams.has('SLL_service_area')) activeSLLFilter = urlParams.get('SLL_service_area').substring(0, MAX_LENGTH);
 
         // Handle info checkboxes (multiple values possible, comma-separated)
         if (urlParams.has('info')) {
             const values = urlParams.get('info').split(',');
             values.forEach(val => {
-                if (val.length <= MAX_LENGTH) {
-                    const cb = document.querySelector(`.info-filter[value="${val}"]`);
-                    if (cb) cb.checked = true;
-                }
+                const cb = document.querySelector(`.info-filter[value="${val}"]`);
+                if (cb) cb.checked = true;
             });
-        }
-
-        // Handle search query
-        if (urlParams.has('search')) {
-            const val = urlParams.get('search');
-            if (val.length <= MAX_LENGTH) {
-                searchInput.value = val; // This fills the search box so updateFilters() can use it
-            }
         }
 
         // Handle direct link to a specific resource modal
@@ -243,34 +254,40 @@ document.addEventListener('DOMContentLoaded', function () {
         const selectedData = dataSelect.value;
         const activeInfoFilters = Array.from(document.querySelectorAll('.info-filter:checked')).map(cb => cb.value);
 
-        const isAnythingSelected = (
+        // Check if anything is filtered
+        const isFiltering = (
             searchQuery !== '' ||
             selectedStudy !== 'all' || 
             selectedData !== 'all' || 
             activeInfoFilters.length > 0 || 
-            activeSLLFilter !== null // Include SLL in selection check
+            activeSLLFilter !== null
         ); 
 
-        clearBtn.style.display = isAnythingSelected ? 'block' : 'none';
+        // Show/Hide Clear Button
+        clearBtn.style.display = isFiltering ? 'block' : 'none';
 
         let visibleCount = 0;
         
         items.forEach(item => {
+            // Logic: If NO filters are active, show everything (User Requirement)
+            if (!isFiltering) {
+                item.style.display = 'block';
+                visibleCount++;
+                return;
+            }
+
             const title = item.getAttribute('d-title');
             const desc = item.getAttribute('d-description');
             const keys = item.getAttribute('d-keywords');
-            const matchesSearch = !searchQuery || title.includes(searchQuery) || desc.includes(searchQuery) || keys.includes(searchQuery);
-
             const itemStudy = item.getAttribute('d-study').trim().split(/\s+/);
             const itemInfo = item.getAttribute('d-info').trim().split(/\s+/);
             const itemData = item.getAttribute('d-data').trim().split(/\s+/);
             const itemSLL = item.getAttribute('d-sll').trim().split(/\s+/); // Get SLL data
 
+            const matchesSearch = !searchQuery || title.includes(searchQuery) || desc.includes(searchQuery) || keys.includes(searchQuery);
             const matchesStudy = (selectedStudy === 'all' || itemStudy.includes(selectedStudy));
             const matchesData = (selectedData === 'all' || itemData.includes(selectedData));
             const matchesInfo = activeInfoFilters.length === 0 || activeInfoFilters.some(val => itemInfo.includes(val));
-
-            // Logic for the hidden SLL filter
             const matchesSLL = !activeSLLFilter || itemSLL.includes(activeSLLFilter);
             
             if (matchesSearch && matchesStudy && matchesData && matchesInfo && matchesSLL) {
@@ -281,41 +298,65 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
 
-        updateDropdownOptions(selectedStudy, selectedData);
+        // Update the dropdowns so they only show relevant options
+        updateDropdownOptions(selectedStudy, selectedData, searchQuery, activeInfoFilters);
 
-        if (isAnythingSelected && visibleCount === 0) {
-            noResults.style.display = 'block';
-        } else {
-            noResults.style.display = 'none';
-        }
+        noResults.style.display = (isFiltering && visibleCount === 0) ? 'block' : 'none';
     }
 
-    function updateDropdownOptions(currentStudy, currentData) {
-        let availableDataTypes = new Set();
-        let availableStudyTypes = new Set();
+    function updateDropdownOptions(currentStudy, currentData, searchQuery, activeInfoFilters) {
+        let validDataPairs = new Set();
+        let validStudyPairs = new Set();
 
+        // Determine which (Service Area + Type) combinations are valid based on OTHER filters
         items.forEach(item => {
+            const itemSLLs = item.getAttribute('d-sll').trim().split(/\s+/);
             const itemStudies = item.getAttribute('d-study').trim().split(/\s+/);
-            const itemData = item.getAttribute('d-data').trim().split(/\s+/);
+            const itemDatas = item.getAttribute('d-data').trim().split(/\s+/);
+            const itemInfo = item.getAttribute('d-info').trim().split(/\s+/);
+            const title = item.getAttribute('d-title').toLowerCase();
+            
+            const matchesSearch = !searchQuery || title.includes(searchQuery);
+            const matchesSLL = !activeSLLFilter || itemSLLs.includes(activeSLLFilter);
+            const matchesInfo = activeInfoFilters.length === 0 || activeInfoFilters.some(val => itemInfo.includes(val));
 
-            if (currentStudy === 'all' || itemStudies.includes(currentStudy)) {
-                itemData.forEach(d => availableDataTypes.add(d));
+            // For Data Dropdown: Item must match Search, SLL, Info, and current Study selection
+            if (matchesSearch && matchesSLL && matchesInfo && (currentStudy === 'all' || itemStudies.includes(currentStudy))) {
+                itemSLLs.forEach(sll => {
+                    itemDatas.forEach(d => validDataPairs.add(`${sll}:${d}`));
+                });
             }
-            if (currentData === 'all' || itemData.includes(currentData)) {
-                itemStudies.forEach(s => availableStudyTypes.add(s));
+
+            // For Study Dropdown: Item must match Search, SLL, Info, and current Data selection
+            if (matchesSearch && matchesSLL && matchesInfo && (currentData === 'all' || itemDatas.includes(currentData))) {
+                itemSLLs.forEach(sll => {
+                    itemStudies.forEach(s => validStudyPairs.add(`${sll}:${s}`));
+                });
             }
         });
 
-        Array.from(dataSelect.options).forEach(opt => {
-            if (opt.value === 'all') return;
-            opt.style.display = availableDataTypes.has(opt.value) ? 'block' : 'none';
-        });
+        // Update the visibility of options based on their group + value
+        [
+            { select: dataSelect, validSet: validDataPairs },
+            { select: studySelect, validSet: validStudyPairs }
+        ].forEach(config => {
+            Array.from(config.select.querySelectorAll('optgroup')).forEach(group => {
+                const area = group.getAttribute('data-area');
+                let hasVisibleOption = false;
 
-        Array.from(studySelect.options).forEach(opt => {
-            if (opt.value === 'all') return;
-            opt.style.display = availableStudyTypes.has(opt.value) ? 'block' : 'none';
+                Array.from(group.querySelectorAll('option')).forEach(opt => {
+                    const compositeKey = `${area}:${opt.value}`;
+                    const isVisible = config.validSet.has(compositeKey);
+                    
+                    opt.style.display = isVisible ? 'block' : 'none';
+                    if (isVisible) hasVisibleOption = true;
+                });
+
+                // Hide the entire Service Area group if no relevant types are found for it
+                group.style.display = hasVisibleOption ? 'block' : 'none';
+            });
         });
-    }
+      }
 
     function resetFilters() {
         searchInput.value = '';
@@ -324,23 +365,18 @@ document.addEventListener('DOMContentLoaded', function () {
         infoCheckboxes.forEach(cb => cb.checked = false); 
         activeSLLFilter = null; // Clear the hidden filter
         
-        const newUrl = window.location.pathname;
-        window.history.pushState({}, '', newUrl);
+        window.history.pushState({}, '', window.location.pathname);
         updateFilters();
     }
 
     clearBtn.addEventListener('click', resetFilters);
-
-    applyURLFilters(); 
-    updateFilters();   
-
     searchInput.addEventListener('input', updateFilters);
     studySelect.addEventListener('change', updateFilters);
     dataSelect.addEventListener('change', updateFilters);
+    infoCheckboxes.forEach(cb => cb.addEventListener('change', updateFilters));
 
-    infoCheckboxes.forEach(cb => {
-        cb.addEventListener('change', updateFilters);
-    });
+    applyURLFilters(); 
+    updateFilters();   
 });
 </script>
 

@@ -26,6 +26,7 @@
   "items": [
     {
       "title": "ENA (European Nucleotide Archive)",
+      "short_title": "ENA",
       "id": "ena",
       "related": ["mixs","ena-checklists", "webin-cli", "fastq", "bam", "fasta", "embl"],
       "description": "",
@@ -40,6 +41,7 @@
     },
     {
       "title": "EGA (European Genome-phenome Archive)",
+      "short_title": "EGA",
       "id": "ega",
       "related": ["fastq", "bam", "fasta", "vcf"],
       "description": "European Genome-phenome Archive (EGA) is a service for sharing personally identifiable [genetic](/topics/gdpr-ethical-review-glossary/#genetic-data) and phenotypic data resulting from biomedical research projects. The repository is hosted by the European Bioinformatics Institute (EMBL-EBI) and the Centre for Genomic Regulation (CRG). Any data submitted to the repository is subject to controlled access, which means that access to the data only will be granted after a formal application procedure.",
@@ -54,6 +56,7 @@
     },
     {
       "title": "FEGA (Federated European Genome-phenome Archive) Sweden",
+      "short_title": "FEGA-SE",
       "id": "fega",
       "related": ["fastq", "bam", "fasta", "vcf", "gwas-ssf"],
       "description": "FEGA Sweden is a repository for storing and sharing personally identifiable [genetic](/topics/gdpr-ethical-review-glossary/#genetic-data) and phenotypic data in Sweden in a way that meets the requirements of the [General Data Protection Regulation (GDPR)](/topics/gdpr-ethical-review-glossary/#gdpr-general-data-protection-regulation). It is part of the [Federated European Genome-phenome Archive](https://ega-archive.org/about/projects-and-funders/federated-ega/), which is a network consisting of several national nodes and the European Genome-phenome Archive (EGA). Researchers can create a submission request by filling in a form on the website.",
@@ -68,6 +71,7 @@
     },
     {
       "title": "ArrayExpress",
+      "short_title": "AE",
       "id": "arrayexpress",
       "related": ["miame", "fastq","minseqe", "mage-tab", "cel"],
       "description": "ArrayExpress is tightly integrated with ENA and similar to NCBI’s Gene Expression Omnibus (GEO) database it can be used to archive experimental designs and analysis files based on the raw sequence reads. ArrayExpress has its own submission portal, [Annotare](https://www.ebi.ac.uk/fg/annotare/login/), where information is available on what can be submitted and how.",
@@ -82,6 +86,7 @@
     },
     {
       "title": "EVA (European Variation Archive)",
+      "short_title": "EVA",
       "id": "eva",
       "related": ["vcf", "fasta"],
       "description": "The home for all genetic variation data, including SNPs, indels, and structural variants across any species.",
@@ -96,6 +101,7 @@
     },
     {
       "title": "GWAS Catalog",
+      "short_title": "GWAS",
       "id": "gwas",
       "related": ["gwas-ssf","vcf"],
       "description": "The standard source for curated and summary-level data from Genome-Wide Association Studies.",
@@ -109,10 +115,11 @@
       "data_type": ["GWAS Summary Statistics"]
     },
     {
-      "title": "MIxS",
+      "title": "MIxS (Minimum Information about any (x) Sequence)",
+      "short_title": "MIxS",
       "id": "mixs",
       "related": ["ena"],
-      "description": "Minimum Information about any (x) Sequence; ensures metadata standards for environmental sequencing.",
+      "description": "Ensures metadata standards for environmental sequencing.",
       "url": "https://gensc.org/mixs/",
       "info_type": ["Metadata standard"],
       "category": "Genomics",
@@ -122,10 +129,11 @@
       "data_type": ["Raw Reads", "Single-cell RNA-seq", "Experimental Metadata"]
     },
     {
-      "title": "MIAME",
+      "title": "MIAME (Minimum Information About a Microarray Experiment)",
+      "short_title": "MIAME",
       "id": "miame",
       "related": ["arrayexpress"],
-      "description": "Guidelines for Minimum Information About a Microarray Experiments.",
+      "description": "Guidelines for microarray experiments.",
       "url": "https://fged.org/standards/",
       "info_type": ["Metadata standard"],
       "category": "Transcriptomics",
@@ -135,10 +143,11 @@
       "data_type": ["Expression Matrices", "Count Tables", "Microarray Data"]
     },
     {
-      "title": "MAGE-TAB",
+      "title": "MAGE-TAB (MicroArray Gene Expression Tabular)",
+      "short_title": "MAGE-TAB",
       "id": "mage-tab",
       "related": ["arrayexpress"],
-      "description": "MicroArray Gene Expression Tabular format for microarray transcriptomics metadata. It is a simple tab-delimited, spreadsheet-based metadata format used for annotating and communicating microarray data in a MIAME compliant fashion.",
+      "description": "Format for microarray transcriptomics metadata. It is a simple tab-delimited, spreadsheet-based metadata format used for annotating and communicating microarray data in a MIAME compliant fashion.",
       "url": "https://www.fged.org/projects/mage-tab/",
       "info_type": ["Metadata format"],
       "category": "Transcriptomics",
@@ -148,10 +157,11 @@
       "data_type": ["Experimental Metadata", "Microarray Data", "Expression Matrices", "Count Tables"]
     },
     {
-      "title": "MINSEQE",
+      "title": "MINSEQE (Minimum Information about a high throughput SEQuencing Experiment)",
+      "short_title": "MINSEQE",
       "id": "minseqe",
       "related": ["arrayexpress"],
-      "description": "Guidelines for Minimal Information about a high throughput SEQuencing Experiments.",
+      "description": "Guidelines for high throughput sequencing experiment.",
       "url": "https://fged.org/standards/",
       "info_type": ["Metadata standard"],
       "category": "Transcriptomics",
@@ -162,6 +172,7 @@
     },
     {
         "title": "ENA sample checklists",
+        "short_title": "ENA checklists",
         "id": "ena-checklists",
         "related": ["ena","biosamples"],
         "description": "",
@@ -175,6 +186,7 @@
     },
     {
       "title": "Webin-CLI manifest format",
+      "short_title": "Webin-CLI",
       "id": "webin-cli",
       "related": ["ena"],
       "description": "Manifest format for submitting sequencing and assembly data to ENA using Webin-CLI.",
@@ -188,6 +200,7 @@
     },
     {
       "title": "FASTQ (FASTQ Sequence and Sequence Quality Format)",
+      "short_title": "FASTQ",
       "id": "fastq",
       "related": ["ena","ega","fega","arrayexpress"],
       "description": "The standard format for raw and compressed (gzip) nucleotide sequences.",
@@ -201,6 +214,7 @@
     },
     {
       "title": "BAM (Binary Alignment Map Format)",
+      "short_title": "BAM",
       "id": "bam",
       "related": ["ena","ega","fega"],
       "description": "The standard format for raw and compressed nucleotide sequences.",
@@ -214,6 +228,7 @@
     },
     {
       "title": "FASTA (FASTA Sequence Format)",
+      "short_title": "FASTA",
       "id": "fasta",
       "related": ["ena","ega","fega","eva"],
       "description": "Text-based file format for representing nucleotide sequences or peptide sequences, where each sequence is represented by a header line starting with '>' followed by the sequence data.",
@@ -227,6 +242,7 @@
     },
     {
       "title": "EMBL format (ENA Annotated Assembly Flat File Format)",
+      "short_title": "EMBL",
       "id": "embl",
       "related": ["ena"],
       "description": "This file format is used for storing nucleotide sequences and their associated annotations, providing a standardized way to represent genomic data in the European Nucleotide Archive (ENA) database.",
@@ -240,6 +256,7 @@
     },
     {
       "title": "VCF (Variant Call Format)",
+      "short_title": "VCF",
       "id": "vcf",
       "related": ["eva","gwas","fega"],
       "description": "Variant Call Format; the standard for storing genetic variation data. Please ensure that the used reference sequence is also publically available and that it is unambiguously referenced in the header of the .vcf file, e.g. using the URL field of the ##contig field.",
@@ -253,6 +270,7 @@
     },
     {
       "title": "CEL files",
+      "short_title": "CEL",
       "id": "cel",
       "related": ["arrayexpress"],
       "description": "Proprietary file format for raw microarray data generated by Affymetrix instruments, containing intensity information from Affymetrix GeneChip microarrays, representing gene expression levels across samples.",
@@ -266,6 +284,7 @@
     },
     {
       "title": "GWAS summary statistics format",
+      "short_title": "GWAS-SSF",
       "id": "gwas-ssf",
       "related": ["gwas", "fega"],
       "description": "Standard format for reporting summary-level data from Genome-Wide Association Studies.",
@@ -278,7 +297,8 @@
       "data_type": ["GWAS Summary Statistics"]
     },
     {
-      "title": "PRoteomics IDEntifications Database (PRIDE)",
+      "title": "PRIDE (PRoteomics IDEntifications Database)",
+      "short_title": "PRIDE",
       "id": "pride",
       "related": ["sdrf","miape","mzml", "mztab", "mzidentml", "thermo", "bruker", "agilent"],
       "description": "PRIDE admits protein and peptide identification/quantification data with the accompanying mass spectra evidence and any other related data types. Various types of proteomics experiments are accepted, including single-cell proteomics, spatial omics, and peptidomics. The repository is part of the [ProteomeXchange consortium](http://www.proteomexchange.org/). Submission is done using the [PRIDE Submission Tool](https://www.ebi.ac.uk/pride/markdownpage/pride-submission-tool).",
@@ -293,6 +313,7 @@
     },
     {
       "title": "PeptideAtlas",
+      "short_title": "PeptideAtlas",
       "id": "peptideatlas",
       "related": ["traml"],
       "description": "PeptideAtlas admits SRM/MRM (Selected reaction monitoring/Multiple reaction monitoring) data that does not fit into PRIDE (targeted datasets). Submission is done via [PASSEL](http://www.peptideatlas.org/passel/).",
@@ -306,10 +327,11 @@
       "data_type": ["SRM/MRM Mass Spectra", "Protein Identifications"]
     },
     {
-      "title": "MIAPE",
+      "title": "MIAPE (Minimum Information About a Proteomics Experiment)",
+      "short_title": "MIAPE",
       "id": "miape",
       "related": ["pride"],
-      "description": "Minimum Information About a Proteomics Experiment; reporting rules for proteomics workflows.",
+      "description": "Reporting rules for proteomics workflows.",
       "url": "https://psidev.info/miape",
       "info_type": ["Metadata standard"],
       "category": "Proteomics",
@@ -320,6 +342,7 @@
     },
     {
       "title": "SDRF (Sample and Data Relationship Format) for Proteomics",
+      "short_title": "SDRF",
       "id": "sdrf",
       "related": ["pride"],
       "description": "The standardized format for describing proteomics sample-to-data relationships.",
@@ -332,7 +355,8 @@
       "data_type": ["Experimental Metadata", "Protein Identifications"]
     },
     {
-      "title": "mzML",
+      "title": "mzML (Mass Spectrometry Markup Language)",
+      "short_title": "mzML",
       "id": "mzml",
       "related": ["pride","metabolights"],
       "description": "Open standard for mass spectrometry data.",
@@ -345,7 +369,8 @@
       "data_type": ["Mass Spectra"]
     },
     {
-      "title": "TraML",
+      "title": "TraML (Transition Markup Language)",
+      "short_title": "TraML",
       "id": "traml",
       "related": ["peptideatlas"],
       "description": "Standard format for targeted mass spectrometry data, including SRM/MRM results.",
@@ -358,7 +383,8 @@
       "data_type": ["SRM/MRM Mass Spectra"]
     },
     {
-      "title": "mzTab",
+      "title": "mzTab (Mass Spectrometry Tabular Format)",
+      "short_title": "mzTab",
       "id": "mztab",
       "related": ["pride","metabolights"],
       "description": "Standard result file format for reporting proteomics and metabolomics identification and quantification results.",
@@ -371,7 +397,8 @@
       "data_type": ["Protein Identifications", "Metabolite Profiles"]
     },
     {
-      "title": "mzIdentML (.mzid)",
+      "title": "mzIdentML (Mass Spectrometry Identification Markup Language)",
+      "short_title": "mzIdentML",
       "id": "mzidentml",
       "related": ["pride"],
       "description": "Standard result file format for reporting peptide and protein identifications from mass spectrometry data.",
@@ -384,7 +411,8 @@
       "data_type": ["Protein Identifications"]
     },
     {
-      "title": "Thermo RAW",
+      "title": "Thermo RAW (Thermo Fisher Scientific Raw Data Format)",
+      "short_title": "RAW",
       "id": "thermo",
       "related": ["pride","metabolights"],
       "description": "Proprietary file format for raw mass spectrometry data generated by Thermo Fisher Scientific instruments.",
@@ -397,7 +425,8 @@
       "data_type": ["Mass Spectra"]
     },
     {
-        "title": "Bruker BAF format",
+        "title": "Bruker BAF (Bruker Raw Data Format)",
+        "short_title": "BAF",
         "id": "bruker",
         "related": ["pride"],
         "description": "Proprietary file format for raw mass spectrometry data generated by Bruker instruments.",
@@ -410,7 +439,8 @@
         "data_type": ["Mass Spectra"]
     },
     {
-        "title": "Agilent MassHunter Format",
+        "title": "Agilent MassHunter (Agilent Raw Data Format)",
+        "short_title": "MassHunter",
         "id": "agilent",
         "related": ["pride","metabolights"],
         "description": "Proprietary file format for raw mass spectrometry data generated by Agilent instruments.",
@@ -424,6 +454,7 @@
     },
     {
       "title": "MetaboLights",
+      "short_title": "MetaboLights",
       "id": "metabolights",
       "related": ["agilent","thermo","mzml","mztab","msi-cimr","isatab"],
       "description": "MetaboLights is a database for Metabolomics experiments and derived information. The database is cross-species, cross-technique, and covers metabolite structures and their reference spectra as well as their biological roles, locations and concentrations, and experimental data from metabolic experiments.",
@@ -437,7 +468,8 @@
       "data_type": ["Mass Spectra", "NMR Spectra", "Metabolite Profiles"]
     },
     {
-      "title": "MSI / CIMR",
+      "title": "MSI/CIMR",
+      "short_title": "MSI/CIMR",
       "id": "msi-cimr",
       "related": ["metabolights"],
       "description": "Metabolomics Standards Initiative; Core Information for Metabolomics Reporting.",
@@ -450,7 +482,8 @@
       "data_type": ["Metabolite Profiles", "Mass Spectra", "NMR Spectra"]
     },
     {
-      "title": "EMPIAR",
+      "title": "EMPIAR (Electron Microscopy Public Image Archive)",
+      "short_title": "EMPIAR",
       "id": "empiar",
       "related": ["mrc"],
       "description": "Public archive for raw electron microscopy images, supporting Cryo-EM and volume imaging.",
@@ -465,6 +498,7 @@
     },
     {
       "title": "EMDB (Electron Microscopy Data Bank)",
+      "short_title": "EMDB",
       "id": "emdb",
       "related": ["mrc"],
       "description": "Archive for 3D electron microscopy maps and tomograms.",
@@ -479,6 +513,7 @@
     },
     {
       "title": "PDBe (Protein Data Bank in Europe)",
+      "short_title": "PDBe",
       "id": "pdbe",
       "related": ["mmcif"],
       "description": "Archive for macromolecular structures, including protein and nucleic acid complexes.",
@@ -492,7 +527,8 @@
       "data_type": ["Atomic Coordinates", "Structure Factors"]
     },
     {
-      "title": "mmCIF",
+      "title": "mmCIF (Macromolecular Crystallographic Information File)",
+      "short_title": "mmCIF",
       "id": "mmcif",
       "related": ["emdb","pdbe"],
       "description": "Modern standard for macromolecular structure files, replacing PDB format.",
@@ -505,7 +541,8 @@
       "data_type": ["Atomic Coordinates"]
     },
     {
-        "title": "MRC",
+        "title": "MRC format",
+        "short_title": "MRC",
         "id": "mrc",
         "related": ["emdb","empiar"],
         "description": "Standard file formats for electron microscopy density maps.",
@@ -519,6 +556,7 @@
     },
     {
       "title": "BioImage Archive",
+      "short_title": "BIA",
       "id": "bia",
       "related": ["ome-tiff","zarr", "rembi", "miti"],
       "description": "Reference repository for biological imaging data, from cells to whole organisms. It accepts submissions of data from any imaging modality, as long as the data are either associated with a peer-reviewed publication, or of value beyond a single experiment.",
@@ -532,10 +570,11 @@
       "data_type": ["Multiplexed Images", "Microscopy Images"]
     },
     {
-      "title": "REMBI",
+      "title": "REMBI (Recommended Metadata for Biological Images)",
+      "short_title": "REMBI",
       "id": "rembi",
       "related": ["bia"],
-      "description": "Recommended Metadata for Biological Images; a framework for FAIR imaging data.",
+      "description": "A framework for FAIR imaging data.",
       "url": "https://www.ebi.ac.uk/bioimage-archive/help-rembi",
       "info_type": ["Metadata standard"],
       "category": "Imaging",
@@ -546,6 +585,7 @@
     },
     {
       "title": "MITI (Minimum Information about Tissue Imaging)",
+      "short_title": "MITI",
       "id": "miti",
       "related": ["bia"],
       "description": "Guidelines for reporting tissue imaging experiments, including spatial omics.",
@@ -559,7 +599,8 @@
 
     },
     {
-      "title": "OME-TIFF",
+      "title": "OME-TIFF (Open Microscopy Environment TIFF)",
+      "short_title": "OME-TIFF",
       "id": "ome-tiff",
       "related": ["bia"],
       "description": "",
@@ -572,7 +613,8 @@
       "data_type": ["Images"]
     },
     {
-      "title": "Zarr",
+      "title": "Zarr (Chunked, Compressed, N-Dimensional Arrays)",
+      "short_title": "Zarr",
       "id": "zarr",
       "related": ["bia"],
       "description": "",
@@ -586,6 +628,7 @@
     },
     {
       "title": "BioStudies",
+      "short_title": "BioStudies",
       "id": "biostudies",
       "related": ["pagetab"],
       "description": "An integrative archive that holds data from multiple sources and provides supplemental data hosting.",
@@ -600,6 +643,7 @@
     },
     {
       "title": "BioSamples",
+      "short_title": "BioSamples",
       "id": "biosamples",
       "related": ["isa-tab","ena-checklists"],
       "description": "Central reference service for sample descriptions and metadata across all EBI repositories.",
@@ -613,7 +657,8 @@
       "data_type": ["Experimental Metadata"]
     },
     {
-      "title": "ISA-Tab",
+      "title": "ISA-Tab (Investigation/Study/Assay Tabular Format)",
+      "short_title": "ISA-Tab",
       "id": "isa-tab",
       "related": ["biosamples","metabolights"],
       "description": "Investigation/Study/Assay framework for multiomics metadata.",
@@ -626,7 +671,8 @@
       "data_type": ["Experimental Metadata", "Expression Matrices", "Metabolite Profiles"]
     },
     {
-      "title": "PageTab",
+      "title": "PageTab (Page-based Tabular Format)",
+      "short_title": "PageTab",
       "id": "pagetab",
       "related": ["biostudies"],
       "description": "A spreadsheet-based format for metadata and study structure in BioStudies.",

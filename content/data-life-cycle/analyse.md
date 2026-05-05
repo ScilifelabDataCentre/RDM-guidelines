@@ -14,10 +14,10 @@ During this phase the collected data, both the re-used data and the data created
 <a class="link-teal" href="/topics/research-involving-human-data"><b>See more guidelines on research involving human data <i class="bi bi-arrow-right-square"></i></b></a>
 <br/><br/>
 
-Facilities which offer data analysis services:
+SciLifeLab platforms and units which offer data analysis services:
 * NBIS (National Bioinformatics Infrastructure Sweden) offers bioinformatic support in various forms for a wide range of areas including NGS, proteomics, metabolomics and biostatistics.<br/><br/><a class="link-teal" href="https://nbis.se/get-support" target="_blank"><b>Learn more about NBIS support <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/>
 
-* BioImage Informatics Facility provides support and education in image analysis in order to help users get started with their own analysis.<br/><br/><a class="link-teal" href="https://www.scilifelab.se/facilities/bioimage-informatics/" target="_blank"><b>Learn more about the BioImage Informatics Facility <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/>
+* BioImage Informatics Unit provides support and education in image analysis in order to help users get started with their own analysis.<br/><br/><a class="link-teal" href="https://www.scilifelab.se/facilities/bioimage-informatics/" target="_blank"><b>Learn more about the BioImage Informatics Facility <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/>
 
 ## Computational resources
 The <a href="https://www.naiss.se" target="_blank">National Academic Infrastructure for Super­computing in Sweden (NAISS) </a>is a national research infrastructure offering large scale high performance computing resources that can be used for analysis. In addition, many universities have their own compute resources avaliable for their researchers to use. Contact your university to learn what computational resources they offer.

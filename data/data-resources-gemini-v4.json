@@ -22,7 +22,6 @@
   ],
   "info_types": ["Repository", "Metadata standard", "Metadata format", "File format"],
   "SLL_service_areas": ["Genomics", "Proteomics", "Metabolomics and Exposomics", "Spatial Omics", "Cellular and Molecular Imaging", "Structural Biology"],
-  "categories": ["Genomics", "Transcriptomics", "Structural Biology", "Proteomics", "Metabolomics", "Imaging", "General", "Multiomics"],
   "items": [
     {
       "title": "ENA (European Nucleotide Archive)",

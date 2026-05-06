@@ -10,7 +10,6 @@
     "data_types": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
     "info_types": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
     "SLL_service_areas": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
-    "categories": { "type": "array", "items": { "type": "string" } },
     "items": {
       "type": "array",
       "items": {

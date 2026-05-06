@@ -3,7 +3,7 @@ import sys
 import os
 
 # Path to your data file relative to the root
-DATA_FILE = 'data/data-resources-gemini-v2.json'
+DATA_FILE = 'data/data-resources-gemini-v4.json'
 
 def validate_resources():
     if not os.path.exists(DATA_FILE):

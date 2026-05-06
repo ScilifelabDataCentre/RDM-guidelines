@@ -18,18 +18,19 @@
         "required": ["title", "description", "url", "info_type", "SLL_service_area", "study_type", "data_type"],
         "properties": {
           "title": { "type": "string" },
+          "short_title": { "type": "string" },
+          "id": { "type": "string" },
           "description": { "type": "string" },
           "url": { "type": "string", "format": "uri" },
           "submission_guidelines": { "type": "string", "format": "uri" },
-          "category": { "type": "string" },
+          "info_type": {
+            "type": "array",
+            "items": { "enum": ["Repository", "Metadata standard", "Metadata format", "File format"] }
+          },
           "keywords": { 
             "type": "array", 
             "items": { "type": "string" }, 
             "uniqueItems": true 
-          },
-          "info_type": {
-            "type": "array",
-            "items": { "enum": ["Repository", "Metadata standard", "Metadata format", "File format"] }
           },
           "SLL_service_area": { "type": "array", "items": { "type": "string" } },
           "study_type": { "type": "array", "items": { "type": "string" } },

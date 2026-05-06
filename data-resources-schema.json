@@ -19,6 +19,7 @@
           "title": { "type": "string" },
           "short_title": { "type": "string" },
           "id": { "type": "string" },
+          "related": { "type": "array", "items": { "type": "string" } },
           "description": { "type": "string" },
           "url": { "type": "string", "format": "uri" },
           "submission_guidelines": { "type": "string", "format": "uri" },

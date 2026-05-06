@@ -4,9 +4,9 @@
     <div class="mt-1" style="font-size: 0.75rem; line-height: 1.2;">
         <span class="text-muted fw-bold">{{ .label }}:</span>
         {{ if gt (len .items) 3 }}
-            <span class="text-secondary italic">(multiple)</span>
+            <a href="#modal-{{ .parentId }}" data-bs-toggle="modal">(multiple)</a>
         {{ else }}
-            {{ range $index, $item := .items }}{{ if $index }}, {{ end }}<span><a href="#modal-{{ .id }}" data-bs-toggle="modal">{{ .short_title }}</a></span>{{ end }}
+            {{ range $index, $item := .items }}{{ if $index }}, {{ end }}<a href="#modal-{{ .id }}" data-bs-toggle="modal">{{ .short_title }}</a>{{ end }}
         {{ end }}
     </div>
     {{ end }}
@@ -166,11 +166,11 @@
               <div class="related-preview mt-1">
                 {{ if in .info_type "Repository" }}
                     <!-- Repository shows Metadata and Formats -->
-                    {{ template "rel-row" (dict "label" "Metadata" "items" $relMeta) }}
-                    {{ template "rel-row" (dict "label" "File Formats" "items" $relFormats) }}
+                    {{ template "rel-row" (dict "label" "Metadata" "items" $relMeta "parentId" $id) }}
+                    {{ template "rel-row" (dict "label" "File Formats" "items" $relFormats "parentId" $id) }}
                 {{ else }}
                     <!-- Metadata/Formats show Repositories -->
-                    {{ template "rel-row" (dict "label" "Accepted by" "items" $relRepos) }}
+                    {{ template "rel-row" (dict "label" "Accepted by" "items" $relRepos "parentId" $id) }}
                 {{ end }}
               </div>
             </div>
@@ -207,7 +207,7 @@
                     <!-- Detailed Relations in Modal -->
                     <div class="row">
                         {{ if gt (len $relRepos) 0 }}
-                        <div class="col-md-8">
+                        <div>
                             <h6>Repositories</h6>
                             <ul class="ps-3 small">
                                 {{ range $relRepos }}<li>{{ .title }}</li>{{ end }}
@@ -215,7 +215,7 @@
                         </div>
                         {{ end }}
                         {{ if gt (len $relMeta) 0 }}
-                        <div class="col-md-8">
+                        <div>
                             <h6>Metadata Standards</h6>
                             <ul class="ps-3 small">
                                 {{ range $relMeta }}<li>{{ .title }}</li>{{ end }}
@@ -223,7 +223,7 @@
                         </div>
                         {{ end }}
                         {{ if gt (len $relFormats) 0 }}
-                        <div class="col-md-">
+                        <div>
                             <h6>File Formats</h6>
                             <ul class="ps-3 small">
                                 {{ range $relFormats }}<li>{{ .title }}</li>{{ end }}

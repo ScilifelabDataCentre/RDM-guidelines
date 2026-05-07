@@ -1,7 +1,7 @@
 {
   "$schema": "../data-resources-schema.json",
-  "metadata_version": "4.0",
-  "last_updated": "2026-05-05",
+  "metadata_version": "5.0",
+  "last_updated": "2026-05-07",
   "study_types": [
     "Genomics", "Metagenomics", "Transcriptomics", "Epigenomics",
     "Clinical Genomics","Population Genetics", 
@@ -21,7 +21,7 @@
     "Experimental Metadata", "SRM/MRM Mass Spectra", "Peptide Identifications"
   ],
   "info_types": ["Repository", "Metadata standard", "Metadata format", "File format"],
-  "SLL_service_areas": ["Genomics", "Proteomics", "Metabolomics and Exposomics", "Spatial Omics", "Cellular and Molecular Imaging", "Structural Biology"],
+  "areas": ["Genomics", "Proteomics", "Metabolomics and Exposomics", "Spatial Omics", "Cellular and Molecular Imaging", "Structural Biology"],
   "items": [
     {
       "title": "ENA (European Nucleotide Archive)",
@@ -33,7 +33,7 @@
       "submission_guidelines": "https://ena-docs.readthedocs.io/en/latest/",
       "info_type": ["Repository"],
       "keywords": ["Raw Reads", "Assemblies", "Experimental Metadata"],
-      "SLL_service_area": ["Genomics"],
+      "area": ["Genomics"],
       "study_type": ["Genomics", "Metagenomics", "Spatial Omics"],
       "data_type": ["Raw Reads", "Assemblies"]
     },
@@ -47,7 +47,7 @@
       "submission_guidelines": "https://ega-archive.org/submission/metadata/submission/sequencing-phenotype/submitter-portal/",
       "info_type": ["Repository"],
       "keywords": [],
-      "SLL_service_area": ["Genomics"],
+      "area": ["Genomics"],
       "study_type": ["Genomics", "Clinical Genomics", "Precision Medicine"],
       "data_type": ["Raw Reads", "Genotypes","Controlled Access Data"]
     },
@@ -61,7 +61,7 @@
       "submission_guidelines": "https://fega.nbis.se/submission/",
       "info_type": ["Repository"],
       "keywords": [],
-      "SLL_service_area": ["Genomics"],
+      "area": ["Genomics"],
       "study_type": ["Genomics", "Clinical Genomics", "Precision Medicine"],
       "data_type": ["Raw Reads", "Genotypes","Controlled Access Data"]
     },
@@ -75,7 +75,7 @@
       "submission_guidelines": "https://www.ebi.ac.uk/fg/annotare/help/index.html",
       "info_type": ["Repository"],
       "keywords": [],
-      "SLL_service_area": ["Genomics"],
+      "area": ["Genomics"],
       "study_type": ["Genomics","Transcriptomics", "Epigenomics", "Single-cell Transcriptomics", "Spatial Omics"],
       "data_type": ["Expression Matrices", "Count Tables", "Raw Reads", "Single-cell RNA-seq", "Microarray Data"]
     },
@@ -89,7 +89,7 @@
       "submission_guidelines": "https://www.ebi.ac.uk/eva/?Submit-Data",
       "info_type": ["Repository"],
       "keywords": [],
-      "SLL_service_area": ["Genomics"],
+      "area": ["Genomics"],
       "study_type": ["Genomics","Population Genetics"],
       "data_type": ["Genetic Variants", "Genotypes"]
     },
@@ -103,7 +103,7 @@
       "submission_guidelines": "https://www.ebi.ac.uk/gwas/docs/submission",
       "info_type": ["Repository"],
       "keywords": [],
-      "SLL_service_area": ["Genomics"],
+      "area": ["Genomics"],
       "study_type": ["Genomics","Association Studies (GWAS)", "Statistical Genetics"],
       "data_type": ["GWAS Summary Statistics"]
     },
@@ -116,7 +116,7 @@
       "url": "https://gensc.org/mixs/",
       "info_type": ["Metadata standard"],
       "keywords": [],
-      "SLL_service_area": ["Genomics"],
+      "area": ["Genomics"],
       "study_type": ["Genomics", "Metagenomics", "Single-cell Transcriptomics"],
       "data_type": ["Raw Reads", "Single-cell RNA-seq", "Experimental Metadata"]
     },
@@ -129,7 +129,7 @@
       "url": "https://fged.org/standards/",
       "info_type": ["Metadata standard"],
       "keywords": [],
-      "SLL_service_area": ["Genomics"],
+      "area": ["Genomics"],
       "study_type": ["Transcriptomics", "Epigenomics"],
       "data_type": ["Expression Matrices", "Count Tables", "Microarray Data"]
     },
@@ -142,7 +142,7 @@
       "url": "https://www.fged.org/projects/mage-tab/",
       "info_type": ["Metadata format"],
       "keywords": [],
-      "SLL_service_area": ["Genomics"],
+      "area": ["Genomics"],
       "study_type": ["Transcriptomics", "Epigenomics"],
       "data_type": ["Experimental Metadata", "Microarray Data", "Expression Matrices", "Count Tables"]
     },
@@ -155,7 +155,7 @@
       "url": "https://fged.org/standards/",
       "info_type": ["Metadata standard"],
       "keywords": [],
-      "SLL_service_area": ["Genomics"],
+      "area": ["Genomics"],
       "study_type": ["Transcriptomics", "Epigenomics","Single-cell Transcriptomics"],
       "data_type": ["Expression Matrices", "Count Tables", "Raw Reads","Single-cell RNA-seq"]
     },
@@ -168,7 +168,7 @@
         "url": "https://www.ebi.ac.uk/ena/browser/checklists",
         "info_type": ["Metadata format"],
         "keywords": [],
-        "SLL_service_area": ["Genomics"],
+        "area": ["Genomics"],
         "study_type": ["Genomics", "Metagenomics", "Multiomics", "Single-cell Transcriptomics", "Spatial Omics"],
         "data_type": ["Experimental Metadata"]
     },
@@ -181,7 +181,7 @@
       "url": "https://www.ebi.ac.uk/ena/browser/webin-cli",
       "info_type": ["Metadata format"],
       "keywords": ["assemblies"],
-      "SLL_service_area": ["Genomics"],
+      "area": ["Genomics"],
       "study_type": ["Genomics", "Metagenomics"],
       "data_type": ["Experimental Metadata", "Assemblies"]
     },
@@ -194,7 +194,7 @@
       "url": "https://samtools.github.io/hts-specs/",
       "info_type": ["File format"],
       "keywords": ["DNA", "RNA", "Raw reads"],
-      "SLL_service_area": ["Genomics"],
+      "area": ["Genomics"],
       "study_type": ["Genomics", "Single-cell Transcriptomics", "Clinical Genomics", "Precision Medicine", "Spatial Omics"],
       "data_type": ["Raw Reads","Single-cell RNA-seq","Controlled Access Data"]
     },
@@ -207,7 +207,7 @@
       "url": "https://samtools.github.io/hts-specs/",
       "info_type": ["File format"],
       "keywords": ["DNA", "RNA", "Raw reads", "Alignments"],
-      "SLL_service_area": ["Genomics"],
+      "area": ["Genomics"],
       "study_type": ["Genomics", "Single-cell Transcriptomics", "Clinical Genomics", "Precision Medicine"],
       "data_type": ["Raw Reads","Single-cell RNA-seq","Controlled Access Data"]
     },
@@ -220,7 +220,7 @@
       "url": "https://samtools.github.io/hts-specs/",
       "info_type": ["File format"],
       "keywords": ["assemblies"],
-      "SLL_service_area": ["Genomics"],
+      "area": ["Genomics"],
       "study_type": ["Genomics"],
       "data_type": ["Assemblies"]
     },
@@ -233,7 +233,7 @@
       "url": "https://doi.org/10.25504/FAIRsharing.q9nh66",
       "info_type": ["File format"],
       "keywords": [],
-      "SLL_service_area": ["Genomics"],
+      "area": ["Genomics"],
       "study_type": ["Genomics"],
       "data_type": ["Assemblies"]
     },
@@ -246,7 +246,7 @@
       "url": "https://samtools.github.io/hts-specs/VCFv4.2.pdf",
       "info_type": ["File format"],
       "keywords": [],
-      "SLL_service_area": ["Genomics"],
+      "area": ["Genomics"],
       "study_type": ["Genomics", "Population Genetics"],
       "data_type": ["Genetic Variants"]
     },
@@ -259,7 +259,7 @@
       "url": "https://www.thermofisher.com/se/en/home/technical-resources/technical-reference-library/microarray-analysis-support-center/software-support/software-support-getting-started.html",
       "info_type": ["File format"],
       "keywords": [],
-      "SLL_service_area": ["Genomics"],
+      "area": ["Genomics"],
       "study_type": ["Transcriptomics"],
       "data_type": ["Microarray Data"]
     },
@@ -272,7 +272,7 @@
       "url": "https://www.ebi.ac.uk/gwas/docs/summary-statistics-format",
       "info_type": ["Metadata format"],
       "keywords": [],
-      "SLL_service_area": ["Genomics"],
+      "area": ["Genomics"],
       "study_type": ["Genomics","Association Studies (GWAS)", "Statistical Genetics"],
       "data_type": ["GWAS Summary Statistics"]
     },
@@ -286,7 +286,7 @@
       "submission_guidelines": "https://www.ebi.ac.uk/pride/markdownpage/documentationpage",
       "info_type": ["Repository"],
       "keywords": [],
-      "SLL_service_area": ["Proteomics"],
+      "area": ["Proteomics"],
       "study_type": ["Proteomics", "Single-cell Proteomics", "Spatial Omics"],
       "data_type": ["Mass Spectra", "Protein Identifications", "Peptide Identifications"]
     },
@@ -300,7 +300,7 @@
       "submission_guidelines": "http://www.peptideatlas.org/passel/",
       "info_type": ["Repository"],
       "keywords": [],
-      "SLL_service_area": ["Proteomics"],
+      "area": ["Proteomics"],
       "study_type": ["Proteomics", "Targeted Proteomics"],
       "data_type": ["SRM/MRM Mass Spectra", "Protein Identifications"]
     },
@@ -313,7 +313,7 @@
       "url": "https://psidev.info/miape",
       "info_type": ["Metadata standard"],
       "keywords": [],
-      "SLL_service_area": ["Proteomics"],
+      "area": ["Proteomics"],
       "study_type": ["Proteomics", "Single-cell Proteomics"],
       "data_type": ["Mass Spectra", "Protein Identifications"]
     },
@@ -326,7 +326,7 @@
       "url": "https://github.com/bigbio/sdrf-proteomics",
       "info_type": ["Metadata format"],
       "keywords": [],
-      "SLL_service_area": ["Proteomics"],
+      "area": ["Proteomics"],
       "study_type": ["Proteomics", "Single-cell Proteomics"],
       "data_type": ["Experimental Metadata", "Protein Identifications"]
     },
@@ -339,7 +339,7 @@
       "url": "https://www.psidev.info/mzML",
       "info_type": ["File format"],
       "keywords": [],
-      "SLL_service_area": ["Proteomics", "Metabolomics and Exposomics"],
+      "area": ["Proteomics", "Metabolomics and Exposomics"],
       "study_type": ["Proteomics", "Metabolomics"],
       "data_type": ["Mass Spectra"]
     },
@@ -352,7 +352,7 @@
       "url": "https://www.psidev.info/TraML",
       "info_type": ["File format"],
       "keywords": [],
-      "SLL_service_area": ["Proteomics"],
+      "area": ["Proteomics"],
       "study_type": ["Proteomics", "Targeted Proteomics"],
       "data_type": ["SRM/MRM Mass Spectra"]
     },
@@ -365,7 +365,7 @@
       "url": "https://www.psidev.info/mzTab",
       "info_type": ["File format"],
       "keywords": [],
-      "SLL_service_area": ["Proteomics", "Metabolomics and Exposomics"],
+      "area": ["Proteomics", "Metabolomics and Exposomics"],
       "study_type": ["Proteomics", "Metabolomics"],
       "data_type": ["Protein Identifications", "Metabolite Profiles"]
     },
@@ -378,7 +378,7 @@
       "url": "https://www.psidev.info/mzIdentML",
       "info_type": ["File format"],
       "keywords": [],
-      "SLL_service_area": ["Proteomics"],
+      "area": ["Proteomics"],
       "study_type": ["Proteomics", "Single-cell Proteomics"],
       "data_type": ["Protein Identifications"]
     },
@@ -391,7 +391,7 @@
       "url": "https://www.thermofisher.com/",
       "info_type": ["File format"],
       "keywords": [],
-      "SLL_service_area": ["Proteomics", "Metabolomics and Exposomics"],
+      "area": ["Proteomics", "Metabolomics and Exposomics"],
       "study_type": ["Proteomics", "Metabolomics", "Single-cell Proteomics"],
       "data_type": ["Mass Spectra"]
     },
@@ -404,7 +404,7 @@
         "url": "https://www.bruker.com/",
         "info_type": ["File format"],
         "keywords": [],
-        "SLL_service_area": ["Proteomics"],
+        "area": ["Proteomics"],
         "study_type": ["Proteomics", "Single-cell Proteomics"],
         "data_type": ["Mass Spectra"]
     },
@@ -417,7 +417,7 @@
         "url": "https://www.agilent.com/",
         "info_type": ["File format"],
         "keywords": [],
-        "SLL_service_area": ["Proteomics", "Metabolomics and Exposomics"],
+        "area": ["Proteomics", "Metabolomics and Exposomics"],
         "study_type": ["Proteomics", "Metabolomics", "Single-cell Proteomics"],
         "data_type": ["Mass Spectra"]
     },
@@ -431,7 +431,7 @@
       "submission_guidelines": "https://ebi-metabolights.github.io/guides/",
       "info_type": ["Repository"],
       "keywords": [],
-      "SLL_service_area": ["Metabolomics and Exposomics"],
+      "area": ["Metabolomics and Exposomics"],
       "study_type": ["Metabolomics", "Lipidomics"],
       "data_type": ["Mass Spectra", "NMR Spectra", "Metabolite Profiles"]
     },
@@ -444,7 +444,7 @@
       "url": "http://www.metabolomics-msi.org/",
       "info_type": ["Metadata standard"],
       "keywords": [],
-      "SLL_service_area": ["Metabolomics and Exposomics"],
+      "area": ["Metabolomics and Exposomics"],
       "study_type": ["Metabolomics", "Lipidomics"],
       "data_type": ["Metabolite Profiles", "Mass Spectra", "NMR Spectra"]
     },
@@ -458,7 +458,7 @@
       "submission_guidelines": "https://www.ebi.ac.uk/empiar/deposition/manual/",
       "info_type": ["Repository"],
       "keywords": ["Soft X-ray Tomography", "Volume SEM", "Micrograph Movies", "Raw Particle Frames", "Tilt Series"],
-      "SLL_service_area": ["Structural Biology"],
+      "area": ["Structural Biology"],
       "study_type": ["Cryo-EM"],
       "data_type": ["Raw Images"]
     },
@@ -472,7 +472,7 @@
       "submission_guidelines": "https://www.ebi.ac.uk/emdb/documentation/deposition/composite_map",
       "info_type": ["Repository"],
       "keywords": [],
-      "SLL_service_area": ["Structural Biology"],
+      "area": ["Structural Biology"],
       "study_type": ["Cryo-EM"],
       "data_type": ["3D Volume Maps", "Density Maps"]
     },
@@ -486,7 +486,7 @@
       "submission_guidelines": "https://www.wwpdb.org/deposition/tutorial",
       "info_type": ["Repository"],
       "keywords": [],
-      "SLL_service_area": ["Structural Biology"],
+      "area": ["Structural Biology"],
       "study_type": ["Structural Biology", "Cryo-EM", "X-ray Crystallography", "NMR Spectroscopy"],
       "data_type": ["Atomic Coordinates", "Structure Factors"]
     },
@@ -499,7 +499,7 @@
       "url": "https://mmcif.wwpdb.org/",
       "info_type": ["File format"],
       "keywords": [],
-      "SLL_service_area": ["Structural Biology"],
+      "area": ["Structural Biology"],
       "study_type": ["Structural Biology", "Cryo-EM"],
       "data_type": ["Atomic Coordinates"]
     },
@@ -512,7 +512,7 @@
         "url": "https://www.ccpem.ac.uk/mrc-format/",
         "info_type": ["File format"],
         "keywords": [],
-        "SLL_service_area": ["Structural Biology"],
+        "area": ["Structural Biology"],
         "study_type": ["Cryo-EM"],
         "data_type": ["Density Maps", "3D Volume Maps"]
     },
@@ -526,7 +526,7 @@
       "submission_guidelines": "https://www.ebi.ac.uk/bioimage-archive/submit/",
       "info_type": ["Repository"],
       "keywords": [],
-      "SLL_service_area": ["Cellular and Molecular Imaging"],
+      "area": ["Cellular and Molecular Imaging"],
       "study_type": ["BioImaging", "Spatial Omics", "Tissue Imaging"],
       "data_type": ["Multiplexed Images", "Microscopy Images"]
     },
@@ -539,7 +539,7 @@
       "url": "https://www.ebi.ac.uk/bioimage-archive/help-rembi",
       "info_type": ["Metadata standard"],
       "keywords": [],
-      "SLL_service_area": ["Cellular and Molecular Imaging"],
+      "area": ["Cellular and Molecular Imaging"],
       "study_type": ["BioImaging", "Spatial Omics", "Cryo-EM", "Tissue Imaging"],
       "data_type": ["Multiplexed Images", "Microscopy Images", "Raw Images"]
     },
@@ -552,7 +552,7 @@
       "url": "https://www.ebi.ac.uk/bioimage-archive/help-miti",
       "info_type": ["Metadata standard"],
       "keywords": [],
-      "SLL_service_area": ["Cellular and Molecular Imaging"],
+      "area": ["Cellular and Molecular Imaging"],
       "study_type": ["BioImaging", "Spatial Omics", "Tissue Imaging", "Cryo-EM"],
       "data_type": ["Experimental Metadata"]
 
@@ -566,7 +566,7 @@
       "url": "https://ome-model.readthedocs.io/en/stable/ome-tiff/specification.html",
       "info_type": ["File format"],
       "keywords": [],
-      "SLL_service_area": ["Spatial Omics", "Cellular and Molecular Imaging"],
+      "area": ["Spatial Omics", "Cellular and Molecular Imaging"],
       "study_type": ["BioImaging", "Spatial Omics"],
       "data_type": ["Images"]
     },
@@ -579,7 +579,7 @@
       "url": "https://link.springer.com/article/10.1007/s00418-023-02209-1",
       "info_type": ["File format"],
       "keywords": [],
-      "SLL_service_area": ["Spatial Omics", "Cellular and Molecular Imaging"],
+      "area": ["Spatial Omics", "Cellular and Molecular Imaging"],
       "study_type": ["BioImaging", "Spatial Omics"],
       "data_type": ["Images"]
     },
@@ -593,7 +593,7 @@
       "submission_guidelines": "https://www.ebi.ac.uk/biostudies/submissions/help",
       "info_type": ["Repository"],
       "keywords": ["umbrella repository", "supplemental data hosting"],
-      "SLL_service_area": ["Genomics", "Spatial Omics", "Cellular and Molecular Imaging"],
+      "area": ["Genomics", "Spatial Omics", "Cellular and Molecular Imaging"],
       "study_type": ["Multiomics", "Spatial Omics"],
       "data_type": ["Experimental Metadata"]
     },
@@ -607,7 +607,7 @@
       "submission_guidelines": "https://read-docs-biosamples.readthedocs.io/en/latest/",
       "info_type": ["Repository"],
       "keywords": [],
-      "SLL_service_area": ["Genomics", "Spatial Omics", "Cellular and Molecular Imaging"],
+      "area": ["Genomics", "Spatial Omics", "Cellular and Molecular Imaging"],
       "study_type": ["Multiomics", "Spatial Omics"],
       "data_type": ["Experimental Metadata"]
     },
@@ -620,7 +620,7 @@
       "url": "https://isa-tools.org/",
       "info_type": ["Metadata format"],
       "keywords": [],
-      "SLL_service_area": ["Metabolomics and Exposomics", "Spatial Omics"],
+      "area": ["Metabolomics and Exposomics", "Spatial Omics"],
       "study_type": ["Metabolomics", "Lipidomics","Transcriptomics", "Spatial Omics", "Multiomics"],
       "data_type": ["Experimental Metadata", "Expression Matrices", "Metabolite Profiles"]
     },
@@ -633,7 +633,7 @@
       "url": "https://www.ebi.ac.uk/biostudies/help#pagetab",
       "info_type": ["Metadata format"],
       "keywords": [],
-      "SLL_service_area": ["Spatial Omics", "Cellular and Molecular Imaging"],
+      "area": ["Spatial Omics", "Cellular and Molecular Imaging"],
       "study_type": ["Multiomics"],
       "data_type": ["Experimental Metadata"]
     }

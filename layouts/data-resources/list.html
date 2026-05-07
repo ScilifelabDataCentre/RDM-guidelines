@@ -6,7 +6,7 @@
         {{ if gt (len .items) 3 }}
             <a href="#modal-{{ .parentId }}" data-bs-toggle="modal">(multiple)</a>
         {{ else }}
-            {{ range $index, $item := .items }}{{ if $index }}, {{ end }}<a href="#modal-{{ .id }}" data-bs-toggle="modal">{{ .short_title }}</a>{{ end }}
+            {{ range $index, $item := .items }}{{ if $index }}, {{ end }}<a href="?resource={{ .id }}">{{ .short_title }}</a>{{ end }}
         {{ end }}
     </div>
     {{ end }}
@@ -42,15 +42,12 @@
             {{/* 1. Find all items associated with this specific service area */}}
             {{ $area_items := where $allItems "SLL_service_area" "intersect" (slice $area) }}
             {{/* 2. Collect all study_types from these items */}}
-            {{ $area_studies := slice }}
-            {{ range $area_items }}{{ $area_studies = $area_studies | append .study_type }}{{ end }}
+            {{ $area_studies := slice }}{{ range $area_items }}{{ $area_studies = $area_studies | append .study_type }}{{ end }}
             {{ $unique_studies := $area_studies | uniq | sort }}
             {{/* 3. Only create a group if there are matching types */}}
             {{ if gt (len $unique_studies) 0 }}
               <optgroup label="{{ $area }}" data-area="{{ $area | urlize }}">
-                {{ range $unique_studies }}
-                  <option value="{{ . | urlize }}">{{ . }}</option>
-                {{ end }}
+                {{ range $unique_studies }}<option value="{{ . | urlize }}">{{ . }}</option>{{ end }}
               </optgroup>
             {{ end }}
           {{ end }}
@@ -63,15 +60,11 @@
           <option value="all">All Data Types</option>
           {{ range $area := .SLL_service_areas }}
             {{ $area_items := where $allItems "SLL_service_area" "intersect" (slice $area) }}
-            
-            {{ $area_data := slice }}
-            {{ range $area_items }}{{ $area_data = $area_data | append .data_type }}{{ end }}
+            {{ $area_data := slice }}{{ range $area_items }}{{ $area_data = $area_data | append .data_type }}{{ end }}
             {{ $unique_data := $area_data | uniq | sort }}
             {{ if gt (len $unique_data) 0 }}
               <optgroup label="{{ $area }}" data-area="{{ $area | urlize }}">
-                {{ range $unique_data }}
-                  <option value="{{ . | urlize }}">{{ . }}</option>
-                {{ end }}
+                {{ range $unique_data }}<option value="{{ . | urlize }}">{{ . }}</option>{{ end }}
               </optgroup>
             {{ end }}
           {{ end }}
@@ -81,55 +74,41 @@
       <div class="resources-search-filter">Information type</div>
       <div class="mb-4">
         {{/* Create a list of unique labels: Repository, Metadata, File format */}}
-        {{ $filterLabels := slice "Repository" "Metadata" "File format" }}
-        
-        {{ range $filterLabels }}
+        {{ range (slice "Repository" "Metadata" "File format") }}
         <div class="form-check">
-          <input class="form-check-input info-filter" 
-                type="checkbox" 
-                value="{{ . | urlize }}" 
-                id="info-{{ . | urlize }}">
+          <input class="form-check-input info-filter" type="checkbox" value="{{ . | urlize }}" id="info-{{ . | urlize }}">
           <label class="form-check-label" for="info-{{ . | urlize }}">{{ . }}</label>
         </div>
         {{ end }}
       </div>
 
       <div class="mb-3">
-        <button id="clearFiltersBtn" class="btn btn-teal" style="display:none;">
-          <i class="bi bi-x-circle"></i> Clear All Filters
-        </button>
+        <button id="clearFiltersBtn" class="btn btn-teal" style="display:none;"><i class="bi bi-x-circle"></i> Clear All Filters</button>
       </div>
     </div>
+
     <!-- Main Content -->
     <div class="col-lg">
       <div class="row g-2" id="resource-container">
-        {{/* range (slice "Repository" "Metadata standard" "Metadata format" "File format") */}}
         {{/* 1. Sort all items alphabetically by title */}}
         {{ range sort $allItems "title" "asc" }}
           {{/* 2. Determine header and color based on the FIRST info_type assigned to this item */}}
-          {{ $currentType := index .info_type 0 }}          
-          {{ $colorClass := "" }}
-          {{ if eq $currentType "Repository" }}{{ $colorClass = "repository" }}
-          {{ else if eq $currentType "Metadata standard" }}{{ $colorClass = "metadata" }}
-          {{ else if eq $currentType "Metadata format" }}{{ $colorClass = "metadata" }}
-          {{ else }}{{ $colorClass = "fileformat" }}{{ end }}
-
-          {{/* range where $data.items "info_type" "intersect" (slice $currentType) */}}
           {{ $id := .id }}
+          {{ $currentType := index .info_type 0 }}          
+          {{ $colorClass := cond (eq $currentType "Repository") "repository" (cond (or (eq $currentType "Metadata standard") (eq $currentType "Metadata format")) "metadata" "fileformat") }}
+
           {{/* Lookup related items data */}}
           {{ $relRepos := slice }}{{ $relMeta := slice }}{{ $relFormats := slice }}
           {{ range .related }}
-              {{ $slug := . }}
-              {{ range $allItems }}
-                  {{ if eq .id $slug }}
-                      {{ if in .info_type "Repository" }}{{ $relRepos = $relRepos | append . }}
-                      {{ else if or (in .info_type "Metadata standard") (in .info_type "Metadata format") }}{{ $relMeta = $relMeta | append . }}
-                      {{ else if in .info_type "File format" }}{{ $relFormats = $relFormats | append . }}{{ end }}
-                  {{ end }}
+              {{ range where $allItems "id" . }}
+                  {{ if in .info_type "Repository" }}{{ $relRepos = $relRepos | append . }}
+                  {{ else if or (in .info_type "Metadata standard") (in .info_type "Metadata format") }}{{ $relMeta = $relMeta | append . }}
+                  {{ else if in .info_type "File format" }}{{ $relFormats = $relFormats | append . }}{{ end }}
               {{ end }}
           {{ end }}
           
           <div class="col-md-4 resource-item" style="display: none;"
+              d-id="{{ $id }}"
               d-title="{{ .title | lower }}"
               {{/* Include description also from partials if available */}}
               {{ $partialPath := printf "data-resource-descriptions/%s.html" $id }}
@@ -147,20 +126,15 @@
               d-data="{{ range .data_type }}{{ . | urlize }} {{ end }}" 
               d-sll="{{ range .SLL_service_area }}{{ . | urlize }} {{ end }}">
 
-            <div class="p-3 rounded border h-100 resource-card-tool clickable-card"
+            <div class="p-3 rounded border h-100 resource-card-data clickable-card"
                 role="button" 
                 tabindex="0" 
                 data-bs-toggle="modal" 
                 data-bs-target="#modal-{{ $id }}"
-                aria-label="View details for {{ .title }}">
+                aria-label="View details for {{ .short_title }}">
 
-              <div class="resource-type-header bg-{{ $colorClass }}">
-                  {{ $currentType }}
-              </div>
-              
-              <a class="resources-header-tool d-block mb-3 text-{{ $colorClass }}">
-                  {{ .short_title }}
-              </a>
+              <div class="resource-type-header bg-{{ $colorClass }}">{{ $currentType }}</div>              
+              <a class="resources-header-tool d-block mb-3 text-{{ $colorClass }}">{{ .short_title }}</a>
 
               {{/* Display relationship rows on front of resource cards */}}
               <div class="related-preview mt-1">
@@ -170,7 +144,7 @@
                     {{ template "rel-row" (dict "label" "File Formats" "items" $relFormats "parentId" $id) }}
                 {{ else }}
                     <!-- Metadata/Formats show Repositories -->
-                    {{ template "rel-row" (dict "label" "Accepted by" "items" $relRepos "parentId" $id) }}
+                    {{ template "rel-row" (dict "label" "Repositories" "items" $relRepos "parentId" $id) }}
                 {{ end }}
               </div>
             </div>
@@ -200,17 +174,14 @@
                       <p><b>Submission Guidelines:</b> <a href="{{ .submission_guidelines }}" target="_blank">View Guidelines</a></p>
                     {{ end }}
                     <hr>
-                    {{/* <p><b>Keywords:</b> {{ with .keywords }}{{ delimit . ", " }}{{ end }}</p>
-                    <p><b>Information Type:</b> {{ with .info_type }}{{ delimit . ", " }}{{ end }}</p>
-                    <p><b>Study Type:</b> {{ with .study_type }}{{ delimit . ", " }}{{ end }}</p>
-                    <p><b>Data Type:</b> {{ with .data_type }}{{ delimit . ", " }}{{ end }}</p> */}}
+
                     <!-- Detailed Relations in Modal -->
                     <div class="row">
                         {{ if gt (len $relRepos) 0 }}
                         <div>
                             <h6>Repositories</h6>
                             <ul class="ps-3 small">
-                                {{ range $relRepos }}<li>{{ .title }}</li>{{ end }}
+                                {{ range $relRepos }}<li><a class="link-teal resource-link" href="?resource={{ .id }}">{{ .title }}</a></li>{{ end }}
                             </ul>
                         </div>
                         {{ end }}
@@ -218,7 +189,7 @@
                         <div>
                             <h6>Metadata Standards</h6>
                             <ul class="ps-3 small">
-                                {{ range $relMeta }}<li>{{ .title }}</li>{{ end }}
+                                {{ range $relMeta }}<li><a class="link-teal resource-link" href="?resource={{ .id }}">{{ .title }}</a></li>{{ end }}
                             </ul>
                         </div>
                         {{ end }}
@@ -226,7 +197,7 @@
                         <div>
                             <h6>File Formats</h6>
                             <ul class="ps-3 small">
-                                {{ range $relFormats }}<li>{{ .title }}</li>{{ end }}
+                                {{ range $relFormats }}<li><a class="link-teal resource-link" href="?resource={{ .id }}">{{ .title }}</a></li>{{ end }}
                             </ul>
                         </div>
                         {{ end }}
@@ -247,7 +218,6 @@
     </div>
   </div>
 </div>
-
 {{ end }}
 
 <script>
@@ -262,48 +232,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Variable to hold the SLL filter from the URL since there is no UI element for it
     let activeSLLFilter = null;
+    let activeResourceId = null;
 
-    function applyURLFilters() {
-        const urlParams = new URLSearchParams(window.location.search);
-        const MAX_LENGTH = 100;
-
-        // Handle search query
-        if (urlParams.has('search')) searchInput.value = urlParams.get('search').substring(0, MAX_LENGTH);
-
-        // Handle dropdown filters (study and data)
-        if (urlParams.has('study')) studySelect.value = urlParams.get('study').substring(0, MAX_LENGTH);
-        if (urlParams.has('data')) dataSelect.value = urlParams.get('data').substring(0, MAX_LENGTH);
-
-        // Handle the SLL service area parameter
-        if (urlParams.has('SLL_service_area')) activeSLLFilter = urlParams.get('SLL_service_area').substring(0, MAX_LENGTH);
-
-        // Handle info checkboxes (multiple values possible, comma-separated)
-        if (urlParams.has('info')) {
-            const values = urlParams.get('info').split(',');
-            values.forEach(val => {
-                const cb = document.querySelector(`.info-filter[value="${val}"]`);
-                if (cb) cb.checked = true;
-            });
-        }
-
-        // Handle direct link to a specific resource modal
-        if (urlParams.has('resource')) {
-            const resourceId = urlParams.get('resource');
-            // We use a timeout to ensure the modal exists and the DOM is ready
-            setTimeout(() => {
-                const modalElement = document.getElementById(`modal-${resourceId}`);
-                if (modalElement) {
-                    const modal = new bootstrap.Modal(modalElement);
-                    modal.show();
-                    
-                    // Also update search to show this card in the background
-                    const title = modalElement.closest('.resource-item').getAttribute('d-title');
-                    searchInput.value = title;
-                    updateFilters();
-                }
-            }, 100);
-        }
-    }
+    // --- Core Logic ---
 
     function updateFilters() {
         const searchQuery = searchInput.value.toLowerCase().trim();
@@ -313,6 +244,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Check if anything is filtered
         const isFiltering = (
+            activeResourceId !== null || // Check for direct resource link
             searchQuery !== '' ||
             selectedStudy !== 'all' || 
             selectedData !== 'all' || 
@@ -322,17 +254,30 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Show/Hide Clear Button
         clearBtn.style.display = isFiltering ? 'block' : 'none';
-
         let visibleCount = 0;
         
         items.forEach(item => {
-            // Logic: If NO filters are active, show everything (User Requirement)
+            // Logic: If no filters are active, show everything
             if (!isFiltering) {
                 item.style.display = 'block';
                 visibleCount++;
                 return;
             }
 
+            const itemId = item.getAttribute('d-id');
+
+            // Priority 1: If a specific resource is requested via URL/Link, isolate it
+            if (activeResourceId) {
+                if (itemId === activeResourceId) {
+                    item.style.display = 'block';
+                    visibleCount++;
+                } else {
+                    item.style.display = 'none';
+                }
+                return;
+            }
+  
+            // Standard Filters
             const title = item.getAttribute('d-title');
             const desc = item.getAttribute('d-description');
             const keys = item.getAttribute('d-keywords');
@@ -346,14 +291,14 @@ document.addEventListener('DOMContentLoaded', function () {
             const matchesData = (selectedData === 'all' || itemData.includes(selectedData));
             const matchesInfo = activeInfoFilters.length === 0 || activeInfoFilters.some(val => itemInfo.includes(val));
             const matchesSLL = !activeSLLFilter || itemSLL.includes(activeSLLFilter);
-            
+
             if (matchesSearch && matchesStudy && matchesData && matchesInfo && matchesSLL) {
                 item.style.display = 'block';
                 visibleCount++;
             } else {
                 item.style.display = 'none';
             }
-        });
+      });
 
         // Update the dropdowns so they only show relevant options
         updateDropdownOptions(selectedStudy, selectedData, searchQuery, activeInfoFilters);
@@ -379,16 +324,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
             // For Data Dropdown: Item must match Search, SLL, Info, and current Study selection
             if (matchesSearch && matchesSLL && matchesInfo && (currentStudy === 'all' || itemStudies.includes(currentStudy))) {
-                itemSLLs.forEach(sll => {
-                    itemDatas.forEach(d => validDataPairs.add(`${sll}:${d}`));
-                });
+                itemSLLs.forEach(sll => { itemDatas.forEach(d => validDataPairs.add(`${sll}:${d}`)); });
             }
 
             // For Study Dropdown: Item must match Search, SLL, Info, and current Data selection
             if (matchesSearch && matchesSLL && matchesInfo && (currentData === 'all' || itemDatas.includes(currentData))) {
-                itemSLLs.forEach(sll => {
-                    itemStudies.forEach(s => validStudyPairs.add(`${sll}:${s}`));
-                });
+                itemSLLs.forEach(sll => { itemStudies.forEach(s => validStudyPairs.add(`${sll}:${s}`)); });
             }
         });
 
@@ -402,9 +343,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 let hasVisibleOption = false;
 
                 Array.from(group.querySelectorAll('option')).forEach(opt => {
-                    const compositeKey = `${area}:${opt.value}`;
-                    const isVisible = config.validSet.has(compositeKey);
-                    
+                    const isVisible = config.validSet.has(`${area}:${opt.value}`);
                     opt.style.display = isVisible ? 'block' : 'none';
                     if (isVisible) hasVisibleOption = true;
                 });
@@ -415,18 +354,121 @@ document.addEventListener('DOMContentLoaded', function () {
         });
       }
 
-    function resetFilters() {
-        searchInput.value = '';
-        studySelect.value = 'all';
-        dataSelect.value = 'all';
-        infoCheckboxes.forEach(cb => cb.checked = false); 
-        activeSLLFilter = null; // Clear the hidden filter
+      function resetFilters() {
+          // Clear all inputs
+          searchInput.value = '';
+          studySelect.value = 'all';
+          dataSelect.value = 'all';
+          infoCheckboxes.forEach(cb => cb.checked = false); 
+          
+          // Clear state
+          activeSLLFilter = null; 
+          activeResourceId = null; 
+          
+          // Cleanup the UI
+          cleanupModalState();
+          
+          // Update URL and View
+          window.history.pushState({}, '', window.location.pathname);
+          updateFilters();
+      }
+
+    // Function to handle smooth navigation between resources
+    function openResource(id, updateUrl = true) {
+        cleanupModalState(); // Close previous and clean backdrops
+
+        // Update State and UI
+        activeResourceId = id;
+        if (updateUrl) {
+            const newUrl = window.location.pathname + '?resource=' + id;
+            window.history.pushState({ resourceId: id }, '', newUrl);
+        }
         
-        window.history.pushState({}, '', window.location.pathname);
         updateFilters();
+
+        // Open the target modal after a short delay to allow the DOM to update
+        setTimeout(() => {
+            const modalEl = document.getElementById(`modal-${id}`);
+            if (modalEl) {
+                const modal = bootstrap.Modal.getOrCreateInstance(modalEl);
+                modal.show();
+            }
+        }, 150);
     }
 
-    clearBtn.addEventListener('click', resetFilters);
+    function applyURLFilters() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const MAX_LENGTH = 100;
+
+        // Handle direct resource links (?resource=id)
+        if (urlParams.has('resource')) {
+            openResource(urlParams.get('resource'), false);
+        } else {
+            activeResourceId = null;
+
+            // Handle search query
+            if (urlParams.has('search')) searchInput.value = urlParams.get('search').substring(0, MAX_LENGTH);
+
+            // Handle dropdown filters (study and data)
+            if (urlParams.has('study')) studySelect.value = urlParams.get('study').substring(0, MAX_LENGTH);
+            if (urlParams.has('data')) dataSelect.value = urlParams.get('data').substring(0, MAX_LENGTH);
+
+            // Handle the SLL service area parameter
+            if (urlParams.has('SLL_service_area')) activeSLLFilter = urlParams.get('SLL_service_area').substring(0, MAX_LENGTH);
+
+            // Handle info checkboxes (multiple values possible, comma-separated)
+            if (urlParams.has('info')) {
+                const values = urlParams.get('info').split(',');
+                values.forEach(val => {
+                    const cb = document.querySelector(`.info-filter[value="${val}"]`);
+                    if (cb) cb.checked = true;
+                });
+              } 
+            updateFilters();
+          }
+      }
+
+    function cleanupModalState() {
+        // 1. Find any open Bootstrap modal instances and hide them
+        const openModals = document.querySelectorAll('.modal.show');
+        openModals.forEach(modalEl => {
+            const instance = bootstrap.Modal.getInstance(modalEl);
+            if (instance) instance.hide();
+        });
+
+        // 2. Remove any "stuck" backdrops from the DOM
+        document.querySelectorAll('.modal-backdrop').forEach(el => el.remove());
+
+        // 3. Reset the body state so scrolling works and the page isn't "frozen"
+        document.body.classList.remove('modal-open');
+        document.body.style.overflow = '';
+        document.body.style.paddingRight = '';
+    }
+
+    // --- Event Listeners ---
+
+    // Intercept clicks on links with class "resource-link" or 
+    // any link inside the related preview area to fix the "flashing"
+    document.addEventListener('click', function(e) {
+        const link = e.target.closest('a[href*="?resource="]');
+        if (link) {
+            e.preventDefault();
+            e.stopPropagation(); // Stops parent card click (fixes flashing)
+            const url = new URL(link.href, window.location.origin);
+            const id = url.searchParams.get('resource');
+            if (id) openResource(id);
+        }
+    }, true);
+
+    // Handle browser Back/Forward
+    window.addEventListener('popstate', applyURLFilters);
+
+    clearBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation(); // Stops the click from reaching anything else
+        resetFilters();
+    });
+
     searchInput.addEventListener('input', updateFilters);
     studySelect.addEventListener('change', updateFilters);
     dataSelect.addEventListener('change', updateFilters);

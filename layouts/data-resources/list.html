@@ -101,20 +101,20 @@
                   {{ else if in .info_type "File format" }}{{ $relFormats = $relFormats | append . }}{{ end }}
               {{ end }}
           {{ end }}
-          
+          {{/* Use urlize for the path to ensure it matches filenames safely */}}
+          {{ $partialPath := printf "data-resource-descriptions/%s.html" ($id | urlize) }}
+          {{ $fullDescription := .description }}
+
+          {{ if (templates.Exists (printf "partials/%s" $partialPath)) }}
+            {{/* Plainify AND htmlEscape to prevent quotes from breaking the attribute */}}
+            {{ $extContent := partial $partialPath . | plainify }}
+            {{ $fullDescription = printf "%s %s" .description $extContent }}
+          {{ end }}
+
           <div class="col-md-4 resource-item" style="display: none;"
               d-id="{{ $id }}"
               d-title="{{ .title | lower }}"
-              {{/* Include description also from partials if available */}}
-              {{ $partialPath := printf "data-resource-descriptions/%s.html" $id }}
-              {{ $fullDescription := .description }}
-
-              {{ if (templates.Exists (printf "partials/%s" $partialPath)) }}
-                {{/* Capture the partial content, strip HTML tags, and combine with the short description */}}
-                {{ $extContent := partial $partialPath . | plainify }}
-                {{ $fullDescription = printf "%s %s" .description $extContent }}
-              {{ end }}
-              d-description="{{ $fullDescription | lower }}"
+              d-description="{{ $fullDescription | lower | htmlEscape }}"
               d-keywords="{{ with .keywords }}{{ range . }}{{ . | lower }} {{ end }}{{ end }}"
               d-area="{{ range .area }}{{ . | urlize }} {{ end }}" 
               d-info="{{ range .info_type }}{{ if or (eq . "Metadata standard") (eq . "Metadata format") }}metadata {{ else }}{{ . | urlize }} {{ end }}{{ end }}" 
@@ -152,14 +152,12 @@
                   </div>
                   <div class="modal-body">
                     <p><b>Description:</b><br>
-                      {{/* Define the path based on the title (e.g., ena-sample-checklists.html) */}}
-                      {{ $partialPath := printf "data-resource-descriptions/%s.html" ($id) }}
+                      {{/* Use urlize here as well to find the file correctly */}}
+                      {{ $pPath := printf "data-resource-descriptions/%s.html" ($id | urlize) }}
                       
-                      {{/* Check if the specific HTML file exists in partials */}}
-                      {{ if (templates.Exists (printf "partials/%s" $partialPath)) }}
-                        {{ partial $partialPath . }}
+                      {{ if (templates.Exists (printf "partials/%s" $pPath)) }}
+                        {{ partial $pPath . }}
                       {{ else }}
-                        {{/* Fallback to the standard JSON description if no file exists */}}
                         {{ .description | markdownify }}
                       {{ end }}
                     </p>

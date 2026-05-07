@@ -432,6 +432,16 @@ html {
   background-color: var(--teal0_25);
 }
 
+.clickable-card {
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.clickable-card:hover {
+    background-color: var(--light_grey); /* Light grey highlight */
+    border-color: var(--medium_grey);
+}
+
 /* Homepage right side cards */
 .support {
   background-color: var(--lime0_25);
@@ -458,6 +468,14 @@ html {
 }
 .resource-card-guidance {
   border-color: var(--teal1) !important;
+}
+
+/* Data Resource card Styling */
+.resource-card-data {
+    border: 1px solid #000000 !important; /* Black frame */
+    overflow: hidden; /* Ensures the header matches the card's rounded corners */
+    display: flex;
+    flex-direction: column;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -576,24 +594,6 @@ input[type="checkbox"]:focus {
   border-color: var(--teal1);
   outline: 0; /* Removes the browser's default black outline */
   box-shadow: 0 0 0 0.2rem var(--aqua0_50); /* Your custom aqua halo */
-}
-
-/* Data Resource Card Styling */
-.resource-card-tool {
-    border: 1px solid #000000 !important; /* Black frame */
-    overflow: hidden; /* Ensures the header matches the card's rounded corners */
-    display: flex;
-    flex-direction: column;
-}
-
-.clickable-card {
-    cursor: pointer;
-    transition: background-color 0.2s ease, border-color 0.2s ease;
-}
-
-.clickable-card:hover {
-    background-color: var(--light_grey); /* Light grey highlight */
-    border-color: var(--medium_grey);
 }
 
 /* Uncomment if we want the title to be underlined when whole card is hovered 

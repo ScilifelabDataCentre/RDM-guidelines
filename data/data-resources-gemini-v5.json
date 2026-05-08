@@ -131,7 +131,7 @@
       "keywords": ["ArrayExpress"],
       "area": ["Genomics"],
       "study_type": ["Transcriptomics", "Epigenomics"],
-      "data_type": ["Expression Matrices", "Count Tables", "Microarray Data"]
+      "data_type": ["Expression Matrices", "Count Tables", "Microarray Data", "Experimental Metadata"]
     },
     {
       "title": "MAGE-TAB (MicroArray Gene Expression Tabular)",
@@ -157,7 +157,7 @@
       "keywords": ["ArrayExpress"],
       "area": ["Genomics"],
       "study_type": ["Transcriptomics", "Epigenomics","Single-cell Transcriptomics"],
-      "data_type": ["Expression Matrices", "Count Tables", "Raw Reads","Single-cell RNA-seq"]
+      "data_type": ["Expression Matrices", "Count Tables", "Raw Reads","Single-cell RNA-seq", "Experimental Metadata"]
     },
     {
         "title": "ENA sample checklists",
@@ -274,7 +274,7 @@
       "keywords": ["GWAS", "FEGA"],
       "area": ["Genomics"],
       "study_type": ["Genomics","Association Studies (GWAS)", "Statistical Genetics"],
-      "data_type": ["GWAS Summary Statistics"]
+      "data_type": ["GWAS Summary Statistics", "Experimental Metadata"]
     },
     {
       "title": "PRIDE (PRoteomics IDEntifications Database)",
@@ -315,7 +315,7 @@
       "keywords": ["PRIDE"],
       "area": ["Proteomics"],
       "study_type": ["Proteomics", "Single-cell Proteomics"],
-      "data_type": ["Mass Spectra", "Protein Identifications"]
+      "data_type": ["Mass Spectra", "Protein Identifications", "Experimental Metadata"]
     },
     {
       "title": "SDRF (Sample and Data Relationship Format) for Proteomics",
@@ -446,7 +446,7 @@
       "keywords": ["MetaboLights"],
       "area": ["Metabolomics and Exposomics"],
       "study_type": ["Metabolomics", "Lipidomics"],
-      "data_type": ["Metabolite Profiles", "Mass Spectra", "NMR Spectra"]
+      "data_type": ["Metabolite Profiles", "Mass Spectra", "NMR Spectra", "Experimental Metadata"]
     },
     {
       "title": "EMPIAR (Electron Microscopy Public Image Archive)",
@@ -541,7 +541,7 @@
       "keywords": ["Cryo-EM", "BioImage Archive"],
       "area": ["Cellular and Molecular Imaging"],
       "study_type": ["BioImaging", "Spatial Omics", "Cryo-EM", "Tissue Imaging"],
-      "data_type": ["Multiplexed Images", "Microscopy Images", "Raw Images"]
+      "data_type": ["Multiplexed Images", "Microscopy Images", "Raw Images", "Experimental Metadata"]
     },
     {
       "title": "MITI (Minimum Information about Tissue Imaging)",
@@ -595,7 +595,7 @@
       "keywords": ["umbrella repository", "supplemental data hosting"],
       "area": ["Genomics", "Spatial Omics"],
       "study_type": ["Multiomics", "Spatial Omics"],
-      "data_type": ["Experimental Metadata"]
+      "data_type": ["Study descriptions", "Supplemental data"]
     },
     {
       "title": "BioSamples",
@@ -609,7 +609,7 @@
       "keywords": [],
       "area": ["Genomics", "Spatial Omics"],
       "study_type": ["Multiomics", "Spatial Omics"],
-      "data_type": ["Experimental Metadata"]
+      "data_type": ["Sample descriptions"]
     },
     {
       "title": "ISA-Tab (Investigation/Study/Assay Tabular Format)",

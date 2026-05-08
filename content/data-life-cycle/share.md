@@ -48,17 +48,17 @@ Guidance on where to publish COVID-19 and Pandemic Preparedness research data, c
 For other discipline-specific repositories, see e.g. <a href="https://elixir-europe.org/services/tag/elixir-deposition-databases" target="_blank">ELIXIR Deposition databases</a>, <a href="https://www.ebi.ac.uk/submission/" target="_blank">EBI archive wizard</a> (help to find the right repository depending on data type), or <a href="https://fairsharing.org/databases/" target="_blank">FAIRsharing</a> (the latter can also assist in finding metadata standards suitable for describing your datasets).
 
 
-<a class="link-teal" href="/data-resources/?SLL_service_area=genomics&info=repository"><b>Repositories for Genomics data <i class="bi bi-arrow-right-square"></i></b></a><br/>
+<a class="link-teal" href="/data-resources/?area=genomics&info=repository"><b>Repositories for Genomics data <i class="bi bi-arrow-right-square"></i></b></a><br/>
 
-<a class="link-teal" href="/data-resources/?SLL_service_area=proteomics&info=repository"><b>Repositories for Proteomics data <i class="bi bi-arrow-right-square"></i></b></a><br/>
+<a class="link-teal" href="/data-resources/?area=proteomics&info=repository"><b>Repositories for Proteomics data <i class="bi bi-arrow-right-square"></i></b></a><br/>
 
-<a class="link-teal" href="/data-resources/?SLL_service_area=metabolomics-and-exposomics&info=repository"><b>Repositories for Metabolomics and Exposomics data <i class="bi bi-arrow-right-square"></i></b></a><br/>
+<a class="link-teal" href="/data-resources/?area=metabolomics-and-exposomics&info=repository"><b>Repositories for Metabolomics and Exposomics data <i class="bi bi-arrow-right-square"></i></b></a><br/>
 
-<a class="link-teal" href="/data-resources/?SLL_service_area=spatial-omics&info=repository"><b>Repositories for Spatial Omics data <i class="bi bi-arrow-right-square"></i></b></a><br/>
+<a class="link-teal" href="/data-resources/?area=spatial-omics&info=repository"><b>Repositories for Spatial Omics data <i class="bi bi-arrow-right-square"></i></b></a><br/>
 
-<a class="link-teal" href="/data-resources/?SLL_service_area=cellular-and-molecular-imaging&info=repository"><b>Repositories for Cellular and Molecular Imaging data <i class="bi bi-arrow-right-square"></i></b></a><br/>
+<a class="link-teal" href="/data-resources/?area=cellular-and-molecular-imaging&info=repository"><b>Repositories for Cellular and Molecular Imaging data <i class="bi bi-arrow-right-square"></i></b></a><br/>
 
-<a class="link-teal" href="/data-resources/?SLL_service_area=structural-biology&info=repository"><b>Repositories for Structural Biology data <i class="bi bi-arrow-right-square"></i></b></a><br/>
+<a class="link-teal" href="/data-resources/?area=structural-biology&info=repository"><b>Repositories for Structural Biology data <i class="bi bi-arrow-right-square"></i></b></a><br/>
 
 &nbsp;
 

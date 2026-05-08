@@ -37,17 +37,17 @@
       <div class="resources-search-filter">Study Area</div>
       <div class="mb-4">
         <select class="form-select" id="areaTypeSelect">
-          <option value="all">All Study Areas</option>
+          <option value="all">All study areas</option>
           {{ range .areas }}
             <option value="{{ . | urlize }}">{{ . }}</option>
           {{ end }}
         </select>
       </div>
 
-      <div class="resources-search-filter">Data type</div>
+      <div class="resources-search-filter">Data Type</div>
       <div class="mb-4">
         <select class="form-select" id="dataTypeSelect">
-          <option value="all">All Data Types</option>
+          <option value="all">All data types</option>
           {{ range $area := .areas }}
             {{ $area_items := where $allItems "area" "intersect" (slice $area) }}
             {{ $area_data := slice }}
@@ -59,7 +59,9 @@
             {{ $unique_data := $area_data | uniq | sort }}
             {{ if gt (len $unique_data) 0 }}
               <optgroup label="{{ $area }}" data-area="{{ $area | urlize }}">
-                {{ range $unique_data }}<option value="{{ . | urlize }}">{{ . }}</option>{{ end }}
+                {{ range $unique_data }}
+                  <option value="{{ $area | urlize }}:{{ . | urlize }}">{{ . }}</option>
+                {{ end }}
               </optgroup>
             {{ end }}
           {{ end }}
@@ -214,245 +216,201 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
+    // Selectors - Ensure these IDs match your HTML
     const searchInput = document.getElementById('searchInput');
-    const areaSelect = document.getElementById('areaTypeSelect');
+    const areaSelect = document.getElementById('areaTypeSelect'); // Updated ID to match your HTML
     const dataSelect = document.getElementById('dataTypeSelect');
     const infoCheckboxes = document.querySelectorAll('.info-filter');
     const items = Array.from(document.querySelectorAll('.resource-item'));
     const noResults = document.getElementById('no-filtered-resource');
     const clearBtn = document.getElementById('clearFiltersBtn');
 
-    let activeResourceId = null;
+    if (!items.length) return; // Safety check if no items found
 
-    // --- Core Logic ---
-
+    // --- Core Filtering Logic ---
     function updateFilters() {
-        const searchQuery = searchInput.value.toLowerCase().trim();
-        const selectedArea = areaSelect.value;
-        const selectedData = dataSelect.value;
-        const activeInfoFilters = Array.from(document.querySelectorAll('.info-filter:checked')).map(cb => cb.value);
+        const searchQuery = searchInput.value.toLowerCase();
+        const selectedArea = areaSelect.value; 
+        const selectedDataValue = dataSelect.value;
+        const activeInfoFilters = getActiveInfoFilters();
 
-        // Check if anything is filtered
-        const isFiltering = (
-            activeResourceId !== null || // Check for direct resource link
-            searchQuery !== '' ||
-            selectedArea !== 'all' || 
-            selectedData !== 'all' || 
-            activeInfoFilters.length > 0
-        ); 
+        // 1. Update the Data Type dropdown options visibility based on the selected Study Area
+        updateDropdownOptions(selectedArea, selectedDataValue, searchQuery, activeInfoFilters);
 
-        // Show/Hide Clear Button
-        clearBtn.style.display = isFiltering ? 'block' : 'none';
-        let visibleCount = 0;
+        // 2. VALIDATION: If the selected Data Type is now hidden, reset it to 'all'
+        if (selectedDataValue !== 'all') {
+            const currentOpt = dataSelect.querySelector(`option[value="${selectedDataValue}"]`);
+            if (currentOpt && currentOpt.style.display === 'none') {
+                dataSelect.value = 'all';
+            }
+        }
+
+        // 3. Determine the final target values for showing/hiding resource cards
+        let targetArea = areaSelect.value; 
+        let targetData = 'all';
+        const finalDataValue = dataSelect.value;
         
-        items.forEach(item => {
-            // Logic: If no filters are active, show everything
-            if (!isFiltering) {
-                item.style.display = 'block';
-                visibleCount++;
-                return;
-            }
+        if (finalDataValue !== 'all') {
+            const parts = finalDataValue.split(':');
+            targetArea = parts[0];
+            targetData = parts[1];
+        }
 
-            const itemId = item.getAttribute('d-id');
-
-            // Priority 1: If a specific resource is requested via URL/Link, isolate it
-            if (activeResourceId) {
-                if (itemId === activeResourceId) {
-                    item.style.display = 'block';
-                    visibleCount++;
-                } else {
-                    item.style.display = 'none';
-                }
-                return;
-            }
-  
-            // Standard Filters
-            const title = item.getAttribute('d-title');
-            const desc = item.getAttribute('d-description');
-            const keys = item.getAttribute('d-keywords');
-            const itemArea = item.getAttribute('d-area').trim().split(/\s+/);
-            const itemInfo = item.getAttribute('d-info').trim().split(/\s+/);
-            const itemData = item.getAttribute('d-data').trim().split(/\s+/);
-
-            const matchesSearch = !searchQuery || title.includes(searchQuery) || desc.includes(searchQuery) || keys.includes(searchQuery);
-            const matchesArea = (selectedArea === 'all' || itemArea.includes(selectedArea));
-            const matchesData = (selectedData === 'all' || itemData.includes(selectedData));
-            const matchesInfo = activeInfoFilters.length === 0 || activeInfoFilters.some(val => itemInfo.includes(val));
-
-            if (matchesSearch && matchesArea && matchesData && matchesInfo) {
-                item.style.display = 'block';
-                visibleCount++;
-            } else {
-                item.style.display = 'none';
-            }
-      });
-
-        // Update the dropdowns so they only show relevant options
-        updateDropdownOptions(selectedArea, selectedData, searchQuery, activeInfoFilters);
-
-        noResults.style.display = (isFiltering && visibleCount === 0) ? 'block' : 'none';
-    }
-
-    function updateDropdownOptions(currentArea, currentData, searchQuery, activeInfoFilters) {
-        let validDataPairs = new Set();
-
-        // Determine which (Service Area + Type) combinations are valid based on OTHER filters
+        // 4. Update visibility of each resource item
+        let count = 0;
         items.forEach(item => {
             const itemArea = item.getAttribute('d-area').trim().split(/\s+/);
             const itemData = item.getAttribute('d-data').trim().split(/\s+/);
             const itemInfo = item.getAttribute('d-info').trim().split(/\s+/);
             const title = item.getAttribute('d-title').toLowerCase();
+            const desc = item.getAttribute('d-description').toLowerCase();
+            const keys = item.getAttribute('d-keywords').toLowerCase();
+
+            const matchesSearch = !searchQuery || title.includes(searchQuery) || desc.includes(searchQuery) || keys.includes(searchQuery);
+            const matchesArea = targetArea === 'all' || itemArea.includes(targetArea);
+            const matchesData = targetData === 'all' || itemData.includes(targetData);
+            const matchesInfo = activeInfoFilters.length === 0 || activeInfoFilters.some(val => itemInfo.includes(val));
+
+            if (matchesArea && matchesData && matchesSearch && matchesInfo) {
+                item.style.display = 'block';
+                count++;
+            } else {
+                item.style.display = 'none';
+            }
+        });
+
+        // Toggle "No Results" and "Clear Filters" button
+        noResults.style.display = count === 0 ? 'block' : 'none';
+        const isDefault = !searchQuery && selectedArea === 'all' && finalDataValue === 'all' && activeInfoFilters.length === 0;
+        clearBtn.style.display = isDefault ? 'none' : 'inline-block';
+        
+        updateURL();
+    }
+
+    // --- Helper functions ---
+
+    function updateDropdownOptions(currentArea, currentData, searchQuery, activeInfoFilters) {
+        let validDataPairs = new Set();
+
+        // Calculate which area:data combinations actually have results
+        items.forEach(item => {
+            const itemArea = item.getAttribute('d-area').trim().split(/\s+/);
+            const itemData = item.getAttribute('d-data').trim().split(/\s+/);
+            const title = item.getAttribute('d-title').toLowerCase();
+            const itemInfo = item.getAttribute('d-info').trim().split(/\s+/);
             
             const matchesSearch = !searchQuery || title.includes(searchQuery);
             const matchesInfo = activeInfoFilters.length === 0 || activeInfoFilters.some(val => itemInfo.includes(val));
 
-            // Logic for Data Dropdown: Item must match current Search, Info, and the selected Study Area
-            if (matchesSearch && matchesInfo && (currentArea === 'all' || itemArea.includes(currentArea))) {
-                if (currentArea !== 'all') {
-                    // Only register the data types for the bucket the user actually picked
-                    itemData.forEach(d => validDataPairs.add(`${currentArea}:${d}`)); 
+            if (matchesSearch && matchesInfo) {
+                itemArea.forEach(area => {
+                    itemData.forEach(d => validDataPairs.add(`${area}:${d}`));
+                });
+            }
+        });
+
+        // Hide/Show options and categories in the Data Type dropdown
+        const optgroups = dataSelect.querySelectorAll('optgroup');
+        optgroups.forEach(group => {
+            let groupHasVisibleOptions = false;
+            const options = group.querySelectorAll('option');
+
+            options.forEach(opt => {
+                const parts = opt.value.split(':');
+                const area = parts[0];
+                
+                const isDataInResults = validDataPairs.has(opt.value);
+                const matchesSelectedArea = (currentArea === 'all' || area === currentArea);
+
+                if (isDataInResults && matchesSelectedArea) {
+                    opt.style.display = 'block';
+                    groupHasVisibleOptions = true;
                 } else {
-                    // If 'All', allow any valid area/data combo from the item
-                    itemArea.forEach(area => { 
-                        itemData.forEach(d => validDataPairs.add(`${area}:${d}`)); 
-                    });
+                    opt.style.display = 'none';
                 }
-            }
-        });
-
-        // Update Data Dropdown visibility
-        Array.from(dataSelect.querySelectorAll('optgroup')).forEach(group => {
-            const area = group.getAttribute('data-area');
-            let hasVisibleOption = false;
-
-            Array.from(group.querySelectorAll('option')).forEach(opt => {
-                const isVisible = validDataPairs.has(`${area}:${opt.value}`);
-                opt.style.display = isVisible ? 'block' : 'none';
-                if (isVisible) hasVisibleOption = true;
             });
-
-            group.style.display = hasVisibleOption ? 'block' : 'none';
+            group.style.display = groupHasVisibleOptions ? 'block' : 'none';
         });
-      }
+    }
 
-      function resetFilters() {
-          // Clear all inputs
-          searchInput.value = '';
-          areaSelect.value = 'all';
-          dataSelect.value = 'all';
-          infoCheckboxes.forEach(cb => cb.checked = false); 
-          
-          // Clear state
-          activeResourceId = null; 
-          
-          // Cleanup the UI
-          cleanupModalState();
-          
-          // Update URL and View
-          window.history.pushState({}, '', window.location.pathname);
-          updateFilters();
-      }
+    function getActiveInfoFilters() {
+        return Array.from(infoCheckboxes).filter(cb => cb.checked).map(cb => cb.value);
+    }
 
-    // Function to handle smooth navigation between resources
-    function openResource(id, updateUrl = true) {
-        cleanupModalState(); // Close previous and clean backdrops
-
-        // Update State and UI
-        activeResourceId = id;
-        if (updateUrl) {
-            const newUrl = window.location.pathname + '?resource=' + id;
-            window.history.pushState({ resourceId: id }, '', newUrl);
-        }
-        
-        updateFilters();
-
-        // Open the target modal after a short delay to allow the DOM to update
-        setTimeout(() => {
-            const modalEl = document.getElementById(`modal-${id}`);
-            if (modalEl) {
-                const modal = bootstrap.Modal.getOrCreateInstance(modalEl);
-                modal.show();
-            }
-        }, 150);
+    function updateURL() {
+        const params = new URLSearchParams();
+        if (searchInput.value) params.set('q', searchInput.value);
+        if (areaSelect.value !== 'all') params.set('area', areaSelect.value);
+        if (dataSelect.value !== 'all') params.set('data', dataSelect.value);
+        const info = getActiveInfoFilters();
+        if (info.length) params.set('info', info.join(','));
+        const newURL = window.location.pathname + (params.toString() ? '?' + params.toString() : '');
+        window.history.replaceState({}, '', newURL);
     }
 
     function applyURLFilters() {
-        const urlParams = new URLSearchParams(window.location.search);
-        const MAX_LENGTH = 100;
+        const params = new URLSearchParams(window.location.search);
+        
+        // Safety check for resource modal trigger on load
+        const resId = params.get('resource');
+        if (resId) openResource(resId);
 
-        // Handle direct resource links (?resource=id)
-        if (urlParams.has('resource')) {
-            openResource(urlParams.get('resource'), false);
-        } else {
-            activeResourceId = null;
+        searchInput.value = params.get('q') || '';
+        areaSelect.value = params.get('area') || 'all';
+        dataSelect.value = params.get('data') || 'all';
+        
+        const info = params.get('info') ? params.get('info').split(',') : [];
+        infoCheckboxes.forEach(cb => { cb.checked = info.includes(cb.value); });
 
-            // Handle search query
-            if (urlParams.has('search')) searchInput.value = urlParams.get('search').substring(0, MAX_LENGTH);
+        updateFilters();
+    }
 
-            // Handle dropdown filters (area and data)
-            if (urlParams.has('area')) areaSelect.value = urlParams.get('area').substring(0, MAX_LENGTH);
-            if (urlParams.has('data')) dataSelect.value = urlParams.get('data').substring(0, MAX_LENGTH);
+    function openResource(id) {
+        const modalEl = document.getElementById(`modal-${id}`);
+        // Ensure Bootstrap JS is loaded before attempting to use the Modal component
+        if (modalEl && typeof bootstrap !== 'undefined') {
+            const modal = new bootstrap.Modal(modalEl);
+            modal.show();
+        }
+    }
 
-            // Handle info checkboxes (multiple values possible, comma-separated)
-            if (urlParams.has('info')) {
-                const values = urlParams.get('info').split(',');
-                values.forEach(val => {
-                    const cb = document.querySelector(`.info-filter[value="${val}"]`);
-                    if (cb) cb.checked = true;
-                });
-              } 
-            updateFilters();
-          }
-      }
-
-    function cleanupModalState() {
-        // 1. Find any open Bootstrap modal instances and hide them
-        const openModals = document.querySelectorAll('.modal.show');
-        openModals.forEach(modalEl => {
-            const instance = bootstrap.Modal.getInstance(modalEl);
-            if (instance) instance.hide();
-        });
-
-        // 2. Remove any "stuck" backdrops from the DOM
-        document.querySelectorAll('.modal-backdrop').forEach(el => el.remove());
-
-        // 3. Reset the body state so scrolling works and the page isn't "frozen"
-        document.body.classList.remove('modal-open');
-        document.body.style.overflow = '';
-        document.body.style.paddingRight = '';
+    function resetFilters() {
+        searchInput.value = '';
+        areaSelect.value = 'all';
+        dataSelect.value = 'all';
+        infoCheckboxes.forEach(cb => cb.checked = false);
+        updateFilters();
     }
 
     // --- Event Listeners ---
 
-    // Intercept clicks on links with class "resource-link" or 
-    // any link inside the related preview area to fix the "flashing"
+    searchInput.addEventListener('input', updateFilters);
+    areaSelect.addEventListener('change', updateFilters);
+    
+    dataSelect.addEventListener('change', function() {
+        // Sync Study Area when a Data Type is selected
+        if (this.value !== 'all') {
+            const areaFromData = this.value.split(':')[0];
+            areaSelect.value = areaFromData;
+        }
+        updateFilters();
+    });
+
+    infoCheckboxes.forEach(cb => cb.addEventListener('change', updateFilters));
+    
+    clearBtn.addEventListener('click', resetFilters);
+
     document.addEventListener('click', function(e) {
         const link = e.target.closest('a[href*="?resource="]');
         if (link) {
             e.preventDefault();
-            e.stopPropagation(); // Stops parent card click (fixes flashing)
-            const url = new URL(link.href, window.location.origin);
-            const id = url.searchParams.get('resource');
+            const id = new URL(link.href, window.location.origin).searchParams.get('resource');
             if (id) openResource(id);
         }
-    }, true);
-
-    // Handle browser Back/Forward
-    window.addEventListener('popstate', applyURLFilters);
-
-    clearBtn.addEventListener('click', function(e) {
-        e.preventDefault();
-        e.stopPropagation(); // Stops the click from reaching anything else
-        resetFilters();
     });
 
-    searchInput.addEventListener('input', updateFilters);
-    areaSelect.addEventListener('change', updateFilters);
-    dataSelect.addEventListener('change', updateFilters);
-    infoCheckboxes.forEach(cb => cb.addEventListener('change', updateFilters));
-
-    applyURLFilters(); 
-    updateFilters();   
+    // Initialize the page
+    applyURLFilters();
 });
 </script>
 

@@ -21,7 +21,7 @@
     "Experimental Metadata", "SRM/MRM Mass Spectra", "Peptide Identifications"
   ],
   "info_types": ["Repository", "Metadata standard", "Metadata format", "File format"],
-  "areas": ["Genomics", "Proteomics", "Metabolomics and Exposomics", "Spatial Omics", "Cellular and Molecular Imaging", "Structural Biology"],
+  "areas": ["Cellular and Molecular Imaging", "Genomics", "Metabolomics and Exposomics", "Proteomics", "Spatial Omics", "Structural Biology"],
   "items": [
     {
       "title": "ENA (European Nucleotide Archive)",
@@ -115,10 +115,10 @@
       "description": "Ensures metadata standards for environmental sequencing.",
       "url": "https://gensc.org/mixs/",
       "info_type": ["Metadata standard"],
-      "keywords": [],
+      "keywords": ["sample", "ENA"],
       "area": ["Genomics"],
-      "study_type": ["Genomics", "Metagenomics", "Single-cell Transcriptomics"],
-      "data_type": ["Raw Reads", "Single-cell RNA-seq", "Experimental Metadata"]
+      "study_type": ["Genomics", "Metagenomics"],
+      "data_type": ["Raw Reads", "Experimental Metadata"]
     },
     {
       "title": "MIAME (Minimum Information About a Microarray Experiment)",
@@ -128,7 +128,7 @@
       "description": "Guidelines for microarray experiments.",
       "url": "https://fged.org/standards/",
       "info_type": ["Metadata standard"],
-      "keywords": [],
+      "keywords": ["ArrayExpress"],
       "area": ["Genomics"],
       "study_type": ["Transcriptomics", "Epigenomics"],
       "data_type": ["Expression Matrices", "Count Tables", "Microarray Data"]
@@ -141,7 +141,7 @@
       "description": "Format for microarray transcriptomics metadata. It is a simple tab-delimited, spreadsheet-based metadata format used for annotating and communicating microarray data in a MIAME compliant fashion.",
       "url": "https://www.fged.org/projects/mage-tab/",
       "info_type": ["Metadata format"],
-      "keywords": [],
+      "keywords": ["ArrayExpress"],
       "area": ["Genomics"],
       "study_type": ["Transcriptomics", "Epigenomics"],
       "data_type": ["Experimental Metadata", "Microarray Data", "Expression Matrices", "Count Tables"]
@@ -154,7 +154,7 @@
       "description": "Guidelines for high throughput sequencing experiment.",
       "url": "https://fged.org/standards/",
       "info_type": ["Metadata standard"],
-      "keywords": [],
+      "keywords": ["ArrayExpress"],
       "area": ["Genomics"],
       "study_type": ["Transcriptomics", "Epigenomics","Single-cell Transcriptomics"],
       "data_type": ["Expression Matrices", "Count Tables", "Raw Reads","Single-cell RNA-seq"]
@@ -167,9 +167,9 @@
         "description": "",
         "url": "https://www.ebi.ac.uk/ena/browser/checklists",
         "info_type": ["Metadata format"],
-        "keywords": [],
+        "keywords": ["ENA", "BioSamples"],
         "area": ["Genomics"],
-        "study_type": ["Genomics", "Metagenomics", "Multiomics", "Single-cell Transcriptomics", "Spatial Omics"],
+        "study_type": ["Genomics", "Metagenomics", "Multiomics", "Spatial Omics"],
         "data_type": ["Experimental Metadata"]
     },
     {
@@ -180,7 +180,7 @@
       "description": "Manifest format for submitting sequencing and assembly data to ENA using Webin-CLI.",
       "url": "https://www.ebi.ac.uk/ena/browser/webin-cli",
       "info_type": ["Metadata format"],
-      "keywords": ["assemblies"],
+      "keywords": ["assemblies", "ENA"],
       "area": ["Genomics"],
       "study_type": ["Genomics", "Metagenomics"],
       "data_type": ["Experimental Metadata", "Assemblies"]
@@ -193,7 +193,7 @@
       "description": "The standard format for raw and compressed (gzip) nucleotide sequences.",
       "url": "https://samtools.github.io/hts-specs/",
       "info_type": ["File format"],
-      "keywords": ["DNA", "RNA", "Raw reads"],
+      "keywords": ["DNA", "RNA", "Raw reads", "ENA", "EGA", "FEGA", "ArrayExpress"],
       "area": ["Genomics"],
       "study_type": ["Genomics", "Single-cell Transcriptomics", "Clinical Genomics", "Precision Medicine", "Spatial Omics"],
       "data_type": ["Raw Reads","Single-cell RNA-seq","Controlled Access Data"]
@@ -206,10 +206,10 @@
       "description": "The standard format for raw and compressed nucleotide sequences.",
       "url": "https://samtools.github.io/hts-specs/",
       "info_type": ["File format"],
-      "keywords": ["DNA", "RNA", "Raw reads", "Alignments"],
+      "keywords": ["DNA", "RNA", "Raw reads", "Alignments", "ENA", "EGA", "FEGA"],
       "area": ["Genomics"],
-      "study_type": ["Genomics", "Single-cell Transcriptomics", "Clinical Genomics", "Precision Medicine"],
-      "data_type": ["Raw Reads","Single-cell RNA-seq","Controlled Access Data"]
+      "study_type": ["Genomics", "Clinical Genomics", "Precision Medicine"],
+      "data_type": ["Raw Reads","Controlled Access Data"]
     },
     {
       "title": "FASTA (FASTA Sequence Format)",
@@ -219,7 +219,7 @@
       "description": "Text-based file format for representing nucleotide sequences or peptide sequences, where each sequence is represented by a header line starting with '>' followed by the sequence data.",
       "url": "https://samtools.github.io/hts-specs/",
       "info_type": ["File format"],
-      "keywords": ["assemblies"],
+      "keywords": ["assemblies", "ENA", "EGA", "FEGA", "EVA"],
       "area": ["Genomics"],
       "study_type": ["Genomics"],
       "data_type": ["Assemblies"]
@@ -232,7 +232,7 @@
       "description": "This file format is used for storing nucleotide sequences and their associated annotations, providing a standardized way to represent genomic data in the European Nucleotide Archive (ENA) database.",
       "url": "https://doi.org/10.25504/FAIRsharing.q9nh66",
       "info_type": ["File format"],
-      "keywords": [],
+      "keywords": ["ENA", "assemblies"],
       "area": ["Genomics"],
       "study_type": ["Genomics"],
       "data_type": ["Assemblies"]
@@ -245,7 +245,7 @@
       "description": "Variant Call Format; the standard for storing genetic variation data. Please ensure that the used reference sequence is also publically available and that it is unambiguously referenced in the header of the .vcf file, e.g. using the URL field of the ##contig field.",
       "url": "https://samtools.github.io/hts-specs/VCFv4.2.pdf",
       "info_type": ["File format"],
-      "keywords": [],
+      "keywords": ["SNP", "EVA", "GWAS", "FEGA"],
       "area": ["Genomics"],
       "study_type": ["Genomics", "Population Genetics"],
       "data_type": ["Genetic Variants"]
@@ -258,7 +258,7 @@
       "description": "Proprietary file format for raw microarray data generated by Affymetrix instruments, containing intensity information from Affymetrix GeneChip microarrays, representing gene expression levels across samples.",
       "url": "https://www.thermofisher.com/se/en/home/technical-resources/technical-reference-library/microarray-analysis-support-center/software-support/software-support-getting-started.html",
       "info_type": ["File format"],
-      "keywords": [],
+      "keywords": ["ArrayExpress"],
       "area": ["Genomics"],
       "study_type": ["Transcriptomics"],
       "data_type": ["Microarray Data"]
@@ -271,7 +271,7 @@
       "description": "Standard format for reporting summary-level data from Genome-Wide Association Studies.",
       "url": "https://www.ebi.ac.uk/gwas/docs/summary-statistics-format",
       "info_type": ["Metadata format"],
-      "keywords": [],
+      "keywords": ["GWAS", "FEGA"],
       "area": ["Genomics"],
       "study_type": ["Genomics","Association Studies (GWAS)", "Statistical Genetics"],
       "data_type": ["GWAS Summary Statistics"]
@@ -312,7 +312,7 @@
       "description": "Reporting rules for proteomics workflows.",
       "url": "https://psidev.info/miape",
       "info_type": ["Metadata standard"],
-      "keywords": [],
+      "keywords": ["PRIDE"],
       "area": ["Proteomics"],
       "study_type": ["Proteomics", "Single-cell Proteomics"],
       "data_type": ["Mass Spectra", "Protein Identifications"]
@@ -325,7 +325,7 @@
       "description": "The standardized format for describing proteomics sample-to-data relationships.",
       "url": "https://github.com/bigbio/sdrf-proteomics",
       "info_type": ["Metadata format"],
-      "keywords": [],
+      "keywords": ["PRIDE"],
       "area": ["Proteomics"],
       "study_type": ["Proteomics", "Single-cell Proteomics"],
       "data_type": ["Experimental Metadata", "Protein Identifications"]
@@ -338,7 +338,7 @@
       "description": "Open standard for mass spectrometry data.",
       "url": "https://www.psidev.info/mzML",
       "info_type": ["File format"],
-      "keywords": [],
+      "keywords": ["PRIDE", "MetaboLights"],
       "area": ["Proteomics", "Metabolomics and Exposomics"],
       "study_type": ["Proteomics", "Metabolomics"],
       "data_type": ["Mass Spectra"]
@@ -351,7 +351,7 @@
       "description": "Standard format for targeted mass spectrometry data, including SRM/MRM results.",
       "url": "https://www.psidev.info/TraML",
       "info_type": ["File format"],
-      "keywords": [],
+      "keywords": ["PeptideAtlas"],
       "area": ["Proteomics"],
       "study_type": ["Proteomics", "Targeted Proteomics"],
       "data_type": ["SRM/MRM Mass Spectra"]
@@ -364,7 +364,7 @@
       "description": "Standard result file format for reporting proteomics and metabolomics identification and quantification results.",
       "url": "https://www.psidev.info/mzTab",
       "info_type": ["File format"],
-      "keywords": [],
+      "keywords": ["PRIDE", "MetaboLights"],
       "area": ["Proteomics", "Metabolomics and Exposomics"],
       "study_type": ["Proteomics", "Metabolomics"],
       "data_type": ["Protein Identifications", "Metabolite Profiles"]
@@ -377,7 +377,7 @@
       "description": "Standard result file format for reporting peptide and protein identifications from mass spectrometry data.",
       "url": "https://www.psidev.info/mzIdentML",
       "info_type": ["File format"],
-      "keywords": [],
+      "keywords": ["PRIDE"],
       "area": ["Proteomics"],
       "study_type": ["Proteomics", "Single-cell Proteomics"],
       "data_type": ["Protein Identifications"]
@@ -390,7 +390,7 @@
       "description": "Proprietary file format for raw mass spectrometry data generated by Thermo Fisher Scientific instruments.",
       "url": "https://www.thermofisher.com/",
       "info_type": ["File format"],
-      "keywords": [],
+      "keywords": ["PRIDE", "MetaboLights"],
       "area": ["Proteomics", "Metabolomics and Exposomics"],
       "study_type": ["Proteomics", "Metabolomics", "Single-cell Proteomics"],
       "data_type": ["Mass Spectra"]
@@ -403,7 +403,7 @@
         "description": "Proprietary file format for raw mass spectrometry data generated by Bruker instruments.",
         "url": "https://www.bruker.com/",
         "info_type": ["File format"],
-        "keywords": [],
+        "keywords": ["PRIDE"],
         "area": ["Proteomics"],
         "study_type": ["Proteomics", "Single-cell Proteomics"],
         "data_type": ["Mass Spectra"]
@@ -416,7 +416,7 @@
         "description": "Proprietary file format for raw mass spectrometry data generated by Agilent instruments.",
         "url": "https://www.agilent.com/",
         "info_type": ["File format"],
-        "keywords": [],
+        "keywords": ["PRIDE", "MetaboLights"],
         "area": ["Proteomics", "Metabolomics and Exposomics"],
         "study_type": ["Proteomics", "Metabolomics", "Single-cell Proteomics"],
         "data_type": ["Mass Spectra"]
@@ -443,7 +443,7 @@
       "description": "Metabolomics Standards Initiative; Core Information for Metabolomics Reporting.",
       "url": "http://www.metabolomics-msi.org/",
       "info_type": ["Metadata standard"],
-      "keywords": [],
+      "keywords": ["MetaboLights"],
       "area": ["Metabolomics and Exposomics"],
       "study_type": ["Metabolomics", "Lipidomics"],
       "data_type": ["Metabolite Profiles", "Mass Spectra", "NMR Spectra"]
@@ -457,7 +457,7 @@
       "url": "https://www.ebi.ac.uk/empiar",
       "submission_guidelines": "https://www.ebi.ac.uk/empiar/deposition/manual/",
       "info_type": ["Repository"],
-      "keywords": ["Soft X-ray Tomography", "Volume SEM", "Micrograph Movies", "Raw Particle Frames", "Tilt Series"],
+      "keywords": ["Soft X-ray Tomography", "Volume SEM", "Micrograph Movies", "Raw Particle Frames", "Tilt Series", "Cryo-EM"],
       "area": ["Structural Biology"],
       "study_type": ["Cryo-EM"],
       "data_type": ["Raw Images"]
@@ -471,7 +471,7 @@
       "url": "https://www.ebi.ac.uk/emdb",
       "submission_guidelines": "https://www.ebi.ac.uk/emdb/documentation/deposition/composite_map",
       "info_type": ["Repository"],
-      "keywords": [],
+      "keywords": ["Cryo-EM"],
       "area": ["Structural Biology"],
       "study_type": ["Cryo-EM"],
       "data_type": ["3D Volume Maps", "Density Maps"]
@@ -485,7 +485,7 @@
       "url": "https://www.ebi.ac.uk/pdbe",
       "submission_guidelines": "https://www.wwpdb.org/deposition/tutorial",
       "info_type": ["Repository"],
-      "keywords": [],
+      "keywords": ["Cryo-EM", "X-ray Crystallography", "NMR Spectroscopy"],
       "area": ["Structural Biology"],
       "study_type": ["Structural Biology", "Cryo-EM", "X-ray Crystallography", "NMR Spectroscopy"],
       "data_type": ["Atomic Coordinates", "Structure Factors"]
@@ -498,7 +498,7 @@
       "description": "Modern standard for macromolecular structure files, replacing PDB format.",
       "url": "https://mmcif.wwpdb.org/",
       "info_type": ["File format"],
-      "keywords": [],
+      "keywords": ["EMDB", "PDBe"],
       "area": ["Structural Biology"],
       "study_type": ["Structural Biology", "Cryo-EM"],
       "data_type": ["Atomic Coordinates"]
@@ -511,7 +511,7 @@
         "description": "Standard file formats for electron microscopy density maps.",
         "url": "https://www.ccpem.ac.uk/mrc-format/",
         "info_type": ["File format"],
-        "keywords": [],
+        "keywords": ["Cryo-EM", "EMDB", "EMPIAR"],
         "area": ["Structural Biology"],
         "study_type": ["Cryo-EM"],
         "data_type": ["Density Maps", "3D Volume Maps"]
@@ -526,7 +526,7 @@
       "submission_guidelines": "https://www.ebi.ac.uk/bioimage-archive/submit/",
       "info_type": ["Repository"],
       "keywords": [],
-      "area": ["Cellular and Molecular Imaging"],
+      "area": ["Cellular and Molecular Imaging", "Spatial Omics"],
       "study_type": ["BioImaging", "Spatial Omics", "Tissue Imaging"],
       "data_type": ["Multiplexed Images", "Microscopy Images"]
     },
@@ -538,7 +538,7 @@
       "description": "A framework for FAIR imaging data.",
       "url": "https://www.ebi.ac.uk/bioimage-archive/help-rembi",
       "info_type": ["Metadata standard"],
-      "keywords": [],
+      "keywords": ["Cryo-EM", "BioImage Archive"],
       "area": ["Cellular and Molecular Imaging"],
       "study_type": ["BioImaging", "Spatial Omics", "Cryo-EM", "Tissue Imaging"],
       "data_type": ["Multiplexed Images", "Microscopy Images", "Raw Images"]
@@ -551,8 +551,8 @@
       "description": "Guidelines for reporting tissue imaging experiments, including spatial omics.",
       "url": "https://www.ebi.ac.uk/bioimage-archive/help-miti",
       "info_type": ["Metadata standard"],
-      "keywords": [],
-      "area": ["Cellular and Molecular Imaging"],
+      "keywords": ["Cryo-EM", "BioImage Archive"],
+      "area": ["Cellular and Molecular Imaging", "Spatial Omics"],
       "study_type": ["BioImaging", "Spatial Omics", "Tissue Imaging", "Cryo-EM"],
       "data_type": ["Experimental Metadata"]
 
@@ -565,8 +565,8 @@
       "description": "",
       "url": "https://ome-model.readthedocs.io/en/stable/ome-tiff/specification.html",
       "info_type": ["File format"],
-      "keywords": [],
-      "area": ["Spatial Omics", "Cellular and Molecular Imaging"],
+      "keywords": ["BioImage Archive"],
+      "area": ["Cellular and Molecular Imaging"],
       "study_type": ["BioImaging", "Spatial Omics"],
       "data_type": ["Images"]
     },
@@ -578,8 +578,8 @@
       "description": "",
       "url": "https://link.springer.com/article/10.1007/s00418-023-02209-1",
       "info_type": ["File format"],
-      "keywords": [],
-      "area": ["Spatial Omics", "Cellular and Molecular Imaging"],
+      "keywords": ["BioImage Archive"],
+      "area": ["Cellular and Molecular Imaging"],
       "study_type": ["BioImaging", "Spatial Omics"],
       "data_type": ["Images"]
     },
@@ -593,7 +593,7 @@
       "submission_guidelines": "https://www.ebi.ac.uk/biostudies/submissions/help",
       "info_type": ["Repository"],
       "keywords": ["umbrella repository", "supplemental data hosting"],
-      "area": ["Genomics", "Spatial Omics", "Cellular and Molecular Imaging"],
+      "area": ["Genomics", "Spatial Omics"],
       "study_type": ["Multiomics", "Spatial Omics"],
       "data_type": ["Experimental Metadata"]
     },
@@ -607,7 +607,7 @@
       "submission_guidelines": "https://read-docs-biosamples.readthedocs.io/en/latest/",
       "info_type": ["Repository"],
       "keywords": [],
-      "area": ["Genomics", "Spatial Omics", "Cellular and Molecular Imaging"],
+      "area": ["Genomics", "Spatial Omics"],
       "study_type": ["Multiomics", "Spatial Omics"],
       "data_type": ["Experimental Metadata"]
     },
@@ -619,7 +619,7 @@
       "description": "Investigation/Study/Assay framework for multiomics metadata.",
       "url": "https://isa-tools.org/",
       "info_type": ["Metadata format"],
-      "keywords": [],
+      "keywords": ["BioSamples", "MetaboLights"],
       "area": ["Metabolomics and Exposomics", "Spatial Omics"],
       "study_type": ["Metabolomics", "Lipidomics","Transcriptomics", "Spatial Omics", "Multiomics"],
       "data_type": ["Experimental Metadata", "Expression Matrices", "Metabolite Profiles"]
@@ -632,8 +632,8 @@
       "description": "A spreadsheet-based format for metadata and study structure in BioStudies.",
       "url": "https://www.ebi.ac.uk/biostudies/help#pagetab",
       "info_type": ["Metadata format"],
-      "keywords": [],
-      "area": ["Spatial Omics", "Cellular and Molecular Imaging"],
+      "keywords": ["BioStudies"],
+      "area": ["Spatial Omics"],
       "study_type": ["Multiomics"],
       "data_type": ["Experimental Metadata"]
     }

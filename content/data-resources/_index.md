@@ -20,7 +20,7 @@ menu:
       Click the button to the right to inform us of any relevant data resources that are missing from this list.
     </div>
     <div class="col-lg-2">
-      <div><a class="btn btn-teal" href="mailto:data-management@scilifelab.se?subject=Request%20to%20add%20RDM%20guidelines%20data%20type%20resource">Give feedback </a></div><br><br>
+      <div><a class="btn btn-lime" href="mailto:data-management@scilifelab.se?subject=Request%20to%20add%20RDM%20guidelines%20data%20type%20resource">Give feedback </a></div><br><br>
     </div>
   </div>
 </section>

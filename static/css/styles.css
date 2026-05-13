@@ -47,6 +47,7 @@
 }
 /*-------------------------------------------------------------------------------*/
 
+
 /******************************************************/
 /*** Styling of default tags applied to 'all' pages ***/
 /******************************************************/
@@ -94,6 +95,33 @@ h4 {
     box-shadow: none;
   }
   
+  .btn-round {
+    /* rounded-pill */
+    border-radius: 50rem;
+
+    /* px-4 (Horizontal padding: 1.5rem) */
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+    /* py-2 (Vertical padding: 0.5rem) */
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .btn-grape {
+    color: white;
+    font-weight: bold;
+    background-color: var(--grape1);
+    border-color: var(--grape1);
+    border-style: solid;
+    border-width: medium;
+  }
+  .btn-grape:hover {
+    color: white;
+    border-color: white;
+    border-style: solid;
+    border-width: medium;
+  }
+
   .btn-teal {
     color: white;
     background-color: var(--teal1);
@@ -108,7 +136,22 @@ h4 {
     border-style: solid;
     border-width: medium;
   }
-  
+
+  .btn-lime {
+    color: black;
+    background-color: var(--lime1);
+    border-color: var(--lime1);
+    border-style: solid;
+    border-width: medium;
+  }
+  .btn-lime:hover {
+    color: black;
+    border-color: white;
+    text-decoration: underline;
+    border-style: solid;
+    border-width: medium;
+  }
+
   .btn-light-grey {
     background-color: var(--light_grey);
     color: black;

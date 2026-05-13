@@ -37,17 +37,17 @@ Curated up-to-date guidance regarding metadata standards and formats is found at
 <a class="link-teal" href="https://fairsharing.org/search?fairsharingRegistry=Standard/" target="_blank"><b>Visit FAIRsharing.org <i class="bi bi-box-arrow-up-right"></i></b></a>
 <br/><br/>
 
-<a class="link-teal" href="/data-resources/?area=genomics&info=metadata"><b>Metadata Standards and Formats for Genomics data <i class="bi bi-arrow-right-square"></i></b></a><br/>
+<a class="btn btn-round btn-teal" href="/data-resources/?area=genomics&info=metadata"><b>Genomics data <i class="bi bi-arrow-right-square"></i></b></a><br/>
 
-<a class="link-teal" href="/data-resources/?area=proteomics&info=metadata"><b>Metadata Standards and Formats for Proteomics data <i class="bi bi-arrow-right-square"></i></b></a><br/>
+<a class="btn btn-round btn-teal" href="/data-resources/?area=proteomics&info=metadata"><b>Proteomics data <i class="bi bi-arrow-right-square"></i></b></a><br/>
 
-<a class="link-teal" href="/data-resources/?area=metabolomics-and-exposomics&info=metadata"><b>Metadata Standards and Formats for Metabolomics and Exposomics data <i class="bi bi-arrow-right-square"></i></b></a><br/>
+<a class="btn btn-round btn-teal" href="/data-resources/?area=metabolomics-and-exposomics&info=metadata"><b>Metabolomics and Exposomics data <i class="bi bi-arrow-right-square"></i></b></a><br/>
 
-<a class="link-teal" href="/data-resources/?area=spatial-omics&info=metadata"><b>Metadata Standards and Formats for Spatial Omics data <i class="bi bi-arrow-right-square"></i></b></a><br/>
+<a class="btn btn-round btn-teal" href="/data-resources/?area=spatial-omics&info=metadata"><b>Spatial Omics data <i class="bi bi-arrow-right-square"></i></b></a><br/>
 
-<a class="link-teal" href="/data-resources/?area=cellular-and-molecular-imaging&info=metadata"><b>Metadata Standards and Formats for Cellular and Molecular Imaging data <i class="bi bi-arrow-right-square"></i></b></a><br/>
+<a class="btn btn-round btn-teal" href="/data-resources/?area=cellular-and-molecular-imaging&info=metadata"><b>Cellular and Molecular Imaging data <i class="bi bi-arrow-right-square"></i></b></a><br/>
 
-<a class="link-teal" href="/data-resources/area=structural-biology&info=metadata"><b>Metadata Standards and Formats for Structural Biology data <i class="bi bi-arrow-right-square"></i></b></a><br/>
+<a class="btn btn-round btn-teal" href="/data-resources/area=structural-biology&info=metadata"><b>Structural Biology data <i class="bi bi-arrow-right-square"></i></b></a><br/>
 
 &nbsp;
 

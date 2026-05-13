@@ -47,18 +47,30 @@ Guidance on where to publish COVID-19 and Pandemic Preparedness research data, c
 
 For other discipline-specific repositories, see e.g. <a href="https://elixir-europe.org/services/tag/elixir-deposition-databases" target="_blank">ELIXIR Deposition databases</a>, <a href="https://www.ebi.ac.uk/submission/" target="_blank">EBI archive wizard</a> (help to find the right repository depending on data type), or <a href="https://fairsharing.org/databases/" target="_blank">FAIRsharing</a> (the latter can also assist in finding metadata standards suitable for describing your datasets).
 
+<br><a href="/data-resources/?area=genomics&info=repository" class="btn btn-round btn-grape">
+  Genomics <i class="bi bi-arrow-right-square ms-2"></i>
+</a>
 
-<a class="link-teal" href="/data-resources/?area=genomics&info=repository"><b>Repositories for Genomics data <i class="bi bi-arrow-right-square"></i></b></a><br/>
+<br><a href="/data-resources/?area=proteomics&info=repository" class="btn btn-round btn-grape">
+  Proteomics <i class="bi bi-arrow-right-square ms-2"></i>
+</a>
 
-<a class="link-teal" href="/data-resources/?area=proteomics&info=repository"><b>Repositories for Proteomics data <i class="bi bi-arrow-right-square"></i></b></a><br/>
+<br><a href="/data-resources/?area=metabolomics-and-exposomics&info=repository" class="btn btn-round btn-grape">
+  Metabolomics and Exposomics <i class="bi bi-arrow-right-square ms-2"></i>
+</a>
 
-<a class="link-teal" href="/data-resources/?area=metabolomics-and-exposomics&info=repository"><b>Repositories for Metabolomics and Exposomics data <i class="bi bi-arrow-right-square"></i></b></a><br/>
+<br><a href="/data-resources/?area=spatial-omics&info=repository" class="btn btn-round btn-grape">
+  Spatial Omics <i class="bi bi-arrow-right-square ms-2"></i>
+</a>
 
-<a class="link-teal" href="/data-resources/?area=spatial-omics&info=repository"><b>Repositories for Spatial Omics data <i class="bi bi-arrow-right-square"></i></b></a><br/>
+<br><a href="/data-resources/?area=cellular-and-molecular-imaging&info=repository" class="btn btn-round btn-grape">
+  Cellular and Molecular Imaging <i class="bi bi-arrow-right-square ms-2"></i>
+</a>
 
-<a class="link-teal" href="/data-resources/?area=cellular-and-molecular-imaging&info=repository"><b>Repositories for Cellular and Molecular Imaging data <i class="bi bi-arrow-right-square"></i></b></a><br/>
+<br><a href="/data-resources/?area=structural-biology&info=repository" class="btn btn-round btn-grape">
+  Structural Biology <i class="bi bi-arrow-right-square ms-2"></i>
+</a><br><br>
 
-<a class="link-teal" href="/data-resources/?area=structural-biology&info=repository"><b>Repositories for Structural Biology data <i class="bi bi-arrow-right-square"></i></b></a><br/>
 
 &nbsp;
 
@@ -66,7 +78,7 @@ For other discipline-specific repositories, see e.g. <a href="https://elixir-eur
 For datasets that do not fit into discipline-specific repositories, it is recommended to use an institutional repository if available. These repositories are often general-purpose repositories with the intention of only being used by researchers at that specific institution. See below a selection of available repositories offered by Swedish academic institutions operating in the life sciences. 
 
 <p>
-  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample8">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample8">
     KI Data Repository 
     <i class="bi bi-chevron-double-down p-2"></i>
   </button>
@@ -82,7 +94,7 @@ For datasets that do not fit into discipline-specific repositories, it is recomm
   <br>
 </div>
 <p>
-  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5">
     KTH Data Repository
     <i class="bi bi-chevron-double-down p-2"></i>
   </button>
@@ -98,7 +110,7 @@ For datasets that do not fit into discipline-specific repositories, it is recomm
   <br>
 </div>
 <p>
-  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample9" role="button" aria-expanded="false" aria-controls="collapseExample9">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseExample9" role="button" aria-expanded="false" aria-controls="collapseExample9">
     KTH Royal Institute of Technology Zenodo community
     <i class="bi bi-chevron-double-down p-2"></i>
   </button>
@@ -114,7 +126,7 @@ For datasets that do not fit into discipline-specific repositories, it is recomm
   <br>
 </div>
 <p>
-  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample10" role="button" aria-expanded="false" aria-controls="collapseExample10">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseExample10" role="button" aria-expanded="false" aria-controls="collapseExample10">
     SciLifeLab Data Repository
     <i class="bi bi-chevron-double-down p-2"></i>
   </button>
@@ -130,7 +142,7 @@ For datasets that do not fit into discipline-specific repositories, it is recomm
   <br>
 </div>
 <p>
-  <button class="btn btn-expandable" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample11" href="#collapseExample11">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample11" href="#collapseExample11">
     Stockholm University Figshare
     <i class="bi bi-chevron-double-down p-2"></i>
   </button>
@@ -150,7 +162,7 @@ For datasets that do not fit into discipline-specific repositories, it is recomm
 ## General-purpose data repositories 
 A general-purpose data repository is an appropriate choice only if the data does not need to be published in a controlled-access repository, a discipline-specific repository does not exist for the discipline and if there are no institutional repositories available. See below a selection of general-purpose data repositories.
 <p>
-  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample12" role="button" aria-expanded="false" aria-controls="collapseExample12">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseExample12" role="button" aria-expanded="false" aria-controls="collapseExample12">
     SND DORIS
     <i class="bi bi-chevron-double-down p-2"></i>
   </button>
@@ -166,7 +178,7 @@ A general-purpose data repository is an appropriate choice only if the data does
   <br>
 </div>
 <p>
-  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample13" role="button" aria-expanded="false" aria-controls="collapseExample13">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseExample13" role="button" aria-expanded="false" aria-controls="collapseExample13">
     Figshare
     <i class="bi bi-chevron-double-down p-2"></i>
   </button>
@@ -182,7 +194,7 @@ A general-purpose data repository is an appropriate choice only if the data does
   <br>
 </div>
 <p>
-  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample14" role="button" aria-expanded="false" aria-controls="collapseExample14">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseExample14" role="button" aria-expanded="false" aria-controls="collapseExample14">
     Zenodo
     <i class="bi bi-chevron-double-down p-2"></i>
   </button>
@@ -198,7 +210,7 @@ A general-purpose data repository is an appropriate choice only if the data does
   <br>
 </div>
 <p>
-  <button class="btn btn-expandable" data-bs-toggle="collapse" href="#collapseExample15" role="button" aria-expanded="false" aria-controls="collapseExample15">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseExample15" role="button" aria-expanded="false" aria-controls="collapseExample15">
     EUDAT B2SHARE
     <i class="bi bi-chevron-double-down p-2"></i>
   </button>

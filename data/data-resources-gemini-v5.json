@@ -526,8 +526,8 @@
       "submission_guidelines": "https://www.ebi.ac.uk/bioimage-archive/submit/",
       "info_type": ["Repository"],
       "keywords": [],
-      "area": ["Cellular and Molecular Imaging", "Spatial Omics"],
-      "study_type": ["BioImaging", "Spatial Omics", "Tissue Imaging"],
+      "area": ["Cellular and Molecular Imaging"],
+      "study_type": ["BioImaging","Tissue Imaging"],
       "data_type": ["Multiplexed Images", "Microscopy Images"]
     },
     {
@@ -588,7 +588,7 @@
       "short_title": "BioStudies",
       "id": "biostudies",
       "related": ["pagetab"],
-      "description": "An integrative archive that holds data from multiple sources and provides supplemental data hosting.",
+      "description": "An integrative archive that holds data from multiple sources and provides supplemental data hosting. Note: For multiomics data, it is recommended to submit the datasets to the repository that fits best and use BioStudies as an umbrella, serving as a landing page for datasets that are stored in other repositories.",
       "url": "https://www.ebi.ac.uk/biostudies",
       "submission_guidelines": "https://www.ebi.ac.uk/biostudies/submissions/help",
       "info_type": ["Repository"],
@@ -602,7 +602,7 @@
       "short_title": "BioSamples",
       "id": "biosamples",
       "related": ["isa-tab","ena-checklists"],
-      "description": "Central reference service for sample descriptions and metadata across all EBI repositories.",
+      "description": "Central reference service for sample descriptions and metadata across all EBI repositories. Note: For multiomics data, register the samples in BioSamples and submit the datasets to the repository that fits. The samples will thus be what is linking the datasets together.",
       "url": "https://www.ebi.ac.uk/biosamples",
       "submission_guidelines": "https://read-docs-biosamples.readthedocs.io/en/latest/",
       "info_type": ["Repository"],

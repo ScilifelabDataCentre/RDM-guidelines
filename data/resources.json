@@ -628,6 +628,18 @@
             "provider":  ["SciLifeLab"]         
         },
         {
+            "title": "Data sources for data-driven life science",
+            "short_title": "Data sources",
+            "target": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["data source","repository","infrastructure","Compute resources available for researchers in Sweden"],
+            "phase": ["Reuse"],
+            "level": ["Basic"],
+            "url": "https://data.scilifelab.se/resources/e-infrastructure/",
+            "description": "A list of data sources available for data-driven life science in Sweden.",
+            "provider":  ["SciLifeLab"]         
+        },
+        {
             "title": "Overview of available national and local computational resources",
             "short_title": "Computational resources",
             "target": ["tool"],

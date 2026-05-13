@@ -632,7 +632,7 @@
             "short_title": "Data sources",
             "target": ["tool"],
             "type": ["Tool"],
-            "search_tags": ["data source","repository","infrastructure","Compute resources available for researchers in Sweden"],
+            "search_tags": ["data source","repository","Data sources for data-driven life science"],
             "phase": ["Reuse"],
             "level": ["Basic"],
             "url": "https://data.scilifelab.se/resources/e-infrastructure/",

@@ -35,19 +35,19 @@ Communities within specific research domains have mutually agreed upon what piec
 Curated up-to-date guidance regarding metadata standards and formats is found at FAIRsharing.org. The most common ones are listed below. 
 
 <a class="link-teal" href="https://fairsharing.org/search?fairsharingRegistry=Standard/" target="_blank"><b>Visit FAIRsharing.org <i class="bi bi-box-arrow-up-right"></i></b></a>
-<br/><br/>
+<br><br>
 
-<a class="btn btn-round btn-teal" href="/data-resources/?area=genomics&info=metadata"><b>Genomics data <i class="bi bi-arrow-right-square"></i></b></a><br/>
+<a class="btn btn-round btn-teal" href="/data-resources/?area=genomics&info=metadata"><b>Genomics data <i class="bi bi-arrow-right-square"></i></b></a><br>
 
-<a class="btn btn-round btn-teal" href="/data-resources/?area=proteomics&info=metadata"><b>Proteomics data <i class="bi bi-arrow-right-square"></i></b></a><br/>
+<a class="btn btn-round btn-teal" href="/data-resources/?area=proteomics&info=metadata"><b>Proteomics data <i class="bi bi-arrow-right-square"></i></b></a><br>
 
-<a class="btn btn-round btn-teal" href="/data-resources/?area=metabolomics-and-exposomics&info=metadata"><b>Metabolomics and Exposomics data <i class="bi bi-arrow-right-square"></i></b></a><br/>
+<a class="btn btn-round btn-teal" href="/data-resources/?area=metabolomics-and-exposomics&info=metadata"><b>Metabolomics and Exposomics data <i class="bi bi-arrow-right-square"></i></b></a><br>
 
-<a class="btn btn-round btn-teal" href="/data-resources/?area=spatial-omics&info=metadata"><b>Spatial Omics data <i class="bi bi-arrow-right-square"></i></b></a><br/>
+<a class="btn btn-round btn-teal" href="/data-resources/?area=spatial-omics&info=metadata"><b>Spatial Omics data <i class="bi bi-arrow-right-square"></i></b></a><br>
 
-<a class="btn btn-round btn-teal" href="/data-resources/?area=cellular-and-molecular-imaging&info=metadata"><b>Cellular and Molecular Imaging data <i class="bi bi-arrow-right-square"></i></b></a><br/>
+<a class="btn btn-round btn-teal" href="/data-resources/?area=cellular-and-molecular-imaging&info=metadata"><b>Cellular and Molecular Imaging data <i class="bi bi-arrow-right-square"></i></b></a><br>
 
-<a class="btn btn-round btn-teal" href="/data-resources/area=structural-biology&info=metadata"><b>Structural Biology data <i class="bi bi-arrow-right-square"></i></b></a><br/>
+<a class="btn btn-round btn-teal" href="/data-resources/area=structural-biology&info=metadata"><b>Structural Biology data <i class="bi bi-arrow-right-square"></i></b></a><br>
 
 &nbsp;
 

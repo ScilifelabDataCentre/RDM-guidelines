@@ -29,7 +29,7 @@ There are several reasons why writing a data management plan is a very good idea
 * A DMP is the first step towards being **FAIR** in your project.
 
 <a class="link-teal" href="/topics/fair-principles"><b>Learn more about the FAIR principles <i class="bi bi-arrow-right-square"></i></b></a>
-<br/><br/>
+<br><br>
 
 If the reasons above don’t persuade you, the last argument is that it is more and more a **requirement** by funders and other stakeholders:
 * For **transparency** and **openness**: publicly funded research data must be discoverable, accessible, and reusable to the public
@@ -78,11 +78,11 @@ Luckily, there are tools to assist you:
 * DMPOnline 
   - The tool most universities have chosen to offer (check with your institute)
   - Good guidance but typically generic and not Life Science specific
-  - Most often free text answers <br/><br/><a class="link-teal" href="https://dmponline.dcc.ac.uk/" target="_blank"><b>Go to DMPOnline <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/> 
+  - Most often free text answers <br><br><a class="link-teal" href="https://dmponline.dcc.ac.uk/" target="_blank"><b>Go to DMPOnline <i class="bi bi-box-arrow-up-right"></i></b></a><br><br> 
 * Data Stewardship Wizard
   - Provided by SciLifeLab
   - Gives Life Science specific guidance
-  - Less free text answers, instead many questions with answer options<br/><br/><a class="link-teal" href="http://dsw.scilifelab.se/" target="_blank"><b>Go to the Data Stewardship Wizard <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/> 
+  - Less free text answers, instead many questions with answer options<br><br><a class="link-teal" href="http://dsw.scilifelab.se/" target="_blank"><b>Go to the Data Stewardship Wizard <i class="bi bi-box-arrow-up-right"></i></b></a><br><br> 
 
 ### Examples
 If you are intrested in seeing examples of high quality DMPs, take a look at one of the <a href="https://elixiruknode.org/data-management-planning-in-life-sciences-research/#17-example-dmps-hosted-in-dsw" target="_blank">17 Example DMPs hosted in DSW</a> that Data Stewards at the ELIXIR-UK node has written and reviewed. The template used varies slightly from the templates that Swedish funders provide, but it covers the same information and the examples include various data types, typical for life science research.

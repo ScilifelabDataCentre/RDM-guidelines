@@ -24,19 +24,19 @@ menu:
 <br><br>
 SciLifeLab is committed to the values of Open Science, <a href="https://www.ucl.ac.uk/research/strategy-and-policy/research-transparency" target="_blank">Transparent research</a> and FAIR principles (Findable, Accessible, Interoperable and Reusable). We work actively to ensure that the investments done by the society in research infrastructure resources can achieve the highest possible impact.
 
-<br/><a class="link-teal" href="/topics/fair-principles"><b>Learn more about the FAIR principles <i class="bi bi-arrow-right-square"></i></b></a><br/><br/>
+<br><a class="link-teal" href="/topics/fair-principles"><b>Learn more about the FAIR principles <i class="bi bi-arrow-right-square"></i></b></a><br><br>
 <a class="link-teal" href="https://openscience.se/en" target="_blank"><b>Learn more about Open science <i class="bi bi-box-arrow-up-right"></i></b></a>
-<br/><br/>
+<br><br>
 
 The SciLifeLab RDM guidelines was built and is maintained by the SciLifeLab Data Centre and NBIS. We welcome all questions related to research data management or the website itself. 
 
 The content of the website is moderated by an editorial group supported by the SciLifeLab RDM guidelines advisory group. However, contributions are welcome in each of the sections. For example, you can suggest a new topic or an update to current [research data life cycle](/data-life-cycle) or [topic](/topics/) pages. Please get in touch with us by emailing [data-management@scilifelab.se](mailto:data-management@scilifelab.se).
 
 <a class="link-teal" href="/about/contributors/"><b>See all contributors <i class="bi bi-arrow-right-square"></i></b></a>
-<br/><br/>
+<br><br>
 
 ## Organisations behind the guidelines
-<br/>
+<br>
 <div class="container">
 <div class="row">
   <div class="col-sm-12 col-md-12 col-lg-3">
@@ -52,10 +52,10 @@ The content of the website is moderated by an editorial group supported by the S
   Life science research is increasingly becoming not only technology-driven, but also data-driven. SciLifeLab coordinates and supports activities throughout the data lifecycle. This includes project planning, data production, data analysis, data sharing, through to the publication and reuse of data, where researchers are dependent on advanced data analysis and e-infrastructures.
 
   <a class="link-teal" href="https://www.scilifelab.se" target="_blank"><b>Learn more about SciLifeLab <i class="bi bi-box-arrow-up-right"></i></b></a>
-<br/><br/>
+<br><br>
   </div>
 </div>
-<br/><br/>
+<br><br>
 <div class="row">
   <div class="col-sm-12 col-md-12 col-lg-3">
     <figure class="figure float-right"><a href="https://www.scilifelab.se/data/" target="_blank"><img width="170" src="/img/logos/dc_branding_light_bg.svg" alt="SciLifeLab Data Centre logo"></a></figure>
@@ -67,7 +67,7 @@ The content of the website is moderated by an editorial group supported by the S
   <a class="link-teal" href="https://www.scilifelab.se/data" target="_blank"><b>Learn more about SciLifeLab Data Centre <i class="bi bi-box-arrow-up-right"></i></b></a>
   </div>
 </div>
-<br/><br/>
+<br><br>
 <div class="row">
   <div class="col-sm-12 col-md-12 col-lg-3">
     <figure class="figure float-right"><a href="https://nbis.se/" target="_blank"><img width="170" src="/img/logos/nbislogo-orange-txt.svg" alt="NBIS logo"></a></figure>
@@ -83,4 +83,4 @@ The content of the website is moderated by an editorial group supported by the S
 
 
 
-<br/><br/>
+<br><br>

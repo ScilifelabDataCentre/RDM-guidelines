@@ -124,6 +124,7 @@ h4 {
 
   .btn-teal {
     color: white;
+    font-weight: bold;
     background-color: var(--teal1);
     border-color: var(--teal1);
     border-style: solid;
@@ -138,6 +139,7 @@ h4 {
   }
   .btn-aqua {
     color: white;
+    font-weight: bold;
     background-color: var(--aqua1);
     border-color: var(--aqua1);
     border-style: solid;

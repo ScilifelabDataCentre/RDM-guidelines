@@ -139,13 +139,14 @@ h4 {
 
   .btn-lime {
     color: black;
-    background-color: var(--lime1);
+    background-color: var(--lime0_25);
     border-color: var(--lime1);
     border-style: solid;
     border-width: medium;
   }
   .btn-lime:hover {
     color: black;
+    background-color: var(--lime0_75);
     border-color: white;
     text-decoration: underline;
     border-style: solid;

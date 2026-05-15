@@ -136,6 +136,20 @@ h4 {
     border-style: solid;
     border-width: medium;
   }
+  .btn-aqua {
+    color: white;
+    background-color: var(--aqua1);
+    border-color: var(--aqua1);
+    border-style: solid;
+    border-width: medium;
+  }
+  .btn-aqua:hover {
+    color: white;
+    border-color: white;
+    text-decoration: underline;
+    border-style: solid;
+    border-width: medium;
+  }
 
   .btn-lime {
     color: black;

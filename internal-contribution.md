@@ -44,7 +44,7 @@ Mandatory fields:
 * **title** - the full title as found in the external link provided
 * **short_title** - one-liner, shortened title, to fit the row of a card
 * **category** - either "training", "tool", or "guidance"
-* **type** - either "Web page", "Video", "Material", or "Tool" (currently only used to identify videos, so that they get an icon)
+* **type** - either "Web page", "Video", "Material", or "Tool" (currently this field is only used to identify videos, so that they get an icon)
 * **search_tags** - add at least full title, and any suitable keywords
 * **phase** - one or more of "Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse" (can be excluded if topic is filled)
 * **topic** - (can be excluded if phase is filled)
@@ -57,6 +57,11 @@ Optional fields:
 * **DOI** - e.g. "10.17044/scilifelab.23987985", if available
 * **DOIurl** - e.g. "https://doi.org/10.17044/scilifelab.23987985.v1", if available
 * **licence** - e.g. "GPL 3.0+", if available
+
+Note: Valid type for each resource category is stated below. 
+* Tool - type: Tool
+* Training - type: Material and Course
+* Guidance - type: Web page, Video and Material
 
 ### How to work in GitHub
 

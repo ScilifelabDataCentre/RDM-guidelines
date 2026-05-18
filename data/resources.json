@@ -1254,8 +1254,8 @@
         {
             "title": "Annotare - ArrayExpress submission tool",
             "short_title": "Annotare - ArrayExpress",
-            "target": ["guidance", "tool"],
-            "type": ["Web page", "Tool"],
+            "target": ["tool"],
+            "type": ["Tool"],
             "search_tags": ["Annotare - ArrayExpress submission tool", "submit"],
             "phase": ["Share"],
             "level": ["Basic"],

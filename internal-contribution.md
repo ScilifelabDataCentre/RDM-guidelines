@@ -23,7 +23,7 @@ A resource is any **external** link with information that is of added value for 
 
 A resource *can* be explicitly linked to in the text, but most importantly is that it is listed under the Resources heading at the end of a page (see below on how to make that happen).
 
-There are currently three types/targets of resources:
+There are currently three categories of resources:
 
 * Tool - any type of tool to assist in a data management task
 * Training - courses or course catalogue links
@@ -43,7 +43,7 @@ Currently the template has 14 fields, some of them are mandatory and some are op
 Mandatory fields:
 * **title** - the full title as found in the external link provided
 * **short_title** - one-liner, shortened title, to fit the row of a card
-* **target** - either "training", "tool", or "guidance"
+* **category** - either "training", "tool", or "guidance"
 * **type** - either "Web page", "Video", "Material", or "Tool" (currently only used to identify videos, so that they get an icon)
 * **search_tags** - add at least full title, and any suitable keywords
 * **phase** - one or more of "Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse" (can be excluded if topic is filled)

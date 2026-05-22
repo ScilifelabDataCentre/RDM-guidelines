@@ -520,7 +520,7 @@
       "title": "BioImage Archive",
       "short_title": "BIA",
       "id": "bia",
-      "related": ["ome-tiff","zarr", "rembi", "miti"],
+      "related": ["ome-tiff","ome-zarr", "rembi", "miti"],
       "description": "Reference repository for biological imaging data, from cells to whole organisms. It accepts submissions of data from any imaging modality, as long as the data are either associated with a peer-reviewed publication, or of value beyond a single experiment.",
       "url": "https://www.ebi.ac.uk/bioimage-archive",
       "submission_guidelines": "https://www.ebi.ac.uk/bioimage-archive/submit/",
@@ -571,9 +571,9 @@
       "data_type": ["Images"]
     },
     {
-      "title": "Zarr (Chunked, Compressed, N-Dimensional Arrays)",
-      "short_title": "Zarr",
-      "id": "zarr",
+      "title": "OME-Zarr (Chunked, Compressed, N-Dimensional Arrays)",
+      "short_title": "OME-Zarr",
+      "id": "ome-zarr",
       "related": ["bia"],
       "description": "",
       "url": "https://link.springer.com/article/10.1007/s00418-023-02209-1",

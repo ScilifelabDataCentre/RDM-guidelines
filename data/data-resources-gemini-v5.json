@@ -10,7 +10,7 @@
     "Metabolomics", "Lipidomics", "NMR Spectroscopy",
     "Targeted Proteomics", "Single-cell Proteomics",
     "BioImaging", "Spatial Omics", "Tissue Imaging",
-    "Multiomics", "Precision Medicine", "Statistical Genetics" 
+    "Multiomics", "Precision Medicine", "Statistical Genetics", "X-ray Crystallography"
   ],
   "data_types": ["Raw Reads", "Assemblies", "Single-cell RNA-seq",
     "Controlled Access Data", "Expression Matrices", "Count Tables", 
@@ -18,7 +18,8 @@
     "Density Maps", "Raw Images", "Multiplexed Images", "Microscopy Images",
     "3D Volume Maps", "Atomic Coordinates", "Protein Identifications",
     "Structure Factors", "Mass Spectra", "NMR Spectra", "Metabolite Profiles", "Images",
-    "Experimental Metadata", "SRM/MRM Mass Spectra", "Peptide Identifications"
+    "Experimental Metadata", "SRM/MRM Mass Spectra", "Peptide Identifications", 
+    "Study descriptions", "Supplemental data", "Sample descriptions"
   ],
   "info_types": ["Repository", "Metadata standard", "Metadata format", "File format"],
   "areas": ["Cellular and Molecular Imaging", "Genomics", "Metabolomics and Exposomics", "Proteomics", "Spatial Omics", "Structural Biology"],
@@ -425,7 +426,7 @@
       "title": "MetaboLights",
       "short_title": "MetaboLights",
       "id": "metabolights",
-      "related": ["agilent","thermo","mzml","mztab","msi-cimr","isatab"],
+      "related": ["agilent","thermo","mzml","mztab","msi-cimr","isa-tab"],
       "description": "MetaboLights is a database for Metabolomics experiments and derived information. The database is cross-species, cross-technique, and covers metabolite structures and their reference spectra as well as their biological roles, locations and concentrations, and experimental data from metabolic experiments.",
       "url": "https://www.ebi.ac.uk/metabolights",
       "submission_guidelines": "https://ebi-metabolights.github.io/guides/",

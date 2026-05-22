@@ -31,12 +31,12 @@
     <div class="col-lg-2 mb-2 mb-lg-0 pe-lg-0">
       <div class="resources-search-filter">Search</div>
       <div class="mb-4">
-        <input type="text" id="searchInput" class="form-control" placeholder="Search resources...">
+        <input type="text" id="searchInput" class="form-control" aria-label="Search" placeholder="Search resources...">
       </div>
 
       <div class="resources-search-filter">Study Area</div>
       <div class="mb-4">
-        <select class="form-select" id="areaTypeSelect">
+        <select class="form-select" id="areaTypeSelect" aria-label="Filter by study area">
           <option value="all">All study areas</option>
           {{ range .areas }}
             <option value="{{ . | urlize }}">{{ . }}</option>
@@ -46,7 +46,7 @@
 
       <div class="resources-search-filter">Data Type</div>
       <div class="mb-4">
-        <select class="form-select" id="dataTypeSelect">
+        <select class="form-select" id="dataTypeSelect" aria-label="Filter by data type">
           <option value="all">All data types</option>
           {{ range $area := .areas }}
             {{ $area_items := where $allItems "area" "intersect" (slice $area) }}
@@ -130,7 +130,7 @@
                 aria-label="View details for {{ .short_title }}">
 
               <div class="resources-data-header-strip bg-{{ $colorClass }}">{{ $currentType }}</div>              
-              <a class="resources-header-data d-block text-{{ $colorClass }}">{{ .short_title }}</a>
+              <a class="resources-data-header d-block text-{{ $colorClass }}">{{ .short_title }}</a>
 
               {{/* Display relationship rows on front of resource cards */}}
               <div class="related-preview mt-1">

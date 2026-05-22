@@ -417,10 +417,9 @@ html {
 .resources-data-header-strip {
     margin: -1rem -1rem 1rem -1rem; /* Offsets the p-3 padding of the parent */
     padding: 0.5rem 1rem;
-    color: #ffffff;
+    color: white;
     font-weight: bold;
-    text-transform: uppercase;
-    font-size: 0.8rem;
+    font-size: 1.17rem;
     letter-spacing: 0.05em;
 }
 

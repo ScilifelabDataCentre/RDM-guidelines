@@ -1,7 +1,7 @@
 {
   "$schema": "../data-resources-schema.json",
   "metadata_version": "5.0",
-  "last_updated": "2026-05-07",
+  "last_updated": "2026-05-22",
   "study_types": [
     "Genomics", "Metagenomics", "Transcriptomics", "Epigenomics",
     "Clinical Genomics","Population Genetics", 
@@ -243,7 +243,7 @@
       "id": "vcf",
       "related": ["eva","gwas","fega"],
       "description": "Variant Call Format; the standard for storing genetic variation data. Please ensure that the used reference sequence is also publically available and that it is unambiguously referenced in the header of the .vcf file, e.g. using the URL field of the ##contig field.",
-      "url": "https://samtools.github.io/hts-specs/VCFv4.2.pdf",
+      "url": "https://samtools.github.io/hts-specs/",
       "info_type": ["File format"],
       "keywords": ["SNP", "EVA", "GWAS", "FEGA","Genomics", "Population Genetics"],
       "area": ["Genomics"],

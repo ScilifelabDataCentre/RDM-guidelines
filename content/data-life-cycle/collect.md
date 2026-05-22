@@ -24,22 +24,22 @@ Data documentation should clearly describe how the data was collected, so that s
 ## Data producers
  SciLifeLab provides access to a range of pioneering technologies in molecular biosciences. Please find below links to data generating SciLifeLab services.
 
-<a class="btn btn-round btn-aqua" href="https://www.scilifelab.se/genomics/" target="_blank">SciLifeLab Genomics <i class="bi bi-box-arrow-up-right"></i></a>
+<a class="btn btn-round btn-expandable" href="https://www.scilifelab.se/genomics/" target="_blank">Genomics<i class="bi bi-box-arrow-up-right"></i></a>
 <br>
 
-<a class="btn btn-round btn-aqua" href="https://www.scilifelab.se/proteomics/" target="_blank">SciLifeLab Proteomics <i class="bi bi-box-arrow-up-right"></i></a>
+<a class="btn btn-round btn-expandable" href="https://www.scilifelab.se/proteomics/" target="_blank">Proteomics<i class="bi bi-box-arrow-up-right"></i></a>
 <br>
 
-<a class="btn btn-round btn-aqua" href="https://www.scilifelab.se/metabolomics-and-exposomics/" target="_blank">SciLifeLab Matabolomics and Exposomics <i class="bi bi-box-arrow-up-right"></i></a>
+<a class="btn btn-round btn-expandable" href="https://www.scilifelab.se/metabolomics-and-exposomics/" target="_blank">Metabolomics and Exposomics<i class="bi bi-box-arrow-up-right"></i></a>
 <br>
 
-<a class="btn btn-round btn-aqua" href="https://www.scilifelab.se/spatial-omics/" target="_blank">SciLifeLab Spatial Omics <i class="bi bi-box-arrow-up-right"></i></a>
+<a class="btn btn-round btn-expandable" href="https://www.scilifelab.se/spatial-omics/" target="_blank">Spatial Omics<i class="bi bi-box-arrow-up-right"></i></a>
 <br>
 
-<a class="btn btn-round btn-aqua" href="https://www.scilifelab.se/cellular-and-molecular-imaging/" target="_blank">SciLifeLab Cellular and Molecular Imaging <i class="bi bi-box-arrow-up-right"></i></a>
+<a class="btn btn-round btn-expandable" href="https://www.scilifelab.se/cellular-and-molecular-imaging/" target="_blank">Cellular and Molecular Imaging<i class="bi bi-box-arrow-up-right"></i></a>
 <br>
 
-<a class="btn btn-round btn-aqua" href="https://www.scilifelab.se/structural-biology/" target="_blank">SciLifeLab Structural Biology <i class="bi bi-box-arrow-up-right"></i></a>
+<a class="btn btn-round btn-expandable" href="https://www.scilifelab.se/structural-biology/" target="_blank">Structural Biology<i class="bi bi-box-arrow-up-right"></i></a>
 <br><br>
 
 ## Storage

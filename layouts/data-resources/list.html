@@ -80,7 +80,7 @@
       </div>
 
       <div class="mb-3">
-        <button id="clearFiltersBtn" class="btn btn-lime" style="display:none;"><i class="bi bi-x-circle"></i> Clear All Filters</button>
+        <button id="clearFiltersBtn" class="btn btn-light-grey" style="display:none;"><i class="bi bi-x-circle"></i> Clear All Filters</button>
       </div>
     </div>
 
@@ -129,8 +129,8 @@
                 data-bs-target="#modal-{{ $id }}"
                 aria-label="View details for {{ .short_title }}">
 
-              <div class="resource-type-header bg-{{ $colorClass }}">{{ $currentType }}</div>              
-              <a class="resources-header-tool d-block mb-3 text-{{ $colorClass }}">{{ .short_title }}</a>
+              <div class="resources-data-header-strip bg-{{ $colorClass }}">{{ $currentType }}</div>              
+              <a class="resources-header-data d-block text-{{ $colorClass }}">{{ .short_title }}</a>
 
               {{/* Display relationship rows on front of resource cards */}}
               <div class="related-preview mt-1">
@@ -174,7 +174,7 @@
                         {{ if gt (len $relRepos) 0 }}
                         <div>
                             <h6>Repositories</h6>
-                            <ul class="ps-3 small">
+                            <ul class="related-resources">
                                 {{ range $relRepos }}<li><a class="link-teal resource-link" href="?resource={{ .id }}">{{ .title }}</a></li>{{ end }}
                             </ul>
                         </div>
@@ -182,7 +182,7 @@
                         {{ if gt (len $relMeta) 0 }}
                         <div>
                             <h6>Metadata Standards</h6>
-                            <ul class="ps-3 small">
+                            <ul class="related-resources">
                                 {{ range $relMeta }}<li><a class="link-teal resource-link" href="?resource={{ .id }}">{{ .title }}</a></li>{{ end }}
                             </ul>
                         </div>
@@ -190,7 +190,7 @@
                         {{ if gt (len $relFormats) 0 }}
                         <div>
                             <h6>File Formats</h6>
-                            <ul class="ps-3 small">
+                            <ul class="related-resources">
                                 {{ range $relFormats }}<li><a class="link-teal resource-link" href="?resource={{ .id }}">{{ .title }}</a></li>{{ end }}
                             </ul>
                         </div>
@@ -198,7 +198,7 @@
                     </div>
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-lime" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-light-grey" data-bs-dismiss="modal">Close</button>
                   </div>
                 </div>
               </div>

@@ -19,12 +19,12 @@ It serves as complementary material, including examples, to the <a href="https:/
 ## Preparations
 
 <div class="mb-3">
-  <button class="btn btn-round btn-expandable mb-0" data-bs-toggle="collapse" href="#collapseFind1" role="button" aria-expanded="false" aria-controls="collapseFind1">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseFind1" role="button" aria-expanded="false" aria-controls="collapseFind1">
     Obtaining an ENA Webin Account
-    <i class="bi bi-chevron-double-down p-2"></i>
+    <i class="bi bi-chevron-double-down"></i>
   </button>
 
-  <div class="collapse mb-3" id="collapseFind1">
+  <div class="collapse" id="collapseFind1">
     <div class="card card-body">
       <span>
           In order to do a submission, you need an account in ENA. To create an account, please go to the <a href="https://www.ebi.ac.uk/ena/submit/webin/" target="_blank">ENA submission homepage</a>, click on <b>Register</b>, and fill in the required details.
@@ -49,12 +49,12 @@ It serves as complementary material, including examples, to the <a href="https:/
 </div>
 
 <div class="mb-3">
-  <button class="btn btn-round btn-expandable mb-0" data-bs-toggle="collapse" href="#collapseFind2" role="button" aria-expanded="false" aria-controls="collapseFind2">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseFind2" role="button" aria-expanded="false" aria-controls="collapseFind2">
     Preparing the metadata
-    <i class="bi bi-chevron-double-down p-2"></i>
+    <i class="bi bi-chevron-double-down"></i>
   </button>
 
-  <div class="collapse mb-3" id="collapseFind2">
+  <div class="collapse" id="collapseFind2">
     <div class="card card-body">
       <span>
           To ensure that sample data is accompanied by a minimum level of metadata, ENA provides <a href="https://www.ebi.ac.uk/ena/browser/checklists" target="_blank">“Sample Checklists”</a> which are used to tailor the sample descriptions to fit minimum standards. For convenience, we have created templates for the checklists we have used. The templates come with instructions on how to do an interactive submission, via the ENA Webin Portal, but even when doing a programmatic submission, the template can be useful for collecting all necessary descriptions / metadata.
@@ -93,12 +93,12 @@ It serves as complementary material, including examples, to the <a href="https:/
 </div>
 
 <div class="mb-3">
-  <button class="btn btn-round btn-expandable mb-0" data-bs-toggle="collapse" href="#collapseFind3" role="button" aria-expanded="false" aria-controls="collapseFind3">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseFind3" role="button" aria-expanded="false" aria-controls="collapseFind3">
     Preparing the data files
-    <i class="bi bi-chevron-double-down p-2"></i>
+    <i class="bi bi-chevron-double-down"></i>
   </button>
 
-  <div class="collapse mb-3" id="collapseFind3">
+  <div class="collapse" id="collapseFind3">
     <div class="card card-body">
       <span>
         In the run sheet of a metadata template, the file names of the raw reads and their <a href="https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html#file-md5-checksums-value" target="_blank">md5</a> checksums are collected. For the three types of submissions of raw reads described in this tutorial, the data files need to be uploaded to the dropbox on ENA's servers. The exact name of the files as they reside at ENA, including any subfolders, should be filled in the run sheet. The checksums are used to validate that the data transfers have been completed without loss.
@@ -128,12 +128,12 @@ This method involves filling out web forms directly in the browser and downloadi
 ENA provides two sites for submission; one for <a href="https://wwwdev.ebi.ac.uk/ena/submit/webin" target="_blank">test submissions</a> and one for <a href="https://www.ebi.ac.uk/ena/submit/webin" target="_blank">production submissions</a> (i.e. an actual submission to ENA). We recommend doing a test submission first, using the example data provided, in order to get an understanding of the different steps. <b>Note:</b> The test service is purged every 24 h, meaning that any submitted test file will be removed before the following day, making it impossible to begin a submission one day and continue the next.
 
 <div class="mb-3">
-  <button class="btn btn-round btn-expandable mb-0" data-bs-toggle="collapse" href="#collapseFind4a" role="button" aria-expanded="false" aria-controls="collapseFind4a">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseFind4a" role="button" aria-expanded="false" aria-controls="collapseFind4a">
     Register studies
-    <i class="bi bi-chevron-double-down p-2"></i>
+    <i class="bi bi-chevron-double-down"></i>
   </button>
 
-  <div class="collapse mb-3" id="collapseFind4a">
+  <div class="collapse" id="collapseFind4a">
     <div class="card card-body">
       <span>
           <ul>
@@ -166,12 +166,12 @@ ENA provides two sites for submission; one for <a href="https://wwwdev.ebi.ac.uk
 </div>
 
 <div class="mb-3">
-  <button class="btn btn-round btn-expandable mb-0" data-bs-toggle="collapse" href="#collapseFind4b" role="button" aria-expanded="false" aria-controls="collapseFind4b">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseFind4b" role="button" aria-expanded="false" aria-controls="collapseFind4b">
     Register samples
-    <i class="bi bi-chevron-double-down p-2"></i>
+    <i class="bi bi-chevron-double-down"></i>
   </button>
 
-  <div class="collapse mb-3" id="collapseFind4b">
+  <div class="collapse" id="collapseFind4b">
     <div class="card card-body">
       <span>
           <ul>
@@ -194,12 +194,12 @@ ENA provides two sites for submission; one for <a href="https://wwwdev.ebi.ac.uk
 </div>
 
 <div class="mb-3">
-  <button class="btn btn-round btn-expandable mb-0" data-bs-toggle="collapse" href="#collapseFind4c" role="button" aria-expanded="false" aria-controls="collapseFind4c">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseFind4c" role="button" aria-expanded="false" aria-controls="collapseFind4c">
     Submit raw reads
-    <i class="bi bi-chevron-double-down p-2"></i>
+    <i class="bi bi-chevron-double-down"></i>
   </button>
 
-  <div class="collapse mb-3" id="collapseFind4c">
+  <div class="collapse" id="collapseFind4c">
     <div class="card card-body">
       <span>
           <ul>
@@ -224,12 +224,12 @@ ENA provides two sites for submission; one for <a href="https://wwwdev.ebi.ac.uk
 This method uses ENA’s **Webin-CLI program**. Submissions require the preparation of text (manifest) files that are validated before submissions are completed. It is possible to submit **raw reads** and **assemblies**, this way. Actually, for assemblies, this is the **only** way to submit.
 
 <div class="mb-3">
-  <button class="btn btn-round btn-expandable mb-0" data-bs-toggle="collapse" href="#collapseFind6" role="button" aria-expanded="false" aria-controls="collapseFind6">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseFind6" role="button" aria-expanded="false" aria-controls="collapseFind6">
     Assembly submission
-    <i class="bi bi-chevron-double-down p-2"></i>
+    <i class="bi bi-chevron-double-down"></i>
   </button>
 
-  <div class="collapse mb-3" id="collapseFind6">
+  <div class="collapse" id="collapseFind6">
     <div class="card card-body">
       <span>
           <ul>
@@ -284,12 +284,12 @@ Any programmatic submission requires two .xml files, one with the action (ADD, M
 ENA provides two sites for submission; one for test submissions (`https://wwwdev.ebi.ac.uk/ena/submit/drop-box/submit/`) and one for 'real' submissions (i.e. an actual submission to ENA) (`https://www.ebi.ac.uk/ena/submit/drop-box/submit/`). We recommend doing a test submission first, using the example data provided, in order to get an understanding of the different steps. <b>Note:</b> The test service is purged every 24 h, meaning that any submitted test file will be removed before the following day, making it impossible to begin a submission one day and continue the next.
 
 <div class="mb-3">
-  <button class="btn btn-round btn-expandable mb-0" data-bs-toggle="collapse" href="#collapseFind5a" role="button" aria-expanded="false" aria-controls="collapseFind5a">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseFind5a" role="button" aria-expanded="false" aria-controls="collapseFind5a">
     Register studies
-    <i class="bi bi-chevron-double-down p-2"></i>
+    <i class="bi bi-chevron-double-down"></i>
   </button>
 
-  <div class="collapse mb-3" id="collapseFind5a">
+  <div class="collapse" id="collapseFind5a">
     <div class="card card-body">
       <span>
           <ul>
@@ -336,12 +336,12 @@ curl -u username:password -F "SUBMISSION=@submission.xml" -F "PROJECT=@Alectoris
 </div>
 
 <div class="mb-3">
-  <button class="btn btn-round btn-expandable mb-0" data-bs-toggle="collapse" href="#collapseFind5b" role="button" aria-expanded="false" aria-controls="collapseFind5b">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseFind5b" role="button" aria-expanded="false" aria-controls="collapseFind5b">
     Register samples
-    <i class="bi bi-chevron-double-down p-2"></i>
+    <i class="bi bi-chevron-double-down"></i>
   </button>
 
-  <div class="collapse mb-3" id="collapseFind5b">
+  <div class="collapse" id="collapseFind5b">
     <div class="card card-body">
       <span>
           <ul>
@@ -370,12 +370,12 @@ curl -u username:password -F "SUBMISSION=@submission.xml" -F "SAMPLE=@Alectoris-
 </div>
 
 <div class="mb-3">
-  <button class="btn btn-round btn-expandable mb-0" data-bs-toggle="collapse" href="#collapseFind5c" role="button" aria-expanded="false" aria-controls="collapseFind5c">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseFind5c" role="button" aria-expanded="false" aria-controls="collapseFind5c">
     Submit raw reads
-    <i class="bi bi-chevron-double-down p-2"></i>
+    <i class="bi bi-chevron-double-down"></i>
   </button>
 
-  <div class="collapse mb-3" id="collapseFind5c">
+  <div class="collapse" id="collapseFind5c">
     <div class="card card-body">
       <span>
           <ul>
@@ -405,12 +405,12 @@ curl -u username:password -F "SUBMISSION=@submission.xml" -F "EXPERIMENT=@Alecto
 </div>
 
 <div class="mb-3">
-  <button class="btn btn-round btn-expandable mb-0" data-bs-toggle="collapse" href="#collapseFind5d" role="button" aria-expanded="false" aria-controls="collapseFind5d">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseFind5d" role="button" aria-expanded="false" aria-controls="collapseFind5d">
     Umbrella submission
-    <i class="bi bi-chevron-double-down p-2"></i>
+    <i class="bi bi-chevron-double-down"></i>
   </button>
 
-  <div class="collapse mb-3" id="collapseFind5d">
+  <div class="collapse" id="collapseFind5d">
     <div class="card card-body">
       <span>
           <ul>
@@ -440,12 +440,12 @@ curl -u Username:Password -F "SUBMISSION=@submission.xml" -F "PROJECT=@umbrella.
 
 ## Terminology
 <div class="mb-3">
-  <button class="btn btn-round btn-expandable mb-0" data-bs-toggle="collapse" href="#collapseFind7" role="button" aria-expanded="false" aria-controls="collapseFind7">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseFind7" role="button" aria-expanded="false" aria-controls="collapseFind7">
     Data types
-    <i class="bi bi-chevron-double-down p-2"></i>
+    <i class="bi bi-chevron-double-down"></i>
   </button>
 
-  <div class="collapse mb-3" id="collapseFind7">
+  <div class="collapse" id="collapseFind7">
     <div class="card card-body">
       <span>
           <ul>
@@ -459,12 +459,12 @@ curl -u Username:Password -F "SUBMISSION=@submission.xml" -F "PROJECT=@umbrella.
 </div>
 
 <div class="mb-3">
-  <button class="btn btn-round btn-expandable mb-0" data-bs-toggle="collapse" href="#collapseFind8" role="button" aria-expanded="false" aria-controls="collapseFind8">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseFind8" role="button" aria-expanded="false" aria-controls="collapseFind8">
     Metadata objects
-    <i class="bi bi-chevron-double-down p-2"></i>
+    <i class="bi bi-chevron-double-down"></i>
   </button>
 
-  <div class="collapse mb-3" id="collapseFind8">
+  <div class="collapse" id="collapseFind8">
     <div class="card card-body">
       <span>
       ENA recognises multiple 'levels'/'types' of metadata related to sequencing projects. These different 'levels'/'types' of metadata are represented by different metadata objects:

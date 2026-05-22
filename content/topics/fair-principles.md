@@ -13,12 +13,12 @@ toc: True
 Data and metadata should be easy to find by both humans and computer systems. Basic machine readable descriptive metadata allows the discovery of interesting datasets and services.
 
 <div class="mb-3">
-  <button class="btn btn-round btn-expandable mb-0" data-bs-toggle="collapse" href="#collapseFind1" role="button" aria-expanded="false" aria-controls="collapseFind1">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseFind1" role="button" aria-expanded="false" aria-controls="collapseFind1">
     F1: Persistent identifier
-    <i class="bi bi-chevron-double-down p-2"></i>
+    <i class="bi bi-chevron-double-down"></i>
   </button>
 
-  <div class="collapse mb-3" id="collapseFind1">
+  <div class="collapse" id="collapseFind1">
     <div class="card">
       <div class="card-header"><h3>F1: (meta)data are assigned a globally unique and persistent identifier</h3></div>
       <div class="card-body">
@@ -32,12 +32,12 @@ Data and metadata should be easy to find by both humans and computer systems. Ba
 </div>
 
 <div class="mb-3">
-  <button class="btn btn-round btn-expandable mb-0" data-bs-toggle="collapse" href="#collapseFind2" role="button" aria-expanded="false" aria-controls="collapseFind2">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseFind2" role="button" aria-expanded="false" aria-controls="collapseFind2">
     F2: Rich metadata
-    <i class="bi bi-chevron-double-down p-2"></i>
+    <i class="bi bi-chevron-double-down"></i>
   </button>
 
-  <div class="collapse mb-3" id="collapseFind2">
+  <div class="collapse" id="collapseFind2">
     <div class="card">
       <div class="card-header"><h3>F2: data are described with rich metadata</h3></div>
       <div class="card-body">
@@ -51,12 +51,12 @@ Data and metadata should be easy to find by both humans and computer systems. Ba
 </div>
 
 <div class="mb-3">
-  <button class="btn btn-round btn-expandable mb-0" data-bs-toggle="collapse" href="#collapseFind3" role="button" aria-expanded="false" aria-controls="collapseFind3">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseFind3" role="button" aria-expanded="false" aria-controls="collapseFind3">
     F3: Include identifier
-    <i class="bi bi-chevron-double-down p-2"></i>
+    <i class="bi bi-chevron-double-down"></i>
   </button>
 
-  <div class="collapse mb-3" id="collapseFind3">
+  <div class="collapse" id="collapseFind3">
     <div class="card">
       <div class="card-header"><h3>F3: metadata clearly and explicitly include the identifier of the data it describes</h3></div>
       <div class="card-body">
@@ -70,12 +70,12 @@ Data and metadata should be easy to find by both humans and computer systems. Ba
 </div>
 
 <div class="mb-3">
-  <button class="btn btn-round btn-expandable mb-0" data-bs-toggle="collapse" href="#collapseFind4" role="button" aria-expanded="false" aria-controls="collapseFind4">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseFind4" role="button" aria-expanded="false" aria-controls="collapseFind4">
     F4: Searchable resource
-    <i class="bi bi-chevron-double-down p-2"></i>
+    <i class="bi bi-chevron-double-down"></i>
   </button>
 
-  <div class="collapse mb-3" id="collapseFind4">
+  <div class="collapse" id="collapseFind4">
     <div class="card">
       <div class="card-header"><h3>F4: (meta)data are registered or indexed in a searchable resource</h3></div>
       <div class="card-body">
@@ -93,12 +93,12 @@ Data and metadata should be easy to find by both humans and computer systems. Ba
 Data and metadata should be stored for the long term such that they can be easily accessed and downloaded or locally used by machines and humans using standard communication protocols.
 
 <div class="mb-3">
-  <button class="btn btn-round btn-expandable mb-0" data-bs-toggle="collapse" href="#collapseAccess1" role="button" aria-expanded="false" aria-controls="collapseAccess1">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseAccess1" role="button" aria-expanded="false" aria-controls="collapseAccess1">
     A1: Standardized communication protocol
-    <i class="bi bi-chevron-double-down p-2"></i>
+    <i class="bi bi-chevron-double-down"></i>
   </button>
 
-  <div class="collapse mb-3" id="collapseAccess1">
+  <div class="collapse" id="collapseAccess1">
     <div class="card">
       <div class="card-header"><h3>A1: (meta)data are retrievable by their identifier using a standardized communications protocol</h3></div>
       <div class="card-body">
@@ -112,12 +112,12 @@ Data and metadata should be stored for the long term such that they can be easil
 </div>
 
 <div class="mb-3">
-  <button class="btn btn-round btn-expandable mb-0" data-bs-toggle="collapse" href="#collapseAccess2" role="button" aria-expanded="false" aria-controls="collapseAccess2">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseAccess2" role="button" aria-expanded="false" aria-controls="collapseAccess2">
     A1.1: Open protocol
-    <i class="bi bi-chevron-double-down p-2"></i>
+    <i class="bi bi-chevron-double-down"></i>
   </button>
 
-  <div class="collapse mb-3" id="collapseAccess2">
+  <div class="collapse" id="collapseAccess2">
     <div class="card">
       <div class="card-header"><h3>A1.1: the protocol is open, free, and universally implementable</h3></div>
       <div class="card-body">
@@ -130,12 +130,12 @@ Data and metadata should be stored for the long term such that they can be easil
 </div>
 
 <div class="mb-3">
-  <button class="btn btn-round btn-expandable mb-0" data-bs-toggle="collapse" href="#collapseAccess3" role="button" aria-expanded="false" aria-controls="collapseAccess3">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseAccess3" role="button" aria-expanded="false" aria-controls="collapseAccess3">
     A1.2: Authentication
-    <i class="bi bi-chevron-double-down p-2"></i>
+    <i class="bi bi-chevron-double-down"></i>
   </button>
 
-  <div class="collapse mb-3" id="collapseAccess3">
+  <div class="collapse" id="collapseAccess3">
     <div class="card">
       <div class="card-header"><h3>A1.2: the protocol allows for an authentication and authorization procedure, where necessary</h3></div>
       <div class="card-body">
@@ -148,12 +148,12 @@ Data and metadata should be stored for the long term such that they can be easil
 </div>
 
 <div class="mb-3">
-  <button class="btn btn-round btn-expandable mb-0" data-bs-toggle="collapse" href="#collapseAccess4" role="button" aria-expanded="false" aria-controls="collapseAccess4">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseAccess4" role="button" aria-expanded="false" aria-controls="collapseAccess4">
     A2: Persistent metadata
-    <i class="bi bi-chevron-double-down p-2"></i>
+    <i class="bi bi-chevron-double-down"></i>
   </button>
 
-  <div class="collapse mb-3" id="collapseAccess4">
+  <div class="collapse" id="collapseAccess4">
     <div class="card">
       <div class="card-header"><h3>A2: metadata are accessible, even when the data are no longer available</h3></div>
       <div class="card-body">
@@ -171,12 +171,12 @@ Data and metadata should be stored for the long term such that they can be easil
 Data should be ready to be exchanged, interpreted and combined in a (semi)automated way with other datasets by humans as well as computer systems.
 
 <div class="mb-3">
-  <button class="btn btn-round btn-expandable mb-0" data-bs-toggle="collapse" href="#collapseInterop1" role="button" aria-expanded="false" aria-controls="collapseInterop1">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseInterop1" role="button" aria-expanded="false" aria-controls="collapseInterop1">
     I1: Formal language
-    <i class="bi bi-chevron-double-down p-2"></i>
+    <i class="bi bi-chevron-double-down"></i>
   </button>
 
-  <div class="collapse mb-3" id="collapseInterop1">
+  <div class="collapse" id="collapseInterop1">
     <div class="card">
       <div class="card-header"><h3>I1: (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation</h3></div>
       <div class="card-body">
@@ -190,12 +190,12 @@ Data should be ready to be exchanged, interpreted and combined in a (semi)automa
 </div>
 
 <div class="mb-3">
-  <button class="btn btn-round btn-expandable mb-0" data-bs-toggle="collapse" href="#collapseInterop2" role="button" aria-expanded="false" aria-controls="collapseInterop2">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseInterop2" role="button" aria-expanded="false" aria-controls="collapseInterop2">
     I2: FAIR vocabularies
-    <i class="bi bi-chevron-double-down p-2"></i>
+    <i class="bi bi-chevron-double-down"></i>
   </button>
 
-  <div class="collapse mb-3" id="collapseInterop2">
+  <div class="collapse" id="collapseInterop2">
     <div class="card">
       <div class="card-header"><h3>I2: (meta)data use vocabularies that follow FAIR principles</h3></div>
       <div class="card-body">
@@ -209,12 +209,12 @@ Data should be ready to be exchanged, interpreted and combined in a (semi)automa
 </div>
 
 <div class="mb-3">
-  <button class="btn btn-round btn-expandable mb-0" data-bs-toggle="collapse" href="#collapseInterop3" role="button" aria-expanded="false" aria-controls="collapseInterop3">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseInterop3" role="button" aria-expanded="false" aria-controls="collapseInterop3">
     I3: Include references
-    <i class="bi bi-chevron-double-down p-2"></i>
+    <i class="bi bi-chevron-double-down"></i>
   </button>
 
-  <div class="collapse mb-3" id="collapseInterop3">
+  <div class="collapse" id="collapseInterop3">
     <div class="card">
       <div class="card-header"><h3>I3: (meta)data include qualified references to other (meta)data</h3></div>
       <div class="card-body">
@@ -232,12 +232,12 @@ Data should be ready to be exchanged, interpreted and combined in a (semi)automa
 Data and metadata are sufficiently well-described to allow data to be reused in future research, allowing for integration with other compatible data sources. Proper citation must be facilitated, and the conditions under which the data can be used should be clear to machines and humans.
 
 <div class="mb-3">
-  <button class="btn btn-round btn-expandable mb-0" data-bs-toggle="collapse" href="#collapseReuse1" role="button" aria-expanded="false" aria-controls="collapseReuse1">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseReuse1" role="button" aria-expanded="false" aria-controls="collapseReuse1">
     R1: Rich description
-    <i class="bi bi-chevron-double-down p-2"></i>
+    <i class="bi bi-chevron-double-down"></i>
   </button>
 
-  <div class="collapse mb-3" id="collapseReuse1">
+  <div class="collapse" id="collapseReuse1">
     <div class="card">
       <div class="card-header"><h3>R1: meta(data) are richly described with a plurality of accurate and relevant attributes</h3></div>
       <div class="card-body">
@@ -263,12 +263,12 @@ Data and metadata are sufficiently well-described to allow data to be reused in 
 </div>
 
 <div class="mb-3">
-  <button class="btn btn-round btn-expandable mb-0" data-bs-toggle="collapse" href="#collapseReuse2" role="button" aria-expanded="false" aria-controls="collapseReuse2">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseReuse2" role="button" aria-expanded="false" aria-controls="collapseReuse2">
     R1.1: License
-    <i class="bi bi-chevron-double-down p-2"></i>
+    <i class="bi bi-chevron-double-down"></i>
   </button>
 
-  <div class="collapse mb-3" id="collapseReuse2">
+  <div class="collapse" id="collapseReuse2">
     <div class="card">
       <div class="card-header"><h3>R1.1: (meta)data are released with a clear and accessible data usage license</h3></div>
       <div class="card-body">
@@ -282,12 +282,12 @@ Data and metadata are sufficiently well-described to allow data to be reused in 
 </div>
 
 <div class="mb-3">
-  <button class="btn btn-round btn-expandable mb-0" data-bs-toggle="collapse" href="#collapseReuse3" role="button" aria-expanded="false" aria-controls="collapseReuse3">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseReuse3" role="button" aria-expanded="false" aria-controls="collapseReuse3">
     R1.2: Provenance
-    <i class="bi bi-chevron-double-down p-2"></i>
+    <i class="bi bi-chevron-double-down"></i>
   </button>
 
-  <div class="collapse mb-3" id="collapseReuse3">
+  <div class="collapse" id="collapseReuse3">
     <div class="card">
       <div class="card-header"><h3>R1.2. (meta)data are associated with detailed provenance</h3></div>
       <div class="card-body">
@@ -301,12 +301,12 @@ Data and metadata are sufficiently well-described to allow data to be reused in 
 </div>
 
 <div class="mb-3">
-  <button class="btn btn-round btn-expandable mb-0" data-bs-toggle="collapse" href="#collapseReuse4" role="button" aria-expanded="false" aria-controls="collapseReuse4">
+  <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseReuse4" role="button" aria-expanded="false" aria-controls="collapseReuse4">
     R1.3: Community standards
-    <i class="bi bi-chevron-double-down p-2"></i>
+    <i class="bi bi-chevron-double-down"></i>
   </button>
 
-  <div class="collapse mb-3" id="collapseReuse4">
+  <div class="collapse" id="collapseReuse4">
     <div class="card">
       <div class="card-header"><h3>R1.3: (meta)data meet domain relevant community standards</h3></div>
       <div class="card-body">

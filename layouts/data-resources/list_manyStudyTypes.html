@@ -133,8 +133,8 @@
                 data-bs-target="#modal-{{ $id }}"
                 aria-label="View details for {{ .short_title }}">
 
-              <div class="resource-type-header bg-{{ $colorClass }}">{{ $currentType }}</div>              
-              <a class="resources-header-tool d-block mb-3 text-{{ $colorClass }}">{{ .short_title }}</a>
+              <div class="resources-data-header-strip bg-{{ $colorClass }}">{{ $currentType }}</div>              
+              <a class="resources-data-header d-block text-{{ $colorClass }}">{{ .short_title }}</a>
 
               {{/* Display relationship rows on front of resource cards */}}
               <div class="related-preview mt-1">

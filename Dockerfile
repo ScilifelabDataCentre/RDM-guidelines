@@ -1,5 +1,5 @@
 # Use alpine Linux, download desired version of HUGO and build html files
-FROM alpine:3.23.3 AS build
+FROM alpine:3.23.4 AS build
 RUN apk add --no-cache wget=1.25.0-r2
 ARG HUGO_VERSION="0.157.0"
 RUN wget --quiet "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz" && \

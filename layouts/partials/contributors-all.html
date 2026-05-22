@@ -1,23 +1,29 @@
+<!-- Contributors card with name, affilitation, github and/or orcid -->
+
 <div class="card-group">
   <div class="card cards p-0">
     <div class="position-relative">
     </div>
     <div class="card-body text-center p-0">
       <div class="card-title p-0">
-        {{ if .git}}
+        <!-- Collect contributors github information, if any, in file data/CONTRIBUTORS.yaml -->
+         {{ if .git}}
         <img src="https://avatars.githubusercontent.com/{{ .git }}" class="card-img-top p-3 rounded-circle" alt="github-avatar">
         {{ else }}
         <img src="https://avatars.githubusercontent.com/no_github" class="card-img-top p-3 rounded-circle" alt="github-avatar-none">
         {{ end }}
       </div>
       <div class="card-text">
+      <!-- Collect contributors name as stated in file data/CONTRIBUTORS.yaml -->
       {{ .name }}
       {{ if .git}}
       <a href="https://github.com/{{.git}}" target="_blank"><span class="sr-only">GitHub link</span><i class="bi bi-github link-black"></i></a>
       {{ end }}
+      <!-- Collect contributors affiliation, if any, as stated in file data/CONTRIBUTORS.yaml -->
       {{ if .affiliation }}
       <br>{{ .affiliation }}
       {{ end }}
+      <!-- Collect contributors orcid information, if any, in file data/CONTRIBUTORS.yaml -->
       {{ if .orcid }}
       <br>
       <a class="link-black" href="https://orcid.org/{{.orcid}}" target="_blank">{{ .orcid }} </a>

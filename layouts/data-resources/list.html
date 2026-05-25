@@ -19,8 +19,8 @@
   {{ .Content }}
 </div>
 
-{{/* Load the data from data/data-resources-gemini-v5.json */}}
-{{ $data := index .Site.Data "data-resources-gemini-v5" }}
+{{/* Load the data from data/data-resources.json */}}
+{{ $data := index .Site.Data "data-resources" }}
 {{ with $data }}
 {{/* Capture all items globally for easy lookup inside loops */}}
 {{ $allItems := .items }}

@@ -27,7 +27,6 @@
 
 <div class="container-fluid mt-4">
   <div class="row">
-    <!-- Sidebar / Filters -->
     <div class="col-lg-2 mb-2 mb-lg-0 pe-lg-0">
       <div class="resources-search-filter">Search</div>
       <div class="mb-4">
@@ -84,7 +83,6 @@
       </div>
     </div>
 
-    <!-- Main Content -->
     <div class="col-lg">
       <div class="row g-2" id="resource-container">
         {{/* 1. Sort all items alphabetically by title */}}
@@ -125,81 +123,78 @@
             <div class="p-3 rounded border h-100 resource-card-data clickable-card"
                 role="button" 
                 tabindex="0" 
-                data-bs-toggle="modal" 
-                data-bs-target="#modal-{{ $id }}"
+                data-id="{{ $id }}"
                 aria-label="View details for {{ .short_title }}">
 
               <div class="resources-data-header-strip bg-{{ $colorClass }}">{{ $currentType }}</div>              
-              <a class="resources-data-header d-block text-{{ $colorClass }}">{{ .short_title }}</a>
+              <div class="resources-data-header d-block text-{{ $colorClass }}">{{ .short_title }}</div>
 
               {{/* Display relationship rows on front of resource cards */}}
               <div class="related-preview mt-1">
                 {{ if in .info_type "Repository" }}
-                    <!-- Repository shows Metadata and Formats -->
                     {{ template "rel-row" (dict "label" "Metadata" "items" $relMeta "parentId" $id) }}
                     {{ template "rel-row" (dict "label" "File Formats" "items" $relFormats "parentId" $id) }}
                 {{ else }}
-                    <!-- Metadata/Formats show Repositories -->
                     {{ template "rel-row" (dict "label" "Repositories" "items" $relRepos "parentId" $id) }}
                 {{ end }}
               </div>
             </div>
-            <!-- Modal (details on resource card)-->
-            <div class="modal fade" id="modal-{{ $id }}" tabindex="-1" aria-hidden="true">
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <div class="resources-search-filter modal-title">{{ .title }}</div>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <p><b>Description:</b><br>
-                      {{/* Use urlize here as well to find the file correctly */}}
-                      {{ $pPath := printf "data-resource-descriptions/%s.html" ($id | urlize) }}
-                      
-                      {{ if (templates.Exists (printf "partials/%s" $pPath)) }}
-                        {{ partial $pPath . }}
-                      {{ else }}
-                        {{ .description | markdownify }}
-                      {{ end }}
-                    </p>
-                    <p><b>URL:</b> <a href="{{ .url }}" target="_blank"><i class="bi bi-globe"></i> Visit Resource</a></p>
-                    {{ if .submission_guidelines }}
-                      <p><b>Submission Guidelines:</b> <a href="{{ .submission_guidelines }}" target="_blank">View Guidelines</a></p>
-                    {{ end }}
-                    <hr>
+          </div> {{/* End of resource-item wrapper */}}
 
-                    <!-- Detailed Relations in Modal -->
-                    <div class="row">
-                        {{ if gt (len $relRepos) 0 }}
-                        <div>
-                            <h6>Repositories</h6>
-                            <ul class="related-resources">
-                                {{ range $relRepos }}<li><a class="link-teal resource-link" href="?resource={{ .id }}">{{ .title }}</a></li>{{ end }}
-                            </ul>
-                        </div>
-                        {{ end }}
-                        {{ if gt (len $relMeta) 0 }}
-                        <div>
-                            <h6>Metadata Standards</h6>
-                            <ul class="related-resources">
-                                {{ range $relMeta }}<li><a class="link-teal resource-link" href="?resource={{ .id }}">{{ .title }}</a></li>{{ end }}
-                            </ul>
-                        </div>
-                        {{ end }}
-                        {{ if gt (len $relFormats) 0 }}
-                        <div>
-                            <h6>File Formats</h6>
-                            <ul class="related-resources">
-                                {{ range $relFormats }}<li><a class="link-teal resource-link" href="?resource={{ .id }}">{{ .title }}</a></li>{{ end }}
-                            </ul>
-                        </div>
-                        {{ end }}
-                    </div>
+          {{/* Modal (details) for each resource item */}}
+          <div class="modal fade" id="modal-{{ $id }}" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div class="resources-search-filter modal-title">{{ .title }}</div>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p><b>Description:</b><br>
+                    {{/* Use urlize here as well to find the file correctly */}}
+                    {{ $pPath := printf "data-resource-descriptions/%s.html" ($id | urlize) }}
+                    
+                    {{ if (templates.Exists (printf "partials/%s" $pPath)) }}
+                      {{ partial $pPath . }}
+                    {{ else }}
+                      {{ .description | markdownify }}
+                    {{ end }}
+                  </p>
+                  <p><b>URL:</b> <a href="{{ .url }}" target="_blank"><i class="bi bi-globe"></i> Visit Resource</a></p>
+                  {{ if .submission_guidelines }}
+                    <p><b>Submission Guidelines:</b> <a href="{{ .submission_guidelines }}" target="_blank">View Guidelines</a></p>
+                  {{ end }}
+                  <hr>
+
+                  <div class="row">
+                      {{ if gt (len $relRepos) 0 }}
+                      <div>
+                          <h6>Repositories</h6>
+                          <ul class="related-resources">
+                              {{ range $relRepos }}<li><a class="link-teal" href="?resource={{ .id }}">{{ .title }}</a></li>{{ end }}
+                          </ul>
+                      </div>
+                      {{ end }}
+                      {{ if gt (len $relMeta) 0 }}
+                      <div>
+                          <h6>Metadata Standards</h6>
+                          <ul class="related-resources">
+                              {{ range $relMeta }}<li><a class="link-teal" href="?resource={{ .id }}">{{ .title }}</a></li>{{ end }}
+                          </ul>
+                      </div>
+                      {{ end }}
+                      {{ if gt (len $relFormats) 0 }}
+                      <div>
+                          <h6>File Formats</h6>
+                          <ul class="related-resources">
+                              {{ range $relFormats }}<li><a class="link-teal" href="?resource={{ .id }}">{{ .title }}</a></li>{{ end }}
+                          </ul>
+                      </div>
+                      {{ end }}
                   </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-light-grey" data-bs-dismiss="modal">Close</button>
-                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-light-grey" data-bs-dismiss="modal">Close</button>
                 </div>
               </div>
             </div>
@@ -216,16 +211,27 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-    // Selectors - Ensure these IDs match your HTML
     const searchInput = document.getElementById('searchInput');
-    const areaSelect = document.getElementById('areaTypeSelect'); // Updated ID to match your HTML
+    const areaSelect = document.getElementById('areaTypeSelect'); 
     const dataSelect = document.getElementById('dataTypeSelect');
     const infoCheckboxes = document.querySelectorAll('.info-filter');
     const items = Array.from(document.querySelectorAll('.resource-item'));
     const noResults = document.getElementById('no-filtered-resource');
     const clearBtn = document.getElementById('clearFiltersBtn');
 
-    if (!items.length) return; // Safety check if no items found
+    if (!items.length) return;
+
+    // FIXED: Global application single-modal state control flag
+    let isProgrammaticHide = false;
+
+    // Helper wrapper to safely instantiate Bootstrap Modal classes across variable v5 versions
+    function getModalInstance(el) {
+        if (typeof bootstrap === 'undefined') return null;
+        if (bootstrap.Modal.getOrCreateInstance) {
+            return bootstrap.Modal.getOrCreateInstance(el);
+        }
+        return bootstrap.Modal.getInstance(el) || new bootstrap.Modal(el);
+    }
 
     // --- Core Filtering Logic ---
     function updateFilters() {
@@ -245,7 +251,6 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         }
 
-        // 3. Determine the final target values for showing/hiding resource cards
         let targetArea = areaSelect.value; 
         let targetData = 'all';
         const finalDataValue = dataSelect.value;
@@ -256,7 +261,6 @@ document.addEventListener('DOMContentLoaded', function () {
             targetData = parts[1];
         }
 
-        // 4. Update visibility of each resource item
         let count = 0;
         items.forEach(item => {
             const itemArea = item.getAttribute('d-area').trim().split(/\s+/);
@@ -292,7 +296,6 @@ document.addEventListener('DOMContentLoaded', function () {
     function updateDropdownOptions(currentArea, currentData, searchQuery, activeInfoFilters) {
         let validDataPairs = new Set();
 
-        // Calculate which area:data combinations actually have results
         items.forEach(item => {
             const itemArea = item.getAttribute('d-area').trim().split(/\s+/);
             const itemData = item.getAttribute('d-data').trim().split(/\s+/);
@@ -337,6 +340,7 @@ document.addEventListener('DOMContentLoaded', function () {
         return Array.from(infoCheckboxes).filter(cb => cb.checked).map(cb => cb.value);
     }
 
+    // FIXED: Retains the active modal resource context inside the parameters instead of stripping it
     function updateURL() {
         const params = new URLSearchParams();
         if (searchInput.value) params.set('q', searchInput.value);
@@ -344,6 +348,15 @@ document.addEventListener('DOMContentLoaded', function () {
         if (dataSelect.value !== 'all') params.set('data', dataSelect.value);
         const info = getActiveInfoFilters();
         if (info.length) params.set('info', info.join(','));
+        
+        const currentModalEl = document.querySelector('.modal.show');
+        if (currentModalEl) {
+            params.set('resource', currentModalEl.id.replace('modal-', ''));
+        } else {
+            const urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.has('resource')) params.set('resource', urlParams.get('resource'));
+        }
+
         const newURL = window.location.pathname + (params.toString() ? '?' + params.toString() : '');
         window.history.replaceState({}, '', newURL);
     }
@@ -351,10 +364,6 @@ document.addEventListener('DOMContentLoaded', function () {
     function applyURLFilters() {
         const params = new URLSearchParams(window.location.search);
         
-        // Safety check for resource modal trigger on load
-        const resId = params.get('resource');
-        if (resId) openResource(resId);
-
         searchInput.value = params.get('q') || '';
         areaSelect.value = params.get('area') || 'all';
         dataSelect.value = params.get('data') || 'all';
@@ -363,14 +372,47 @@ document.addEventListener('DOMContentLoaded', function () {
         infoCheckboxes.forEach(cb => { cb.checked = info.includes(cb.value); });
 
         updateFilters();
+
+        const resId = params.get('resource');
+        if (resId) {
+            setTimeout(() => openResource(resId), 150);
+        }
     }
 
+    // FIXED: Programmatic orchestrator managing single-modal state execution
     function openResource(id) {
+        const currentModalEl = document.querySelector('.modal.show');
+        
+        if (currentModalEl) {
+            isProgrammaticHide = true;
+            const modalInstance = getModalInstance(currentModalEl);
+            
+            // Wait for parent animation to complete to prevent layout/backdrop collision artifacts
+            currentModalEl.addEventListener('hidden.bs.modal', function handler() {
+                currentModalEl.removeEventListener('hidden.bs.modal', handler);
+                isProgrammaticHide = false;
+                showModal(id);
+            }, { once: true });
+            
+            if (modalInstance) modalInstance.hide();
+        } else {
+            showModal(id);
+        }
+    }
+
+    function showModal(id) {
         const modalEl = document.getElementById(`modal-${id}`);
-        // Ensure Bootstrap JS is loaded before attempting to use the Modal component
-        if (modalEl && typeof bootstrap !== 'undefined') {
-            const modal = new bootstrap.Modal(modalEl);
-            modal.show();
+        if (modalEl) {
+            const modalInstance = getModalInstance(modalEl);
+            if (modalInstance) {
+                modalInstance.show();
+                
+                // Track deep link resource state parameter
+                const params = new URLSearchParams(window.location.search);
+                params.set('resource', id);
+                const newURL = window.location.pathname + (params.toString() ? '?' + params.toString() : '');
+                window.history.replaceState({}, '', newURL);
+            }
         }
     }
 
@@ -397,19 +439,58 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     infoCheckboxes.forEach(cb => cb.addEventListener('change', updateFilters));
-    
     clearBtn.addEventListener('click', resetFilters);
 
-    document.addEventListener('click', function(e) {
-        const link = e.target.closest('a[href*="?resource="]');
-        if (link) {
-            e.preventDefault();
-            const id = new URL(link.href, window.location.origin).searchParams.get('resource');
-            if (id) openResource(id);
+    // FIXED: Central event delegation capturing both front-grid cards and modal contextual cross-links
+    const container = document.getElementById('resource-container');
+    if (container) {
+        container.addEventListener('click', function(e) {
+            // 1. Check if relation link within card/modal was clicked
+            const link = e.target.closest('a[href*="?resource="]');
+            if (link) {
+                e.preventDefault();
+                const id = new URL(link.href, window.location.origin).searchParams.get('resource');
+                if (id) openResource(id);
+                return;
+            }
+
+            // 2. Check if outer front card layout container was clicked
+            const card = e.target.closest('.clickable-card');
+            if (card) {
+                // Ignore click if user selected active text link inside card text
+                if (e.target.closest('a')) return;
+                
+                const id = card.getAttribute('data-id');
+                if (id) openResource(id);
+            }
+        });
+
+        // Accessibility accessibility hook mapping
+        container.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+                const card = e.target.closest('.clickable-card');
+                if (card) {
+                    e.preventDefault();
+                    const id = card.getAttribute('data-id');
+                    if (id) openResource(id);
+                }
+            }
+        });
+    }
+
+    // FIXED: Global modal closer event interceptor handles URL parameter cleanup on close
+    document.addEventListener('hidden.bs.modal', function (e) {
+        if (!isProgrammaticHide) {
+            // If exiting final level modal, clear parameters out cleanly
+            const params = new URLSearchParams(window.location.search);
+            if (params.has('resource')) {
+                params.delete('resource');
+                const newURL = window.location.pathname + (params.toString() ? '?' + params.toString() : '');
+                window.history.replaceState({}, '', newURL);
+            }
         }
     });
 
-    // Initialize the page
     applyURLFilters();
 });
 </script>

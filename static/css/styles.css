@@ -456,6 +456,7 @@ html {
 .resources-data-header.text-metadata:hover,
 .resources-data-header.text-fileformat:hover {
     filter: brightness(1.2);
+    text-decoration: underline;
 }
 
 .resources-data-header {

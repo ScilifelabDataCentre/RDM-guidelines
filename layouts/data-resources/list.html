@@ -221,7 +221,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (!items.length) return;
 
-    // FIXED: Global application single-modal state control flag
+    // FIXED: Global application navigation stack variables
+    let modalHistory = [];
     let isProgrammaticHide = false;
 
     // Helper wrapper to safely instantiate Bootstrap Modal classes across variable v5 versions
@@ -241,7 +242,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const activeInfoFilters = getActiveInfoFilters();
 
         // 1. Update the Data Type dropdown options visibility based on the selected Study Area
-        updateDropdownOptions(selectedArea, selectedDataValue, searchQuery, activeInfoFilters);
+        updateDropdownOptions(selectedArea);
 
         // 2. VALIDATION: If the selected Data Type is now hidden, reset it to 'all'
         if (selectedDataValue !== 'all') {
@@ -293,26 +294,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // --- Helper functions ---
 
-    function updateDropdownOptions(currentArea, currentData, searchQuery, activeInfoFilters) {
-        let validDataPairs = new Set();
-
-        items.forEach(item => {
-            const itemArea = item.getAttribute('d-area').trim().split(/\s+/);
-            const itemData = item.getAttribute('d-data').trim().split(/\s+/);
-            const title = item.getAttribute('d-title').toLowerCase();
-            const itemInfo = item.getAttribute('d-info').trim().split(/\s+/);
-            
-            const matchesSearch = !searchQuery || title.includes(searchQuery);
-            const matchesInfo = activeInfoFilters.length === 0 || activeInfoFilters.some(val => itemInfo.includes(val));
-
-            if (matchesSearch && matchesInfo) {
-                itemArea.forEach(area => {
-                    itemData.forEach(d => validDataPairs.add(`${area}:${d}`));
-                });
-            }
-        });
-
-        // Hide/Show options and categories in the Data Type dropdown
+    function updateDropdownOptions(currentArea) {
+        // Hide/Show options and categories in the Data Type dropdown based ONLY on the selected Study Area
         const optgroups = dataSelect.querySelectorAll('optgroup');
         optgroups.forEach(group => {
             let groupHasVisibleOptions = false;
@@ -322,10 +305,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 const parts = opt.value.split(':');
                 const area = parts[0];
                 
-                const isDataInResults = validDataPairs.has(opt.value);
                 const matchesSelectedArea = (currentArea === 'all' || area === currentArea);
 
-                if (isDataInResults && matchesSelectedArea) {
+                if (matchesSelectedArea) {
                     opt.style.display = 'block';
                     groupHasVisibleOptions = true;
                 } else {
@@ -375,15 +357,22 @@ document.addEventListener('DOMContentLoaded', function () {
 
         const resId = params.get('resource');
         if (resId) {
-            setTimeout(() => openResource(resId), 150);
+            setTimeout(() => openResource(resId, false), 150);
         }
     }
 
-    // FIXED: Programmatic orchestrator managing single-modal state execution
-    function openResource(id) {
+    // FIXED: Programmatic orchestrator managing single-modal state execution with history tracking
+    function openResource(id, pushToHistory = true) {
         const currentModalEl = document.querySelector('.modal.show');
         
         if (currentModalEl) {
+            const currentId = currentModalEl.id.replace('modal-', '');
+            
+            // Push active modal into history stack if it's a new layout step
+            if (pushToHistory && currentId !== id) {
+                modalHistory.push(currentId);
+            }
+            
             isProgrammaticHide = true;
             const modalInstance = getModalInstance(currentModalEl);
             
@@ -478,15 +467,23 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // FIXED: Global modal closer event interceptor handles URL parameter cleanup on close
+    // FIXED: Global modal closer event interceptor handles history regressions natively
     document.addEventListener('hidden.bs.modal', function (e) {
         if (!isProgrammaticHide) {
-            // If exiting final level modal, clear parameters out cleanly
-            const params = new URLSearchParams(window.location.search);
-            if (params.has('resource')) {
-                params.delete('resource');
-                const newURL = window.location.pathname + (params.toString() ? '?' + params.toString() : '');
-                window.history.replaceState({}, '', newURL);
+            // If explicit navigation states exist, pop the stack and restore the parent modal
+            if (modalHistory.length > 0) {
+                const previousId = modalHistory.pop();
+                setTimeout(() => {
+                    showModal(previousId);
+                }, 100);
+            } else {
+                // If exiting final level modal, clear parameters out cleanly
+                const params = new URLSearchParams(window.location.search);
+                if (params.has('resource')) {
+                    params.delete('resource');
+                    const newURL = window.location.pathname + (params.toString() ? '?' + params.toString() : '');
+                    window.history.replaceState({}, '', newURL);
+                }
             }
         }
     });

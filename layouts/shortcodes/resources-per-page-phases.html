@@ -15,9 +15,9 @@
 {{ end }}
 {{ end }}
 
-<!-- Collect resources where tag "target" is training -->
+<!-- Collect resources where tag "category" is training -->
 {{ range sort $page_resources ".title" "asc" }}
-{{ if in .target "training" }}
+{{ if in .category "training" }}
 {{ $training_resources = $training_resources | append . }}
 {{ end }}
 {{ end }}
@@ -30,9 +30,9 @@
 {{ end }}
 </ul>
 
-<!-- Collect resources where tag "target" is guidance -->
+<!-- Collect resources where tag "category" is guidance -->
 {{ range sort $page_resources ".title" "asc" }}
-{{ if in .target "guidance" }}
+{{ if in .category "guidance" }}
 {{ $guidances_resources = $guidances_resources | append . }}
 {{ end }}
 {{ end }}
@@ -45,9 +45,9 @@
 {{ end }}
 </ul>
 
-<!-- Collect resources where tag "target" is tool -->
+<!-- Collect resources where tag "category" is tool -->
 {{ range sort $page_resources ".title" "asc" }}
-{{ if in .target "tool" }}
+{{ if in .category "tool" }}
 {{ $tools_resources = $tools_resources | append . }}
 {{ end }}
 {{ end }}

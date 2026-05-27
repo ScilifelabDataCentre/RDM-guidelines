@@ -921,7 +921,7 @@
             "provider":  ["European Virtual Institute for Research Software Excellence (EVERSE)"]
         },
         {
-            "title": "Long-term preservation",
+            "title": "SND on Long-term preservation",
             "short_title": "Long-term preservation",
             "target": ["guidance"],
             "type": ["Web page"],
@@ -930,6 +930,45 @@
             "level": ["Basic"],
             "url": "https://researchdata.se/en/manage-data/describe-share-and-preserve-data/what-should-i-share/long-term-preservation",
             "description": "Swedish National Data Service (SND) guidance on Long-term preservation of data.",
+            "provider":  ["SND"],
+            "licence": "CC BY 4.0 (texts)"
+        },
+        {
+            "title": "SND on Describe, share, and preserve data",
+            "short_title": "Describe, share, and preserve data",
+            "target": ["guidance"],
+            "type": ["Web page"],
+            "search_tags": ["Describe, share, and preserve data", "Researchdata.se","SND","Swedish National Data Service"],
+            "phase": ["Share","Preserve"],
+            "level": ["Basic"],
+            "url": "https://researchdata.se/en/manage-data/describe-share-and-preserve-data",
+            "description": "Swedish National Data Service (SND) guidance on describing, shareing and preservation of data.",
+            "provider":  ["SND"],
+            "licence": "CC BY 4.0 (texts)"
+        },
+        {
+            "title": "SND on Scientific code",
+            "short_title": "Scientific code",
+            "target": ["guidance"],
+            "type": ["Web page"],
+            "search_tags": ["Scientific code", "Researchdata.se","SND","Swedish National Data Service"],
+            "topic": ["Sharing code and workflows"],
+            "level": ["Basic"],
+            "url": "https://researchdata.se/en/manage-data/describe-share-and-preserve-data/scientific-code",
+            "description": "Swedish National Data Service (SND) guidance on scientific code.",
+            "provider":  ["SND"],
+            "licence": "CC BY 4.0 (texts)"
+        },
+        {
+            "title": "SND on Data management plans",
+            "short_title": "Data management plan",
+            "target": ["guidance"],
+            "type": ["Web page"],
+            "search_tags": ["Data management plan", "DMP", "Researchdata.se","SND","Swedish National Data Service"],
+            "topic": ["Data Management Plan"],
+            "level": ["Basic"],
+            "url": "https://researchdata.se/en/manage-data/organize-data/data-management-plan",
+            "description": "Swedish National Data Service (SND) guidance on data management plans",
             "provider":  ["SND"],
             "licence": "CC BY 4.0 (texts)"
         },

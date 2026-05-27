@@ -635,7 +635,7 @@
             "search_tags": ["data source","repository","Data sources for data-driven life science"],
             "phase": ["Reuse"],
             "level": ["Basic"],
-            "url": "https://data.scilifelab.se/resources/e-infrastructure/",
+            "url": "https://data.scilifelab.se/guidance/data_sources/",
             "description": "A list of data sources available for data-driven life science in Sweden.",
             "provider":  ["SciLifeLab"]         
         },

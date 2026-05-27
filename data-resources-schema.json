@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Data Resources Schema",
+  "type": "object",
+  "required": ["metadata_version", "last_updated", "data_types", "info_types", "areas", "items"],
+  "properties": {
+    "metadata_version": { "type": "string" },
+    "last_updated": { "type": "string", "format": "date" },
+    "study_types": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "data_types": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "info_types": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "areas": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title", "short_title", "id", "related", "description", "url", "info_type", "area", "data_type"],
+        "properties": {
+          "title": { "type": "string" },
+          "short_title": { "type": "string" },
+          "id": { "type": "string" },
+          "related": { "type": "array", "items": { "type": "string" } },
+          "description": { "type": "string" },
+          "url": { "type": "string", "format": "uri" },
+          "submission_guidelines": { "type": "string", "format": "uri" },
+          "info_type": {
+            "type": "array",
+            "items": { "enum": ["Repository", "Metadata standard", "Metadata format", "File format"] }
+          },
+          "keywords": { 
+            "type": "array", 
+            "items": { "type": "string" }, 
+            "uniqueItems": true 
+          },
+          "area": { "type": "array", "items": { "type": "string" } },
+          "study_type": { "type": "array", "items": { "type": "string" } },
+          "data_type": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    }
+  }
+}

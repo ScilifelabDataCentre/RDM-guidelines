@@ -62,6 +62,7 @@ SciLifeLab Brand colors
 }
 /*-------------------------------------------------------------------------------*/
 
+
 /******************************************************/
 /*** Styling of default tags applied to 'all' pages ***/
 /******************************************************/
@@ -111,8 +112,43 @@ h4 {
     box-shadow: none;
   }
   
+  .btn-round {
+    /* rounded-pill */
+    border-radius: 50rem;
+
+    /* px-4 (Horizontal padding: 1.5rem) */
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+    /* py-2 (Vertical padding: 0.5rem) */
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .btn-round .bi {
+    /* margin-left of text from icon */
+    margin-left: 0.5rem;
+  }
+
+  .btn-grape {
+    color: white;
+    font-weight: bold;
+    background-color: var(--grape1);
+    border-color: var(--grape1);
+    border-style: solid;
+    border-width: medium;
+    margin-left: 0.5rem;
+  }
+  .btn-grape:hover {
+    color: white;
+    border-color: white;
+    border-style: solid;
+    border-width: medium;
+  }
+
   .btn-teal {
     color: white;
+    font-weight: bold;
     background-color: var(--teal1);
     border-color: var(--teal1);
     border-style: solid;
@@ -125,7 +161,7 @@ h4 {
     border-style: solid;
     border-width: medium;
   }
-  
+
   .btn-light-grey {
     background-color: var(--light_grey);
     color: black;
@@ -148,6 +184,7 @@ h4 {
     border-color: var(--grape0_25);
     border-style: solid;
     border-width: medium;
+    margin-bottom: 0;
   }
   .btn-expandable:hover {
     background-color: var(--grape0_25);
@@ -158,6 +195,10 @@ h4 {
     border-width: medium;
   }
   
+  .btn-expandable .collapse {
+    margin-bottom: 1rem;
+  }
+
   #btn-back-to-top {
     position: fixed;
     bottom: 40px;
@@ -389,6 +430,43 @@ html {
   color: var(--aqua1);
 }
 
+/* Data type guide header styling */
+/* The colored header strip */
+.resources-data-header-strip {
+    margin: -1rem -1rem 1rem -1rem; /* Offsets the p-3 padding of the parent */
+    padding: 0.5rem 1rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1.17rem;
+    letter-spacing: 0.05em;
+}
+
+/* Background Colors for Headers */
+.bg-repository { background-color: #491F53; }
+.bg-metadata { background-color: #045C64; }
+.bg-fileformat { background-color: #4C979F; }
+
+/* Title Colors matching the types */
+.text-repository { color: #491F53 !important; font-weight: 700; }
+.text-metadata { color: #045C64 !important; font-weight: 700; }
+.text-fileformat { color: #4C979F !important; font-weight: 700; }
+
+/* Ensure the title link doesn't lose color on hover */
+.resources-data-header.text-repository:hover,
+.resources-data-header.text-metadata:hover,
+.resources-data-header.text-fileformat:hover {
+    filter: brightness(1.2);
+    text-decoration: underline;
+}
+
+.resources-data-header {
+  font-size: 1.17rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  margin-bottom: 1.33rem;
+  text-decoration: none;
+}
+
 /* Get support, About, Contact */
 .navbar-nav.navbar-top li:not(:first-child) a {
   padding-left: 0.6rem;
@@ -450,6 +528,16 @@ html {
   background-color: var(--teal0_25);
 }
 
+.clickable-card {
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.clickable-card:hover {
+    background-color: var(--light_grey); /* Light grey highlight */
+    border-color: var(--medium_grey);
+}
+
 /* Homepage right side cards */
 .support {
   background-color: var(--lime0_25);
@@ -478,6 +566,18 @@ html {
   border-color: var(--teal1) !important;
 }
 
+/* Data Resource card Styling */
+.resource-card-data {
+    border: 1px solid #000000 !important; /* Black frame */
+    overflow: hidden; /* Ensures the header matches the card's rounded corners */
+    display: flex;
+    flex-direction: column;
+}
+
+.related-resources {
+    margin-left: 0.5rem; /* Align with card content */
+    font-size: smaller;
+}
 /*-----------------------------------------------------------------------------------*/
 
 /*************/
@@ -580,6 +680,20 @@ input[type="checkbox"]:focus {
   border: 1px solid black;
   border-top: transparent;
   padding: 15px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+/***********************/
+/*** Data Type Guide ***/
+/***********************/
+
+/* Styling the dropdown focus state to match inputs and checkboxes */
+#studyTypeSelect:focus, 
+.form-select:focus {
+  border-color: var(--teal1);
+  outline: 0; /* Removes the browser's default black outline */
+  box-shadow: 0 0 0 0.2rem var(--aqua0_50); /* Your custom aqua halo */
 }
 
 /*-----------------------------------------------------------------------------------*/

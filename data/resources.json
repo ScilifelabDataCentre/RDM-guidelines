@@ -909,7 +909,7 @@
             "provider":  ["European Virtual Institute for Research Software Excellence (EVERSE)"]
         },
         {
-            "title": "Long-term preservation",
+            "title": "SND on Long-term preservation",
             "short_title": "Long-term preservation",
             "target": ["guidance"],
             "type": ["Web page"],
@@ -922,7 +922,7 @@
             "licence": "CC BY 4.0 (texts)"
         },
         {
-            "title": "Describe, share, and preserve data",
+            "title": "SND on Describe, share, and preserve data",
             "short_title": "Describe, share, and preserve data",
             "target": ["guidance"],
             "type": ["Web page"],
@@ -935,7 +935,7 @@
             "licence": "CC BY 4.0 (texts)"
         },
         {
-            "title": "Scientific code",
+            "title": "SND on Scientific code",
             "short_title": "Scientific code",
             "target": ["guidance"],
             "type": ["Web page"],
@@ -948,7 +948,7 @@
             "licence": "CC BY 4.0 (texts)"
         },
         {
-            "title": "Data management plan",
+            "title": "SND on Data management plans",
             "short_title": "Data management plan",
             "target": ["guidance"],
             "type": ["Web page"],

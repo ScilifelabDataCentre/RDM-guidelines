@@ -47,8 +47,6 @@ Curated up-to-date guidance regarding metadata standards and formats is found at
 
 <a class="btn btn-round btn-teal" href="/data-resources/?area=cellular-and-molecular-imaging&info=metadata"><b>Cellular and Molecular Imaging data <i class="bi bi-arrow-right-square"></i></b></a><br>
 
-<a class="btn btn-round btn-teal" href="/data-resources/area=structural-biology&info=metadata"><b>Structural Biology data <i class="bi bi-arrow-right-square"></i></b></a><br>
-
 &nbsp;
 
 ## Resources

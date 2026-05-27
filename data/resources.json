@@ -194,7 +194,7 @@
             "type": ["Tool"],
             "search_tags": ["EBI","publication","submission","repository","EBI repository wizard"],
             "phase": ["Share"],
-            "topic": ["submission tutorial"],
+            "topic": ["ENA submission tutorial"],
             "level": ["Basic"],
             "url": "https://www.ebi.ac.uk/submission/",
             "description": "The wizard guides through the decision process of finding a suitable repository.",

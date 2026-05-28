@@ -41,11 +41,11 @@ General-purpose data repositories accept datasets regardless of discipline or in
 
 ## Recommended discipline-specific repositories
 
-There are several repositories for life science data types, please find a selection of them below.
+There are several repositories for life science data types, please find links below to our **Data type guide** for a selection of the <a href="https://elixir-europe.org/services/tag/elixir-deposition-databases" target="_blank">ELIXIR Deposition databases</a>. For other discipline-specific repositories, the <a href="https://www.ebi.ac.uk/submission/" target="_blank">EBI repositor wizard</a> can assist in finding the right repository depending on data type, and <a href="https://fairsharing.org/databases/" target="_blank">FAIRsharing</a> provides a global registry of repositories.
 
 Guidance on where to publish COVID-19 and Pandemic Preparedness research data, can be found on the <a href="https://pathogens.se/share-data/" target="_blank">Swedish Pathogens Portal</a>.
 
-For other discipline-specific repositories, see e.g. <a href="https://elixir-europe.org/services/tag/elixir-deposition-databases" target="_blank">ELIXIR Deposition databases</a>, <a href="https://www.ebi.ac.uk/submission/" target="_blank">EBI archive wizard</a> (help to find the right repository depending on data type), or <a href="https://fairsharing.org/databases/" target="_blank">FAIRsharing</a> (the latter can also assist in finding metadata standards suitable for describing your datasets).
+
 
 <a class="btn btn-round btn-grape" href="/data-resources/?area=genomics&info=repository">Genomics<i class="bi bi-arrow-right-square"></i></a>
 <br>

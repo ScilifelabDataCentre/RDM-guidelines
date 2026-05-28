@@ -44,7 +44,7 @@ Please find links below to our **Data type guide** for a selection of the metada
 
 <a class="btn btn-round btn-teal" href="/data-resources/?area=cellular-and-molecular-imaging&info=metadata"><b>Cellular and Molecular Imaging data <i class="bi bi-arrow-right-square"></i></b></a><br>
 
-<a class="btn btn-round btn-teal" href="/data-resources/area=structural-biology&info=metadata"><b>Structural Biology data <i class="bi bi-arrow-right-square"></i></b></a><br>
+<a class="btn btn-round btn-teal" href="/data-resources/?area=structural-biology&info=metadata"><b>Structural Biology data <i class="bi bi-arrow-right-square"></i></b></a><br>
 
 &nbsp;
 

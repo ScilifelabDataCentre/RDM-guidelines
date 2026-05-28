@@ -498,7 +498,7 @@
       "related": ["emdb","pdbe"],
       "description": "Modern standard for macromolecular structure files, replacing PDB format.",
       "url": "https://mmcif.wwpdb.org/",
-      "info_type": ["File format"],
+      "info_type": ["Metadata format"],
       "keywords": ["EMDB", "PDBe", "Cryo-EM", "X-ray Crystallography", "NMR Spectroscopy"],
       "area": ["Structural Biology"],
       "study_type": ["Structural Biology", "Cryo-EM"],

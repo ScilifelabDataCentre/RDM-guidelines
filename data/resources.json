@@ -666,6 +666,33 @@
             "licence": "CC BY 4.0"
         },
         {
+            "title": "RDMkit on Bioimaging data",
+            "short_title": "RDMkit: Bioimaging data",
+            "category": ["guidance"],
+            "type": ["Web page"],
+            "search_tags": ["RDMkit","Bioimaging data","RDMkit on Bioimaging data", "Collect", "Collection", "Metadata"],
+            "phase": ["Share"],
+            "topic": ["Metadata"],
+            "level": ["Basic"],
+            "url": "https://rdmkit.elixir-europe.org/bioimaging_data",
+            "description": "Best practice guidance regarding the domain of bioimaging data.",
+            "provider":  ["RDMkit"],
+            "licence": "CC BY 4.0"
+        },
+        {
+            "title": "RDMkit on Proteomics data",
+            "short_title": "RDMkit: Proteomics data",
+            "category": ["guidance"],
+            "type": ["Web page"],
+            "search_tags": ["RDMkit","Process","processing","Metadata","RDMkit on Proteomics data"],
+            "phase": ["Share"],
+            "level": ["Basic"],
+            "url": "https://rdmkit.elixir-europe.org/proteomics",
+            "description": "Best practice guidance regarding the the domain of proteomics data.",
+            "provider":  ["RDMkit"],
+            "licence": "CC BY 4.0"
+        },                
+        {
             "title": "NBIS Submission documentation",
             "short_title": "NBIS Submission documentation",
             "category": ["guidance"],

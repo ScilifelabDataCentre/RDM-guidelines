@@ -69,7 +69,7 @@ Guidance on where to publish COVID-19 and Pandemic Preparedness research data, c
 </a>
 <br>
 
-Note that RDMkit provides a domain pages with information about data publication and sharing for both <a href="https://rdmkit.elixir-europe.org/bioimaging_data" target="_blank">Bioimagning data</a> and <a href="https://rdmkit.elixir-europe.org/proteomics" target="_blank">Proteomics data</a> respectively. 
+Note that RDMkit provides domain pages with information about data publication and sharing for both <a href="https://rdmkit.elixir-europe.org/bioimaging_data" target="_blank">Bioimagning data</a> and <a href="https://rdmkit.elixir-europe.org/proteomics" target="_blank">Proteomics data</a> respectively. 
 
 &nbsp;
 

@@ -46,8 +46,11 @@ Please find links below to our **Data type guide** for a selection of the metada
 
 <a class="btn btn-round btn-teal" href="/data-resources/?area=structural-biology&info=metadata"><b>Structural Biology data <i class="bi bi-arrow-right-square"></i></b></a><br>
 
+Note that RDMkit provides a domain page with information about standard (meta)data formats for <a href="https://rdmkit.elixir-europe.org/bioimaging_data" target="_blank">Bioimagning data</a>. 
+
 &nbsp;
 
 ## Resources
 Please find below resources concerning metadata in form of training, guidance and/or tools.
 {{< resources-per-page-topics >}}
+

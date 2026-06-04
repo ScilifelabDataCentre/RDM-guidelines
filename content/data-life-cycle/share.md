@@ -67,7 +67,11 @@ Guidance on where to publish COVID-19 and Pandemic Preparedness research data, c
 
 <a class="btn btn-round btn-grape" href="/data-resources/?area=structural-biology&info=repository">Structural Biology<i class="bi bi-arrow-right-square"></i>
 </a>
-<br><br>
+<br>
+
+Note that RDMkit provides domain pages with information about data publication and sharing for both <a href="https://rdmkit.elixir-europe.org/bioimaging_data" target="_blank">Bioimagning data</a> and <a href="https://rdmkit.elixir-europe.org/proteomics" target="_blank">Proteomics data</a> respectively. 
+
+&nbsp;
 
 ## Institutional repositories
 For datasets that do not fit into discipline-specific repositories, it is recommended to use an institutional repository if available. These repositories are often general-purpose repositories with the intention of only being used by researchers at that specific institution. See below a selection of available repositories offered by Swedish academic institutions operating in the life sciences. 

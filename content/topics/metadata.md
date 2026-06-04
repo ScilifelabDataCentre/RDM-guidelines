@@ -32,7 +32,7 @@ Below are ontology resources, adapted from Table 2 in *Griffin PC, Khadake J, Le
 ## Metadata standards and formats
 Communities within specific research domains have mutually agreed upon what pieces of information is needed in order to properly describe a research output. Metadata standards (in the form of reporting guidelines) provide a consistent set of fields and terms (schemas) to ensure everyone describes the same thing using the same labels (e.g. always using "Creator" instead of "Author" or "Writer"). Metadata formats on the other hand provides the technical implementation of the standards.
 
-Please find links below to our **Data type guide** for a selection of the metadata standards and formats used by the ELIXIR deposition databases. For a global perspective, please visit <a href="https://fairsharing.org/databases/" target="_blank">FAIRsharing.org</a>. 
+Please find links below to our **Data type guide** for a selection of the metadata standards and formats used by the ELIXIR deposition databases. For a global perspective, please visit <a href="https://fairsharing.org/databases/" target="_blank">FAIRsharing.org</a>.
 
 <a class="btn btn-round btn-teal" href="/data-resources/?area=genomics&info=metadata"><b>Genomics data <i class="bi bi-arrow-right-square"></i></b></a><br>
 

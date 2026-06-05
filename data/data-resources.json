@@ -68,7 +68,7 @@
     },
     {
       "title": "ArrayExpress",
-      "short_title": "AE",
+      "short_title": "ArrayExpress",
       "id": "arrayexpress",
       "related": ["miame", "fastq","minseqe", "mage-tab", "cel"],
       "description": "ArrayExpress is suitable if you have microarray data, single-cell transcriptomics data, or other expression data. It is tightly integrated with ENA, any raw reads submitted to ArrayExpress will be put in ENA. ArrayExpress has its own submission portal, [Annotare](https://www.ebi.ac.uk/fg/annotare/login/), where information is available on what can be submitted and how.",
@@ -519,7 +519,7 @@
     },
     {
       "title": "BioImage Archive",
-      "short_title": "BIA",
+      "short_title": "BioImage Archive",
       "id": "bia",
       "related": ["ome-tiff","ome-zarr", "rembi", "miti"],
       "description": "Reference repository for biological imaging data, from cells to whole organisms. It accepts submissions of data from any imaging modality, as long as the data are either associated with a peer-reviewed publication, or of value beyond a single experiment.",

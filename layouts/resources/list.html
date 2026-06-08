@@ -117,21 +117,27 @@
                 data-level="{{ delimit (apply .level "urlize" ".") " " }}" 
                 data-provider="{{ delimit (apply .provider "urlize" ".") " " }}" 
                 {{ with .search_tags }}data-search-tags="{{ delimit . ":" | lower }}"{{ end }}>
-                <div class="p-3 rounded border h-100 resource-card-{{$category}}">
-                  <a class="resources-header-{{$category}}" role="button" data-bs-toggle="modal"
-                      data-bs-target="#descriptionModal{{ $category}}{{ $ind }}">{{ .short_title }}</a>
-                  {{ if .provider }}<div class="row">
-                    <div class="col">
-                      <small><b>Content provider:</b> {{ delimit .provider ", " }}</small>
+                <div class="pt-3 px-3 pb-0 rounded border border-3 h-100 resource-card-{{$category}} clickable-card"
+                   data-bs-toggle="modal" data-bs-target="#descriptionModal{{ $category}}{{ $ind }}">
+                  <div class="resources-header-{{$category}} mb-1">{{ .short_title }}</div>
+                  <div class="col mt-0 pt-0 d-flex justify-content-between align-items-center">
+                    <div>
+                      {{ if .provider }}
+                          <small><b>Provider:</b> {{ delimit .provider ", " }}</small>
+                      {{ end }}
                     </div>
-                  </div>{{ end }}
+                    
+                    <div>
+                      {{ if eq $category "guidance" }}
+                          {{ range .type }}
+                            {{ if eq . "Video"}}<i class="bi-camera-video-fill"></i>{{ end }}
+                          {{ end }}    
+                      {{ end }}
+                    </div>
+                  </div>
                   <div class="row mt-3">
                     <div class="col">
-                      <button type="button" class="btn btn-light-grey" data-bs-toggle="modal"
-                        data-bs-target="#descriptionModal{{ $category}}{{ $ind }}">
-                        See details
-                      </button>
-                      <!-- Modal for resource description, phase, provider, DOI and licence. It is triggered by both the resource title and "See details" button. -->
+                      <!-- Modal for resource description, phase, provider, DOI and licence. It is triggered by both the resource title and clicking the card -->
                       <div class="modal fade" id="descriptionModal{{ $category}}{{ $ind }}" tabindex="-1"
                         aria-labelledby="descriptionModal{{ $category}}{{ $ind }}" aria-hidden="true">
                         <div class="modal-dialog modal-lg">
@@ -178,16 +184,6 @@
                           </div>
                         </div>
                       </div>
-                    </div>
-                    <div class="col">
-                      {{ if eq $category "guidance" }}
-                        <div class="d-flex justify-content-between">
-                          {{ range .type }}
-                            {{ if eq . "Video"}}<i class="bi-camera-video-fill"> </i>
-                            {{ end }}
-                          {{ end }}    
-                        </div>
-                      {{ end }}
                     </div>
                   </div>
                 </div>

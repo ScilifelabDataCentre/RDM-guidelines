@@ -521,7 +521,7 @@
       "title": "BioImage Archive",
       "short_title": "BioImage Archive",
       "id": "bia",
-      "related": ["ome-tiff","ome-zarr", "rembi", "miti"],
+      "related": ["ome-tiff","ome-zarr", "rembi"],
       "description": "Reference repository for biological imaging data, from cells to whole organisms. It accepts submissions of data from any imaging modality, as long as the data are either associated with a peer-reviewed publication, or of value beyond a single experiment.",
       "url": "https://www.ebi.ac.uk/bioimage-archive",
       "submission_guidelines": "https://www.ebi.ac.uk/bioimage-archive/submit/",
@@ -543,20 +543,6 @@
       "area": ["Cellular and Molecular Imaging"],
       "study_type": ["BioImaging", "Spatial Omics", "Cryo-EM", "Tissue Imaging"],
       "data_type": ["Bioimages", "Experimental Metadata"]
-    },
-    {
-      "title": "MITI (Minimum Information about Tissue Imaging)",
-      "short_title": "MITI",
-      "id": "miti",
-      "related": ["bia"],
-      "description": "Guidelines for reporting tissue imaging experiments, including spatial omics.",
-      "url": "https://github.com/miti-consortium/MITI",
-      "info_type": ["Metadata standard"],
-      "keywords": ["Cryo-EM", "BioImage Archive", "BioImaging", "Tissue Imaging", "Spatial Omics"],
-      "area": ["Cellular and Molecular Imaging"],
-      "study_type": ["BioImaging", "Spatial Omics", "Tissue Imaging", "Cryo-EM"],
-      "data_type": ["Experimental Metadata"]
-
     },
     {
       "title": "OME-TIFF (Open Microscopy Environment TIFF)",

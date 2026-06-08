@@ -47,25 +47,25 @@ Guidance on where to publish COVID-19 and Pandemic Preparedness research data, c
 
 
 
-<a class="btn btn-round btn-grape" href="/data-resources/?area=genomics&info=repository">Genomics<i class="bi bi-arrow-right-square"></i></a>
+<a class="btn btn-round btn-grape" href="/data-type-guide/?area=genomics&info=repository">Genomics<i class="bi bi-arrow-right-square"></i></a>
 <br>
 
-<a class="btn btn-round btn-grape" href="/data-resources/?area=proteomics&info=repository">Proteomics<i class="bi bi-arrow-right-square"></i></a>
+<a class="btn btn-round btn-grape" href="/data-type-guide/?area=proteomics&info=repository">Proteomics<i class="bi bi-arrow-right-square"></i></a>
 <br>
 
-<a class="btn btn-round btn-grape" href="/data-resources/?area=metabolomics-and-exposomics&info=repository">Metabolomics and Exposomics<i class="bi bi-arrow-right-square"></i>
+<a class="btn btn-round btn-grape" href="/data-type-guide/?area=metabolomics-and-exposomics&info=repository">Metabolomics and Exposomics<i class="bi bi-arrow-right-square"></i>
 </a>
 <br>
 
-<a class="btn btn-round btn-grape" href="/data-resources/?area=spatial-omics&info=repository">Spatial Omics<i class="bi bi-arrow-right-square"></i>
+<a class="btn btn-round btn-grape" href="/data-type-guide/?area=spatial-omics&info=repository">Spatial Omics<i class="bi bi-arrow-right-square"></i>
 </a>
 <br>
 
-<a class="btn btn-round btn-grape" href="/data-resources/?area=cellular-and-molecular-imaging&info=repository">Cellular and Molecular Imaging<i class="bi bi-arrow-right-square"></i>
+<a class="btn btn-round btn-grape" href="/data-type-guide/?area=cellular-and-molecular-imaging&info=repository">Cellular and Molecular Imaging<i class="bi bi-arrow-right-square"></i>
 </a>
 <br>
 
-<a class="btn btn-round btn-grape" href="/data-resources/?area=structural-biology&info=repository">Structural Biology<i class="bi bi-arrow-right-square"></i>
+<a class="btn btn-round btn-grape" href="/data-type-guide/?area=structural-biology&info=repository">Structural Biology<i class="bi bi-arrow-right-square"></i>
 </a>
 <br>
 

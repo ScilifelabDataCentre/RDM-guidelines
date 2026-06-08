@@ -117,7 +117,7 @@
                 data-level="{{ delimit (apply .level "urlize" ".") " " }}" 
                 data-provider="{{ delimit (apply .provider "urlize" ".") " " }}" 
                 {{ with .search_tags }}data-search-tags="{{ delimit . ":" | lower }}"{{ end }}>
-                <div class="pt-3 px-3 pb-0 rounded border h-100 resource-card-{{$category}} clickable-card"
+                <div class="pt-3 px-3 pb-0 rounded border border-3 h-100 resource-card-{{$category}} clickable-card"
                    data-bs-toggle="modal" data-bs-target="#descriptionModal{{ $category}}{{ $ind }}">
                   <div class="resources-header-{{$category}} mb-1">{{ .short_title }}</div>
                   <div class="col mt-0 pt-0 d-flex justify-content-between align-items-center">

@@ -577,7 +577,7 @@
       "id": "ome-zarr",
       "related": ["bia"],
       "description": "",
-      "url": "https://link.springer.com/article/10.1007/s00418-023-02209-1",
+      "url": "https://ngff.openmicroscopy.org/",
       "info_type": ["File format"],
       "keywords": ["BioImage Archive", "BioImaging", "Tissue Imaging", "Spatial Omics"],
       "area": ["Cellular and Molecular Imaging"],

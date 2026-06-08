@@ -393,41 +393,35 @@ html {
 }
 
 /* Headers on resources page */
-.resources-header-training {
-  color: var(--grape1);
+[class^="resources-header-"] {
   font-size: 1.17rem;
   font-weight: bold;
-  margin-top: 1.33rem;
-  margin-bottom: 1.33rem;
   text-decoration: none;
+}
+
+.resources-header-training {
+  color: var(--grape1);
 }
 
 .resources-header-training:hover {
   color: var(--grape1);
+  text-decoration: underline;
 }
 .resources-header-guidance {
   color: var(--teal1);
-  font-size: 1.17rem;
-  font-weight: bold;
-  margin-top: 1.33rem;
-  margin-bottom: 1.33rem;
-  text-decoration: none;
 }
 
 .resources-header-guidance:hover {
   color: var(--teal1);
+  text-decoration: underline;
 }
 .resources-header-tool {
   color: var(--aqua1);
-  font-size: 1.17rem;
-  font-weight: bold;
-  margin-top: 1.33rem;
-  margin-bottom: 1.33rem;
-  text-decoration: none;
 }
 
 .resources-header-tool:hover {
   color: var(--aqua1);
+  text-decoration: underline;
 }
 
 /* Data type guide header styling */

@@ -545,6 +545,19 @@
       "data_type": ["Bioimages", "Experimental Metadata"]
     },
     {
+      "title": "MIFA (Metadata, Incentives, Formats, and Accessibility)",
+      "short_title": "MIFA",
+      "id": "mifa",
+      "related": ["bia"],
+      "description": "Guidelines to improve AI-readiness, i.e. ability to reuse datasets as training data for artificial intelligence models, of bioimaging datasets.",
+      "url": "https://arxiv.org/abs/2311.10443",
+      "info_type": ["Metadata standard"],
+      "keywords": ["BioImage Archive", "BioImaging", "Tissue Imaging", "Spatial Omics"],
+      "area": ["Cellular and Molecular Imaging"],
+      "study_type": ["BioImaging", "Spatial Omics"],
+      "data_type": ["Bioimages", "Experimental Metadata"]
+    }, 
+    {
       "title": "OME-TIFF (Open Microscopy Environment TIFF)",
       "short_title": "OME-TIFF",
       "id": "ome-tiff",
@@ -570,7 +583,7 @@
       "study_type": ["BioImaging", "Spatial Omics"],
       "data_type": ["Bioimages"]
     },
-    {
+   {
       "title": "BioStudies",
       "short_title": "BioStudies",
       "id": "biostudies",

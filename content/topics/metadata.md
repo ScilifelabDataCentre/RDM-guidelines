@@ -9,7 +9,7 @@ toc: True
 Good documentation in research projects is essential in order to allow good quality data and transparent research. Describing how the datasets were created, how they are structured, and what they mean, is key for making your data understandable for others as well as your future self. Metadata provides such 'data about data'.
 Metadata is needed at several levels to describe the study, the samples, the experiments, the analysis and so on (see also topic on [README](/topics/readme-files/) for documentation on different levels). It may include information on the methodology and instrumentation used to collect the data, analytical and procedural information, definitions of variables, units of measurement, any assumptions made, the format and file type of the data and software used to collect and/or process the data.
 
-Researchers are strongly encouraged to use community metadata standards where these are in place (see further down) and are recommended doing so already from the beginning of the project. Data repositories may also provide guidance about appropriate metadata standards and requirements e.g. the European Nucleotide Archive (ENA) have sample checklists. We provide templates for some of these checklists, see further on [Data type guide - ENA Sample Checklists](/data-resources/?resource=ena-checklists). Structuring the metadata in a way that conforms to the suitable repository from the beginning enables data submission without having to reformat the metadata.
+Researchers are strongly encouraged to use community metadata standards where these are in place (see further down) and are recommended doing so already from the beginning of the project. Data repositories may also provide guidance about appropriate metadata standards and requirements e.g. the European Nucleotide Archive (ENA) have sample checklists. We provide templates for some of these checklists, see further on [Data type guide - ENA Sample Checklists](/data-type-guide/?resource=ena-checklists). Structuring the metadata in a way that conforms to the suitable repository from the beginning enables data submission without having to reformat the metadata.
 
 
 <a class="link-teal" href="https://www.ebi.ac.uk/ena/submit/checklists" target="_blank"><b>Browse ENA checklists <i class="bi bi-box-arrow-up-right"></i></b></a>
@@ -34,17 +34,17 @@ Communities within specific research domains have mutually agreed upon what piec
 
 Please find links below to our **Data type guide** for a selection of the metadata standards and formats used by the ELIXIR deposition databases. For a global perspective, please visit <a href="https://fairsharing.org/databases/" target="_blank">FAIRsharing.org</a>.
 
-<a class="btn btn-round btn-teal" href="/data-resources/?area=genomics&info=metadata"><b>Genomics data <i class="bi bi-arrow-right-square"></i></b></a><br>
+<a class="btn btn-round btn-teal" href="/data-type-guide/?area=genomics&info=metadata"><b>Genomics data <i class="bi bi-arrow-right-square"></i></b></a><br>
 
-<a class="btn btn-round btn-teal" href="/data-resources/?area=proteomics&info=metadata"><b>Proteomics data <i class="bi bi-arrow-right-square"></i></b></a><br>
+<a class="btn btn-round btn-teal" href="/data-type-guide/?area=proteomics&info=metadata"><b>Proteomics data <i class="bi bi-arrow-right-square"></i></b></a><br>
 
-<a class="btn btn-round btn-teal" href="/data-resources/?area=metabolomics-and-exposomics&info=metadata"><b>Metabolomics and Exposomics data <i class="bi bi-arrow-right-square"></i></b></a><br>
+<a class="btn btn-round btn-teal" href="/data-type-guide/?area=metabolomics-and-exposomics&info=metadata"><b>Metabolomics and Exposomics data <i class="bi bi-arrow-right-square"></i></b></a><br>
 
-<a class="btn btn-round btn-teal" href="/data-resources/?area=spatial-omics&info=metadata"><b>Spatial Omics data <i class="bi bi-arrow-right-square"></i></b></a><br>
+<a class="btn btn-round btn-teal" href="/data-type-guide/?area=spatial-omics&info=metadata"><b>Spatial Omics data <i class="bi bi-arrow-right-square"></i></b></a><br>
 
-<a class="btn btn-round btn-teal" href="/data-resources/?area=cellular-and-molecular-imaging&info=metadata"><b>Cellular and Molecular Imaging data <i class="bi bi-arrow-right-square"></i></b></a><br>
+<a class="btn btn-round btn-teal" href="/data-type-guide/?area=cellular-and-molecular-imaging&info=metadata"><b>Cellular and Molecular Imaging data <i class="bi bi-arrow-right-square"></i></b></a><br>
 
-<a class="btn btn-round btn-teal" href="/data-resources/?area=structural-biology&info=metadata"><b>Structural Biology data <i class="bi bi-arrow-right-square"></i></b></a><br>
+<a class="btn btn-round btn-teal" href="/data-type-guide/?area=structural-biology&info=metadata"><b>Structural Biology data <i class="bi bi-arrow-right-square"></i></b></a><br>
 
 Note that RDMkit provides a domain page with information about standard (meta)data formats for <a href="https://rdmkit.elixir-europe.org/bioimaging_data" target="_blank">Bioimagning data</a>. 
 

@@ -15,9 +15,9 @@
   "data_types": ["Raw Reads", "Assemblies", "Single-cell RNA-seq",
     "Controlled Access Data", "Expression Matrices", "Count Tables", 
     "Genetic Variants", "Genotypes", "GWAS Summary Statistics", "Microarray Data", 
-    "Density Maps", "Raw Images", "Multiplexed Images", "Microscopy Images",
+    "Density Maps", "Bioimages",
     "3D Volume Maps", "Atomic Coordinates", "Protein Identifications",
-    "Structure Factors", "Mass Spectra", "NMR Spectra", "Metabolite Profiles", "Images",
+    "Structure Factors", "Mass Spectra", "NMR Spectra", "Metabolite Profiles",
     "Experimental Metadata", "SRM/MRM Mass Spectra", "Peptide Identifications", 
     "Study descriptions", "Supplemental data", "Sample descriptions"
   ],
@@ -529,7 +529,7 @@
       "keywords": ["BioImaging","Tissue Imaging", "Spatial Omics", "Cryo-EM"],
       "area": ["Cellular and Molecular Imaging"],
       "study_type": ["BioImaging","Tissue Imaging"],
-      "data_type": ["Multiplexed Images", "Microscopy Images"]
+      "data_type": ["Bioimages"]
     },
     {
       "title": "REMBI (Recommended Metadata for Biological Images)",
@@ -542,7 +542,7 @@
       "keywords": ["Cryo-EM", "BioImage Archive", "BioImaging", "Tissue Imaging", "Spatial Omics"],
       "area": ["Cellular and Molecular Imaging"],
       "study_type": ["BioImaging", "Spatial Omics", "Cryo-EM", "Tissue Imaging"],
-      "data_type": ["Multiplexed Images", "Microscopy Images", "Raw Images", "Experimental Metadata"]
+      "data_type": ["Bioimages", "Experimental Metadata"]
     },
     {
       "title": "MITI (Minimum Information about Tissue Imaging)",
@@ -569,7 +569,7 @@
       "keywords": ["BioImage Archive", "BioImaging", "Tissue Imaging", "Spatial Omics"],
       "area": ["Cellular and Molecular Imaging"],
       "study_type": ["BioImaging", "Spatial Omics"],
-      "data_type": ["Images"]
+      "data_type": ["Bioimages"]
     },
     {
       "title": "OME-Zarr (Chunked, Compressed, N-Dimensional Arrays)",
@@ -582,7 +582,7 @@
       "keywords": ["BioImage Archive", "BioImaging", "Tissue Imaging", "Spatial Omics"],
       "area": ["Cellular and Molecular Imaging"],
       "study_type": ["BioImaging", "Spatial Omics"],
-      "data_type": ["Images"]
+      "data_type": ["Bioimages"]
     },
     {
       "title": "BioStudies",

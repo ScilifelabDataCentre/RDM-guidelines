@@ -25,10 +25,24 @@
         <ul class="navbar-nav mb-2 mb-lg-0 fs-6">
           {{ $current_page := .RelPermalink }}
           {{ range .Site.Menus.navbar }}
-          <li class="nav-item">
-            <a class="nav-link nav-main-menu {{ if eq .Page.RelPermalink $current_page }}active{{ end }}"
-              aria-current="page" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
-          </li>
+            {{ if eq .Name "Resources" }}
+              <li class="nav-item dropdown">
+                <a class="nav-link nav-main-menu {{ if eq .Page.RelPermalink $current_page }}active{{ end }}"
+                  href="#" id="navbarDropdownResources" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  {{ .Name }} <i class="bi bi-chevron-double-down ms-1" style="font-size: 0.85rem;"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownResources">
+                  <li><a class="dropdown-item" href="{{ .Page.RelPermalink }}#resources-training">Training</a></li>
+                  <li><a class="dropdown-item" href="{{ .Page.RelPermalink }}#resources-guidance">Guidance</a></li>
+                  <li><a class="dropdown-item" href="{{ .Page.RelPermalink }}#resources-tool">Tools</a></li>
+                </ul>
+              </li>
+            {{ else }}
+              <li class="nav-item">
+                <a class="nav-link nav-main-menu {{ if eq .Page.RelPermalink $current_page }}active{{ end }}"
+                  aria-current="page" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
+              </li>
+            {{ end }}
           {{ end }}
         </ul>
       </div>

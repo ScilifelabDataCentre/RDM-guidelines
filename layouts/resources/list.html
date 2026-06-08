@@ -354,7 +354,73 @@
   // Call the search function on inputs
   $('input:checkbox').on('change', searchAndFilter);
   $("input[type=text]").on("input", searchAndFilter);
+
+  // Reusable function to handle tab activation from a URL hash
+  function activateTabFromHash() {
+    var hash = window.location.hash;
+    if (hash) {
+      var $targetTab = $('.resources-tab-list a[href="' + hash + '"]');
+      if ($targetTab.length) {
+        if (typeof bootstrap !== 'undefined' && bootstrap.Tab) {
+          var tab = new bootstrap.Tab($targetTab[0]);
+          tab.show();
+        } else if (typeof $.fn.tab === 'function') {
+          $targetTab.tab('show');
+        } else {
+          $targetTab.trigger('click');
+        }
+
+        // Prevent browser from skipping past introduction text on initial page load
+        setTimeout(function() {
+          window.scrollTo({ top: 0, behavior: 'instant' });
+        }, 1);
+      }
+    }
+  }
+
+  $(document).ready(function() {
+    // 1. Handle deep linking when first arriving on the page via an external link
+    activateTabFromHash();
+
+    // 2. Handle same-page navbar dropdown clicks seamlessly without jarring down-jumps
+    $(document).on('click', 'a[href*="#resources-"]:not([data-bs-toggle="tab"])', function(e) {
+      var hash = this.hash;
+      // Confirm the link targets the current path route
+      if (this.pathname === window.location.pathname || $(this).attr('href').startsWith('#')) {
+        var $targetTab = $('.resources-tab-list a[href="' + hash + '"]');
+        if ($targetTab.length) {
+          e.preventDefault(); // Stop native browser scroll jump to the container pane ID
+          
+          if (typeof bootstrap !== 'undefined' && bootstrap.Tab) {
+            var tab = new bootstrap.Tab($targetTab[0]);
+            tab.show();
+          } else if (typeof $.fn.tab === 'function') {
+            $targetTab.tab('show');
+          } else {
+            $targetTab.trigger('click');
+          }
+          
+          // Update URL bar hash silently without scrolling
+          if (history.pushState) {
+            history.pushState(null, null, hash);
+          } else {
+            window.location.hash = hash;
+          }
+          
+          // Force view focus back to coordinates (0,0) to show introduction text and tabs
+          window.scrollTo({ top: 0, behavior: 'instant' });
+        }
+      }
+    });
+
+    // 3. Update the URL hash silently whenever a user manually clicks an on-page tab link
+    $('.resources-tab-list a').on('shown.bs.tab', function (e) {
+      if (history.pushState) {
+        history.pushState(null, null, e.target.hash);
+      } else {
+        window.location.hash = e.target.hash;
+      }
+    });
+  });
 </script>
-
 {{ end }}
-

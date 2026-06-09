@@ -459,7 +459,7 @@
       "submission_guidelines": "https://www.ebi.ac.uk/empiar/deposition/manual/",
       "info_type": ["Repository"],
       "keywords": ["Soft X-ray Tomography", "Volume SEM", "Micrograph Movies", "Raw Particle Frames", "Tilt Series", "Cryo-EM"],
-      "area": ["Structural Biology"],
+      "area": ["Structural Biology", "Cellular and Molecular Imaging"],
       "study_type": ["Cryo-EM"],
       "data_type": ["Raw Images", "Bioimages"]
     },

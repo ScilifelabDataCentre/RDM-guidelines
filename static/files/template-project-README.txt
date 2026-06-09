@@ -3,7 +3,7 @@ This README file was generated on [YYYY-MM-DD] by [NAME]
 GENERAL INFORMATION
 - Project title:
 - Description: <provide a short description of the project>
-- Principle Investigator:
+- Principal Investigator:
 - Research principal:
 - Link to Data management plan
 

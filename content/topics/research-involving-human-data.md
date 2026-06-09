@@ -165,6 +165,7 @@ The UPPMAX Bianca system has been designed to have technical and information sec
 
 Before embarking on a new project, consider the following:
 * Has the project (or parts of the project) undergone ethical review?
+  * It is the [research principal](/topics/gdpr-ethical-review-glossary/#research-principal) who applies for ethical review
 * Have informed consents been collected from the research subjects?
 * Are there limitations of use defined in these?
 * Is the intended research purpose within the scope of the limitations of use that is defined in the ethics approval(s) and/or the informed consent(s)?

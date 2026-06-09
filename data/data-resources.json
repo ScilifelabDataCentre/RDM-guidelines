@@ -521,7 +521,7 @@
       "title": "BioImage Archive",
       "short_title": "BioImage Archive",
       "id": "bia",
-      "related": ["ome-tiff","ome-zarr", "rembi"],
+      "related": ["ome-tiff","ome-zarr", "rembi", "mifa"],
       "description": "Reference repository for biological imaging data, from cells to whole organisms. It accepts submissions of data from any imaging modality, as long as the data are either associated with a peer-reviewed publication, or of value beyond a single experiment.",
       "url": "https://www.ebi.ac.uk/bioimage-archive",
       "submission_guidelines": "https://www.ebi.ac.uk/bioimage-archive/submit/",

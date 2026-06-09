@@ -361,6 +361,9 @@
     if (hash) {
       var $targetTab = $('.resources-tab-list a[href="' + hash + '"]');
       if ($targetTab.length) {
+        // 1. Immediately force the scroll back up before the browser finishes paint cycles
+        window.scrollTo(0, 0);
+
         if (typeof bootstrap !== 'undefined' && bootstrap.Tab) {
           var tab = new bootstrap.Tab($targetTab[0]);
           tab.show();
@@ -370,19 +373,26 @@
           $targetTab.trigger('click');
         }
 
-        // Prevent browser from skipping past introduction text on initial page load
+        // 2. A 50ms timeout ensures it neutralizes post-render layout jumps
         setTimeout(function() {
           window.scrollTo({ top: 0, behavior: 'instant' });
-        }, 1);
+        }, 50);
       }
     }
   }
 
   $(document).ready(function() {
-    // 1. Handle deep linking when first arriving on the page via an external link
+    // Handle deep linking when first arriving on the page via an external link
     activateTabFromHash();
 
-    // 2. Handle same-page navbar dropdown clicks seamlessly without jarring down-jumps
+    // 3. Ultimate Fallback: Reset scroll to top once ALL layout assets and images finish loading
+    $(window).on('load', function() {
+      if (window.location.hash && window.location.hash.startsWith('#resources-')) {
+        window.scrollTo({ top: 0, behavior: 'instant' });
+      }
+    });
+
+    // Handle same-page navbar dropdown clicks seamlessly without jarring down-jumps
     $(document).on('click', 'a[href*="#resources-"]:not([data-bs-toggle="tab"])', function(e) {
       var hash = this.hash;
       // Confirm the link targets the current path route
@@ -413,7 +423,7 @@
       }
     });
 
-    // 3. Update the URL hash silently whenever a user manually clicks an on-page tab link
+    // Update the URL hash silently whenever a user manually clicks an on-page tab link
     $('.resources-tab-list a').on('shown.bs.tab', function (e) {
       if (history.pushState) {
         history.pushState(null, null, e.target.hash);

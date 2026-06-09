@@ -483,6 +483,12 @@ html {
   text-decoration: none;
 }
 
+/* Make the double chevron icon bold when the Resources menu link is hovered */
+.nav-main-menu:hover .bi-chevron-double-down {
+  font-weight: bold;
+  -webkit-text-stroke: 0.5px currentColor; /* Perfect fallback boost for icon fonts */
+}
+
 /*-----------------------------------------------------------------------------------*/
 
 /* Clear floats after the columns */ /* not used? */

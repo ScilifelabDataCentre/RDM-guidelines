@@ -18,7 +18,7 @@ This is the repository for SciLifelab Research Data Management (RDM) guidelines,
 
 ## How to contribute
 
-We welcome suggestions and contributions to the content of this site. This could include, for example, a suggestion for a topic that is not currently covered. Alternatively, you can request an update or correction to particular pages. Please get in touch using our [contact form](https://data-guidelines.scilifelab.se/contact/) or emailing us at [data-management@scilifelab.se](mailto:data-management@scilifelab.se).
+We welcome suggestions and contributions to the content of this site. This could include, for example, a suggestion for a topic that is not currently covered. Alternatively, you can request an update or correction to particular pages. Please get in touch by emailing us at [data-management@scilifelab.se](mailto:data-management@scilifelab.se).
 
 For internal / editorial contribution process, please see [internal contribution page](https://github.com/ScilifelabDataCentre/RDM-guidelines/blob/main/internal-contribution.md). That page also includes information on how to contribute using the GitHub way.
 

@@ -68,7 +68,7 @@ Personal data may be possible to share under some circumstances. Make sure to fo
 The GDPR states that the processing (including storing) of personal data should stop when the intended purpose of the processing has been fullfilled. There are, however, exemptions to this e.g. when the processing is done for research purposes. Also, from a research ethics point of view, research data should be kept to make it possible for others to validate published findings and reuse data for new discoveries. This is also governed by what the [data subjects](/topics/gdpr-ethical-review-glossary/#data-subject) have been informed about regarding the data procesing.
 
 <a class="link-teal" href="/topics/sharing-human-data"><b>See more guidelines on sharing human data <i class="bi bi-arrow-right-square"></i></b></a>
-<br/><br/>
+<br><br>
 
 ## GDPR considerations
 
@@ -100,7 +100,7 @@ Before embarking on a new project, consider the following:
 The role of the [data protection officer](/topics/gdpr-ethical-review-glossary/#data-protection-officer) is to check that the General Data Protection Regulation (GDPR) is complied with within the organisation. If personal data is processed in your research, you should report this to your institute’s Data Protection Officer (DPO).
 
 <a class="link-teal" href="/topics/university-rdm-resources#data-protection-officers"><b>Find university Data Protection Officer (DPO) <i class="bi bi-arrow-right-square"></i></b></a>
-<br/>
+<br>
 
 
 ### Legal basis for processing personal data
@@ -159,7 +159,7 @@ The security measures taken should be based on an evaluation of the risks for, a
 The UPPMAX Bianca system has been designed to have technical and information security procedures that are appropriate for processing sensitive human data for analysis. Using this system then relieves the researcher from having to define these technical and security procedures themselves (at least for the analysis phase of a project). The researcher can decide to analyse (sensitive) personal data elsewhere, but then they will have to define the appropriate procedures. In case the controller work at a different institute than Uppsala University, a data processing agreement between that institute and UPPMAX/Uppsala University, needs to be established - see <a href="https://www.uu.se/en/centre/uppmax/get-started/apply-for-project-and-create-user-account/applying-for-naiss-sens-project/puba" target="_blank">instructions here</a>..
 
 <a class="link-teal" href="https://docs.uppmax.uu.se/cluster_guides/bianca/" target="_blank"><b>Learn more about UPPMAX Bianca <i class="bi bi-box-arrow-up-right"></i></b></a>
-<br/><br/>
+<br><br>
 
 ## Ethical considerations
 

@@ -1,0 +1,11 @@
+<p>Open Microscopy Environment - Tagged Image File Format (OME-TIFF) is a format standard for high-dimensional, metadata-rich microscopy images.</p>
+<p>There are many tools available for image conversion (non-exhaustive list):</p>
+<ul>
+<li><a href="https://github.com/ome/bioformats" target="_blank">ome/bioformats</a> (<a href="https://github.com/ome/bioformats#bfconvert-cli" target="_blank">bfconvert</a> CLI) Bio-Formats --> Bio-Formats</li>
+<li><a href="https://github.com/glencoesoftware/bioformats2raw" target="_blank">glencoesoftware/bioformats2raw</a> (CLI) Bio-Formats --> intermediate Zarr structure compatible with the OME-Zarr specification</a></li>
+<li><a href="https://github.com/glencoesoftware/raw2ometiff" target="_blank">glencoesoftware/raw2ometiff</a> (CLI) Intermediate Zarr structure (see bioformats2raw) --> OME-TIFF</a></li>
+<li><a href="https://github.com/glencoesoftware/NGFF-Converter" target="_blank">glencoesoftware/NGFF-Converter</a> (GUI) Graphical user interface for bioformats2raw & raw2ometiff</a></li>
+<li><a href="https://github.com/Euro-BioImaging/BatchConvert" target="_blank">Euro-BioImaging/BatchConvert</a> (CLI) Nextflow-based batch conversion tool using bfconvert & bioformats2raw</a></li>
+<li>Python packages such as <a href="https://github.com/bioio-devs/bioio" target="_blank">bioio</a> (many formats), <a href="https://github.com/fideus-labs/ngff-zarr" target="_blank">ngff-zarr</a> (OME-Zarr), or <a href="https://github.com/ome/ome-zarr-py" target="_blank">ome-zarr-py</a></li>
+<li>Any image viewer (GUI) supporting reading/writing using e.g. Bio-Formats, such as ImageJ/Fiji or QuPath</li>
+</ul>

@@ -1,12 +1,12 @@
 {   "phases": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse"],
     "levels": ["Basic", "Intermediate", "Advanced"],
-    "targets": ["training", "guidance", "tool"],
+    "categories": ["training", "guidance", "tool"],
     "types": ["Web page", "Video", "Material", "Tool", "Course"],
     "items": [
         {
             "title": "RDMkit on Your role",
             "short_title": "RDMkit: Your role",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","role","profession","RDMkit on Your role"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse"],
@@ -20,7 +20,7 @@
         {
             "title": "Keynote: First FAIR steps, Rob Hooft",
             "short_title": "First FAIR steps, Rob Hooft",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Video"],
             "search_tags": ["video","FAIR","Keynote: First FAIR steps, Rob Hooft"],
             "phase": ["Share", "Reuse"],
@@ -33,7 +33,7 @@
         {
             "title": "An Introduction to Data Management by Karin Granström (NBIS - SciLifeLab)",
             "short_title": "Intro to Data Management",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Video"],
             "search_tags": ["video","DMP","An Introduction to Data Management by Karin Granström (NBIS - SciLifeLab)", "NGI", "Lite"],
             "phase": ["Plan"],
@@ -46,7 +46,7 @@
         {
             "title": "Research Involving Human Data by Richelle Björvang",
             "short_title": "Research Involving Human Data",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Video"],
             "search_tags": ["video","human data","Research Involving Human Data by Richelle Björvang", "NGI", "Lite"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share"],
@@ -59,7 +59,7 @@
         {
             "title": "SciLifeLab Data Repository Metadata record tutorial",
             "short_title": "Metadata record tutorial",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Video"],
             "search_tags": ["video","metadata","data repository","SciLifeLab Data Repository Metadata record tutorial"],
             "phase": ["Share"],
@@ -72,7 +72,7 @@
         {
             "title": "Handbook for data containing personal information",
             "short_title": "Handbook for personal data",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["SND","Swedish National Data Service","human data","personal data","Handbook for data containing personal information", "personal information"],
             "phase": ["Plan", "Collect", "Preserve", "Share"],
@@ -85,7 +85,7 @@
         {
             "title": "ELSI checklist in Data Stewardship Wizard",
             "short_title": "ELSI checklist in DSW",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["ELSI","checklist","human data","ELSI checklist in Data Stewardship Wizard"],
             "phase": ["Plan"],
@@ -98,7 +98,7 @@
         {
             "title": "RDMkit on Documentation and metadata",
             "short_title": "RDMkit: Documentation and metadata",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","metadata","documentation","RDMkit on Documentation and metadata"],
             "phase": ["Plan", "Collect", "Share"],
@@ -112,7 +112,7 @@
         {
             "title": "Metadata",
             "short_title": "Metadata",
-            "target": ["training"],
+            "category": ["training"],
             "type": ["Material"],
             "search_tags": ["material","Metadata"],
             "phase": ["Plan", "Collect", "Share"],
@@ -126,7 +126,7 @@
         {
             "title": "Open Science and FAIR",
             "short_title": "Open Science & FAIR",
-            "target": ["training"],
+            "category": ["training"],
             "type": ["Material"],
             "search_tags": ["material","open science","FAIR","Open Science and FAIR"],
             "phase": ["Share"],
@@ -140,7 +140,7 @@
         {
             "title": "RDMkit on Human data",
             "short_title": "RDMkit: Human data",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","human data","RDMkit on Human data"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share","Reuse"],
@@ -154,7 +154,7 @@
         {
             "title": "DataCite Commons",
             "short_title": "DataCite Commons",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["search","DataCite","reuse","DataCite Commons"],
             "phase": ["Reuse"],
@@ -166,7 +166,7 @@
         {
             "title": "The Swedish COVID-19 Data Portal one year on",
             "short_title": "Swedish COVID-19 Portal 1 year",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Video"],
             "search_tags": ["video","reuse","COVID","portal","The Swedish COVID-19 Data Portal one year on"],
             "phase": ["Reuse"],
@@ -178,7 +178,7 @@
         {
             "title": "Swedish COVID-19 Data Portal",
             "short_title": "Swedish COVID-19 Portal",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Video"],
             "search_tags": ["video","reuse","COVID","portal","Swedish COVID-19 Data Portal"],
             "phase": ["Reuse"],
@@ -190,7 +190,7 @@
         {
             "title": "EBI repository wizard",
             "short_title": "EBI repository wizard",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["EBI","publication","submission","repository","EBI repository wizard"],
             "phase": ["Share"],
@@ -203,7 +203,7 @@
         {
             "title": "EBI submission YouTube playlist",
             "short_title": "EBI submission on YouTube",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Video"],
             "search_tags": ["EBI","submission","publication","video","repository","EBI submission YouTube playlist"],
             "phase": ["Share"],
@@ -216,7 +216,7 @@
         {
             "title": "RDMkit on Reusing data",
             "short_title": "RDMkit: Reusing data",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","reuse","RDMkit on Reusing data"],
             "phase": ["Reuse"],
@@ -229,7 +229,7 @@
         {
             "title": "RDMkit on Existing data",
             "short_title": "RDMkit: Existing data",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","reuse","RDMkit on Existing data"],
             "phase": ["Reuse"],
@@ -242,7 +242,7 @@
         {
             "title": "Google dataset search",
             "short_title": "Google dataset search",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["Google","search","reuse","Google dataset search"],
             "phase": ["Reuse"],
@@ -254,7 +254,7 @@
         {
             "title": "RDMkit on Preserving data",
             "short_title": "RDMkit: Preserving data",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","preserve","RDMkit on Preserving data"],
             "phase": ["Preserve"],
@@ -267,7 +267,7 @@
         {
             "title": "RDMkit on Sharing data",
             "short_title": "RDMkit: Sharing data",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","share","RDMkit on Sharing data"],
             "phase": ["Share"],
@@ -280,7 +280,7 @@
         {
             "title": "RDMkit on Data publication",
             "short_title": "RDMkit: Data publication",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","publication","RDMkit on Data publication"],
             "phase": ["Share"],
@@ -293,7 +293,7 @@
         {
             "title": "Data publication",
             "short_title": "Data publication",
-            "target": ["training"],
+            "category": ["training"],
             "type": ["Material"],
             "search_tags": ["material","publication","submission","Data publication"],
             "phase": ["Share"],
@@ -306,7 +306,7 @@
         {
             "title": "RDMkit on Analysing data",
             "short_title": "RDMkit: Analysing data",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","analyse","RDMkit on Analysing data"],
             "phase": ["Analyse"],
@@ -319,7 +319,7 @@
         {
             "title": "Introduction to R",
             "short_title": "Introduction to R",
-            "target": ["training"],
+            "category": ["training"],
             "type": ["Material"],
             "search_tags": ["material", "Introduction to R"],
             "phase": ["Analyse"],
@@ -332,7 +332,7 @@
         {
             "title": "Versioning",
             "short_title": "Versioning",
-            "target": ["training"],
+            "category": ["training"],
             "type": ["Material"],
             "search_tags": ["material","git","Versioning"],
             "phase": ["Analyse"],
@@ -345,7 +345,7 @@
         {
             "title": "Data organisation",
             "short_title": "Data organisation",
-            "target": ["training"],
+            "category": ["training"],
             "type": ["Material"],
             "search_tags": ["material","Data organisation","organisation","organization"],
             "phase": ["Collect", "Preserve"],
@@ -358,7 +358,7 @@
         {
             "title": "RDMkit on Processing data",
             "short_title": "RDMkit: Processing data",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDM","process","RDMkit on Processing data"],
             "phase": ["Process"],
@@ -371,7 +371,7 @@
         {
             "title": "RDMkit on Data quality",
             "short_title": "RDMkit: Data quality",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","quality","RDMkit on Data quality"],
             "phase": ["Collect","Process"],
@@ -384,7 +384,7 @@
         {
             "title": "OpenRefine training",
             "short_title": "OpenRefine training",
-            "target": ["training"],
+            "category": ["training"],
             "type": ["Material"],
             "search_tags": ["OpenRefine training","cleaning","material","tool"],
             "phase": ["Collect","Process", "Analyse"],
@@ -398,7 +398,7 @@
         {
             "title": "RDMkit on Data Management Planning",
             "short_title": "RDMkit: DM Planning",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","DMP","data management plan","RDMkit on Data Management Planning"],
             "phase": ["Plan"],
@@ -411,7 +411,7 @@
         {
             "title": "DMP",
             "short_title": "DMP",
-            "target": ["training"],
+            "category": ["training"],
             "type": ["Material"],
             "search_tags": ["DMP","data management plan","material"],
             "phase": ["Plan"],
@@ -425,7 +425,7 @@
         {   
             "title": "RDMkit on Collecting data",
             "short_title": "RDMkit: Collecting data",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","collect","RDMkit on Collecting data"],
             "phase": ["Collect"],
@@ -438,7 +438,7 @@
         {
             "title": "RDMkit on Data transfer",
             "short_title": "RDMkit: Data transfer",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","transfer","data transfer","RDMkit on Data transfer"],
             "phase": ["Collect"],
@@ -452,7 +452,7 @@
         {
             "title": "Aspera CLI install instructions",
             "short_title": "Aspera",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["Aspera CLI install instructions","data transfer"],
             "phase": ["Collect", "Share"],
@@ -465,7 +465,7 @@
         {
             "title": "Rclone documentation",
             "short_title": "Rclone documentation",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["Rclone documentation","data transfer"],
             "phase": ["Share"],
@@ -478,7 +478,7 @@
         {
             "title": "SciLifeLab Data Stewardship Wizard (DSW)",
             "short_title": "SciLifeLab Data Stewardship Wizard",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["DSW","DMP","SciLifeLab Data Stewardship Wizard (DSW)"],
             "phase": ["Plan"],
@@ -491,7 +491,7 @@
         {
             "title": "DMPOnline",
             "short_title": "DMPOnline",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["DMPOnline","DMP"],
             "phase": ["Plan"],
@@ -504,7 +504,7 @@
         {
             "title": "17 Example DMPs hosted in DSW",
             "short_title": "Example DMPs",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["17 Example DMPs hosted in DSW"],
             "phase": ["Plan"],
@@ -517,7 +517,7 @@
         {
             "title": "Introduction to data management practices",
             "short_title": "Intro DM practices",
-            "target": ["training"],
+            "category": ["training"],
             "type": ["Course"],
             "search_tags": ["course", "material", "Introduction to data management practices"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Share"],
@@ -531,7 +531,7 @@
         {
             "title": "BAS Online",
             "short_title": "BAS Online",
-            "target": ["training"],
+            "category": ["training"],
             "type": ["Material"],
             "search_tags": ["SND","Swedish National Data Service","BAS","material","legal","DMP","metadata","BAS Online"],
             "phase": ["Plan", "Collect", "Analyse"],
@@ -543,7 +543,7 @@
         {
             "title": "General information about research data on UU intranet",
             "short_title": "Research data on UU intranet",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["Uppsala","UU","DMP","research data","General information about research data on UU intranet"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share","Reuse"],
@@ -555,7 +555,7 @@
         {
             "title": "Online course on Open science and data management",
             "short_title": "Open science and data management",
-            "target": ["training"],
+            "category": ["training"],
             "type": ["Material"],
             "search_tags": ["KTH","course","open science","data management","Online course on Open science and data management"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share","Reuse"],
@@ -568,7 +568,7 @@
         {
             "title": "Data Management Expert Guide (DMEG)",
             "short_title": "Data Management Expert Guide",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["DMEG","FAIR", "social science","CESSDA","Data Management Expert Guide (DMEG)"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share","Reuse"],
@@ -581,7 +581,7 @@
         {
             "title": "AIDA Data Sharing Policy",
             "short_title": "AIDA Data Sharing Policy",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["AIDA","policy", "share","AIDA Data Sharing Policy"],
             "phase": ["Plan", "Share"],
@@ -593,7 +593,7 @@
         {
             "title": "AIDA Data Hub",
             "short_title": "AIDA Data Hub",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["AIDA Data Hub", "share","AIDA Data Sharing Policy", "human data"],
             "phase": ["Share","Reuse"],
@@ -606,7 +606,7 @@
         {
             "title": "Storage resources available for researchers in Sweden",
             "short_title": "Storage resources in Sweden",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["storage","resources","infrastructure","Storage resources available for researchers in Sweden"],
             "phase": ["Collect", "Process", "Analyse", "Preserve"],
@@ -618,7 +618,7 @@
         {
             "title": "Compute resources available for researchers in Sweden",
             "short_title": "Compute resources in Sweden",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["compute","resources","infrastructure","Compute resources available for researchers in Sweden"],
             "phase": ["Analyse"],
@@ -628,9 +628,21 @@
             "provider":  ["SciLifeLab"]         
         },
         {
+            "title": "Data sources for data-driven life science",
+            "short_title": "Data sources",
+            "category": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["data source","repository","Data sources for data-driven life science"],
+            "phase": ["Reuse"],
+            "level": ["Basic"],
+            "url": "https://data.scilifelab.se/guidance/data_sources/",
+            "description": "A list of data sources available for data-driven life science in Sweden.",
+            "provider":  ["SciLifeLab"]         
+        },
+        {
             "title": "Overview of available national and local computational resources",
             "short_title": "Computational resources",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["compute","resources","infrastructure","Overview of available national and local computational resources"],
             "phase": ["Analyse"],
@@ -642,7 +654,7 @@
         {
             "title": "RDMkit on Data organisation",
             "short_title": "RDMkit: Data organisation",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","organisation", "organization", "data organisation","Metadata", "README files","RDMkit on Data organisation"],
             "phase": ["Plan", "Collect","Preserve" ,"Share"],
@@ -654,9 +666,36 @@
             "licence": "CC BY 4.0"
         },
         {
+            "title": "RDMkit on Bioimaging data",
+            "short_title": "RDMkit: Bioimaging data",
+            "category": ["guidance"],
+            "type": ["Web page"],
+            "search_tags": ["RDMkit","Bioimaging data","RDMkit on Bioimaging data", "Collect", "Collection", "Metadata"],
+            "phase": ["Share"],
+            "topic": ["Metadata"],
+            "level": ["Basic"],
+            "url": "https://rdmkit.elixir-europe.org/bioimaging_data",
+            "description": "Best practice guidance regarding the domain of bioimaging data.",
+            "provider":  ["RDMkit"],
+            "licence": "CC BY 4.0"
+        },
+        {
+            "title": "RDMkit on Proteomics data",
+            "short_title": "RDMkit: Proteomics data",
+            "category": ["guidance"],
+            "type": ["Web page"],
+            "search_tags": ["RDMkit","Process","processing","Metadata","RDMkit on Proteomics data"],
+            "phase": ["Share"],
+            "level": ["Basic"],
+            "url": "https://rdmkit.elixir-europe.org/proteomics",
+            "description": "Best practice guidance regarding the the domain of proteomics data.",
+            "provider":  ["RDMkit"],
+            "licence": "CC BY 4.0"
+        },                
+        {
             "title": "NBIS Submission documentation",
             "short_title": "NBIS Submission documentation",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["NBIS","share","submission","documentation","publication","SOP","ENA","EBI","BioStudies","NBIS Submission documentation"],
             "phase": ["Share"],
@@ -669,20 +708,20 @@
         {
             "title": "Data with personal information in DORIS",
             "short_title": "Personal data in DORIS",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["Data with personal information in DORIS", "Swedish National Data Service", "SND"],
             "phase": ["Share"],
             "topic": ["Sharing human data"],
             "level": ["Basic"],
-            "url": "https://snd.se/en/describe-share-data/share-data-step-step/1-preparations/sharing-data-personal-information",
+            "url": "https://snd.se/en/doris-researchers/data-personal-information-doris",
             "description": "Swedish National Data Service (SND) guidance on sharing data with personal information in DORIS.",
             "provider": ["SND"]
         }, 
         {
             "title": "The Swedish Reference Genome Portal",
             "short_title": "Swedish Reference Genome Portal",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["The Swedish Reference Genome Portal", "reuse", "data catalogue","repository"],
             "phase": ["Reuse", "Share"],
@@ -694,7 +733,7 @@
         {
             "title": "OpenRefine",
             "short_title": "OpenRefine",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["OpenRefine", "clean"],
             "phase": ["Collect","Analyse", "Process"],
@@ -707,7 +746,7 @@
         {
             "title": "protocols.io",
             "short_title": "protocols.io",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["protocols.io", "collaborate", "protocol", "reproducible"],
             "phase": ["Analyse", "Process", "Share"],
@@ -717,9 +756,21 @@
             "provider": ["protocols.io"]
         },
         {
+            "title": "SciLifeLab Protocols",
+            "short_title": "SciLifeLab Protocols",
+            "category": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["SciLifeLab Protocols","protocols.io", "collaborate", "protocol", "reproducible"],
+            "phase": ["Analyse", "Process", "Share"],
+            "level": ["Basic"],
+            "url": "https://www.scilifelab.se/data-ai/protocols/",
+            "description": "The SciLifeLab Protocols, powered by protocols.io premium licence provides life science researchers in Sweden with enhanced tools for creating, sharing, and publishing research methods and protocols.",
+            "provider": ["SciLifeLab"]
+        },
+        {
             "title": "Infectious Diseases Toolkit on Data analysis",
             "short_title": "IDTk: Data analysis ",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["idtk","Infectious Diseases Toolkit on Data analysis", "infectious diseases toolkit", "data analysis"],
             "phase": ["Analyse"],
@@ -732,7 +783,7 @@
         {
             "title": "Infectious Diseases Toolkit on Data description",
             "short_title": "IDTk: Data description",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["idtk","Infectious Diseases Toolkit on Data description", "infectious diseases toolkit", "data description"],
             "phase": ["Collect"],
@@ -746,7 +797,7 @@
         {
             "title": "Infectious Diseases Toolkit on Quality control",
             "short_title": "IDTk: Quality control",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["idtk","Infectious Diseases Toolkit on Quality control", "infectious diseases toolkit", "quality control"],
             "phase": ["Collect", "Process"],
@@ -759,7 +810,7 @@
         {
             "title": "Infectious Diseases Toolkit on Ethical, Legal, and Social Issues",
             "short_title": "IDTk: Ethical, Legal, and Social Issues",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["idtk","Infectious Diseases Toolkit on Ethical, Legal, and Social Issues", "ethical", "legal", "social issues", "ELSI"],
             "topic": ["Research involving human data"],
@@ -772,7 +823,7 @@
         {
             "title": "Researchdata.se",
             "short_title": "Researchdata.se",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["Researchdata.se","SND","Swedish National Data Service", "reuse", "data catalogue"],
             "phase": ["Share", "Reuse"],
@@ -785,7 +836,7 @@
         {
             "title": "DORIS",
             "short_title": "DORIS",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["DORIS","SND","Swedish National Data Service"],
             "phase": ["Share", "Reuse"],
@@ -798,7 +849,7 @@
         {
             "title": "SciLifeLab Open Science Software Checklist",
             "short_title": "Open Science Software Checklist",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["SciLifeLab Open Science Software Checklist"],
             "topic": ["Sharing code and workflows"],
@@ -810,7 +861,7 @@
         {
             "title": "Programming Formalisms: Turning scripters into computer scientists",
             "short_title": "Programming Formalisms",
-            "target": ["training"],
+            "category": ["training"],
             "type": ["Course"],
             "search_tags": ["Programming Formalisms: Turning scripters into computer scientists","Programming Formalisms", "script", "code"],
             "topic": ["Sharing code and workflows"],
@@ -822,7 +873,7 @@
         {
             "title": "Python Code Style Conventions",
             "short_title": "Python Code Style Conventions",
-            "target": ["training"],
+            "category": ["training"],
             "type": ["Course"],
             "search_tags": ["Python Code Style Conventions", "Carpentries"],
             "topic": ["Sharing code and workflows"],
@@ -835,7 +886,7 @@
         {
             "title": "Verifying Code Style Using Linters",
             "short_title": "Verifying Code Style Using Linters",
-            "target": ["training"],
+            "category": ["training"],
             "type": ["Course"],
             "search_tags": ["Verifying Code Style Using Linters", "Carpentries", "Python"],
             "topic": ["Sharing code and workflows"],
@@ -848,7 +899,7 @@
         {
             "title": "Cookiecutter Data Science",
             "short_title": "Cookiecutter Data Science",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["Cookiecutter Data Science", "cookie cutter", "Python"],
             "topic": ["Sharing code and workflows"],
@@ -861,7 +912,7 @@
         {
             "title": "Cookiecutter for Computational Molecular Sciences Python Packages",
             "short_title": "Cookiecutter for CMS Python Packages",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["Cookiecutter for Computational Molecular Sciences Python Packages", "CMS", "cookie cutter"],
             "topic": ["Sharing code and workflows"],
@@ -874,7 +925,7 @@
         {
             "title": "National guidelines for open science",
             "short_title": "National guidelines for open science",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Material"],
             "search_tags": ["National Library of Sweden","Open Science", "National guidelines for open science", "policy"],
             "phase": ["Share", "Reuse"],
@@ -887,7 +938,7 @@
         {
             "title": "Research Software Quality Kit",
             "short_title": "RSQKit",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["Research Software Quality Kit", "RSQKit", "EVERSE", "Software"],
             "topic": ["Sharing code and workflows"],
@@ -897,11 +948,11 @@
             "provider":  ["European Virtual Institute for Research Software Excellence (EVERSE)"]
         },
         {
-            "title": "Long-term preservation",
+            "title": "SND on Long-term preservation",
             "short_title": "Long-term preservation",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["Long-term preservation", "Researchdata.se","SND","Swedish National Data Service"],
+            "search_tags": ["SND on Long-term preservation", "Researchdata.se","SND","Swedish National Data Service"],
             "phase": ["Preserve"],
             "level": ["Basic"],
             "url": "https://researchdata.se/en/manage-data/describe-share-and-preserve-data/what-should-i-share/long-term-preservation",
@@ -918,14 +969,52 @@
             "topic": ["Data Management Plan"],
             "level": ["Basic"],
             "url": "https://snd.se/en/research-data-support/introduction-legal-aspects-research/research-principal",
-            "description": "Swedish National Data Service (SND) guidance on the concept of research principal.",
+            "description": "Swedish National Data Service (SND) guidance on the concept of research principal."
+            "provider":  ["SND"],
+            "licence": "CC BY 4.0 (texts)"
+        },
+        {    "title": "SND on Describe, share, and preserve data",
+            "short_title": "Describe, share, and preserve data",
+            "category": ["guidance"],
+            "type": ["Web page"],
+            "search_tags": ["SND on Describe, share, and preserve data", "Researchdata.se","SND","Swedish National Data Service"],
+            "phase": ["Share","Preserve"],
+            "level": ["Basic"],
+            "url": "https://researchdata.se/en/manage-data/describe-share-and-preserve-data",
+            "description": "Swedish National Data Service (SND) guidance on describing, shareing and preservation of data.",
+            "provider":  ["SND"],
+            "licence": "CC BY 4.0 (texts)"
+        },
+        {
+            "title": "SND on Scientific code",
+            "short_title": "Scientific code",
+            "category": ["guidance"],
+            "type": ["Web page"],
+            "search_tags": ["SND on Scientific code", "Researchdata.se","SND","Swedish National Data Service"],
+            "topic": ["Sharing code and workflows"],
+            "level": ["Basic"],
+            "url": "https://researchdata.se/en/manage-data/describe-share-and-preserve-data/scientific-code",
+            "description": "Swedish National Data Service (SND) guidance on scientific code.",
+            "provider":  ["SND"],
+            "licence": "CC BY 4.0 (texts)"
+        },
+        {
+            "title": "SND on Data management plans",
+            "short_title": "Data management plan",
+            "category": ["guidance"],
+            "type": ["Web page"],
+            "search_tags": ["SND on Data management plans", "DMP", "Researchdata.se","SND","Swedish National Data Service"],
+            "topic": ["Data Management Plan"],
+            "level": ["Basic"],
+            "url": "https://researchdata.se/en/manage-data/organize-data/data-management-plan",
+            "description": "Swedish National Data Service (SND) guidance on data management plans",
             "provider":  ["SND"],
             "licence": "CC BY 4.0 (texts)"
         },
         {
             "title": "Rayner, D. (2025). Open Science in the Swedish context - Data reuse.",
             "short_title": "Data reuse",
-            "target": ["training"],
+            "category": ["training"],
             "type": ["Material"],
             "search_tags": ["material","reuse","Rayner, D. (2025). Open Science in the Swedish context - Data reuse."],
             "phase": ["Reuse"],
@@ -938,7 +1027,7 @@
         {
             "title": "SCoRe user documentation on computational resources",
             "short_title": "SCoRe: computational resources",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["SCoRe user documentation on computational resources", "SCoRe", "Support for Computational Resources","compute"],
             "phase": ["Process", "Analyse"],
@@ -950,7 +1039,7 @@
         {
             "title": "A Quick Guide to Organizing Computational Biology Projects",
             "short_title": "Guide on organizing projects",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["A Quick Guide to Organizing Computational Biology Projects", "organize","organise"],
             "phase": ["Collect", "Analyse"],
@@ -962,7 +1051,7 @@
         {
             "title": "SciLifeLab services",
             "short_title": "SciLifeLab services",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["SciLifeLab services", "infrastructure", "SLL"],
             "phase": ["Plan","Collect"],
@@ -974,7 +1063,7 @@
         {
             "title": "National Academic Infrastructure for Supercomputing in Sweden (NAISS)",
             "short_title": "NAISS",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["National Academic Infrastructure for Supercomputing in Sweden (NAISS)", "compute", "HPC","high performance compute", "cluster", "infrastructure"],
             "phase": ["Analyse"],
@@ -986,7 +1075,7 @@
         {
             "title": "SciLifeLab FAIR storage",
             "short_title": "SciLifeLab FAIR storage",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["SciLifeLab FAIR storage", "storage"],
             "phase": ["Collect"],
@@ -998,7 +1087,7 @@
         {
             "title": "Open Researcher and Contributor ID (ORCID)",
             "short_title": "ORCID",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["Open Researcher and Contributor ID (ORCID)", "ORCID", "identifier"],
             "phase": ["Plan"],
@@ -1010,7 +1099,7 @@
         {
             "title": "NAISS storage rounds",
             "short_title": "NAISS storage",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["NAISS storage rounds", "storage"],
             "phase": ["Collect", "Analyse", "Preserve"],
@@ -1022,7 +1111,7 @@
         {
             "title": "Swedish Pathogens Portal list of available data",
             "short_title": "Pathogens Portal data",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["Swedish Pathogens Portal list of available data", "reuse", "data catalogue","repository"],
             "phase": ["Reuse"],
@@ -1034,7 +1123,7 @@
         {
             "title": "Registry of Research Data Repositories (re3data)",
             "short_title": "re3data",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["Registry of Research Data Repositories (re3data)", "reuse", "data catalogue"],
             "phase": ["Reuse", "Share"],
@@ -1046,7 +1135,7 @@
         {
             "title": "ELIXIR Deposition Databases for Biomolecular Data",
             "short_title": "ELIXIR Database list",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["ELIXIR Deposition Databases for Biomolecular Data","ELIXIR Deposition Database list","share","repository"],
             "phase": ["Share"],
@@ -1056,120 +1145,9 @@
             "provider":  ["ELIXIR"]
         },
         {
-            "title": "European Nucleotide Archive (ENA)",
-            "short_title": "ENA",
-            "target": ["tool"],
-            "type": ["Tool"],
-            "search_tags": ["European Nucleotide Archive (ENA)","repository","reuse","share"],
-            "phase": ["Share", "Reuse"],
-            "level": ["Basic"],
-            "url": "https://www.ebi.ac.uk/ena/",
-            "description": "The European Nucleotide Archive (ENA) hosts an instance of the Sequence Read Archive (SRA), the same archive that exists on NCBI. SRA accepts raw sequence data from any sequencing platform, generated in any research project.",
-            "provider":  ["EBI"]
-        },
-        {
-            "title": "BioStudies",
-            "short_title": "BioStudies",
-            "target": ["tool"],
-            "type": ["Tool"],
-            "search_tags": ["BioStudies","repository","reuse","share","human data"],
-            "phase": ["Share", "Reuse"],
-            "topic": ["Sharing human data"],
-            "level": ["Basic"],
-            "url": "https://www.ebi.ac.uk/biostudies/",
-            "description": "BioStudies database contains descriptions of biological studies and is especially suited for linking a study to datasets in different repositories. However, it can also be used to describe sensitive data that has not been uploaded to a repository.",
-            "provider":  ["EBI"]
-        },
-        {
-            "title": "ArrayExpress",
-            "short_title": "ArrayExpress",
-            "target": ["tool"],
-            "type": ["Tool"],
-            "search_tags": ["ArrayExpress","repository","reuse","share"],
-            "phase": ["Share", "Reuse"],
-            "level": ["Basic"],
-            "url": "https://www.ebi.ac.uk/arrayexpress/",
-            "description": "The functional genomics data collection (ArrayExpress), stores data from high-throughput functional genomics experiments, and provides data for reuse to the research community. In line with community guidelines, a study typically contains metadata such as detailed sample annotations, protocols, processed data and raw data. Raw sequence reads from high-throughput sequencing studies are brokered to the European Nucleotide Archive (ENA), and links are provided to download the sequence reads from ENA. Data can be submitted to the ArrayExpress collection through its dedicated submission tool, Annotare.",
-            "provider":  ["EBI"]
-        },
-        {
-            "title": "European Genome-phenome Archive (EGA)",
-            "short_title": "EGA",
-            "target": ["tool"],
-            "type": ["Tool"],
-            "search_tags": ["European Genome-phenome Archive (EGA)","EGA","repository","reuse","share"],
-            "phase": ["Share", "Reuse"],
-            "topic": ["Sharing human data"],
-            "level": ["Basic"],
-            "url": "https://ega-archive.org/",
-            "description": "European Genome-phenome Archive (EGA) is a service for sharing personally identifiable genetic and phenotypic data resulting from biomedical research projects. The repository is hosted by the European Bioinformatics Institute (EMBL-EBI) and the Centre for Genomic Regulation (CRG). Any data submitted to the repository is subject to controlled access, which means that access to the data only will be granted after a formal application procedure.",
-            "provider":  ["EBI"]
-        },
-        {
-            "title": "Federated European Genome-phenome Archive Sweden",
-            "short_title": "FEGA Sweden",
-            "target": ["tool"],
-            "type": ["Tool"],
-            "search_tags": ["Federated European Genome-phenome Archive Sweden","FEGA Sweden","repository","reuse","share"],
-            "phase": ["Share", "Reuse"],
-            "topic": ["Sharing human data"],
-            "level": ["Basic"],
-            "url": "https://fega.nbis.se/",
-            "description": "FEGA Sweden is a repository for storing and sharing personally identifiable genetic and phenotypic data in Sweden in a way that meets the requirements of the General Data Protection Regulation (GDPR). It is part of the Federated European Genome-phenome Archive, which is a network consisting of several national nodes and the European Genome-phenome Archive (EGA). Researchers can create a submission request by filling in a form on the website",
-            "provider":  ["NBIS"]
-        },
-        {
-            "title": "BioImage Archive",
-            "short_title": "BioImage Archive",
-            "target": ["tool"],
-            "type": ["Tool"],
-            "search_tags": ["BioImage Archive","image","repository","reuse","share"],
-            "phase": ["Share", "Reuse"],
-            "level": ["Basic"],
-            "url": "https://www.ebi.ac.uk/bioimage-archive/",
-            "description": "The BioImage Archive is a free, publicly available online resource which stores and distributes biological images. It accepts submissions of data from any imaging modality, as long as the data are either associated with a peer-reviewed publication, or of value beyond a single experiment.",
-            "provider":  ["EBI"]
-        },
-        {
-            "title": "MetaboLights",
-            "short_title": "MetaboLights",
-            "target": ["tool"],
-            "type": ["Tool"],
-            "search_tags": ["MetaboLights","repository","reuse","share"],
-            "phase": ["Share", "Reuse"],
-            "level": ["Basic"],
-            "url": "https://www.ebi.ac.uk/metabolights/",
-            "description": "MetaboLights is a database for Metabolomics experiments and derived information. The database is cross-species, cross-technique and covers metabolite structures and their reference spectra as well as their biological roles, locations and concentrations, and experimental data from metabolic experiments.",
-            "provider":  ["EBI"]
-        },
-        {
-            "title": "PRoteomics IDEntifications Database (PRIDE)",
-            "short_title": "PRIDE",
-            "target": ["tool"],
-            "type": ["Tool"],
-            "search_tags": ["PRoteomics IDEntifications Database (PRIDE)","PRIDE","repository","reuse","share"],
-            "phase": ["Share", "Reuse"],
-            "level": ["Basic"],
-            "url": "https://www.ebi.ac.uk/pride/",
-            "description": "PRIDE admits protein and peptide identification/quantification data with the accompanying mass spectra evidence and any other related data types.",
-            "provider":  ["EBI"]
-        },
-        {
-            "title": "PeptideAtlas",
-            "short_title": "PeptideAtlas",
-            "target": ["tool"],
-            "type": ["Tool"],
-            "search_tags": ["PeptideAtlas","repository","reuse","share"],
-            "phase": ["Share", "Reuse"],
-            "level": ["Basic"],
-            "url": "http://www.peptideatlas.org/",
-            "description": "PeptideAtlas is a multi-organism, publicly accessible compendium of peptides identified in a large set of tandem mass spectrometry proteomics experiments. PeptideAtlas admits SRM/MRM data that does not fit into PRIDE (targeted datasets).",
-            "provider":  ["PeptideAtlas"]
-        },
-        {
             "title": "FAIRsharing",
             "short_title": "FAIRsharing",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["FAIRsharing", "repository", "metadata", "standards"],
             "phase": ["Share"],
@@ -1182,19 +1160,19 @@
         {
             "title": "KI Data Repository",
             "short_title": "KI Data Repository",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["KI Data Repository","repository","storage","share","institutional repository"],
             "phase": ["Share"],
             "level": ["Basic"],
-            "url": "https://kib.ki.se/en/publish-analyse/publish-and-share-research-data/doris-publish-and-share-your-research-data",
+            "url": "https://kib.ki.se/en/publish-analyse/publish-and-share-research-data/ki-data-repository",
             "description": "KI Data Repository is a data repository where Karolinska Institutet's (KI's) researchers can store, publish and share data.",
             "provider":  ["KI"]
         },
         {
             "title": "KTH Data Repository",
             "short_title": "KTH Data Repository",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["KTH Data Repository","repository","storage","share","institutional repository"],
             "phase": ["Share"],
@@ -1206,10 +1184,11 @@
         {
             "title": "SciLifeLab Data Repository",
             "short_title": "SciLifeLab Data Repository",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["SciLifeLab Data Repository","repository","share","institutional repository"],
             "phase": ["Share"],
+            "topic": ["Sharing code and workflows"],
             "level": ["Basic"],
             "url": "https://www.scilifelab.se/data/repository/",
             "description": "The SciLifeLab Data Repository, powered by Figshare and supported by SciLifeLab and the Knut and Alice Wallenberg foundation through the Data-Driven Life Science (DDLS) program, is a repository for publishing any kind of research-related data, e.g. documents, figures, or presentations. Figshare is an open data repository used by researchers in numerous disciplines. Through an agreement with Figshare, SciLifeLab offers researchers and units the opportunity to upload and publish their research data through a dedicated portal.",
@@ -1218,7 +1197,7 @@
         {
             "title": "Stockholm University Figshare",
             "short_title": "SU Figshare",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["Stockholm University Figshare","repository","share","institutional repository"],
             "phase": ["Share"],
@@ -1230,7 +1209,7 @@
         {
             "title": "Guide for submission of metabarcoding data to ENA",
             "short_title": "Submit metabarcoding data",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["Guide for submission of metabarcoding data to ENA", "SBDI", "submit", "biodiversity"],
             "phase": ["Share"],
@@ -1242,7 +1221,7 @@
         {
             "title": "European Nucleotide Archive (ENA) user documentation",
             "short_title": "ENA documentation",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["European Nucleotide Archive (ENA) user documentation", "submit"],
             "phase": ["Share"],
@@ -1252,57 +1231,9 @@
             "provider":  ["EBI"]
         },
         {
-            "title": "Annotare - ArrayExpress submission tool",
-            "short_title": "Annotare - ArrayExpress",
-            "target": ["guidance", "tool"],
-            "type": ["Web page", "Tool"],
-            "search_tags": ["Annotare - ArrayExpress submission tool", "submit"],
-            "phase": ["Share"],
-            "level": ["Basic"],
-            "url": "https://www.ebi.ac.uk/fg/annotare/login/",
-            "description": "Annotare is a tool for submitting functional genomics data to the ArrayExpress collection in BioStudies. It generates MAGE-TAB format and supports high metadata standards in compliance with MIAME/MINSEQE/MINSCE guidelines.",
-            "provider":  ["EBI"]
-        },
-        {
-            "title": "PRIDE Submission Tool",
-            "short_title": "PRIDE submission",
-            "target": ["tool"],
-            "type": ["Tool"],
-            "search_tags": ["PRIDE Submission Tool","submit"],
-            "phase": ["Share"],
-            "level": ["Basic"],
-            "url": "https://www.ebi.ac.uk/pride/markdownpage/pridesubmissiontool",
-            "description": "The PRIDE Submission Tool (also know as PX Submission Tool) is the main tool used to submit proteomics datasets to PRIDE Archive. This tool has been implemented as a wizard, guiding submitters through a set of simple steps to complete each dataset submission.",
-            "provider":  ["EBI"]
-        },
-        {
-            "title": "How to submit data to PRIDE",
-            "short_title": "PRIDE documentation",
-            "target": ["guidance"],
-            "type": ["Web page"],
-            "search_tags": ["How to submit data to PRIDE","submit"],
-            "phase": ["Share"],
-            "level": ["Basic"],
-            "url": "https://www.ebi.ac.uk/pride/markdownpage/documentationpage",
-            "description": "PRIDE resources documentation on how to submit.",
-            "provider":  ["EBI"]
-        },
-        {
-            "title": "PASSEL - PeptideAtlas submission tool",
-            "short_title": "PASSEL - PeptideAtlas",
-            "target": ["tool"],
-            "type": ["Tool"],
-            "search_tags": ["PASSEL - PeptideAtlas submission tool", "submit"],
-            "phase": ["Share"],
-            "level": ["Basic"],
-            "url": "https://peptideatlas.org/passel/",
-            "description": "The PeptideAtlas SRM Experiment Library (PASSEL) is a component of the PeptideAtlas project that is designed to enable submission, dissemination, and reuse of SRM experimental results from analysis of biological samples.",
-            "provider":  ["PeptideAtlas"]
-        },
-        {
             "title": "Figshare",
             "short_title": "Figshare",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["Figshare","general-purpose","repository"],
             "phase": ["Share","Reuse"],
@@ -1314,10 +1245,11 @@
         {
             "title": "Zenodo",
             "short_title": "Zenodo",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["Zenodo","general-purpose","repository"],
             "phase": ["Share", "Reuse"],
+            "topic": ["Sharing code and workflows"],
             "level": ["Basic"],
             "url": "https://zenodo.org/",
             "description": "Zenodo is an open data, general-purpose, repository operated by CERN. It can be used for sharing basically any kind of data, but also for just describing data stored elsewhere.",
@@ -1326,7 +1258,7 @@
         {
             "title": "EUDAT - B2SHARE",
             "short_title": "B2SHARE",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["EUDAT - B2SHARE","general-purpose","repository","storage"],
             "phase": ["Collect","Share"],
@@ -1338,7 +1270,7 @@
         {
             "title": "The FAIR Data Principles",
             "short_title": "FAIR principles",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["The FAIR Data Principles", "FORCE11"],
             "topic": ["FAIR principles"],
@@ -1348,22 +1280,9 @@
             "provider":  ["FORCE11"]
         },
         {
-            "title": "ENA checklists",
-            "short_title": "ENA checklists",
-            "target": ["tool"],
-            "type": ["Tool"],
-            "search_tags": ["ENA checklists","metadata","submit","sample"],
-            "phase": ["Share"],
-            "topic": ["Metadata"],
-            "level": ["Basic"],
-            "url": "https://www.ebi.ac.uk/ena/submit/checklists",
-            "description": "European Nucleotide Archive sample metadata checklists. There is a minimum amount of information required during ENA sample registration and all samples must conform to a defined checklist of expected metadata values. The most suitable checklist for sample registration depends on the type of the sample.",
-            "provider":  ["EBI"]
-        },
-        {
             "title": "How to make a data dictionary",
             "short_title": "Data dictionary",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["How to make a data dictionary","metadata", "OSF"],
             "topic": ["Metadata"],
@@ -1375,7 +1294,7 @@
         {
             "title": "Ontology Lookup Service (OLS)",
             "short_title": "Ontology Lookup Service (OLS)",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["Ontology Lookup Service (OLS)","metadata"],
             "topic": ["Metadata"],
@@ -1387,7 +1306,7 @@
         {
             "title": "Open Biological and Biomedical Ontology Foundry",
             "short_title": "OBO Foundry",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["Open Biological and Biomedical Ontology Foundry","OBO Foundry","metadata"],
             "topic": ["Metadata"],
@@ -1399,7 +1318,7 @@
         {
             "title": "ZOOMA ontology annotation",
             "short_title": "ZOOMA",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["ZOOMA ontology annotation","metadata"],
             "topic": ["Metadata"],
@@ -1411,7 +1330,7 @@
         {
             "title": "Ontobee",
             "short_title": "Ontobee",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["Ontobee","metadata","ontology"],
             "topic": ["Metadata"],
@@ -1423,7 +1342,7 @@
         {
             "title": "Data Protection Impact Assessment tool from CNIL",
             "short_title": "PIA software",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["Data Protection Impact Assessment tool from CNIL", "DPIA"],
             "topic": ["Research involving human data"],
@@ -1435,7 +1354,7 @@
         {
             "title": "Bianca user guide",
             "short_title": "Bianca user guide",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["Bianca user guide", "human data"],
             "phase": ["Analyse"],
@@ -1448,7 +1367,7 @@
         {
             "title": "Swedish Research Council - Good research practice (2024)",
             "short_title": "Good research practice (2024)",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["Swedish Research Council - Good research practice (2024)", "ethical"],
             "topic": ["University RDM resources"],
@@ -1460,7 +1379,7 @@
         {
             "title": "SciLifeLab Precision Medicine Portal",
             "short_title": "SciLifeLab PM Portal",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["SciLifeLab Precision Medicine Portal"],
             "phase": ["Reuse"],
@@ -1472,7 +1391,7 @@
         {
             "title": "SciLifeLab PM Portal: Introduction to OMOP-CDM",
             "short_title": "Introduction OMOP-CDM",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["SciLifeLab PM Portal: Introduction to OMOP-CDM","PM portal","precision medicine portal","OMOP-CDM", "Observational Medical Outcomes Partnership Common Data Model"],
             "topic": ["Sharing human data"],
@@ -1484,7 +1403,7 @@
         {
             "title": "OMOP Common Data Model",
             "short_title": "OMOP-CDM",
-            "target": ["tool"],
+            "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["OMOP Common Data Model","OMOP-CDM", "Observational Medical Outcomes Partnership Common Data Model", "OHDSI", "Observational Health Data Sciences and Informatics"],
             "topic": ["Sharing human data"],
@@ -1496,7 +1415,7 @@
         {
             "title": "Openscience.se",
             "short_title": "Openscience.se",
-            "target": ["guidance"],
+            "category": ["guidance"],
             "type": ["Material"],
             "search_tags": ["National Library of Sweden","SND", "Swedish National Data Service", "SUHF","Association of Swedish Higher Education Institutions","Openscience.se","Open Science"],
             "phase": ["Share"],

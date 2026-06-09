@@ -8,9 +8,9 @@ toc: True
 # Sharing code and workflows 
 In the era of FAIR (Findable, Accessible, Interoperable and Reusable) and Open Science, **all research outputs** should be shared and made available to the public. This includes the code and workflows produced during the course of the research project. This page, while not exhaustive, aims to give an introduction to the topic of FAIR code. 
 
-<a class="link-teal" href="/topics/fair-principles"><b>Learn more about the FAIR principles <i class="bi bi-arrow-right-square"></i></b></a><br/><br/>
+<a class="link-teal" href="/topics/fair-principles"><b>Learn more about the FAIR principles <i class="bi bi-arrow-right-square"></i></b></a><br><br>
 <a class="link-teal" href="https://openscience.se/en" target="_blank"><b>Learn more about Open science <i class="bi bi-box-arrow-up-right"></i></b></a>
-<br/><br/>
+<br><br>
 
 ## What are code & workflows?
 
@@ -53,7 +53,7 @@ How you share code and workflows depends on your goals; whether you seek transpa
 
 To ensure transparency, make a copy of your code or workflow available for long-term access, independent of any research paper. This should be accompanied by a README file with a clear description, usage instructions, and licence(s). Remember to also describe the compute environment (platform, specific software versions, dependencies or libraries used) in order to ensure compatibility and eliminate potential version conflicts or discrepancies. Collaborative version control platforms, such as GitHub, are ideal for both sharing and ongoing development. Use tags or releases to be able to reference specific versions of your code in publication etc.
 
-To enhance FAIRness, consider obtaining a persistent identifier for your code or workflow. One way to obtain a persisten identifier is by publishing your code or workflow in a research output repository, such as <a href="https://zenodo.org/" target="_blank"> Zenodo</a> or the <a href="https://figshare.scilifelab.se/" target="_blank">SciLifeLab Data Repository</a>. This can be achieved by linking your GitHub repository or uploading files directly. Another way to obtain a persistent identifier is via the <a href="https://rrid.site" target= "_blank">Research Resource Identification Portal (RRID)</a>. 
+To enhance FAIRness, consider obtaining a persistent identifier for your code or workflow. One way to obtain a persistent identifier is by publishing your code or workflow in a research output repository, such as <a href="https://zenodo.org/" target="_blank"> Zenodo</a> or the <a href="https://figshare.scilifelab.se/" target="_blank">SciLifeLab Data Repository</a>. This can be achieved by linking your GitHub repository or uploading files directly. Another way to obtain a persistent identifier is via the <a href="https://rrid.site" target= "_blank">Research Resource Identification Portal (RRID)</a>. 
 
 If your code or workflow is intended for reuse, distribute it through a package manager (e.g., <a href="https://bioconda.github.io/" target= "_blank">BioConda</a> or <a href="https://cran.r-project.org/" target= "_blank">CRAN</a>). For workflows, consider joining communities like <a href="https://nf-co.re/" target= "_blank">nf-core</a> or <a href="https://galaxyproject.org/eu/" target= "_blank">Galaxy Europe</a>, and register your workflow on platforms such as <a href="https://workflowhub.eu/" target= "_blank">WorkflowHub</a>. These steps help others build upon your work.
 

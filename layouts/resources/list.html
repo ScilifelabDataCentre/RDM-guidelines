@@ -1,5 +1,7 @@
 {{ define "main" }}
 
+<!-- Display all guidance, tools, and training resources, separated into tabs with search and filter functionality -->
+
 {{ .Content}}
 
 {{/* Compile list of the resources in Hugo */}}
@@ -24,17 +26,17 @@
 
 <!-- Collect and sort all resources on title -->
 {{ range sort $.Site.Data.resources.items ".title" "asc" }}
-  {{ if in .target "training"}}
+  {{ if in .category "training"}}
     {{ $t_rlist = $t_rlist | append . }}
     {{ $t_type = $t_type | append .type }}
     {{ $t_provider =  $t_provider | append .provider }}
   {{ end }}
-  {{ if in .target "guidance"}}
+  {{ if in .category "guidance"}}
     {{ $g_rlist = $g_rlist | append . }}
     {{ $g_type = $g_type | append .type }}
     {{ $g_provider =  $g_provider | append .provider }}
   {{ end }}
-  {{ if in .target "tool"}}
+  {{ if in .category "tool"}}
     {{ $to_rlist = $to_rlist | append . }}
     {{ $to_type = $to_type | append .type }}
     {{ $to_provider =  $to_provider | append .provider }}
@@ -71,25 +73,26 @@
 
 <!--  Tab content -->
 <div class="tab-content">
-  {{ $targets := slice "training" "guidance" "tool" }}
-  {{ range $target := $targets }}
-    {{ $target_rlist := index (index $resources $target) "rlist" }}
-    {{ $target_type := index (index $resources $target) "type" }}
-    {{ $target_provider := index (index $resources $target) "provider" }}
-    {{ $target_phase := index (index $resources $target) "phase" }}
-    {{ $target_level := index (index $resources $target) "level" }}
-    <div class="tab-pane fade {{ if eq $target "training" }}show active{{ end }}" 
-        id="resources-{{ $target }}" role="tabpanel">
+  {{ $categories := slice "training" "guidance" "tool" }}
+  {{ range $category := $categories }}
+    {{ $category_rlist := index (index $resources $category) "rlist" }}
+    {{ $category_type := index (index $resources $category) "type" }}
+    {{ $category_provider := index (index $resources $category) "provider" }}
+    {{ $category_phase := index (index $resources $category) "phase" }}
+    {{ $category_level := index (index $resources $category) "level" }}
+    <div class="tab-pane fade {{ if eq $category "training" }}show active{{ end }}" 
+        id="resources-{{ $category }}" role="tabpanel">
       <div class="row">
+        <!-- Search and filter section -->
         <div class="col-lg-2 mb-2 mb-lg-0 pe-lg-0">
           <div class="resources-search-filter ">Search</div>
           <div class="input-group">
             <label class ="form-control-label" for="Search" aria-labelledby="Search">             
-            <input type="text" id="Search-{{ $target }}" class="form-control" placeholder="Name/Keywords" resoures="{{ $target }}_resources">
+            <input type="text" id="Search-{{ $category }}" class="form-control" placeholder="Name/Keywords" resoures="{{ $category }}_resources">
           </div>
-          {{ if eq $target "guidance" }}
+          {{ if eq $category "guidance" }}
             <div class="resources-search-filter ">Type</div>
-            {{ range sort $target_type }}
+            {{ range sort $category_type }}
               <div class="form-check">
                 <label class="form-check-label" for="{{ . }}">{{ . }}</label>                
                 <input class="form-check-input" type="checkbox" id="{{ . }}" name="type" value="{{ delimit (split . " ") "-" | lower }}">
@@ -99,36 +102,44 @@
           <div class="resources-search-filter ">Phase</div>
           {{ range $phase }}
             <div class="form-check">
-              <label class="form-check-label" for="{{ $target }}-{{ . }}">{{ . }}</label>              
-              <input class="form-check-input" type="checkbox" id="{{ $target }}-{{ . }}" name="phase" value="{{ delimit (split . " ") "-" | lower }}">
+              <label class="form-check-label" for="{{ $category }}-{{ . }}">{{ . }}</label>              
+              <input class="form-check-input" type="checkbox" id="{{ $category }}-{{ . }}" name="phase" value="{{ delimit (split . " ") "-" | lower }}">
             </div>
           {{ end }}
         </div>
         <div class="col-lg">
-          <div id="{{ $target }}_resources" class="row g-2">
-            {{ range $ind, $cont := $target_rlist }}
+          <div id="{{ $category }}_resources" class="row g-2">
+            <!-- Iterate over the resources and display them in cards. -->
+            {{ range $ind, $cont := $category_rlist }}
               <div class="col-md-4 col-lg-4 resource" 
                 data-type="{{ delimit (apply .type "urlize" ".") " " }}" 
                 data-phase="{{ delimit (apply .phase "urlize" ".") " " }}" 
                 data-level="{{ delimit (apply .level "urlize" ".") " " }}" 
                 data-provider="{{ delimit (apply .provider "urlize" ".") " " }}" 
                 {{ with .search_tags }}data-search-tags="{{ delimit . ":" | lower }}"{{ end }}>
-                <div class="p-3 rounded border h-100 resource-card-{{$target}}">
-                  <a class="resources-header-{{$target}}" role="button" data-bs-toggle="modal"
-                      data-bs-target="#descriptionModal{{ $target}}{{ $ind }}">{{ .short_title }}</a>
-                  {{ if .provider }}<div class="row">
-                    <div class="col">
-                      <small><b>Content provider:</b> {{ delimit .provider ", " }}</small>
+                <div class="pt-3 px-3 pb-0 rounded border border-3 h-100 resource-card-{{$category}} clickable-card"
+                   data-bs-toggle="modal" data-bs-target="#descriptionModal{{ $category}}{{ $ind }}">
+                  <div class="resources-header-{{$category}} mb-1">{{ .short_title }}</div>
+                  <div class="col mt-0 pt-0 d-flex justify-content-between align-items-center">
+                    <div>
+                      {{ if .provider }}
+                          <small><b>Provider:</b> {{ delimit .provider ", " }}</small>
+                      {{ end }}
                     </div>
-                  </div>{{ end }}
+                    
+                    <div>
+                      {{ if eq $category "guidance" }}
+                          {{ range .type }}
+                            {{ if eq . "Video"}}<i class="bi-camera-video-fill"></i>{{ end }}
+                          {{ end }}    
+                      {{ end }}
+                    </div>
+                  </div>
                   <div class="row mt-3">
                     <div class="col">
-                      <button type="button" class="btn btn-light-grey" data-bs-toggle="modal"
-                        data-bs-target="#descriptionModal{{ $target}}{{ $ind }}">
-                        See details
-                      </button>
-                      <div class="modal fade" id="descriptionModal{{ $target}}{{ $ind }}" tabindex="-1"
-                        aria-labelledby="descriptionModal{{ $target}}{{ $ind }}" aria-hidden="true">
+                      <!-- Modal for resource description, phase, provider, DOI and licence. It is triggered by both the resource title and clicking the card -->
+                      <div class="modal fade" id="descriptionModal{{ $category}}{{ $ind }}" tabindex="-1"
+                        aria-labelledby="descriptionModal{{ $category}}{{ $ind }}" aria-hidden="true">
                         <div class="modal-dialog modal-lg">
                           <div class="modal-content">
                             <div class="modal-header">
@@ -168,27 +179,17 @@
                               </div>
                             </div>
                             <div class="modal-footer">
-                              <button type="button" class="btn btn-teal" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-light-grey" data-bs-dismiss="modal">Close</button>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col">
-                      {{ if eq $target "guidance" }}
-                        <div class="d-flex justify-content-between">
-                          {{ range .type }}
-                            {{ if eq . "Video"}}<i class="bi-camera-video-fill"> </i>
-                            {{ end }}
-                          {{ end }}    
-                        </div>
-                      {{ end }}
-                    </div>
                   </div>
                 </div>
               </div>
             {{ end }}
-            <div id="no-filtered-resource-{{ $target }}" style="display:none;">
+            <div id="no-filtered-resource-{{ $category }}" style="display:none;">
               <p class="text-center">No resources found for selected criteria.</p>
             </div>
           </div>
@@ -207,8 +208,8 @@
   {{ if not (.short_title) }}
     {{ errorf "Resource %d (%s) is missing a short_title" $itemIndex .title }}
   {{ end }} 
-  {{ if not (index .target 0) }}
-    {{ errorf "Resource %d (%s) is missing a target" $itemIndex .title }}
+  {{ if not (index .category 0) }}
+    {{ errorf "Resource %d (%s) is missing a category" $itemIndex .title }}
   {{ end }}  
   {{ if not (index .type 0) }}
     {{ errorf "Resource %d (%s) is missing a type" $itemIndex .title }}
@@ -239,9 +240,9 @@
   {{ end }}
 
   <!-- Validate fields with 'controlled vocabularies' -->
-  {{ range .target}}
-    {{ if not (in $.Site.Data.resources.targets .) }} 
-      {{ errorf "Resource %d (%s) has a target typo: %s" $itemIndex $item.title . }}
+  {{ range .category}}
+    {{ if not (in $.Site.Data.resources.categories .) }} 
+      {{ errorf "Resource %d (%s) has a category typo: %s" $itemIndex $item.title . }}
     {{ end }}
   {{ end }}
   {{ range .type }}
@@ -297,7 +298,7 @@
     if (selected_level.length) { selected_filters['data-level'] = selected_level };
   
     var search_text = $("div.tab-pane.active input[type=text]").val().toLowerCase();
-    if (search_text.length){ selected_filters['data-search-tags'] = [search_text] };
+    if (search_text.length){ selected_filters['search-text'] = [search_text] };
 
     // Hide all resources before filtering
     $(`div.tab-pane.active div.resource`).hide();
@@ -306,16 +307,30 @@
     // Show relavant resources based on selected criteria
     if (!Object.keys(selected_filters).length) {
       $("div.tab-pane.active div.resource").show();
-    } else {
+    } 
+    else {
       var all_selected_resources = [];
       // Iterate over all selected criteria and collect the resources
       for (var [filter_name, filter_list] of Object.entries(selected_filters)) {
         var r_resources = new Set;
-        filter_list.forEach(function (filter_value) {
-          $(`div.tab-pane.active div.resource[${filter_name}*=${filter_value}]`).each(function () { r_resources.add(this); });
-        });
+        if (filter_name === 'search-text') {
+           $("div.tab-pane.active div.resource").each(function () {
+            var tags = ($(this).attr("data-search-tags") || "").toLowerCase();
+            var name = ($(this).attr("data-name") || "").toLowerCase();
+            if (tags.includes(filter_list) || name.includes(filter_list)) {
+              r_resources.add(this);
+            }
+          });
+        } 
+        else {
+          filter_list.forEach(function (val) {
+            $(`div.tab-pane.active div.resource[${filter_name}*=${val}]`).each(function () { 
+              r_resources.add(this); 
+            });
+          });
+        }
         all_selected_resources.push(r_resources);
-      };
+      }
       // When multiple criteria selected it should act as AND not OR
       selected_resources = all_selected_resources.reduce(function (x, y) {
         var z = new Set;

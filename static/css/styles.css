@@ -373,7 +373,7 @@ h1 a:hover {
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
-    z-index: 1020;
+    z-index: 1030; /* Set as higher than sticky-top2 so the navbar & dropdowns stack ABOVE the breadcrumbs */
   }
   .sticky-top2 {
     position: -webkit-sticky;

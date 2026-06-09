@@ -131,7 +131,7 @@ And be able to **demonstrate** that the GDPR is followed.
 #### Agreements
 
 * A [Data Processing Agreement](/topics/gdpr-ethical-review-glossary/#data-processing-agreement) is needed when a Processor (someone from a different university than the controller) is processing the data (e.g. storing or analysing) on behalf of the controller.
-* When data is shared with collaborating research principals or other recipients who have independent responsibility for the processing, a written agreement is still needed. Such agreements may go under different names — for example, **Data Transfer Agreement (DTA)**, **Data Access Agreement (DAA)**, or **Data Use Agreement (DUA)** — and should specify, among other things, what types of data can be shared, under what conditions, for how long, and what security measures must be followed.
+* When data is shared with collaborating [research principals](/topics/gdpr-ethical-review-glossary/#research-principal) or other recipients who have independent responsibility for the processing, a written agreement is still needed. Such agreements may go under different names — for example, **Data Transfer Agreement (DTA)**, **Data Access Agreement (DAA)**, or **Data Use Agreement (DUA)** — and should specify, among other things, what types of data can be shared, under what conditions, for how long, and what security measures must be followed.
 * A **Data Access Agreement (DAA)** or **Data Use Agreement (DUA)** is typically used in controlled-access situations. These agreements define the conditions under which approved users may access and use the data, including permitted purposes, publication requirements, and data storage rules. 
 
 #### Responsibilities 

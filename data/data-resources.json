@@ -509,7 +509,7 @@
         "short_title": "MRC",
         "id": "mrc",
         "related": ["emdb","empiar"],
-        "description": "Standard file formats for electron microscopy density maps.",
+        "description": "Standard file format for electron microscopy density maps.",
         "url": "https://www.ccpem.ac.uk/mrc-format/",
         "info_type": ["File format"],
         "keywords": ["Cryo-EM", "EMDB", "EMPIAR"],

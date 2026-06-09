@@ -909,7 +909,7 @@
             "provider":  ["SND"],
             "licence": "CC BY 4.0 (texts)"
         },
-            {
+        {
             "title": "SND on Research principal",
             "short_title": "Research principal",
             "target": ["guidance"],

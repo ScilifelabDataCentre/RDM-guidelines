@@ -461,7 +461,7 @@
       "keywords": ["Soft X-ray Tomography", "Volume SEM", "Micrograph Movies", "Raw Particle Frames", "Tilt Series", "Cryo-EM"],
       "area": ["Structural Biology"],
       "study_type": ["Cryo-EM"],
-      "data_type": ["Raw Images"]
+      "data_type": ["Raw Images", "Bioimages"]
     },
     {
       "title": "EMDB (Electron Microscopy Data Bank)",

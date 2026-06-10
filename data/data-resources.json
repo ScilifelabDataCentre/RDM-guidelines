@@ -15,9 +15,9 @@
   "data_types": ["Raw Reads", "Assemblies", "Single-cell RNA-seq",
     "Controlled Access Data", "Expression Matrices", "Count Tables", 
     "Genetic Variants", "Genotypes", "GWAS Summary Statistics", "Microarray Data", 
-    "Density Maps", "Raw Images", "Multiplexed Images", "Microscopy Images",
+    "Density Maps", "Raw Images", "Bioimages",
     "3D Volume Maps", "Atomic Coordinates", "Protein Identifications",
-    "Structure Factors", "Mass Spectra", "NMR Spectra", "Metabolite Profiles", "Images",
+    "Structure Factors", "Mass Spectra", "NMR Spectra", "Metabolite Profiles",
     "Experimental Metadata", "SRM/MRM Mass Spectra", "Peptide Identifications", 
     "Study descriptions", "Supplemental data", "Sample descriptions"
   ],
@@ -459,9 +459,9 @@
       "submission_guidelines": "https://www.ebi.ac.uk/empiar/deposition/manual/",
       "info_type": ["Repository"],
       "keywords": ["Soft X-ray Tomography", "Volume SEM", "Micrograph Movies", "Raw Particle Frames", "Tilt Series", "Cryo-EM"],
-      "area": ["Structural Biology"],
+      "area": ["Structural Biology", "Cellular and Molecular Imaging"],
       "study_type": ["Cryo-EM"],
-      "data_type": ["Raw Images"]
+      "data_type": ["Raw Images", "Bioimages"]
     },
     {
       "title": "EMDB (Electron Microscopy Data Bank)",
@@ -509,7 +509,7 @@
         "short_title": "MRC",
         "id": "mrc",
         "related": ["emdb","empiar"],
-        "description": "Standard file formats for electron microscopy density maps.",
+        "description": "Standard file format for electron microscopy density maps.",
         "url": "https://www.ccpem.ac.uk/mrc-format/",
         "info_type": ["File format"],
         "keywords": ["Cryo-EM", "EMDB", "EMPIAR"],
@@ -521,7 +521,7 @@
       "title": "BioImage Archive",
       "short_title": "BioImage Archive",
       "id": "bia",
-      "related": ["ome-tiff","ome-zarr", "rembi", "miti"],
+      "related": ["ome-tiff","ome-zarr", "rembi", "mifa"],
       "description": "Reference repository for biological imaging data, from cells to whole organisms. It accepts submissions of data from any imaging modality, as long as the data are either associated with a peer-reviewed publication, or of value beyond a single experiment.",
       "url": "https://www.ebi.ac.uk/bioimage-archive",
       "submission_guidelines": "https://www.ebi.ac.uk/bioimage-archive/submit/",
@@ -529,7 +529,7 @@
       "keywords": ["BioImaging","Tissue Imaging", "Spatial Omics", "Cryo-EM"],
       "area": ["Cellular and Molecular Imaging"],
       "study_type": ["BioImaging","Tissue Imaging"],
-      "data_type": ["Multiplexed Images", "Microscopy Images"]
+      "data_type": ["Bioimages"]
     },
     {
       "title": "REMBI (Recommended Metadata for Biological Images)",
@@ -542,22 +542,21 @@
       "keywords": ["Cryo-EM", "BioImage Archive", "BioImaging", "Tissue Imaging", "Spatial Omics"],
       "area": ["Cellular and Molecular Imaging"],
       "study_type": ["BioImaging", "Spatial Omics", "Cryo-EM", "Tissue Imaging"],
-      "data_type": ["Multiplexed Images", "Microscopy Images", "Raw Images", "Experimental Metadata"]
+      "data_type": ["Bioimages", "Experimental Metadata"]
     },
     {
-      "title": "MITI (Minimum Information about Tissue Imaging)",
-      "short_title": "MITI",
-      "id": "miti",
+      "title": "MIFA (Metadata, Incentives, Formats, and Accessibility)",
+      "short_title": "MIFA",
+      "id": "mifa",
       "related": ["bia"],
-      "description": "Guidelines for reporting tissue imaging experiments, including spatial omics.",
-      "url": "https://github.com/miti-consortium/MITI",
+      "description": "Guidelines to improve AI-readiness, i.e. ability to reuse datasets as training data for artificial intelligence models, of bioimaging datasets.",
+      "url": "https://arxiv.org/abs/2311.10443",
       "info_type": ["Metadata standard"],
-      "keywords": ["Cryo-EM", "BioImage Archive", "BioImaging", "Tissue Imaging", "Spatial Omics"],
+      "keywords": ["BioImage Archive", "BioImaging", "Tissue Imaging", "Spatial Omics"],
       "area": ["Cellular and Molecular Imaging"],
-      "study_type": ["BioImaging", "Spatial Omics", "Tissue Imaging", "Cryo-EM"],
-      "data_type": ["Experimental Metadata"]
-
-    },
+      "study_type": ["BioImaging", "Spatial Omics"],
+      "data_type": ["Bioimages", "Experimental Metadata"]
+    }, 
     {
       "title": "OME-TIFF (Open Microscopy Environment TIFF)",
       "short_title": "OME-TIFF",
@@ -569,7 +568,7 @@
       "keywords": ["BioImage Archive", "BioImaging", "Tissue Imaging", "Spatial Omics"],
       "area": ["Cellular and Molecular Imaging"],
       "study_type": ["BioImaging", "Spatial Omics"],
-      "data_type": ["Images"]
+      "data_type": ["Bioimages"]
     },
     {
       "title": "OME-Zarr (Chunked, Compressed, N-Dimensional Arrays)",
@@ -577,14 +576,14 @@
       "id": "ome-zarr",
       "related": ["bia"],
       "description": "",
-      "url": "https://link.springer.com/article/10.1007/s00418-023-02209-1",
+      "url": "https://ngff.openmicroscopy.org/",
       "info_type": ["File format"],
       "keywords": ["BioImage Archive", "BioImaging", "Tissue Imaging", "Spatial Omics"],
       "area": ["Cellular and Molecular Imaging"],
       "study_type": ["BioImaging", "Spatial Omics"],
-      "data_type": ["Images"]
+      "data_type": ["Bioimages"]
     },
-    {
+   {
       "title": "BioStudies",
       "short_title": "BioStudies",
       "id": "biostudies",

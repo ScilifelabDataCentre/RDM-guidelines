@@ -247,6 +247,14 @@ Renewal of an ethical permit has to be done if, e.g., data will be used for anot
 
 -   <a href="https://etikprovningsmyndigheten.se/en/amendments/" target="_blank">etikprovningsmyndigheten.se/en/amendments/</a>
 
+### **research principal**
+
+*In Swedish:* forskningshuvudman
+
+A research principal is the government agency or a natural or legal person in whose organisation the research is conducted. 
+
+-   <a href="https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2003460-om-etikprovning-av-forskning-som_sfs-2003-460/" target="_blank">riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2003460-om-etikprovning-av-forskning-som_sfs-2003-460/</a>
+-   <a href="https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2019504-om-ansvar-for-god-forskningssed-och_sfs-2019-504/" target="_blank">riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2019504-om-ansvar-for-god-forskningssed-och_sfs-2019-504/</a>
 
 ### **Swedish ethical review act**
 

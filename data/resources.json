@@ -961,7 +961,19 @@
             "licence": "CC BY 4.0 (texts)"
         },
         {
-            "title": "SND on Describe, share, and preserve data",
+            "title": "SND on Research principal",
+            "short_title": "Research principal",
+            "category": ["guidance"],
+            "type": ["Web page"],
+            "search_tags": ["SND on Research principal", "Researchdata.se","SND","Swedish National Data Service"],
+            "topic": ["Data Management Plan", "Research involving human data"],
+            "level": ["Basic"],
+            "url": "https://snd.se/en/research-data-support/introduction-legal-aspects-research/research-principal",
+            "description": "Swedish National Data Service (SND) guidance on the concept of research principal.",
+            "provider":  ["SND"],
+            "licence": "CC BY 4.0 (texts)"
+        },
+        {    "title": "SND on Describe, share, and preserve data",
             "short_title": "Describe, share, and preserve data",
             "category": ["guidance"],
             "type": ["Web page"],

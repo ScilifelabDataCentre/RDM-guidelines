@@ -1,7 +1,7 @@
 ---
 title: Sharing human data
 category: Human data
-tags: ["EGA","FEGA Sweden","AIDA"]
+tags: ["EGA","FEGA Sweden","AIDA", "personal data", "OMOP Common Data Model"]
 toc: True
 ---
 

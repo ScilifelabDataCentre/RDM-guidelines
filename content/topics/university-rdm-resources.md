@@ -1,7 +1,7 @@
 ---
 title: University RDM resources
 category: Other
-tags: ["research data support","research data office","rdo", "data access unit","dau", "guidelines","policies","data protection officers","dpo"]
+tags: ["research data support","research data office","rdo", "data access unit","dau", "guidelines","policies","data protection officers","dpo", "Chalmers University of Technology", "Karolinska Institutet", "KTH Royal Institute of Technology", "Linköping University", "Linnaeus University", "Lund University", "Stockholm University", "Swedish University of Agricultural Sciences", "Umeå University", "University of Gothenburg", "Uppsala University", "Örebro University" ]
 toc: True
 ---
 

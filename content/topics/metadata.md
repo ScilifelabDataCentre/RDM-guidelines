@@ -1,7 +1,7 @@
 ---
 title: Metadata
 category: Other
-tags: ["ontologies", "ontology", "data types", "file formats", "metadata standards","genomics data", "imaging data","structural data","metabolomics data","lipidomics data","proteomics data","ENA checklists","metadata templates", "data dictionaries"]
+tags: ["ontologies", "ontology", "data types", "metadata standards", "Mmtadata formats","ENA checklists","metadata templates", "data dictionaries", "cellular and molecular imaging data", "genomics data", "metabolomics and exposomics data", "proteomics data", "spatial omics data", "structural biology data"]
 toc: True
 ---
 

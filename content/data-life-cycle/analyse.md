@@ -1,7 +1,7 @@
 ---
 title: Analysing phase
 phase: Analyse
-tags: ["computational resources"]
+tags: ["computational resources", "NAISS", "data analysis services"]
 toc: True
 ---
 

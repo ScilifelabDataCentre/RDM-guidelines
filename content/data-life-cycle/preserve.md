@@ -1,7 +1,7 @@
 ---
 title: Preserving phase
 phase: Preserve
-tags: ["storage"]
+tags: ["storage", "NAISS", "SciLifeLab FAIR Storage", "archive", "preservation"]
 toc: True
 ---
 

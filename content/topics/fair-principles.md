@@ -1,7 +1,7 @@
 ---
 title: FAIR principles
 category: Other
-tags: ["findable", "accessible","interoperable","reusable","persistent identifier", "rich metadata", "searchable", "communications protocol", "persistent metadata","vocabularies", "license", "provenance", "community standards"]
+tags: ["findable", "accessible", "interoperable", "reusable", "persistent identifier", "rich metadata", "searchable", "communications protocol", "persistent metadata","vocabularies", "license", "provenance", "community standards"]
 toc: True
 ---
 

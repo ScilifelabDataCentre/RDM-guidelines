@@ -1,7 +1,7 @@
 ---
 title: README files
 category: Other
-tags: ["README templates","manifest file", "project README templates", "data README templates", "code README templates"]
+tags: ["README templates", "manifest file", "project README templates", "data README templates", "code README templates"]
 toc: True
 ---
 

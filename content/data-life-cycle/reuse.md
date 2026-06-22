@@ -1,7 +1,7 @@
 ---
 title: Reusing phase
 phase: Reuse
-tags: ["data catalogues", " existing data", "reusing data"]
+tags: ["data catalogues", "existing data", "reusing data"]
 toc: True
 ---
 

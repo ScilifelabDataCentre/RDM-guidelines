@@ -1,7 +1,7 @@
 ---
 title: ENA submission tutorial
 category: Other
-tags: ["submission methods","interactive","command line","programmatic","study","sample","raw reads","sequencing data","assembly","umbrella","Webin-CLI","ENA","European Nucleotide Archive"]
+tags: ["submission methods", "interactive", "command line", "programmatic","study", "sample", "raw reads", "sequencing data", "assembly", "umbrella", "Webin-CLI", "ENA", "European Nucleotide Archive"]
 toc: True
 ---
 

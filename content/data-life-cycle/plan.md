@@ -1,7 +1,7 @@
 ---
 title: Planning phase
 phase: Plan
-tags: ["ORCID","DMP","DSW","data management plan"]
+tags: ["ORCID", "DMP", "DSW", "data management plan"]
 toc: True
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: GDPR and ethical review glossary
 category: Human data
-tags: ["personal data", "sensitive data","human data"]
+tags: ["personal data", "sensitive data", "human data", "anonymization", "controller", "data erasure", "data retention", "data subject", "data processing agreement", "data protection officer", "genetic data", "information security", "lawful grounds", "legal basis", "data breach", "processor", "pseudonymisation", "public authority", "ethical approval", "ethical permit", "research principal", "Swedish ethical review act" ]
 toc: True
 ---
 

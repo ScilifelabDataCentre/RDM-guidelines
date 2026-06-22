@@ -1,7 +1,7 @@
 ---
 title: Data transfer
 category: Other
-tags: ["scilifelab data delivery system","DDS","Uppmax","Dardel","aspera","ascp","aspera-cli","rclone"]
+tags: ["scilifelab data delivery system", "DDS", "Uppmax", "Dardel", "aspera", "ascp", "aspera-cli", "rclone", "file checksums"]
 toc: True
 ---
 

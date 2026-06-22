@@ -1,6 +1,7 @@
 ---
 title: Processing phase
 phase: Process
+tags: ["format conversion", "quality check", "data filtering", "data quality", "combining datasets"]
 toc: True
 ---
 

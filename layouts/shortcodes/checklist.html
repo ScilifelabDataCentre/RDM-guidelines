@@ -151,7 +151,7 @@
 
 <script>
   // Checklist title and version from the JSON file for use in copy statement
-  const checklistVersion = "{{ $data.version }}";
+  const checklistDOI = "{{ $data.doi }}";
   const checklistTitle = "{{ $data.title }}";
 
   // Count checked boxes and update counter and copy statement
@@ -167,7 +167,7 @@
     document.getElementById('totalCount').textContent = total;
 
     document.getElementById('badgeText').value =
-      `This repository fulfills ${checked} / ${total} items of the ${checklistTitle}. DOI: https://doi.org/10.17044/scilifelab.29086775.${checklistVersion}`;
+      `This repository fulfills ${checked} / ${total} items of the ${checklistTitle}. DOI: ${checklistDOI}`;
   }
   // Update the counter when a checkbox is clicked
   document.querySelectorAll('.checklist-checkbox').forEach(checkbox => {

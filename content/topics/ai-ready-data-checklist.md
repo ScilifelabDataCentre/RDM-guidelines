@@ -1,8 +1,8 @@
 ---
-title: AI Ready Checklist
+title: AI Ready Data Checklist
 category: Checklist
 tags: ["findable", "accessible","interoperable","reusable"]
 toc: False
 ---
 
-{{< checklist data="ai_ready_checklist" >}}
+This is a placeholder page for development purposes

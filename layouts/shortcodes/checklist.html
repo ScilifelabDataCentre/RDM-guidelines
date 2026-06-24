@@ -63,9 +63,13 @@ Click each box to read about what should be done, why it matters and how to impl
 
         <!-- fair category, priority and collapsing arrow -->
         <div class="d-flex gap-2">
-            <span class="badge bg-primary">
-            {{ index $item "fair category" }}
-            </span>
+
+            <!-- Only show FAIR category if it exists -->
+            {{ with $item.fair_category }}
+              <span class="badge bg-primary">
+                {{ . }}
+              </span>
+            {{ end }}            
 
             <span class="badge bg-secondary">
             Priority {{ $item.priority }}

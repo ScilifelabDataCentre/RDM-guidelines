@@ -27,4 +27,20 @@
       </ul>
     </div>
   </div>
+  <!-- Create drop-down menu solution for topic pages with category equal to Checklist -->
+  <div class="col-sm-12 col-md-6 col-lg-4 p-3">
+    <div class="dropdown">
+      <a class="btn btn-light p-3 h-100 d-flex justify-content-between text-start" type="button" id="dropdownMenuButton1"
+        data-bs-toggle="dropdown" aria-expanded="false"> Checklists
+        <i class="bi bi-chevron-double-down"></i>
+      </a>
+      <ul class="dropdown-menu col-12 col-sm-12 col-md-12 col-lg-12" aria-labelledby="dropdownMenuButton1">
+        {{ range $topic }}
+        {{ if in .Page.Params.category "Checklist" }}
+        <li><a class="dropdown-item p-3 h-100 d-flex justify-content-between" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+        {{ end }}
+      </ul>
+    </div>
+  </div>
 </div>

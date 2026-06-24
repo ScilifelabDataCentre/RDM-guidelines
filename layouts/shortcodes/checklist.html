@@ -1,0 +1,158 @@
+{{ $dataFile := .Get "data" }}
+{{ $data := index site.Data $dataFile }}
+
+Click each box to read about what should be done, why it matters and how to implement it.
+
+<h3>Check the boxes your project fulfills and add this statement to your README or documentation</h3><br>
+
+<!-- Automatically updated text to copy nr of fulfilled items -->
+<div class="input-group mb-3">
+  <input
+    type="text"
+    id="badgeText"
+    class="form-control"
+    style="height: 60px;"
+    readonly
+  >
+
+  <button
+    type="button"
+    class="btn btn-outline-secondary"
+    id="copyBadgeButton"
+    style="height: 60px;"
+  >
+    Copy
+  </button>
+</div>
+
+<br>
+
+<!-- Display nr of checked items-->
+<p class="mt-3">
+  Checked:
+  <span id="checkedCount">0</span> /
+  <span id="totalCount">0</span>
+</p>
+
+<!-- Container for all checklist cards -->
+<div id="checklistContainer">
+
+  {{ range $index, $item := $data.items }}
+
+    <div class="card checklist-item mb-3">
+      <!-- Clicking anywhere in the header opens or closes the collapsible content -->
+     <div
+        class="card-header d-flex justify-content-between align-items-center"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapseItem{{ $index }}"
+        aria-expanded="false"
+        aria-controls="collapseItem{{ $index }}"
+        style="cursor: pointer;"
+        >
+
+        <!-- checkbox and item title -->
+        <div class="d-flex align-items-center gap-2 mb-0">
+          <input
+            type="checkbox"
+            class="form-check-input checklist-checkbox"
+            onclick="event.stopPropagation();"
+          >
+
+          <span>{{ $item.title }}</span>
+        </div>
+
+        <!-- fair category, priority and collapsing arrow -->
+        <div class="d-flex gap-2">
+            <span class="badge bg-primary">
+            {{ index $item "fair category" }}
+            </span>
+
+            <span class="badge bg-secondary">
+            Priority {{ $item.priority }}
+            </span>
+
+            <i class="bi bi-chevron-double-down collapse-arrow"></i>
+
+        </div>
+
+        </div>
+
+      <!-- hidden collapsible content-->
+      <div class="collapse" id="collapseItem{{ $index }}">
+        <div class="card-body">
+
+          {{ $item.description | markdownify }}
+
+          <br><br>
+
+          <b>Explanation:</b>
+          {{ $item.explanation | markdownify }}
+
+          <br><br>
+
+          <b>Action:</b>
+          {{ $item.action | markdownify }}
+
+        </div>
+      </div>
+
+    </div>
+
+  {{ end }}
+
+</div>
+
+<script>
+  // Checklist title and version from the JSON file for use in copy statement
+  const checklistVersion = "{{ $data.version }}";
+  const checklistTitle = "{{ $data.title }}";
+
+  // Count checked boxes and update counter and copy statement
+  function updateChecklistCounter() {
+
+    const total =
+      document.querySelectorAll('.checklist-checkbox').length;
+
+    const checked =
+      document.querySelectorAll('.checklist-checkbox:checked').length;
+
+    document.getElementById('checkedCount').textContent = checked;
+    document.getElementById('totalCount').textContent = total;
+
+    document.getElementById('badgeText').value =
+      `This repository fulfills ${checked} / ${total} items of the ${checklistTitle}. DOI: https://doi.org/10.17044/scilifelab.29086775.${checklistVersion}`;
+  }
+  // Update the counter when a checkbox is clicked
+  document.querySelectorAll('.checklist-checkbox').forEach(checkbox => {
+    checkbox.addEventListener('change', updateChecklistCounter);
+  });
+
+  // Copy the generated statement
+  document.getElementById('copyBadgeButton').addEventListener('click', async () => {
+    await navigator.clipboard.writeText(
+      document.getElementById('badgeText').value
+    );
+  });
+
+  // Initialise counter
+  updateChecklistCounter();
+
+  // Rotation of the collapsible arrow on click 
+  document.querySelectorAll('.collapse').forEach(collapse => {
+
+    collapse.addEventListener('show.bs.collapse', () => {
+      collapse
+        .closest('.card')
+        .querySelector('.collapse-arrow')
+        .style.transform = 'rotate(180deg)';
+    });
+
+    collapse.addEventListener('hide.bs.collapse', () => {
+      collapse
+        .closest('.card')
+        .querySelector('.collapse-arrow')
+        .style.transform = 'rotate(0deg)';
+    });
+
+  });
+</script>

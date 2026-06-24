@@ -97,10 +97,25 @@
               <span class="badge bg-primary">
                 {{ . }}
               </span>
-            {{ end }}            
+            {{ end }}    
 
-            <span class="badge bg-secondary">
-            Priority {{ $item.priority }}
+            <!-- Defining priority levels in Scilfelab colours-->
+            {{ $priority := int $item.priority }}
+            {{ $priorityColour := "#6c757d" }}
+            {{ if eq $priority 1 }}
+              {{ $priorityColour = "#491F53" }}
+            {{ else if eq $priority 2 }}
+              {{ $priorityColour = "#045C64" }}
+            {{ else if eq $priority 3 }}
+              {{ $priorityColour = "#A6A6A6" }}
+            {{ end }}
+
+            <!-- Setting priority colours-->
+            <span
+              class="badge"
+              style="background-color: {{ $priorityColour }}; color: white;"
+            >
+              Priority {{ $priority }}
             </span>
 
             <i class="bi bi-chevron-double-down collapse-arrow"></i>

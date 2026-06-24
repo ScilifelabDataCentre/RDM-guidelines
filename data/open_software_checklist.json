@@ -232,16 +232,6 @@
       "explanation": "A software availability statement ensures people know exactly where to go to find the software when reading the publication.",
       "action": "Follow the template inspired by AGUs Software Citation Examples: _< Version number > of the < software name > used for < brief context, description of what the software was used for > is preserved at < DOI, persistent identifier link >, available via < licence type, access conditions > and developed openly at < software development platform link >. [< Link to formal citation in References section >]_",
       "project_size": ["small", "big"]
-    },
-    {
-      "id": 23,
-      "title": "",
-      "fair_category": "",
-      "priority": 0,
-      "description": "",
-      "explanation": "",
-      "action": "",
-      "project_size": ["small", "big"]
     }
   ]
 }

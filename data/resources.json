@@ -49,24 +49,11 @@
             "category": ["guidance"],
             "type": ["Video"],
             "search_tags": ["video","human data","Research Involving Human Data by Richelle Björvang", "NGI", "Lite"],
-            "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share"],
+            "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse"],
             "topic": ["Research involving human data", "Sharing human data"],
             "level": ["Basic"],
             "url": "https://www.youtube.com/watch?v=PU-SMKuf1ME&list=PLYGrAFgPpIzbZfkCyora4N1RavaaPizOS",
             "description": "What do I as a researcher need to consider before I start working with human data? This talk covers the basics - definitions - and details on how to work with sensitive data. The video is produced as part of the 'Nothing Lite about it!' series of talks produced by NGI Sweden and NBIS. The full playlist is available at https://www.youtube.com/playlist?list=PLYGrAFgPpIzbZfkCyora4N1RavaaPizOS",
-            "provider":  ["SciLifeLab"]
-        },
-        {
-            "title": "SciLifeLab Data Repository Metadata record tutorial",
-            "short_title": "Metadata record tutorial",
-            "category": ["guidance"],
-            "type": ["Video"],
-            "search_tags": ["video","metadata","data repository","SciLifeLab Data Repository Metadata record tutorial"],
-            "phase": ["Share"],
-            "topic": ["Sharing human data"],
-            "level": ["Basic"],
-            "url": "https://www.youtube.com/watch?v=_y09LCpLl9A&list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS&index=5",
-            "description": "Video presentation about how to submit a metadata record in SciLifeLab Data Repository in order to make sensitive data findable while still adhering to GDPR.",
             "provider":  ["SciLifeLab"]
         },
         {
@@ -162,30 +149,6 @@
             "url": "https://commons.datacite.org/",
             "description": "Web search interface to works, people, organizations and repositories.",
             "provider": ["DataCite"]
-        },
-        {
-            "title": "The Swedish COVID-19 Data Portal one year on",
-            "short_title": "Swedish COVID-19 Portal 1 year",
-            "category": ["guidance"],
-            "type": ["Video"],
-            "search_tags": ["video","reuse","COVID","portal","The Swedish COVID-19 Data Portal one year on"],
-            "phase": ["Reuse"],
-            "level": ["Basic"],
-            "url": "https://www.youtube.com/watch?v=UUsoY6Lfa1o&list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS&index=7",
-            "description": "Video presentation about the improved Swedish COVID-19 data portal.",
-            "provider":  ["SciLifeLab"]
-        },
-        {
-            "title": "Swedish COVID-19 Data Portal",
-            "short_title": "Swedish COVID-19 Portal",
-            "category": ["guidance"],
-            "type": ["Video"],
-            "search_tags": ["video","reuse","COVID","portal","Swedish COVID-19 Data Portal"],
-            "phase": ["Reuse"],
-            "level": ["Basic"],
-            "url": "https://www.youtube.com/watch?v=Q2W1MvxMkJ0&list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS&index=12",
-            "description": "Video presentation about the Swedish COVID-19 data portal by Arnold Kochari at SciLifeLab.",
-            "provider":  ["SciLifeLab"]
         },
         {
             "title": "EBI repository wizard",
@@ -542,18 +505,17 @@
             "provider": ["SND"]
         },
         {
-            "title": "General information about research data on UU intranet",
-            "short_title": "Research data on UU intranet",
+            "title": "UU on general information about research data",
+            "short_title": "UU: Research data",
             "category": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["Uppsala","UU","DMP","research data","General information about research data on UU intranet"],
+            "search_tags": ["Uppsala University","UU","DMP","research data","UU on general information about research data"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share","Reuse"],
             "level": ["Basic"],
             "url": "https://www.uu.se/en/staff/gateway/research/research-handbook/research-data",
             "description": "General information about handling data - DMP, documentation & metadata, FAIR, organizing files & folders, versioning, ethical & legal aspects, open data, archiving. Information is mostly on a generic level, not discipline specific. Lectures in Phd courses on ethics and scientific writing. Target audience is researchers and doctoral students at UU.",
             "provider": ["UU"]
         },
-
         {
             "title": "Online course on Open science and data management",
             "short_title": "Open science and data management",
@@ -1423,7 +1385,7 @@
             "phase": ["Share"],
             "topic": ["Sharing code and workflows", "What is Research Data Management"],
             "level": ["Basic"],
-            "url": "https://openscience.se/en/national-guidelines-for-open-science",
+            "url": "https://openscience.se/en",
             "description": "This portal collects essential information about the key actors, resources, and documents that are central to Sweden’s transition to an open science system. ",
             "provider":  ["SUHF"]
         }

@@ -330,11 +330,11 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "Versioning",
+            "title": "Versioning of data and code using Git",
             "short_title": "Versioning",
             "category": ["training"],
             "type": ["Material"],
-            "search_tags": ["material","git","Versioning"],
+            "search_tags": ["Versioning of data and code using Git", "material","git","Versioning"],
             "phase": ["Analyse"],
             "level": ["Basic"],
             "url": "https://nbisweden.github.io/module-versioning-dm-practices/",
@@ -343,11 +343,11 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "Data organisation",
+            "title": "Data organisation practices",
             "short_title": "Data organisation",
             "category": ["training"],
             "type": ["Material"],
-            "search_tags": ["material","Data organisation","organisation","organization"],
+            "search_tags": ["material","Data organisation practices","organisation","organization"],
             "phase": ["Collect", "Preserve"],
             "level": ["Basic"],
             "url": "https://nbisweden.github.io/module-organising-data-dm-practices/",
@@ -409,11 +409,11 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "DMP",
+            "title": "Data Management Plans",
             "short_title": "DMP",
             "category": ["training"],
             "type": ["Material"],
-            "search_tags": ["DMP","data management plan","material"],
+            "search_tags": ["DMP","Data Management Plans","material"],
             "phase": ["Plan"],
             "topic": ["Data Management Plan"],
             "level": ["Basic"],
@@ -535,6 +535,7 @@
             "type": ["Material"],
             "search_tags": ["SND","Swedish National Data Service","BAS","material","legal","DMP","metadata","BAS Online"],
             "phase": ["Plan", "Collect", "Analyse"],
+            "topic": ["Metadata"], 
             "level": ["Basic"],
             "url": "https://snd.gu.se/sv/hantera-data/utbildning/bas-online",
             "description": "BAS Online is divided into six sessions consisting of short video presentations, exercises and other material such as texts and linked resources. The course is primarily aimed at those who work at a research data support unit at a Swedish university, and covers topics such as Data management and data management plans, Metadata, Metadata standards, Documentation of research data, Law and research data.",
@@ -552,6 +553,7 @@
             "description": "General information about handling data - DMP, documentation & metadata, FAIR, organizing files & folders, versioning, ethical & legal aspects, open data, archiving. Information is mostly on a generic level, not discipline specific. Lectures in Phd courses on ethics and scientific writing. Target audience is researchers and doctoral students at UU.",
             "provider": ["UU"]
         },
+
         {
             "title": "Online course on Open science and data management",
             "short_title": "Open science and data management",

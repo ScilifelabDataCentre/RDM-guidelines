@@ -968,6 +968,7 @@
             "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["SND on Data management plans", "DMP", "Researchdata.se","SND","Swedish National Data Service"],
+            "phase": ["Plan"],
             "topic": ["Data Management Plan"],
             "level": ["Basic"],
             "url": "https://researchdata.se/en/manage-data/organize-data/data-management-plan",

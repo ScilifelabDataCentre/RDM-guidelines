@@ -294,7 +294,7 @@
         },
         {
             "title": "Versioning of data and code using Git",
-            "short_title": "Versioning",
+            "short_title": "Versioning of data and code",
             "category": ["training"],
             "type": ["Material"],
             "search_tags": ["Versioning of data and code using Git", "material","git","Versioning"],

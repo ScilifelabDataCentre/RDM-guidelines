@@ -1345,7 +1345,7 @@
             "topic": ["Research involving human data"],
             "level": ["Basic"],
             "url": "https://www.cnil.fr/en/open-source-pia-software-helps-carry-out-data-protection-impact-assessment",
-            "description": "The PIA (Protection Impact Assessment) software aims to help data controllers build and demonstrate compliance to the GDPR. The tools is available in French and in English. It facilitates carrying out a data protection impact assessment.",
+            "description": "The PIA (Protection Impact Assessment) software aims to help data controllers build and demonstrate compliance to the GDPR. The tool is available in French and in English. It facilitates carrying out a data protection impact assessment.",
             "provider":  ["CNIL"]
         },
         {

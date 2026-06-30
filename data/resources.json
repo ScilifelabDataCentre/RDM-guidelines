@@ -1075,15 +1075,15 @@
             "provider":  ["ORCID"]
         },
         {
-            "title": "NAISS storage rounds",
-            "short_title": "NAISS storage",
+            "title": "NAISS rounds for compute and storage resources",
+            "short_title": "NAISS rounds",
             "category": ["tool"],
             "type": ["Tool"],
-            "search_tags": ["NAISS storage rounds", "storage"],
-            "phase": ["Collect", "Preserve"],
+            "search_tags": ["NAISS rounds for compute and storage resources"],
+            "phase": ["Collect", "Analyse", "Preserve"],
             "level": ["Basic"],
             "url": "https://supr.naiss.se/round/naiss/",
-            "description": "Storage resources are made available through storage rounds. There are different sizes of NAISS allocated rounds for centre storage and Swestore national storage, as well as local rounds at centres.",
+            "description": "Compute and storage resources are made available through NAISS rounds. Application for resources can be made for different sizes.",
             "provider":  ["NAISS"]
         },
         {

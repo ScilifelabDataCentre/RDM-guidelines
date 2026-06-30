@@ -30,7 +30,7 @@ There are currently three categories of resources:
 
 1. Copy the item text (everything within the curly brackets, including the brackets themselves) in [TEMPLATE_resource.json](TEMPLATE_resource.json), and put it at the end of the [resources.json](./data/resources.json) file. 
 1. Remember to add a comma after the last closing curly bracket of the previous item.
-1. Remove all rows for which information does not exist (expect for the row with phases as that one is kept empty) and update the values of the other rows as appropriate. Note that the last row of an item (before the closing curly bracket) should not end with a comma.
+1. Remove all rows for which information does not exist (exept for the row with phases as that one is kept empty) and update the values of the other rows as appropriate. Note that the last row of an item (before the closing curly bracket) should not end with a comma.
 
 Note: If the resource itself already exist, and a page should have this resource appearing on its page, update the item in the [resources.json](./data/resources.json) file by adding the title of the page in the topic or phase row (e.g. `topic: ["Metadata","README files],` or `phase: ["Collect", "Share"],`).
 
@@ -43,7 +43,7 @@ Mandatory fields:
 * **category** - either "training", "tool", or "guidance"
 * **type** - either "Web page", "Video", "Material", or "Tool" (currently this field is only used to identify videos, so that they get an icon)
 * **search_tags** - add at least full title, and any suitable keywords
-* **phase** - one or more of "Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse" (leave empty if resources only applies to a topic)
+* **phase** - one or more of "Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse" (leave empty if resource only applies to a topic)
 * **topic** - (can be excluded if phase is filled)
 * **url** - full link to the external resource
 * **description** - describe the resource using text from the source

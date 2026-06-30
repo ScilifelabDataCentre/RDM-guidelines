@@ -43,7 +43,7 @@ Mandatory fields:
 * **category** - either "training", "tool", or "guidance"
 * **type** - either "Web page", "Video", "Material", or "Tool" (currently this field is only used to identify videos, so that they get an icon)
 * **search_tags** - add at least full title, and any suitable keywords
-* **phase** - one or more of "Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse" (can be excluded if topic is filled)
+* **phase** - one or more of "Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse" (leave empty if resources only applies to a topic)
 * **topic** - (can be excluded if phase is filled)
 * **url** - full link to the external resource
 * **description** - describe the resource using text from the source

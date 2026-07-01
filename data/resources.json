@@ -44,6 +44,19 @@
             "provider":  ["SciLifeLab"]
         },
         {
+            "title": "Beyond Compliance: Using Data Management Plans to drive research efficiency",
+            "short_title": "Using Data Management Plans to drive research efficiency",
+            "category": ["guidance"],
+            "type": ["Video"],
+            "search_tags": ["video","DMP","Beyond Compliance: Using Data Management Plans to drive research efficiency"],
+            "phase": ["Plan"],
+            "topic": ["Data Management Plan"],
+            "level": ["Basic"],
+            "url": "https://www.youtube.com/watch?v=nwTlWnqtN1os",
+            "description": "This webinar introduces the concept of data management planning as a catalyst for more efficient, high-impact research as well as a demo of the SciLifeLab Data Stewardship Wizard (DSW).",
+            "provider":  ["SciLifeLab"]
+        },
+        {
             "title": "Research Involving Human Data by Richelle Björvang",
             "short_title": "Research Involving Human Data",
             "category": ["guidance"],

@@ -114,13 +114,13 @@ For datasets that do not fit into discipline-specific repositories, it is recomm
 
 <div class="mb-3">
   <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseExample9" role="button" aria-expanded="false" aria-controls="collapseExample9">
-    KTH Royal Institute of Technology Zenodo community<i class="bi bi-chevron-double-down"></i>
+    KTH Zenodo community<i class="bi bi-chevron-double-down"></i>
   </button>
 
   <div class="collapse" id="collapseExample9">
     <div class="card card-body">
       <span>
-        The KTH Royal Institute of Technology Zenodo community is the official community for all researcher's at KTH Royal Institute of Technology who wants to deposit open research output via Zenodo, get support on the description and findability of data by the research data team  and obtain a DOI for that public research output.
+        The KTH Zenodo community is the official community for all researcher's at KTH Royal Institute of Technology who wants to deposit open research output via Zenodo, get support on the description and findability of data by the research data team  and obtain a DOI for that public research output.
       </span>
       <br>
       <a class="link-teal" href="https://zenodo.org/communities/kth/records?q=&l=list&p=1&s=10&sort=newest" target="_blank">
@@ -251,7 +251,7 @@ If you are a researcher at a Swedish academic institution operating in the life 
 * Assist during the submission process when publishing data and code
 * Assist in the creation of metadata records in SciLifeLab Data Repository
 * Advice on what needs to be done when working with sensitive human data
-* Advice on describing data with proper metadata
+* Advice on describing data with proper [metadata](/topics/metadata/)
 
 If you need any help connected to data submission, please contact us by emailing [data-management@scilifelab.se](mailto:data-management@scilifelab.se).  
 

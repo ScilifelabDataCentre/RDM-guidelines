@@ -1,10 +1,10 @@
 ## External contribution process
 The RDM-guidelines repository has an editorial group consisting of members of SciLifeLab's Data Centre and NBIS data management teams.
-We welcome suggestions and contributions to the content of this site. This could include, for example, a suggestion for a topic that is not currently covered. Alternatively, you can request an update or correction to particular pages. If in doubt, you can ask for help by emailing [data-management@scilifelab.se](mailto:data-management@scilifelab.se).
+We welcome suggestions and contributions to the content of this site. This could include, for example, a suggestion for a topic that is not currently covered. Alternatively, you can request an update or correction to particular pages. Email your feedback to [data-management@scilifelab.se](mailto:data-management@scilifelab.se).
 
 ### How to work in GitHub
 
-The following steps are required in order to contribute to RDM guidelines via GitHub:
+If you would like to contribute to RDM guidelines hands-on via GitHub, follow these steps:
 * [Step 1: GitHub account](#step-1-github-account)
 * [Step 2: Access the code](#step-2-access-the-code)
 * [Step 3a: Edit the files online](#step-3a-edit-the-files-online)

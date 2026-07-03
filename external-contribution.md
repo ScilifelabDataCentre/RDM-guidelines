@@ -1,20 +1,15 @@
-## Internal /editorial contribution process
+## External contribution process
 The RDM-guidelines repository has an editorial group consisting of members of SciLifeLab's Data Centre and NBIS data management teams.
+We welcome suggestions and contributions to the content of this site. This could include, for example, a suggestion for a topic that is not currently covered. Alternatively, you can request an update or correction to particular pages. Email your feedback to [data-management@scilifelab.se](mailto:data-management@scilifelab.se).
 
-When adding content, keep in mind that the goal is not to duplicate what is in the [RDMkit](https://rdmkit.elixir-europe.org/) but rather add the Swedish flavour, and link to RDMkit for more information.
+### How to work in GitHub
 
-Table of content:
-* [GitHub set up](#github-set-up)
-* [Ways of working](#ways-of-working)
-* [About resources](#about-resources)
-
-### GitHub set up
-
-The following steps are required in order to contribute to RDM guidelines via GitHub:
+If you would like to contribute to RDM guidelines hands-on via GitHub, follow these steps:
 * [Step 1: GitHub account](#step-1-github-account)
-* [Step 2: Clone a copy of the website code](#step-2-clone-a-copy-of-the-website-code)
-* [Step 3: Edit the files](#step-3-edit-the-files)
-* [Step 4: Test changes locally](#step-4-test-changes-locally)
+* [Step 2: Access the code](#step-2-access-the-code)
+* [Step 3a: Edit the files online](#step-3a-edit-the-files-online)
+* [Step 3b: Edit the files locally](#step-3b-edit-the-files-locally)
+* [Step 4: Make a pull request](#step-4-make-a-pull-request)
 
 #### Step 1: Github account
 
@@ -86,18 +81,59 @@ Git commits can be signed using e.g. GPG or SSH keys. All software required for 
     echo  "$(git config --global user.email) $(cat ~/.ssh/id_github_sign.pub)" > ~/.
     ```
 
-#### Step 2: Clone a copy of the website code
+#### Step 2: Access the code
 
 Next, visit the code repository: [https://github.com/ScilifelabDataCentre/RDM-guidelines](https://github.com/ScilifelabDataCentre/RDM-guidelines)
 
-There are multiple ways to clone a GitHub repository so that you have your own copy on your computer. Please see [the GitHub documentation](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) for information on how to do this.
+In the top right, you'll see a button that says _"Fork"_. Click this, then select your username.
+This makes a copy of the repository under your personal account that you can edit.
 
+#### Step 3a: Edit the files (online)
 
-#### Step 3: Edit the files
+> This is best if you only want to make one or two minor tweaks.
+> If you want to make more substantial edits over a longer time frame, we recommend editing locally (_Step 3b_).
 
-Once you have cloned the repository you can edit the website files locally on your computer in your favourite text editor.
+The easiest way to edit the website files is on the GitHub website.
 
-#### Step 4: Test changes locally
+On the web page of your _forked_ copy of the repository, look in the `content/` directory. Go to the markdown file that you want to edit, then click the Pencil icon :pencil2: in the top right.
+
+This opens a web-based editor where you can add and edit content. When you're finished, scroll to the bottom and fill in / submit the _"Commit changes"_ form.
+
+You're nearly done - you can now skip to _Step 4_.
+
+#### Step 3b: Edit the files (locally)
+
+##### Git setup
+
+If you prefer, you can edit the website files on your computer in your favourite text editor.
+Just fork the repository to your machine:
+
+```bash
+git clone git@github.com:[YOUR-USERNAME]/RDM-guidelines
+cd RDM-guidelines
+```
+
+To make it easier to pull in changes made by others, you can add the main repository as a remote:
+
+```bash
+git remote add upstream https://github.com/ScilifelabDataCentre/RDM-guidelines.git
+```
+
+Then you can fetch changes at any time from this remote:
+
+```bash
+git pull upstream main
+```
+
+When you have finished editing, commit and push to your fork:
+
+```bash
+git add .
+git commit -m "My changes"
+git push
+```
+
+##### Testing locally
 
 To view your changes as they will appear in the final website, you need to install Hugo.
 You can find instructions on the Hugo website: [getting-started/installing/](https://gohugo.io/getting-started/installing/)
@@ -134,63 +170,17 @@ $ hugo serve
 Use the URL printed at the bottom of the message (`http://localhost:1313/`) to view the site.
 Every time you save a file, the page will automatically refresh in the browser.
 
+#### Step 4: Make a pull request
 
-### Ways of working 
+Once you're finished with your edits and they are committed and pushed to your forked repository, it's time to open a pull request.
 
-The steps below outlines the mutually agreed steps in order to update the RDM-guidelines repository:
+You can find full documentation on the [GitHub help website](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests), however in short:
 
-1. Create a [New issue](https://github.com/ScilifelabDataCentre/RDM-guidelines/issues) describing the needed update. If appropriate, add a label with the level of priority.
-1. The person(s) that decides to resolve the issue sets themselves as assignee, so that the others in the editorial group know that the update is ongoing.
-1. The assignee creates a branch: under **Development** in the menu on the right, click on the link `Create a branch`.
-1. If the issue is a missing page:
-    1. Create the new page either in folder [content/topics](./content/topics) (most likely) or [content/data-life-cycle](./content/data-life-cycle).
-    1. Add metadata header to the top of the page by copying the header in [TEMPLATE_topic.md](./TEMPLATE_topic.md).
-    1. If appropriate, add links from other pages to this new page.
-    1. If there is a resource, remove the commented out characters in the Resources section, change '--add topic/title--' to the topic title, and add the resource to the [resources.json](./data/resources.json) page as outlined [below](#about-resources).
-1. It is up to everyone in the editorial group to check if there are pull requests waiting to be approved. All PRs should be reviewed by another member, if the update isn't minor (i.e. unlikely that typo:s or wrong links have been included).
+- Visit the main repository: [https://github.com/ScilifelabDataCentre/RDM-guidelines](https://github.com/ScilifelabDataCentre/RDM-guidelines)
+- Click the button that reads _"New Pull Request"_.
+- Click the text link near the top that says _"compare across forks"_.
+- In the right-hand _"head repository"_ drop down, select your username / fork.
+- If you're happy with the list of commits shown, and the diff in the _"Files Changed"_ tab, fill in a title and description and click _"Create pull request"_.
 
-### About resources
-A resource is any **external** link with information that is of added value for a page (topic or data life cycle page). Note that links to internal pages should not appear in the resource sections. 
-
-A resource *can* be explicitly linked to in the text, but most importantly is that it is listed under the Resources heading at the end of a page (see below on how to make that happen).
-
-There are currently three categories of resources:
-
-* Tool - any type of tool to assist in a data management task
-* Training - courses or course catalogue links
-* Guidance - any form of digital information material that is not explicitly training material (i.e. self paced training material is of type Training, not Guidance)
-
-#### How to add a resource
-
-1. Copy the item text (everything within the curly brackets, including the brackets themselves) in [TEMPLATE_resource.json](TEMPLATE_resource.json), and put it at the end of the [resources.json](./data/resources.json) file. 
-1. Remember to add a comma after the last closing curly bracket of the previous item.
-1. Remove all rows for which information does not exist (exept for the row with phases as that one is kept empty) and update the values of the other rows as appropriate. Note that the last row of an item (before the closing curly bracket) should not end with a comma.
-
-Note: If the resource itself already exist, and a page should have this resource appearing on its page, update the item in the [resources.json](./data/resources.json) file by adding the title of the page in the topic or phase row (e.g. `topic: ["Metadata","README files],` or `phase: ["Collect", "Share"],`).
-
-#### TEMPLATE_resource.json
-Currently the template has 14 fields, some of them are mandatory and some are optional meaning they can be excluded/deleted.
-
-Mandatory fields:
-* **title** - the full title as found in the external link provided
-* **short_title** - one-liner, shortened title, to fit the row of a card
-* **category** - either "training", "tool", or "guidance"
-* **type** - either "Web page", "Video", "Material", or "Tool" (currently this field is only used to identify videos, so that they get an icon)
-* **search_tags** - add at least full title, and any suitable keywords
-* **phase** - one or more of "Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse" (leave empty if resource only applies to a topic)
-* **topic** - (can be excluded if phase is filled)
-* **url** - full link to the external resource
-* **description** - describe the resource using text from the source
-* **provider** - list all providers and enclose with ", e.g. "KI, KTH, SU"
-
-Optional fields:
-* **level** -  one or more of "Basic", "Intermediate", or "Advanced" (currently not used since most resources are 'Basic')
-* **DOI** - e.g. "10.17044/scilifelab.23987985", if available
-* **DOIurl** - e.g. "https://doi.org/10.17044/scilifelab.23987985.v1", if available
-* **licence** - e.g. "GPL 3.0+", if available
-
-Note: Valid type for each resource category is stated below. 
-* Tool - type: Tool
-* Training - type: Material and Course
-* Guidance - type: Web page, Video and Material
-
+Once created, a member of the website team will review your changes.
+Once approved, they will be merged and deployed.

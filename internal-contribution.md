@@ -3,12 +3,18 @@ The RDM-guidelines repository has an editorial group consisting of members of Sc
 
 When adding content, keep in mind that the goal is not to duplicate what is in the [RDMkit](https://rdmkit.elixir-europe.org/) but rather add the Swedish flavour, and link to RDMkit for more information.
 
+Table of content:
+* [GitHub set up](#github-set-up)
+* [Ways of working](#ways-of-working)
+* [About resources](#about-resources)
+
 ### GitHub set up
 
 The following steps are required in order to contribute to RDM guidelines via GitHub:
 * [Step 1: GitHub account](#step-1-github-account)
-* [Step 2: Clone a copy of the webiste code](#step-2-clone-a-copy-of-the-website-code)
-* [Step 3: Edit the files](#step-3b-edit-the-files)
+* [Step 2: Clone a copy of the website code](#step-2-clone-a-copy-of-the-website-code)
+* [Step 3: Edit the files](#step-3-edit-the-files)
+* [Step 4: Test changes locally](#step-4-test-changes-locally)
 
 #### Step 1: Github account
 
@@ -80,7 +86,7 @@ Git commits can be signed using e.g. GPG or SSH keys. All software required for 
     echo  "$(git config --global user.email) $(cat ~/.ssh/id_github_sign.pub)" > ~/.
     ```
 
-#### Step 2: Clone a copy of the webiste code
+#### Step 2: Clone a copy of the website code
 
 Next, visit the code repository: [https://github.com/ScilifelabDataCentre/RDM-guidelines](https://github.com/ScilifelabDataCentre/RDM-guidelines)
 
@@ -91,7 +97,7 @@ There are multiple ways to clone a GitHub repository so that you have your own c
 
 Once you have cloned the repository you can edit the website files locally on your computer in your favourite text editor.
 
-##### Testing locally
+#### Step 4: Test changes locally
 
 To view your changes as they will appear in the final website, you need to install Hugo.
 You can find instructions on the Hugo website: [getting-started/installing/](https://gohugo.io/getting-started/installing/)

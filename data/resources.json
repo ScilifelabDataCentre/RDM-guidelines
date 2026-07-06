@@ -1437,6 +1437,59 @@
             "url": "https://openscience.se/en",
             "description": "This portal collects essential information about the key actors, resources, and documents that are central to Sweden’s transition to an open science system. ",
             "provider":  ["SUHF"]
-        }
+        },
+        {
+            "title": "RDMkit on Compliance Monitoring",
+            "short_title": "RDMkit: Compliance Monitoring",
+            "category": ["guidance"],
+            "type": ["Web page"],
+            "search_tags": ["RDMkit","compliance","monitoring","RDMkit on Compliance Monitoring","Access and Benefit-Sharing", "Nagoya Protocol","Access and Benefit-Sharing"],
+            "phase": [],
+            "topic": ["Nagoya Protocol and ABS regulation"],
+            "level": ["Basic"],
+            "url": "https://rdmkit.elixir-europe.org/compliance_monitoring#how-can-you-ethically-access-genetic-resources-of-another-country",
+            "description": "Best practice guidance regarding how to ethically access genetic resources of another country, and how to comply with the Nagoya Protocol and ABS regulation.",
+            "provider":  ["RDMkit"],
+            "licence": "CC BY 4.0"
+        },
+        {
+            "title": "Naturvårdsverket: Genetic Resources, Nagoya Protocol",
+            "short_title": "Naturvårdsverket",
+            "category": ["guidance"],
+            "type": ["Web page"],
+            "search_tags": ["Naturvårdsverket: Genetic Resources, Nagoya Protocol","Swedish Environmental Protection Agency","genetic resources","Nagoya Protocol","ABS","Access and Benefit-Sharing"],
+            "phase": [],
+            "topic": ["Nagoya Protocol and ABS regulation"],
+            "level": ["Basic"],
+            "url": "https://www.naturvardsverket.se/en/guidance/species-protection/utilizing-genetic-resources/",
+            "description": "Guidance from the Swedish Environmental Protection Agency (Naturvårdsverket) on how to ethically access genetic resources of another country, and how to comply with the Nagoya Protocol and ABS regulation.",
+            "provider":  ["Naturvårdsverket"]
+        },        
+        {
+            "title": "ABS Clearing-House (ABSCH)",
+            "short_title": "ABSCH",
+            "category": ["guidance"],
+            "type": ["Web page"],
+            "search_tags": ["ABSCH","Nagoya Protocol","ABS","Access and Benefit-Sharing"],
+            "phase": [],
+            "topic": ["Nagoya Protocol and ABS regulation"],
+            "level": ["Basic"],
+            "url": "https://absch.cbd.int/",
+            "description": "The ABS Clearing-House (ABSCH) is a platform established under the Nagoya Protocol to facilitate the implementation of access and benefit-sharing (ABS) measures. It provides information on ABS agreements, permits, and other relevant documents.",
+            "provider":  ["CBD"]
+        },        
+        {
+            "title": "Convention on BioLogical Diversity (CBD): ABS",
+            "short_title": "CBD: ABS",
+            "category": ["guidance"],
+            "type": ["Web page"],
+            "search_tags": ["CBD","ABS","Nagoya Protocol","Convention on Biological Diversity","Access and Benefit-Sharing"],
+            "phase": [],
+            "topic": ["Nagoya Protocol and ABS regulation"],
+            "level": ["Basic"],
+            "url": "https://www.cbd.int/abs/",
+            "description": "The Convention on Biological Diversity (CBD) is an international treaty that aims to conserve biological diversity, promote sustainable use of its components, and ensure fair and equitable sharing of benefits arising from genetic resources. The Access and Benefit-Sharing (ABS) framework under the CBD provides guidelines for accessing genetic resources and sharing the benefits derived from their use.",
+            "provider":  ["CBD"]
+        }   
     ]
 }

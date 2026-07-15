@@ -220,4 +220,16 @@ function filterChecklistItems() {
 document.querySelectorAll('input[name="project-size"]').forEach(checkbox => {
   checkbox.addEventListener('change', filterChecklistItems);
 });
+
+// Warn before leaving the page if any boxes are checked
+window.addEventListener('beforeunload', (event) => {
+  const checked =
+    document.querySelectorAll('.checklist-checkbox:checked').length;
+
+  if (checked > 0) {
+    event.preventDefault();
+    event.returnValue = "";
+  }
+});
+
 </script>

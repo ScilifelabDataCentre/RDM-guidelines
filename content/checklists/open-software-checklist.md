@@ -13,5 +13,3 @@ Click each box to read about what should be done, why it matters and how to impl
 <a class="link-teal" href="https://doi.org/10.17044/scilifelab.29086775"><b> View the checklist record (Figshare)  <i class="bi bi-arrow-right-square"></i></b></a><br><br>
 
 {{< checklist data="open_software_checklist" >}}
-
-You can also find checklists on 

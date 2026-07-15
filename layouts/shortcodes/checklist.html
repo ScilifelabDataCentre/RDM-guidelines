@@ -22,127 +22,131 @@
   </p>
 </div>
 
-<!-- Filtering based on project_size -->
-<div class="bg-light p-3 mb-3">
-  <h5>Project size</h5>
+<div class="row">
+  <!-- Filtering based on project_size -->
+  <div class="col-lg-2">
+    <div class="bg-light p-3 mb-3">
+      <h5>Project size</h5>
 
-  <div class="form-check">
-    <input
-      class="form-check-input"
-      type="checkbox"
-      id="project-size-big"
-      name="project-size"
-      value="big"
-    >
-    <label class="form-check-label" for="project-size-big">
-      Big project
-    </label>
-  </div>
-
-  <div class="form-check">
-    <input
-      class="form-check-input"
-      type="checkbox"
-      id="project-size-small"
-      name="project-size"
-      value="small"
-    >
-    <label class="form-check-label" for="project-size-small">
-      Small project
-    </label>
-  </div>
-</div>
-
-<!-- Container for all checklist cards -->
-<div id="checklistContainer">
-  {{ range $index, $item := $data.items }}
-
-  <!-- Card is sortable on project_size-->
-  <div class="card checklist-item mb-3" data-project-size="{{ with $item.project_size }}{{ delimit . " " }}{{ end }}">
-
-      <!-- Clicking anywhere in the header opens or closes the collapsible content -->
-    <div
-        class="card-header d-flex justify-content-between align-items-center"
-        data-bs-toggle="collapse"
-        data-bs-target="#collapseItem{{ $index }}"
-        aria-expanded="false"
-        aria-controls="collapseItem{{ $index }}"
-        style="cursor: pointer;"
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="project-size-big"
+          name="project-size"
+          value="big"
         >
-
-        <!-- checkbox and item title -->
-        <div class="d-flex align-items-center gap-2 mb-0">
-          <input
-            type="checkbox"
-            class="form-check-input checklist-checkbox"
-              data-item-id="{{ $item.id }}"
-              data-item-title="{{ $item.title }}"
-            onclick="event.stopPropagation();"
-          >
-
-          <span>{{ $item.title }}</span>
-        </div>
-
-        <!-- fair category, priority and collapsing arrow -->
-        <div class="d-flex gap-2">
-
-            <!-- Only show FAIR category if it exists -->
-            {{ with $item.fair_category }}
-              <span class="badge bg-primary">
-                {{ . }}
-              </span>
-            {{ end }}    
-
-            <!-- Defining priority levels in Scilfelab colours-->
-            {{ $priority := int $item.priority }}
-            {{ $priorityColour := "#6c757d" }}
-            {{ if eq $priority 1 }}
-              {{ $priorityColour = "#491F53" }}
-            {{ else if eq $priority 2 }}
-              {{ $priorityColour = "#045C64" }}
-            {{ else if eq $priority 3 }}
-              {{ $priorityColour = "#A6A6A6" }}
-            {{ end }}
-
-            <!-- Setting priority colours-->
-            <span
-              class="badge"
-              style="background-color: {{ $priorityColour }}; color: white;"
-            >
-              Priority {{ $priority }}
-            </span>
-
-            <i class="bi bi-chevron-double-down collapse-arrow"></i>
-
-        </div>
-
-        </div>
-
-      <!-- hidden collapsible content-->
-      <div class="collapse" id="collapseItem{{ $index }}">
-        <div class="card-body">
-
-          {{ $item.description | markdownify }}
-
-          <br><br>
-
-          <b>Explanation:</b>
-          {{ $item.explanation | markdownify }}
-
-          <br><br>
-
-          <b>Action:</b>
-          {{ $item.action | markdownify }}
-
-        </div>
+        <label class="form-check-label" for="project-size-big">
+          Big project
+        </label>
       </div>
 
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="project-size-small"
+          name="project-size"
+          value="small"
+        >
+        <label class="form-check-label" for="project-size-small">
+          Small project
+        </label>
+      </div>
     </div>
+  </div>
+  <!-- Container for all checklist cards -->
+  <div class="col-lg">
+    <div id="checklistContainer">
+      {{ range $index, $item := $data.items }}
 
-  {{ end }}
+      <!-- Card is sortable on project_size-->
+      <div class="card checklist-item mb-3" data-project-size="{{ with $item.project_size }}{{ delimit . " " }}{{ end }}">
 
+          <!-- Clicking anywhere in the header opens or closes the collapsible content -->
+        <div
+            class="card-header d-flex justify-content-between align-items-center"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseItem{{ $index }}"
+            aria-expanded="false"
+            aria-controls="collapseItem{{ $index }}"
+            style="cursor: pointer;"
+            >
+
+            <!-- checkbox and item title -->
+            <div class="d-flex align-items-center gap-2 mb-0">
+              <input
+                type="checkbox"
+                class="form-check-input checklist-checkbox"
+                  data-item-id="{{ $item.id }}"
+                  data-item-title="{{ $item.title }}"
+                onclick="event.stopPropagation();"
+              >
+
+              <span>{{ $item.title }}</span>
+            </div>
+
+            <!-- fair category, priority and collapsing arrow -->
+            <div class="d-flex gap-2">
+
+                <!-- Only show FAIR category if it exists -->
+                {{ with $item.fair_category }}
+                  <span class="badge bg-primary">
+                    {{ . }}
+                  </span>
+                {{ end }}    
+
+                <!-- Defining priority levels in Scilfelab colours-->
+                {{ $priority := int $item.priority }}
+                {{ $priorityColour := "#6c757d" }}
+                {{ if eq $priority 1 }}
+                  {{ $priorityColour = "#491F53" }}
+                {{ else if eq $priority 2 }}
+                  {{ $priorityColour = "#045C64" }}
+                {{ else if eq $priority 3 }}
+                  {{ $priorityColour = "#A6A6A6" }}
+                {{ end }}
+
+                <!-- Setting priority colours-->
+                <span
+                  class="badge"
+                  style="background-color: {{ $priorityColour }}; color: white;"
+                >
+                  Priority {{ $priority }}
+                </span>
+
+                <i class="bi bi-chevron-double-down collapse-arrow"></i>
+
+            </div>
+
+            </div>
+
+          <!-- hidden collapsible content-->
+          <div class="collapse" id="collapseItem{{ $index }}">
+            <div class="card-body">
+
+              {{ $item.description | markdownify }}
+
+              <br><br>
+
+              <b>Explanation:</b>
+              {{ $item.explanation | markdownify }}
+
+              <br><br>
+
+              <b>Action:</b>
+              {{ $item.action | markdownify }}
+
+            </div>
+          </div>
+
+        </div>
+
+      {{ end }}
+
+    </div>
+  </div>
 </div>
-
 <script>
   // Checklist title and version from the JSON file for use in copy statement
   const checklistDOI = "{{ $data.doi }}";
@@ -261,6 +265,6 @@ document
 
     // Rm temporary object url
     URL.revokeObjectURL(url);
-});
+  });
 
 </script>

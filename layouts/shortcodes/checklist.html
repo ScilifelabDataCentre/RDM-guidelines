@@ -1,24 +1,25 @@
 {{ $dataFile := .Get "data" }}
 {{ $data := index site.Data $dataFile }}
 
-<h3>Check the boxes your project fulfills and add this statement to your README or documentation</h3><br>
-<!-- Automatically updated text to copy nr of fulfilled items -->
-<div class="input-group mb-3">
-  <input
-    type="text"
-    id="badgeText"
-    class="form-control"
-    style="height: 60px;"
-    readonly
-  >
+<!-- Automatically updated checklist progress and export -->
+<div class="mb-3">
+  <p class="mb-1">
+    <strong>Progress:</strong>
+    <span id="checkedCount">0</span> /
+    <span id="totalCount">0</span>
+    items fulfilled
+  </p>
+
   <button
     type="button"
     class="btn btn-outline-secondary"
-    id="copyBadgeButton"
-    style="height: 60px;"
+    id="exportChecklistButton"
   >
-    Copy
+    Save progress
   </button>
+  <p class="text-muted small mt-2 mb-0">
+    Downloads your checklist progress as a JSON file.
+  </p>
 </div>
 
 <!-- Filtering based on project_size -->
@@ -51,12 +52,6 @@
     </label>
   </div>
 </div>
-<!-- Display nr of checked items-->
-<p class="mt-3">
-  Checked:
-  <span id="checkedCount">0</span> /
-  <span id="totalCount">0</span>
-</p>
 
 <!-- Container for all checklist cards -->
 <div id="checklistContainer">
@@ -66,7 +61,7 @@
   <div class="card checklist-item mb-3" data-project-size="{{ with $item.project_size }}{{ delimit . " " }}{{ end }}">
 
       <!-- Clicking anywhere in the header opens or closes the collapsible content -->
-     <div
+    <div
         class="card-header d-flex justify-content-between align-items-center"
         data-bs-toggle="collapse"
         data-bs-target="#collapseItem{{ $index }}"
@@ -80,6 +75,8 @@
           <input
             type="checkbox"
             class="form-check-input checklist-checkbox"
+              data-item-id="{{ $item.id }}"
+              data-item-title="{{ $item.title }}"
             onclick="event.stopPropagation();"
           >
 
@@ -162,20 +159,10 @@
 
     document.getElementById('checkedCount').textContent = checked;
     document.getElementById('totalCount').textContent = total;
-
-    document.getElementById('badgeText').value =
-      `This repository fulfills ${checked} / ${total} items of the ${checklistTitle}. DOI: ${checklistDOI}`;
   }
   // Update the counter when a checkbox is clicked
   document.querySelectorAll('.checklist-checkbox').forEach(checkbox => {
     checkbox.addEventListener('change', updateChecklistCounter);
-  });
-
-  // Copy the generated statement
-  document.getElementById('copyBadgeButton').addEventListener('click', async () => {
-    await navigator.clipboard.writeText(
-      document.getElementById('badgeText').value
-    );
   });
 
   // Initialise counter
@@ -230,6 +217,50 @@ window.addEventListener('beforeunload', (event) => {
     event.preventDefault();
     event.returnValue = "";
   }
+});
+
+document
+  .getElementById('exportChecklistButton')
+  .addEventListener('click', () => {
+
+    // Get all items (checkboxes)
+    const checkboxes =
+      document.querySelectorAll('.checklist-checkbox');
+
+    // Make array with checked status, id and title for each item
+    const checklistItems = Array.from(checkboxes).map(checkbox => ({
+      id: Number(checkbox.dataset.itemId),
+      title: checkbox.dataset.itemTitle,
+      checked: checkbox.checked
+    }));
+
+    // Create the structure for the content of the exported json
+    const exportData = {
+      // General information about the checklist
+      checklist: checklistTitle,
+      doi: checklistDOI,
+      checked: checklistItems.filter(item => item.checked).length,
+      total: checklistItems.length,
+
+      // The items and their checked status
+      items: checklistItems
+    };
+
+    // Convert the object to json text and create downloadable file
+    const json = JSON.stringify(exportData, null, 2);
+    const blob = new Blob([json], {
+      type: 'application/json'
+    });
+
+    // Create a temporary download link and trigger download
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = 'open-software-checklist.json';
+    link.click();
+
+    // Rm temporary object url
+    URL.revokeObjectURL(url);
 });
 
 </script>

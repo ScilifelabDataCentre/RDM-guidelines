@@ -548,6 +548,9 @@ html {
 .training {
   background-color: var(--grape0_25);
 }
+.checklists {
+  background-color: var(--teal0_25);
+}
 
 /* Contributors cards */
 .card-img-top {

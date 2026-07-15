@@ -6,7 +6,7 @@
     {
       "id": 0,
       "title": "Develop a Software Management Plan (SMP)",
-      "fair_category": "",
+      "fair_category": "Best practice",
       "priority": 1,
       "description": "Outline contributors, project name, versioning, coding standards, dependencies, testing, and sustainability. ",
       "explanation": "A Software Management Plan helps ensure that software is developed, maintained, and sustained in a planned and documented way.",
@@ -16,7 +16,7 @@
     {
       "id": 1,
       "title": "Host Code in a Public Version-Controlled Repository",
-      "fair_category": "A",
+      "fair_category": "Accessible",
       "priority": 1,
       "description": "Host your code on platforms like GitHub, GitLab, or CodeBerg to track development history, enable tagged versioned releases, improve reusability, and support collaboration.",
       "explanation": "If your code isn't in a public repository that records version history, you can't see how it developed or which version produced certain results. It also makes it harder for others, or even your own team, to follow the process and work on the code together",
@@ -26,7 +26,7 @@
     {
       "id": 2,
       "title": "Choose an Open-Source Licence",
-      "fair_category": "F",
+      "fair_category": "Findable",
       "priority": 1,
       "description": "Select an appropriate licence ([MIT License](https://choosealicense.com/licenses/mit/), [Apache License](https://choosealicense.com/licenses/apache-2.0/), or [GPL License](https://choosealicense.com/licenses/gpl-3.0/)), e.g., using [Choose a License](https://choosealicense.com/). If your repository also contains non-software content (e.g., website text or documentation), consider adding a separate licence for that, such as [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Note that code or content without a licence can not legally be reused, even if it is publicly available.",
       "explanation": "If your code has no licence (that states how the code can be used, shared, or modified), it's not legally reusable, even if it is accessible.",
@@ -36,7 +36,7 @@
     {
       "id": 3,
       "title": "Write a Structured README",
-      "fair_category": "R",
+      "fair_category": "Reusable",
       "priority": 1,
       "description": "Create a machine-readable `README.md` (e.g. using [readme.so](https://readme.so/)) with installation instructions, usage examples, required prerequisites, contribution guidelines, and licence information. Machine-readable means structured in a way that allows automated tools to identify and extract information, for the README for example by using plain text Markdown section titles.",
       "explanation": "Without a structured `README.md`, it is hard to understand what the code does, how to install or use it, or how to contribute. ",
@@ -46,7 +46,7 @@
     {
       "id": 4,
       "title": "Archive and Assign a Persistent Identifier",
-      "fair_category": "F",
+      "fair_category": "Findable",
       "priority": 1,
       "description": "Ensure long-term preservation by depositing a snapshot of a specific software release (e.g., v1.0.0) in repositories that assign a PID such as [Zenodo](https://zenodo.org/), [Software Heritage](https://www.softwareheritage.org/), or your local institutional repository (e.g., [SciLifeLab Data Repository](https://figshare.scilifelab.se/)). This complements hosting code in a public development repository by providing a fixed reference that can be cited in publications and matched to data and results.",
       "explanation": "Without a persistent identifier, references/links to the code may change or break over time. This makes citations unreliable and can prevent others from finding the code ( or correct version). Especially if the code is updated, renamed or moved.",
@@ -56,7 +56,7 @@
     {
       "id": 5,
       "title": "Provide Descriptive Metadata",
-      "fair_category": "F",
+      "fair_category": "Findable",
       "priority": 1,
       "description": "Include essential details such as title, authors, version, licence, DOI and keywords. This can be done in a `CITATION.cff` file. For more extensive metadata, you can also create a `codemeta.json` file using tools like the [CodeMeta generator](https://codemeta.github.io/codemeta-generator/), which can then be added to public and preservation repositories (e.g. GitHub, Zenodo). One such file can be seen [here](https://github.com/cboettig/codemeta/blob/master/codemeta.json). Optionally, include a contributors table in your `README.md` (e.g., [The Turing Way's Contributors Table](https://book.the-turing-way.org/community-handbook/acknowledgement/acknowledgement-record)), or frameworks like [All Contributors](https://allcontributors.org/) to make roles and credit visible.",
       "explanation": "Without clear metadata, the code is harder to find, cite and connect to related research outputs. Missing author or licence information can also make attribution unclear.",
@@ -66,7 +66,7 @@
     {
       "id": 6,
       "title": "Use Package Managers and Manage Them Wisely",
-      "fair_category": "I",
+      "fair_category": "Interoperable",
       "priority": 2,
       "description": "Specify dependencies via [package managers](https://en.wikipedia.org/wiki/List_of_software_package_management_systems) (e.g., pip, mamba) for better compatibility and reproducibility. Include a dependency file (e.g. `requirements.txt`, `environment.yml`) to allow others to easily install the necessary packages, and specify package versions to ensure the same versions are used across environments. Use well-maintained libraries and avoid obsolete and redundant dependencies so the software continues to work as intended over time.",
       "explanation": "Without a defined dependencies others can not easily use your code (and outdated packages may break the software or create security risks).",
@@ -76,7 +76,7 @@
     {
       "id": 7,
       "title": "Use Descriptive Names",
-      "fair_category": "",
+      "fair_category": "Best practice",
       "priority": 2,
       "description": "Choose consistent and descriptive names for variables, functions and files to make code easy to read and understand. See [The Turing Way Guidelines for Code Styling](https://book.the-turing-way.org/project-design/info-management/code-styling/code-styling-guidelines) ",
       "explanation": "Unclear or inconsistent naming makes the code harder to read, understand, and maintain. Both for you and for new users.",
@@ -86,7 +86,7 @@
     {
       "id": 8,
       "title": "Write Clear Documentation ",
-      "fair_category": "R",
+      "fair_category": "Reusable",
       "priority": 2,
       "description": "Provide concise instructions, usage examples, and inline comments to help others understand and use the code. See [CodeRefinerys Modular Code Development lesson](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md/#1) for more information.",
       "explanation": "If the documentation is incomplete or does not exist, or the code lacks comments showing how it should be used, others may be unable to understand or build upon the code. It also makes it harder for you and collaborators to maintain it later.",
@@ -96,7 +96,7 @@
     {
       "id": 9,
       "title": "Include Example Use Cases",
-      "fair_category": "R",
+      "fair_category": "Reusable",
       "priority": 2,
       "description": "Provide example use cases via sample scripts or [Jupyter notebooks](https://jupyter.org/) (see [notebook guidance](https://zenodo.org/records/5651648) on documenting your workflow). Include small example datasets with your software to ensure others can test and reproduce your results. If including data in the repository is not feasible (e.g. due to size limits or policies), share it via platforms like [Zenodo](https://zenodo.org/) or reuse existing publicly available datasets.",
       "explanation": "Without clear examples others may not understand how to run the code, or what format the data needs to be in if applied to another dataset.",
@@ -106,7 +106,7 @@
     {
       "id": 10,
       "title": "Follow Code Formatting Standards ",
-      "fair_category": "I",
+      "fair_category": "Interoperable",
       "priority": 2,
       "description": "Use recognised open standards, style guides, linters, and formatters to keep code clean and consistent. Common examples include Black and Pylint (Python). See the [Netherlands eScience Center Guide](https://guide.esciencecenter.nl/#/) for language-specific examples and [The Turing Way's overview of static analysis tools](https://book.the-turing-way.org/reproducible-research/code-quality) for formatter options.",
       "explanation": "Inconsistent formatting makes the code harder to read, and increases the chance of small avoidable errors.",
@@ -116,7 +116,7 @@
     {
       "id": 11,
       "title": "Use Issue Tracking & Discussions",
-      "fair_category": "",
+      "fair_category": "Best practice",
       "priority": 3,
       "description": "Enable GitHub Issues, forums, or mailing lists to gather community feedback and improve software. Consider building a backlog with clearly identified “Starter Issues” to help new contributors find small, manageable issues to start on.",
       "explanation": "Problems may go undetected and unsolved.",
@@ -126,7 +126,7 @@
     {
       "id": 12,
       "title": "Set Up Contributing Guidelines",
-      "fair_category": "",
+      "fair_category": "Best practice",
       "priority": 3,
       "description": "Create a `CONTRIBUTING.md` file to guide community contributions.",
       "explanation": "People who want to contribute may not know how to do so.",
@@ -136,7 +136,7 @@
     {
       "id": 13,
       "title": "Write Modular Code",
-      "fair_category": "",
+      "fair_category": "Best practice",
       "priority": 3,
       "description": "Logically break up code into functions and modules to make it easier to read, avoid repetition, simplify testing, and improve long-term maintainability. Avoid hardcoding details like file paths or settings by passing them as inputs instead. See [The Turing Ways Detailed Recommendations for Code Reuse](https://book.the-turing-way.org/reproducible-research/code-reuse/code-reuse-details#re-runnable-recommendations) for more information.",
       "explanation": "Long and unstructured code blocks are hard to read, test and rework. They may be repetitive and run less efficiently, and changing one part can easily break others.",
@@ -146,7 +146,7 @@
     {
       "id": 14,
       "title": "Define Input/Output Schemas ",
-      "fair_category": "I",
+      "fair_category": "Interoperable",
       "priority": 3,
       "description": "Use formats like [JSON Schema](https://json-schema.org/) to clearly describe the structure of your software's inputs and outputs.",
       "explanation": "It is unclear what the code expects and returns, and thus unclear how to use and adapt it to new data.",
@@ -156,7 +156,7 @@
     {
       "id": 15,
       "title": "Implement and Automate Software Testing ",
-      "fair_category": "",
+      "fair_category": "Best practice",
       "priority": 3,
       "description": "Include unit tests and integration tests so the software continues to work as intended over time, using frameworks like [PyTest](https://docs.pytest.org/en/stable/), [Jest](https://jestjs.io/), or [Mocha](https://mochajs.org/). Use CI/CD tools like GitHub Actions and GitLab CI to streamline testing and deployment.",
       "explanation": "When changes are made, new errors can go unnoticed and it is hard to confirm that the full software still works as expected.",
@@ -166,7 +166,7 @@
     {
       "id": 16,
       "title": "Define Governance for Long-Term Maintenance",
-      "fair_category": "",
+      "fair_category": "Best practice",
       "priority": 3,
       "description": "Outline roles, responsibilities, and decision-making processes for sustaining your software project over time.",
       "explanation": "Without maintenance, unpatched bugs or security issues can arise and create risks for those who reuse it.",
@@ -176,7 +176,7 @@
     {
       "id": 17,
       "title": "Use a Clear Versioning Scheme",
-      "fair_category": "",
+      "fair_category": "Best practice",
       "priority": 3,
       "description": "Label official releases of software using a consistent versioning system, such as [Semantic Versioning (SemVer)](https://semver.org/) (`major.minor.patch`), tagging the exact commit related to each release. This makes each version unambiguously citable and reusable.",
       "explanation": "Users can not tell which version of the software they are using or citing. This can make it harder to track changes, reproduce results, or identify when updates introduce issues.",
@@ -186,7 +186,7 @@
     {
       "id": 18,
       "title": "Establish a Code of Conduct",
-      "fair_category": "",
+      "fair_category": "Best practice",
       "priority": 3,
       "description": "Define expectations for community interactions using a `CODE_OF_CONDUCT.md` file (e.g., [Contributor Covenant](https://www.contributor-covenant.org/)), and include a contact method for reporting violations.",
       "explanation": "Misunderstandings or conflicts may arise, and contributors may feel unsure how to, or if they should, report issues.",
@@ -196,7 +196,7 @@
     {
       "id": 19,
       "title": "Add Repository Badges",
-      "fair_category": "R",
+      "fair_category": "Reusable",
       "priority": 3,
       "description": "Include badges for citation (e.g., Zenodo DOI), licence, build status, and community standards. You can create and customise badges via [shields.io](https://shields.io/).",
       "explanation": "Users can see key information quickly which can contribute to, for example, more accurate citation.",
@@ -206,7 +206,7 @@
     {
       "id": 20,
       "title": "Containerise Your Software ",
-      "fair_category": "",
+      "fair_category": "Best practice",
       "priority": 3,
       "description": "Provide instructions to create consistent, portable environments using [Docker](https://www.docker.com/) or [Singularity](https://github.com/apptainer/singularity), by including a Dockerfile or equivalent build instructions. This improves transparency and ensures your software runs reliably across different systems, thus enhancing reproducibility and simplifying deployment.",
       "explanation": "The software may behave differently across systems.",
@@ -216,7 +216,7 @@
     {
       "id": 21,
       "title": "Cite Your Software in Publications",
-      "fair_category": "F",
+      "fair_category": "Findable",
       "priority": 2,
       "description": "Include a formal citation in the References section of the publication.",
       "explanation": "A formal citation ensures people know exactly where to go to find the software when reading the publication.",
@@ -226,7 +226,7 @@
     {
       "id": 22,
       "title": "Declare Software Availability in Publications",
-      "fair_category": "F",
+      "fair_category": "Findable",
       "priority": 3,
       "description": "Include a software availability statement in the body of the publication, describing where and how the software can be accessed. ",
       "explanation": "A software availability statement ensures people know exactly where to go to find the software when reading the publication.",

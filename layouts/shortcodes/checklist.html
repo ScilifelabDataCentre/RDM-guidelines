@@ -23,9 +23,10 @@
 </div>
 
 <div class="row">
-  <!-- Filtering based on project_size -->
-  <div class="col-lg-2">
+  <div class="col-lg-3">
+    <!-- Filtering based on project_size and priority-->
     <div class="bg-light p-3 mb-3">
+      <!--Project size-->
       <h5>Project size</h5>
 
       <div class="form-check">
@@ -53,6 +54,46 @@
           Small project
         </label>
       </div>
+      <br>
+      <!--Priority-->
+      <h5>Priority level</h5>
+
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="priority-essential"
+          name="priority"
+          value="essential"
+        >
+        <label class="form-check-label" for="priority-essential">
+          Essential
+        </label>
+      </div>
+            <div class="form-check">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="priority-recommended"
+          name="priority"
+          value="recommended"
+        >
+        <label class="form-check-label" for="priority-recommended">
+          Recommended
+        </label>
+      </div>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="priority-advanced"
+          name="priority"
+          value="advanced"
+        >
+        <label class="form-check-label" for="priority-advanced">
+          Advanced
+        </label>
+      </div>
     </div>
   </div>
   <!-- Container for all checklist cards -->
@@ -60,9 +101,12 @@
     <div id="checklistContainer">
       {{ range $index, $item := $data.items }}
 
-      <!-- Card is sortable on project_size-->
-      <div class="card checklist-item mb-3" data-project-size="{{ with $item.project_size }}{{ delimit . " " }}{{ end }}">
-
+      <!-- Card is sortable on project_size and priority-->
+      <div
+        class="card checklist-item mb-3"
+        data-project-size="{{ with $item.project_size }}{{ delimit . " " }}{{ end }}"
+        data-priority="{{ $item.priority | urlize }}"
+      >
           <!-- Clicking anywhere in the header opens or closes the collapsible content -->
         <div
             class="card-header d-flex justify-content-between align-items-center"
@@ -100,7 +144,7 @@
                 {{ with $item.priority }}
                   <span class="badge priority-{{ . | urlize }}">
                     {{ . }}
-                </span>
+                  </span>
                 {{ end }}
 
                 <i class="bi bi-chevron-double-down collapse-arrow"></i>
@@ -179,26 +223,45 @@
 
   });
 
-  // Filter items based on project size 
+// Filter items based on project size and priority
 function filterChecklistItems() {
+
+  // Get the selected projec sizes
   const selectedSizes = Array.from(
     document.querySelectorAll('input[name="project-size"]:checked')
   ).map(input => input.value);
 
+  // Get the selected priorities
+  const selectedPriorities = Array.from(
+    document.querySelectorAll('input[name="priority"]:checked')
+  ).map(input => input.value);
+
   document.querySelectorAll('.checklist-item').forEach(item => {
-    const itemSizes = item.dataset.projectSize || '';
+    // Get project size and priority of the item
+    const itemSizes = (item.dataset.projectSize || '').split(' ');
+    const itemPriority = item.dataset.priority || '';
 
-    const shouldShow =
+    // Match at least one selected size. If no match then all
+    const matchesSize =
       selectedSizes.length === 0 ||
-      selectedSizes.some(size => itemSizes.split(' ').includes(size));
+      selectedSizes.some(size => itemSizes.includes(size));
 
-    item.style.display = shouldShow ? '' : 'none';
+    // Match at least one selected priority. If no match then all
+    const matchesPriority =
+      selectedPriorities.length === 0 ||
+      selectedPriorities.includes(itemPriority);
+
+    // Item must match both filter categories
+    item.style.display =
+      matchesSize && matchesPriority ? '' : 'none';
   });
 }
 
-document.querySelectorAll('input[name="project-size"]').forEach(checkbox => {
-  checkbox.addEventListener('change', filterChecklistItems);
-});
+document
+  .querySelectorAll('input[name="project-size"], input[name="priority"]')
+  .forEach(checkbox => {
+    checkbox.addEventListener('change', filterChecklistItems);
+  });
 
 // Warn before leaving the page if any boxes are checked
 window.addEventListener('beforeunload', (event) => {

@@ -110,7 +110,7 @@
         data-project-size="{{ with $item.project_size }}{{ delimit . " " }}{{ end }}"
         data-priority="{{ $item.priority | urlize }}"
       >
-          <!-- Clicking anywhere in the header opens or closes the collapsible content -->
+          <!-- Clicking anywhere in the header (except for checkbox) opens or closes the collapsible content -->
           <div
             class="card-header checklist-header d-flex justify-content-between align-items-center"
             data-collapse-target="#collapseItem{{ $index }}"
@@ -183,11 +183,11 @@
   </div>
 </div>
 <script>
-  // Checklist title and version from the JSON file for use in copy statement
+  // Checklist title and version from the JSON file for use in the exported file
   const checklistDOI = "{{ $data.doi }}";
   const checklistTitle = "{{ $data.title }}";
 
-  // Count checked boxes and update counter and copy statement
+  // Count checked boxes and update progress counter
   function updateChecklistCounter() {
 
     const total =
@@ -230,7 +230,7 @@
 // Filter items based on project size and priority
 function filterChecklistItems() {
 
-  // Get the selected projec sizes
+  // Get the selected project sizes
   const selectedSizes = Array.from(
     document.querySelectorAll('input[name="project-size"]:checked')
   ).map(input => input.value);

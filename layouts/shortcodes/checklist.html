@@ -111,24 +111,24 @@
         data-priority="{{ $item.priority | urlize }}"
       >
           <!-- Clicking anywhere in the header opens or closes the collapsible content -->
-        <div
-            class="card-header d-flex justify-content-between align-items-center"
-            data-bs-toggle="collapse"
-            data-bs-target="#collapseItem{{ $index }}"
+          <div
+            class="card-header checklist-header d-flex justify-content-between align-items-center"
+            data-collapse-target="#collapseItem{{ $index }}"
             aria-expanded="false"
             aria-controls="collapseItem{{ $index }}"
             style="cursor: pointer;"
-            >
+          >
 
             <!-- checkbox and item title -->
             <div class="d-flex align-items-center gap-2 mb-0">
-              <input
-                type="checkbox"
-                class="form-check-input checklist-checkbox"
+              <div class="checklist-checkbox-area d-flex align-items-center">
+                <input
+                  type="checkbox"
+                  class="form-check-input checklist-checkbox"
                   data-item-id="{{ $item.id }}"
                   data-item-title="{{ $item.title }}"
-                onclick="event.stopPropagation();"
-              >
+                >
+              </div>
 
               <span>{{ $item.title }}</span>
             </div>
@@ -208,8 +208,9 @@
   updateChecklistCounter();
 
   // Rotation of the collapsible arrow on click 
-  document.querySelectorAll('.collapse').forEach(collapse => {
-
+  document
+    .querySelectorAll('#checklistContainer .collapse')
+    .forEach(collapse => {
     collapse.addEventListener('show.bs.collapse', () => {
       collapse
         .closest('.card')
@@ -320,5 +321,33 @@ document
     // Rm temporary object url
     URL.revokeObjectURL(url);
   });
+
+
+// Open or close card when header (except for checkbox area) is clicked 
+document
+  .querySelectorAll('#checklistContainer .checklist-header')
+  .forEach(header => {
+  header.addEventListener('click', event => {
+
+    // Do not open or close the card when the checkbox is clicked
+    if (event.target.closest('.checklist-checkbox-area')) {
+      return;
+    }
+
+    const targetSelector = header.dataset.collapseTarget;
+    const collapseElement = document.querySelector(targetSelector);
+
+    // Use the existing Bootstrap collapse instance, or create one
+    let collapse = bootstrap.Collapse.getInstance(collapseElement);
+
+    if (!collapse) {
+      collapse = new bootstrap.Collapse(collapseElement, {
+        toggle: false
+      });
+    }
+
+    collapse.toggle();
+  });
+});
 
 </script>

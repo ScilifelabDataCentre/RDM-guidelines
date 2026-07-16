@@ -50,8 +50,8 @@
           },
           "priority": {
             "type": "integer",
-            "enum": [1, 2, 3],
-            "description": "How important it is the item is fulfilled. 1 is highest priority"
+            "enum": ["Essential", "Recommended", "Advanced"],
+            "description": "How important it is the item is fulfilled. 'Essential' is the highest priority"
           },
           "description": {
             "type": "string",

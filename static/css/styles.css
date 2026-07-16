@@ -706,17 +706,17 @@ input[type="checkbox"]:focus {
 
 /* Priority colours */
 
-.priority-1 {
+.priority-essential {
   background-color: var(--grape1);
   color: white;
 }
 
-.priority-2 {
+.priority-recommended {
   background-color: var(--grape0_75);
   color: white;
 }
 
-.priority-3 {
+.priority-advanced {
   background-color: var(--grape0_50);
   color: white;
 }

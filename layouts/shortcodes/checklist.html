@@ -97,11 +97,11 @@
                 {{ end }}
 
                 <!-- Defining priority levels in Scilfelab colours-->
-                {{ $priority := int $item.priority }}
-
-                <span class="badge priority-{{ $priority }}">
-                  Priority {{ $priority }}
+                {{ with $item.priority }}
+                  <span class="badge priority-{{ . | urlize }}">
+                    {{ . }}
                 </span>
+                {{ end }}
 
                 <i class="bi bi-chevron-double-down collapse-arrow"></i>
 

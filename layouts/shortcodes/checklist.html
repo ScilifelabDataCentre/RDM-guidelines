@@ -2,26 +2,29 @@
 {{ $data := index site.Data $dataFile }}
 
 <!-- Automatically updated checklist progress and export -->
-<div class="mb-3">
-  <p class="mb-1">
-    <strong>Progress:</strong>
-    <span id="checkedCount">0</span> /
-    <span id="totalCount">0</span>
-    items fulfilled
-  </p>
-
-  <button
-    type="button"
-    class="btn btn-outline-secondary"
-    id="exportChecklistButton"
-  >
-    Save progress
-  </button>
-  <p class="text-muted small mt-2 mb-0">
-    Downloads your checklist progress as a JSON file.
-  </p>
+<div class="row align-items-end">
+  <div class="col-lg-3"></div>
+  <div class="col-lg-3">
+    <p class="mb-1">
+      <strong>Progress:</strong>
+      <span id="checkedCount">0</span> /
+      <span id="totalCount">0</span>
+      items fulfilled
+    </p>
+  </div>
+  <div class="col-lg text-md-end">
+    <button
+      type="button"
+      class="btn btn-outline-secondary mb-0"
+      id="exportChecklistButton"
+    >
+      Save progress
+    </button>
+    <p class="text-muted small mt-0 mb-1">
+      Downloads your checklist progress as a JSON file.
+    </p>
+  </div>
 </div>
-
 <div class="row">
   <div class="col-lg-3">
     <!-- Filtering based on project_size and priority-->

@@ -185,10 +185,7 @@
 
 <!-- ===================== JAVASCRIPT ===================== -->
 <script>
-  // Checklist title and version from the JSON file for use in the exported file
-  const checklistDOI = "{{ $data.doi }}";
-  const checklistTitle = "{{ $data.title }}";
-
+  // ===================== PROGRESS COUNTING =====================
   // Count checked boxes and update progress counter
   function updateChecklistCounter() {
 
@@ -208,6 +205,34 @@
 
   // Initialise counter
   updateChecklistCounter();
+
+  // ===================== Item cards =====================
+  // Open or close card when header (except for checkbox area) is clicked 
+  document
+    .querySelectorAll('#checklistContainer .checklist-header')
+    .forEach(header => {
+    header.addEventListener('click', event => {
+
+      // Do not open or close the card when the checkbox is clicked
+      if (event.target.closest('.checklist-checkbox-area')) {
+        return;
+      }
+
+      const targetSelector = header.dataset.collapseTarget;
+      const collapseElement = document.querySelector(targetSelector);
+
+      // Use the existing Bootstrap collapse instance, or create one
+      let collapse = bootstrap.Collapse.getInstance(collapseElement);
+
+      if (!collapse) {
+        collapse = new bootstrap.Collapse(collapseElement, {
+          toggle: false
+        });
+      }
+
+      collapse.toggle();
+    });
+  });
 
   // Rotation of the collapsible arrow on click 
   document
@@ -229,127 +254,106 @@
 
   });
 
-// Filter items based on project size and priority
-function filterChecklistItems() {
+  // ===================== FILTERING =====================
+  // Filter items based on project size and priority
+  function filterChecklistItems() {
 
-  // Get the selected project sizes
-  const selectedSizes = Array.from(
-    document.querySelectorAll('input[name="project-size"]:checked')
-  ).map(input => input.value);
+    // Get the selected project sizes
+    const selectedSizes = Array.from(
+      document.querySelectorAll('input[name="project-size"]:checked')
+    ).map(input => input.value);
 
-  // Get the selected priorities
-  const selectedPriorities = Array.from(
-    document.querySelectorAll('input[name="priority"]:checked')
-  ).map(input => input.value);
+    // Get the selected priorities
+    const selectedPriorities = Array.from(
+      document.querySelectorAll('input[name="priority"]:checked')
+    ).map(input => input.value);
 
-  document.querySelectorAll('.checklist-item').forEach(item => {
-    // Get project size and priority of the item
-    const itemSizes = (item.dataset.projectSize || '').split(' ');
-    const itemPriority = item.dataset.priority || '';
+    document.querySelectorAll('.checklist-item').forEach(item => {
+      // Get project size and priority of the item
+      const itemSizes = (item.dataset.projectSize || '').split(' ');
+      const itemPriority = item.dataset.priority || '';
 
-    // Match at least one selected size. If no match then all
-    const matchesSize =
-      selectedSizes.length === 0 ||
-      selectedSizes.some(size => itemSizes.includes(size));
+      // Match at least one selected size. If no match then all
+      const matchesSize =
+        selectedSizes.length === 0 ||
+        selectedSizes.some(size => itemSizes.includes(size));
 
-    // Match at least one selected priority. If no match then all
-    const matchesPriority =
-      selectedPriorities.length === 0 ||
-      selectedPriorities.includes(itemPriority);
+      // Match at least one selected priority. If no match then all
+      const matchesPriority =
+        selectedPriorities.length === 0 ||
+        selectedPriorities.includes(itemPriority);
 
-    // Item must match both filter categories
-    item.style.display =
-      matchesSize && matchesPriority ? '' : 'none';
-  });
-}
-
-document
-  .querySelectorAll('input[name="project-size"], input[name="priority"]')
-  .forEach(checkbox => {
-    checkbox.addEventListener('change', filterChecklistItems);
-  });
-
-// Warn before leaving the page if any boxes are checked
-window.addEventListener('beforeunload', (event) => {
-  const checked =
-    document.querySelectorAll('.checklist-checkbox:checked').length;
-
-  if (checked > 0) {
-    event.preventDefault();
-    event.returnValue = "";
+      // Item must match both filter categories
+      item.style.display =
+        matchesSize && matchesPriority ? '' : 'none';
+    });
   }
-});
 
-document
-  .getElementById('exportChecklistButton')
-  .addEventListener('click', () => {
-
-    // Get all items (checkboxes)
-    const checkboxes =
-      document.querySelectorAll('.checklist-checkbox');
-
-    // Make array with checked status, id and title for each item
-    const checklistItems = Array.from(checkboxes).map(checkbox => ({
-      id: Number(checkbox.dataset.itemId),
-      title: checkbox.dataset.itemTitle,
-      checked: checkbox.checked
-    }));
-
-    // Create the structure for the content of the exported json
-    const exportData = {
-      // General information about the checklist
-      checklist: checklistTitle,
-      doi: checklistDOI,
-      checked: checklistItems.filter(item => item.checked).length,
-      total: checklistItems.length,
-
-      // The items and their checked status
-      items: checklistItems
-    };
-
-    // Convert the object to json text and create downloadable file
-    const json = JSON.stringify(exportData, null, 2);
-    const blob = new Blob([json], {
-      type: 'application/json'
+  document
+    .querySelectorAll('input[name="project-size"], input[name="priority"]')
+    .forEach(checkbox => {
+      checkbox.addEventListener('change', filterChecklistItems);
     });
 
-    // Create a temporary download link and trigger download
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = 'open-software-checklist.json';
-    link.click();
+  // ===================== EXIT WARNING =====================
+  // Warn before leaving the page if any boxes are checked
+  window.addEventListener('beforeunload', (event) => {
+    const checked =
+      document.querySelectorAll('.checklist-checkbox:checked').length;
 
-    // Rm temporary object url
-    URL.revokeObjectURL(url);
+    if (checked > 0) {
+      event.preventDefault();
+      event.returnValue = "";
+    }
   });
 
+// ===================== EXPORT FILE ===================== 
+  // Checklist title and version from the JSON file for use in the exported file
+  const checklistDOI = "{{ $data.doi }}";
+  const checklistTitle = "{{ $data.title }}";
 
-// Open or close card when header (except for checkbox area) is clicked 
-document
-  .querySelectorAll('#checklistContainer .checklist-header')
-  .forEach(header => {
-  header.addEventListener('click', event => {
+  document
+    .getElementById('exportChecklistButton')
+    .addEventListener('click', () => {
 
-    // Do not open or close the card when the checkbox is clicked
-    if (event.target.closest('.checklist-checkbox-area')) {
-      return;
-    }
+      // Get all items (checkboxes)
+      const checkboxes =
+        document.querySelectorAll('.checklist-checkbox');
 
-    const targetSelector = header.dataset.collapseTarget;
-    const collapseElement = document.querySelector(targetSelector);
+      // Make array with checked status, id and title for each item
+      const checklistItems = Array.from(checkboxes).map(checkbox => ({
+        id: Number(checkbox.dataset.itemId),
+        title: checkbox.dataset.itemTitle,
+        checked: checkbox.checked
+      }));
 
-    // Use the existing Bootstrap collapse instance, or create one
-    let collapse = bootstrap.Collapse.getInstance(collapseElement);
+      // Create the structure for the content of the exported json
+      const exportData = {
+        // General information about the checklist
+        checklist: checklistTitle,
+        doi: checklistDOI,
+        checked: checklistItems.filter(item => item.checked).length,
+        total: checklistItems.length,
 
-    if (!collapse) {
-      collapse = new bootstrap.Collapse(collapseElement, {
-        toggle: false
+        // The items and their checked status
+        items: checklistItems
+      };
+
+      // Convert the object to json text and create downloadable file
+      const json = JSON.stringify(exportData, null, 2);
+      const blob = new Blob([json], {
+        type: 'application/json'
       });
-    }
 
-    collapse.toggle();
+      // Create a temporary download link and trigger download
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = 'open-software-checklist.json';
+      link.click();
+
+      // Rm temporary object url
+      URL.revokeObjectURL(url);
   });
-});
 
 </script>

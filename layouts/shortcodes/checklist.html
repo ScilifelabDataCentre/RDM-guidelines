@@ -311,6 +311,7 @@
   // Checklist title and version from the JSON file for use in the exported file
   const checklistDOI = "{{ $data.doi }}";
   const checklistTitle = "{{ $data.title }}";
+  const fileTitle = checklistTitle.toLowerCase().replace(/\s+/g, "_");
 
   document
     .getElementById('exportChecklistButton')
@@ -349,7 +350,7 @@
       const url = URL.createObjectURL(blob);
       const link = document.createElement('a');
       link.href = url;
-      link.download = 'open-software-checklist.json';
+      link.download = fileTitle + '.json';
       link.click();
 
       // Rm temporary object url

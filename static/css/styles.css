@@ -30,15 +30,15 @@ SciLifeLab Brand colors
 
 :root {
   --grape1: #491F53; /* used */
-  --grape0_75: #77577E; /* unused */
-  --grape0_50: #A48FA9; /* unused */
+  --grape0_75: #77577E; /* used */
+  --grape0_50: #A48FA9; /* used */
   --grape0_25: #D2C7D4; /* used */
   --lime1: #A7C947; /* likely unused */
   --lime0_75: #BDD775; /* unused */
   --lime0_50: #D3E4A3; /*unused */
   --lime0_25: #E9F2D1; /* used */
   --teal1: #045C64; /* used */
-  --teal0_75: #43858B; /* unused */
+  --teal0_75: #43858B; /* used */
   --teal0_50: #82AEB2; /* unused */
   --teal0_25: #C0D6D8; /* used */
   --aqua1: #4C979F; /* used */
@@ -548,6 +548,9 @@ html {
 .training {
   background-color: var(--grape0_25);
 }
+.checklists {
+  background-color: var(--teal0_25);
+}
 
 /* Contributors cards */
 .card-img-top {
@@ -694,6 +697,55 @@ input[type="checkbox"]:focus {
   border-color: var(--teal1);
   outline: 0; /* Removes the browser's default black outline */
   box-shadow: 0 0 0 0.2rem var(--aqua0_50); /* Your custom aqua halo */
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*******************************/
+/*** Open science checklists ***/
+/*******************************/
+
+/* Priority colours */
+
+.priority-essential {
+  background-color: var(--grape1);
+  color: white;
+}
+
+.priority-recommended {
+  background-color: var(--grape0_75);
+  color: white;
+}
+
+.priority-advanced {
+  background-color: var(--grape0_50);
+  color: white;
+}
+
+/* FAIR tag colours */
+
+.fair-findable {
+  background-color: var(--teal1);
+  color: white;
+}
+
+.fair-accessible {
+  background-color: var(--teal0_75);
+  color: white;
+}
+
+.fair-interoperable {
+  background-color: var(--aqua1);
+  color: white;
+}
+
+.fair-reusable {
+  background-color: var(--aqua0_75);
+  color: white;
+}
+
+.fair-best-practice {
+  background-color: var(--light_grey);
+  color: var(--dark_grey);
 }
 
 /*-----------------------------------------------------------------------------------*/

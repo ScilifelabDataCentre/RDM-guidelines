@@ -1,0 +1,366 @@
+{{ $dataFile := .Get "data" }}
+{{ $data := index site.Data $dataFile }}
+
+<!-- Automatically updated checklist progress and export -->
+<div class="row align-items-end">
+  <div class="col-lg-3"></div>
+  <div class="col-lg-3">
+    <p class="mb-1">
+      <strong>Progress:</strong>
+      <span id="checkedCount">0</span> /
+      <span id="totalCount">0</span>
+      items fulfilled
+    </p>
+  </div>
+  <div class="col-lg text-md-end">
+    <button
+      type="button"
+      class="btn btn-outline-secondary mb-0"
+      id="exportChecklistButton"
+    >
+      Save progress
+    </button>
+    <p class="text-muted small mt-0 mb-1">
+      Downloads your checklist progress as a JSON file.
+    </p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-lg-3">
+    <!-- Filtering based on project_size and priority-->
+    <div class="bg-light p-3 mb-3">
+      <!--Project size-->
+      <h5>Project size</h5>
+
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="project-size-big"
+          name="project-size"
+          value="big"
+        >
+        <label class="form-check-label" for="project-size-big">
+          Big project
+        </label>
+      </div>
+
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="project-size-small"
+          name="project-size"
+          value="small"
+        >
+        <label class="form-check-label" for="project-size-small">
+          Small project
+        </label>
+      </div>
+      <br>
+      <!--Priority-->
+      <h5>Priority level</h5>
+
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="priority-essential"
+          name="priority"
+          value="essential"
+        >
+        <label class="form-check-label" for="priority-essential">
+          Essential
+        </label>
+      </div>
+            <div class="form-check">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="priority-recommended"
+          name="priority"
+          value="recommended"
+        >
+        <label class="form-check-label" for="priority-recommended">
+          Recommended
+        </label>
+      </div>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="priority-advanced"
+          name="priority"
+          value="advanced"
+        >
+        <label class="form-check-label" for="priority-advanced">
+          Advanced
+        </label>
+      </div>
+    </div>
+  </div>
+  <!-- Container for all checklist cards -->
+  <div class="col-lg">
+    <div id="checklistContainer">
+      {{ range $index, $item := $data.items }}
+
+      <!-- Card is sortable on project_size and priority-->
+      <div
+        class="card checklist-item mb-3"
+        data-project-size="{{ with $item.project_size }}{{ delimit . " " }}{{ end }}"
+        data-priority="{{ $item.priority | urlize }}"
+      >
+          <!-- Clicking anywhere in the header (except for checkbox) opens or closes the collapsible content -->
+          <div
+            class="card-header checklist-header d-flex justify-content-between align-items-center"
+            data-collapse-target="#collapseItem{{ $index }}"
+            aria-expanded="false"
+            aria-controls="collapseItem{{ $index }}"
+            style="cursor: pointer;"
+          >
+
+            <!-- checkbox and item title -->
+            <div class="d-flex align-items-center gap-2 mb-0">
+              <div class="checklist-checkbox-area d-flex align-items-center">
+                <input
+                  type="checkbox"
+                  class="form-check-input checklist-checkbox"
+                  data-item-id="{{ $item.id }}"
+                  data-item-title="{{ $item.title }}"
+                >
+              </div>
+
+              <span>{{ $item.title }}</span>
+            </div>
+
+            <!-- fair category, priority and collapsing arrow -->
+            <div class="d-flex gap-2">
+
+                <!-- Only show FAIR category if it exists -->
+                {{ with $item.fair_category }}
+                  <span class="badge fair-{{ . | urlize }}">
+                    {{ . }}
+                  </span>
+                {{ end }}
+
+                <!-- Defining priority levels in Scilfelab colours-->
+                {{ with $item.priority }}
+                  <span class="badge priority-{{ . | urlize }}">
+                    {{ . }}
+                  </span>
+                {{ end }}
+
+                <i class="bi bi-chevron-double-down collapse-arrow"></i>
+
+            </div>
+
+            </div>
+
+          <!-- hidden collapsible content-->
+          <div class="collapse" id="collapseItem{{ $index }}">
+            <div class="card-body">
+
+              {{ $item.description | markdownify }}
+
+              <br><br>
+
+              <b>Explanation:</b>
+              {{ $item.explanation | markdownify }}
+
+              <br><br>
+
+              <b>Action:</b>
+              {{ $item.action | markdownify }}
+
+            </div>
+          </div>
+
+        </div>
+
+      {{ end }}
+
+    </div>
+  </div>
+</div>
+
+
+<div class="text-end">
+  If you want to cite this checklist, please refer to the
+  <a class="link" href="{{ $data.doi }}">Figshare record</a>.
+</div>
+
+<!-- ===================== JAVASCRIPT ===================== -->
+<script>
+  // ===================== PROGRESS COUNTING =====================
+  // Count checked boxes and update progress counter
+  function updateChecklistCounter() {
+
+    const total =
+      document.querySelectorAll('.checklist-checkbox').length;
+
+    const checked =
+      document.querySelectorAll('.checklist-checkbox:checked').length;
+
+    document.getElementById('checkedCount').textContent = checked;
+    document.getElementById('totalCount').textContent = total;
+  }
+  // Update the counter when a checkbox is clicked
+  document.querySelectorAll('.checklist-checkbox').forEach(checkbox => {
+    checkbox.addEventListener('change', updateChecklistCounter);
+  });
+
+  // Initialise counter
+  updateChecklistCounter();
+
+  // ===================== Item cards =====================
+  // Open or close card when header (except for checkbox area) is clicked 
+  document
+    .querySelectorAll('#checklistContainer .checklist-header')
+    .forEach(header => {
+    header.addEventListener('click', event => {
+
+      // Do not open or close the card when the checkbox is clicked
+      if (event.target.closest('.checklist-checkbox-area')) {
+        return;
+      }
+
+      const targetSelector = header.dataset.collapseTarget;
+      const collapseElement = document.querySelector(targetSelector);
+
+      // Use the existing Bootstrap collapse instance, or create one
+      let collapse = bootstrap.Collapse.getInstance(collapseElement);
+
+      if (!collapse) {
+        collapse = new bootstrap.Collapse(collapseElement, {
+          toggle: false
+        });
+      }
+
+      collapse.toggle();
+    });
+  });
+
+  // Rotation of the collapsible arrow on click 
+  document
+    .querySelectorAll('#checklistContainer .collapse')
+    .forEach(collapse => {
+    collapse.addEventListener('show.bs.collapse', () => {
+      collapse
+        .closest('.card')
+        .querySelector('.collapse-arrow')
+        .style.transform = 'rotate(180deg)';
+    });
+
+    collapse.addEventListener('hide.bs.collapse', () => {
+      collapse
+        .closest('.card')
+        .querySelector('.collapse-arrow')
+        .style.transform = 'rotate(0deg)';
+    });
+
+  });
+
+  // ===================== FILTERING =====================
+  // Filter items based on project size and priority
+  function filterChecklistItems() {
+
+    // Get the selected project sizes
+    const selectedSizes = Array.from(
+      document.querySelectorAll('input[name="project-size"]:checked')
+    ).map(input => input.value);
+
+    // Get the selected priorities
+    const selectedPriorities = Array.from(
+      document.querySelectorAll('input[name="priority"]:checked')
+    ).map(input => input.value);
+
+    document.querySelectorAll('.checklist-item').forEach(item => {
+      // Get project size and priority of the item
+      const itemSizes = (item.dataset.projectSize || '').split(' ');
+      const itemPriority = item.dataset.priority || '';
+
+      // Match at least one selected size. If no match then all
+      const matchesSize =
+        selectedSizes.length === 0 ||
+        selectedSizes.some(size => itemSizes.includes(size));
+
+      // Match at least one selected priority. If no match then all
+      const matchesPriority =
+        selectedPriorities.length === 0 ||
+        selectedPriorities.includes(itemPriority);
+
+      // Item must match both filter categories
+      item.style.display =
+        matchesSize && matchesPriority ? '' : 'none';
+    });
+  }
+
+  document
+    .querySelectorAll('input[name="project-size"], input[name="priority"]')
+    .forEach(checkbox => {
+      checkbox.addEventListener('change', filterChecklistItems);
+    });
+
+  // ===================== EXIT WARNING =====================
+  // Warn before leaving the page if any boxes are checked
+  window.addEventListener('beforeunload', (event) => {
+    const checked =
+      document.querySelectorAll('.checklist-checkbox:checked').length;
+
+    if (checked > 0) {
+      event.preventDefault();
+      event.returnValue = "";
+    }
+  });
+
+// ===================== EXPORT FILE ===================== 
+  // Checklist title and version from the JSON file for use in the exported file
+  const checklistDOI = "{{ $data.doi }}";
+  const checklistTitle = "{{ $data.title }}";
+  const fileTitle = checklistTitle.toLowerCase().replace(/\s+/g, "_");
+
+  document
+    .getElementById('exportChecklistButton')
+    .addEventListener('click', () => {
+
+      // Get all items (checkboxes)
+      const checkboxes =
+        document.querySelectorAll('.checklist-checkbox');
+
+      // Make array with checked status, id and title for each item
+      const checklistItems = Array.from(checkboxes).map(checkbox => ({
+        id: Number(checkbox.dataset.itemId),
+        title: checkbox.dataset.itemTitle,
+        checked: checkbox.checked
+      }));
+
+      // Create the structure for the content of the exported json
+      const exportData = {
+        // General information about the checklist
+        checklist: checklistTitle,
+        doi: checklistDOI,
+        checked: checklistItems.filter(item => item.checked).length,
+        total: checklistItems.length,
+
+        // The items and their checked status
+        items: checklistItems
+      };
+
+      // Convert the object to json text and create downloadable file
+      const json = JSON.stringify(exportData, null, 2);
+      const blob = new Blob([json], {
+        type: 'application/json'
+      });
+
+      // Create a temporary download link and trigger download
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = fileTitle + '.json';
+      link.click();
+
+      // Rm temporary object url
+      URL.revokeObjectURL(url);
+  });
+
+</script>

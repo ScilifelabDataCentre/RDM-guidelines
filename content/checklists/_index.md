@@ -16,3 +16,11 @@ The interactive checklists on this page are organised into three sections: what 
 <a class="link-teal" href="https://dsw.scilifelab.se/wizard"><b> SciLifeLab Data Stewardship Wizard <i class="bi bi-arrow-right-square"></i></b></a><br><br>
 
 {{<display-checklists >}}
+
+<br>
+Additional checklists are available here:
+
+<a class="link-teal" href="https://doi.org/10.17044/scilifelab.29086706"><b> SciLifeLab Open Access Checklist <i class="bi bi-arrow-right-square"></i></b></a><br><br>
+
+
+

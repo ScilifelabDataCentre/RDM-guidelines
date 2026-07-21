@@ -18,3 +18,5 @@ For larger software projects, or if you want more comprehensive guidance in docu
 <a class="link-teal" href="https://doi.org/10.17044/scilifelab.29086775"><b> View the checklist record (Figshare)  <i class="bi bi-arrow-right-square"></i></b></a><br><br>
 
 {{< checklist data="open_software_checklist" >}}
+
+If you want to cite this checklist, please refer to the [Figshare record](https://doi.org/10.17044/scilifelab.29086775).

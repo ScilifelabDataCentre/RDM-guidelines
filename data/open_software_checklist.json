@@ -4,16 +4,6 @@
   "version": "v2",
   "items": [
     {
-      "id": 0,
-      "title": "Develop a Software Management Plan (SMP)",
-      "fair_category": "Best practice",
-      "priority": "Essential",
-      "description": "Outline contributors, project name, versioning, coding standards, dependencies, testing, and sustainability. ",
-      "explanation": "A Software Management Plan helps ensure that software is developed, maintained, and sustained in a planned and documented way.",
-      "action": "Use the Software Sustainability Institute's [SMP guide and template](https://www.software.ac.uk/news/software-management-plans), Netherlands eScience Centers [Practical Guide to SMPs](https://zenodo.org/records/7589725) or the [Software Management Wizard (SMW)](https://smw.dsw.elixir-europe.org/wizard/) to create one.",
-      "project_size": ["big"]
-    },
-    {
       "id": 1,
       "title": "Host Code in a Public Version-Controlled Repository",
       "fair_category": "Accessible",

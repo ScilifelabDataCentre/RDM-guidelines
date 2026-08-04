@@ -40,7 +40,7 @@ Open scientific knowledge is perhaps the area where you as a researcher within L
 * If you develop hardware, make the design specifications available and add a license so that they can be studied and modified by others.
 
 The SciLifeLab Open Science checklists, developed by SciLifeLab Data Centre, can assist you when publishing articles and software.
-
+<!-- Link to the checklist when they are put on our webpage -->
 <a class="link-teal" href=""><b>Go to the SciLifeLab Open Access Checklist <i class="bi bi-arrow-right-square"></i></b></a><br><br>
 <a class="link-teal" href=""><b>Go to the SciLifeLab Open Science Software Checklist <i class="bi bi-arrow-right-square"></i></b></a>
 

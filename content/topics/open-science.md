@@ -8,7 +8,7 @@ toc: True
 # Open Science
 Open Science is a global transformation, an inclusive concept that combines various movements and practices aiming to make multilingual scientific knowledge openly available, accessible, and reusable for everyone. It increases scientific collaborations and sharing of information for the benefit of science and society, opening the processes of scientific knowledge creation.
 
-There are four key pillars of open science: 
+There are four key pillars of open science:
 * Open scientific knowledge: Access to publications, data, software, and
 hardware.
 * Open Science infrastructure: Digital and physical resources needed for
@@ -29,23 +29,15 @@ Source: By <a href="https://commons.wikimedia.org/w/index.php?curid=130456946" t
 <br><br>
 
 ## Why is Open Science important?
-Open science increases scientific collaborations and sharing of information for the benefit of science and society, opening the processes of scientific knowledge creation. 
-
-The main motivation is that publicly funded research should be **accessible** to everyone, not just the individual researcher. For **transparency** and trust reasons, published results and conclusions should be possible to check by others. By making your research outputs available to others, they can address new questions or develop new analytical methods. This will **reduce duplication** and waste.
+The main motivation for Open Science is that publicly funded research should be **accessible** to everyone, not just the individual researcher. For **transparency** and trust reasons, published results and conclusions should be possible to check by others. By making your research outputs available to others, they can address new questions or develop new analytical methods. This will **reduce duplication** and waste.
 
 ## How to implement Open Science
 Open scientific knowledge is perhaps the area where you as a researcher within Life Science can do most impact:
-* For Scientific publications, ensure that you publish in open access journals
-* Publish your data with an open license such as Creative Commons zero or 
-Creative commons Attribution, allowing others to freely do whatever they want 
-when you have answered your own research questions
-* Make your teaching material available in a searchable resource, with an open 
-license, for others to learn or use themselves when teaching
-* Make any source code you create openly available, e.g. by making them 
-downloadable in a public git repository, and get a persistent identifier via 
-Zenodo.
-* If you develop hardware, make the design specifications available and add a 
-license so that they can be studied and modified by others.
+* For Scientific publications, ensure that you publish in open access journals.
+* Publish your data with an open license such as Creative Commons zero or Creative commons Attribution, allowing others to freely do whatever they want when you have answered your own research questions.
+* Make your teaching material available in a searchable resource, with an open license, for others to learn or use themselves when teaching.
+* Make any source code you create openly available, e.g. by making them downloadable in a public git repository, and get a persistent identifier via Zenodo.
+* If you develop hardware, make the design specifications available and add a license so that they can be studied and modified by others.
 
 The SciLifeLab Open Science checklists, developed by SciLifeLab Data Centre, can assist you when publishing articles and software.
 

@@ -828,16 +828,29 @@
             "provider": ["SND"]
         },
         {
-            "title": "SciLifeLab Open Science Software Checklist",
-            "short_title": "Open Science Software Checklist",
+            "title": "SciLifeLab Open Software Checklist",
+            "short_title": "Open Software Checklist",
             "category": ["tool"],
             "type": ["Tool"],
-            "search_tags": ["SciLifeLab Open Science Software Checklist"],
+            "search_tags": ["SciLifeLab Open Software Checklist"],
             "phase": [],
             "topic": ["Sharing code and workflows", "Open science"],
             "level": ["Basic"],
             "url": "https://github.com/ScilifelabDataCentre/open-science-checklists/blob/main/open_software_checklist.md",
             "description": "This checklist provides essential steps for sharing and citing your research software. It covers everything from planning your software to ensuring others can find, understand, reuse, and contribute to your software, and how to ensure your work is credited.",
+            "provider": ["SciLifeLab"]
+        },
+        {
+            "title": "SciLifeLab Open Access Checklist",
+            "short_title": "Open Access Checklist",
+            "category": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["SciLifeLab Open Access Checklist"],
+            "phase": [],
+            "topic": ["Open science"],
+            "level": ["Basic"],
+            "url": "https://github.com/ScilifelabDataCentre/open-science-checklists/blob/main/open_access_checklist.md",
+            "description": "This checklist is designed to guide you in making informed decisions about publishing your research Open Access. It covers key steps for choosing the right Open Access route, applying appropriate licenses, and ensuring compliance with institutional and funder policies.",
             "provider": ["SciLifeLab"]
         },
         {
@@ -1438,6 +1451,19 @@
             "url": "https://openscience.se/en",
             "description": "This portal collects essential information about the key actors, resources, and documents that are central to Sweden’s transition to an open science system. ",
             "provider":  ["SUHF"]
+        },
+        {
+            "title": "FAIR-Aware",
+            "short_title": "FAIR-Aware",
+            "category": ["tool"],
+            "type": ["Tool"],
+            "search_tags": ["FAIR-Aware"],
+            "phase": [],
+            "topic": ["FAIR principles"],
+            "level": ["Basic"],
+            "url": "https://fairaware.dans.knaw.nl",
+            "description": "The FAIR-Aware self assessment tool helps researchers assess their knowledge of FAIR principles and improve data findability, accessibility, interoperability, and reusability. ",
+            "provider":  ["FAIRsFAIR"]
         }
     ]
 }

@@ -29,7 +29,7 @@ Source: By <a href="https://commons.wikimedia.org/w/index.php?curid=130456946" t
 <br><br>
 
 ## Why is Open Science important?
-The main motivation for Open Science is that publicly funded research should be **accessible** to everyone, not just the individual researcher. For **transparency** and trust reasons, published results and conclusions should be possible to check by others. By making your research outputs available to others, they can address new questions or develop new analytical methods. This will **reduce duplication** and waste.
+The main motivation for Open Science is that publicly funded research should be accessible to everyone, not just the individual researcher. For transparency and trust reasons, published results and conclusions should be possible to check by others. By making your research outputs available to others, they can address new questions or develop new analytical methods. This will reduce duplication and waste.
 
 ## How to implement Open Science
 Open scientific knowledge is perhaps the area where you as a researcher within Life Science can do most impact:

@@ -1,5 +1,5 @@
 ---
-title: Open science
+title: Open Science
 category: Other
 tags: [""]
 toc: True
@@ -39,12 +39,12 @@ Open scientific knowledge is perhaps the area where you as a researcher within L
 * Make any source code you create openly available, e.g. by making them downloadable in a public git repository, and get a persistent identifier via Zenodo.
 * If you develop hardware, make the design specifications available and add a license so that they can be studied and modified by others.
 
-<!-- Link to the checklist when they are put on our webpage and uncomment this part
+<!-- Link to the checklist when they are put on our webpage and uncomment this part -->
 
 The SciLifeLab Open Science checklists, developed by SciLifeLab Data Centre, can assist you when publishing articles and software.
 
 <a class="link-teal" href=""><b>Go to the SciLifeLab Open Access Checklist <i class="bi bi-arrow-right-square"></i></b></a><br><br>
-<a class="link-teal" href=""><b>Go to the SciLifeLab Open Science Software Checklist <i class="bi bi-arrow-right-square"></i></b></a> -->
+<a class="link-teal" href=""><b>Go to the SciLifeLab Open Science Software Checklist <i class="bi bi-arrow-right-square"></i></b></a> 
 
 Adopting the FAIR principles is one of the most effective ways to reach this broader goal of Open Science. While
 Open Science is the philosophy of transparency and accessibility, FAIR is the practical toolkit that makes it possible.

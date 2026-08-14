@@ -138,6 +138,20 @@
             "licence": "CC BY 4.0"
         },
         {
+            "title": "Open Science - Getting Started",
+            "short_title": "Open Science - Getting Started",
+            "category": ["training"],
+            "type": ["Material"],
+            "search_tags": ["material","open science","FAIR","Open Science - Getting Started"],
+            "phase": [],
+            "topic": ["Open Science"],
+            "level": ["Basic"],
+            "url": "https://doi.org/10.17044/scilifelab.29087126",
+            "description": "Introductory guide that provides a comprehensive overview of open science principles, benefits, tools, and best practices. Covering topics such as FAIR data, persistent identifiers, data sharing, research software, policy frameworks, and reproducibility, this resource is designed to support researchers, institutions, and stakeholders, primarily looking at the SciLifeLab community, in adopting open and collaborative research practices.",
+            "provider":  ["SciLifeLab"],
+            "licence": "CC BY 4.0"
+        },        
+        {
             "title": "RDMkit on Human data",
             "short_title": "RDMkit: Human data",
             "category": ["guidance"],

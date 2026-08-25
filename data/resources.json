@@ -1437,6 +1437,19 @@
             "url": "https://openscience.se/en",
             "description": "This portal collects essential information about the key actors, resources, and documents that are central to Sweden’s transition to an open science system. ",
             "provider":  ["SUHF"]
+        },
+        {
+            "title": "Knowledge videos about GDPR (in Swedish)",
+            "short_title": "Knowledge videos about GDPR",
+            "category": ["guidance"],
+            "type": ["Video"],
+            "search_tags": ["Knowledge videos about GDPR (in Swedish)","Kunskapsfilmer om GDPR", "Swedish Authority for Privacy Protection", "Integritetsskyddsmyndigheten", "IMY"],
+            "phase": [],
+            "topic": ["Research involving human data"],
+            "level": ["Basic"],
+            "url": "https://www.imy.se/verksamhet/utbildning-och-stod/imy-play/",
+            "description": "These knowledge videos provide a quick overview of the most important parts of the GDPR. The videos are primarily aimed at those who are new to the role of data protection officer and who need basic knowledge of GDPR in their role.",
+            "provider":  ["Swedish Authority for Privacy Protection"]
         }
     ]
 }

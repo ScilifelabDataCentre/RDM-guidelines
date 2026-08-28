@@ -1,6 +1,6 @@
 ## External contribution process
 The RDM-guidelines repository has an editorial group consisting of members of SciLifeLab's Data Centre and NBIS data management teams.
-We welcome feedback to the content of this site from Swedish life science researchers and RDM support providers. Suggest a new topic that is not currently covered, or request an update or correction to particular pages, by emailing your feedback to [data-management@scilifelab.se](mailto:data-management@scilifelab.se).
+We welcome feedback to the content of this site from Swedish life science researchers and RDM support providers. Suggest a new topic that is not currently covered, or request an update or correction to particular pages, on GitHub or by emailing your feedback to [data-management@scilifelab.se](mailto:data-management@scilifelab.se).
 
 ### How to work in GitHub
 

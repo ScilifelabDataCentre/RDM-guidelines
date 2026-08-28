@@ -103,10 +103,10 @@ Aspera has an environment variable that you can use in order to add your passwor
 ## Data transfer using RClone
 Rclone is a command-line program that can be used to transfer files across a wide range of protocols. This can be useful when you you are unable to use specialised submission tools or Aspera, for example when transfering files in bulk to <a href="https://www.scilifelab.se/data/repository/" target="_blank">SciLifeLab Data Repository</a> over the FTPS protocol.
 
-The following example describes how to upload files to SciLifeLab Data Repository (or any other FigShare repository):
+The following example describes how to upload files to SciLifeLab Data Repository (or any other Figshare repository):
 
 1. Find/create your username and password for FTP uploads to Figshare
-1. To configure your <a href="https://rclone.org/ftp/" target="_blank">FTP connection parameters for rclone</a> your command will look something like this (`rclone lfs :ftp:data` will list the content of your data uploads folder on FigShare):
+1. To configure your <a href="https://rclone.org/ftp/" target="_blank">FTP connection parameters for rclone</a> your command will look something like this (`rclone lfs :ftp:data` will list the content of your data uploads folder on Figshare):
    ```
    rclone lsf :ftp:data --ftp-host=ftps.figshare.com --ftp-user=$user --ftp-pass=$(rclone obscure $pass) --ftp-port=21 --ftp-explicit-tls
    ```
@@ -114,7 +114,7 @@ The following example describes how to upload files to SciLifeLab Data Repositor
 
 <a class="link-teal" href="https://rclone.org/docs/" target="_blank"><b>Learn more about RClone <i class="bi bi-box-arrow-up-right"></i></b></a>
 
-<a class="link-teal" href="https://help.figshare.com/article/upload-large-datasets-and-bulk-upload-using-the-ftp-uploader-desktop-uploader-or-api" target="_blank"><b>Learn more about FTP uploads to FigShare <i class="bi bi-box-arrow-up-right"></i></b></a>
+<a class="link-teal" href="https://help.figshare.com/article/upload-large-datasets-and-bulk-upload-using-the-ftp-uploader-desktop-uploader-or-api" target="_blank"><b>Learn more about FTP uploads to Figshare <i class="bi bi-box-arrow-up-right"></i></b></a>
 
 ## Checksums
 File checksums are used to validate that a file remains intact, with no loss, for example after a data transfer. Often when you submit data to a repository, you are required to add the checksums for your data files, so that the repository can verify that the files are intact. Typically the data producer will calculate checksums for the files, and make these part of the delivery. Most, if not all, operating systems include built-in, command line, tools to calculate checksums. If you want, or need, to calculate them yourself, follow these steps:

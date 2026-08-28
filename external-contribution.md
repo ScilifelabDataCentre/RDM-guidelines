@@ -1,6 +1,6 @@
 ## External contribution process
 The RDM-guidelines repository has an editorial group consisting of members of SciLifeLab's Data Centre and NBIS data management teams.
-We welcome suggestions and contributions to the content of this site from life science researchers in Sweden and RDM support providers at Swedish academic institutions operating in the life sciences. Suggestions and contributions, could include, for example, a suggestion for a topic that is not currently covered. Alternatively, you can request an update or correction to particular pages. Email your feedback to [data-management@scilifelab.se](mailto:data-management@scilifelab.se).
+We welcome feedback to the content of this site from Swedish life science researchers and RDM support providers. Suggest a new topic that is not currently covered, or request an update or correction to particular pages, by emailing your feedback to [data-management@scilifelab.se](mailto:data-management@scilifelab.se).
 
 ### How to work in GitHub
 
@@ -92,7 +92,7 @@ This makes a copy of the repository under your personal account that you can edi
 
 When editing files you can choose to do it online on the GitHub website or locally on your computer. 
 
-If the contributions you make to the content of this site are substantial the editorial group would like to get information about your affiliation. This is done by adding yourself as a contributor in the file  https://github.com/ScilifelabDataCentre/RDM-guidelines/blob/main/data/CONTRIBUTORS.yaml. Please fill out the following fieds; name, git, orcid and affiliation. 
+If the contributions you make to the content of this site are substantial the editorial group would like to get information about your affiliation. This is done by adding yourself as a contributor in the file  https://github.com/ScilifelabDataCentre/RDM-guidelines/blob/main/data/CONTRIBUTORS.yaml. Please fill out the following fields: name, git, orcid and affiliation. 
 
 ##### Step 3a: Edit the files (online)
 

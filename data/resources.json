@@ -863,7 +863,7 @@
             "phase": [],
             "topic": ["Open Science"],
             "level": ["Basic"],
-            "url": "https://github.com/ScilifelabDataCentre/open-science-checklists/blob/main/open_access_checklist.md",
+            "url": "https://doi.org/10.17044/scilifelab.29086706",
             "description": "This checklist is designed to guide you in making informed decisions about publishing your research Open Access. It covers key steps for choosing the right Open Access route, applying appropriate licenses, and ensuring compliance with institutional and funder policies.",
             "provider": ["SciLifeLab"]
         },

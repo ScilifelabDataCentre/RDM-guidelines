@@ -1416,6 +1416,18 @@
             "provider":  ["Swedish Research Council"]  
         },
         {
+            "title": "Swedish Research Council - Recommendations for FAIR och open research data (2020)",
+            "short_title": "Recommendations for FAIR och open research data (2020)",
+            "category": ["guidance"],
+            "type": ["Web page"],
+            "search_tags": ["Swedish Research Council - Recommendations for FAIR och open research data (2020)", "ethical"],
+            "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse"],
+            "level": ["Basic"],
+            "url": "https://www.vr.se/english/mandates/open-science/open-access-to-research-data/recommendations-for-fair-och-open-research-data.html",
+            "description": "The Swedish Research Council's recommendations and guiding principles for making research data FAIR and openly accessible in Sweden.",
+            "provider":  ["Swedish Research Council"]  
+        },
+        {
             "title": "SciLifeLab Precision Medicine Portal",
             "short_title": "SciLifeLab PM Portal",
             "category": ["guidance"],

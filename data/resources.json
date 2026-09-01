@@ -850,7 +850,7 @@
             "phase": [],
             "topic": ["Sharing code and workflows", "Open Science"],
             "level": ["Basic"],
-            "url": "https://github.com/ScilifelabDataCentre/open-science-checklists/blob/main/open_software_checklist.md",
+            "url": "https://doi.org/10.17044/scilifelab.29086775",
             "description": "This checklist provides essential steps for sharing and citing your research software. It covers everything from planning your software to ensuring others can find, understand, reuse, and contribute to your software, and how to ensure your work is credited.",
             "provider": ["SciLifeLab"]
         },

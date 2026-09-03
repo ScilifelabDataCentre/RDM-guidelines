@@ -186,7 +186,18 @@ You can find full documentation on the [GitHub help website](https://help.github
 - Click the button that reads _"New Pull Request"_.
 - Click the text link near the top that says _"compare across forks"_.
 - In the right-hand _"head repository"_ drop down, select your username / fork.
-- If you're happy with the list of commits shown, and the diff in the _"Files Changed"_ tab, fill in a title and description and click _"Create pull request"_.
+- If you're happy with the list of commits shown, and the diff in the _"Files Changed"_ tab, fill in a title and description (see [Pull request description](#pull-request-description) below) and click _"Create pull request"_.
+
+##### Pull request description
+
+In the pull request description, briefly explain:
+
+- What you have changed
+- Why you are proposing the change
+- Your affiliation
+- Any relevant sources or references that support the change.
+
+You can use the pull request template available in this repository to help structure your description.
 
 Once created, a member of the website team will review your changes.
 Once approved, they will be merged and deployed.

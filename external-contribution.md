@@ -199,7 +199,5 @@ In the pull request description, briefly explain:
 
 You can use the pull request template available in this repository to help structure your description.
 
-For more detailed guidance on creating pull requests, see the [SciLifeLab Data Centre pull request guidelines](https://github.com/ScilifelabDataCentre/development-guidelines/tree/main/pull_requests).
-
 Once created, a member of the website team will review your changes.
 Once approved, they will be merged and deployed.

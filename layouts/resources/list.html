@@ -149,7 +149,7 @@
                             <div class="modal-body">
                               {{ if .description }}<div class="row mt-1">
                                 <div class="col"><b>Brief description:</b><br>
-                                  {{ .description | markdownify }} 
+                                  {{ .description | markdownify | replaceRE "<a href=" "<a target=\"_blank\" rel=\"noopener\" href=" | safeHTML }}
                                 </div>
                               </div>{{ end }}
                               {{ if .phase }}<div class="row mt-1">

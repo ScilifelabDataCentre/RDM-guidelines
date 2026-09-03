@@ -1437,6 +1437,19 @@
             "url": "https://openscience.se/en",
             "description": "This portal collects essential information about the key actors, resources, and documents that are central to Sweden’s transition to an open science system. ",
             "provider":  ["SUHF"]
+        },
+        {
+            "title": "Knowledge videos about GDPR (in Swedish)",
+            "short_title": "Knowledge videos about GDPR",
+            "category": ["guidance"],
+            "type": ["Video"],
+            "search_tags": ["Knowledge videos about GDPR (in Swedish)","Kunskapsfilmer om GDPR", "Swedish Authority for Privacy Protection", "Integritetsskyddsmyndigheten", "IMY"],
+            "phase": [],
+            "topic": ["Research involving human data"],
+            "level": ["Basic"],
+            "url": "https://www.imy.se/verksamhet/utbildning-och-stod/imy-play/",
+            "description": "Swedish Authority for Privacy Protection (IMY) provides knowledge videos presenting a brief overview of the most important parts of the GDPR. The videos are primarily aimed at those who are new to the role of data protection officer and who need basic knowledge of GDPR in their role.\n \nThere are 11 videos in total: \n1. [GDPR:s syfte och tillämpningsområde](https://www.imy.se/verksamhet/utbildning-och-stod/imy-play/kunskapsfilmer-om-gdpr/1/) \n2. [Grundläggande begrepp i GDPR](https://www.imy.se/verksamhet/utbildning-och-stod/imy-play/kunskapsfilmer-om-gdpr/2/) \n3. [De grundläggande principerna i GDPR](https://www.imy.se/verksamhet/utbildning-och-stod/imy-play/kunskapsfilmer-om-gdpr/3/) \n4. [Den registrerades rättigheter enligt GDPR](https://www.imy.se/verksamhet/utbildning-och-stod/imy-play/kunskapsfilmer-om-gdpr/4/) \n5. [Rättsliga grunder i GDPR](https://www.imy.se/verksamhet/utbildning-och-stod/imy-play/kunskapsfilmer-om-gdpr/5/) \n6. [Känsliga och andra särskilt skyddsvärda personuppgifter i GDPR](https://www.imy.se/verksamhet/utbildning-och-stod/imy-play/kunskapsfilmer-om-gdpr/6/) \n7. [Personuppgiftsansvarig och personuppgiftsbiträde enligt GDPR](https://www.imy.se/verksamhet/utbildning-och-stod/imy-play/kunskapsfilmer-om-gdpr/7/) \n8. [Tredjelandsöverföring enligt GDPR](https://www.imy.se/verksamhet/utbildning-och-stod/imy-play/kunskapsfilmer-om-gdpr/8/) \n9. [Säkerhet i samband med behandling av personuppgifter](https://www.imy.se/verksamhet/utbildning-och-stod/imy-play/kunskapsfilmer-om-gdpr/9/) \n10. [Personuppgiftsincidenter](https://www.imy.se/verksamhet/utbildning-och-stod/imy-play/kunskapsfilmer-om-gdpr/10/) \n11. [GDPR:s krav på konsekvensbedömning](https://www.imy.se/verksamhet/utbildning-och-stod/imy-play/kunskapsfilmer-om-gdpr/11/)",
+            "provider":  ["Swedish Authority for Privacy Protection (IMY)"]
         }
     ]
 }

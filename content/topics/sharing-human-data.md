@@ -57,13 +57,13 @@ Another useful tool for this scenario is the Observational Medical Outcomes Part
 ### Metadata record
 A metadata record will serve multiple purposes: First, it will enable unambiguous identification of the data. Second, it will provide a description of the data so that others can understand what the data is about. Third, the metadata record may contain instructions on how to get access to the data. There are several repositories where you can register metadata records, for example the SciLifeLab Data Repository and BioStudies. 
 
-<a class="link-teal" href="https://figshare.scilifelab.se" target="_blank"><b>Go to the SciLifeLab Data Repository <i class="bi bi-box-arrow-up-right"></i></b></a><br>
+<a class="link-teal" href="https://figshare.scilifelab.se" target="_blank"><b>Go to the SciLifeLab Data Repository <i class="bi bi-box-arrow-up-right"></i></b></a><br><br>
 <a class="link-teal" href="https://www.ebi.ac.uk/biostudies/" target="_blank"><b>Go to BioStudies <i class="bi bi-box-arrow-up-right"></i></b></a><br><br> 
 
 ### OMOP Common Data Model
 The Observational Medical Outcomes Partnership Common Data Model (OMOP-CDM) is an open, community-driven standard designed to harmonize the structure and content of observational data, making it easier to compare and analyse across different sources. Moving data into this format requires a process known as mapping, where local codes and structures are translated into the standardized OMOP vocabulary. To support this transition, the community provides a range of open-source tools for mapping, data transformation, and downstream analysis.
 
-<a class="link-teal" href="https://precision-medicine-portal.scilifelab.se/omop-cdm" target="_blank"><b>Learn more about OMOP-CMD at SciLifeLab Precision Medicine Portal<i class="bi bi-box-arrow-up-right"></i></b></a><br>
+<a class="link-teal" href="https://precision-medicine-portal.scilifelab.se/omop-cdm" target="_blank"><b>Learn more about OMOP-CMD at SciLifeLab Precision Medicine Portal<i class="bi bi-box-arrow-up-right"></i></b></a><br><br>
 <a class="link-teal" href="https://ohdsi.github.io/CommonDataModel/" target="_blank"><b>Access the OMOP Common Data Model and related tools <i class="bi bi-box-arrow-up-right"></i></b></a><br><br>
 
 ## How can SciLifeLab help you sharing human data?

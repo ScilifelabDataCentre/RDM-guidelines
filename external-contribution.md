@@ -1,6 +1,6 @@
 ## External contribution process
 The RDM-guidelines repository has an editorial group consisting of members of SciLifeLab's Data Centre and NBIS data management teams.
-We welcome suggestions and contributions to the content of this site. This could include, for example, a suggestion for a topic that is not currently covered. Alternatively, you can request an update or correction to particular pages. Email your feedback to [data-management@scilifelab.se](mailto:data-management@scilifelab.se).
+We welcome feedback to the content of this site from Swedish life science researchers and RDM support providers. Suggest a new topic that is not currently covered, or request an update or correction to particular pages, on GitHub or by emailing your feedback to [data-management@scilifelab.se](mailto:data-management@scilifelab.se).
 
 ### How to work in GitHub
 
@@ -88,7 +88,13 @@ Next, visit the code repository: [https://github.com/ScilifelabDataCentre/RDM-gu
 In the top right, you'll see a button that says _"Fork"_. Click this, then select your username.
 This makes a copy of the repository under your personal account that you can edit.
 
-#### Step 3a: Edit the files (online)
+#### Step 3: Edit the files
+
+When editing files you can choose to do it online on the GitHub website or locally on your computer. 
+
+If the contributions you make to the content of this site are substantial the editorial group would like to get information about your affiliation. This is done by adding yourself as a contributor in the file  https://github.com/ScilifelabDataCentre/RDM-guidelines/blob/main/data/CONTRIBUTORS.yaml. Please fill out the following fields: name, git, orcid and affiliation. 
+
+##### Step 3a: Edit the files (online)
 
 > This is best if you only want to make one or two minor tweaks.
 > If you want to make more substantial edits over a longer time frame, we recommend editing locally (_Step 3b_).
@@ -101,9 +107,9 @@ This opens a web-based editor where you can add and edit content. When you're fi
 
 You're nearly done - you can now skip to _Step 4_.
 
-#### Step 3b: Edit the files (locally)
+##### Step 3b: Edit the files (locally)
 
-##### Git setup
+###### Git setup
 
 If you prefer, you can edit the website files on your computer in your favourite text editor.
 Just fork the repository to your machine:
@@ -133,7 +139,7 @@ git commit -m "My changes"
 git push
 ```
 
-##### Testing locally
+###### Testing locally
 
 To view your changes as they will appear in the final website, you need to install Hugo.
 You can find instructions on the Hugo website: [getting-started/installing/](https://gohugo.io/getting-started/installing/)
@@ -180,7 +186,18 @@ You can find full documentation on the [GitHub help website](https://help.github
 - Click the button that reads _"New Pull Request"_.
 - Click the text link near the top that says _"compare across forks"_.
 - In the right-hand _"head repository"_ drop down, select your username / fork.
-- If you're happy with the list of commits shown, and the diff in the _"Files Changed"_ tab, fill in a title and description and click _"Create pull request"_.
+- If you're happy with the list of commits shown, and the diff in the _"Files Changed"_ tab, fill in a title and description (see [Pull request description](#pull-request-description) below) and click _"Create pull request"_.
+
+##### Pull request description
+
+In the pull request description, briefly explain:
+
+- What you have changed
+- Why you are proposing the change
+- Your affiliation
+- Any relevant sources or references that support the change.
+
+You can use the pull request template available in this repository to help structure your description.
 
 Once created, a member of the website team will review your changes.
 Once approved, they will be merged and deployed.

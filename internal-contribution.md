@@ -147,7 +147,7 @@ The steps below outlines the mutually agreed steps in order to update the RDM-gu
     1. Add metadata header to the top of the page by copying the header in [TEMPLATE_topic.md](./TEMPLATE_topic.md).
     1. If appropriate, add links from other pages to this new page.
     1. If there is a resource, remove the commented out characters in the Resources section, change '--add topic/title--' to the topic title, and add the resource to the [resources.json](./data/resources.json) page as outlined [below](#about-resources).
-1. It is up to everyone in the editorial group to check if there are pull requests waiting to be approved. All PRs should be reviewed by another member, if the update isn't minor (i.e. unlikely that typo:s or wrong links have been included).
+1. It is up to everyone in the editorial group to check if there are pull requests waiting to be approved. All PRs should be reviewed by another member, if the update isn't minor (i.e. unlikely that typo:s or wrong links have been included).SciLifeLab Data Centre has pull request guidelines that we recommend reading: https://github.com/ScilifelabDataCentre/development-guidelines/tree/main/pull_requests. 
 
 ### About resources
 A resource is any **external** link with information that is of added value for a page (topic or data life cycle page). Note that links to internal pages should not appear in the resource sections. 

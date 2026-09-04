@@ -1403,11 +1403,11 @@
             "provider":  ["UPPMAX"]
         },
         {
-            "title": "Swedish Research Council - Good research practice (2024)",
-            "short_title": "Good research practice (2024)",
+            "title": "Good research practice",
+            "short_title": "Good research practice",
             "category": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["Swedish Research Council - Good research practice (2024)", "ethical"],
+            "search_tags": ["Good research practice", "ethical"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse"],
             "topic": ["What is Research Data Management"],
             "level": ["Basic"],
@@ -1416,11 +1416,11 @@
             "provider":  ["Swedish Research Council"]  
         },
         {
-            "title": "Swedish Research Council - Recommendations for FAIR och open research data (2025)",
-            "short_title": "Recommendations for FAIR och open research data (2025)",
+            "title": "Recommendations for FAIR och open research data",
+            "short_title": "FAIR och open research data",
             "category": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["Swedish Research Council - Recommendations for FAIR och open research data (2020)", "ethical", "Open Science"],
+            "search_tags": ["Recommendations for FAIR och open research data", "Open Science"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse"],
             "topic": ["FAIR principles", "Open Science"],
             "level": ["Basic"],

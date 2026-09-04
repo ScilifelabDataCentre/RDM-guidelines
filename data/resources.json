@@ -1484,7 +1484,7 @@
             "short_title": "FAIR-Aware",
             "category": ["tool"],
             "type": ["Tool"],
-            "search_tags": ["FAIR-Aware"],
+            "search_tags": ["FAIR-Aware", "Open Science"],
             "phase": [],
             "topic": ["FAIR principles"],
             "level": ["Basic"],

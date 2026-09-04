@@ -17,7 +17,7 @@ science.
 community.
 * Open dialogue: Dialogue with indigenous and traditional systems.
 
-The Association of Swedish Higher Education Institutions (SUHF), in collaboration with the Swedish National Data Service (SND) and the National Library of Sweden, has developed the webiste openscience.se providing essential information about the key actors, resources, and documents that are central to Sweden’s transition to an open science system.
+The Association of Swedish Higher Education Institutions (SUHF), in collaboration with the Swedish National Data Service (SND) and the National Library of Sweden, has developed the website openscience.se providing essential information about the key actors, resources, and documents that are central to Sweden’s transition to an open science system.
 
 <a class="link-teal" href="https://openscience.se/en" target="_blank"><b>Visit openscience.se <i class="bi bi-box-arrow-up-right"></i></b></a>
 
@@ -46,8 +46,7 @@ The SciLifeLab Open Science checklists, developed by SciLifeLab Data Centre, can
 <a class="link-teal" href=""><b>Go to the SciLifeLab Open Access Checklist <i class="bi bi-arrow-right-square"></i></b></a><br><br>
 <a class="link-teal" href=""><b>Go to the SciLifeLab Open Science Software Checklist <i class="bi bi-arrow-right-square"></i></b></a> -->
 
-Adopting the FAIR principles is one of the most effective ways to reach this broader goal of Open Science. While
-Open Science is the philosophy of transparency and accessibility, FAIR is the practical toolkit that makes it possible.
+Adopting the FAIR principles is one of the most efficient ways to reach this broader goal of Open Science. While Open Science is the philosophy of transparency and accessibility, FAIR is the practical toolkit that makes it possible.
 
 <a class="link-teal" href="/topics/fair-principles"><b>Learn more about the FAIR principles <i class="bi bi-arrow-right-square"></i></b></a> 
 

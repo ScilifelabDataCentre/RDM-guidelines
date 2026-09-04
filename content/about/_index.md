@@ -25,7 +25,7 @@ menu:
 SciLifeLab is committed to the values of Open Science, <a href="https://www.ucl.ac.uk/research/strategy-and-policy/research-transparency" target="_blank">Transparent research</a> and FAIR principles (Findable, Accessible, Interoperable and Reusable). We work actively to ensure that the investments done by the society in research infrastructure resources can achieve the highest possible impact.
 
 <br><a class="link-teal" href="/topics/fair-principles"><b>Learn more about the FAIR principles <i class="bi bi-arrow-right-square"></i></b></a><br><br>
-<a class="link-teal" href="https://openscience.se/en" target="_blank"><b>Learn more about Open science <i class="bi bi-box-arrow-up-right"></i></b></a>
+<a class="link-teal" href="/topics/open-science" target="_blank"><b>Learn more about Open science <i class="bi bi-arrow-right-square"></i></b></a>
 <br><br>
 
 The SciLifeLab RDM guidelines was built and is maintained by the SciLifeLab Data Centre and NBIS. We welcome all questions related to research data management or the website itself. 

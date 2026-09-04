@@ -10,7 +10,7 @@ In the era of FAIR (Findable, Accessible, Interoperable and Reusable) and Open s
 
 <a class="link-teal" href="/topics/fair-principles"><b>Learn more about the FAIR principles <i class="bi bi-arrow-right-square"></i></b></a>
 <br><br>
-<a class="link-teal" href="https://openscience.se/en" target="_blank"><b>Learn more about Open science <i class="bi bi-box-arrow-up-right"></i></b></a>
+<a class="link-teal" href="/topics/open-science" target="_blank"><b>Learn more about Open science <i class="bi bi-arrow-right-square"></i></b></a>
 <br><br>
 
 ## Finding a suitable repository type

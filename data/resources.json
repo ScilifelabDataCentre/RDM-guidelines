@@ -846,7 +846,7 @@
             "short_title": "Open Software Checklist",
             "category": ["tool"],
             "type": ["Tool"],
-            "search_tags": ["SciLifeLab Open Software Checklist"],
+            "search_tags": ["SciLifeLab Open Software Checklist", "Open Science"],
             "phase": [],
             "topic": ["Sharing code and workflows", "Open Science"],
             "level": ["Basic"],

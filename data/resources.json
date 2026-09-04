@@ -859,7 +859,7 @@
             "short_title": "Open Access Checklist",
             "category": ["tool"],
             "type": ["Tool"],
-            "search_tags": ["SciLifeLab Open Access Checklist"],
+            "search_tags": ["SciLifeLab Open Access Checklist", "Open Science"],
             "phase": [],
             "topic": ["Open Science"],
             "level": ["Basic"],

@@ -1,0 +1,27 @@
+# Automatically assigns the PR author as the assignee when a PR is opened.
+# Inspired by https://github.com/ws2git/gh-assigner-action/tree/main
+name: Auto assign PR author
+
+on:
+  pull_request:
+    types: [opened]  # Only runs when pr first opened
+
+jobs:
+  assign-author:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+
+    steps:
+      - name: Auto assign author 
+        # Skip bot created prs
+        if: github.event.pull_request.user.type != 'Bot'
+        run: gh pr edit "$PR_URL" --add-assignee "$PR_AUTHOR"
+        env: # Environment needed for making the edit
+          # Authentication token for the gh CLI command
+          GH_TOKEN: ${{ github.token }}
+          # Which PR to edit
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          # Who to assign (the author)
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}

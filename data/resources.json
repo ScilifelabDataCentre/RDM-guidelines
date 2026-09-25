@@ -5,7 +5,7 @@
     "items": [
         {
             "title": "Your role",
-            "short_title": "RDMkit: Your role",
+            "short_title": "Your role",
             "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","role","profession","Your role"],
@@ -45,7 +45,7 @@
         },
         {
             "title": "Beyond Compliance: Using Data Management Plans to drive research efficiency",
-            "short_title": "Using Data Management Plans to drive research efficiency",
+            "short_title": "Using DMPs to drive efficiency",
             "category": ["guidance"],
             "type": ["Video"],
             "search_tags": ["video","DMP","Beyond Compliance: Using Data Management Plans to drive research efficiency"],
@@ -84,7 +84,7 @@
         },
         {
             "title": "ELSI checklist in Data Stewardship Wizard",
-            "short_title": "ELSI checklist in DSW",
+            "short_title": "ELSI checklist",
             "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["ELSI","checklist","human data","ELSI checklist in Data Stewardship Wizard"],
@@ -97,7 +97,7 @@
         },
         {
             "title": "Documentation and metadata",
-            "short_title": "RDMkit: Documentation and metadata",
+            "short_title": "Documentation and metadata",
             "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","metadata","documentation","Documentation and metadata"],
@@ -153,7 +153,7 @@
         },        
         {
             "title": "Human data",
-            "short_title": "RDMkit: Human data",
+            "short_title": "Human data",
             "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","human data","Human data"],
@@ -179,7 +179,7 @@
         },
         {
             "title": "Repository wizard",
-            "short_title": "EBI repository wizard",
+            "short_title": "Repository wizard",
             "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["EBI","publication","submission","repository","Repository wizard"],
@@ -192,7 +192,7 @@
         },
         {
             "title": "Submission YouTube playlist",
-            "short_title": "EBI submission on YouTube",
+            "short_title": "Submission on YouTube",
             "category": ["guidance"],
             "type": ["Video"],
             "search_tags": ["EBI","submission","publication","video","repository","Submission YouTube playlist"],
@@ -205,7 +205,7 @@
         },
         {
             "title": "Reusing data",
-            "short_title": "RDMkit: Reusing data",
+            "short_title": "Reusing data",
             "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","reuse","Reusing data"],
@@ -218,7 +218,7 @@
         },
         {
             "title": "Existing data",
-            "short_title": "RDMkit: Existing data",
+            "short_title": "Existing data",
             "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","reuse","Existing data"],
@@ -243,7 +243,7 @@
         },
         {
             "title": "Preserving data",
-            "short_title": "RDMkit: Preserving data",
+            "short_title": "Preserving data",
             "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","preserve","Preserving data"],
@@ -256,7 +256,7 @@
         },
         {
             "title": "Sharing data",
-            "short_title": "RDMkit: Sharing data",
+            "short_title": "Sharing data",
             "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","share","Sharing data"],
@@ -269,7 +269,7 @@
         },
         {
             "title": "Data publication",
-            "short_title": "RDMkit: Data publication",
+            "short_title": "Data publication",
             "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","publication","Data publication"],
@@ -295,7 +295,7 @@
         },
         {
             "title": "Analysing data",
-            "short_title": "RDMkit: Analysing data",
+            "short_title": "Analysing data",
             "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","analyse","Analysing data"],
@@ -347,7 +347,7 @@
         },
         {
             "title": "Processing data",
-            "short_title": "RDMkit: Processing data",
+            "short_title": "Processing data",
             "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDM","process","Processing data"],
@@ -360,7 +360,7 @@
         },
         {
             "title": "Data quality",
-            "short_title": "RDMkit: Data quality",
+            "short_title": "Data quality",
             "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","quality","Data quality"],
@@ -387,7 +387,7 @@
         },
         {
             "title": "Data Management Planning",
-            "short_title": "RDMkit: DM Planning",
+            "short_title": "DM Planning",
             "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","DMP","data management plan","Data Management Planning"],
@@ -414,7 +414,7 @@
         },
         {   
             "title": "Collecting data",
-            "short_title": "RDMkit: Collecting data",
+            "short_title": "Collecting data",
             "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","collect","Collecting data"],
@@ -427,7 +427,7 @@
         },
         {
             "title": "Data transfer",
-            "short_title": "RDMkit: Data transfer",
+            "short_title": "Data transfer",
             "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","transfer","data transfer","Data transfer"],
@@ -466,11 +466,11 @@
             "provider":  ["RCLONE"]
         },
         {
-            "title": "SciLifeLab Data Stewardship Wizard (DSW)",
-            "short_title": "SciLifeLab Data Stewardship Wizard",
+            "title": "Data Stewardship Wizard (DSW)",
+            "short_title": "Data Stewardship Wizard",
             "category": ["tool"],
             "type": ["Tool"],
-            "search_tags": ["DSW","DMP","SciLifeLab Data Stewardship Wizard (DSW)"],
+            "search_tags": ["DSW","DMP","Data Stewardship Wizard (DSW)"],
             "phase": ["Plan"],
             "topic": ["Data Management Plan"],            
             "level": ["Basic"],
@@ -533,7 +533,7 @@
         },
         {
             "title": "General information about research data",
-            "short_title": "UU: Research data",
+            "short_title": "Research data",
             "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["Uppsala University","UU","DMP","research data","General information about research data"],
@@ -546,7 +546,7 @@
         },
         {
             "title": "Online course on Open science and data management",
-            "short_title": "Open science and data management",
+            "short_title": "Open science & data management",
             "category": ["training"],
             "type": ["Material"],
             "search_tags": ["KTH","course","open science","data management","Online course on Open science and data management"],
@@ -647,7 +647,7 @@
         },
         {
             "title": "Data organisation",
-            "short_title": "RDMkit: Data organisation",
+            "short_title": "Data organisation",
             "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","organisation", "organization", "data organisation","Metadata", "README files","Data organisation"],
@@ -661,7 +661,7 @@
         },
         {
             "title": "Bioimaging data",
-            "short_title": "RDMkit: Bioimaging data",
+            "short_title": "Bioimaging data",
             "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","Bioimaging data","Bioimaging data", "Collect", "Collection", "Metadata"],
@@ -675,7 +675,7 @@
         },
         {
             "title": "Proteomics data",
-            "short_title": "RDMkit: Proteomics data",
+            "short_title": "Proteomics data",
             "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["RDMkit","Process","processing","Metadata","Proteomics data"],
@@ -763,7 +763,7 @@
         },
         {
             "title": "Data analysis",
-            "short_title": "IDTk: Data analysis ",
+            "short_title": "Data analysis ",
             "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["idtk","Data analysis", "infectious diseases toolkit", "data analysis"],
@@ -776,7 +776,7 @@
         },
         {
             "title": "Data description",
-            "short_title": "IDTk: Data description",
+            "short_title": "Data description",
             "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["idtk","Data description", "infectious diseases toolkit", "data description"],
@@ -790,7 +790,7 @@
         },
         {
             "title": "Quality control",
-            "short_title": "IDTk: Quality control",
+            "short_title": "Quality control",
             "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["idtk","Quality control", "infectious diseases toolkit", "quality control"],
@@ -803,7 +803,7 @@
         },
         {
             "title": "Ethical, Legal, and Social Issues",
-            "short_title": "IDTk: Ethical, Legal, and Social Issues",
+            "short_title": "Ethical, Legal, and Social Issues",
             "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["idtk","Ethical, Legal, and Social Issues", "ethical", "legal", "social issues", "ELSI"],
@@ -896,7 +896,7 @@
         },
         {
             "title": "Verifying Code Style Using Linters",
-            "short_title": "Verifying Code Style Using Linters",
+            "short_title": "Verify Code Using Linters",
             "category": ["training"],
             "type": ["Course"],
             "search_tags": ["Verifying Code Style Using Linters", "Carpentries", "Python"],
@@ -924,7 +924,7 @@
         },
         {
             "title": "Cookiecutter for Computational Molecular Sciences Python Packages",
-            "short_title": "Cookiecutter for CMS Python Packages",
+            "short_title": "Cookiecutter for Python Packages",
             "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["Cookiecutter for Computational Molecular Sciences Python Packages", "CMS", "cookie cutter"],
@@ -1044,11 +1044,11 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "SCoRe user documentation on computational resources",
-            "short_title": "SCoRe: computational resources",
+            "title": "User documentation on computational resources",
+            "short_title": "Computational resources",
             "category": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["SCoRe user documentation on computational resources", "SCoRe", "Support for Computational Resources","compute"],
+            "search_tags": ["User documentation on computational resources", "SCoRe", "Support for Computational Resources","compute"],
             "phase": ["Process", "Analyse"],
             "level": ["Basic"],
             "url": "https://nbisweden.github.io/SCoRe_user_doc/resources/",
@@ -1129,7 +1129,7 @@
         },
         {
             "title": "Swedish Pathogens Portal list of available data",
-            "short_title": "Pathogens Portal data",
+            "short_title": "Available pathogens data",
             "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["Swedish Pathogens Portal list of available data", "reuse", "data catalogue","repository"],
@@ -1153,7 +1153,7 @@
         },
         {
             "title": "Deposition Databases for Biomolecular Data",
-            "short_title": "ELIXIR Database list",
+            "short_title": "Database list",
             "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["Deposition Databases for Biomolecular Data","ELIXIR Deposition Database list","share","repository"],
@@ -1326,7 +1326,7 @@
         },
         {
             "title": "Ontology Lookup Service (OLS)",
-            "short_title": "Ontology Lookup Service (OLS)",
+            "short_title": "Ontology Lookup Service",
             "category": ["tool"],
             "type": ["Tool"],
             "search_tags": ["Ontology Lookup Service (OLS)","metadata"],
@@ -1417,7 +1417,7 @@
         },
         {
             "title": "Recommendations for FAIR and open research data",
-            "short_title": "FAIR and open research data",
+            "short_title": "FAIR & open research data",
             "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["Recommendations for FAIR and open research data", "Open Science"],
@@ -1430,7 +1430,7 @@
         },
         {
             "title": "SciLifeLab Precision Medicine Portal",
-            "short_title": "SciLifeLab PM Portal",
+            "short_title": "Precision Medicine Portal",
             "category": ["guidance"],
             "type": ["Web page"],
             "search_tags": ["SciLifeLab Precision Medicine Portal"],

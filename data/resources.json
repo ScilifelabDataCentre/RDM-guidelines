@@ -238,7 +238,7 @@
             "phase": ["Reuse"],
             "level": ["Basic"],
             "url": "https://datasetsearch.research.google.com",
-            "description": "Google search engine for finding data sets.",
+            "description": "Google search engine for finding datasets.",
             "provider": ["Google"]
         },
         {

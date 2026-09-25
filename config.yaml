@@ -1,4 +1,4 @@
-baseURL: "https://data-guidelines.scilifelab.se"
+baseURL: "https://rdm-guidelines.scilifelab.se"
 languageCode: "en-us"
 title: "SciLifeLab Research Data Management Guidelines"
 params:

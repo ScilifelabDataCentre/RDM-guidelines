@@ -23,7 +23,7 @@ DATA COLLECTION
   - Codes or symbols used to record missing data with description (if applicable):
 - Link to data dictionary:
 
-DATA RE-USE
+DATA REUSE
 - DOI/accession number (if dataset is published): 
 - License (if any):
 - Use restrictions (if any):

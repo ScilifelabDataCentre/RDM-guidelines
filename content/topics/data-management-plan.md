@@ -1,17 +1,17 @@
 ---
-title: Data Management Plan
+title: Data management plan
 category: Other
 tags: ["DSW", "data stewardship wizard", "dmponline", "DMP", "DMP examples", "DMP templates"]
 toc: True
 ---
 
-# Data Management Plan
+# Data management plan
 
 There are a lot of terms regarding data management and a lot of best practices to collect and implement, but how do we gather all the decisions made and how do we know that we have covered it all, that our data will be well managed throughout its life cycle? The answer is to write a data management plan (DMP).
 
 A DMP is a document addressing requirements and practices for managing the project’s data, code and documentation, throughout the data life cycle, i.e from the initial planning until the project ends and beyond.
 
-It outlines the data management strategies in a project. Making plans for how you will collect, document, organize, and preserve your data are all part of the data management strategy.
+It outlines the data management strategies in a project. Making plans for how you will collect, document, organise, and preserve your data are all part of the data management strategy.
 
 &nbsp;
 <img class="img-fluid" src="/img/illustrations/now-what.jpg" alt="Now what - DMP">
@@ -33,7 +33,7 @@ There are several reasons why writing a data management plan is a very good idea
 
 If the reasons above don’t persuade you, the last argument is that it is more and more a **requirement** by funders and other stakeholders:
 * For **transparency** and **openness**: publicly funded research data must be discoverable, accessible, and reusable to the public
-* **Return on investment**: well planned data maximizes the research potential of the data and provides greater returns on public investments and research.
+* **Return on investment**: well planned data maximises the research potential of the data and provides greater returns on public investments and research.
 
 
 ## When to write a DMP?
@@ -43,7 +43,7 @@ A DMP is a **living document**, the initial version is written the same time as 
 
 2. **Project start:** The DMP is completed with more details e.g. about documentation, data quality measures, file and folder strategies, etc.
 
-3. **Project end:** The DMP is updated a final time with e.g. links to published data and details about archiving (what data and where), so that this document enables future re-use of the project (by yourself or others).
+3. **Project end:** The DMP is updated a final time with e.g. links to published data and details about archiving (what data and where), so that this document enables future reuse of the project (by yourself or others).
 
 ## The main parts of a DMP
 

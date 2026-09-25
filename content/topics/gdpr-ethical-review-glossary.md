@@ -154,7 +154,7 @@ Any information relating to an identified or identifiable person (a person who c
 
 *In Swedish:* personuppgiftsincident
 
-A breach of security leading to the accidental or unlawful destruction, loss, alteration, unauthorized disclosure of, or access to, personal data transmitted, stored or otherwise processed.
+A breach of security leading to the accidental or unlawful destruction, loss, alteration, unauthorised disclosure of, or access to, personal data transmitted, stored or otherwise processed.
 
 -   <a href="https://gdpr-info.eu/art-4-gdpr/" target="_blank">gdpr-info.eu/art-4-gdpr/</a> (12)
 

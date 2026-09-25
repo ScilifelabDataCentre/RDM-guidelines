@@ -94,13 +94,13 @@ Data and metadata should be stored for the long term such that they can be easil
 
 <div class="mb-3">
   <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseAccess1" role="button" aria-expanded="false" aria-controls="collapseAccess1">
-    A1: Standardized communication protocol
+    A1: Standardised communication protocol
     <i class="bi bi-chevron-double-down"></i>
   </button>
 
   <div class="collapse" id="collapseAccess1">
     <div class="card">
-      <div class="card-header"><h3>A1: (meta)data are retrievable by their identifier using a standardized communications protocol</h3></div>
+      <div class="card-header"><h3>A1: (meta)data are retrievable by their identifier using a standardised communications protocol</h3></div>
       <div class="card-body">
       <span>
         <b>Explanation:</b> If one knows a dataset’s identifier and the location where it is archived, one can access at least the metadata. Furthermore, the user knows how to proceed to get access to the data.	<br><br>
@@ -311,7 +311,7 @@ Data and metadata are sufficiently well-described to allow data to be reused in 
       <div class="card-header"><h3>R1.3: (meta)data meet domain relevant community standards</h3></div>
       <div class="card-body">
       <span>
-        <b>Explanation:</b> It is easier to reuse datasets if they are similar: same type of data, data organized in a standardized way, well-established and sustainable file formats, documentation (metadata) following a common template and using common vocabulary. If community standards or best practices for data archiving and sharing exist, they should be followed. Note that quality issues are not addressed by the FAIR principles. How reliable data is lies in the eye of the beholder and depends on the foreseen application.	<br><br>
+        <b>Explanation:</b> It is easier to reuse datasets if they are similar: same type of data, data organised in a standardised way, well-established and sustainable file formats, documentation (metadata) following a common template and using common vocabulary. If community standards or best practices for data archiving and sharing exist, they should be followed. Note that quality issues are not addressed by the FAIR principles. How reliable data is lies in the eye of the beholder and depends on the foreseen application.	<br><br>
         <b>Action:</b> Prepare your (meta)data according to community standards and best practices for data archiving and sharing in your research field. There might be situations where good practice exist for the type of data to be submitted but the submitter has valid and specified reasons to divert from the standard practice. This needs to be addressed in the metadata.
       </span>
       </div>

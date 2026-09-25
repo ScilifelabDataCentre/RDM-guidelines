@@ -12,7 +12,7 @@ We will not use or share your information with anyone except as described in thi
 
 ## Log Data
 
-We want to inform you that whenever you visit our **Service**, we collect information that your browser sends to us that is called Log Data. This Log Data may include: the website from which you visited us from, the parts of our **Service** you visit, the date and duration of your visit, your anonymised IP address, information from the device (device type, operating system, screen resolution, language, country you are located in, and web browser type) you used during your visit, and more. We process this usage data in Matomo Analytics (hosted on SciLifeLab servers and operated solely by SciLifeLab) for statistical purposes, to improve our **Service** and to recognize and stop any misuse.
+We want to inform you that whenever you visit our **Service**, we collect information that your browser sends to us that is called Log Data. This Log Data may include: the website from which you visited us from, the parts of our **Service** you visit, the date and duration of your visit, your anonymised IP address, information from the device (device type, operating system, screen resolution, language, country you are located in, and web browser type) you used during your visit, and more. We process this usage data in Matomo Analytics (hosted on SciLifeLab servers and operated solely by SciLifeLab) for statistical purposes, to improve our **Service** and to recognise and stop any misuse.
 
 You can opt out of your Log Data being collected below:
 

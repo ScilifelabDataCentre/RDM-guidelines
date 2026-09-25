@@ -1450,7 +1450,7 @@
             "topic": ["Sharing human data"],
             "level": ["Basic"],
             "url": "https://precision-medicine-portal.scilifelab.se/omop-cdm",
-            "description": "The Observational Medical Outcomes Partnership Common Data Model (OMOP-CDM) is an open, community-driven standard designed to harmonize the structure and content of observational data, making it easier to compare and analyse across different sources.",
+            "description": "The Observational Medical Outcomes Partnership Common Data Model (OMOP-CDM) is an open, community-driven standard designed to harmonise the structure and content of observational data, making it easier to compare and analyse across different sources.",
             "provider":  ["SciLifeLab"]
         },
         {
@@ -1463,7 +1463,7 @@
             "topic": ["Sharing human data"],
             "level": ["Basic"],
             "url": "https://ohdsi.github.io/CommonDataModel/",
-            "description": "The Observational Medical Outcomes Partnership (OMOP) Common Data Model (CDM) is an open community data standard, designed to standardize the structure and content of observational data and to enable efficient analyses that can produce reliable evidence. This website is meant to serve as a resource describing the specification of the available versions of the Common Data Model.",
+            "description": "The Observational Medical Outcomes Partnership (OMOP) Common Data Model (CDM) is an open community data standard, designed to standardise the structure and content of observational data and to enable efficient analyses that can produce reliable evidence. This website is meant to serve as a resource describing the specification of the available versions of the Common Data Model.",
             "provider":  ["OHDSI"]
         },
         {

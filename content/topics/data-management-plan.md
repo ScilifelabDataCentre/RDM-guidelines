@@ -11,7 +11,7 @@ There are a lot of terms regarding data management and a lot of best practices t
 
 A DMP is a document addressing requirements and practices for managing the project’s data, code and documentation, throughout the data life cycle, i.e from the initial planning until the project ends and beyond.
 
-It outlines the data management strategies in a project. Making plans for how you will collect, document, organize, and preserve your data are all part of the data management strategy.
+It outlines the data management strategies in a project. Making plans for how you will collect, document, organise, and preserve your data are all part of the data management strategy.
 
 &nbsp;
 <img class="img-fluid" src="/img/illustrations/now-what.jpg" alt="Now what - DMP">
@@ -33,7 +33,7 @@ There are several reasons why writing a data management plan is a very good idea
 
 If the reasons above don’t persuade you, the last argument is that it is more and more a **requirement** by funders and other stakeholders:
 * For **transparency** and **openness**: publicly funded research data must be discoverable, accessible, and reusable to the public
-* **Return on investment**: well planned data maximizes the research potential of the data and provides greater returns on public investments and research.
+* **Return on investment**: well planned data maximises the research potential of the data and provides greater returns on public investments and research.
 
 
 ## When to write a DMP?

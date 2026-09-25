@@ -4,11 +4,11 @@
     "types": ["Web page", "Video", "Material", "Tool", "Course"],
     "items": [
         {
-            "title": "RDMkit on Your role",
+            "title": "Your role",
             "short_title": "RDMkit: Your role",
             "category": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["RDMkit","role","profession","RDMkit on Your role"],
+            "search_tags": ["RDMkit","role","profession","Your role"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse"],
             "topic": ["What is Research Data Management"],
             "level": ["Basic"],
@@ -31,11 +31,11 @@
             "provider":  ["SciLifeLab"]
         },
         {
-            "title": "An Introduction to Data Management by Karin Granström (NBIS - SciLifeLab)",
+            "title": "An Introduction to Data Management by Karin Granström",
             "short_title": "Intro to Data Management",
             "category": ["guidance"],
             "type": ["Video"],
-            "search_tags": ["video","DMP","An Introduction to Data Management by Karin Granström (NBIS - SciLifeLab)", "NGI", "Lite"],
+            "search_tags": ["video","DMP","An Introduction to Data Management by Karin Granström", "NGI", "Lite"],
             "phase": ["Plan"],
             "topic": ["Data Management Plan"],
             "level": ["Basic"],
@@ -96,11 +96,11 @@
             "provider":  ["SciLifeLab"]
         },
         {
-            "title": "RDMkit on Documentation and metadata",
+            "title": "Documentation and metadata",
             "short_title": "RDMkit: Documentation and metadata",
             "category": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["RDMkit","metadata","documentation","RDMkit on Documentation and metadata"],
+            "search_tags": ["RDMkit","metadata","documentation","Documentation and metadata"],
             "phase": ["Plan", "Collect"],
             "topic": ["Metadata", "README files"],
             "level": ["Basic"],
@@ -152,11 +152,11 @@
             "licence": "CC BY 4.0"
         },        
         {
-            "title": "RDMkit on Human data",
+            "title": "Human data",
             "short_title": "RDMkit: Human data",
             "category": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["RDMkit","human data","RDMkit on Human data"],
+            "search_tags": ["RDMkit","human data","Human data"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse"],
             "topic": ["Research involving human data", "Sharing human data"],
             "level": ["Basic"],
@@ -178,11 +178,11 @@
             "provider": ["DataCite"]
         },
         {
-            "title": "EBI repository wizard",
+            "title": "Repository wizard",
             "short_title": "EBI repository wizard",
             "category": ["tool"],
             "type": ["Tool"],
-            "search_tags": ["EBI","publication","submission","repository","EBI repository wizard"],
+            "search_tags": ["EBI","publication","submission","repository","Repository wizard"],
             "phase": ["Share"],
             "topic": ["ENA submission tutorial"],
             "level": ["Basic"],
@@ -191,11 +191,11 @@
             "provider": ["EBI"]
         },
         {
-            "title": "EBI submission YouTube playlist",
+            "title": "Submission YouTube playlist",
             "short_title": "EBI submission on YouTube",
             "category": ["guidance"],
             "type": ["Video"],
-            "search_tags": ["EBI","submission","publication","video","repository","EBI submission YouTube playlist"],
+            "search_tags": ["EBI","submission","publication","video","repository","Submission YouTube playlist"],
             "phase": ["Share"],
             "topic": ["ENA submission tutorial"],
             "level": ["Basic"],
@@ -204,11 +204,11 @@
             "provider": ["EBI"]
         },
         {
-            "title": "RDMkit on Reusing data",
+            "title": "Reusing data",
             "short_title": "RDMkit: Reusing data",
             "category": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["RDMkit","reuse","RDMkit on Reusing data"],
+            "search_tags": ["RDMkit","reuse","Reusing data"],
             "phase": ["Reuse"],
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/reusing",
@@ -217,11 +217,11 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "RDMkit on Existing data",
+            "title": "Existing data",
             "short_title": "RDMkit: Existing data",
             "category": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["RDMkit","reuse","RDMkit on Existing data"],
+            "search_tags": ["RDMkit","reuse","Existing data"],
             "phase": ["Reuse"],
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/existing_data",
@@ -242,11 +242,11 @@
             "provider": ["Google"]
         },
         {
-            "title": "RDMkit on Preserving data",
+            "title": "Preserving data",
             "short_title": "RDMkit: Preserving data",
             "category": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["RDMkit","preserve","RDMkit on Preserving data"],
+            "search_tags": ["RDMkit","preserve","Preserving data"],
             "phase": ["Preserve"],
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/preserving",
@@ -255,11 +255,11 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "RDMkit on Sharing data",
+            "title": "Sharing data",
             "short_title": "RDMkit: Sharing data",
             "category": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["RDMkit","share","RDMkit on Sharing data"],
+            "search_tags": ["RDMkit","share","Sharing data"],
             "phase": ["Share"],
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/sharing",
@@ -268,11 +268,11 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "RDMkit on Data publication",
+            "title": "Data publication",
             "short_title": "RDMkit: Data publication",
             "category": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["RDMkit","publication","RDMkit on Data publication"],
+            "search_tags": ["RDMkit","publication","Data publication"],
             "phase": ["Share"],
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/data_publication",
@@ -294,11 +294,11 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "RDMkit on Analysing data",
+            "title": "Analysing data",
             "short_title": "RDMkit: Analysing data",
             "category": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["RDMkit","analyse","RDMkit on Analysing data"],
+            "search_tags": ["RDMkit","analyse","Analysing data"],
             "phase": ["Analyse"],
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/analysing",
@@ -346,11 +346,11 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "RDMkit on Processing data",
+            "title": "Processing data",
             "short_title": "RDMkit: Processing data",
             "category": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["RDM","process","RDMkit on Processing data"],
+            "search_tags": ["RDM","process","Processing data"],
             "phase": ["Process"],
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/processing",
@@ -359,11 +359,11 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "RDMkit on Data quality",
+            "title": "Data quality",
             "short_title": "RDMkit: Data quality",
             "category": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["RDMkit","quality","RDMkit on Data quality"],
+            "search_tags": ["RDMkit","quality","Data quality"],
             "phase": ["Collect", "Process"],
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/data_quality",
@@ -386,11 +386,11 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "RDMkit on Data Management Planning",
+            "title": "Data Management Planning",
             "short_title": "RDMkit: DM Planning",
             "category": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["RDMkit","DMP","data management plan","RDMkit on Data Management Planning"],
+            "search_tags": ["RDMkit","DMP","data management plan","Data Management Planning"],
             "phase": ["Plan"],
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/planning",
@@ -413,11 +413,11 @@
             "licence": "CC BY 4.0"
         },
         {   
-            "title": "RDMkit on Collecting data",
+            "title": "Collecting data",
             "short_title": "RDMkit: Collecting data",
             "category": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["RDMkit","collect","RDMkit on Collecting data"],
+            "search_tags": ["RDMkit","collect","Collecting data"],
             "phase": ["Collect"],
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/collecting",
@@ -426,11 +426,11 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "RDMkit on Data transfer",
+            "title": "Data transfer",
             "short_title": "RDMkit: Data transfer",
             "category": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["RDMkit","transfer","data transfer","RDMkit on Data transfer"],
+            "search_tags": ["RDMkit","transfer","data transfer","Data transfer"],
             "phase": ["Collect"],
             "topic": ["Data transfer"],
             "level": ["Basic"],
@@ -532,11 +532,11 @@
             "provider": ["SND"]
         },
         {
-            "title": "UU on general information about research data",
+            "title": "General information about research data",
             "short_title": "UU: Research data",
             "category": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["Uppsala University","UU","DMP","research data","UU on general information about research data"],
+            "search_tags": ["Uppsala University","UU","DMP","research data","General information about research data"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse"],
             "topic":["Data Management Plan", "Research involving human data"], 
             "level": ["Basic"],
@@ -646,11 +646,11 @@
             "provider":  ["NBIS SCoRe"]         
         },
         {
-            "title": "RDMkit on Data organisation",
+            "title": "Data organisation",
             "short_title": "RDMkit: Data organisation",
             "category": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["RDMkit","organisation", "organization", "data organisation","Metadata", "README files","RDMkit on Data organisation"],
+            "search_tags": ["RDMkit","organisation", "organization", "data organisation","Metadata", "README files","Data organisation"],
             "phase": ["Plan", "Collect", "Analyse", "Preserve"],
             "topic": ["Metadata"],
             "level": ["Basic"],
@@ -660,11 +660,11 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "RDMkit on Bioimaging data",
+            "title": "Bioimaging data",
             "short_title": "RDMkit: Bioimaging data",
             "category": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["RDMkit","Bioimaging data","RDMkit on Bioimaging data", "Collect", "Collection", "Metadata"],
+            "search_tags": ["RDMkit","Bioimaging data","Bioimaging data", "Collect", "Collection", "Metadata"],
             "phase": ["Share"],
             "topic": ["Metadata"],
             "level": ["Basic"],
@@ -674,11 +674,11 @@
             "licence": "CC BY 4.0"
         },
         {
-            "title": "RDMkit on Proteomics data",
+            "title": "Proteomics data",
             "short_title": "RDMkit: Proteomics data",
             "category": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["RDMkit","Process","processing","Metadata","RDMkit on Proteomics data"],
+            "search_tags": ["RDMkit","Process","processing","Metadata","Proteomics data"],
             "phase": ["Share"],
             "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/proteomics",
@@ -687,11 +687,11 @@
             "licence": "CC BY 4.0"
         },                
         {
-            "title": "NBIS Submission documentation",
-            "short_title": "NBIS Submission documentation",
+            "title": "Submission documentation",
+            "short_title": "Submission documentation",
             "category": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["NBIS","share","submission","documentation","publication","SOP","ENA","EBI","BioStudies","NBIS Submission documentation"],
+            "search_tags": ["NBIS","share","submission","documentation","publication","SOP","ENA","EBI","BioStudies","Submission documentation"],
             "phase": ["Share"],
             "topic": ["ENA submission tutorial"],
             "level": ["Basic"],
@@ -762,57 +762,57 @@
             "provider": ["SciLifeLab"]
         },
         {
-            "title": "Infectious Diseases Toolkit on Data analysis",
+            "title": "Data analysis",
             "short_title": "IDTk: Data analysis ",
             "category": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["idtk","Infectious Diseases Toolkit on Data analysis", "infectious diseases toolkit", "data analysis"],
+            "search_tags": ["idtk","Data analysis", "infectious diseases toolkit", "data analysis"],
             "phase": ["Analyse"],
             "level": ["Basic"],
             "url": "https://www.infectious-diseases-toolkit.org/data-analysis/",
             "description": "Best practice guidance regarding the task of analyising data, in terms of employing workflows tailored to different types of data, such as epidemiological, clinical, or molecular data.",
-            "provider":  ["IDTk"],
+            "provider":  ["Infectious Diseases Toolkit (IDTk)"],
             "licence": "CC BY 4.0"
         },
         {
-            "title": "Infectious Diseases Toolkit on Data description",
+            "title": "Data description",
             "short_title": "IDTk: Data description",
             "category": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["idtk","Infectious Diseases Toolkit on Data description", "infectious diseases toolkit", "data description"],
+            "search_tags": ["idtk","Data description", "infectious diseases toolkit", "data description"],
             "phase": ["Collect"],
             "topic": ["Metadata"],
             "level": ["Basic"],
             "url": "https://www.infectious-diseases-toolkit.org/data-description/",
             "description": "Best practice guidance regarding the task of describing data, in terms of finding and adhering to relevant standards for (meta)data and documentation.",
-            "provider":  ["IDTk"],
+            "provider":  ["Infectious Diseases Toolkit (IDTk)"],
             "licence": "CC BY 4.0"
         },
         {
-            "title": "Infectious Diseases Toolkit on Quality control",
+            "title": "Quality control",
             "short_title": "IDTk: Quality control",
             "category": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["idtk","Infectious Diseases Toolkit on Quality control", "infectious diseases toolkit", "quality control"],
+            "search_tags": ["idtk","Quality control", "infectious diseases toolkit", "quality control"],
             "phase": ["Collect", "Process"],
             "level": ["Basic"],
             "url": "https://www.infectious-diseases-toolkit.org/quality-control/",
             "description": "Best practice guidance regarding the task of quality control, in terms of ensuring the accuracy and reliability of data collected and analysed.",
-            "provider":  ["IDTk"],
+            "provider":  ["Infectious Diseases Toolkit (IDTk)"],
             "licence": "CC BY 4.0"
         },
         {
-            "title": "Infectious Diseases Toolkit on Ethical, Legal, and Social Issues",
+            "title": "Ethical, Legal, and Social Issues",
             "short_title": "IDTk: Ethical, Legal, and Social Issues",
             "category": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["idtk","Infectious Diseases Toolkit on Ethical, Legal, and Social Issues", "ethical", "legal", "social issues", "ELSI"],
+            "search_tags": ["idtk","Ethical, Legal, and Social Issues", "ethical", "legal", "social issues", "ELSI"],
             "phase": [],
             "topic": ["Research involving human data"],
             "level": ["Basic"],
             "url": "https://www.infectious-diseases-toolkit.org/ethical-legal-and-social-issues/",
             "description": "Guidance on how to comprehensively assess the ethical, legal, and social implication (ELSI) aspects of your work throughout all stages of data management.",
-            "provider":  ["IDTk"],
+            "provider":  ["Infectious Diseases Toolkit (IDTk)"],
             "licence": "CC BY 4.0"
         },
         {
@@ -963,11 +963,11 @@
             "provider":  ["European Virtual Institute for Research Software Excellence (EVERSE)"]
         },
         {
-            "title": "SND on Long-term preservation",
+            "title": "Long-term preservation",
             "short_title": "Long-term preservation",
             "category": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["SND on Long-term preservation", "Researchdata.se","SND","Swedish National Data Service"],
+            "search_tags": ["Long-term preservation", "Researchdata.se","SND","Swedish National Data Service"],
             "phase": ["Preserve"],
             "level": ["Basic"],
             "url": "https://researchdata.se/en/manage-data/describe-share-and-preserve-data/what-should-i-share/long-term-preservation",
@@ -976,11 +976,11 @@
             "licence": "CC BY 4.0 (texts)"
         },
         {
-            "title": "SND on Research principal",
+            "title": "Research principal",
             "short_title": "Research principal",
             "category": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["SND on Research principal", "Researchdata.se","SND","Swedish National Data Service"],
+            "search_tags": ["Research principal", "Researchdata.se","SND","Swedish National Data Service"],
             "phase": [],
             "topic": ["Data Management Plan", "Research involving human data"],
             "level": ["Basic"],
@@ -989,11 +989,11 @@
             "provider":  ["SND"],
             "licence": "CC BY 4.0 (texts)"
         },
-        {    "title": "SND on Describe, share, and preserve data",
+        {    "title": "Describe, share, and preserve data",
             "short_title": "Describe, share, and preserve data",
             "category": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["SND on Describe, share, and preserve data", "Researchdata.se","SND","Swedish National Data Service"],
+            "search_tags": ["Describe, share, and preserve data", "Researchdata.se","SND","Swedish National Data Service"],
             "phase": ["Preserve", "Share"],
             "level": ["Basic"],
             "url": "https://researchdata.se/en/manage-data/describe-share-and-preserve-data",
@@ -1002,11 +1002,11 @@
             "licence": "CC BY 4.0 (texts)"
         },
         {
-            "title": "SND on Scientific code",
+            "title": "Scientific code",
             "short_title": "Scientific code",
             "category": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["SND on Scientific code", "Researchdata.se","SND","Swedish National Data Service"],
+            "search_tags": ["Scientific code", "Researchdata.se","SND","Swedish National Data Service"],
             "phase": [],
             "topic": ["Sharing code and workflows"],
             "level": ["Basic"],
@@ -1016,11 +1016,11 @@
             "licence": "CC BY 4.0 (texts)"
         },
         {
-            "title": "SND on Data management plans",
+            "title": "Data management plans",
             "short_title": "Data management plan",
             "category": ["guidance"],
             "type": ["Web page"],
-            "search_tags": ["SND on Data management plans", "DMP", "Researchdata.se","SND","Swedish National Data Service"],
+            "search_tags": ["Data management plans", "DMP", "Researchdata.se","SND","Swedish National Data Service"],
             "phase": ["Plan"],
             "topic": ["Data Management Plan"],
             "level": ["Basic"],
@@ -1104,11 +1104,11 @@
             "provider":  ["SciLifeLab"]
         },
         {
-            "title": "Open Researcher and Contributor ID (ORCID)",
+            "title": "Open Researcher and Contributor ID",
             "short_title": "ORCID",
             "category": ["tool"],
             "type": ["Tool"],
-            "search_tags": ["Open Researcher and Contributor ID (ORCID)", "ORCID", "identifier"],
+            "search_tags": ["Open Researcher and Contributor ID", "ORCID", "identifier"],
             "phase": ["Plan"],
             "level": ["Basic"],
             "url": "https://orcid.org/",
@@ -1140,11 +1140,11 @@
             "provider":  ["Swedish Pathogens Portal"]
         },
         {
-            "title": "Registry of Research Data Repositories (re3data)",
+            "title": "Registry of Research Data Repositories",
             "short_title": "re3data",
             "category": ["tool"],
             "type": ["Tool"],
-            "search_tags": ["Registry of Research Data Repositories (re3data)", "reuse", "data catalogue"],
+            "search_tags": ["Registry of Research Data Repositories", "reuse", "data catalogue"],
             "phase": ["Share", "Reuse"],
             "level": ["Basic"],
             "url": "https://www.re3data.org",
@@ -1152,11 +1152,11 @@
             "provider":  ["re3data"]
         },
         {
-            "title": "ELIXIR Deposition Databases for Biomolecular Data",
+            "title": "Deposition Databases for Biomolecular Data",
             "short_title": "ELIXIR Database list",
             "category": ["tool"],
             "type": ["Tool"],
-            "search_tags": ["ELIXIR Deposition Databases for Biomolecular Data","ELIXIR Deposition Database list","share","repository"],
+            "search_tags": ["Deposition Databases for Biomolecular Data","ELIXIR Deposition Database list","share","repository"],
             "phase": ["Share"],
             "level": ["Basic"],
             "url": "https://elixir-europe.org/platforms/data/elixir-deposition-databases",
@@ -1287,11 +1287,11 @@
             "provider":  ["Zenodo"]
         },
         {
-            "title": "EUDAT - B2SHARE",
+            "title": "B2SHARE",
             "short_title": "B2SHARE",
             "category": ["tool"],
             "type": ["Tool"],
-            "search_tags": ["EUDAT - B2SHARE","general-purpose","repository","storage"],
+            "search_tags": ["EUDAT", "B2SHARE","general-purpose","repository","storage"],
             "phase": ["Collect", "Share"],
             "level": ["Basic"],
             "url": "https://eudat.eu/service-catalogue/b2share-0",
@@ -1377,11 +1377,11 @@
             "provider":  ["Ontobee"]
         },
         {
-            "title": "Data Protection Impact Assessment tool from CNIL",
+            "title": "Data Protection Impact Assessment tool",
             "short_title": "PIA software",
             "category": ["tool"],
             "type": ["Tool"],
-            "search_tags": ["Data Protection Impact Assessment tool from CNIL", "DPIA"],
+            "search_tags": ["Data Protection Impact Assessment tool", "DPIA"],
             "phase": [],
             "topic": ["Research involving human data"],
             "level": ["Basic"],

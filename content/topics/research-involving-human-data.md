@@ -112,7 +112,7 @@ Traditionally, consent has been the basis for processing personal data for resea
 Also note that even if public interest is the legal basis, other laws and research ethics standards might still require you to have consent from the subjects for performing the research.
 
 
-### Data Processing
+### Data processing
 
 All [processing of personal data](/topics/gdpr-ethical-review-glossary/#processing-of-personal-data) must comply with the <a href="https://gdpr-info.eu/art-5-gdpr/" target="_blank">Principles relating to processing of personal data - Article 5</a> in the GDPR. According to these principles, to process personal data, the controller must:
 

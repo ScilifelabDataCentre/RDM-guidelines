@@ -43,7 +43,7 @@ A DMP is a **living document**, the initial version is written the same time as 
 
 2. **Project start:** The DMP is completed with more details e.g. about documentation, data quality measures, file and folder strategies, etc.
 
-3. **Project end:** The DMP is updated a final time with e.g. links to published data and details about archiving (what data and where), so that this document enables future re-use of the project (by yourself or others).
+3. **Project end:** The DMP is updated a final time with e.g. links to published data and details about archiving (what data and where), so that this document enables future reuse of the project (by yourself or others).
 
 ## The main parts of a DMP
 

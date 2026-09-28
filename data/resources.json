@@ -1441,7 +1441,7 @@
             "provider":  ["SciLifeLab"]
         },
         {
-            "title": "SciLifeLab PM Portal: Introduction to OMOP-CDM",
+            "title": "Introduction to OMOP-CDM",
             "short_title": "Introduction OMOP-CDM",
             "category": ["guidance"],
             "type": ["Web page"],

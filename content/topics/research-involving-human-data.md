@@ -95,7 +95,7 @@ Before embarking on a new project, consider the following:
   * How long will the collected data be kept? Erase the data when they are no longer needed.
 
 
-### Data Protection Officer (dataskyddsombud)
+### Data protection officer (dataskyddsombud)
 
 The role of the [data protection officer](/topics/gdpr-ethical-review-glossary/#data-protection-officer) is to check that GDPR is complied with within the organisation. If personal data is processed in your research, you should report this to your institute’s Data Protection Officer (DPO).
 

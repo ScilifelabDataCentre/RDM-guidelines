@@ -30,7 +30,7 @@ This README file was generated on [YYYY-MM-DD] by [NAME]
   - Standards and calibration for data collection (if applicable):
   - Uncertainty, precision, and accuracy of measurements (if applicable):
   - Known problems & caveats (sampling, blanks, etc.):
-  - Codes or symbols used to record missing data with description (if applicable):
+  - Reference codes or symbols used to record missing data with description (if applicable):
 - Link to data dictionary:  
 
 ## DATA REUSE

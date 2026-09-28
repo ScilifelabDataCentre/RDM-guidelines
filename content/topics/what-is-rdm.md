@@ -24,7 +24,7 @@ Please find below a video presentation on the topic 'The why of research data ma
     <a href="https://www.youtube.com/watch?v=S7HfUe1hWcg" target="_blank"><img src="/img/elixir-why-dm-comics-play-button-frame.jpg" alt="ELIXIR why DM comics"  class="img-fluid"></a>
 </div><br>
 
-## What is a Data steward?
+## What is a data steward?
 
 Data steward is an emerging profession, developed from the need and requirement of complying to the FAIR (Findable, Accessible, Interoperable and Reusable) principles and Open Science. The tasks of a data steward varies depending on the position, often defined as one of the three roles: policy, research and infrastructure. A policy data steward focuses on developing and implementing policies of research data management practices within an organisation. A research data steward works closely with the researchers, enabling them to adhere to the policies in their daily work, e.g. by giving guidance regarding data management planning, provide training, assist with publishing data. An infrastructure data steward works closely with service prociders within an organisation, such as IT department, ensuring that the infrastructure needs of the researchers are met.
 

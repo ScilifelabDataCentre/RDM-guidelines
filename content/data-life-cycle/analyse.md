@@ -15,7 +15,7 @@ During this phase the collected data, both the reused data and the data created 
 <br><br>
 
 SciLifeLab platforms and units which offer data analysis services:
-* NBIS (National Bioinformatics Infrastructure Sweden) offers bioinformatic support in various forms for a wide range of areas including NGS, proteomics, metabolomics and biostatistics.<br/><br/><a class="link-teal" href="https://nbis.se/get-support" target="_blank"><b>Learn more about NBIS support <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/>
+* NBIS (National Bioinformatics Infrastructure Sweden) offers bioinformatic support in various forms for a wide range of areas including next generation sequencing (NGS), proteomics, metabolomics and biostatistics.<br/><br/><a class="link-teal" href="https://nbis.se/get-support" target="_blank"><b>Learn more about NBIS support <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/>
 
 * BioImage Informatics Unit provides support and education in image analysis in order to help users get started with their own analysis.<br/><br/><a class="link-teal" href="https://www.scilifelab.se/units/bioimage-informatics/" target="_blank"><b>Learn more about the BioImage Informatics Unit <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/>
 

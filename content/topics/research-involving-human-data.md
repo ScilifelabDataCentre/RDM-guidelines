@@ -36,7 +36,7 @@ It is important to remember that pseudonymised data is still regarded as persona
 
 Below we list some important regulations to follow when conducting research that involves human data.
 
-* **General Data Protection Regulation (GDPR)** – All research involving personal data must comply with the <a href="https://gdpr-info.eu/" target="_blank">General Data Protection Regulation (GDPR)</a> (<a href="https://www.imy.se/verksamhet/dataskydd/det-har-galler-enligt-gdpr/introduktion-till-gdpr/dataskyddsforordningen-i-fulltext/" target="_blank">Dataskyddsförordningen</a>).
+* **General Data Protection Regulation (GDPR)** – All research involving personal data must comply with <a href="https://gdpr-info.eu/" target="_blank">GDPR</a> (<a href="https://www.imy.se/verksamhet/dataskydd/det-har-galler-enligt-gdpr/introduktion-till-gdpr/dataskyddsforordningen-i-fulltext/" target="_blank">Dataskyddsförordningen</a>).
 The <a href="https://www.imy.se/en/" target="_blank">Swedish Authority for Privacy Protection (IMY)</a> upholds the protection of personal data, monitors that they are handled correctly and do not fall into the wrong hands. See their <a href="https://www.imy.se/en/organisations/data-protection/this-applies-accordning-to-gdpr/" target="_blank">GDPR information pages</a>, and also GDPR considerations" further below.
 
 * **The Ethical Review Act** – Ethical review by the <a href="https://etikprovningsmyndigheten.se/" target="_blank">Ethical Review Authority</a> is needed when research involves human data, according to the Swedish ethical review act (<a href="https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2003460-om-etikprovning-av-forskning-som_sfs-2003-460" target="_blank">Lag (2003:460) om etikprövning av forskning som avser människor</a> - *Swedish*). See also "Ethical considerations" below.
@@ -97,7 +97,7 @@ Before embarking on a new project, consider the following:
 
 ### Data Protection Officer (dataskyddsombud)
 
-The role of the [data protection officer](/topics/gdpr-ethical-review-glossary/#data-protection-officer) is to check that the General Data Protection Regulation (GDPR) is complied with within the organisation. If personal data is processed in your research, you should report this to your institute’s Data Protection Officer (DPO).
+The role of the [data protection officer](/topics/gdpr-ethical-review-glossary/#data-protection-officer) is to check that GDPR is complied with within the organisation. If personal data is processed in your research, you should report this to your institute’s Data Protection Officer (DPO).
 
 <a class="link-teal" href="/topics/university-rdm-resources#data-protection-officers"><b>Find university Data Protection Officer (DPO) <i class="bi bi-arrow-right-square"></i></b></a>
 <br>

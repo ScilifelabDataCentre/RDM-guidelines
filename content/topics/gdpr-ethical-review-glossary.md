@@ -7,7 +7,7 @@ toc: True
 
 # GDPR and ethical review glossary
 
-This is a glossary where you find definitions of key terms in GDPR and the Swedish ethical review legislation.
+This is a glossary where you find definitions of key terms in the General Data Protection Regulation (GDPR) and the Swedish ethical review legislation.
 
 <div class="alert alert-warning" role="alert">
  Note that the term names and definitions represent our understanding of the legislation, and do not constitute legal advice in individual cases. Please consult the legal office of your university if you need assistance.

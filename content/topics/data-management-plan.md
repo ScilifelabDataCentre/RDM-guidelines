@@ -26,7 +26,7 @@ There are several reasons why writing a data management plan is a very good idea
 * By planning how the data will be managed, there’s greater chance that the research data will be **well-managed** (no guarantee, since you still need to have good strategies and actually implement them for this to happen). Of course there are many benefits with well-managed data but the main ones are:
   * **reproducibility**, so that the results can be verified
   * **reusability**, so that this data can be used for answering other scientific questions, thus reducing redundancy
-* A DMP is the first step towards being **FAIR** in your project.
+* A DMP is the first step towards being **FAIR** (Findable, Accessible, Interoperable and Reusable) in your project.
 
 <a class="link-teal" href="/topics/fair-principles"><b>Learn more about the FAIR principles <i class="bi bi-arrow-right-square"></i></b></a>
 <br><br>

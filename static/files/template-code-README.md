@@ -29,7 +29,7 @@ This README file was generated on [YYYY-MM-DD] by [NAME]
 
 - How to contribute:  
 
-## CODE RE-USE
+## CODE REUSE
 
 - Persistent identifier (if any):  
 - License (if any):  

@@ -23,7 +23,7 @@ Data and metadata should be easy to find by both humans and computer systems. Ba
       <div class="card-header"><h3>F1: (meta)data are assigned a globally unique and persistent identifier</h3></div>
       <div class="card-body">
       <span>
-        <b>Explanation:</b> Each dataset is assigned a globally unique and persistent identifier (PID), for example a <a href="https://www.doi.org/" target="_blank">DOI</a>. These identifiers allow to find, cite and track (meta)data.	<br><br>
+        <b>Explanation:</b> Each dataset is assigned a globally unique and persistent identifier (PID), for example a <a href="https://www.doi.org/" target="_blank">Digital Object Identifier (DOI)</a>. These identifiers allow to find, cite and track (meta)data.	<br><br>
         <b>Action:</b> Ensure that each dataset is assigned a globally unique and persistent identifier. Certain repositories automatically assign identifiers to datasets as a service. If not, researchers must obtain a PID via a PID registration service.
       </span>
       </div>
@@ -94,13 +94,13 @@ Data and metadata should be stored for the long term such that they can be easil
 
 <div class="mb-3">
   <button class="btn btn-round btn-expandable" data-bs-toggle="collapse" href="#collapseAccess1" role="button" aria-expanded="false" aria-controls="collapseAccess1">
-    A1: Standardized communication protocol
+    A1: Standardised communication protocol
     <i class="bi bi-chevron-double-down"></i>
   </button>
 
   <div class="collapse" id="collapseAccess1">
     <div class="card">
-      <div class="card-header"><h3>A1: (meta)data are retrievable by their identifier using a standardized communications protocol</h3></div>
+      <div class="card-header"><h3>A1: (meta)data are retrievable by their identifier using a standardised communications protocol</h3></div>
       <div class="card-body">
       <span>
         <b>Explanation:</b> If one knows a dataset’s identifier and the location where it is archived, one can access at least the metadata. Furthermore, the user knows how to proceed to get access to the data.	<br><br>
@@ -182,7 +182,7 @@ Data should be ready to be exchanged, interpreted and combined in a (semi)automa
       <div class="card-body">
       <span>
         <b>Explanation:</b> Interoperability typically means that each computer system has at least knowledge of the other system’s formats in which data is exchanged. If (meta)data are to be searchable and if compatible data sources should be combinable in a (semi)automatic way, computer systems need to be able to decide if the content of datasets are comparable. Obvious issues arise when different languages are used to describe the data or when spelling errors make the comparison of descriptions and variable names more difficult. It is critical to use controlled vocabularies and a well-defined framework to describe and structure (meta)data in order to ensure findability and interoperability of datasets.	<br><br>
-        <b>Action:</b> Provide machine readable data and metadata in an accessible language, using a well-established formalism. In particular, data and metadata are annotated with resolvable vocabularies/ontologies/thesauri that are commonly used in the field. The <a href="https://www.w3.org/RDF/" target="_blank">RDF</a> extensible knowledge representation model is a way to describe and structure datasets. You can refer to the <a href="https://dublincore.org/schemas/" target="_blank">Dublin Core Schema</a> as an example.
+        <b>Action:</b> Provide machine readable data and metadata in an accessible language, using a well-established formalism. In particular, data and metadata are annotated with resolvable vocabularies/ontologies/thesauri that are commonly used in the field. The <a href="https://www.w3.org/RDF/" target="_blank">Resource Description Framework (RDF)</a> extensible knowledge representation model is a way to describe and structure datasets. You can refer to the <a href="https://dublincore.org/schemas/" target="_blank">Dublin Core Schema</a> as an example.
       </span>
       </div>
     </div>  
@@ -311,7 +311,7 @@ Data and metadata are sufficiently well-described to allow data to be reused in 
       <div class="card-header"><h3>R1.3: (meta)data meet domain relevant community standards</h3></div>
       <div class="card-body">
       <span>
-        <b>Explanation:</b> It is easier to reuse datasets if they are similar: same type of data, data organized in a standardized way, well-established and sustainable file formats, documentation (metadata) following a common template and using common vocabulary. If community standards or best practices for data archiving and sharing exist, they should be followed. Note that quality issues are not addressed by the FAIR principles. How reliable data is lies in the eye of the beholder and depends on the foreseen application.	<br><br>
+        <b>Explanation:</b> It is easier to reuse datasets if they are similar: same type of data, data organised in a standardised way, well-established and sustainable file formats, documentation (metadata) following a common template and using common vocabulary. If community standards or best practices for data archiving and sharing exist, they should be followed. Note that quality issues are not addressed by the FAIR principles. How reliable data is lies in the eye of the beholder and depends on the foreseen application.	<br><br>
         <b>Action:</b> Prepare your (meta)data according to community standards and best practices for data archiving and sharing in your research field. There might be situations where good practice exist for the type of data to be submitted but the submitter has valid and specified reasons to divert from the standard practice. This needs to be addressed in the metadata.
       </span>
       </div>

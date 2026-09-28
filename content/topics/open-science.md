@@ -46,7 +46,7 @@ The SciLifeLab Open Science checklists, developed by SciLifeLab Data Centre, can
 <a class="link-teal" href=""><b>Go to the SciLifeLab Open Access Checklist <i class="bi bi-arrow-right-square"></i></b></a><br><br>
 <a class="link-teal" href=""><b>Go to the SciLifeLab Open Science Software Checklist <i class="bi bi-arrow-right-square"></i></b></a> -->
 
-Adopting the FAIR principles is one of the most efficient ways to reach this broader goal of Open Science. While Open Science is the philosophy of transparency and accessibility, FAIR is the practical toolkit that makes it possible.
+Adopting the FAIR (Findable, Accessible, Interoperable and Reusable) principles is one of the most efficient ways to reach this broader goal of Open Science. While Open Science is the philosophy of transparency and accessibility, FAIR is the practical toolkit that makes it possible.
 
 <a class="link-teal" href="/topics/fair-principles"><b>Learn more about the FAIR principles <i class="bi bi-arrow-right-square"></i></b></a> 
 

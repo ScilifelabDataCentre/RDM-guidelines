@@ -101,7 +101,7 @@ Aspera has an environment variable that you can use in order to add your passwor
 
 
 ## Data transfer using RClone
-Rclone is a command-line program that can be used to transfer files across a wide range of protocols. This can be useful when you you are unable to use specialised submission tools or Aspera, for example when transfering files in bulk to <a href="https://www.scilifelab.se/data/repository/" target="_blank">SciLifeLab Data Repository</a> over the FTPS protocol.
+Rclone is a command-line program that can be used to transfer files across a wide range of protocols. This can be useful when you you are unable to use specialised submission tools or Aspera, for example when transfering files in bulk to <a href="https://www.scilifelab.se/data/repository/" target="_blank">SciLifeLab Data Repository</a> over the file transfer protocol (FTPS).
 
 The following example describes how to upload files to SciLifeLab Data Repository (or any other Figshare repository):
 

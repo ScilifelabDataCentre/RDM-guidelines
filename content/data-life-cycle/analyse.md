@@ -6,7 +6,7 @@ toc: True
 ---
 
 # Analysing
-During this phase the collected data, both the re-used data and the data created for this project, is explored. Things to consider are where to do the analysis, how to transfer the data, who is going to do the analysis, and how the steps of the analysis are going to be documented. Implement a good strategy on data organisation, see e.g. *'<a href="https://doi.org/10.1371/journal.pcbi.1000424" target="_blank">A Quick Guide to Organizing Computational Biology Projects</a>'* for advice. If working with sensitive data, there might be a need for extra security measures as well as ensuring that all necessary agreements are in place.
+During this phase the collected data, both the reused data and the data created for this project, is explored. Things to consider are where to do the analysis, how to transfer the data, who is going to do the analysis, and how the steps of the analysis are going to be documented. Implement a good strategy on data organisation, see e.g. *'<a href="https://doi.org/10.1371/journal.pcbi.1000424" target="_blank">A Quick Guide to Organizing Computational Biology Projects</a>'* for advice. If working with sensitive data, there might be a need for extra security measures as well as ensuring that all necessary agreements are in place.
 
 <a class="link-teal" href="/topics/data-transfer"><b>Learn more about data transfer <i class="bi bi-arrow-right-square"></i></b></a>
 <br>
@@ -15,7 +15,7 @@ During this phase the collected data, both the re-used data and the data created
 <br><br>
 
 SciLifeLab platforms and units which offer data analysis services:
-* NBIS (National Bioinformatics Infrastructure Sweden) offers bioinformatic support in various forms for a wide range of areas including NGS, proteomics, metabolomics and biostatistics.<br/><br/><a class="link-teal" href="https://nbis.se/get-support" target="_blank"><b>Learn more about NBIS support <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/>
+* NBIS (National Bioinformatics Infrastructure Sweden) offers bioinformatic support in various forms for a wide range of areas including next generation sequencing (NGS), proteomics, metabolomics and biostatistics.<br/><br/><a class="link-teal" href="https://nbis.se/get-support" target="_blank"><b>Learn more about NBIS support <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/>
 
 * BioImage Informatics Unit provides support and education in image analysis in order to help users get started with their own analysis.<br/><br/><a class="link-teal" href="https://www.scilifelab.se/units/bioimage-informatics/" target="_blank"><b>Learn more about the BioImage Informatics Unit <i class="bi bi-box-arrow-up-right"></i></b></a><br/><br/>
 

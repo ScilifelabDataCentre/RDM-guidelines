@@ -19,7 +19,7 @@ USAGE
 CONTRIBUTION
 - How to contribute: 
 
-CODE RE-USE
+CODE REUSE
 - Persistent identifier (if any): 
 - License (if any):
 - Recommended citation for the code (if any):

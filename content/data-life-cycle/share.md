@@ -17,7 +17,7 @@ In the era of FAIR (Findable, Accessible, Interoperable and Reusable) and Open s
 
 <br>
 
-  <img class="img-fluid" src="/img/illustrations/repository_overview_v6.png" alt="Repository overview">
+  <img class="img-fluid" src="/img/illustrations/repository_overview_v7.png" alt="Repository overview">
 
 &nbsp;&nbsp;
 

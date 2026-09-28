@@ -61,7 +61,7 @@ For software, consider publishing in a dedicated software journal (e.g. <a href=
 
 <a class="link-teal" href="https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content" target="_blank"><b>Referencing and citing content on GitHub <i class="bi bi-box-arrow-up-right"></i></b></a>
 
-### Tips & Tricks
+### Tips & tricks
 
 - Start from a template or "cookie cutter" to streamline setup, and follow best practices. 
 - Write readable code by using meaningful variable names, a logical structure, and clear comments. Some coding languages offer packages/tools that lint and format code for consistency. 

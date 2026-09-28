@@ -20,10 +20,10 @@ DATA COLLECTION
   - Standards and calibration for data collection (if applicable):
   - Uncertainty, precision and accuracy of measurements (if applicable):
   - Known problems & caveats (sampling, blanks, etc.):
-  - Codes or symbols used to record missing data with description (if applicable):
+  - Reference codes or symbols used to record missing data with description (if applicable):
 - Link to data dictionary:
 
-DATA RE-USE
+DATA REUSE
 - DOI/accession number (if dataset is published): 
 - License (if any):
 - Use restrictions (if any):

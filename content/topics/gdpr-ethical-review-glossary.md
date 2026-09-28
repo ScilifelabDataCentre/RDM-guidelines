@@ -7,7 +7,7 @@ toc: True
 
 # GDPR and ethical review glossary
 
-This is a glossary where you find definitions of key terms in GDPR and the Swedish ethical review legislation.
+This is a glossary where you find definitions of key terms in the General Data Protection Regulation (GDPR) and the Swedish ethical review legislation.
 
 <div class="alert alert-warning" role="alert">
  Note that the term names and definitions represent our understanding of the legislation, and do not constitute legal advice in individual cases. Please consult the legal office of your university if you need assistance.
@@ -154,7 +154,7 @@ Any information relating to an identified or identifiable person (a person who c
 
 *In Swedish:* personuppgiftsincident
 
-A breach of security leading to the accidental or unlawful destruction, loss, alteration, unauthorized disclosure of, or access to, personal data transmitted, stored or otherwise processed.
+A breach of security leading to the accidental or unlawful destruction, loss, alteration, unauthorised disclosure of, or access to, personal data transmitted, stored or otherwise processed.
 
 -   <a href="https://gdpr-info.eu/art-4-gdpr/" target="_blank">gdpr-info.eu/art-4-gdpr/</a> (12)
 

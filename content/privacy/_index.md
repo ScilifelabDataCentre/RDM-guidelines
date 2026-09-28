@@ -10,7 +10,7 @@ This page is used to inform website visitors regarding our personal data process
 The Personal Information that we collect are used for providing and improving the **Service**.
 We will not use or share your information with anyone except as described in this Privacy Policy. All collected Personal Information will be processed for research purposes, i.e. using the lawful basis of public interest and in accordance with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016, the General Data Protection Regulation.
 
-## Log Data
+## Log data
 
 We want to inform you that whenever you visit our **Service**, we collect information that your browser sends to us that is called Log Data. This Log Data may include: the website from which you visited us from, the parts of our **Service** you visit, the date and duration of your visit, your anonymised IP address, information from the device (device type, operating system, screen resolution, language, country you are located in, and web browser type) you used during your visit, and more. We process this usage data in Matomo Analytics (hosted on SciLifeLab servers and operated solely by SciLifeLab) for statistical purposes, to improve our **Service** and to recognise and stop any misuse.
 

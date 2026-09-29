@@ -842,11 +842,11 @@
             "provider": ["SND"]
         },
         {
-            "title": "SciLifeLab Open Software Checklist",
+            "title": "Open Software Checklist",
             "short_title": "Open Software Checklist",
             "category": ["tool"],
             "type": ["Tool"],
-            "search_tags": ["SciLifeLab Open Software Checklist", "Open Science"],
+            "search_tags": ["Open Software Checklist", "Open Science"],
             "phase": [],
             "topic": ["Sharing code and workflows", "Open Science"],
             "level": ["Basic"],
@@ -855,11 +855,11 @@
             "provider": ["SciLifeLab"]
         },
         {
-            "title": "SciLifeLab Open Access Checklist",
+            "title": "Open Access Checklist",
             "short_title": "Open Access Checklist",
             "category": ["tool"],
             "type": ["Tool"],
-            "search_tags": ["SciLifeLab Open Access Checklist", "Open Science"],
+            "search_tags": ["Open Access Checklist", "Open Science"],
             "phase": [],
             "topic": ["Open Science"],
             "level": ["Basic"],

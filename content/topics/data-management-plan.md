@@ -56,7 +56,7 @@ The DMP typically starts with an administrative overview concerning the project(
 3. **Storage and backup**
     * How is data security, storage and backup of data and metadata safeguarded during the research process?
 4. **Legal and ethical aspects**
-    * How is data handling according to legal requirements safeguarded, e.g. in terms of handling of [personal data](https://data-guidelines.scilifelab.se/topics/gdpr-ethical-review-glossary/#personal-data), confidentiality and intellectual property rights?
+    * How is data handling according to legal requirements safeguarded, e.g. in terms of handling of [personal data](/topics/gdpr-ethical-review-glossary/#personal-data), confidentiality and intellectual property rights?
 5. **Accessibility and long-term storage**
     * How, when and where will research data or information about data (i.e. metadata) be made accessible? E.g. via deposition to international public repositories.
     * In what way is long-term storage safeguarded, and by whom? 

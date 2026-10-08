@@ -33,5 +33,5 @@ jobs:
               run: |
                 pa11y-ci \
                   --config ${GITHUB_WORKSPACE}/.github/pa11y.config \
-                  --sitemap https://data-guidelines.scilifelab.se/sitemap.xml \
-                  --sitemap-exclude 'https://data-guidelines.scilifelab.se/files'
+                  --sitemap https://rdm-guidelines.scilifelab.se/sitemap.xml \
+                  --sitemap-exclude 'https://rdm-guidelines.scilifelab.se/files'

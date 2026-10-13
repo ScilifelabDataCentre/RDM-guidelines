@@ -160,6 +160,9 @@
                       {{ .description | markdownify }}
                     {{ end }}
                   </p>
+                  {{ if .file_extension }}
+                  <p><b>File extensions:</b> {{ .file_extension }}</p>
+                  {{ end }}
                   <p><b>URL:</b> <a href="{{ .url }}" target="_blank"><i class="bi bi-globe"></i> Visit Resource</a></p>
                   {{ if .submission_guidelines }}
                     <p><b>Submission Guidelines:</b> <a href="{{ .submission_guidelines }}" target="_blank">View Guidelines</a></p>

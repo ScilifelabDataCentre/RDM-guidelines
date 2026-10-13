@@ -182,7 +182,7 @@ When you prepare the information for the participants, it might be a good to thi
 * Personal data must normally be pseudonymised before it is shared. Don’t forget to inform the participants about that. Data that is pseudonymised can only be used to identify individuals in combination with other data.
 
 ## Further questions
-If you have further questions regarding sensitive personal data, you are welcome to contact the SciLifeLab data management team (<data-management@scilifelab.se>).
+If you have further questions regarding sensitive personal data, you are welcome to contact the SciLifeLab Data Management team (<data-management@scilifelab.se>).
 
 ## Resources
 Please find below resources concerning research involving human data in form of training, guidance and/or tools.

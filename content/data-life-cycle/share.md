@@ -6,11 +6,11 @@ toc: True
 ---
 
 # Sharing
-In the era of FAIR (Findable, Accessible, Interoperable and Reusable) and Open science, datasets should be made available to the public. Whenever possible, discipline-specific repositories (with or without controlled access) should be used in order to increase the FAIRness of your research outputs. If no such repository is available, there are general-purpose repositories.
+In the era of FAIR (Findable, Accessible, Interoperable and Reusable) and Open Science, datasets should be made available to the public. Whenever possible, discipline-specific repositories (with or without controlled access) should be used in order to increase the FAIRness of your research outputs. If no such repository is available, there are general-purpose repositories.
 
 <a class="link-teal" href="/topics/fair-principles"><b>Learn more about the FAIR principles <i class="bi bi-arrow-right-square"></i></b></a>
 <br><br>
-<a class="link-teal" href="/topics/open-science" target="_blank"><b>Learn more about Open science <i class="bi bi-arrow-right-square"></i></b></a>
+<a class="link-teal" href="/topics/open-science" target="_blank"><b>Learn more about Open Science <i class="bi bi-arrow-right-square"></i></b></a>
 <br><br>
 
 ## Finding a suitable repository type
@@ -27,7 +27,7 @@ There may be cases where openly sharing data is not feasible due to ethical or c
 
 <a class="link-teal" href="/topics/sharing-human-data"><b>See more guidelines on sharing human data <i class="bi bi-arrow-right-square"></i></b></a>
 
-**Is there a discipline specific repository for your dataset?**
+**Is there a discipline-specific repository for your dataset?**
 
 Research data differs greatly across disciplines. Discipline-specific repositories offer specialist domain knowledge and curation expertise for particular data types. Using a discipline-specific repository makes your data visible to others in your community.
 
@@ -244,7 +244,7 @@ A general-purpose data repository is an appropriate choice only if the data does
 
 ## How can SciLifeLab help you sharing data?
 
-If you are a researcher at a Swedish academic institution operating in the life sciences, you can get help from SciLifeLab Data Management support team. This support team can help you describe and deposit your data. Here are a few examples of the support that is offered:
+If you are a researcher at a Swedish academic institution operating in the life sciences, you can get support from the SciLifeLab Data Management team. This support team can help you describe and deposit your data. Here are a few examples of the support that is offered:
 
 * Plan data submission
 * Identify suitable repositories

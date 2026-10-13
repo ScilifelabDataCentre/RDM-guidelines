@@ -244,7 +244,7 @@ A general-purpose data repository is an appropriate choice only if the data does
 
 ## How can SciLifeLab help you sharing data?
 
-If you are a researcher at a Swedish academic institution operating in the life sciences, you can get help from SciLifeLab Data Management support team. This support team can help you describe and deposit your data. Here are a few examples of the support that is offered:
+If you are a researcher at a Swedish academic institution operating in the life sciences, you can get support from the SciLifeLab Data Management team. This support team can help you describe and deposit your data. Here are a few examples of the support that is offered:
 
 * Plan data submission
 * Identify suitable repositories

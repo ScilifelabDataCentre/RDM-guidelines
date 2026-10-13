@@ -68,7 +68,7 @@ The Observational Medical Outcomes Partnership Common Data Model (OMOP-CDM) is a
 
 ## How can SciLifeLab help you sharing human data?
 
-If you are a researcher at a Swedish academic institution working in the life sciences, you can get help from SciLifeLab Data Management support team.
+If you are a researcher at a Swedish academic institution working in the life sciences, you can get support from the SciLifeLab Data Management team.
 
 
 ### Submission support for FEGA Sweden

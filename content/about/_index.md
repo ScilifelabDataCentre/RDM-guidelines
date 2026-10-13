@@ -18,7 +18,7 @@ menu:
     <img src="/img/logos/rdm-logo.PNG" alt="RDM logo" class="img-fluid"><br>
   </div>
   <div class="col-md-9">
-    The purpose of the SciLifeLab RDM guidelines is to serve as an information resource to life science researchers in Sweden regarding research data management and to act as the entry point for SciLifeLab Data Management support. <br><br>The guidelines describe good data management practices throughout the research data life cycle and provide resources to enable data becoming easily accessed, understood, exchanged and reused.
+    The purpose of the SciLifeLab RDM guidelines is to serve as an information resource to life science researchers in Sweden regarding research data management and to act as the entry point for support from SciLifeLab Data Management. <br><br>The guidelines describe good data management practices throughout the research data life cycle and provide resources to enable data becoming easily accessed, understood, exchanged and reused.
   </div>
 </div>
 <br><br>

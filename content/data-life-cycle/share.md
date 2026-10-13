@@ -27,7 +27,7 @@ There may be cases where openly sharing data is not feasible due to ethical or c
 
 <a class="link-teal" href="/topics/sharing-human-data"><b>See more guidelines on sharing human data <i class="bi bi-arrow-right-square"></i></b></a>
 
-**Is there a discipline specific repository for your dataset?**
+**Is there a discipline-specific repository for your dataset?**
 
 Research data differs greatly across disciplines. Discipline-specific repositories offer specialist domain knowledge and curation expertise for particular data types. Using a discipline-specific repository makes your data visible to others in your community.
 

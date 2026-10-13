@@ -8,7 +8,7 @@ toc: True
 # Open Science
 Open Science is a global transformation, an inclusive concept that combines various movements and practices aiming to make multilingual scientific knowledge openly available, accessible, and reusable for everyone. It increases scientific collaborations and sharing of information for the benefit of science and society, opening the processes of scientific knowledge creation.
 
-There are four key pillars of open science:
+There are four key pillars of Open Science:
 * Open scientific knowledge: Access to publications, data, software, and
 hardware.
 * Open Science infrastructure: Digital and physical resources needed for
@@ -17,7 +17,7 @@ science.
 community.
 * Open dialogue: Dialogue with indigenous and traditional systems.
 
-The Association of Swedish Higher Education Institutions (SUHF), in collaboration with the Swedish National Data Service (SND) and the National Library of Sweden, has developed the website openscience.se providing essential information about the key actors, resources, and documents that are central to Sweden’s transition to an open science system.
+The Association of Swedish Higher Education Institutions (SUHF), in collaboration with the Swedish National Data Service (SND) and the National Library of Sweden, has developed the website openscience.se providing essential information about the key actors, resources, and documents that are central to Sweden’s transition to an Open Science system.
 
 <a class="link-teal" href="https://openscience.se/en" target="_blank"><b>Visit openscience.se <i class="bi bi-box-arrow-up-right"></i></b></a>
 

@@ -197,16 +197,19 @@ Note: Valid type for each resource category is stated below.
 ### Language style guide
 
 * All English material should be written in academic English, as the primary target audience is the research community.
-* Titles: in titles, only the first word and acronyms are capitalised.
+* The information on the site is written in British English, so British English spellings must be used.
+* Capital letters are not used for emphasis.
+* Titles: in titles and headings, only the first word, acronyms and names are capitalised.
 * Acronyms: Spell out acronyms first time they are used. The exceptions to this rule are widely accepted acronyms e.g. DNA and RNA. In these cases, there is no need to spell out the acronym.
 * Email addresses: spell these out and make the email address the link e.g. data-management@scilifelab.se. Do not hide the email address behind a word or phrase like “contact us”.
 * Use the term "controlled access repository" instead of "restricted access repository".
+* Use the term "discipline-specific repository" instead of "domain specific repository".
 
 * Spellings:
-    * dataset(s) [spelled as one word]
-    * the word data is plural (e.g. we say these data)
-    * the plural of code is code [this is a mass noun]
-    * the plural of training is training [this is a mass noun]
-    * reuse [spelled without a hyphen]
-    * email [spelled without a hyphen]
-    * we use the British English “ise” (e.g. “visualise”, “visualisation”, “organisation”)
+    * dataset(s) [spelled as one word].
+    * the plural of code is code [this is a mass noun].This refers to e.g python code.
+    * the plural of training is training [this is a mass noun].
+    * reuse [spelled without a hyphen].
+    * email [spelled without a hyphen].
+    * SciLifeLab Data Management is spelled with capitilised first letters.
+    * Open Science is spelled with capitilised first letters.

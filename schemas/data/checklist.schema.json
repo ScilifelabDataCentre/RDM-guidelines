@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "/schemas/data/checklist.schema.json",
+  "title": "SciLifeLab RDM Guidelines Checklists",
+  "description": "Schema for validating checklist objects used in the checklist topic pages",
+  "type": "object",
+  "required": ["title", "doi", "version", "items"],
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Title of the checklist"
+      
+    },
+    "doi": {
+      "type": "string",
+      "format": "uri",
+      "description": "DOI of the checklist"
+    },
+    "version": {
+      "type": "string",
+      "description": "version of the checklist"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "fair_category",
+          "priority",
+          "description",
+          "explanation",
+          "action",
+          "project_size"
+        ],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "unique integer to differentiate items"
+          },
+          "title": {
+            "type": "string",
+            "description": "Short descriptor of checklist item"
+          },
+          "fair_category": {
+            "type": "string",
+            "description": "The letter of the FAIR acronym the item belongs to",
+            "enum": ["Findable", "Accessible", "Interoperable", "Reusable", "Best practice"]
+          },
+          "priority": {
+            "type": "integer",
+            "enum": ["Essential", "Recommended", "Advanced"],
+            "description": "How important it is the item is fulfilled. 'Essential' is the highest priority"
+          },
+          "description": {
+            "type": "string",
+            "description": "Longer descripton of checklist item. Markdown formatted"
+          },
+          "explanation": {
+            "type": "string",
+            "description": "Explanation of why checklist item is important. Markdown formatted"
+          },
+          "action": {
+            "type": "string",
+            "description": "How to fulfil the checklist item. Markdown formatted"
+          },
+          "project_size": {
+            "type": "array",
+            "description": "If the project has small or large scope.",
+            "items": {
+              "type": "string",
+              "enum": ["small", "big"]
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          }
+        }
+      }
+    }
+  }
+}

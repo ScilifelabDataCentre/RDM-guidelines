@@ -21,6 +21,7 @@
           "id": { "type": "string" },
           "related": { "type": "array", "items": { "type": "string" } },
           "description": { "type": "string" },
+          "file_extension": { "type": "string" },
           "url": { "type": "string", "format": "uri" },
           "submission_guidelines": { "type": "string", "format": "uri" },
           "info_type": {

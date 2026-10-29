@@ -56,7 +56,7 @@ Most often there are information resources at your university regarding research
     <tr>
       <td><a href="https://medarbetare.su.se/en/research/your-research" target="_blank">Stockholm University</a></td>
       <td><a href = "mailto:opendata@su.se">opendata@su.se</a></td>
-      <td><a href="https://medarbetare.su.se/en/research/your-research/research-data" target="_blank">Research Data</a>, <br><a href="https://medarbetare.su.se/en/our-su/governance/rules--regulations/research/open-science-policy" target="_blank">Policy for open science</a></td>
+      <td><a href="https://medarbetare.su.se/en/research/your-research/research-data" target="_blank">Research Data</a>, <br><a href="https://medarbetare.su.se/en/our-su/governance/rules--regulations/research/open-science-policy" target="_blank">Policy for Open Science</a></td>
     </tr>
     <tr>
       <td><a href="https://internt.slu.se/en/support-services/data-management-support-for-research-and-environmental-assessment/#stod" target="_blank">SLU Swedish University of Agricultural Sciences</a></td>
@@ -174,7 +174,7 @@ The role of the [data protection officer](/topics/gdpr-ethical-review-glossary/#
 
 
 ## Related policies and guidelines
-* National Library of Sweden - <a href="https://openscience.se/en/national-guidelines-for-open-science" target="_blank">Natio­nal guide­li­nes for open science</a>
+* National Library of Sweden - <a href="https://openscience.se/en/national-guidelines-for-open-science" target="_blank">Natio­nal guide­li­nes for Open Science</a>
 * Swedish National Data Service (SND) - <a href="https://researchdata.se/en/manage-data" target="_blank">Manage data</a>
 * Swedish Research Council - <a href="https://www.vr.se/english/mandates/ethics/good-research-practice---new-edition.html" target="_blank">Good research practice (2024)</a>, <a href="https://www.vr.se/english/mandates/open-science/open-access-to-research-data/the-swedish-research-councils-recommendation.html" target="_blank">Recommendations of open access to research data</a>
 * Formas - <a href="https://formas.se/en/start-page/applying-for-funding/how-it-works/good-to-know-before-you-apply.html#h-Openaccesstoresearchresultsanddata" target="_blank">Requirements for open access to research results and data</a>

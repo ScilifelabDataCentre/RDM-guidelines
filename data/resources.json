@@ -1,5 +1,4 @@
 {   "phases": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse"],
-    "levels": ["Basic", "Intermediate", "Advanced"],
     "categories": ["training", "guidance", "tool"],
     "types": ["Web page", "Video", "Material", "Tool", "Course"],
     "items": [

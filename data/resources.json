@@ -1,5 +1,4 @@
 {   "phases": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse"],
-    "levels": ["Basic", "Intermediate", "Advanced"],
     "categories": ["training", "guidance", "tool"],
     "types": ["Web page", "Video", "Material", "Tool", "Course"],
     "items": [
@@ -11,7 +10,6 @@
             "search_tags": ["RDMkit","role","profession","Your role"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse"],
             "topic": ["What is research data management"],
-            "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/your_role",
             "description": "Best practice guidance regarding the different roles a professional can have in research data management.",
             "provider":  ["RDMkit"],
@@ -25,7 +23,6 @@
             "search_tags": ["video","FAIR","Keynote: First FAIR steps, Rob Hooft"],
             "phase": [],
             "topic": ["FAIR principles"],
-            "level": ["Basic"],
             "url": "https://www.youtube.com/watch?v=2ZL8o8fZSys&list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS&index=14&t=13s",
             "description": "Video presentation about FAIR principles in life science research practice.",
             "provider":  ["SciLifeLab"]
@@ -38,7 +35,6 @@
             "search_tags": ["video","DMP","An Introduction to Data Management by Karin Granström", "NGI", "Lite"],
             "phase": ["Plan"],
             "topic": ["Data management plan"],
-            "level": ["Basic"],
             "url": "https://www.youtube.com/watch?v=eSjPg54fMC8&list=PLYGrAFgPpIzbZfkCyora4N1RavaaPizOS",
             "description": "Data Management, at its core ensures transparency, which is essential in research and especially for projects that are publicly funded. Karin Granström, a Data Steward at NBIS, will cover the basics of Data Management, best practices, and the considerations while drafting a Data Management Plan (DMP). The video is produced as part of the 'Nothing Lite about it!' series of talks produced by NGI Sweden and NBIS. The full playlist is available at https://www.youtube.com/playlist?list=PLYGrAFgPpIzbZfkCyora4N1RavaaPizOS",
             "provider":  ["SciLifeLab"]
@@ -51,7 +47,6 @@
             "search_tags": ["video","DMP","Beyond Compliance: Using Data Management Plans to drive research efficiency"],
             "phase": ["Plan"],
             "topic": ["Data management plan"],
-            "level": ["Basic"],
             "url": "https://www.youtube.com/watch?v=nwTlWnqtN1os",
             "description": "This webinar introduces the concept of data management planning as a catalyst for more efficient, high-impact research as well as a demo of the SciLifeLab Data Stewardship Wizard (DSW).",
             "provider":  ["SciLifeLab"]
@@ -64,7 +59,6 @@
             "search_tags": ["video","human data","Research Involving Human Data by Richelle Björvang", "NGI", "Lite"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse"],
             "topic": ["Research involving human data", "Sharing human data"],
-            "level": ["Basic"],
             "url": "https://www.youtube.com/watch?v=PU-SMKuf1ME&list=PLYGrAFgPpIzbZfkCyora4N1RavaaPizOS",
             "description": "What do I as a researcher need to consider before I start working with human data? This talk covers the basics - definitions - and details on how to work with sensitive data. The video is produced as part of the 'Nothing Lite about it!' series of talks produced by NGI Sweden and NBIS. The full playlist is available at https://www.youtube.com/playlist?list=PLYGrAFgPpIzbZfkCyora4N1RavaaPizOS",
             "provider":  ["SciLifeLab"]
@@ -77,7 +71,6 @@
             "search_tags": ["SND","Swedish National Data Service","human data","personal data","Handbook for data containing personal information", "personal information"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse"],
             "topic": ["Research involving human data", "Sharing human data"],
-            "level": ["Basic"],
             "url": "https://researchdata.se/en/manage-data/data-containing-personal-information/handbook-data-containing-personal-information",
             "description": "Swedish National Data Service (SND) guidance on working with research data containing personal information.",
             "provider":  ["SND"]
@@ -90,7 +83,6 @@
             "search_tags": ["ELSI","checklist","human data","ELSI checklist in Data Stewardship Wizard"],
             "phase": ["Plan"],
             "topic": ["Research involving human data"],
-            "level": ["Basic"],
             "url": "https://dsw.scilifelab.se/",
             "description": "A checklist, implemented in Data Stewardship Wizard, that covers Ethical, Legal and Social Implications (ELSI) considerations when working with human data. Log in using your university credentials, click on **Projects** in the left sidebar, then on the **Create** button, and choose *ELSI Checklist Template*.",
             "provider":  ["SciLifeLab"]
@@ -103,7 +95,6 @@
             "search_tags": ["RDMkit","metadata","documentation","Documentation and metadata"],
             "phase": ["Plan", "Collect"],
             "topic": ["Metadata", "README files"],
-            "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/metadata_management",
             "description": "Best practice guidance regarding the task of managing metadata.",
             "provider":  ["RDMkit"],
@@ -117,7 +108,6 @@
             "search_tags": ["material","Metadata"],
             "phase": ["Plan", "Collect"],
             "topic": ["Metadata"],
-            "level": ["Basic"],
             "url": "https://nbisweden.github.io/module-metadata-dm-practices/",
             "description": "Training material regarding managing metadata, including metadata standards, data dictionaries, controlled vocabularies and ontologies.",
             "provider":  ["NBIS"],
@@ -131,7 +121,6 @@
             "search_tags": ["material","open science","FAIR","Open Science and FAIR"],
             "phase": ["Share"],
             "topic": ["FAIR principles", "What is research data management", "Open Science"],
-            "level": ["Basic"],
             "url": "https://nbisweden.github.io/module-open-science-dm-practices/index.html",
             "description": "Training material regarding what Open Science and FAIR principles mean.",
             "provider":  ["NBIS"],
@@ -145,7 +134,6 @@
             "search_tags": ["material","open science","FAIR","Open Science - Getting Started"],
             "phase": [],
             "topic": ["Open Science"],
-            "level": ["Basic"],
             "url": "https://doi.org/10.17044/scilifelab.29087126",
             "description": "Introductory guide that provides a comprehensive overview of open science principles, benefits, tools, and best practices. Covering topics such as FAIR data, persistent identifiers, data sharing, research software, policy frameworks, and reproducibility, this resource is designed to support researchers, institutions, and stakeholders, primarily looking at the SciLifeLab community, in adopting open and collaborative research practices.",
             "provider":  ["SciLifeLab"],
@@ -159,7 +147,6 @@
             "search_tags": ["RDMkit","human data","Human data"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse"],
             "topic": ["Research involving human data", "Sharing human data"],
-            "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/human_data",
             "description": "Best practice guidance regarding working with human data.",
             "provider":  ["RDMkit"],
@@ -172,7 +159,6 @@
             "type": ["Tool"],
             "search_tags": ["search","DataCite","reuse","DataCite Commons"],
             "phase": ["Reuse"],
-            "level": ["Basic"],
             "url": "https://commons.datacite.org/",
             "description": "Web search interface to works, people, organizations and repositories.",
             "provider": ["DataCite"]
@@ -185,7 +171,6 @@
             "search_tags": ["EBI","publication","submission","repository","Repository wizard"],
             "phase": ["Share"],
             "topic": ["ENA submission tutorial"],
-            "level": ["Basic"],
             "url": "https://www.ebi.ac.uk/submission/",
             "description": "The wizard guides through the decision process of finding a suitable repository.",
             "provider": ["EBI"]
@@ -198,7 +183,6 @@
             "search_tags": ["EBI","submission","publication","video","repository","Submission YouTube playlist"],
             "phase": ["Share"],
             "topic": ["ENA submission tutorial"],
-            "level": ["Basic"],
             "url": "https://www.youtube.com/playlist?list=PL67E0627174F36FCF",
             "description": "Collection of instruction videos on how to submit to the various repositories at EBI.",
             "provider": ["EBI"]
@@ -210,7 +194,6 @@
             "type": ["Web page"],
             "search_tags": ["RDMkit","reuse","Reusing data"],
             "phase": ["Reuse"],
-            "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/reusing",
             "description": "Best practice guidance regarding the phase of data reuse.",
             "provider":  ["RDMkit"],
@@ -223,7 +206,6 @@
             "type": ["Web page"],
             "search_tags": ["RDMkit","reuse","Existing data"],
             "phase": ["Reuse"],
-            "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/existing_data",
             "description": "Best practice guidance regarding the task of reusing data.",
             "provider":  ["RDMkit"],
@@ -236,7 +218,6 @@
             "type": ["Tool"],
             "search_tags": ["Google","search","reuse","Google dataset search"],
             "phase": ["Reuse"],
-            "level": ["Basic"],
             "url": "https://datasetsearch.research.google.com",
             "description": "Google search engine for finding datasets.",
             "provider": ["Google"]
@@ -248,7 +229,6 @@
             "type": ["Web page"],
             "search_tags": ["RDMkit","preserve","Preserving data"],
             "phase": ["Preserve"],
-            "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/preserving",
             "description": "Best practice guidance regarding the phase of preserving data.",
             "provider":  ["RDMkit"],
@@ -261,7 +241,6 @@
             "type": ["Web page"],
             "search_tags": ["RDMkit","share","Sharing data"],
             "phase": ["Share"],
-            "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/sharing",
             "description": "Best practice guidance regarding the phase of data sharing.",
             "provider":  ["RDMkit"],
@@ -274,7 +253,6 @@
             "type": ["Web page"],
             "search_tags": ["RDMkit","publication","Data publication"],
             "phase": ["Share"],
-            "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/data_publication",
             "description": "Best practice guidance regarding the task of publishing data.",
             "provider":  ["RDMkit"],
@@ -287,7 +265,6 @@
             "type": ["Material"],
             "search_tags": ["material","publication","submission","Data publication"],
             "phase": ["Share"],
-            "level": ["Basic"],
             "url": "https://nbisweden.github.io/module-data-publication-dm-practices/",
             "description": "Training material regarding the why and how of data publication.",
             "provider":  ["NBIS"],
@@ -300,7 +277,6 @@
             "type": ["Web page"],
             "search_tags": ["RDMkit","analyse","Analysing data"],
             "phase": ["Analyse"],
-            "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/analysing",
             "description": "Best practice guidance regarding the phase of data analysis.",
             "provider":  ["RDMkit"],
@@ -313,7 +289,6 @@
             "type": ["Material"],
             "search_tags": ["material", "Introduction to R"],
             "phase": ["Analyse"],
-            "level": ["Basic"],
             "url": "https://nbisweden.github.io/module-r-intro-dm-practices/",
             "description": "Training material introducing how to work with R and tidy data.",
             "provider":  ["NBIS"],
@@ -326,7 +301,6 @@
             "type": ["Material"],
             "search_tags": ["Versioning of data and code using Git", "material","git","Versioning"],
             "phase": ["Analyse"],
-            "level": ["Basic"],
             "url": "https://nbisweden.github.io/module-versioning-dm-practices/",
             "description": "Training material regarding versioning of data and code using Git.",
             "provider":  ["NBIS"],
@@ -339,7 +313,6 @@
             "type": ["Material"],
             "search_tags": ["material","Data organisation practices","organisation","organization"],
             "phase": ["Plan", "Collect", "Analyse", "Preserve"],
-            "level": ["Basic"],
             "url": "https://nbisweden.github.io/module-organising-data-dm-practices/",
             "description": "Training material regarding good data organisation practices.",
             "provider":  ["NBIS"],
@@ -352,7 +325,6 @@
             "type": ["Web page"],
             "search_tags": ["RDM","process","Processing data"],
             "phase": ["Process"],
-            "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/processing",
             "description": "Best practice guidance regarding the phase of processing data.",
             "provider":  ["RDMkit"],
@@ -365,7 +337,6 @@
             "type": ["Web page"],
             "search_tags": ["RDMkit","quality","Data quality"],
             "phase": ["Collect", "Process"],
-            "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/data_quality",
             "description": "Best practice guidance regarding the task of data quality management.",
             "provider":  ["RDMkit"],
@@ -379,7 +350,6 @@
             "search_tags": ["OpenRefine training","cleaning","material","tool"],
             "phase": ["Collect", "Process", "Analyse"],
             "topic": ["Metadata"],
-            "level": ["Basic"],
             "url": "https://nbisweden.github.io/module-openrefine-dm-practices/",
             "description": "Training material regarding OpenRefine, a tool for cleaning tabular data.",
             "provider":  ["NBIS"],
@@ -392,7 +362,6 @@
             "type": ["Web page"],
             "search_tags": ["RDMkit","DMP","data management plan","Data Management Planning"],
             "phase": ["Plan"],
-            "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/planning",
             "description": "Best practice guidance regarding the phase of data management planning.",
             "provider":  ["RDMkit"],
@@ -406,7 +375,6 @@
             "search_tags": ["DMP","Data Management Plans","material"],
             "phase": ["Plan"],
             "topic": ["Data management plan"],
-            "level": ["Basic"],
             "url": "https://nbisweden.github.io/module-dmp-dm-practices/",
             "description": "Training material regarding the what, why, and how of data management plans.",
             "provider":  ["NBIS"],
@@ -419,7 +387,6 @@
             "type": ["Web page"],
             "search_tags": ["RDMkit","collect","Collecting data"],
             "phase": ["Collect"],
-            "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/collecting",
             "description": "Best practice guidance regarding the phase of collecting data.",
             "provider":  ["RDMkit"],
@@ -433,7 +400,6 @@
             "search_tags": ["RDMkit","transfer","data transfer","Data transfer"],
             "phase": ["Collect"],
             "topic": ["Data transfer"],
-            "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/data_transfer.html",
             "description": "Best practice guidance regarding the task of transferring data.",
             "provider":  ["RDMkit"],
@@ -447,7 +413,6 @@
             "search_tags": ["Aspera CLI install instructions","data transfer"],
             "phase": ["Collect", "Share"],
             "topic": ["Data transfer"],
-            "level": ["Basic"],
             "url": "https://github.com/IBM/aspera-cli/#installation",
             "description": "Aspera client is a command-line transfer program that can be used for stable transfers of files e.g. from NAISS storage to ENA (European Nucleotide Archive) upload area when doing submission.",
             "provider":  ["IBM"]
@@ -460,7 +425,6 @@
             "search_tags": ["Rclone documentation","data transfer"],
             "phase": ["Share"],
             "topic": ["Data transfer"],
-            "level": ["Basic"],
             "url": "https://rclone.org/docs/",
             "description": "Rclone is a command-line program that can be used to transfer files across a wide range of protocols. This can be useful when you you are unable to use specialised submission tools or Aspera, for example when transfering files in bulk to SciLifeLab Data Repository over the FTPS protocol.",
             "provider":  ["RCLONE"]
@@ -472,8 +436,7 @@
             "type": ["Tool"],
             "search_tags": ["DSW","DMP","Data Stewardship Wizard (DSW)"],
             "phase": ["Plan"],
-            "topic": ["Data management plan"],            
-            "level": ["Basic"],
+            "topic": ["Data management plan"], 
             "url": "https://dsw.scilifelab.se",
             "description": "Tool to create data management plans complying with requirements from Swedish research council while giving Life Science specific guidance.",
             "provider": ["SciLifeLab"]
@@ -485,8 +448,7 @@
             "type": ["Tool"],
             "search_tags": ["DMPOnline","DMP"],
             "phase": ["Plan"],
-            "topic": ["Data management plan"],            
-            "level": ["Basic"],
+            "topic": ["Data management plan"], 
             "url": "https://dmponline.dcc.ac.uk/",
             "description": "DMPonline is the Digital Curation Centre's data management planning tool. It provides tailored guidance and example answers to help researchers develop data management plans.",
             "provider": ["DCC"]
@@ -498,8 +460,7 @@
             "type": ["Web page"],
             "search_tags": ["17 Example DMPs hosted in DSW"],
             "phase": ["Plan"],
-            "topic": ["Data management plan"],            
-            "level": ["Basic"],
+            "topic": ["Data management plan"],   
             "url": "https://elixiruknode.org/data-management-planning-in-life-sciences-research/#17-example-dmps-hosted-in-dsw",
             "description": "17 DMP examples using the templates created in DSW were written and reviewed by data stewards. They cover diverse data types and organisms, using a template aligned with the BBSRC Data Sharing Policy. All are hosted on the UK national DSW instance and available on Zenodo.",
             "provider": ["ELIXIR-UK"]
@@ -512,7 +473,6 @@
             "search_tags": ["course", "material", "Introduction to data management practices"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share"],
             "topic": ["README files", "Data management plan"], 
-            "level": ["Basic"],
             "url": "https://nbis.se/training/introduction-to-data-management-practices",
             "description": "This course will introduce important aspects of Research Data Management (concept of FAIR, Metadata standards, Data Organisation, Data Publication, Data Management Planning, Data Refinement (Open Refine), Data Versioning, Programming/Analysis in R) through a series of lectures and hands-on computer exercises. The course is intended for researchers that want to take the first steps towards a more systematic and reproducible approach to analysing and managing research data. All lessons are available online as self-study materials",
             "provider": ["NBIS"],
@@ -525,8 +485,7 @@
             "type": ["Material"],
             "search_tags": ["SND","Swedish National Data Service","BAS","material","legal","DMP","metadata","BAS Online"],
             "phase": ["Plan", "Collect", "Analyse"],
-            "topic": ["Metadata"], 
-            "level": ["Basic"],
+            "topic": ["Metadata"],
             "url": "https://snd.gu.se/sv/hantera-data/utbildning/bas-online",
             "description": "BAS Online is divided into six sessions consisting of short video presentations, exercises and other material such as texts and linked resources. The course is primarily aimed at those who work at a research data support unit at a Swedish university, and covers topics such as Data management and data management plans, Metadata, Metadata standards, Documentation of research data, Law and research data.",
             "provider": ["SND"]
@@ -539,7 +498,6 @@
             "search_tags": ["Uppsala University","UU","DMP","research data","General information about research data"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse"],
             "topic":["Data management plan", "Research involving human data"], 
-            "level": ["Basic"],
             "url": "https://www.uu.se/en/staff/gateway/research/research-handbook/research-data",
             "description": "General information about handling data - DMP, documentation & metadata, FAIR, organizing files & folders, versioning, ethical & legal aspects, open data, archiving. Information is mostly on a generic level, not discipline specific. Lectures in Phd courses on ethics and scientific writing. Target audience is researchers and doctoral students at UU.",
             "provider": ["UU"]
@@ -552,7 +510,6 @@
             "search_tags": ["KTH","course","open science","data management","Online course on Open science and data management"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse"],
             "topic": ["Data management plan", "Open Science"],
-            "level": ["Basic"],
             "url": "https://canvas.kth.se/courses/29371",
             "description": "Online course available at all time with reflection and discussion material covering the topics of basic data management, DMP, management of open versus confidential data, basic legal and information security, sharing, publishing, and archiving. Target audience is PhD students and Researchers, with additional sections with material for leaders of larger collaborative projects (samverkansledare).",
             "provider":  ["KTH"],
@@ -566,7 +523,6 @@
             "search_tags": ["DMEG","FAIR", "social science","CESSDA","Data Management Expert Guide (DMEG)"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse"],
             "topic": ["Metadata"],
-            "level": ["Basic"],
             "url": "https://dmeg.cessda.eu/Data-Management-Expert-Guide",
             "description": "The DMEG is designed by European experts to help social science researchers make their research data Findable, Accessible, Interoperable and Reusable (FAIR).",
             "provider": ["CESSDA ERIC"],
@@ -579,7 +535,6 @@
             "type": ["Web page"],
             "search_tags": ["AIDA","policy", "share","AIDA Data Sharing Policy"],
             "phase": ["Plan", "Share"],
-            "level": ["Basic"],
             "url": "https://datahub.aida.scilifelab.se/sharing/",
             "description": "The AIDA (Analytical Imaging Diagnostics Arena) Data Sharing Policy is a comprehensive resource developed by ~50 AIDA partners in healthcare, industry, and academia, which includes legal analyses, best practices, and practical instructions for how to carry out ethically and legally correct sharing of sensitive personal data such as medical images in Sweden and similar countries.",
             "provider": ["AIDA"]
@@ -592,7 +547,6 @@
             "search_tags": ["AIDA Data Hub", "share","AIDA Data Sharing Policy", "human data"],
             "phase": ["Share","Reuse"],
             "topic": ["Sharing human data"],
-            "level": ["Basic"],
             "url": "https://datahub.aida.scilifelab.se/",
             "description": "The AIDA (Analytical Imaging Diagnostics Arena) Data Hub provides Data Sharing, Policy Support, and Services for researchers in Swedish medical imaging AI, and facilitates sharing of FAIR medical imaging research data for Open Science.",
             "provider": ["AIDA"]
@@ -604,7 +558,6 @@
             "type": ["Tool"],
             "search_tags": ["storage","resources","infrastructure","Storage resources available for researchers in Sweden"],
             "phase": ["Collect", "Analyse", "Preserve"],
-            "level": ["Basic"],
             "url": "https://data.scilifelab.se/resources/storage/",
             "description": "Information page regarding storage resources available to researchers in Sweden, and how to apply for access.",
             "provider":  ["SciLifeLab"]
@@ -616,7 +569,6 @@
             "type": ["Tool"],
             "search_tags": ["compute","resources","infrastructure","Compute resources available for researchers in Sweden"],
             "phase": ["Analyse"],
-            "level": ["Basic"],
             "url": "https://data.scilifelab.se/resources/e-infrastructure/",
             "description": "Information page regarding compute resources related to hosting, simulation, and analysis that are available to researchers in Sweden. It contains information about the services the resources provide, and how to apply for access to them.",
             "provider":  ["SciLifeLab"]         
@@ -628,7 +580,6 @@
             "type": ["Tool"],
             "search_tags": ["data source","repository","Data sources for data-driven life science"],
             "phase": ["Reuse"],
-            "level": ["Basic"],
             "url": "https://data.scilifelab.se/guidance/data_sources/",
             "description": "A list of data sources available for data-driven life science in Sweden.",
             "provider":  ["SciLifeLab"]         
@@ -640,7 +591,6 @@
             "type": ["Tool"],
             "search_tags": ["compute","resources","infrastructure","Overview of available national and local computational resources"],
             "phase": ["Analyse"],
-            "level": ["Basic"],
             "url": "https://nbis.se/services/computational-resources",
             "description": "Information page regarding computational resources, giving an overview over available NAISS systems, other national systems, as well as local (university level) systems.",
             "provider":  ["NBIS SCoRe"]         
@@ -653,7 +603,6 @@
             "search_tags": ["RDMkit","organisation", "organization", "data organisation","Metadata", "README files","Data organisation"],
             "phase": ["Plan", "Collect", "Analyse", "Preserve"],
             "topic": ["Metadata"],
-            "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/data_organisation",
             "description": "Best practice guidance regarding the task of organising data, in terms of naming files, file versioning, folder structure and file formats.",
             "provider":  ["RDMkit"],
@@ -667,7 +616,6 @@
             "search_tags": ["RDMkit","Bioimaging data","Bioimaging data", "Collect", "Collection", "Metadata"],
             "phase": ["Share"],
             "topic": ["Metadata"],
-            "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/bioimaging_data",
             "description": "Best practice guidance regarding the domain of bioimaging data.",
             "provider":  ["RDMkit"],
@@ -680,7 +628,6 @@
             "type": ["Web page"],
             "search_tags": ["RDMkit","Process","processing","Metadata","Proteomics data"],
             "phase": ["Share"],
-            "level": ["Basic"],
             "url": "https://rdmkit.elixir-europe.org/proteomics",
             "description": "Best practice guidance regarding the the domain of proteomics data.",
             "provider":  ["RDMkit"],
@@ -694,7 +641,6 @@
             "search_tags": ["NBIS","share","submission","documentation","publication","SOP","ENA","EBI","BioStudies","Submission documentation"],
             "phase": ["Share"],
             "topic": ["ENA submission tutorial"],
-            "level": ["Basic"],
             "url": "https://github.com/NBISweden/data-submission-documentation",
             "description": "Documentation on data submissions done by data stewards into public repositories, including standard operating procedures for submissions to ENA.",
             "provider": ["NBIS"]
@@ -707,7 +653,6 @@
             "search_tags": ["Data with personal information in DORIS", "Swedish National Data Service", "SND"],
             "phase": [],
             "topic": ["Sharing human data"],
-            "level": ["Basic"],
             "url": "https://snd.se/en/doris-researchers/data-personal-information-doris",
             "description": "Swedish National Data Service (SND) guidance on sharing data with personal information in DORIS.",
             "provider": ["SND"]
@@ -719,7 +664,6 @@
             "type": ["Tool"],
             "search_tags": ["The Swedish Reference Genome Portal", "reuse", "data catalogue","repository"],
             "phase": ["Share", "Reuse"],
-            "level": ["Basic"],
             "url": "https://genomes.scilifelab.se",
             "description": "The Swedish Reference Genome Portal is a free national data service for aggregating, discovering, and visualising non-human eukaryotic genome assemblies and genome annotations (co-)produced by researchers affiliated with a Swedish institution.",
             "provider": ["SciLifeLab"]
@@ -732,7 +676,6 @@
             "search_tags": ["OpenRefine", "clean"],
             "phase": ["Collect", "Process", "Analyse"],
             "topic": ["Metadata"],
-            "level": ["Basic"],
             "url": "https://openrefine.org/",
             "description": "OpenRefine is a powerful free, open source tool for working with messy data: cleaning it; transforming it from one format into another; and extending it with web services and external data. There is training material available at https://nbisweden.github.io/module-openrefine-dm-practices/.",
             "provider": ["OpenRefine"]
@@ -744,7 +687,6 @@
             "type": ["Tool"],
             "search_tags": ["protocols.io", "collaborate", "protocol", "reproducible"],
             "phase": ["Process", "Analyse", "Share"],
-            "level": ["Basic"],
             "url": "https://www.protocols.io/",
             "description": "A secure platform for developing and sharing reproducible methods.",
             "provider": ["protocols.io"]
@@ -756,7 +698,6 @@
             "type": ["Tool"],
             "search_tags": ["SciLifeLab Protocols","protocols.io", "collaborate", "protocol", "reproducible"],
             "phase": ["Process", "Analyse", "Share"],
-            "level": ["Basic"],
             "url": "https://www.scilifelab.se/data-ai/protocols/",
             "description": "The SciLifeLab Protocols, powered by protocols.io premium licence provides life science researchers in Sweden with enhanced tools for creating, sharing, and publishing research methods and protocols.",
             "provider": ["SciLifeLab"]
@@ -768,7 +709,6 @@
             "type": ["Web page"],
             "search_tags": ["idtk","Data analysis", "infectious diseases toolkit", "data analysis"],
             "phase": ["Analyse"],
-            "level": ["Basic"],
             "url": "https://www.infectious-diseases-toolkit.org/data-analysis/",
             "description": "Best practice guidance regarding the task of analyising data, in terms of employing workflows tailored to different types of data, such as epidemiological, clinical, or molecular data.",
             "provider":  ["Infectious Diseases Toolkit (IDTk)"],
@@ -782,7 +722,6 @@
             "search_tags": ["idtk","Data description", "infectious diseases toolkit", "data description"],
             "phase": ["Collect"],
             "topic": ["Metadata"],
-            "level": ["Basic"],
             "url": "https://www.infectious-diseases-toolkit.org/data-description/",
             "description": "Best practice guidance regarding the task of describing data, in terms of finding and adhering to relevant standards for (meta)data and documentation.",
             "provider":  ["Infectious Diseases Toolkit (IDTk)"],
@@ -795,7 +734,6 @@
             "type": ["Web page"],
             "search_tags": ["idtk","Quality control", "infectious diseases toolkit", "quality control"],
             "phase": ["Collect", "Process"],
-            "level": ["Basic"],
             "url": "https://www.infectious-diseases-toolkit.org/quality-control/",
             "description": "Best practice guidance regarding the task of quality control, in terms of ensuring the accuracy and reliability of data collected and analysed.",
             "provider":  ["Infectious Diseases Toolkit (IDTk)"],
@@ -809,7 +747,6 @@
             "search_tags": ["idtk","Ethical, Legal, and Social Issues", "ethical", "legal", "social issues", "ELSI"],
             "phase": [],
             "topic": ["Research involving human data"],
-            "level": ["Basic"],
             "url": "https://www.infectious-diseases-toolkit.org/ethical-legal-and-social-issues/",
             "description": "Guidance on how to comprehensively assess the ethical, legal, and social implication (ELSI) aspects of your work throughout all stages of data management.",
             "provider":  ["Infectious Diseases Toolkit (IDTk)"],
@@ -822,7 +759,6 @@
             "type": ["Tool"],
             "search_tags": ["Researchdata.se","SND","Swedish National Data Service", "reuse", "data catalogue"],
             "phase": ["Reuse"],
-            "level": ["Basic"],
             "url": "https://researchdata.se",
             "description": "Researchdata.se is a national web portal where you can find, share, and reuse research data from a wide range of disciplines. The portal focuses on searchability and access to data, making it easy to navigate thousands of datasets to find what you are looking for.",
             "provider":  ["SND"],
@@ -836,7 +772,6 @@
             "search_tags": ["DORIS","SND","Swedish National Data Service"],
             "phase": ["Share", "Reuse"],
             "topic": ["Sharing human data"],
-            "level": ["Basic"],
             "url": "https://doris.snd.se",
             "description": "The Swedish National Data Service's Data Organisation and Information System (DORIS) is a tool for describing and making research data and metadata searchable in the national research data portal Researchdata.se. DORIS can be used throughout the process, from describing and publishing research data, to reusing or reviewing them.",
             "provider": ["SND"]
@@ -849,7 +784,6 @@
             "search_tags": ["Open Software Checklist", "Open Science"],
             "phase": [],
             "topic": ["Sharing code and workflows", "Open Science"],
-            "level": ["Basic"],
             "url": "https://doi.org/10.17044/scilifelab.29086775",
             "description": "This checklist provides essential steps for sharing and citing your research software. It covers everything from planning your software to ensuring others can find, understand, reuse, and contribute to your software, and how to ensure your work is credited.",
             "provider": ["SciLifeLab"]
@@ -862,7 +796,6 @@
             "search_tags": ["Open Access Checklist", "Open Science"],
             "phase": [],
             "topic": ["Open Science"],
-            "level": ["Basic"],
             "url": "https://doi.org/10.17044/scilifelab.29086706",
             "description": "This checklist is designed to guide you in making informed decisions about publishing your research Open Access. It covers key steps for choosing the right Open Access route, applying appropriate licenses, and ensuring compliance with institutional and funder policies.",
             "provider": ["SciLifeLab"]
@@ -875,7 +808,6 @@
             "search_tags": ["Programming Formalisms: Turning scripters into computer scientists","Programming Formalisms", "script", "code"],
             "phase": [],
             "topic": ["Sharing code and workflows"],
-            "level": ["Basic"],
             "url": "https://uppmax.github.io/programming_formalisms/",
             "description": "This course aims to give life scientists, bioinformaticians, and other scientists with some experience in programming and scripting an understanding of the underlying principles of software development, design, and programming.",
             "provider": ["NBIS"]
@@ -888,7 +820,6 @@
             "search_tags": ["Python Code Style Conventions", "Carpentries"],
             "phase": [],
             "topic": ["Sharing code and workflows"],
-            "level": ["Basic"],
             "url": "https://carpentries-incubator.github.io/python-intermediate-development/15-coding-conventions.html",
             "description": "Understand the benefits of following community coding conventions. This is a part of the lesson 'Intermediate Research Software Development'.",
             "provider": ["The Carpentries"],
@@ -902,7 +833,6 @@
             "search_tags": ["Verifying Code Style Using Linters", "Carpentries", "Python"],
             "phase": [],
             "topic": ["Sharing code and workflows"],
-            "level": ["Basic"],
             "url": "https://carpentries-incubator.github.io/python-intermediate-development/16-verifying-code-style-linters.html",
             "description": "Use code linting tools to verify a program’s adherence to a Python coding style convention. This is a part of the lesson 'Intermediate Research Software Development'. ",
             "provider": ["The Carpentries"],
@@ -916,7 +846,6 @@
             "search_tags": ["Cookiecutter Data Science", "cookie cutter", "Python"],
             "phase": [],
             "topic": ["Sharing code and workflows"],
-            "level": ["Basic"],
             "url": "https://cookiecutter-data-science.drivendata.org",
             "description": "Cookiecutter Data Science (CCDS) is a tool for setting up a data science project template that incorporates best practices. ",
             "provider": ["DrivenData"],
@@ -930,7 +859,6 @@
             "search_tags": ["Cookiecutter for Computational Molecular Sciences Python Packages", "CMS", "cookie cutter"],
             "phase": [],
             "topic": ["Sharing code and workflows"],
-            "level": ["Basic"],
             "url": "https://github.com/MolSSI/cookiecutter-cms",
             "description": "A cookiecutter template for those interested in developing Computational Molecular Sciences (CMS) packages in Python.",
             "provider": ["Molecular Software Sciences Institute"],
@@ -944,7 +872,6 @@
             "search_tags": ["National Library of Sweden","Open Science", "National guidelines for open science", "policy"],
             "phase": ["Share", "Reuse"],
             "topic": ["Sharing code and workflows", "What is research data management", "Open Science"],
-            "level": ["Basic"],
             "url": "https://openscience.se/en/national-guidelines-for-open-science",
             "description": "The national guidelines for open science provide a common direction for how openness can be applied and further developed within the Swedish research system. ",
             "provider":  ["National Library of Sweden"]
@@ -957,7 +884,6 @@
             "search_tags": ["Research Software Quality Kit", "RSQKit", "EVERSE", "Software"],
             "phase": [],
             "topic": ["Sharing code and workflows"],
-            "level": ["Basic"],
             "url": "https://everse.software/RSQKit/",
             "description": "Research Software Quality Toolkit (RSQKit) lists curated best practices in developing, collaborating on and improving the quality of research software. It is intended for use by researchers who code, research software engineers, those managing and procuring funding for projects with a large research software component, those running research infrastructures involving software and those developing research software related policy at organisations and in projects.",
             "provider":  ["European Virtual Institute for Research Software Excellence (EVERSE)"]
@@ -969,7 +895,6 @@
             "type": ["Web page"],
             "search_tags": ["Long-term preservation", "Researchdata.se","SND","Swedish National Data Service"],
             "phase": ["Preserve"],
-            "level": ["Basic"],
             "url": "https://researchdata.se/en/manage-data/describe-share-and-preserve-data/what-should-i-share/long-term-preservation",
             "description": "Swedish National Data Service (SND) guidance on Long-term preservation of data.",
             "provider":  ["SND"],
@@ -983,7 +908,6 @@
             "search_tags": ["Research principal", "Researchdata.se","SND","Swedish National Data Service"],
             "phase": [],
             "topic": ["Data management plan", "Research involving human data"],
-            "level": ["Basic"],
             "url": "https://snd.se/en/research-data-support/introduction-legal-aspects-research/research-principal",
             "description": "Swedish National Data Service (SND) guidance on the concept of research principal.",
             "provider":  ["SND"],
@@ -995,7 +919,6 @@
             "type": ["Web page"],
             "search_tags": ["Describe, share, and preserve data", "Researchdata.se","SND","Swedish National Data Service"],
             "phase": ["Preserve", "Share"],
-            "level": ["Basic"],
             "url": "https://researchdata.se/en/manage-data/describe-share-and-preserve-data",
             "description": "Swedish National Data Service (SND) guidance on describing, shareing and preservation of data.",
             "provider":  ["SND"],
@@ -1009,7 +932,6 @@
             "search_tags": ["Scientific code", "Researchdata.se","SND","Swedish National Data Service"],
             "phase": [],
             "topic": ["Sharing code and workflows"],
-            "level": ["Basic"],
             "url": "https://researchdata.se/en/manage-data/describe-share-and-preserve-data/scientific-code",
             "description": "Swedish National Data Service (SND) guidance on scientific code.",
             "provider":  ["SND"],
@@ -1023,7 +945,6 @@
             "search_tags": ["Data management plans", "DMP", "Researchdata.se","SND","Swedish National Data Service"],
             "phase": ["Plan"],
             "topic": ["Data management plan"],
-            "level": ["Basic"],
             "url": "https://researchdata.se/en/manage-data/organize-data/data-management-plan",
             "description": "Swedish National Data Service (SND) guidance on data management plans",
             "provider":  ["SND"],
@@ -1037,7 +958,6 @@
             "search_tags": ["material","reuse","Rayner, D. (2025). Open Science in the Swedish context - Data reuse."],
             "phase": ["Reuse"],
             "topic": ["Open Science"],
-            "level": ["Basic"],
             "url": "https://scilifelab-training.github.io/open-science/2505/Session3.html",
             "description": "Training material regarding data reuse, given by David Rayner (training coordinator at SND) during 'Open Science in the Swedish context' workshop held during May 2025. The material includes slides with speaker notes as well as exercises, covering the topic of finding, accessing and evaluating research data for reuse. DOI: 10.17044/scilifelab.29348669.v2",
             "provider":  ["SND"],
@@ -1050,7 +970,6 @@
             "type": ["Web page"],
             "search_tags": ["User documentation on computational resources", "SCoRe", "Support for Computational Resources","compute"],
             "phase": ["Process", "Analyse"],
-            "level": ["Basic"],
             "url": "https://nbisweden.github.io/SCoRe_user_doc/resources/",
             "description": "Support for Computational Resources (SCoRe) provides user documentation on computer-related things such as High Performance Computational (HPC) clusters and storage, courses given on the topic, efficiency when using, etc. ",
             "provider":  ["NBIS SCoRe"]
@@ -1062,7 +981,6 @@
             "type": ["Web page"],
             "search_tags": ["A Quick Guide to Organizing Computational Biology Projects", "organize","organise"],
             "phase": ["Collect", "Analyse"],
-            "level": ["Basic"],
             "url": "https://doi.org/10.1371/journal.pcbi.1000424",
             "description": "The author describes a good strategy to organizing files and directories and documenting progress. The guiding principle is that someone unfamiliar with your project should be able to look at your computer files and understand in detail what you did and why.",
             "provider":  ["William Stafford Noble"]            
@@ -1074,7 +992,6 @@
             "type": ["Tool"],
             "search_tags": ["SciLifeLab services", "infrastructure", "SLL"],
             "phase": ["Plan", "Collect"],
-            "level": ["Basic"],
             "url": "https://www.scilifelab.se/infrastructure/",
             "description": "At SciLifeLab, we provide access to a range of pioneering technologies in molecular biosciences. Together, our capabilities enable the scientific endeavours of users from academia, industry and health care. Dedicated staff scientists can offer support throughout the experimental process, from study design to data handling.",
             "provider":  ["SciLifeLab"]
@@ -1086,7 +1003,6 @@
             "type": ["Tool"],
             "search_tags": ["National Academic Infrastructure for Supercomputing in Sweden (NAISS)", "compute", "HPC","high performance compute", "cluster", "infrastructure"],
             "phase": ["Analyse"],
-            "level": ["Basic"],
             "url": "https://www.naiss.se",
             "description": "The National Academic Infrastructure for Supercomputing in Sweden (NAISS) maintains advanced computing, artificial intelligence, and data services that support research ranging from fundamental research in mathematics or physics to climate modelling, the green transition, life science and economics.",
             "provider":  ["NAISS"]
@@ -1098,7 +1014,6 @@
             "type": ["Tool"],
             "search_tags": ["SciLifeLab FAIR storage", "storage"],
             "phase": ["Collect", "Preserve"],
-            "level": ["Basic"],
             "url": "https://data.scilifelab.se/services/fairstorage/",
             "description": "SciLifeLab offers storage resources to support data-driven life science, they are collectively referred to as 'SciLifeLab FAIR Storage'. SciLifeLab FAIR Storage resources are intended to support data sharing in accordance with the FAIR principles. They are available for any project that advances knowledge and discovery within the field of Swedish data-driven life science.",
             "provider":  ["SciLifeLab"]
@@ -1110,7 +1025,6 @@
             "type": ["Tool"],
             "search_tags": ["Open Researcher and Contributor ID", "ORCID", "identifier"],
             "phase": ["Plan"],
-            "level": ["Basic"],
             "url": "https://orcid.org/",
             "description": "ORCID is a free, unique, persistent identifier (PID) for individuals to use as they engage in research, scholarship, and innovation activities.",
             "provider":  ["ORCID"]
@@ -1122,7 +1036,6 @@
             "type": ["Tool"],
             "search_tags": ["NAISS rounds for compute and storage resources"],
             "phase": ["Collect", "Analyse"],
-            "level": ["Basic"],
             "url": "https://supr.naiss.se/round/naiss/",
             "description": "Compute and storage resources are made available through NAISS rounds. Application for resources can be made for different sizes.",
             "provider":  ["NAISS"]
@@ -1134,7 +1047,6 @@
             "type": ["Tool"],
             "search_tags": ["Swedish Pathogens Portal list of available data", "reuse", "data catalogue","repository"],
             "phase": ["Reuse"],
-            "level": ["Basic"],
             "url": "https://pathogens.se/datasets/all/",
             "description": "Visit the Swedish Pathogens Portal in order to find publications about COVID-19/SARS-CoV-2 that involve at least one author affiliated with a Swedish research institution.",
             "provider":  ["Swedish Pathogens Portal"]
@@ -1146,7 +1058,6 @@
             "type": ["Tool"],
             "search_tags": ["Registry of Research Data Repositories", "reuse", "data catalogue"],
             "phase": ["Share", "Reuse"],
-            "level": ["Basic"],
             "url": "https://www.re3data.org",
             "description": "Search in the Registry of Research Data Repositories (re3data) to find discipline-specific repositories for your field.",
             "provider":  ["re3data"]
@@ -1158,7 +1069,6 @@
             "type": ["Tool"],
             "search_tags": ["Deposition Databases for Biomolecular Data","ELIXIR Deposition Database list","share","repository"],
             "phase": ["Share"],
-            "level": ["Basic"],
             "url": "https://elixir-europe.org/platforms/data/elixir-deposition-databases",
             "description": "ELIXIR has compiled a list of resources that it recommends for the deposition of experimental data.",
             "provider":  ["ELIXIR"]
@@ -1171,7 +1081,6 @@
             "search_tags": ["FAIRsharing", "repository", "metadata", "standards"],
             "phase": ["Share"],
             "topic":["Metadata"],
-            "level": ["Basic"],
             "url": "https://fairsharing.org/",
             "description": "FAIRsharing is a registry that collects metadata standards, databases and policies. It serves as a curated, informative and educational resource on data and metadata standards, inter-related to databases and data policies.",
             "provider":  ["FAIRsharing"]
@@ -1183,7 +1092,6 @@
             "type": ["Tool"],
             "search_tags": ["KI Data Repository","repository","storage","share","institutional repository"],
             "phase": ["Share"],
-            "level": ["Basic"],
             "url": "https://kib.ki.se/en/publish-analyse/publish-and-share-research-data/ki-data-repository",
             "description": "KI Data Repository is a data repository where Karolinska Institutet's (KI's) researchers can store, publish and share data.",
             "provider":  ["KI"]
@@ -1195,7 +1103,6 @@
             "type": ["Tool"],
             "search_tags": ["KTH Data Repository","repository","storage","share","institutional repository"],
             "phase": ["Share", "Reuse"],
-            "level": ["Basic"],
             "url": "https://datarepository.kth.se",
             "description": "The KTH Data Repository is a general data repository offered as a service from KTH Royal Institute of Technology. The service offers a solution for depositing and preparing documentation and static versions of data and source code for your research project. Deposited data can be kept for internal archive or published as open data.",
             "provider":  ["KTH"]
@@ -1207,7 +1114,6 @@
             "type": ["Tool"],
             "search_tags": ["KTH Zenodo community","repository","storage","share","institutional repository"],
             "phase": ["Share", "Reuse"],
-            "level": ["Basic"],
             "url": "https://zenodo.org/communities/kth/records?q=&l=list&p=1&s=10&sort=newest",
             "description": "The KTH Zenodo community is the official community for all researcher's at KTH Royal Institute of Technology who wants to deposit open research output via Zenodo, get support on the description and findability of data by the research data team and obtain a DOI for that public research output.",
             "provider":  ["KTH"]
@@ -1220,7 +1126,6 @@
             "search_tags": ["SciLifeLab Data Repository","repository","share","institutional repository"],
             "phase": ["Share", "Reuse"],
             "topic": ["Sharing code and workflows"],
-            "level": ["Basic"],
             "url": "https://figshare.scilifelab.se",
             "description": "The SciLifeLab Data Repository, powered by Figshare and supported by SciLifeLab and the Knut and Alice Wallenberg foundation through the Data-Driven Life Science (DDLS) program, is a repository for publishing any kind of research-related data, e.g. documents, figures, or presentations. Figshare is an open data repository used by researchers in numerous disciplines. Through an agreement with Figshare, SciLifeLab offers researchers and units the opportunity to upload and publish their research data through a dedicated portal.",
             "provider":  ["SciLifeLab"]
@@ -1232,7 +1137,6 @@
             "type": ["Tool"],
             "search_tags": ["Stockholm University Figshare","repository","share","institutional repository"],
             "phase": ["Share", "Reuse"],
-            "level": ["Basic"],
             "url": "https://su.figshare.com/",
             "description": "Stockholm University Figshare  is a repository for publishing any kind of research-related data, e.g. documents, figures, or presentations. Figshare is an open data repository used by researchers in numerous disciplines. Through an agreement with Figshare, Stockholm University offers researchers the opportunity to upload and publish their research data through a dedicated portal.",
             "provider":  ["SU"]
@@ -1244,7 +1148,6 @@
             "type": ["Web page"],
             "search_tags": ["Guide for submission of metabarcoding data to ENA", "SBDI", "submit", "biodiversity"],
             "phase": ["Share"],
-            "level": ["Basic"],
             "url": "https://biodiversitydata-se.github.io/mol-data/index.html",
             "description": "This is a guide on how to submit sequence reads from environmental samples to ENA, provided by the Swedish Biodiversity Data Infrastructure (SBDI). The guide describes interactive submission via the Webin portal, with pointers on issues specific to submission of metabarcoding data, as well as on more general matters that may confuse first-time contributors.",
             "provider":  ["SBDI"]
@@ -1256,7 +1159,6 @@
             "type": ["Web page"],
             "search_tags": ["European Nucleotide Archive (ENA) user documentation", "submit"],
             "phase": ["Share"],
-            "level": ["Basic"],
             "url": "https://ena-docs.readthedocs.io/en/latest/",
             "description": "Guidelines for submission and retrieval for the European Nucleotide Archive.",
             "provider":  ["EBI"]
@@ -1268,7 +1170,6 @@
             "type": ["Tool"],
             "search_tags": ["Figshare","general-purpose","repository"],
             "phase": ["Share", "Reuse"],
-            "level": ["Basic"],
             "url": "https://figshare.com/",
             "description": "Figshare is an open data, general-purpose, repository used by researchers in numerous disciplines. It can be used for sharing basically any kind of data, but also for just describing data stored elsewhere.",
             "provider":  ["Figshare"]
@@ -1281,7 +1182,6 @@
             "search_tags": ["Zenodo","general-purpose","repository"],
             "phase": ["Share", "Reuse"],
             "topic": ["Sharing code and workflows"],
-            "level": ["Basic"],
             "url": "https://zenodo.org/",
             "description": "Zenodo is an open data, general-purpose, repository operated by CERN. It can be used for sharing basically any kind of data, but also for just describing data stored elsewhere.",
             "provider":  ["Zenodo"]
@@ -1293,7 +1193,6 @@
             "type": ["Tool"],
             "search_tags": ["EUDAT", "B2SHARE","general-purpose","repository","storage"],
             "phase": ["Collect", "Share"],
-            "level": ["Basic"],
             "url": "https://eudat.eu/service-catalogue/b2share-0",
             "description": "B2SHARE is a user-friendly, reliable and trustworthy way for researchers, scientific communities and citizen scientists to store, publish and share research data in a FAIR way.",
             "provider":  ["EUDAT"]
@@ -1306,7 +1205,6 @@
             "search_tags": ["The FAIR Data Principles", "FORCE11"],
             "phase": [],
             "topic": ["FAIR principles"],
-            "level": ["Basic"],
             "url": "https://force11.org/info/the-fair-data-principles/",
             "description": "FORCE11 describe FAIR - a set of guiding principles to make data Findable, Accessible, Interoperable, and Reusable. The term FAIR was launched at a Lorentz workshop in 2014, the resulting FAIR principles were published in 2016.",
             "provider":  ["FORCE11"]
@@ -1319,7 +1217,6 @@
             "search_tags": ["How to make a data dictionary","metadata", "OSF"],
             "phase": [],
             "topic": ["Metadata"],
-            "level": ["Basic"],
             "url": "https://help.osf.io/article/217-how-to-make-a-data-dictionary",
             "description": "Open Science Framework (OSF) support on how to make a data dictionary. A data dictionary is critical to making your research more reproducible because it allows others to understand your data. The purpose of a data dictionary is to explain what all the variable names and values in your spreadsheet really mean.",
             "provider":  ["OSF"]
@@ -1332,7 +1229,6 @@
             "search_tags": ["Ontology Lookup Service (OLS)","metadata"],
             "phase": [],
             "topic": ["Metadata"],
-            "level": ["Basic"],
             "url": "https://www.ebi.ac.uk/ols/",
             "description": "The Ontology Lookup Service (OLS) is a repository for biomedical ontologies that aims to provide a single point of access to the latest ontology versions. You can browse the ontologies through the website as well as programmatically via the OLS API. OLS is developed and maintained by the Samples, Phenotypes and Ontologies Team (SPOT) at EMBL-EBI.",
             "provider":  ["EBI"]
@@ -1345,7 +1241,6 @@
             "search_tags": ["Open Biological and Biomedical Ontology Foundry","OBO Foundry","metadata"],
             "phase": [],
             "topic": ["Metadata"],
-            "level": ["Basic"],
             "url": "https://obofoundry.org/",
             "description": "The mission of the OBO Foundry is to develop a family of interoperable ontologies that are both logically well-formed and scientifically accurate.",
             "provider":  ["OBO Foundry"]
@@ -1358,7 +1253,6 @@
             "search_tags": ["ZOOMA ontology annotation","metadata"],
             "phase": [],
             "topic": ["Metadata"],
-            "level": ["Basic"],
             "url": "https://www.ebi.ac.uk/spot/zooma/",
             "description": " ZOOMA is a service to assist in mapping data to ontologies in OLS.",
             "provider":  ["EBI"]
@@ -1371,7 +1265,6 @@
             "search_tags": ["Ontobee","metadata","ontology"],
             "phase": [],
             "topic": ["Metadata"],
-            "level": ["Basic"],
             "url": "https://ontobee.org/",
             "description": "A linked data server designed for ontologies. Ontobee is aimed to facilitate ontology data sharing, visualization, query, integration, and analysis. Ontobee dynamically dereferences and presents individual ontology term URIs to (i) HTML web pages for user-friendly web browsing and navigation, and to (ii) RDF source code for Semantic Web applications.",
             "provider":  ["Ontobee"]
@@ -1384,7 +1277,6 @@
             "search_tags": ["Data Protection Impact Assessment tool", "DPIA"],
             "phase": [],
             "topic": ["Research involving human data"],
-            "level": ["Basic"],
             "url": "https://www.cnil.fr/en/open-source-pia-software-helps-carry-out-data-protection-impact-assessment",
             "description": "The PIA (Protection Impact Assessment) software aims to help data controllers build and demonstrate compliance to the GDPR. The tool is available in French and in English. It facilitates carrying out a data protection impact assessment.",
             "provider":  ["CNIL"]
@@ -1397,7 +1289,6 @@
             "search_tags": ["Bianca user guide", "human data"],
             "phase": ["Analyse"],
             "topic": ["Sharing human data","Research involving human data"],
-            "level": ["Basic"],
             "url": "https://docs.uppmax.uu.se/cluster_guides/bianca/",
             "description": "Bianca is one of the UPPMAX clusters, suitable for working with sensitive data.",
             "provider":  ["UPPMAX"]
@@ -1410,7 +1301,6 @@
             "search_tags": ["Good research practice", "ethical"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse"],
             "topic": ["What is research data management"],
-            "level": ["Basic"],
             "url": "https://www.vr.se/english/mandates/ethics/good-research-practice---new-edition.html",
             "description": "Good Research Practice provides orientation in the ethical principles and regulations that are important for research, and clarifies the responsibility that different actors have. It also provides guidance for reflection on ethics throughout the research process - from planning to implementation and publication.",
             "provider":  ["Swedish Research Council"]  
@@ -1423,7 +1313,6 @@
             "search_tags": ["Recommendations for FAIR and open research data", "Open Science"],
             "phase": ["Plan", "Collect", "Process", "Analyse", "Preserve", "Share", "Reuse"],
             "topic": ["FAIR principles", "Open Science"],
-            "level": ["Basic"],
             "url": "https://www.vr.se/english/mandates/open-science/open-access-to-research-data/recommendations-for-fair-och-open-research-data.html",
             "description": "The Swedish Research Council's recommendations and guiding principles for making research data FAIR and openly accessible in Sweden.",
             "provider":  ["Swedish Research Council"]  
@@ -1435,7 +1324,6 @@
             "type": ["Web page"],
             "search_tags": ["SciLifeLab Precision Medicine Portal"],
             "phase": ["Reuse"],
-            "level": ["Basic"],
             "url": "https://precision-medicine-portal.scilifelab.se",
             "description": "The SciLifeLab Precision Medicine Portal is a service for researchers in the precision medicine field, designed to support and accelerate data-driven life science research in Sweden.",
             "provider":  ["SciLifeLab"]
@@ -1448,7 +1336,6 @@
             "search_tags": ["Introduction to OMOP-CDM","PM portal","precision medicine portal","OMOP-CDM", "Observational Medical Outcomes Partnership Common Data Model"],
             "phase": [],
             "topic": ["Sharing human data"],
-            "level": ["Basic"],
             "url": "https://precision-medicine-portal.scilifelab.se/omop-cdm",
             "description": "The Observational Medical Outcomes Partnership Common Data Model (OMOP-CDM) is an open, community-driven standard designed to harmonise the structure and content of observational data, making it easier to compare and analyse across different sources.",
             "provider":  ["SciLifeLab"]
@@ -1461,7 +1348,6 @@
             "search_tags": ["OMOP Common Data Model","OMOP-CDM", "Observational Medical Outcomes Partnership Common Data Model", "OHDSI", "Observational Health Data Sciences and Informatics"],
             "phase": [],
             "topic": ["Sharing human data"],
-            "level": ["Basic"],
             "url": "https://ohdsi.github.io/CommonDataModel/",
             "description": "The Observational Medical Outcomes Partnership (OMOP) Common Data Model (CDM) is an open community data standard, designed to standardise the structure and content of observational data and to enable efficient analyses that can produce reliable evidence. This website is meant to serve as a resource describing the specification of the available versions of the Common Data Model.",
             "provider":  ["OHDSI"]
@@ -1474,7 +1360,6 @@
             "search_tags": ["National Library of Sweden","SND", "Swedish National Data Service", "SUHF","Association of Swedish Higher Education Institutions","Openscience.se","Open Science"],
             "phase": ["Share"],
             "topic": ["Sharing code and workflows", "What is research data management", "Open Science"],
-            "level": ["Basic"],
             "url": "https://openscience.se/en",
             "description": "This portal collects essential information about the key actors, resources, and documents that are central to Sweden’s transition to an open science system. ",
             "provider":  ["SUHF"]
@@ -1487,7 +1372,6 @@
             "search_tags": ["FAIR-Aware", "Open Science"],
             "phase": [],
             "topic": ["FAIR principles"],
-            "level": ["Basic"],
             "url": "https://fairaware.dans.knaw.nl",
             "description": "The FAIR-Aware self assessment tool helps researchers assess their knowledge of FAIR principles and improve data findability, accessibility, interoperability, and reusability. ",
             "provider":  ["FAIRsFAIR"]
@@ -1500,7 +1384,6 @@
             "search_tags": ["Knowledge videos about GDPR (in Swedish)","Kunskapsfilmer om GDPR", "Swedish Authority for Privacy Protection", "Integritetsskyddsmyndigheten", "IMY"],
             "phase": [],
             "topic": ["Research involving human data"],
-            "level": ["Basic"],
             "url": "https://www.imy.se/verksamhet/utbildning-och-stod/imy-play/",
             "description": "Swedish Authority for Privacy Protection (IMY) provides knowledge videos presenting a brief overview of the most important parts of the GDPR. The videos are primarily aimed at those who are new to the role of data protection officer and who need basic knowledge of GDPR in their role.\n \nThere are 11 videos in total: \n1. [GDPR:s syfte och tillämpningsområde](https://www.imy.se/verksamhet/utbildning-och-stod/imy-play/kunskapsfilmer-om-gdpr/1/) \n2. [Grundläggande begrepp i GDPR](https://www.imy.se/verksamhet/utbildning-och-stod/imy-play/kunskapsfilmer-om-gdpr/2/) \n3. [De grundläggande principerna i GDPR](https://www.imy.se/verksamhet/utbildning-och-stod/imy-play/kunskapsfilmer-om-gdpr/3/) \n4. [Den registrerades rättigheter enligt GDPR](https://www.imy.se/verksamhet/utbildning-och-stod/imy-play/kunskapsfilmer-om-gdpr/4/) \n5. [Rättsliga grunder i GDPR](https://www.imy.se/verksamhet/utbildning-och-stod/imy-play/kunskapsfilmer-om-gdpr/5/) \n6. [Känsliga och andra särskilt skyddsvärda personuppgifter i GDPR](https://www.imy.se/verksamhet/utbildning-och-stod/imy-play/kunskapsfilmer-om-gdpr/6/) \n7. [Personuppgiftsansvarig och personuppgiftsbiträde enligt GDPR](https://www.imy.se/verksamhet/utbildning-och-stod/imy-play/kunskapsfilmer-om-gdpr/7/) \n8. [Tredjelandsöverföring enligt GDPR](https://www.imy.se/verksamhet/utbildning-och-stod/imy-play/kunskapsfilmer-om-gdpr/8/) \n9. [Säkerhet i samband med behandling av personuppgifter](https://www.imy.se/verksamhet/utbildning-och-stod/imy-play/kunskapsfilmer-om-gdpr/9/) \n10. [Personuppgiftsincidenter](https://www.imy.se/verksamhet/utbildning-och-stod/imy-play/kunskapsfilmer-om-gdpr/10/) \n11. [GDPR:s krav på konsekvensbedömning](https://www.imy.se/verksamhet/utbildning-och-stod/imy-play/kunskapsfilmer-om-gdpr/11/)",
             "provider":  ["Swedish Authority for Privacy Protection (IMY)"]

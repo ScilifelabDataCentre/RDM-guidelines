@@ -184,7 +184,6 @@ Mandatory fields:
 * **provider** - list all providers and enclose with ", e.g. "KI, KTH, SU"
 
 Optional fields:
-* **level** -  one or more of "Basic", "Intermediate", or "Advanced" (currently not used since most resources are 'Basic')
 * **DOI** - e.g. "10.17044/scilifelab.23987985", if available
 * **DOIurl** - e.g. "https://doi.org/10.17044/scilifelab.23987985.v1", if available
 * **licence** - e.g. "GPL 3.0+", if available

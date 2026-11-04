@@ -5,7 +5,6 @@
 {{ .Content}}
 
 {{/* Compile list of the resources in Hugo */}}
-{{ $level := $.Site.Data.resources.levels }}
 {{ $phase := $.Site.Data.resources.phases }}
 {{ $topic := where .Site.RegularPages "Section" "topics" }}
 {{ $topic_titles := slice}}
@@ -48,9 +47,9 @@
 {{ $t_provider = $t_provider | uniq }}
 {{ $g_provider = $g_provider | uniq }}
 {{ $to_provider = $to_provider | uniq }}
-{{ $resources := dict "training" (dict "type" $t_type "level" $level "phase" $phase "rlist" $t_rlist "provider" $t_provider) 
-                      "guidance" (dict "type" $g_type "level" $level "phase" $phase "rlist" $g_rlist "provider" $g_provider)
-                      "tool" (dict "type" $to_type "level" $level "phase" $phase "rlist" $to_rlist "provider" $to_provider) }}
+{{ $resources := dict "training" (dict "type" $t_type "phase" $phase "rlist" $t_rlist "provider" $t_provider) 
+                      "guidance" (dict "type" $g_type "phase" $phase "rlist" $g_rlist "provider" $g_provider)
+                      "tool" (dict "type" $to_type "phase" $phase "rlist" $to_rlist "provider" $to_provider) }}
 
 <!-- Tab list -->
 <ul class="nav nav-tabs nav-justified resources-tab-list">
@@ -79,7 +78,6 @@
     {{ $category_type := index (index $resources $category) "type" }}
     {{ $category_provider := index (index $resources $category) "provider" }}
     {{ $category_phase := index (index $resources $category) "phase" }}
-    {{ $category_level := index (index $resources $category) "level" }}
     <div class="tab-pane fade {{ if eq $category "training" }}show active{{ end }}" 
         id="resources-{{ $category }}" role="tabpanel">
       <div class="row">
@@ -114,7 +112,6 @@
               <div class="col-md-4 col-lg-4 resource" 
                 data-type="{{ delimit (apply .type "urlize" ".") " " }}" 
                 data-phase="{{ delimit (apply .phase "urlize" ".") " " }}" 
-                data-level="{{ delimit (apply .level "urlize" ".") " " }}" 
                 data-provider="{{ delimit (apply .provider "urlize" ".") " " }}" 
                 {{ with .search_tags }}data-search-tags="{{ delimit . ":" | lower }}"{{ end }}>
                 <div class="pt-3 px-3 pb-0 rounded border border-3 h-100 resource-card-{{$category}} clickable-card"
@@ -226,9 +223,6 @@
   {{ if and (not (index .phase 0)) (not (index .topic 0)) }}
     {{ errorf "Resource %d (%s) is missing both phase and topic" $itemIndex .title }}
   {{ end }}  
-  {{ if not (index .level 0) }}
-    {{ errorf "Resource %d (%s) is missing a level" $itemIndex .title }}
-  {{ end }}  
   {{ if not (.url) }}
     {{ errorf "Resource %d (%s) is missing a url" $itemIndex .title }}
   {{ end }}  
@@ -272,11 +266,6 @@
       {{ errorf "Resource %d (%s) has a phase typo: %s" $itemIndex $item.title . }}
     {{ end }}
   {{ end }}
-  {{ range .level }}
-    {{ if not (in $level .) }}
-      {{ errorf "Resource %d (%s) has a level typo: %s" $itemIndex $item.title . }}
-    {{ end }}
-  {{ end }}
 {{ end }}
 
 <script>
@@ -293,9 +282,6 @@
 
     var selected_phase = $('input:checkbox[name="phase"]:checked').map(function () {return this.value}).get();
     if (selected_phase.length) { selected_filters['data-phase'] = selected_phase };
-
-    var selected_level = $('input:checkbox[name="level"]:checked').map(function () {return this.value}).get();
-    if (selected_level.length) { selected_filters['data-level'] = selected_level };
   
     var search_text = $("div.tab-pane.active input[type=text]").val().toLowerCase();
     if (search_text.length){ selected_filters['search-text'] = [search_text] };

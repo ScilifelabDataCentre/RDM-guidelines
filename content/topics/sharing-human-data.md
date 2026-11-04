@@ -66,33 +66,6 @@ The Observational Medical Outcomes Partnership Common Data Model (OMOP-CDM) is a
 <a class="link-teal" href="https://precision-medicine-portal.scilifelab.se/omop-cdm" target="_blank"><b>Learn more about OMOP-CMD at SciLifeLab Precision Medicine Portal<i class="bi bi-box-arrow-up-right"></i></b></a><br><br>
 <a class="link-teal" href="https://ohdsi.github.io/CommonDataModel/" target="_blank"><b>Access the OMOP Common Data Model and related tools <i class="bi bi-box-arrow-up-right"></i></b></a><br><br>
 
-## How can SciLifeLab help you sharing human data?
-
-If you are a researcher at a Swedish academic institution working in the life sciences, you can get support from the SciLifeLab Data Management team.
-
-
-### Submission support for FEGA Sweden
-
-The FEGA Sweden Helpdesk can help you submitting data to the repository. The helpdesk is part of the larger data management support team at SciLifeLab. Visit the <a href="https://fega.nbis.se" target="_blank">FEGA Sweden website</a> to learn more about how you can prepare a submission and how to get in contact with the FEGA Sweden Helpdesk.
-
-
-### Data access management support for Bianca
-
-If your data is located on the Bianca server at UPPMAX, we can help with handling data access requests.
-
-To let us handle access requests to your data, you need to take the following steps:
-
-1. Store the data in your own project on Bianca at UPPMAX.
-2. Adjust the Data Access Agreement and Data Access request forms (available from <datacentre@scilifelab.se>) to suit your particular case.
-3. Prepare a metadata record for the dataset in the SciLifeLab Data Repository. It is important to not upload the human data, but do provide as much descriptive metadata as possible to improve the findability. Set `datacentre@scilifelab.se` as "access request email" and your own email address as "contact email".
-4. In your manuscript add a section on Data Availability and make sure it includes information on where to go for requesting access to the data. You could for example write the following in your manuscript:
-> The data is deposited on a secure Swedish server and has been assigned a DOI (XXX). Data access requests may be submitted to the Science for Life Laboratory Data Centre through the DOI link.
-5. When a user applies for access to `datacentre@scilifelab.se`, the application will be vetted and you will be contacted by us. Then you can make a decision on access approved or denied. Ideally, you can (should) delegate this decision to an independent Data Access Committee (DAC).
-6. When a user has been approved for access, SciLifeLab Data Centre will document the processing and arrange for the physical file access. The physical file access will be that you, as a PI, copies the dataset from your Bianca project space, to the specified project space of the approved applicant. Because of NAISS user policy, only PIs at a Swedish academic institution can have a project at Bianca. So to share data with a collaborator outside Sweden, the PI in Sweden needs to have applied for a project at Bianca. Please see the <a href="https://docs.uppmax.uu.se/cluster_guides/bianca/" target="_blank">Bianca user guide</a> for information on how to do this.
-7. SciLifeLab Data Centre will keep track of current and expired approvals.
-
-If you need any help connected to data submission, please contact us by emailing [data-management@scilifelab.se](mailto:data-management@scilifelab.se).
-
 ## Resources
 Please find below resources concerning research involving human data in form of training, guidance and/or tools.
 

@@ -255,6 +255,11 @@ If you are a researcher at a Swedish academic institution operating in the life 
 
 If you need any help connected to data submission, please contact us by emailing [data-management@scilifelab.se](mailto:data-management@scilifelab.se).  
 
+## SciLifeLab affiliation guidelines
+
+Researchers affiliated with SciLifeLab are expected to affiliate correctly with SciLifeLab in all relevant contexts and in alignment with the affiliation regulations of their respective host university. Correct affiliation with SciLifeLab is essential for visibility, reporting, evaluation, and funding. 
+
+<a class="link-teal" href="https://www.scilifelab.se/community-pages/resources/#h-affiliation-guidelines"><b>Go to the SciLifeLab affiliation guidelines <i class="bi bi-box-arrow-up-right"></i></b></a><br><br>
 
 ## Resources
 Please find below resources concerning the research data life cycle phase share in form of training, guidance and/or tools.

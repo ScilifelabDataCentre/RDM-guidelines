@@ -44,11 +44,17 @@ Please find links below to our **Data type guide** for a selection of the metada
 
 <a class="btn btn-round btn-teal" href="/data-type-guide/?area=cellular-and-molecular-imaging&info=metadata"><b>Cellular and Molecular Imaging data <i class="bi bi-arrow-right-square"></i></b></a><br>
 
-<a class="btn btn-round btn-teal" href="/data-type-guide/?area=structural-biology&info=metadata"><b>Structural Biology data <i class="bi bi-arrow-right-square"></i></b></a><br>
+<a class="btn btn-round btn-teal" href="/data-type-guide/?area=structural-biology&info=metadata"><b>Structural Biology data <i class="bi bi-arrow-right-square"></i></b></a><br><br>
 
 Note that RDMkit provides a domain page with information about standard (meta)data formats for <a href="https://rdmkit.elixir-europe.org/bioimaging_data" target="_blank">Bioimagning data</a>. 
 
 &nbsp;
+
+## SciLifeLab affiliation guidelines
+
+Researchers affiliated with SciLifeLab are expected to affiliate correctly with SciLifeLab in all relevant contexts and in alignment with the affiliation regulations of their respective host university. Correct affiliation with SciLifeLab is essential for visibility, reporting, evaluation, and funding. 
+
+<a class="link-teal" href="https://www.scilifelab.se/community-pages/resources/#h-affiliation-guidelines"><b>Go to the SciLifeLab affiliation guidelines <i class="bi bi-box-arrow-up-right"></i></b></a><br><br>
 
 ## Resources
 Please find below resources concerning metadata in form of training, guidance and/or tools.

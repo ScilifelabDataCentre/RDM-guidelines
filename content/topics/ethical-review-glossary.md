@@ -1,13 +1,13 @@
 ---
 title: Ethical review glossary
 category: Human data
-tags: ["personal data", "sensitive data", "human data", "anonymization", "controller", "data erasure", "data retention", "data subject", "data processing agreement", "data protection officer", "genetic data", "information security", "lawful grounds", "legal basis", "data breach", "processor", "pseudonymisation", "public authority", "ethical approval", "ethical permit", "research principal", "Swedish ethical review act" ]
+tags: ["personal data", "sensitive data", "human data", "ethical approval", "ethical permit", "research principal", "Swedish ethical review act" ]
 toc: True
 ---
 
 # Ethical review glossary
 
-This is a glossary where you find definitions of key terms in the General Data Protection Regulation (GDPR) and the Swedish ethical review legislation.
+This is a glossary where you find definitions of key terms in the Swedish ethical review legislation.
 
 <div class="alert alert-warning" role="alert">
  Note that the term names and definitions represent our understanding of the legislation, and do not constitute legal advice in individual cases. Please consult the legal office of your university if you need assistance.

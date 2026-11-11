@@ -1,22 +1,20 @@
 ---
-title: GDPR and ethical review glossary
+title: GDPR glossary
 category: Human data
-tags: ["personal data", "sensitive data", "human data", "anonymization", "controller", "data erasure", "data retention", "data subject", "data processing agreement", "data protection officer", "genetic data", "information security", "lawful grounds", "legal basis", "data breach", "processor", "pseudonymisation", "public authority", "ethical approval", "ethical permit", "research principal", "Swedish ethical review act" ]
+tags: ["personal data", "sensitive data", "human data", "anonymization", "controller", "data erasure", "data retention", "data subject", "data processing agreement", "data protection officer", "genetic data", "information security", "lawful grounds", "legal basis", "data breach", "processor", "pseudonymisation", "public authority"]
 toc: True
 ---
 
-# GDPR and ethical review glossary
+# GDPR glossary
 
-This is a glossary where you find definitions of key terms in the General Data Protection Regulation (GDPR) and the Swedish ethical review legislation.
+This is a glossary where you find definitions of key terms in the General Data Protection Regulation (GDPR).
 
 <div class="alert alert-warning" role="alert">
  Note that the term names and definitions represent our understanding of the legislation, and do not constitute legal advice in individual cases. Please consult the legal office of your university if you need assistance.
 </div>
 
 
-## GDPR glossary
-
-### **anonymization**
+## **anonymization**
 
 *In Swedish:* anonymisering
 
@@ -24,7 +22,7 @@ Rendering personal data anonymous in such a manner that the data subject is not 
 
 -   <a href="https://www.gdprsummary.com/anonymization-and-gdpr/" target="_blank">gdprsummary.com/anonymization-and-gdpr/</a>
 
-### **compliance**
+## **compliance**
 
 *In Swedish:* regelefterlevnad
 
@@ -32,7 +30,7 @@ Compliance with GDPR means that an organization that falls within the scope of t
 
 -   <a href="https://www.gdpreu.org/gdpr-compliance/" target="_blank">gdpreu.org/gdpr-compliance/</a>
 
-### **controller**
+## **controller**
 
 *In Swedish:* personuppgiftsansvarig
 
@@ -40,7 +38,7 @@ The organization (for example a limited company, foundation, association or auth
 
 -   <a href="https://gdpr-info.eu/art-4-gdpr/" target="_blank">gdpr-info.eu/art-4-gdpr/</a> (7)
 
-### **data erasure / retention**
+## **data erasure / retention**
 
 *In Swedish:* gallring av data
 
@@ -48,7 +46,7 @@ Data retention rules in the GDPR require any personal data that is collected or 
 
 -   <a href="https://gdpr-info.eu/art-17-gdpr/" target="_blank">gdpr-info.eu/art-17-gdpr/</a>
 
-### **data subject**
+## **data subject**
 
 *In Swedish:* registrerad
 
@@ -56,7 +54,7 @@ Any person that can be identified using an identifier, either directly or indire
 
 -   <a href="https://gdpr-info.eu/art-4-gdpr/" target="_blank">gdpr-info.eu/art-4-gdpr/</a> (1)
 
-### **data processing agreement**
+## **data processing agreement**
 
 *In Swedish:* personuppgiftsbiträdesavtal (PuBA)
 
@@ -65,7 +63,7 @@ A data processing agreement (DPA) is a legally binding contract that states the 
 -   <a href="https://gdpr.eu/what-is-data-processing-agreement/" target="_blank">gdpr.eu/what-is-data-processing-agreement/</a>
 -   <a href="https://gdpr-info.eu/art-28-gdpr/" target="_blank">gdpr-info.eu/art-28-gdpr/</a> (3)
 
-### **data protection officer**
+## **data protection officer**
 
 *In Swedish:* personuppgiftsombud / dataskyddsombud
 
@@ -73,7 +71,7 @@ An organization that processes personal data is in certain cases required to des
 
 -   <a href="https://gdpr-info.eu/art-37-gdpr/" target="_blank">gdpr-info.eu/art-37-gdpr/</a>
 
-### **direct and indirect personal data**
+## **direct and indirect personal data**
 
 *In Swedish:* direkta och indirekta personuppgifter
 
@@ -81,7 +79,7 @@ Personally identifiable information (PII) refers to data that can be used to ide
 
 -   <a href="https://www.gdpreu.org/the-regulation/key-concepts/personal-data/" target="_blank">gdpreu.org/the-regulation/key-concepts/personal-data/</a>
 
-### **extract from the register**
+## **extract from the register**
 
 *In Swedish:* registerutdrag
 
@@ -89,7 +87,7 @@ The right of an individual to request an extract from a register from a municipa
 
 -   <a href="https://www.imy.se/privatperson/dataskydd/dina-rattigheter/ta-del-av-dina-personuppgifter/" target="_blank">imy.se/privatperson/dataskydd/dina-rattigheter/ta-del-av-dina-personuppgifter/</a>
 
-### **GDPR General Data Protection Regulation**
+## **GDPR General Data Protection Regulation**
 
 *In Swedish:* Dataskyddsförordningen
 
@@ -97,7 +95,7 @@ Regulation within the EU regarding processing of personal data. According to the
 
 -   <a href="https://gdpr.eu/" target="_blank">gdpr.eu/</a>
 
-### **genetic data**
+## **genetic data**
 
 *In Swedish:* genetiska uppgifter
 
@@ -106,7 +104,7 @@ Regulation within the EU regarding processing of personal data. According to the
 <a href="https://gdpr-info.eu/recitals/no-34/" target="_blank">Recital 34</a>: “Genetic data should be defined as personal data relating to the inherited or acquired genetic characteristics of a natural person which result from the analysis of a biological sample from the natural person in question, in particular chromosomal, deoxyribonucleic acid (DNA) or ribonucleic acid (RNA) analysis, or from the analysis of another element enabling equivalent information to be obtained.”
 
 
-### **information security**
+## **information security**
 
 *In Swedish:* informationssäkerhet
 
@@ -114,7 +112,7 @@ Personal data processing must be protected by technical and other measures, depe
 
 -   <a href="https://www.imy.se/en/organisations/data-protection/this-applies-accordning-to-gdpr/information-security/" target="_blank">imy.se/en/organisations/data-protection/this-applies-accordning-to-gdpr/information-security/</a>
 
-### **lawful grounds, legal basis**
+## **lawful grounds, legal basis**
 
 *In Swedish:* rättslig grund
 
@@ -141,7 +139,7 @@ Each instance of personal data processing needs to be based on only one of 6 law
 6.  **legitimate interests** (*In Swedish:* intresseavvägning; ibland "berättigat intresse")  
   The data controller may process personal data without the data subject's consent if the data controller's interests outweigh those of the data subject and if the processing is necessary for the purpose in question. Note that Swedish authorities are not allowed to use legitimate interests as a legal basis for processing of personal data in order to carry out their tasks. The reason for this exception is that Swedish authorities are only allowed to process personal data in accordance with Swedish law.
 
-### **personal data**
+## **personal data**
 
 *In Swedish:* personuppgift
 
@@ -150,7 +148,7 @@ Any information relating to an identified or identifiable person (a person who c
 -   <a href="https://gdpr.eu/eu-gdpr-personal-data/" target="_blank">gdpr.eu/eu-gdpr-personal-data/</a>
 -   <a href="https://gdpr-info.eu/art-4-gdpr/" target="_blank">gdpr-info.eu/art-4-gdpr/</a> (1)
 
-### **personal data breach**
+## **personal data breach**
 
 *In Swedish:* personuppgiftsincident
 
@@ -158,7 +156,7 @@ A breach of security leading to the accidental or unlawful destruction, loss, al
 
 -   <a href="https://gdpr-info.eu/art-4-gdpr/" target="_blank">gdpr-info.eu/art-4-gdpr/</a> (12)
 
-### **processing of personal data**
+## **processing of personal data**
 
 *In Swedish:* personuppgiftsbehandling
 
@@ -166,7 +164,7 @@ Anything done with personal data, e.g. collection, recording, storage, adaptatio
 
 -   <a href="https://gdpr-info.eu/art-4-gdpr/" target="_blank">gdpr-info.eu/art-4-gdpr/</a> (2)
 
-### **processor**
+## **processor**
 
 *In Swedish:* personuppgiftsbiträde
 
@@ -174,7 +172,7 @@ An entity that processes personal data on behalf of a data controller.
 
 -   <a href="https://gdpr-info.eu/art-4-gdpr/" target="_blank">gdpr-info.eu/art-4-gdpr/</a> (8)
 
-### **pseudonymisation**
+## **pseudonymisation**
 
 *In Swedish:* pseudonymisering av personuppgifter
 
@@ -182,7 +180,7 @@ The processing of personal data in such a manner that the personal data can no l
 
 -   <a href="https://gdpr-info.eu/art-4-gdpr/" target="_blank">gdpr-info.eu/art-4-gdpr/</a> (5)
 
-### **public authority**
+## **public authority**
 
 *In Swedish:* myndighet
 
@@ -190,13 +188,13 @@ Any authority which has a legal mandate to govern, administrate a part or aspect
 
 -   <a href="https://en.wiktionary.org/wiki/public_authority" target="_blank">en.wiktionary.org/wiki/public_authority</a>
 
-### **research subject information**
+## **research subject information**
 
 *In Swedish:* forskningspersonsinformation
 
 The information that is given to a research participant before he or she consents to participate in the research project.
 
-### **rights of data subjects**
+## **rights of data subjects**
 
 *In Swedish:* registrerades rättigheter
 
@@ -204,7 +202,7 @@ The GDPR provides data subjects with certain rights. In brief, data subjects mus
 
 -   <a href="https://gdpr-info.eu/chapter-3/" target="_blank">gdpr-info.eu/chapter-3/</a>
 
-### **security of processing**
+## **security of processing**
 
 *In Swedish:* säkerhet i samband med behandlingen
 
@@ -212,7 +210,7 @@ Taking into account the state of the art, the costs of implementation and the na
 
 -  <a href="https://gdpr-info.eu/art-32-gdpr/" target="_blank">gdpr-info.eu/art-32-gdpr/</a>
 
-### **sensitive personal data**
+## **sensitive personal data**
 
 *In Swedish:* känslig personuppgift
 
@@ -222,44 +220,10 @@ Racial or ethnic origin, political opinions, religious or philosophical beliefs,
 -   <a href="https://gdpr-info.eu/art-9-gdpr/" target="_blank">gdpr-info.eu/art-9-gdpr/</a>
 -   <a href="https://ec.europa.eu/info/law/law-topic/data-protection/reform/rules-business-and-organisations/legal-grounds-processing-data/sensitive-data/what-personal-data-considered-sensitive_en" target="_blank">ec.europa.eu/info/law/law-topic/data-protection/reform/rules-business-and-organisations/legal-grounds-processing-data/sensitive-data/what-personal-data-considered-sensitive_en</a>
 
-### **transfer of personal data to a third country**
+## **transfer of personal data to a third country**
 
 *In Swedish:* överföring av personuppgifter till tredje land
 
 Personal data is made available to someone outside the EU/EEA.
 
 -   <a href="https://www.imy.se/en/organisations/data-protection/this-applies-accordning-to-gdpr/transfer-of-data-to-a-third-country/" target="_blank">imy.se/en/organisations/data-protection/this-applies-accordning-to-gdpr/transfer-of-data-to-a-third-country/</a>
-
-## Ethical review glossary
-
-### **ethical approval**
-*In Swedish:* etikgodkännande
-
-If special category data, or sensitive personal data, is going to be processed in a research project in Sweden, an ethical approval from the Swedish Ethical Review Authority is required.
-
--   <a href="https://etikprovningsmyndigheten.se/en/initial-application/" target="_blank">etikprovningsmyndigheten.se/en/initial-application/</a>
-
-### **renewal of ethical permit**
-
-*In Swedish:* ansökan om ändring av etiktillstånd
-
-Renewal of an ethical permit has to be done if, e.g., data will be used for another purpose than stated in the original application.
-
--   <a href="https://etikprovningsmyndigheten.se/en/amendments/" target="_blank">etikprovningsmyndigheten.se/en/amendments/</a>
-
-### **research principal**
-
-*In Swedish:* forskningshuvudman
-
-A research principal is the government agency or a natural or legal person in whose organisation the research is conducted. 
-
--   <a href="https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2003460-om-etikprovning-av-forskning-som_sfs-2003-460/" target="_blank">riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2003460-om-etikprovning-av-forskning-som_sfs-2003-460/</a>
--   <a href="https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2019504-om-ansvar-for-god-forskningssed-och_sfs-2019-504/" target="_blank">riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2019504-om-ansvar-for-god-forskningssed-och_sfs-2019-504/</a>
-
-### **Swedish ethical review act**
-
-*In Swedish:* Etikprövningslagen; egentligen Lag (2003:460) om etikprövning av forskning som avser människor
-
-The Swedish act concerning the Ethical Review of Research Involving Humans (2003:460).
-
--   <a href="https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2003460-om-etikprovning-av-forskning-som_sfs-2003-460" target="_blank">riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2003460-om-etikprovning-av-forskning-som_sfs-2003-460</a>

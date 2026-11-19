@@ -64,7 +64,7 @@ Most often there are information resources at your university regarding research
       <td><a href="https://www.slu.se/en/library/manage-data/slus-data-management-policy/" target="_blank">Data management policy</a></td>
     </tr>
     <tr>
-      <td><a href="https://www.umu.se/en/library/research-data/" target="_blank">Umeå University</a></td>
+      <td><a href="https://www.umu.se/en/researcher/plan-and-implement/manage-research-data/" target="_blank">Umeå University</a></td>
       <td><a href="https://www.umu.se/en/researcher/plan-and-implement/manage-research-data/support-regarding-research-data/contact-the-research-data-support-team/" target="_blank">Contact page</a></td>
       <td><a href="https://www.umu.se/globalassets/fristaende-webbar/regelverk/forskning/forskningsdatapolicy_umu_rektor_210309_eng_checked_210309.pdf" target="_blank">Research data policy</a> (PDF),
        <br><a href="https://www.umu.se/globalassets/fristaende-webbar/regelverk/engelska/research/e28---open-access-policy-for-scientific-publishing-at-umea-university-fs-1.1-911-17.pdf" target="_blank">Open access policy</a> (PDF)

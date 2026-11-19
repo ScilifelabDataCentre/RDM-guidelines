@@ -414,9 +414,9 @@ curl -u username:password -F "SUBMISSION=@submission.xml" -F "EXPERIMENT=@Alecto
     <div class="card card-body">
       <span>
           <ul>
-              <li>ENA's documentation on <a href="https://ena-docs.readthedocs.io/en/latest/faq/umbrella.html" target="_blank">Create an Umbrella Study</a>.</li>
+              <li>ENA's documentation on <a href="https://ena-docs.readthedocs.io/en/latest/submit/study/umbrella.html#umbrella-studies" target="_blank">Create an Umbrella Study</a>.</li>
               <li>Create a <a href="/files/ena_tutorial/submission-umbrella.xml">submission-umbrella.xml</a>, with the ADD action and an <a href="/files/ena_tutorial/umbrella.xml">umbrella.xml</a> where the two studies (one for the raw reads and one for the assembly) are added as children.</li>
-              <li><b>Note:</b> Umbrella studies are automatically created with a release date two years ahead in time. A separate submission, with the action RELEASE, is done when it is time to make the umbrella public, see how in ENA's documentation <a href="https://ena-docs.readthedocs.io/en/latest/faq/umbrella.html#releasing-umbrella-studies" target="_blank">Releasing Umbrella Studies</a>.</li>
+              <li><b>Note:</b> Umbrella studies are automatically created with a release date two years ahead in time. A separate submission, with the action RELEASE, is done when it is time to make the umbrella public, see how in ENA's documentation <a href="https://ena-docs.readthedocs.io/en/latest/submit/study/umbrella.html#releasing-umbrella-studies" target="_blank">Releasing Umbrella Studies</a>.</li>
               <li>Register in a terminal window by typing:
 <div class="clipboard">
     <button class="clipboard-button copy-button" type="button">

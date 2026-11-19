@@ -150,8 +150,8 @@ The role of the [data protection officer](/topics/gdpr-ethical-review-glossary/#
     </tr>
     <tr>
       <td>Umeå University</td>
-      <td><a href = "mailto:pulo@umu.se">pulo@umu.se</a></td>
-      <td><a href="https://www.aurora.umu.se/stod-och-service/rad-och-riktlinjer/juridik-och-personuppgifter/personuppgifter" target="_blank">Personuppgifter</a></td>
+      <td><a href = "mailto:dataskydd@umu.se">dataskydd@umu.se</a></td>
+      <td><a href="https://www.umu.se/en/researcher/plan-and-implement/plan-a-project/process-personal-data-in-research/about-personal-data-in-research/" target="_blank">Personal data in research</a></td>
     </tr>
     <tr>
       <td>University of Gothenburg</td>

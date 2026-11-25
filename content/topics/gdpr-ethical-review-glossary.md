@@ -220,7 +220,6 @@ Racial or ethnic origin, political opinions, religious or philosophical beliefs,
 
 -   <a href="https://www.imy.se/en/organisations/data-protection/this-applies-accordning-to-gdpr/the-purposes-and-scope-of-gdpr/personal-data/sensitive-personal-data/" target="_blank">imy.se/en/organisations/data-protection/this-applies-accordning-to-gdpr/the-purposes-and-scope-of-gdpr/personal-data/sensitive-personal-data/</a>
 -   <a href="https://gdpr-info.eu/art-9-gdpr/" target="_blank">gdpr-info.eu/art-9-gdpr/</a>
--   <a href="https://ec.europa.eu/info/law/law-topic/data-protection/reform/rules-business-and-organisations/legal-grounds-processing-data/sensitive-data/what-personal-data-considered-sensitive_en" target="_blank">ec.europa.eu/info/law/law-topic/data-protection/reform/rules-business-and-organisations/legal-grounds-processing-data/sensitive-data/what-personal-data-considered-sensitive_en</a>
 
 ### **transfer of personal data to a third country**
 

@@ -12,7 +12,7 @@ Metadata is needed at several levels to describe the study, the samples, the exp
 Researchers are strongly encouraged to use community metadata standards where these are in place (see further down) and are recommended doing so already from the beginning of the project. Data repositories may also provide guidance about appropriate metadata standards and requirements e.g. the European Nucleotide Archive (ENA) have sample checklists. We provide templates for some of these checklists, see further on [Data type guide - ENA Sample Checklists](/data-type-guide/?resource=ena-checklists). Structuring the metadata in a way that conforms to the suitable repository from the beginning enables data submission without having to reformat the metadata.
 
 
-<a class="link-teal" href="https://www.ebi.ac.uk/ena/submit/checklists" target="_blank"><b>Browse ENA checklists <i class="bi bi-box-arrow-up-right"></i></b></a>
+<a class="link-teal" href="https://www.ebi.ac.uk/ena/browser/checklists" target="_blank"><b>Browse ENA checklists <i class="bi bi-box-arrow-up-right"></i></b></a>
 
 ## Ontologies
 

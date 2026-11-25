@@ -47,7 +47,7 @@ Openly sharing code and workflows not only fulfils key scientific and ethical pr
 
 How you share code and workflows depends on your goals; whether you seek transparency, collaboration, or community contributions. Keep in mind that your objectives may evolve over time, and every step towards FAIR practices adds value.  
 
-<a class="link-teal" href="https://github.com/ScilifelabDataCentre/open-science-checklists/blob/main/open_software_checklist.md" target="_blank"> <b>Consult the SciLifeLab Open Science Software Checklist for comprehensive guidance <i class="bi bi-box-arrow-up-right"></i></b></a>
+<a class="link-teal" href="https://github.com/ScilifelabDataCentre/open-science-checklists/blob/main/open_code_checklist/open_code_checklist.md" target="_blank"> <b>Consult the SciLifeLab Open Code Checklist for comprehensive guidance <i class="bi bi-box-arrow-up-right"></i></b></a>
 
 ### Where can code and workflows be shared?
 

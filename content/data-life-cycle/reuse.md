@@ -17,7 +17,7 @@ Apart from searching directly in repositories where life science data typically 
 
 * The Swedish Reference Genome Portal can be used to discover non-human eukaryotic genome assemblies and genome annotations (co-)produced by researchers affiliated with a Swedish institution.<br><br><a class="link-teal" href="https://genomes.scilifelab.se" target="_blank"><b>Go to the Swedish Reference Genome Portal <i class="bi bi-box-arrow-up-right"></i></b></a><br><br> 
 
-* Visit the Swedish Pathogens Portal in order to find publications about COVID-19/SARS-CoV-2 that involve at least one author affiliated with a Swedish research institution.<br><br><a class="link-teal" href="https://pathogens.se/datasets/all/" target="_blank"><b>Go to the Swedish Pathogens Portal list of available data <i class="bi bi-box-arrow-up-right"></i></b></a><br><br>
+* Visit the Swedish Pathogens Portal in order to find publications about COVID-19/SARS-CoV-2 that involve at least one author affiliated with a Swedish research institution.<br><br><a class="link-teal" href="https://www.pathogens.se/available-data/" target="_blank"><b>Go to the Swedish Pathogens Portal list of available data <i class="bi bi-box-arrow-up-right"></i></b></a><br><br>
 
 * Search in the Registry of Research Data Repositories (re3data) to find discipline-specific repositories for your field.<br><br><a class="link-teal" href="https://www.re3data.org" target="_blank"><b>Go to re3data <i class="bi bi-box-arrow-up-right"></i></b></a><br><br> 
 

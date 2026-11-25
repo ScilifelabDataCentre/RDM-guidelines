@@ -22,7 +22,7 @@ menu:
   </div>
 </div>
 <br><br>
-SciLifeLab is committed to the values of Open Science, <a href="https://www.ucl.ac.uk/research/strategy-and-policy/research-transparency" target="_blank">Transparent research</a> and FAIR principles (Findable, Accessible, Interoperable and Reusable). We work actively to ensure that the investments done by the society in research infrastructure resources can achieve the highest possible impact.
+SciLifeLab is committed to the values of Open Science, transparent research and FAIR principles (Findable, Accessible, Interoperable and Reusable). We work actively to ensure that the investments done by the society in research infrastructure resources can achieve the highest possible impact.
 
 <br><a class="link-teal" href="/topics/fair-principles"><b>Learn more about the FAIR principles <i class="bi bi-arrow-right-square"></i></b></a><br><br>
 <a class="link-teal" href="/topics/open-science" target="_blank"><b>Learn more about Open Science <i class="bi bi-arrow-right-square"></i></b></a>

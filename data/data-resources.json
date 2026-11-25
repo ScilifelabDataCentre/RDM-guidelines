@@ -372,7 +372,7 @@
       "related": ["pride","metabolights"],
       "description": "Standard result file format for reporting proteomics and metabolomics identification and quantification results.",
       "file_extension": ".mzTab",
-      "url": "https://www.psidev.info/mzTab",
+      "url": "https://www.psidev.info/mztab-specifications",
       "info_type": ["File format"],
       "keywords": ["PRIDE", "MetaboLights", "Proteomics", "Metabolomics", "Single-cell Proteomics", "Spatial Omics", ".mzTab"],
       "area": ["Proteomics", "Metabolomics and Exposomics"],

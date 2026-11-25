@@ -64,7 +64,7 @@ Most often there are information resources at your university regarding research
       <td><a href="https://www.slu.se/en/library/manage-data/slus-data-management-policy/" target="_blank">Data management policy</a></td>
     </tr>
     <tr>
-      <td><a href="https://www.umu.se/en/library/research-data/" target="_blank">Umeå University</a></td>
+      <td><a href="https://www.umu.se/en/researcher/plan-and-implement/manage-research-data/" target="_blank">Umeå University</a></td>
       <td><a href="https://www.umu.se/en/researcher/plan-and-implement/manage-research-data/support-regarding-research-data/contact-the-research-data-support-team/" target="_blank">Contact page</a></td>
       <td><a href="https://www.umu.se/globalassets/fristaende-webbar/regelverk/forskning/forskningsdatapolicy_umu_rektor_210309_eng_checked_210309.pdf" target="_blank">Research data policy</a> (PDF),
        <br><a href="https://www.umu.se/globalassets/fristaende-webbar/regelverk/engelska/research/e28---open-access-policy-for-scientific-publishing-at-umea-university-fs-1.1-911-17.pdf" target="_blank">Open access policy</a> (PDF)
@@ -150,8 +150,8 @@ The role of the [data protection officer](/topics/gdpr-glossary/#data-protection
     </tr>
     <tr>
       <td>Umeå University</td>
-      <td><a href = "mailto:pulo@umu.se">pulo@umu.se</a></td>
-      <td><a href="https://www.aurora.umu.se/stod-och-service/rad-och-riktlinjer/juridik-och-personuppgifter/personuppgifter" target="_blank">Personuppgifter</a></td>
+      <td><a href = "mailto:dataskydd@umu.se">dataskydd@umu.se</a></td>
+      <td><a href="https://www.umu.se/en/researcher/plan-and-implement/plan-a-project/process-personal-data-in-research/about-personal-data-in-research/" target="_blank">Personal data in research</a></td>
     </tr>
     <tr>
       <td>University of Gothenburg</td>
